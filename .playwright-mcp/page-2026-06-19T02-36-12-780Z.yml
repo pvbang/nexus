@@ -1,0 +1,320 @@
+- generic [active] [ref=e1]:
+  - dialog [ref=e2]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]: Microsoft and our third-party vendors use cookies and similar technologies to deliver, maintain, and improve our services and ads. If you agree, we will use this data for ads personalization and associated analytics.
+        - paragraph [ref=e10]:
+          - text: You can select ‘Accept’ to consent to these uses, ‘Reject’ to decline these uses or click on ‘More options’ to review your options. You can change your selection under ‘Manage Cookie Preferences’ at the bottom of this page.
+          - link "Privacy Statement" [ref=e11] [cursor=pointer]:
+            - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+      - generic [ref=e12]:
+        - link "Accept" [ref=e14] [cursor=pointer]:
+          - /url: "javascript: void(0)"
+        - link "Reject" [ref=e16] [cursor=pointer]:
+          - /url: "javascript: void(0)"
+      - link "More options" [ref=e18] [cursor=pointer]:
+        - /url: "javascript: void(0)"
+  - banner [ref=e19]:
+    - button "Skip to content" [ref=e20] [cursor=pointer]:
+      - generic [ref=e22]: Skip to content
+    - button "Accessibility Feedback" [ref=e23] [cursor=pointer]:
+      - generic [ref=e25]: Accessibility Feedback
+    - generic [ref=e26]:
+      - link "Back to Bing search" [ref=e27] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e28]
+      - search [ref=e29]:
+        - button "Search" [ref=e32] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e33]: ASME QW-432 F-Number ER308L ER310 QW-442 A-Number welding
+        - button "Search using an image" [ref=e39] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e41]:
+      - button "Microsoft Rewards" [ref=e42] [cursor=pointer]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: Rewards
+          - img [ref=e47]
+      - link "Sign in" [ref=e59] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e60]
+    - navigation "Search Filter" [ref=e61]:
+      - list [ref=e62]:
+        - listitem [ref=e63]:
+          - link "All" [ref=e64] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e65]:
+          - link "Search" [ref=e66] [cursor=pointer]:
+            - /url: /copilotsearch?q=ASME+QW-432+F-Number+ER308L+ER310+QW-442+A-Number+welding&FORM=CSSCOP
+            - img [ref=e67]
+            - text: Search
+        - listitem [ref=e69]:
+          - link "Videos" [ref=e70] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0284c76ddc0948c62c530ee1f1820dfd7f61e60c69bfc1497b4e287554dc5d0bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9zZWFyY2g_cT1BU01FK1FXLTQzMitGLU51bWJlcitFUjMwOEwrRVIzMTArUVctNDQyK0EtTnVtYmVyK3dlbGRpbmcmRk9STT1IRFJTQzQ&ntb=1
+        - listitem [ref=e71]:
+          - link "Images" [ref=e72] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e638c8bcc6939b60ee1b7cae7a1be246a72f5eeb51cf36234cec373c97c6723cJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2ltYWdlcy9zZWFyY2g_cT1BU01FK1FXLTQzMitGLU51bWJlcitFUjMwOEwrRVIzMTArUVctNDQyK0EtTnVtYmVyK3dlbGRpbmcmRk9STT1IRFJTQzM&ntb=1
+        - listitem [ref=e73]:
+          - link "Maps" [ref=e74] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=60db8095e016a3ed5d38420a4933d681289fc39b8fd1d4a93c56553d1b727a0cJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L21hcHM_cT1BU01FK1FXLTQzMitGLU51bWJlcitFUjMwOEwrRVIzMTArUVctNDQyK0EtTnVtYmVyK3dlbGRpbmcmRk9STT1IRFJTQzY&ntb=1
+        - listitem [ref=e75]:
+          - link "Copilot" [ref=e76] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=d0ec24d16fbfddae8ff74c95c48d4a2212d8e8c3210309052061bc9705dfe40fJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2NoYXQ_cHJvbXB0PUFTTUUrUVctNDMyK0YtTnVtYmVyK0VSMzA4TCtFUjMxMCtRVy00NDIrQS1OdW1iZXIrd2VsZGluZyZzZW5kcXVlcnk9MSZGT1JNPVNDQ09EWA&ntb=1
+        - listitem [ref=e77]:
+          - button "More" [ref=e78] [cursor=pointer]:
+            - img [ref=e80]
+            - text: More
+  - generic [ref=e82]:
+    - main "Search Results" [ref=e83]:
+      - generic [ref=e85]: About 5 results
+      - list [ref=e96]:
+        - listitem [ref=e97]:
+          - generic [ref=e101]:
+            - generic [ref=e103]:
+              - button "Like" [ref=e104]:
+                - img [ref=e105]
+              - button "Dislike" [ref=e107]:
+                - img [ref=e108]
+            - tooltip "AI disclaimer" [ref=e110]:
+              - img [ref=e111]
+        - listitem [ref=e135]:
+          - generic [ref=e136]:
+            - link "Explore this image" [ref=e139] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=9zMtNuqn&id=6C46BD30F5249B43264B8CE69C14F7186855CCE5&thid=OIP.9zMtNuqnJ2oCfkstoGw63wHaJ4&mediaurl=https://imgv2-1-f.scribdassets.com/img/document/369496614/original/e0a4a13c6d/1722324584?v=1&q=ASME+QW-432+F-Number+ER308L+ER310+QW-442+A-Number+welding&ck=88DC5CF616A2852A8BE685A19EA7BCAA&idpp=rc&expw=768&exph=1024&form=rc2idp
+            - generic [ref=e141]:
+              - link "Scribd" [ref=e143] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=0218519bd869b4d0a3b283ec5ac14cdcab9998c474f81eb208d96ea67342095cJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cuc2NyaWJkLmNvbS9kb2N1bWVudC8zNjk0OTY2MTQvUVctNDMyLUYtTnVtYmVyLXBkZg&ntb=1
+                - generic [ref=e148]:
+                  - generic [ref=e149]: Scribd
+                  - generic [ref=e152]: https://www.scribd.com › document
+              - heading "F-Number Chart for Welding Qualification" [level=2] [ref=e153]:
+                - link "F-Number Chart for Welding Qualification" [ref=e154] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=0218519bd869b4d0a3b283ec5ac14cdcab9998c474f81eb208d96ea67342095cJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cuc2NyaWJkLmNvbS9kb2N1bWVudC8zNjk0OTY2MTQvUVctNDMyLUYtTnVtYmVyLXBkZg&ntb=1
+              - paragraph [ref=e155]: Table QW-432 groups materials by F-number based on ASME specification, AWS classification, and UNS number for various steel, aluminum, and aluminum alloy …
+        - listitem [ref=e157]:
+          - link "clause5.io" [ref=e159] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9bbdfd68eeb90b99756320b3798de37b2b32e849ff56e2e1849d46a381a12960JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9jbGF1c2U1LmlvL3dlbGRpbmcvYXNtZS1peC1mLW51bWJlcnMv&ntb=1
+            - generic [ref=e164]:
+              - generic [ref=e165]: clause5.io
+              - generic [ref=e168]: https://clause5.io › welding › asme-ix-f-numbers
+          - heading "ASME IX F-Numbers - Filler Metal Grouping Guide" [level=2] [ref=e169]:
+            - link "ASME IX F-Numbers - Filler Metal Grouping Guide" [ref=e170] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=9bbdfd68eeb90b99756320b3798de37b2b32e849ff56e2e1849d46a381a12960JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9jbGF1c2U1LmlvL3dlbGRpbmcvYXNtZS1peC1mLW51bWJlcnMv&ntb=1
+          - paragraph [ref=e172]: F-numbers are the filler metal classification system in ASME Section IX that groups electrodes, wires, and rods by how they handle during welding — their usability characteristics. The system is listed in …
+        - listitem [ref=e173]:
+          - generic [ref=e175]:
+            - heading "Videos of ASME Qw 432 F Number Er308l Er310 Qw 442 A Number …" [level=2] [ref=e177]:
+              - link "Videos of ASME Qw 432 F Number Er308l Er310 Qw 442 A Number …" [ref=e178] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=0c9de624460c0632bfcc38c60c23e1064cce8f347b066b34c8005ac36b0a9d23JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9zZWFyY2g_cT1BU01FK1FXLTQzMitGLU51bWJlcitFUjMwOEwrRVIzMTArUVctNDQyK0EtTnVtYmVyK3dlbGRpbmcmcXB2dD1BU01FK1FXLTQzMitGLU51bWJlcitFUjMwOEwrRVIzMTArUVctNDQyK0EtTnVtYmVyK3dlbGRpbmcmRk9STT1WRFJF&ntb=1
+            - generic [ref=e180]:
+              - 'link "Understand P-No, F-No, A-No & Group No in welding | ASME Section IX made simple from YouTube · Duration: 3 minutes 26 seconds · 880 views · uploaded on 4 months ago · uploaded by Welding Fabrication World · Click to play. · P-Numbers, F-Numbers, Group Numbers and A-Numbers are the backbone of ASME Section IX. In this video, we break down how these classifications simplify welding procedure qualification, reduce repeated testing, and ensure code compliance across similar materials. Whether you’re a welder, welding engineer, inspector, or QA professional ..." [ref=e183] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=9f55445c9387e339e93215b5d926cbb1edeffde6968e71146d0fd926228c1d04JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9QVNNRStRVy00MzIrRi1OdW1iZXIrRVIzMDhMK0VSMzEwK1FXLTQ0MitBLU51bWJlcit3ZWxkaW5nJm1pZD02RjBGNzg5MzE3NEFFMkVEMURFRDZGMEY3ODkzMTc0QUUyRUQxREVEJmNodXJsPWh0dHBzJTNhJTJmJTJmd3d3LnlvdXR1YmUuY29tJTJmY2hhbm5lbCUyZlVDejcxeU5rQjJFeVQtMmRSUEZFVE14QSZGT1JNPVZJUkU&ntb=1
+                - generic [ref=e184]:
+                  - generic [ref=e185]:
+                    - img "Understand P-No, F-No, A-No & Group No in welding | ASME Section IX made simple" [ref=e187]
+                    - generic [ref=e193]: 3:26
+                  - generic [ref=e194]:
+                    - generic "Understand P-No, F-No, A-No & Group No in welding | ASME Section IX made simple" [ref=e195]:
+                      - text: Understand P-No,
+                      - strong [ref=e196]: F
+                      - text: "-No,"
+                      - strong [ref=e197]: A
+                      - text: "-No & Group No in"
+                      - strong [ref=e198]: welding
+                      - text: "|"
+                      - strong [ref=e199]: ASME
+                      - text: Section IX made simple
+                    - generic [ref=e200]:
+                      - generic [ref=e201]:
+                        - img "Video source site" [ref=e202]
+                        - text: YouTube · Welding Fabrication World
+                      - generic [ref=e203]: 880 views · 4 months ago
+              - 'link "ASME Section IX Explained: P Number vs F Number (Welders Must Know) from YouTube · Duration: 8 minutes 55 seconds · 1 views · uploaded on 4 weeks ago · uploaded by AABS Training · Click to play. · If you’ve ever worked in welding, fabrication, or QA/QC inspection, you’ve likely faced one of the most common ASME Section IX confusions — P Numbers vs F Numbers. In this video, we break down this critical topic in a simple, practical way so you can avoid costly mistakes on the shop floor and improve your understanding of welding ..." [ref=e206] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=251e2ebb1e96889ef68a9ff367525666ae85c7a70f5216c343aa1125fd2da455JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9QVNNRStRVy00MzIrRi1OdW1iZXIrRVIzMDhMK0VSMzEwK1FXLTQ0MitBLU51bWJlcit3ZWxkaW5nJm1pZD0yOENEMzMwRjVDNzI4RjMwQkJDRTI4Q0QzMzBGNUM3MjhGMzBCQkNFJmNodXJsPWh0dHBzJTNhJTJmJTJmd3d3LnlvdXR1YmUuY29tJTJmY2hhbm5lbCUyZlVDYTVDdy12NnJZVEc2MHhfSWYybUg4QSZGT1JNPVZJUkU&ntb=1
+                - generic [ref=e207]:
+                  - generic [ref=e208]:
+                    - 'img "ASME Section IX Explained: P Number vs F Number (Welders Must Know)" [ref=e210]'
+                    - generic [ref=e216]: 8:55
+                  - generic [ref=e217]:
+                    - 'generic "ASME Section IX Explained: P Number vs F Number (Welders Must Know)" [ref=e218]':
+                      - strong [ref=e219]: ASME
+                      - text: "Section IX Explained: P"
+                      - strong [ref=e220]: Number
+                      - text: vs
+                      - strong [ref=e221]: F
+                      - strong [ref=e222]: Number
+                      - text: (Welders Must Know)
+                    - generic [ref=e223]:
+                      - generic [ref=e224]:
+                        - img "Video source site" [ref=e225]
+                        - text: YouTube · AABS Training
+                      - generic [ref=e226]: 1 views · 4 weeks ago
+              - 'link "ASME IX Explained | أسرار الجداول QW-253 / 422 / 432 / 442 محدش بيشرحها كده from YouTube · Duration: 37 minutes 9 seconds · 824 views · uploaded on 7 months ago · uploaded by MOUSSA Tips · Click to play. · 🎬 لو اشتغلت في اللحام أو الـ QA/QC ولسه مش فاهم يعني إيه P-No و F-No و A-No فالفيديو ده معمول مخصوص ليك 🔥 في الفيديو ده هتفهم كل حاجة عن تصنيف المواد والمعادن في كود ASME Section IX، وإزاي الجداول QW-253 و QW-422 و ..." [ref=e229] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=112fca2befa05c43319a38184430b225b4e1610e66ada18010b68539fb8de30fJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9QVNNRStRVy00MzIrRi1OdW1iZXIrRVIzMDhMK0VSMzEwK1FXLTQ0MitBLU51bWJlcit3ZWxkaW5nJm1pZD04RkIyREUwQTBDQzAxODE1OEM2RjhGQjJERTBBMENDMDE4MTU4QzZGJmNodXJsPWh0dHBzJTNhJTJmJTJmd3d3LnlvdXR1YmUuY29tJTJmY2hhbm5lbCUyZlVDckhsakxXMElkX0FUVlNCWTM1SlFnUSZGT1JNPVZJUkU&ntb=1
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - img "ASME IX Explained | أسرار الجداول QW-253 / 422 / 432 / 442 محدش بيشرحها كده" [ref=e233]
+                    - generic [ref=e239]: 37:09
+                  - generic [ref=e240]:
+                    - generic "ASME IX Explained | أسرار الجداول QW-253 / 422 / 432 / 442 محدش بيشرحها كده" [ref=e241]:
+                      - strong [ref=e242]: ASME
+                      - text: IX Explained | أسرار الجداول
+                      - strong [ref=e243]: QW
+                      - text: "-253 / 422 /"
+                      - strong [ref=e244]: "432"
+                      - text: /
+                      - strong [ref=e245]: "442"
+                      - text: محدش بيشرحها كده
+                    - generic [ref=e246]:
+                      - generic [ref=e247]:
+                        - img "Video source site" [ref=e248]
+                        - text: YouTube · MOUSSA Tips
+                      - generic [ref=e249]: 824 views · 7 months ago
+        - listitem [ref=e250]:
+          - generic [ref=e251]:
+            - link "Explore this image" [ref=e254] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=NRujXmJX&id=B14A8DB50807D4CBA0C25681BAF77021013FD4DB&thid=OIP.NRujXmJXFNEM1nLhATXm0QAAAA&mediaurl=https://s2.studylib.net/store/data/026267513_1-2c4ea06cc2b8671a7186b763ca8b72da-300x300.png&q=ASME+QW-432+F-Number+ER308L+ER310+QW-442+A-Number+welding&ck=0F70EA2DC88A301DC5F58144548EDB3A&idpp=rc&expw=231&exph=300&form=rc2idp
+            - generic [ref=e256]:
+              - link "studylib.net" [ref=e258] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=0fa5441e15c384bb9958dec849178d32ae2ff1b876aee6546a877d2bfc4faa09JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9zdHVkeWxpYi5uZXQvZG9jLzI3ODUzOTgyL2YtbnVtYmVyLXJlZmVyZW5jZS1jaGFydA&ntb=1
+                - generic [ref=e263]:
+                  - generic [ref=e264]: studylib.net
+                  - generic [ref=e267]: https://studylib.net › doc › f-number-reference-chart
+              - 'heading "F-Number Chart: Welding Filler Metals & Welder …" [level=2] [ref=e268]':
+                - 'link "F-Number Chart: Welding Filler Metals & Welder …" [ref=e269] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=0fa5441e15c384bb9958dec849178d32ae2ff1b876aee6546a877d2bfc4faa09JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9zdHVkeWxpYi5uZXQvZG9jLzI3ODUzOTgyL2YtbnVtYmVyLXJlZmVyZW5jZS1jaGFydA&ntb=1
+              - paragraph [ref=e270]: Comprehensive F-Number chart for welding filler metals, SFA specifications, and welder qualification ranges per ASME Section IX. Essential for QA/QC.
+        - listitem [ref=e272]:
+          - generic [ref=e273]:
+            - link "Explore this image" [ref=e276] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=AS7dUlFr&id=734E157525B8D2EA32D1AD6098CBAFA28F6EC4FB&thid=OIP.AS7dUlFramwEYAh-0FFkvwHaEC&mediaurl=https://www.weldfabworld.com/wp-content/uploads/2021/02/image-5.png&q=ASME+QW-432+F-Number+ER308L+ER310+QW-442+A-Number+welding&ck=7981913676B330BD2298ED00BFC84E09&idpp=rc&expw=701&exph=382&form=rc2idp
+            - generic [ref=e278]:
+              - link "weldfabworld.com" [ref=e280] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=0cb8e5097c1cf0a57d53cc3dd0a97f376d5f73849bbd54c81ff9f02bdc488669JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cud2VsZGZhYndvcmxkLmNvbS9wLWdyb3VwLWYtYS1udW1iZXIv&ntb=1
+                - generic [ref=e285]:
+                  - generic [ref=e286]: weldfabworld.com
+                  - generic [ref=e289]: https://www.weldfabworld.com › p-group-f-a-number
+              - heading "P-Number, Group No, F-Number and A-Number in …" [level=2] [ref=e290]:
+                - link "P-Number, Group No, F-Number and A-Number in …" [ref=e291] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=0cb8e5097c1cf0a57d53cc3dd0a97f376d5f73849bbd54c81ff9f02bdc488669JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cud2VsZGZhYndvcmxkLmNvbS9wLWdyb3VwLWYtYS1udW1iZXIv&ntb=1
+              - paragraph [ref=e292]: Feb 23, 2021 · Master P-Number, Group Number, F-Number, and A-Number classifications in ASME Section IX welding. Learn how these groupings reduce …
+        - listitem [ref=e294]:
+          - generic [ref=e295]:
+            - link "Explore this image" [ref=e298] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=CzoKutV5&id=823D377B70B867071298997BF67BADC1409F0809&thid=OIP.CzoKutV57zaBZe7jr58wkAHaFc&mediaurl=https://images.squarespace-cdn.com/content/v1/63c04c0270ce4740d12702a9/4f9e1644-9cf5-4b76-82ed-27db7ea53f4d/Range+of+F-Numbers+for+WPQ+per+QW-433.png&q=ASME+QW-432+F-Number+ER308L+ER310+QW-442+A-Number+welding&ck=AC553E91744E71D202D9CEA43CB443E3&idpp=rc&expw=2272&exph=1672&form=rc2idp
+            - generic [ref=e300]:
+              - link "qualityinspectionforms.com" [ref=e302] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=c98e11c2c4a5f37d2b8b138f2db3b06d78ce02dcb3c670d4a76aadf407589d89JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9xdWFsaXR5aW5zcGVjdGlvbmZvcm1zLmNvbS9maWxsZXItbWV0YWwvYXNtZS1mLW51bWJlcnM&ntb=1
+                - generic [ref=e307]:
+                  - generic [ref=e308]: qualityinspectionforms.com
+                  - generic [ref=e311]: https://qualityinspectionforms.com › ... › asme-f-numbers
+              - heading "ASME F-Numbers - QUALITY INSPECTION FORMS" [level=2] [ref=e312]:
+                - link "ASME F-Numbers - QUALITY INSPECTION FORMS" [ref=e313] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=c98e11c2c4a5f37d2b8b138f2db3b06d78ce02dcb3c670d4a76aadf407589d89JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9xdWFsaXR5aW5zcGVjdGlvbmZvcm1zLmNvbS9maWxsZXItbWV0YWwvYXNtZS1mLW51bWJlcnM&ntb=1
+              - paragraph [ref=e314]: Jun 28, 2023 · The following is the filler metal section from the ASME welding procedure (WPS) detailing how the Specification, Classification, F-Number, A …
+        - listitem [ref=e316]:
+          - generic [ref=e317]:
+            - link "Explore this image" [ref=e320] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=WmdjUJ8O&id=A3288B4BFEBC12BC0644EB263162DEDAB9D788D3&thid=OIP.WmdjUJ8OxAlVjz31tvQ0LwHaD5&mediaurl=https://info.thinkcei.com/hubfs/Blog Images/Group Numbers/Weld-1.jpg&q=ASME+QW-432+F-Number+ER308L+ER310+QW-442+A-Number+welding&ck=ACA8570F33D5E6485099C73CE95FFF03&idpp=rc&expw=1920&exph=1010&form=rc2idp
+            - generic [ref=e322]:
+              - link "thinkcei.com" [ref=e324] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=0cdbf0321f4b956cc4f87757f6f1d3424247588a39fa8472c0bbc648af79c370JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9pbmZvLnRoaW5rY2VpLmNvbS90aGluay10YW5rL2FzbWUtd2VsZC1udW1iZXItdGFibGVzLXAtbnVtYmVyLWYtbnVtYmVy&ntb=1
+                - generic [ref=e329]:
+                  - generic [ref=e330]: thinkcei.com
+                  - generic [ref=e333]: https://info.thinkcei.com › think-tank › asme-weld...
+              - heading "ASME Weld Number Tables – P number base & F …" [level=2] [ref=e334]:
+                - link "ASME Weld Number Tables – P number base & F …" [ref=e335] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=0cdbf0321f4b956cc4f87757f6f1d3424247588a39fa8472c0bbc648af79c370JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9pbmZvLnRoaW5rY2VpLmNvbS90aGluay10YW5rL2FzbWUtd2VsZC1udW1iZXItdGFibGVzLXAtbnVtYmVyLWYtbnVtYmVy&ntb=1
+              - paragraph [ref=e336]: Get help with ASME Weld Number Tables for both P Number and F Filler base metals, filler metals, and their positioning.
+        - listitem [ref=e338]:
+          - generic [ref=e340]:
+            - heading "People also ask" [level=2] [ref=e341]:
+              - generic [ref=e342]: People also ask
+            - list [ref=e345]:
+              - listitem [ref=e346]:
+                - heading "What is a number in ASME qw-442?" [level=3] [ref=e347]:
+                  - button "What is a number in ASME qw-442?" [ref=e348] [cursor=pointer]:
+                    - generic [ref=e349]: What is a number in ASME qw-442?
+                    - generic:
+                      - img
+              - listitem [ref=e350]:
+                - heading "What does f number mean in welding?" [level=3] [ref=e351]:
+                  - button "What does f number mean in welding?" [ref=e352] [cursor=pointer]:
+                    - generic [ref=e353]: What does f number mean in welding?
+                    - generic:
+                      - img
+              - listitem [ref=e354]:
+                - heading "What are f-numbers in welding?" [level=3] [ref=e355]:
+                  - button "What are f-numbers in welding?" [ref=e356] [cursor=pointer]:
+                    - generic [ref=e357]: What are f-numbers in welding?
+                    - generic:
+                      - img
+              - listitem [ref=e358]:
+                - heading "What is an alternative f number for welding performance qualification?" [level=3] [ref=e359]:
+                  - button "What is an alternative f number for welding performance qualification?" [ref=e360] [cursor=pointer]:
+                    - generic [ref=e361]: What is an alternative f number for welding performance qualification?
+                    - generic:
+                      - img
+        - listitem [ref=e363]:
+          - generic [ref=e364]:
+            - link "Explore this image" [ref=e367] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=Rc9z2pl8&id=80BC1CA7DA2063FD415998368030DF723BB02E07&thid=OIP.Rc9z2pl8pf4ybe3F02khhwHaEC&mediaurl=https://epcland.com/wp-content/uploads/2026/02/hero-p-f-a-numbers-welding.jpg&q=ASME+QW-432+F-Number+ER308L+ER310+QW-442+A-Number+welding&ck=9EDCF2C1A6E515B16409ED75E14DCB57&idpp=rc&expw=1200&exph=654&form=rc2idp
+            - generic [ref=e369]:
+              - link "EPCLand" [ref=e371] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=aab2d60c2c5684a332d15cd4047604cce6fb63affc210b861b49a1517164d879JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9lcGNsYW5kLmNvbS9wLW51bWJlci1mLW51bWJlci1hLW51bWJlci13ZWxkaW5nLWd1aWRlLw&ntb=1
+                - generic [ref=e376]:
+                  - generic [ref=e377]: EPCLand
+                  - generic [ref=e380]: https://epcland.com › p-number-f-number-a-number...
+              - 'heading "P-Number, F-Number, and A-Number in Welding: …" [level=2] [ref=e381]':
+                - 'link "P-Number, F-Number, and A-Number in Welding: …" [ref=e382] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=aab2d60c2c5684a332d15cd4047604cce6fb63affc210b861b49a1517164d879JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9lcGNsYW5kLmNvbS9wLW51bWJlci1mLW51bWJlci1hLW51bWJlci13ZWxkaW5nLWd1aWRlLw&ntb=1
+              - paragraph [ref=e383]: Master the essentials of P-Number, F-Number, and A-Number in Welding. Learn how ASME Section IX classifies materials to reduce qualification costs.
+        - listitem [ref=e385]:
+          - generic [ref=e386]:
+            - link "Explore this image" [ref=e389] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=NSVifa85&id=437EBEC1ABFD1C4E9B8C314E83CCF8BFF669B208&thid=OIP.NSVifa85H_2a9JacoNHiwQHaJl&mediaurl=https://s2.studylib.net/store/data/027186747_1-19a83dd4217489b3bd380e3e9deaa689-768x994.png&q=ASME+QW-432+F-Number+ER308L+ER310+QW-442+A-Number+welding&ck=5894B683D7513C1BFAB0B86CE74A7558&idpp=rc&expw=768&exph=994&form=rc2idp
+            - generic [ref=e391]:
+              - link "studylib.net" [ref=e393] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=53745d272372f5b1df85fa720886ad5bb0f5199e314a492778dbde2d6034128dJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9zdHVkeWxpYi5uZXQvZG9jLzI3MTg2NzQ3L2FzbWUtd2VsZC1udW1iZXItdGFibGVzLS0tcC0tLWYtLWEtLQ&ntb=1
+                - generic [ref=e398]:
+                  - generic [ref=e399]: studylib.net
+                  - generic [ref=e402]: https://studylib.net › doc › asme-weld-number...
+              - 'heading "ASME Weld Number Tables: P & F Numbers Guide" [level=2] [ref=e403]':
+                - 'link "ASME Weld Number Tables: P & F Numbers Guide" [ref=e404] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=53745d272372f5b1df85fa720886ad5bb0f5199e314a492778dbde2d6034128dJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9zdHVkeWxpYi5uZXQvZG9jLzI3MTg2NzQ3L2FzbWUtd2VsZC1udW1iZXItdGFibGVzLS0tcC0tLWYtLWEtLQ&ntb=1
+              - paragraph [ref=e405]: Comprehensive guide to ASME weld number tables, including P numbers for base metals and F numbers for filler metals. Essential for welding professionals.
+        - listitem [ref=e407]:
+          - link "Scribd" [ref=e409] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=411d62d54dfc7502ce75fa138e855793e347a60f2ff7b390efdd5704a584d2e2JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cuc2NyaWJkLmNvbS9kb2N1bWVudC84NjYzNzk0MDcvRi1hbmQtQS1OdW1iZXJzLUFTTUUtU2VjdGlvbi1JWC1XZWxkaW5nLTI&ntb=1
+            - generic [ref=e414]:
+              - generic [ref=e415]: Scribd
+              - generic [ref=e418]: https://www.scribd.com › document
+          - heading "F-Numbers for Welding Qualification | PDF | Construction | Welding" [level=2] [ref=e419]:
+            - link "F-Numbers for Welding Qualification | PDF | Construction | Welding":
+              - /url: https://www.bing.com/ck/a?!&&p=411d62d54dfc7502ce75fa138e855793e347a60f2ff7b390efdd5704a584d2e2JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cuc2NyaWJkLmNvbS9kb2N1bWVudC84NjYzNzk0MDcvRi1hbmQtQS1OdW1iZXJzLUFTTUUtU2VjdGlvbi1JWC1XZWxkaW5nLTI&ntb=1
+          - paragraph [ref=e421]: The document outlines the F-Number grouping of electrodes and welding rods for qualification, categorized by usability characteristics to streamline welding procedure qualifications.
+        - listitem [ref=e422]:
+          - generic [ref=e423]:
+            - link "Explore this image" [ref=e426] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=vsg/OzKX&id=E9CE2ED727053B61989076ABC1CF2A5AD695D967&thid=OIP.vsg_OzKXRXY_ClRGmDbZuAHaD8&mediaurl=https://www.materialwelding.com/wp-content/uploads/2022/02/A-number-in-welding-1-1.png&q=ASME+QW-432+F-Number+ER308L+ER310+QW-442+A-Number+welding&ck=140122AB5C8C04C739F3F36412AACE75&idpp=rc&expw=806&exph=429&form=rc2idp
+            - generic [ref=e428]:
+              - link "Material Welding" [ref=e430] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=d7ad6beab63ebb83ff21f99e9978300ac263cdca1ba79a1258a0bd06a53b778fJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9tYXRlcmlhbHdlbGRpbmcuY29tL3doYXQtaXMtYS1udW1iZXItaW4td2VsZGluZy1hc21lLw&ntb=1
+                - generic [ref=e435]:
+                  - generic [ref=e436]: Material Welding
+                  - generic [ref=e439]: https://materialwelding.com › what-is-a-number-in...
+              - heading "P-Number, F-Number & A-Number in Welding" [level=2] [ref=e440]:
+                - link "P-Number, F-Number & A-Number in Welding" [ref=e441] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=d7ad6beab63ebb83ff21f99e9978300ac263cdca1ba79a1258a0bd06a53b778fJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9tYXRlcmlhbHdlbGRpbmcuY29tL3doYXQtaXMtYS1udW1iZXItaW4td2VsZGluZy1hc21lLw&ntb=1
+              - paragraph [ref=e442]: Jun 27, 2023 · While the F-numbers are relevant for welding consumables (Welding consumables including an electrode, solid wire, cored wires, etc.) grouping …
+        - listitem [ref=e444]:
+          - link "Some results have been removed" [ref=e446] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6a2eeb21b394098b43050e176afdd54e61b4c0836f959b37fe99e70d3b2b6767JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+    - complementary "Additional Results" [ref=e447]:
+      - list
+  - contentinfo [ref=e448]:
+    - generic [ref=e449]:
+      - list:
+        - listitem [ref=e450]:
+          - link "Privacy" [ref=e451] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7b44db685677b97b59d99ac58a6dcb7b55ed8b4aacd5ffe64e4ae4c0aa82d70bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e452]:
+          - link "Terms" [ref=e453] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0c98928a6597273e4a5057fc09082f8c5ed11f1634b17ea06829b02b1e9d7505JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

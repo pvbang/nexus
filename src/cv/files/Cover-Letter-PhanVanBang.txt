@@ -1,0 +1,28 @@
+Phan Van Bang
+Website: pvbang.github.io/cv
+Email: phanvanbang.id@gmail.com
+Phone: +84 96 419 6652
+GitHub: github.com/pvbang
+LinkedIn: linkedin.com/in/pvbang
+
+
+Dear Hiring Team,
+
+In the past two years, I have shipped 56 production AI projects across 8 business domains, turning ambiguous problems into systems that serve thousands of users daily. I am an AI Engineer who thrives at the intersection of research and production, and I am excited to bring that energy to your team.
+
+At MekongAI, I architect and deliver end-to-end AI solutions that create measurable business impact. Key results include:
+
+- Built a Multi-Agent Orchestration System with 94+ MCP tools, handling 500+ daily conversations at an 85%+ autonomous resolution rate, dramatically reducing human workload.
+- Designed a RAG pipeline achieving 92% answer accuracy over 10,000+ documents, with a GraphRAG memory layer that improved retrieval accuracy by 35%.
+- Developed a Voice AI system with sub-500ms response latency and full-duplex conversation, deployed across multi-channel infrastructure supporting 1,000+ concurrent connections.
+- Fine-tuned Llama 3.1 (8B and 70B) models for production use cases using LoRA and QLoRA.
+- Created 20+ ComfyUI workflows processing 5,000+ images per month, and reduced content creation time by 80% for 3 English language centers.
+
+What sets me apart is breadth combined with depth. I operate across the full AI stack, from fine-tuning foundation models and building agentic systems to deploying scalable infrastructure on AWS with Docker. I have delivered in Legal, Education, Recruitment, POS, Healthcare, Crypto, Social Media, and Content Generation, which means I ramp up fast in any domain. I treat every project with an ownership mindset: I do not just build features, I solve problems from concept through deployment and monitoring.
+
+My technical toolkit spans Python, TypeScript, LLM fine-tuning, RAG architectures, multi-agent frameworks, Voice AI, Computer Vision, and IoT, always chosen to fit the problem rather than the other way around.
+
+I am genuinely passionate about pushing the boundaries of what AI systems can do in production, and I would welcome the opportunity to discuss how my experience aligns with your team's goals. I am available for a conversation at your convenience.
+
+Sincerely,
+Phan Van Bang

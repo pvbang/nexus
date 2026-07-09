@@ -1,0 +1,364 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - dialog:
+      - generic [ref=e2]:
+        - generic [ref=e3]:
+          - paragraph
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - generic [ref=e7]: Microsoft and our third-party vendors use cookies and similar technologies to deliver, maintain, and improve our services and ads. If you agree, we will use this data for ads personalization and associated analytics.
+            - generic [ref=e8]:
+              - text: You can select ‘Accept’ to consent to these uses, ‘Reject’ to decline these uses or click on ‘More options’ to review your options. You can change your selection under ‘Manage Cookie Preferences’ at the bottom of this page.
+              - link "Privacy Statement" [ref=e9] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+          - generic [ref=e10]:
+            - link "Accept" [ref=e12] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+            - link "Reject" [ref=e14] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+            - link "More options" [ref=e15] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+  - banner [ref=e16]:
+    - button "Skip to content" [ref=e17] [cursor=pointer]:
+      - generic [ref=e19]: Skip to content
+    - button "Accessibility Feedback" [ref=e20] [cursor=pointer]:
+      - generic [ref=e22]: Accessibility Feedback
+    - generic [ref=e23]:
+      - link "Back to Bing search" [ref=e24] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e25]
+      - search [ref=e26]:
+        - button "Search" [ref=e29] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e30]: QCVN 01:2008/BLĐTBXH là gì nồi hơi bình chịu áp lực 0,7 bar
+        - button "Search using an image" [ref=e36] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e38]:
+      - button "Microsoft Rewards" [ref=e39] [cursor=pointer]:
+        - generic [ref=e41]:
+          - generic [ref=e42]: Rewards
+          - img [ref=e44]
+      - link "Sign in" [ref=e56] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e57]
+    - navigation "Search Filter" [ref=e58]:
+      - list [ref=e59]:
+        - listitem [ref=e60]:
+          - link "All" [ref=e61] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e62]:
+          - link "Search" [ref=e63] [cursor=pointer]:
+            - /url: /copilotsearch?q=QCVN+01%3a2008%2fBL%c4%90TBXH+l%c3%a0+g%c3%ac+n%e1%bb%93i+h%c6%a1i+b%c3%acnh+ch%e1%bb%8bu+%c3%a1p+l%e1%bb%b1c+0%2c7+bar&FORM=CSSCOP
+            - img [ref=e64]
+            - text: Search
+        - listitem [ref=e66]:
+          - link "Videos" [ref=e67] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=755c510ea4071ed823a2e93c80a4d374c1967bed5aa444aca497b6591c41ddeeJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9zZWFyY2g_cT1RQ1ZOKzAxJTNhMjAwOCUyZkJMJWM0JTkwVEJYSCtsJWMzJWEwK2clYzMlYWMrbiVlMSViYiU5M2kraCVjNiVhMWkrYiVjMyVhY25oK2NoJWUxJWJiJThidSslYzMlYTFwK2wlZTElYmIlYjFjKzAlMmM3K2JhciZGT1JNPUhEUlNDNA&ntb=1
+        - listitem [ref=e68]:
+          - link "Images" [ref=e69] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=cf4ebd9845ed82bd48ac6eb17330e0530ee551cd4370b82a6474e6dae477b935JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2ltYWdlcy9zZWFyY2g_cT1RQ1ZOKzAxJTNhMjAwOCUyZkJMJWM0JTkwVEJYSCtsJWMzJWEwK2clYzMlYWMrbiVlMSViYiU5M2kraCVjNiVhMWkrYiVjMyVhY25oK2NoJWUxJWJiJThidSslYzMlYTFwK2wlZTElYmIlYjFjKzAlMmM3K2JhciZGT1JNPUhEUlNDMw&ntb=1
+        - listitem [ref=e70]:
+          - link "Maps" [ref=e71] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e496ea41a396ba7b38ddd31cf1f0eadc783d2dac5be5cf42981322dd5c74c048JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L21hcHM_cT1RQ1ZOKzAxJTNhMjAwOCUyZkJMJWM0JTkwVEJYSCtsJWMzJWEwK2clYzMlYWMrbiVlMSViYiU5M2kraCVjNiVhMWkrYiVjMyVhY25oK2NoJWUxJWJiJThidSslYzMlYTFwK2wlZTElYmIlYjFjKzAlMmM3K2JhciZGT1JNPUhEUlNDNg&ntb=1
+        - listitem [ref=e72]:
+          - link "Copilot" [ref=e73] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=44accf9f0bfeb1e552ecb04b7358282b750660c190b30deead460edabaa95b73JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2NoYXQ_cHJvbXB0PVFDVk4rMDElM2EyMDA4JTJmQkwlYzQlOTBUQlhIK2wlYzMlYTArZyVjMyVhYytuJWUxJWJiJTkzaStoJWM2JWExaStiJWMzJWFjbmgrY2glZTElYmIlOGJ1KyVjMyVhMXArbCVlMSViYiViMWMrMCUyYzcrYmFyJnNlbmRxdWVyeT0xJkZPUk09U0NDT0RY&ntb=1
+        - listitem [ref=e74]:
+          - button "More" [ref=e75] [cursor=pointer]:
+            - img [ref=e77]
+            - text: More
+  - generic [ref=e79]:
+    - main "Search Results" [ref=e80]:
+      - generic [ref=e82]: About 9 results
+      - list [ref=e91]:
+        - listitem [ref=e92]:
+          - generic [ref=e93]:
+            - link "Explore this image" [ref=e96] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=hN9CXlsq&id=93355683FA8DA8FAB4DA49DF45B6F991169D088E&thid=OIP.hN9CXlsq3Ng2tApRN-cyrQHaD4&mediaurl=https://cdn.luatvietnam.vn/ImageDocs/quy-chuan-viet-nam-qcvn01-2008-bldtbxh-167991.jpg&q=QCVN+01%3a2008%2fBL%c4%90TBXH+l%c3%a0+g%c3%ac+n%e1%bb%93i+h%c6%a1i+b%c3%acnh+ch%e1%bb%8bu+%c3%a1p+l%e1%bb%b1c+0%2c7+bar&ck=57AEBA24F29CEBD8F96D4EA4A32EEC88&idpp=rc&expw=1200&exph=628&form=rc2idp
+            - generic [ref=e98]:
+              - link "LuatVietnam" [ref=e100] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=3ddd1079c7c55033e7ff1c940c5dc3dce8af692878c52d501a67a0a65707607dJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi9sYW8tZG9uZy9xdXktY2h1YW4tcWN2bi0wMS0yMDA4LWJsZHRieGgtYW4tdG9hbi1sYW8tZG9uZy1ub2ktaG9pLXZhLWJpbmgtY2hpdS1hcC1sdWMtMTY3OTkxLWQzLmh0bWw&ntb=1
+                - generic [ref=e105]:
+                  - generic [ref=e106]: LuatVietnam
+                  - generic [ref=e108]:
+                    - generic [ref=e109]: https://luatvietnam.vn › lao-dong
+                    - generic [ref=e110]: Translate this result
+              - heading "Quy chuẩn QCVN:01-2008/BLĐTBXH An toàn lao động …" [level=2] [ref=e111]:
+                - link "Quy chuẩn QCVN:01-2008/BLĐTBXH An toàn lao động …" [ref=e112] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=3ddd1079c7c55033e7ff1c940c5dc3dce8af692878c52d501a67a0a65707607dJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi9sYW8tZG9uZy9xdXktY2h1YW4tcWN2bi0wMS0yMDA4LWJsZHRieGgtYW4tdG9hbi1sYW8tZG9uZy1ub2ktaG9pLXZhLWJpbmgtY2hpdS1hcC1sdWMtMTY3OTkxLWQzLmh0bWw&ntb=1
+              - paragraph [ref=e113]: Oct 19, 2018 · Những nồi hơi, bình chịu áp lực được chế tạo đồng bộ, đã được bọc bảo ôn, trong quá trình vận chuyển và lắp đặt không có biểu hiện bị va đập, …
+        - listitem [ref=e115]:
+          - generic [ref=e116]:
+            - link "Explore this image" [ref=e119] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=viXw5Lpg&id=338CA58C15F6F771E9BE028872D048CABDE65F57&thid=OIP.viXw5LpgwvQI6MYhSWlFNgHaD4&mediaurl=https://cdn.thuvienphapluat.vn/uploads/Images/thumbnail_TVPL.png&q=QCVN+01%3a2008%2fBL%c4%90TBXH+l%c3%a0+g%c3%ac+n%e1%bb%93i+h%c6%a1i+b%c3%acnh+ch%e1%bb%8bu+%c3%a1p+l%e1%bb%b1c+0%2c7+bar&ck=F179B4C3F9FEC20C114226DE9CE79838&idpp=rc&expw=1200&exph=628&form=rc2idp
+            - generic [ref=e121]:
+              - link "THƯ VIỆN PHÁP LUẬT" [ref=e123] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=b7f980c5685241126c114c74964e983c17bef9857bf1dcd4ed0e7c5e1b4d9613JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vVENWTi9MaW5oLXZ1Yy1raGFjL1FDVk4tMDEtMjAwOC1CTERUQlhILWFuLXRvYW4tbGFvLWRvbmctbm9pLWhvaS12YS1iaW5oLWNoaXUtYXAtbHVjLTkwMzA2MS5hc3B4&ntb=1
+                - generic [ref=e128]:
+                  - generic [ref=e129]: THƯ VIỆN PHÁP LUẬT
+                  - generic [ref=e131]:
+                    - generic [ref=e132]: https://thuvienphapluat.vn › TCVN › Linh-vuc …
+                    - generic [ref=e133]: Translate this result
+              - heading "QCVN-01-2008-BLDTBXH-an-toan-lao-dong-noi-hoi-va …" [level=2] [ref=e134]:
+                - link "QCVN-01-2008-BLDTBXH-an-toan-lao-dong-noi-hoi-va …" [ref=e135] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=b7f980c5685241126c114c74964e983c17bef9857bf1dcd4ed0e7c5e1b4d9613JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vVENWTi9MaW5oLXZ1Yy1raGFjL1FDVk4tMDEtMjAwOC1CTERUQlhILWFuLXRvYW4tbGFvLWRvbmctbm9pLWhvaS12YS1iaW5oLWNoaXUtYXAtbHVjLTkwMzA2MS5hc3B4&ntb=1
+              - paragraph [ref=e136]: Quy định về quản lý, sử dụng nồi hơi và bình chịu áp lực. 6. Quy định về kiểm định an toàn và đăng ký nồi hơi, bình chịu áp lực. 7. Thanh tra - kiểm tra và điều tra …
+        - listitem [ref=e138]:
+          - link "ibst.vn" [ref=e140] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=06599e6fb7afb67705818e1996c214033e08117eedfa2bec3542902305cd651bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cuaWJzdC52bi9EQVRBL25oeWVuL1FDVk4lMjAwMS0yMDA4JTIwQkxEVEJYSCUyMEFuJTIwdG9hbiUyMG5vaSUyMGhvaSUyMHZhJTIwYmluaCUyMGNoaXUlMjBhcCUyMGx1Yy5wZGY&ntb=1
+            - generic [ref=e145]:
+              - generic [ref=e146]: ibst.vn
+              - generic [ref=e148]:
+                - generic [ref=e149]: https://www.ibst.vn › DATA › nhyen
+                - text: · PDF file
+                - generic [ref=e150]: Translate this result
+          - heading "ĐTBXH QUY CHUẨ Ỹ T - IBST" [level=2] [ref=e151]:
+            - link "ĐTBXH QUY CHUẨ Ỹ T - IBST" [ref=e152] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=06599e6fb7afb67705818e1996c214033e08117eedfa2bec3542902305cd651bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cuaWJzdC52bi9EQVRBL25oeWVuL1FDVk4lMjAwMS0yMDA4JTIwQkxEVEJYSCUyMEFuJTIwdG9hbiUyMG5vaSUyMGhvaSUyMHZhJTIwYmluaCUyMGNoaXUlMjBhcCUyMGx1Yy5wZGY&ntb=1
+          - paragraph [ref=e154]: "QCVN: 01- 2008/BLĐTBXH – Quy chuẩn kỹ thuật quốc gia về an toàn lao động nồi hơi và bình chịu áp lực do Cục An Toàn Lao Động biên soạn, Bộ Lao động – Thương binh và Xã hội ban hành theo …"
+        - listitem [ref=e155]:
+          - generic [ref=e157]:
+            - 'heading "Videos of Qcvn 01 : 2008 Blđtbxh là gì Nồi hơi bình Chịu áp Lực 0 7 Bar" [level=2] [ref=e159]':
+              - 'link "Videos of Qcvn 01 : 2008 Blđtbxh là gì Nồi hơi bình Chịu áp Lực 0 7 Bar" [ref=e160] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=db0ce2c6943cf7db32ea1ffebc1e661078f0dca2ad922a10e21f78b1e2e0c267JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9zZWFyY2g_cT1RQ1ZOKzAxJTNhMjAwOCUyZkJMJWM0JTkwVEJYSCtsJWMzJWEwK2clYzMlYWMrbiVlMSViYiU5M2kraCVjNiVhMWkrYiVjMyVhY25oK2NoJWUxJWJiJThidSslYzMlYTFwK2wlZTElYmIlYjFjKzAlMmM3K2JhciZxcHZ0PVFDVk4rMDElM2EyMDA4JTJmQkwlYzQlOTBUQlhIK2wlYzMlYTArZyVjMyVhYytuJWUxJWJiJTkzaStoJWM2JWExaStiJWMzJWFjbmgrY2glZTElYmIlOGJ1KyVjMyVhMXArbCVlMSViYiViMWMrMCUyYzcrYmFyJkZPUk09VkRSRQ&ntb=1
+            - generic [ref=e162]:
+              - 'link "Nồi Hơi - Lò Hơi Là Gì? Những điều cơ bản cần biết from YouTube · Duration: 7 minutes 27 seconds · 54.6K views · uploaded on May 12, 2021 · uploaded by DIVI Group · Click to play. · 🔥 Trong video này, \"Nồi Hơi Là Gì? Cách Nó Giúp Nhà Máy Chạy Mượt Mà!\" chúng ta sẽ cùng tìm hiểu: 🔹 Nồi hơi là gì? ( hay còn có tên gọi khác là lò hơi ) – Thiết bị quan trọng trong nhiều ngành công nghiệp như sản xuất điện, thực phẩm, hóa chất,... 🔹 Nguyên lý hoạt ..." [ref=e165] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=d17aa785e52019a4981ffecbc8f98b3086856d35e23f527baf7d9a0bdc446105JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9UUNWTiswMSUzYTIwMDglMmZCTCVjNCU5MFRCWEgrbCVjMyVhMCtnJWMzJWFjK24lZTElYmIlOTNpK2glYzYlYTFpK2IlYzMlYWNuaCtjaCVlMSViYiU4YnUrJWMzJWExcCtsJWUxJWJiJWIxYyswJTJjNytiYXImbWlkPTVGNTE4NjE1RjBENDdERUQ4QTcwNUY1MTg2MTVGMEQ0N0RFRDhBNzAmY2h1cmw9aHR0cHMlM2ElMmYlMmZ3d3cueW91dHViZS5jb20lMmZjaGFubmVsJTJmVUNhNjFtTExtVmRsMHdZOW1IWlBnU0xnJkZPUk09VklSRQ&ntb=1
+                - generic [ref=e166]:
+                  - generic [ref=e167]:
+                    - img "Nồi Hơi - Lò Hơi Là Gì? Những điều cơ bản cần biết" [ref=e169]
+                    - generic [ref=e175]: 7:27
+                  - generic [ref=e176]:
+                    - generic "Nồi Hơi - Lò Hơi Là Gì? Những điều cơ bản cần biết" [ref=e177]:
+                      - strong [ref=e178]: Nồi
+                      - strong [ref=e179]: Hơi
+                      - text: "- Lò"
+                      - strong [ref=e180]: Hơi
+                      - strong [ref=e181]: Là
+                      - strong [ref=e182]: Gì
+                      - text: "? Những điều cơ bản cần biết"
+                    - generic [ref=e183]:
+                      - generic [ref=e184]:
+                        - img "Video source site" [ref=e185]
+                        - text: YouTube · DIVI Group
+                      - generic [ref=e186]: 54.6K views · May 12, 2021
+              - 'link "Lò hơi công nghiệp là gì? | Giải thích về nồi hơi công nghiệp | Học Nghề Kỹ Sư Điện & Điện Tử from YouTube · Duration: 6 minutes 43 seconds · 28.7K views · uploaded on Aug 4, 2022 · uploaded by @hocnghekysudien&dientu · Click to play. · #hocnghekysudiendientu Lò hơi công nghiệp là gì? | Giải thích về nồi hơi công nghiệp | Học Nghề Kỹ Sư Điện & Điện Tử Nguyên lý chung của lò hơi công nghiệp là sử dụng nhiên liệu để đun sôi nước, tùy theo cấu tạo của loại lò hơi mà nhiên liệu có thể là: rắn (như ..." [ref=e189] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=124db88cdfb15c64dd29d628afcce4877925f9868cbfb1ba7fc988080c4104c5JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9UUNWTiswMSUzYTIwMDglMmZCTCVjNCU5MFRCWEgrbCVjMyVhMCtnJWMzJWFjK24lZTElYmIlOTNpK2glYzYlYTFpK2IlYzMlYWNuaCtjaCVlMSViYiU4YnUrJWMzJWExcCtsJWUxJWJiJWIxYyswJTJjNytiYXImbWlkPTRFOUVDM0JERjFEQ0U4QkMzNjBFNEU5RUMzQkRGMURDRThCQzM2MEUmY2h1cmw9JkZPUk09VklSRQ&ntb=1
+                - generic [ref=e190]:
+                  - generic [ref=e191]:
+                    - img "Lò hơi công nghiệp là gì? | Giải thích về nồi hơi công nghiệp | Học Nghề Kỹ Sư Điện & Điện Tử" [ref=e193]
+                    - generic [ref=e199]: 6:43
+                  - generic [ref=e200]:
+                    - generic "Lò hơi công nghiệp là gì? | Giải thích về nồi hơi công nghiệp | Học Nghề Kỹ Sư Điện & Điện Tử" [ref=e201]:
+                      - text: Lò
+                      - strong [ref=e202]: hơi
+                      - text: công nghiệp
+                      - strong [ref=e203]: là
+                      - strong [ref=e204]: gì
+                      - text: "? | Giải thích về"
+                      - strong [ref=e205]: nồi
+                      - strong [ref=e206]: hơi
+                      - text: công nghiệp | Học Nghề Kỹ Sư Điện & Điện Tử
+                    - generic [ref=e207]:
+                      - generic [ref=e208]:
+                        - img "Video source site" [ref=e209]
+                        - text: YouTube · @hocnghekysudien&dientu
+                      - generic [ref=e210]: 28.7K views · Aug 4, 2022
+              - 'link "hướng dẫn bơm hơi bình áp máy lọc nước RO không cần đồng hồ from YouTube · Duration: 10 minutes 12 seconds · 186.5K views · uploaded on Oct 28, 2020 · uploaded by ĐIỆN LẠNH THÁI BÌNH · Click to play. · hướng dẫn bơm hơi cho bình áp máy lọc nước RO không cần đồng hồ Bình áp máy lọc nước là gì? Cách bơm bình áp máy lọc nước RO Bình áp là một bộ phận không thể thiếu đối với máy lọc nước RO. Thiết bị này thường có hình trụ, được sơn màu xanh hoặc trắng với ..." [ref=e213] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=f2f750184d7afffffe6cdb438d3f896170139ee5b60ef9abd97444472864910eJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9UUNWTiswMSUzYTIwMDglMmZCTCVjNCU5MFRCWEgrbCVjMyVhMCtnJWMzJWFjK24lZTElYmIlOTNpK2glYzYlYTFpK2IlYzMlYWNuaCtjaCVlMSViYiU4YnUrJWMzJWExcCtsJWUxJWJiJWIxYyswJTJjNytiYXImbWlkPUZGMjE3QTZGQzJFRDhFMUQ2OTVBRkYyMTdBNkZDMkVEOEUxRDY5NUEmY2h1cmw9aHR0cHMlM2ElMmYlMmZ3d3cueW91dHViZS5jb20lMmZjaGFubmVsJTJmVUN3ZldpanpTVDBnSGdMVG1uYTBTMlVRJkZPUk09VklSRQ&ntb=1
+                - generic [ref=e214]:
+                  - generic [ref=e215]:
+                    - img "hướng dẫn bơm hơi bình áp máy lọc nước RO không cần đồng hồ" [ref=e217]
+                    - generic [ref=e223]: 10:12
+                  - generic [ref=e224]:
+                    - generic "hướng dẫn bơm hơi bình áp máy lọc nước RO không cần đồng hồ" [ref=e225]:
+                      - text: hướng dẫn bơm
+                      - strong [ref=e226]: hơi
+                      - strong [ref=e227]: bình
+                      - strong [ref=e228]: áp
+                      - text: máy lọc nước RO không cần đồng hồ
+                    - generic [ref=e229]:
+                      - generic [ref=e230]:
+                        - img "Video source site" [ref=e231]
+                        - text: YouTube · ĐIỆN LẠNH THÁI BÌNH
+                      - generic [ref=e232]: 186.5K views · Oct 28, 2020
+        - listitem [ref=e233]:
+          - generic [ref=e234]:
+            - link "Explore this image" [ref=e237] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=pRTg5WRM&id=EDEC2E8FAF04467BDA7473390D2D355C960508FE&thid=OIP.pRTg5WRMmSwkklDEbOEXZwHaE8&mediaurl=https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/DTH/15-09/phuong-an-89.jpg&q=QCVN+01%3a2008%2fBL%c4%90TBXH+l%c3%a0+g%c3%ac+n%e1%bb%93i+h%c6%a1i+b%c3%acnh+ch%e1%bb%8bu+%c3%a1p+l%e1%bb%b1c+0%2c7+bar&ck=E6B93A668E2C4AE3DF1FD370BBEDB938&idpp=rc&expw=600&exph=400&form=rc2idp
+            - generic [ref=e239]:
+              - link "THƯ VIỆN PHÁP LUẬT" [ref=e241] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=a79c0d5a8987252bff69a01e0ee28740b21cf878d570bd8577533d04ce6c96fcJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vbGFvLWRvbmctdGllbi1sdW9uZy9xdXktY2h1YW4ta3ktdGh1YXQtcXVvYy1naWEtcWN2bi0wMS0tMjAwOGJsZHRieGgtYXAtZHVuZy1kb2ktdm9pLWNhYy1sb2FpLW5vaS1ob2ktdmEtYmluaC1jaGl1LWFwLWwtMTAyMTcuaHRtbA&ntb=1
+                - generic [ref=e246]:
+                  - generic [ref=e247]: THƯ VIỆN PHÁP LUẬT
+                  - generic [ref=e249]:
+                    - generic [ref=e250]: https://thuvienphapluat.vn › lao-dong-tien-luong
+                    - generic [ref=e251]: Translate this result
+              - heading "QCVN 01:2008/BLĐTBXH áp dụng đối với các loại nồi …" [level=2] [ref=e252]:
+                - link "QCVN 01:2008/BLĐTBXH áp dụng đối với các loại nồi …" [ref=e253] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=a79c0d5a8987252bff69a01e0ee28740b21cf878d570bd8577533d04ce6c96fcJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vbGFvLWRvbmctdGllbi1sdW9uZy9xdXktY2h1YW4ta3ktdGh1YXQtcXVvYy1naWEtcWN2bi0wMS0tMjAwOGJsZHRieGgtYXAtZHVuZy1kb2ktdm9pLWNhYy1sb2FpLW5vaS1ob2ktdmEtYmluaC1jaGl1LWFwLWwtMTAyMTcuaHRtbA&ntb=1
+              - paragraph [ref=e254]: "Dec 8, 2025 · Như vậy, Quy chuẩn kỹ thuật Quốc gia QCVN 01:2008/BLĐTBXH áp dụng đối với các loại nồi hơi, bình chịu áp lực sau: - Các nồi hơi và bình chịu áp …"
+        - listitem [ref=e256]:
+          - generic [ref=e257]:
+            - link "Explore this image" [ref=e260] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=tljGgc5h&id=28FCCBA32D18D0BCD7A3BC6221DD1C1800A0C614&thid=OIP.tljGgc5h4B7VHDcV99amfQHaFj&mediaurl=https://thietbivieta.com/wp-content/uploads/2025/09/qcvn-012008-bldtbxh.jpg&q=QCVN+01%3a2008%2fBL%c4%90TBXH+l%c3%a0+g%c3%ac+n%e1%bb%93i+h%c6%a1i+b%c3%acnh+ch%e1%bb%8bu+%c3%a1p+l%e1%bb%b1c+0%2c7+bar&ck=EF242C272F67BC0048C80E8519AE501F&idpp=rc&expw=960&exph=720&form=rc2idp
+            - generic [ref=e262]:
+              - link "thietbivieta.com" [ref=e264] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=8f446ab5c87745536efd4156a19508122b7e057f3384775ea4ee56e0514dc217JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aGlldGJpdmlldGEuY29tL3Fjdm4tMDEyMDA4LWJsZHRieGgv&ntb=1
+                - generic [ref=e269]:
+                  - generic [ref=e270]: thietbivieta.com
+                  - generic [ref=e272]:
+                    - generic [ref=e273]: https://thietbivieta.com
+                    - generic [ref=e274]: Translate this result
+              - heading "QCVN 01:2008/BLĐTBXH – An toàn lao động đối với …" [level=2] [ref=e275]:
+                - link "QCVN 01:2008/BLĐTBXH – An toàn lao động đối với …" [ref=e276] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=8f446ab5c87745536efd4156a19508122b7e057f3384775ea4ee56e0514dc217JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aGlldGJpdmlldGEuY29tL3Fjdm4tMDEyMDA4LWJsZHRieGgv&ntb=1
+              - paragraph [ref=e277]: Sep 18, 2025 · QCVN 01:2008/BLĐTBXH – An toàn lao động đối với nồi hơi và bình chịu áp lực là quy chuẩn kỹ thuật bắt buộc mà mọi doanh nghiệp cần tuân …
+        - listitem [ref=e279]:
+          - link "kiemdinhmiennampmv.com" [ref=e281] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9e76041f684544522944e991a736b1d389cf0facf1c826a1e6b7628b6ace159cJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cua2llbWRpbmhtaWVubmFtcG12LmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyNC8xMi9RQ1ZOXzAxLTIwMDhfQkxEVEJYSC5wZGY&ntb=1
+            - generic [ref=e286]:
+              - generic [ref=e287]: kiemdinhmiennampmv.com
+              - generic [ref=e289]:
+                - generic [ref=e290]: https://www.kiemdinhmiennampmv.com › wp-con…
+                - text: · PDF file
+                - generic [ref=e291]: Translate this result
+          - heading "QCVN 01_2008_BLDTBXH_ATLÐ n?i hoi và bình ch?u áp l?c" [level=2] [ref=e292]:
+            - link "QCVN 01_2008_BLDTBXH_ATLÐ n?i hoi và bình ch?u áp l?c":
+              - /url: https://www.bing.com/ck/a?!&&p=9e76041f684544522944e991a736b1d389cf0facf1c826a1e6b7628b6ace159cJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cua2llbWRpbmhtaWVubmFtcG12LmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyNC8xMi9RQ1ZOXzAxLTIwMDhfQkxEVEJYSC5wZGY&ntb=1
+          - paragraph [ref=e294]: Là tổ chức hoặc cá nhân có quyền sử dụng, có quyền bán hoặc cho thuê nồi hơi , bình chịu áp lực và chịu trách nhiệm vật chất trong việc bồi hoàn thiệt hại do sự cố nồi hơi, bình chịu áp lực gây ra.
+        - listitem [ref=e295]:
+          - link "Văn Bản Pháp Luật" [ref=e297] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=017ac12fb9e86bde8a02f14fabed1b046ecd21444bb5e43cf4cd75628f3c1821JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly92YW5iYW5waGFwbHVhdC5jb20udm4vcXV5LWNodWFuLXFjdm4wMTIwMDgtYmxkdGJ4aC8&ntb=1
+            - generic [ref=e302]:
+              - generic [ref=e303]: Văn Bản Pháp Luật
+              - generic [ref=e305]:
+                - generic [ref=e306]: https://vanbanphapluat.com.vn
+                - generic [ref=e307]: Translate this result
+          - heading "Quy chuẩn QCVN01:2008/BLĐTBXH - Văn Bản Pháp Luật - Website …" [level=2] [ref=e308]:
+            - link "Quy chuẩn QCVN01:2008/BLĐTBXH - Văn Bản Pháp Luật - Website …":
+              - /url: https://www.bing.com/ck/a?!&&p=017ac12fb9e86bde8a02f14fabed1b046ecd21444bb5e43cf4cd75628f3c1821JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly92YW5iYW5waGFwbHVhdC5jb20udm4vcXV5LWNodWFuLXFjdm4wMTIwMDgtYmxkdGJ4aC8&ntb=1
+          - paragraph [ref=e310]: Những nồi hơi, bình chịu áp lực được chế tạo đồng bộ, đã được bọc bảo ôn, trong quá trình vận chuyển và lắp đặt không có biểu hiện bị va đập, biến dạng và đã được thử thuỷ lực khi xuất xưởng chưa …
+        - listitem [ref=e311]:
+          - link "luatvietnam.vn" [ref=e313] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=75040e9da9a8546713561c66480e30f2712d9f9a37bc606c8bbf3a50af730548JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9kZW1vLmx1YXR2aWV0bmFtLnZuL2xhby1kb25nL3F1eS1jaHVhbi1xY3ZuLTAxLTIwMDgtYmxkdGJ4aC1hbi10b2FuLWxhby1kb25nLW5vaS1ob2ktdmEtYmluaC1jaGl1LWFwLWx1Yy0xNjc5OTEtZDMuaHRtbA&ntb=1
+            - generic [ref=e318]:
+              - generic [ref=e319]: luatvietnam.vn
+              - generic [ref=e321]:
+                - generic [ref=e322]: https://demo.luatvietnam.vn › lao-dong
+                - generic [ref=e323]: Translate this result
+          - heading "Quy chuẩn QCVN:01-2008/BLĐTBXH An toàn lao động nồi hơi và …" [level=2] [ref=e324]:
+            - link "Quy chuẩn QCVN:01-2008/BLĐTBXH An toàn lao động nồi hơi và …":
+              - /url: https://www.bing.com/ck/a?!&&p=75040e9da9a8546713561c66480e30f2712d9f9a37bc606c8bbf3a50af730548JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9kZW1vLmx1YXR2aWV0bmFtLnZuL2xhby1kb25nL3F1eS1jaHVhbi1xY3ZuLTAxLTIwMDgtYmxkdGJ4aC1hbi10b2FuLWxhby1kb25nLW5vaS1ob2ktdmEtYmluaC1jaGl1LWFwLWx1Yy0xNjc5OTEtZDMuaHRtbA&ntb=1
+          - paragraph [ref=e326]: Những nồi hơi, bình chịu áp lực được chế tạo đồng bộ, đã được bọc bảo ôn, trong quá trình vận chuyển và lắp đặt không có biểu hiện bị va đập, biến dạng và đã được thử thuỷ lực khi xuất xưởng chưa …
+        - listitem [ref=e327]:
+          - link "Dữ Liệu Pháp Luật" [ref=e329] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=bd4b3e7a5dfab0e289b99f29b142ee9bae88bf7fbfc35abe2d73599218dde9d6JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9kdWxpZXVwaGFwbHVhdC52bi92YW4tYmFuL2xpbmgtdnVjLWtoYWMtdmFuLWJhbi9xdXktY2h1YW4ta3ktdGh1YXQtcXVvYy1naWEtcWN2bi0wMTIwMDhibGR0YnhoLXZlLWFuLXRvYW4tbGFvLWRvbmctbm9pLWhvaS12YS1iaW5oLWNoaXUtYXAtbHVjLWRvLWJvLWxhby1kb25nLXRodW9uZy1iaW5oLXZhLXhhLWhvaS1iYW4taGFuaC00OTUzMTguaHRtbA&ntb=1
+            - generic [ref=e334]:
+              - generic [ref=e335]: Dữ Liệu Pháp Luật
+              - generic [ref=e337]:
+                - generic [ref=e338]: https://dulieuphapluat.vn › van-ban › linh-vuc-khac...
+                - generic [ref=e339]: Translate this result
+          - heading "Quy chuẩn kỹ thuật Quốc gia QCVN 01:2008/BLĐTBXH về an toàn …" [level=2] [ref=e340]:
+            - link "Quy chuẩn kỹ thuật Quốc gia QCVN 01:2008/BLĐTBXH về an toàn …":
+              - /url: https://www.bing.com/ck/a?!&&p=bd4b3e7a5dfab0e289b99f29b142ee9bae88bf7fbfc35abe2d73599218dde9d6JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9kdWxpZXVwaGFwbHVhdC52bi92YW4tYmFuL2xpbmgtdnVjLWtoYWMtdmFuLWJhbi9xdXktY2h1YW4ta3ktdGh1YXQtcXVvYy1naWEtcWN2bi0wMTIwMDhibGR0YnhoLXZlLWFuLXRvYW4tbGFvLWRvbmctbm9pLWhvaS12YS1iaW5oLWNoaXUtYXAtbHVjLWRvLWJvLWxhby1kb25nLXRodW9uZy1iaW5oLXZhLXhhLWhvaS1iYW4taGFuaC00OTUzMTguaHRtbA&ntb=1
+          - paragraph [ref=e342]: "Quy chuẩn này quy định\\r\\nvề an toàn lao động trong thiết kế, chế tạo, xuất nhập khẩu, mua bán, lắp đặt,\\r\\nsửa chữa, sử dụng đối với các nồi hơi, bình chịu áp lực sau: 1.1.1. Các nồi hơi và bình\\r\\nchịu …"
+        - listitem [ref=e343]:
+          - link "Scribd" [ref=e345] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=2e5f7176863d29dffd84ba5aaf4dd8b8d170f76879baab262a3326d375ebe9baJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cuc2NyaWJkLmNvbS9kb2N1bWVudC85NzQyNDUzMTMvUUNWTjAxLTIwMDhCTGRUQlhI&ntb=1
+            - generic [ref=e350]:
+              - generic [ref=e351]: Scribd
+              - generic [ref=e353]:
+                - generic [ref=e354]: https://www.scribd.com › document
+                - generic [ref=e355]: Translate this result
+          - heading "QCVN01 2008BLdTBXH | PDF" [level=2] [ref=e356]:
+            - link "QCVN01 2008BLdTBXH | PDF":
+              - /url: https://www.bing.com/ck/a?!&&p=2e5f7176863d29dffd84ba5aaf4dd8b8d170f76879baab262a3326d375ebe9baJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cuc2NyaWJkLmNvbS9kb2N1bWVudC85NzQyNDUzMTMvUUNWTjAxLTIwMDhCTGRUQlhI&ntb=1
+          - paragraph [ref=e358]: "Quy chuẩn kỹ thuật quốc gia QCVN: 01-2008/BLĐTBXH quy định về an toàn lao động đối với nồi hơi và bình chịu áp lực, bao gồm các yêu cầu về thiết kế, chế tạo, lắp đặt, sửa chữa và sử dụng. Quy …"
+        - listitem [ref=e359]:
+          - generic [ref=e360]:
+            - heading "Deep dive into QCVN 01:2008/BLĐTBXH là gì nồi hơi bình chịu áp lự…" [level=2] [ref=e361]:
+              - text: Deep dive into
+              - strong [ref=e362]: QCVN 01:2008/BLĐTBXH là gì nồi hơi bình chịu áp lự
+              - text: …
+            - list [ref=e363]:
+              - listitem [ref=e364]:
+                - link "qcvn 01 2008" [ref=e365] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=d763c6bbe51cfdabcb4bc56d6efc9a9ed18dd2d14574eb9f2f548f46a648902dJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXFjdm4rMDErMjAwOCZGT1JNPVFTUkUx&ntb=1
+                  - generic [ref=e367]: qcvn 01 2008
+              - listitem [ref=e368]:
+                - link "nồi hơi áp lực" [ref=e369] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=319c12bf50623d2f9adc5f478283fadd28625edd5c6fffa40ce5ca0bd17c2992JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPW4lZTElYmIlOTNpK2glYzYlYTFpKyVjMyVhMXArbCVlMSViYiViMWMmRk9STT1RU1JFMg&ntb=1
+                  - generic [ref=e371]: nồi hơi áp lực
+              - listitem [ref=e372]:
+                - link "nồi hơi và bình" [ref=e373] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=323618b591f80b727ebc67b8799dd6b28c0c2a1211999ea6e2535a95773dc93bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPW4lZTElYmIlOTNpK2glYzYlYTFpK3YlYzMlYTArYiVjMyVhY25oJkZPUk09UVNSRTM&ntb=1
+                  - generic [ref=e375]:
+                    - text: nồi hơi
+                    - strong [ref=e376]: và
+                    - text: bình
+              - listitem [ref=e377]:
+                - link "quy định nồi hơi" [ref=e378] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=43a6218228bcbfafa03d49e38b5e23c5d2d72db12f1e5c44fc3f75d3876d78feJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXF1eSslYzQlOTElZTElYmIlOGJuaCtuJWUxJWJiJTkzaStoJWM2JWExaSZGT1JNPVFTUkU0&ntb=1
+                  - generic [ref=e380]:
+                    - strong [ref=e381]: quy định
+                    - text: nồi hơi
+              - listitem [ref=e382]:
+                - link "quản lý nồi hơi và bình" [ref=e383] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=36aeacc8e17947bae4956973b67c995cff4952f140da74f23ab54abb3044c200JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXF1JWUxJWJhJWEzbitsJWMzJWJkK24lZTElYmIlOTNpK2glYzYlYTFpK3YlYzMlYTArYiVjMyVhY25oJkZPUk09UVNSRTU&ntb=1
+                  - generic [ref=e385]:
+                    - strong [ref=e386]: quản lý
+                    - text: nồi hơi
+                    - strong [ref=e387]: và
+                    - text: bình
+              - listitem [ref=e388]:
+                - link "qcvn 01" [ref=e389] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=2213fb19e50bbf8d2285afd0d3afb478c6b993a8144cdd6c2ca232cb923e2639JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXFjdm4rMDEmRk9STT1RU1JFNg&ntb=1
+                  - generic [ref=e391]: qcvn 01
+        - listitem [ref=e392]:
+          - link "Some results have been removed" [ref=e394] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6a2eeb21b394098b43050e176afdd54e61b4c0836f959b37fe99e70d3b2b6767JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+    - complementary "Additional Results" [ref=e395]:
+      - list [ref=e396]:
+        - listitem [ref=e397]:
+          - generic "Related searches" [ref=e398]:
+            - generic [ref=e400]:
+              - heading "Deep dive into QCVN 01:2008/BLĐTBXH là gì nồi hơi bình chịu áp lự…" [level=2] [ref=e402]:
+                - text: Deep dive into
+                - strong [ref=e403]: QCVN 01:2008/BLĐTBXH là gì nồi hơi bình chịu áp lự
+                - text: …
+              - generic [ref=e404]:
+                - link "qcvn 01 2008" [ref=e406] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=584886958e0e6d1b042ec9c737988a7fe9a862c8ea151d587aa3a999f4f1805dJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXFjdm4rMDErMjAwOCZGT1JNPVI1RkQ&ntb=1
+                  - generic [ref=e408]: qcvn 01 2008
+                - link "nồi hơi áp lực" [ref=e410] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=843120be2a338b621fd19e13e8f6a270b7df87e698a0036ceb2d38e6ccc3cc3dJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPW4lZTElYmIlOTNpK2glYzYlYTFpKyVjMyVhMXArbCVlMSViYiViMWMmRk9STT1SNUZEMQ&ntb=1
+                  - generic [ref=e412]: nồi hơi áp lực
+                - link "nồi hơi và bình" [ref=e414] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=c99664af7bbaee92796612003a07f18e2fa25fcfeded040cfcd5045354206553JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPW4lZTElYmIlOTNpK2glYzYlYTFpK3YlYzMlYTArYiVjMyVhY25oJkZPUk09UjVGRDI&ntb=1
+                  - generic [ref=e416]:
+                    - text: nồi hơi
+                    - strong [ref=e417]: và
+                    - text: bình
+                - link "quy định nồi hơi" [ref=e419] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=9386a43cfc5c35874f26d255c2b62215ee6919f5a7d90be0daf1f26cc7acee7fJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXF1eSslYzQlOTElZTElYmIlOGJuaCtuJWUxJWJiJTkzaStoJWM2JWExaSZGT1JNPVI1RkQz&ntb=1
+                  - generic [ref=e421]:
+                    - strong [ref=e422]: quy định
+                    - text: nồi hơi
+                - link "quản lý nồi hơi và bình" [ref=e424] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=956ef1c000c90e947fbe86f1b8fdf9f4b902adbf5721ef0286154bf110d3ac97JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXF1JWUxJWJhJWEzbitsJWMzJWJkK24lZTElYmIlOTNpK2glYzYlYTFpK3YlYzMlYTArYiVjMyVhY25oJkZPUk09UjVGRDQ&ntb=1
+                  - generic [ref=e426]:
+                    - strong [ref=e427]: quản lý
+                    - text: nồi hơi
+                    - strong [ref=e428]: và
+                    - text: bình
+                - link "qcvn 01" [ref=e430] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=8dafa9ff3f60dfba423d9a59225204ccfd88ea32dd8241f6b075f6520f5923b9JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXFjdm4rMDEmRk9STT1SNUZENQ&ntb=1
+                  - generic [ref=e432]: qcvn 01
+  - contentinfo [ref=e433]:
+    - generic [ref=e434]:
+      - list:
+        - listitem [ref=e435]:
+          - link "Privacy" [ref=e436] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7b44db685677b97b59d99ac58a6dcb7b55ed8b4aacd5ffe64e4ae4c0aa82d70bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e437]:
+          - link "Terms" [ref=e438] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0c98928a6597273e4a5057fc09082f8c5ed11f1634b17ea06829b02b1e9d7505JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

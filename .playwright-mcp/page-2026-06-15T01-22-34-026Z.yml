@@ -1,0 +1,406 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link "Truy cập trang chủ Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=vi&ictx=0&sa=X&ved=0ahUKEwiorb_JioiVAxXFqVYBHWo8IigQpYkNCAw
+          - img "Truy cập trang chủ Google" [ref=e14]
+        - generic [ref=e15]:
+          - combobox "Tìm kiếm" [ref=e18]: github got-scraping surf azuretls impit mimic browser TLS HTTP2 fingerprint 2025 github got-scraping surf azuretls impit mimic browser TLS HTTP2 fingerprint 2025
+          - generic [ref=e19]:
+            - button "Xóa" [ref=e21] [cursor=pointer]:
+              - img [ref=e23]
+            - generic [ref=e26]:
+              - button "Công cụ nhập" [ref=e27] [cursor=pointer]:
+                - img [ref=e29]
+              - button "Tìm kiếm bằng giọng nói" [ref=e31] [cursor=pointer]:
+                - img [ref=e32]
+              - button "Tìm kiếm bằng hình ảnh" [ref=e34] [cursor=pointer]:
+                - img [ref=e35]
+        - button "Tìm kiếm" [ref=e37] [cursor=pointer]:
+          - img [ref=e40]
+    - generic [ref=e42]:
+      - button "Cài đặt" [ref=e44] [cursor=pointer]:
+        - img [ref=e47]
+      - generic [ref=e50]:
+        - button "Các ứng dụng của Google" [ref=e52] [cursor=pointer]:
+          - img [ref=e53]
+        - link "Đăng nhập" [ref=e57] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3Dgithub%2Bgot-scraping%2Bsurf%2Bazuretls%2Bimpit%2Bmimic%2Bbrowser%2BTLS%2BHTTP2%2Bfingerprint%2B2025&ec=futura_srp_og_si_72236_p
+  - generic [ref=e59]:
+    - navigation [ref=e65]:
+      - generic [ref=e71]:
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - link "Chế độ AI" [ref=e76] [cursor=pointer]:
+              - /url: /search?q=github+got-scraping+surf+azuretls+impit+mimic+browser+TLS+HTTP2+fingerprint+2025&sca_esv=1d2bc8c14a52b799&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMETIrVQS-87x-tlG_vOQk0a2uyw_agGQo2X2hItPF9Yrn1rqvKF4a_4aLeysA-vFRxT0O80Jx-Q7kN1RsXRWY45gSWZvoZYTF83XQsv7wKq273O-gPZWrJNCsjCppLldexNuW_&aep=1&ntc=1&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ2J8OegQIERAD
+              - generic [ref=e79]: Chế độ AI
+          - listitem [ref=e80]:
+            - link "Tất cả" [disabled] [ref=e81]:
+              - generic [ref=e83]: Tất cả
+          - listitem [ref=e84]:
+            - link "Hình ảnh" [ref=e85] [cursor=pointer]:
+              - /url: /search?sca_esv=1d2bc8c14a52b799&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMETIrVQS-87x-tlG_vOQk0a2uyw_agGQo2X2hItPF9Yrn1rqvKF4a_4aLeysA-vFRxT0O80Jx-Q7kN1RsXRWY45gSWZvoZYTF83XQsv7wKq273O-gPZWrJNCsjCppLldexNuW_&q=github+got-scraping+surf+azuretls+impit+mimic+browser+TLS+HTTP2+fingerprint+2025&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQtKgLegQIFxAB
+              - generic [ref=e87]: Hình ảnh
+          - listitem [ref=e88]:
+            - link "Video" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=1d2bc8c14a52b799&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMETIrVQS-87x-tlG_vOQk0a2uyw_agGQo2X2hItPF9Yrn1rqvKF4a_4aLeysA-vFRxT0O80Jx-Q7kN1RsXRWY45gSWZvoZYTF83XQsv7wKq273O-gPZWrJNCsjCppLldexNuW_&q=github+got-scraping+surf+azuretls+impit+mimic+browser+TLS+HTTP2+fingerprint+2025&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQtKgLegQIFRAB
+              - generic [ref=e91]: Video
+          - listitem [ref=e92]:
+            - link "Mua sắm" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=1d2bc8c14a52b799&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMETIrVQS-87x-tlG_vOQk0a2uyw_agGQo2X2hItPF9Yrn1rqvKF4a_4aLeysA-vFRxT0O80Jx-Q7kN1RsXRWY45gSWZvoZYTF83XQsv7wKq273O-gPZWrJNCsjCppLldexNuW_&q=github+got-scraping+surf+azuretls+impit+mimic+browser+TLS+HTTP2+fingerprint+2025&ved=1t:220175&ictx=111
+              - generic [ref=e95]: Mua sắm
+          - listitem [ref=e96]:
+            - link "Video ngắn" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=1d2bc8c14a52b799&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMETIrVQS-87x-tlG_vOQk0a2uyw_agGQo2X2hItPF9Yrn1rqvKF4a_4aLeysA-vFRxT0O80Jx-Q7kN1RsXRWY45gSWZvoZYTF83XQsv7wKq273O-gPZWrJNCsjCppLldexNuW_&q=github+got-scraping+surf+azuretls+impit+mimic+browser+TLS+HTTP2+fingerprint+2025&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQs6gLegQIFhAB
+              - generic [ref=e99]: Video ngắn
+          - listitem [ref=e100]:
+            - link "Tin tức" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=1d2bc8c14a52b799&q=github+got-scraping+surf+azuretls+impit+mimic+browser+TLS+HTTP2+fingerprint+2025&tbm=nws&source=lnms&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMETIrVQS-87x-tlG_vOQk0a2uyw_agGQo2X2hItPF9Yrn1rqvKF4a_4aLeysA-vFRxT0O80Jx-Q7kN1RsXRWY45gSWZvoZYTF83XQsv7wKq273O-gPZWrJNCsjCppLldexNuW_&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ0pQJegQIExAB
+              - generic [ref=e103]: Tin tức
+          - listitem [ref=e104]:
+            - button "Các bộ lọc khác" [ref=e105] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e106]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Thêm
+                  - img [ref=e110]
+        - button "Công cụ" [ref=e113] [cursor=pointer]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: Công cụ
+            - img [ref=e118]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e120]
+    - generic [ref=e126]:
+      - generic [ref=e127]: Looking for results in English?
+      - link [ref=e128] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e130]
+      - link "Change to English" [ref=e132] [cursor=pointer]:
+        - /url: /setprefs?sig=0_9G5qUwbqBY3u3AWlSDMC2g08LLI%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dgithub%2Bgot-scraping%2Bsurf%2Bazuretls%2Bimpit%2Bmimic%2Bbrowser%2BTLS%2BHTTP2%2Bfingerprint%2B2025&hl=en&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQhoQCKAF6BAgPEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e133] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e135] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQiIQCKAN6BAgPEAY#languages
+    - generic [ref=e136]:
+      - generic [ref=e155]:
+        - heading "Đang tìm kiếm Đang suy nghĩ lâu hơn một chút" [level=2] [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e162]: Đang tìm kiếm
+            - generic [ref=e172]: Đang suy nghĩ lâu hơn một chút
+        - progressbar "Đang tạo" [ref=e174]
+      - main [ref=e216]:
+        - generic [ref=e220]:
+          - generic [ref=e223]:
+            - heading "Web results" [level=2] [ref=e224]
+            - generic [ref=e225]:
+              - generic [ref=e228]:
+                - 'link "Noooste/azuretls-client: An easy-to-use HTTP ... GitHub https://github.com › Noooste › azuretls..." [ref=e230] [cursor=pointer]':
+                  - /url: https://github.com/Noooste/azuretls-client
+                  - 'heading "Noooste/azuretls-client: An easy-to-use HTTP ..." [level=3] [ref=e231]'
+                  - generic [ref=e237]:
+                    - generic [ref=e239]: GitHub
+                    - generic [ref=e241]: https://github.com › Noooste › azuretls...
+                - generic [ref=e242]:
+                  - generic [ref=e243]: ·
+                  - link "Dịch trang này" [ref=e244] [cursor=pointer]:
+                    - /url: https://translate.google.com/translate?u=https://github.com/Noooste/azuretls-client&hl=vi&sl=en&tl=vi&client=search
+                - button "Thông tin về kết quả này" [ref=e245] [cursor=pointer]:
+                  - img [ref=e248]
+              - generic [ref=e252]:
+                - text: An easy-to-use HTTP client to spoof TLS/JA3, HTTP2 and HTTP3 fingerprint - Noooste/azuretls ...
+                - emphasis [ref=e253]: HTTP/2 fingerprint
+                - text: ", making it look like a real browser to servers."
+              - generic [ref=e255]: "Bị thiếu: surf ‎impit ‎2025"
+          - generic [ref=e259]:
+            - generic [ref=e262]:
+              - 'link "enetx/surf: SURF - Advanced Go HTTP client with Chrome ... GitHub https://github.com › enetx › surf" [ref=e264] [cursor=pointer]':
+                - /url: https://github.com/enetx/surf
+                - 'heading "enetx/surf: SURF - Advanced Go HTTP client with Chrome ..." [level=3] [ref=e265]'
+                - generic [ref=e271]:
+                  - generic [ref=e273]: GitHub
+                  - generic [ref=e275]: https://github.com › enetx › surf
+              - generic [ref=e276]:
+                - generic [ref=e277]: ·
+                - link "Dịch trang này" [ref=e278] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://github.com/enetx/surf&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e279] [cursor=pointer]:
+                - img [ref=e282]
+            - generic [ref=e286]:
+              - text: "✨ Key Features ; Browser Impersonation. Chrome & Firefox Support:"
+              - emphasis [ref=e287]: Accurately mimic Chrome v145 and Firefox v148 browser fingerprints
+              - text: ; Advanced TLS & Security.
+            - generic [ref=e289]: "Bị thiếu: azuretls ‎impit ‎2025"
+          - generic [ref=e293]:
+            - generic [ref=e296]:
+              - 'link "JA3/HTTP2 fingerprinting and WAF bypass · Issue #844 GitHub https://github.com › httptoolkit › issues" [ref=e298] [cursor=pointer]':
+                - /url: https://github.com/httptoolkit/httptoolkit/issues/844
+                - 'heading "JA3/HTTP2 fingerprinting and WAF bypass · Issue #844" [level=3] [ref=e299]'
+                - generic [ref=e305]:
+                  - generic [ref=e307]: GitHub
+                  - generic [ref=e309]: https://github.com › httptoolkit › issues
+              - generic [ref=e310]:
+                - generic [ref=e311]: ·
+                - link "Dịch trang này" [ref=e312] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://github.com/httptoolkit/httptoolkit/issues/844&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e313] [cursor=pointer]:
+                - img [ref=e316]
+            - generic [ref=e319]:
+              - generic [ref=e320]: 29 thg 1, 2026 —
+              - generic [ref=e321]:
+                - text: It appears the WAF identifies the interception because HTTP Toolkit's
+                - emphasis [ref=e322]: TLS
+                - text: handshake (JA3) and
+                - emphasis [ref=e323]: HTTP/2
+                - text: settings don't match the expected client ...
+            - generic [ref=e325]: "Bị thiếu: scraping ‎surf ‎azuretls ‎impit ‎2025"
+          - generic [ref=e329]:
+            - generic [ref=e332]:
+              - link "browser-fingerprinting · GitHub Topics GitHub https://github.com › topics › browser-fi..." [ref=e334] [cursor=pointer]:
+                - /url: https://github.com/topics/browser-fingerprinting
+                - heading "browser-fingerprinting · GitHub Topics" [level=3] [ref=e335]
+                - generic [ref=e341]:
+                  - generic [ref=e343]: GitHub
+                  - generic [ref=e345]: https://github.com › topics › browser-fi...
+              - generic [ref=e346]:
+                - generic [ref=e347]: ·
+                - link "Dịch trang này" [ref=e348] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://github.com/topics/browser-fingerprinting&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e349] [cursor=pointer]:
+                - img [ref=e352]
+            - generic [ref=e356]:
+              - emphasis [ref=e357]: Go HTTP client with browser-identical TLS/HTTP2 fingerprinting
+              - text: . Bypass bot detection by perfectly mimicking Chrome, Firefox, and Safari at the cryptographic ...
+            - generic [ref=e359]: "Bị thiếu: surf ‎azuretls ‎impit ‎mimic"
+          - generic [ref=e363]:
+            - generic [ref=e366]:
+              - link "A browser-impersonating HTTP client for Go (TLS/JA3/4/ ... Reddit · r/golang >60 bình luận · 9 tháng trước" [ref=e368] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/golang/comments/1n41g3s/introducing_surf_a_browserimpersonating_http/
+                - heading "A browser-impersonating HTTP client for Go (TLS/JA3/4/ ..." [level=3] [ref=e369]
+                - generic [ref=e375]:
+                  - generic [ref=e377]: Reddit · r/golang
+                  - generic [ref=e379]: ">60 bình luận · 9 tháng trước"
+              - button "Thông tin về kết quả này" [ref=e380] [cursor=pointer]:
+                - img [ref=e383]
+            - generic [ref=e387]:
+              - text: "Surf helps your requests blend in with real browser traffic by supporting:"
+              - emphasis [ref=e388]: Realistic JA3/JA4 TLS fingerprints
+              - text: via utls. HTTP/2 SETTINGS & ...
+            - generic [ref=e391]:
+              - generic [ref=e392]:
+                - link "We open-sourced the TLS fingerprinting stack ..." [ref=e395] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/WebScrapingInsider/comments/1s7law7/we_opensourced_the_tls_fingerprinting_stack/
+                  - generic [ref=e396]:
+                    - text: We open-sourced the
+                    - emphasis [ref=e397]: TLS
+                    - text: fingerprinting stack ...
+                - generic [ref=e399]: 27 bài đăng
+                - generic [ref=e401]: 30 thg 3, 2026
+              - generic [ref=e402]:
+                - link "What's everyone using to avoid TLS fingerprinting ..." [ref=e405] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/webscraping/comments/1j8kski/whats_everyone_using_to_avoid_tls_fingerprinting/
+                  - generic [ref=e406]:
+                    - text: What's everyone using to avoid
+                    - emphasis [ref=e407]: TLS
+                    - text: fingerprinting ...
+                - generic [ref=e409]: 4 bài đăng
+                - generic [ref=e411]: 11 thg 3, 2025
+              - link "Các kết quả khác từ www.reddit.com" [ref=e415] [cursor=pointer]:
+                - /url: /search?q=github+got-scraping+surf+azuretls+impit+mimic+browser+TLS+HTTP2+fingerprint+2025+site:www.reddit.com&sca_esv=1d2bc8c14a52b799&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQrQIoAnoECDEQAw
+            - generic [ref=e417]:
+              - text: "Bị thiếu: azuretls ‎| Phải có:"
+              - link "azuretls" [ref=e418] [cursor=pointer]:
+                - /url: /search?sca_esv=1d2bc8c14a52b799&q=github+got-scraping+surf+%22azuretls%22+impit+mimic+browser+TLS+HTTP2+fingerprint+2025&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ5t4CegQIQxAB
+          - generic [ref=e422]:
+            - generic [ref=e425]:
+              - link "azuretls-client — Go TLS Fingerprint Spoofing Client open-awesome.com https://open-awesome.com › Go" [ref=e427] [cursor=pointer]:
+                - /url: https://open-awesome.com/projects/azuretls-client
+                - heading "azuretls-client — Go TLS Fingerprint Spoofing Client" [level=3] [ref=e428]
+                - generic [ref=e434]:
+                  - generic [ref=e436]: open-awesome.com
+                  - generic [ref=e438]: https://open-awesome.com › Go
+              - generic [ref=e439]:
+                - generic [ref=e440]: ·
+                - link "Dịch trang này" [ref=e441] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://open-awesome.com/projects/azuretls-client&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e442] [cursor=pointer]:
+                - img [ref=e445]
+            - generic [ref=e448]:
+              - generic [ref=e449]: 4 ngày trước —
+              - generic [ref=e450]:
+                - emphasis [ref=e451]: AzureTLS Client
+                - text: is a Go HTTP client library that spoofs TLS, HTTP/2, and HTTP/3 fingerprints to make requests appear as if they come from real ...
+          - generic [ref=e455]:
+            - generic [ref=e458]:
+              - link "Using curl_cffi for Web Scraping in Python GitHub https://github.com › luminati-io › curl_..." [ref=e460] [cursor=pointer]:
+                - /url: https://github.com/luminati-io/curl_cffi-web-scraping
+                - heading "Using curl_cffi for Web Scraping in Python" [level=3] [ref=e461]
+                - generic [ref=e467]:
+                  - generic [ref=e469]: GitHub
+                  - generic [ref=e471]: https://github.com › luminati-io › curl_...
+              - generic [ref=e472]:
+                - generic [ref=e473]: ·
+                - link "Dịch trang này" [ref=e474] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://github.com/luminati-io/curl_cffi-web-scraping&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e475] [cursor=pointer]:
+                - img [ref=e478]
+            - generic [ref=e482]:
+              - text: This guide explains how to use
+              - emphasis [ref=e483]: curl_cffi to enhance a web scraping script in Python
+              - text: by mimicking real browser TLS fingerprints.
+            - generic [ref=e485]: "Bị thiếu: surf ‎azuretls ‎impit ‎2025"
+          - generic [ref=e489]:
+            - generic [ref=e492]:
+              - link "azuretls package - github.com/Noooste/azuretls-client Go Packages https://pkg.go.dev › github.com › azur..." [ref=e494] [cursor=pointer]:
+                - /url: https://pkg.go.dev/github.com/Noooste/azuretls-client
+                - heading "azuretls package - github.com/Noooste/azuretls-client" [level=3] [ref=e495]
+                - generic [ref=e501]:
+                  - generic [ref=e503]: Go Packages
+                  - generic [ref=e505]: https://pkg.go.dev › github.com › azur...
+              - generic [ref=e506]:
+                - generic [ref=e507]: ·
+                - link "Dịch trang này" [ref=e508] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://pkg.go.dev/github.com/Noooste/azuretls-client&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e509] [cursor=pointer]:
+                - img [ref=e512]
+            - generic [ref=e515]:
+              - generic [ref=e516]: 17 thg 4, 2026 —
+              - generic [ref=e517]:
+                - text: This automatically uses Chrome's
+                - emphasis [ref=e518]: TLS
+                - text: (JA3) and
+                - emphasis [ref=e519]: HTTP/2 fingerprint
+                - text: ", making it look like a real"
+                - emphasis [ref=e520]: browser
+                - text: to servers. New to Go?
+                - emphasis [ref=e521]: AzureTLS
+                - text: ...
+            - generic [ref=e523]: "Bị thiếu: surf ‎impit ‎2025"
+          - generic [ref=e527]:
+            - generic [ref=e530]:
+              - link "anti-scraping GitHub https://github.com › topics › anti-scrapi..." [ref=e532] [cursor=pointer]:
+                - /url: https://github.com/topics/anti-scraping?l=go&o=desc&s=forks
+                - heading "anti-scraping" [level=3] [ref=e533]
+                - generic [ref=e539]:
+                  - generic [ref=e541]: GitHub
+                  - generic [ref=e543]: https://github.com › topics › anti-scrapi...
+              - generic [ref=e544]:
+                - generic [ref=e545]: ·
+                - link "Dịch trang này" [ref=e546] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://github.com/topics/anti-scraping?l%3Dgo%26o%3Ddesc%26s%3Dforks&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e547] [cursor=pointer]:
+                - img [ref=e550]
+            - generic [ref=e553]:
+              - generic [ref=e554]: 27 thg 5, 2026 —
+              - generic [ref=e555]:
+                - emphasis [ref=e556]: HTTP security middleware
+                - text: that blocks modern scraping tools (Scrapling, curl-impersonate, undetected-playwright, camoufox) via layered ...
+          - generic [ref=e560]:
+            - generic [ref=e563]:
+              - link "This Go HTTP Client Also Brings Browser Fingerprints Along Medium https://piedpay.medium.com › surf-thi..." [ref=e565] [cursor=pointer]:
+                - /url: https://piedpay.medium.com/surf-this-go-http-client-also-brings-browser-fingerprints-along-2199516392f1
+                - heading "This Go HTTP Client Also Brings Browser Fingerprints Along" [level=3] [ref=e566]
+                - generic [ref=e572]:
+                  - generic [ref=e574]: Medium
+                  - generic [ref=e576]: https://piedpay.medium.com › surf-thi...
+              - generic [ref=e577]:
+                - generic [ref=e578]: ·
+                - link "Dịch trang này" [ref=e579] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://piedpay.medium.com/surf-this-go-http-client-also-brings-browser-fingerprints-along-2199516392f1&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e580] [cursor=pointer]:
+                - img [ref=e583]
+            - generic [ref=e586]:
+              - generic [ref=e587]: 4 thg 5, 2026 —
+              - generic [ref=e588]:
+                - emphasis [ref=e589]: Scraping
+                - text: or data collection that requires
+                - emphasis [ref=e590]: browser
+                - text: profiling and
+                - emphasis [ref=e591]: TLS fingerprint
+                - text: "control ... Project link:"
+                - emphasis [ref=e592]: https
+                - text: ://
+                - emphasis [ref=e593]: github
+                - text: .com/enetx/
+                - emphasis [ref=e594]: surf
+                - text: . 76. 1.
+            - generic [ref=e596]: "Bị thiếu: azuretls ‎impit ‎2025"
+        - generic [ref=e598]:
+          - generic [ref=e603]:
+            - heading "Mọi người cũng tìm kiếm" [level=2] [ref=e605]
+            - generic [ref=e607]:
+              - generic [ref=e608]:
+                - link "Curl_cffi GitHub" [ref=e612] [cursor=pointer]:
+                  - /url: /search?sca_esv=1d2bc8c14a52b799&q=Curl_cffi+GitHub&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ1QJ6BAgmEAE
+                  - generic [ref=e613]:
+                    - generic [ref=e618]: Curl_cffi GitHub
+                    - img [ref=e622]
+                - link "Enetx surf" [ref=e627] [cursor=pointer]:
+                  - /url: /search?sca_esv=1d2bc8c14a52b799&q=Enetx+surf&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ1QJ6BAgqEAE
+                  - generic [ref=e628]:
+                    - generic [ref=e633]: Enetx surf
+                    - img [ref=e637]
+                - link "Curl-cffi" [ref=e642] [cursor=pointer]:
+                  - /url: /search?sca_esv=1d2bc8c14a52b799&q=Curl-cffi&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ1QJ6BAgpEAE
+                  - generic [ref=e643]:
+                    - generic [ref=e648]: Curl-cffi
+                    - img [ref=e652]
+              - generic [ref=e654]:
+                - link "Curl_cffi Python" [ref=e658] [cursor=pointer]:
+                  - /url: /search?sca_esv=1d2bc8c14a52b799&q=Curl_cffi+Python&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ1QJ6BAgnEAE
+                  - generic [ref=e659]:
+                    - generic [ref=e664]: Curl_cffi Python
+                    - img [ref=e668]
+                - link "Httpcloak github" [ref=e673] [cursor=pointer]:
+                  - /url: /search?sca_esv=1d2bc8c14a52b799&q=Httpcloak+github&sa=X&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ1QJ6BAgoEAE
+                  - generic [ref=e674]:
+                    - generic [ref=e679]: Httpcloak github
+                    - img [ref=e683]
+          - navigation [ref=e685]:
+            - heading "Điều hướng trang" [level=1] [ref=e686]
+            - text: "1"
+            - link "Page 2" [ref=e689] [cursor=pointer]:
+              - /url: /search?q=github+got-scraping+surf+azuretls+impit+mimic+browser+TLS+HTTP2+fingerprint+2025&sca_esv=1d2bc8c14a52b799&ei=2VMvaujcF8XT2roP6viIwQI&start=10&sa=N&sstk=AU9db-AfTrqxXPT65gf05j_sQWgHkZiU2t9ZmQkgh0IvZpKJu2-3VC1GzoB14w_pLi-CzGug23yHQiZXNwfAwBqOtfWzAmTKC7v7rg&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ8tMDegQIJBAE
+              - text: "2"
+            - link "Page 3" [ref=e691] [cursor=pointer]:
+              - /url: /search?q=github+got-scraping+surf+azuretls+impit+mimic+browser+TLS+HTTP2+fingerprint+2025&sca_esv=1d2bc8c14a52b799&ei=2VMvaujcF8XT2roP6viIwQI&start=20&sa=N&sstk=AU9db-AfTrqxXPT65gf05j_sQWgHkZiU2t9ZmQkgh0IvZpKJu2-3VC1GzoB14w_pLi-CzGug23yHQiZXNwfAwBqOtfWzAmTKC7v7rg&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ8tMDegQIJBAG
+              - text: "3"
+            - link "Page 4" [ref=e693] [cursor=pointer]:
+              - /url: /search?q=github+got-scraping+surf+azuretls+impit+mimic+browser+TLS+HTTP2+fingerprint+2025&sca_esv=1d2bc8c14a52b799&ei=2VMvaujcF8XT2roP6viIwQI&start=30&sa=N&sstk=AU9db-AfTrqxXPT65gf05j_sQWgHkZiU2t9ZmQkgh0IvZpKJu2-3VC1GzoB14w_pLi-CzGug23yHQiZXNwfAwBqOtfWzAmTKC7v7rg&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ8tMDegQIJBAI
+              - text: "4"
+            - link "Page 5" [ref=e695] [cursor=pointer]:
+              - /url: /search?q=github+got-scraping+surf+azuretls+impit+mimic+browser+TLS+HTTP2+fingerprint+2025&sca_esv=1d2bc8c14a52b799&ei=2VMvaujcF8XT2roP6viIwQI&start=40&sa=N&sstk=AU9db-AfTrqxXPT65gf05j_sQWgHkZiU2t9ZmQkgh0IvZpKJu2-3VC1GzoB14w_pLi-CzGug23yHQiZXNwfAwBqOtfWzAmTKC7v7rg&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ8tMDegQIJBAK
+              - text: "5"
+            - link "Page 6" [ref=e697] [cursor=pointer]:
+              - /url: /search?q=github+got-scraping+surf+azuretls+impit+mimic+browser+TLS+HTTP2+fingerprint+2025&sca_esv=1d2bc8c14a52b799&ei=2VMvaujcF8XT2roP6viIwQI&start=50&sa=N&sstk=AU9db-AfTrqxXPT65gf05j_sQWgHkZiU2t9ZmQkgh0IvZpKJu2-3VC1GzoB14w_pLi-CzGug23yHQiZXNwfAwBqOtfWzAmTKC7v7rg&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ8tMDegQIJBAM
+              - text: "6"
+            - heading "Tiếp" [level=2] [ref=e699]:
+              - link "Tiếp" [ref=e700] [cursor=pointer]:
+                - /url: /search?q=github+got-scraping+surf+azuretls+impit+mimic+browser+TLS+HTTP2+fingerprint+2025&sca_esv=1d2bc8c14a52b799&ei=2VMvaujcF8XT2roP6viIwQI&start=10&sa=N&sstk=AU9db-AfTrqxXPT65gf05j_sQWgHkZiU2t9ZmQkgh0IvZpKJu2-3VC1GzoB14w_pLi-CzGug23yHQiZXNwfAwBqOtfWzAmTKC7v7rg&ved=2ahUKEwiorb_JioiVAxXFqVYBHWo8IigQ8NMDegQIJBAO
+                - generic [ref=e702]: Tiếp
+        - navigation
+    - contentinfo [ref=e703]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e704]
+      - generic [ref=e708]:
+        - generic [ref=e710]:
+          - text: Việt Nam
+          - generic [ref=e712]:
+            - button "Ngũ Hành Sơn, Đà Nẵng - Dựa trên địa chỉ IP của bạn" [ref=e714] [cursor=pointer]:
+              - generic [ref=e715]: Ngũ Hành Sơn, Đà Nẵng
+              - generic [ref=e717]:
+                - text: "-"
+                - generic [ref=e718]: Dựa trên địa chỉ IP của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e720] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e723]:
+          - link "Trợ giúp" [ref=e724] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e725] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e726] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e727] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

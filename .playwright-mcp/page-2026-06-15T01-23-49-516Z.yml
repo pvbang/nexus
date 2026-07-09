@@ -1,0 +1,160 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: Nghệ thuật qua người Elástico" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=vi&ictx=2&sa=X&ved=0ahUKEwjNrvrtioiVAxXRk1YBHXV4A6IQPQgK
+          - 'img "World Cup 2026: Nghệ thuật qua người Elástico" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Tìm kiếm" [ref=e19]: github "pyhttpx" python TLS fingerprint OR "scrapling" scraping TLS fingerprint github "pyhttpx" python TLS fingerprint OR "scrapling" scraping TLS fingerprint
+            - generic [ref=e20]:
+              - button "Xóa" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Công cụ nhập" [ref=e28] [cursor=pointer]:
+                  - img [ref=e30]
+                - button "Tìm kiếm bằng giọng nói" [ref=e32] [cursor=pointer]:
+                  - img [ref=e33]
+                - button "Tìm kiếm bằng hình ảnh" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+          - button "Tìm kiếm" [ref=e38] [cursor=pointer]:
+            - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Cài đặt" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Các ứng dụng của Google" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Đăng nhập" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3Dgithub%2B%2522pyhttpx%2522%2Bpython%2BTLS%2Bfingerprint%2BOR%2B%2522scrapling%2522%2Bscraping%2BTLS%2Bfingerprint&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e72]:
+        - list [ref=e73]:
+          - listitem [ref=e74]:
+            - link "Chế độ AI" [ref=e77] [cursor=pointer]:
+              - /url: /search?q=github+%22pyhttpx%22+python+TLS+fingerprint+OR+%22scrapling%22+scraping+TLS+fingerprint&sca_esv=61328fda7705c92b&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xHedLNF3EqaGAEMXqVrM3dUnYHMDhEtq5OIE4X1fxgnQ5_Fb8_C1EJaSUUPsoVY1owqZpg21I7UQAxGsFhPY8LP8ZAm-ceVeR60WmLN-EM67_0mNHoxqjpEOLSqtLVhpqktNtOLtNAJSTxtUFTDoBNechWWu&aep=1&ntc=1&sa=X&ved=2ahUKEwjNrvrtioiVAxXRk1YBHXV4A6IQ2J8OegQIDxAD
+              - generic [ref=e80]: Chế độ AI
+          - listitem [ref=e81]:
+            - link "Tất cả" [disabled] [ref=e82]:
+              - generic [ref=e84]: Tất cả
+          - listitem [ref=e85]:
+            - link "Hình ảnh" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xHedLNF3EqaGAEMXqVrM3dUnYHMDhEtq5OIE4X1fxgnQ5_Fb8_C1EJaSUUPsoVY1owqZpg21I7UQAxGsFhPY8LP8ZAm-ceVeR60WmLN-EM67_0mNHoxqjpEOLSqtLVhpqktNtOLtNAJSTxtUFTDoBNechWWu&q=github+%22pyhttpx%22+python+TLS+fingerprint+OR+%22scrapling%22+scraping+TLS+fingerprint&sa=X&ved=2ahUKEwjNrvrtioiVAxXRk1YBHXV4A6IQtKgLegQIFBAB
+              - generic [ref=e88]: Hình ảnh
+          - listitem [ref=e89]:
+            - link "Video" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xHedLNF3EqaGAEMXqVrM3dUnYHMDhEtq5OIE4X1fxgnQ5_Fb8_C1EJaSUUPsoVY1owqZpg21I7UQAxGsFhPY8LP8ZAm-ceVeR60WmLN-EM67_0mNHoxqjpEOLSqtLVhpqktNtOLtNAJSTxtUFTDoBNechWWu&q=github+%22pyhttpx%22+python+TLS+fingerprint+OR+%22scrapling%22+scraping+TLS+fingerprint&sa=X&ved=2ahUKEwjNrvrtioiVAxXRk1YBHXV4A6IQtKgLegQIExAB
+              - generic [ref=e92]: Video
+          - listitem [ref=e93]:
+            - link "Mua sắm" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xHedLNF3EqaGAEMXqVrM3dUnYHMDhEtq5OIE4X1fxgnQ5_Fb8_C1EJaSUUPsoVY1owqZpg21I7UQAxGsFhPY8LP8ZAm-ceVeR60WmLN-EM67_0mNHoxqjpEOLSqtLVhpqktNtOLtNAJSTxtUFTDoBNechWWu&q=github+%22pyhttpx%22+python+TLS+fingerprint+OR+%22scrapling%22+scraping+TLS+fingerprint&ved=1t:220175&ictx=111
+              - generic [ref=e96]: Mua sắm
+          - listitem [ref=e97]:
+            - link "Video ngắn" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xHedLNF3EqaGAEMXqVrM3dUnYHMDhEtq5OIE4X1fxgnQ5_Fb8_C1EJaSUUPsoVY1owqZpg21I7UQAxGsFhPY8LP8ZAm-ceVeR60WmLN-EM67_0mNHoxqjpEOLSqtLVhpqktNtOLtNAJSTxtUFTDoBNechWWu&q=github+%22pyhttpx%22+python+TLS+fingerprint+OR+%22scrapling%22+scraping+TLS+fingerprint&sa=X&ved=2ahUKEwjNrvrtioiVAxXRk1YBHXV4A6IQs6gLegQIEhAB
+              - generic [ref=e100]: Video ngắn
+          - listitem [ref=e101]:
+            - link "Sách" [ref=e102] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&q=github+%22pyhttpx%22+python+TLS+fingerprint+OR+%22scrapling%22+scraping+TLS+fingerprint&udm=36&source=lnms&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xHedLNF3EqaGAEMXqVrM3dUnYHMDhEtq5OIE4X1fxgnQ5_Fb8_C1EJaSUUPsoVY1owqZpg21I7UQAxGsFhPY8LP8ZAm-ceVeR60WmLN-EM67_0mNHoxqjpEOLSqtLVhpqktNtOLtNAJSTxtUFTDoBNechWWu&sa=X&ved=2ahUKEwjNrvrtioiVAxXRk1YBHXV4A6IQ0pQJegQIERAB
+              - generic [ref=e104]: Sách
+          - listitem [ref=e105]:
+            - button "Các bộ lọc khác" [ref=e106] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e107]:
+                - generic [ref=e108]:
+                  - generic [ref=e109]: Thêm
+                  - img [ref=e111]
+        - button "Công cụ" [ref=e114] [cursor=pointer]:
+          - generic [ref=e116]:
+            - generic [ref=e117]: Công cụ
+            - img [ref=e119]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e121]
+    - generic [ref=e127]:
+      - generic [ref=e128]: Looking for results in English?
+      - link [ref=e129] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e131]
+      - link "Change to English" [ref=e133] [cursor=pointer]:
+        - /url: /setprefs?sig=0_9G5qUwbqBY3u3AWlSDMC2g08LLI%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dgithub%2B%2522pyhttpx%2522%2Bpython%2BTLS%2Bfingerprint%2BOR%2B%2522scrapling%2522%2Bscraping%2BTLS%2Bfingerprint&hl=en&sa=X&ved=2ahUKEwjNrvrtioiVAxXRk1YBHXV4A6IQhoQCKAF6BAgMEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e134] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e136] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwjNrvrtioiVAxXRk1YBHXV4A6IQiIQCKAN6BAgMEAY#languages
+    - main [ref=e138]:
+      - generic [ref=e146]:
+        - heading "Hình ảnh" [level=2] [ref=e150]
+        - generic [ref=e154]:
+          - generic [ref=e158] [cursor=pointer]:
+            - 'link "Skip the Render: A Field Guide to Calling the Hidden APIs ... Medium"':
+              - /url: https://medium.com/@dobairro.dimitri/skip-the-render-a-field-guide-to-calling-the-hidden-apis-behind-modern-web-apps-f0cdf97f8ce8
+            - 'button "Skip the Render: A Field Guide to Calling the Hidden APIs ..." [ref=e160]':
+              - 'img "Skip the Render: A Field Guide to Calling the Hidden APIs ..." [ref=e162]'
+            - generic [ref=e164]:
+              - generic [ref=e166]: "Skip the Render: A Field Guide to Calling the Hidden APIs ..."
+              - generic [ref=e167]:
+                - generic [ref=e174]: Medium
+                - button "Thông tin về kết quả này" [ref=e177]:
+                  - img [ref=e180]
+          - generic [ref=e185] [cursor=pointer]:
+            - 'link "Skip the Render: A Field Guide to Calling the Hidden APIs ... Medium"':
+              - /url: https://medium.com/@dobairro.dimitri/skip-the-render-a-field-guide-to-calling-the-hidden-apis-behind-modern-web-apps-f0cdf97f8ce8
+            - 'button "Skip the Render: A Field Guide to Calling the Hidden APIs ..." [ref=e187]':
+              - 'img "Skip the Render: A Field Guide to Calling the Hidden APIs ..." [ref=e189]'
+            - generic [ref=e191]:
+              - generic [ref=e193]: "Skip the Render: A Field Guide to Calling the Hidden APIs ..."
+              - generic [ref=e194]:
+                - generic [ref=e201]: Medium
+                - button "Thông tin về kết quả này" [ref=e204]:
+                  - img [ref=e207]
+          - generic [ref=e212] [cursor=pointer]:
+            - 'link "Skip the Render: A Field Guide to Calling the Hidden APIs ... Medium"':
+              - /url: https://medium.com/@dobairro.dimitri/skip-the-render-a-field-guide-to-calling-the-hidden-apis-behind-modern-web-apps-f0cdf97f8ce8
+            - 'button "Skip the Render: A Field Guide to Calling the Hidden APIs ..." [ref=e214]':
+              - 'img "Skip the Render: A Field Guide to Calling the Hidden APIs ..." [ref=e216]'
+            - generic [ref=e218]:
+              - generic [ref=e220]: "Skip the Render: A Field Guide to Calling the Hidden APIs ..."
+              - generic [ref=e221]:
+                - generic [ref=e228]: Medium
+                - button "Thông tin về kết quả này" [ref=e231]:
+                  - img [ref=e234]
+        - button "Hiện thêm hình ảnh" [ref=e237] [cursor=pointer]:
+          - separator [ref=e238]
+          - generic [ref=e239]:
+            - generic [ref=e240]: Hiện thêm hình ảnh
+            - img [ref=e242]
+      - generic:
+        - generic:
+          - navigation
+      - navigation
+    - contentinfo [ref=e244]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e245]
+      - generic [ref=e249]:
+        - generic [ref=e251]:
+          - text: Việt Nam
+          - generic [ref=e253]:
+            - button "Ngũ Hành Sơn, Đà Nẵng - Dựa trên hoạt động trước đây của bạn" [ref=e255] [cursor=pointer]:
+              - generic [ref=e256]: Ngũ Hành Sơn, Đà Nẵng
+              - generic [ref=e258]:
+                - text: "-"
+                - generic [ref=e259]: Dựa trên hoạt động trước đây của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e261] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e264]:
+          - link "Trợ giúp" [ref=e265] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e266] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e267] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e268] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

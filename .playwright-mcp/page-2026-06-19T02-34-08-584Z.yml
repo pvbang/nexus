@@ -1,0 +1,305 @@
+- generic [active] [ref=e1]:
+  - dialog [ref=e2]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]: Microsoft and our third-party vendors use cookies and similar technologies to deliver, maintain, and improve our services and ads. If you agree, we will use this data for ads personalization and associated analytics.
+        - paragraph [ref=e10]:
+          - text: You can select ‘Accept’ to consent to these uses, ‘Reject’ to decline these uses or click on ‘More options’ to review your options. You can change your selection under ‘Manage Cookie Preferences’ at the bottom of this page.
+          - link "Privacy Statement" [ref=e11] [cursor=pointer]:
+            - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+      - generic [ref=e12]:
+        - link "Accept" [ref=e14] [cursor=pointer]:
+          - /url: "javascript: void(0)"
+        - link "Reject" [ref=e16] [cursor=pointer]:
+          - /url: "javascript: void(0)"
+      - link "More options" [ref=e18] [cursor=pointer]:
+        - /url: "javascript: void(0)"
+  - banner [ref=e19]:
+    - button "Skip to content" [ref=e20] [cursor=pointer]:
+      - generic [ref=e22]: Skip to content
+    - button "Accessibility Feedback" [ref=e23] [cursor=pointer]:
+      - generic [ref=e25]: Accessibility Feedback
+    - generic [ref=e26]:
+      - link "Back to Bing search" [ref=e27] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e28]
+      - search [ref=e29]:
+        - button "Search" [ref=e32] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e33]: Thông tư 36/2019/TT-BLĐTBXH danh mục máy thiết bị có yêu cầu nghiêm ngặt an toàn lao động
+        - button "Search using an image" [ref=e39] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e41]:
+      - button "Microsoft Rewards" [ref=e42] [cursor=pointer]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: Rewards
+          - img [ref=e47]
+      - link "Sign in" [ref=e59] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e60]
+    - navigation "Search Filter" [ref=e61]:
+      - list [ref=e62]:
+        - listitem [ref=e63]:
+          - link "All" [ref=e64] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e65]:
+          - link "Search" [ref=e66] [cursor=pointer]:
+            - /url: /copilotsearch?q=Th%c3%b4ng+t%c6%b0+36%2f2019%2fTT-BL%c4%90TBXH+danh+m%e1%bb%a5c+m%c3%a1y+thi%e1%ba%bft+b%e1%bb%8b+c%c3%b3+y%c3%aau+c%e1%ba%a7u+nghi%c3%aam+ng%e1%ba%b7t+an+to%c3%a0n+lao+%c4%91%e1%bb%99ng&FORM=CSSCOP
+            - img [ref=e67]
+            - text: Search
+        - listitem [ref=e69]:
+          - link "Images" [ref=e70] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=571ab4aa79887dc2bd81b614f3b306bdc271745c691607a5b71ef6cbcbb15e08JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2ltYWdlcy9zZWFyY2g_cT1UaCVjMyViNG5nK3QlYzYlYjArMzYlMmYyMDE5JTJmVFQtQkwlYzQlOTBUQlhIK2RhbmgrbSVlMSViYiVhNWMrbSVjMyVhMXkrdGhpJWUxJWJhJWJmdCtiJWUxJWJiJThiK2MlYzMlYjMreSVjMyVhYXUrYyVlMSViYSVhN3UrbmdoaSVjMyVhYW0rbmclZTElYmElYjd0K2FuK3RvJWMzJWEwbitsYW8rJWM0JTkxJWUxJWJiJTk5bmcmRk9STT1IRFJTQzM&ntb=1
+        - listitem [ref=e71]:
+          - link "Videos" [ref=e72] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=64925c6e509373be6d8ade09660d3ba742a9254eac5e33a116ef1fe708c3c6deJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9zZWFyY2g_cT1UaCVjMyViNG5nK3QlYzYlYjArMzYlMmYyMDE5JTJmVFQtQkwlYzQlOTBUQlhIK2RhbmgrbSVlMSViYiVhNWMrbSVjMyVhMXkrdGhpJWUxJWJhJWJmdCtiJWUxJWJiJThiK2MlYzMlYjMreSVjMyVhYXUrYyVlMSViYSVhN3UrbmdoaSVjMyVhYW0rbmclZTElYmElYjd0K2FuK3RvJWMzJWEwbitsYW8rJWM0JTkxJWUxJWJiJTk5bmcmRk9STT1IRFJTQzQ&ntb=1
+        - listitem [ref=e73]:
+          - link "Maps" [ref=e74] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=60f900bd23758a5cd78379f6423d6391c2e6d4f8b4cebc7a198cc487acf8e377JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L21hcHM_cT1UaCVjMyViNG5nK3QlYzYlYjArMzYlMmYyMDE5JTJmVFQtQkwlYzQlOTBUQlhIK2RhbmgrbSVlMSViYiVhNWMrbSVjMyVhMXkrdGhpJWUxJWJhJWJmdCtiJWUxJWJiJThiK2MlYzMlYjMreSVjMyVhYXUrYyVlMSViYSVhN3UrbmdoaSVjMyVhYW0rbmclZTElYmElYjd0K2FuK3RvJWMzJWEwbitsYW8rJWM0JTkxJWUxJWJiJTk5bmcmRk9STT1IRFJTQzY&ntb=1
+        - listitem [ref=e75]:
+          - link "Copilot" [ref=e76] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8cff859adf3fb1282c58aa0ae3653c3f73265ea9122606ffae583b96d9257737JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2NoYXQ_cHJvbXB0PVRoJWMzJWI0bmcrdCVjNiViMCszNiUyZjIwMTklMmZUVC1CTCVjNCU5MFRCWEgrZGFuaCttJWUxJWJiJWE1YyttJWMzJWExeSt0aGklZTElYmElYmZ0K2IlZTElYmIlOGIrYyVjMyViMyt5JWMzJWFhdStjJWUxJWJhJWE3dStuZ2hpJWMzJWFhbStuZyVlMSViYSViN3QrYW4rdG8lYzMlYTBuK2xhbyslYzQlOTElZTElYmIlOTluZyZzZW5kcXVlcnk9MSZGT1JNPVNDQ09EWA&ntb=1
+        - listitem [ref=e77]:
+          - button "More" [ref=e78] [cursor=pointer]:
+            - img [ref=e80]
+            - text: More
+  - generic [ref=e82]:
+    - main "Search Results" [ref=e83]:
+      - generic [ref=e85]: About 692 results
+      - list [ref=e93]:
+        - listitem [ref=e94]:
+          - generic [ref=e102]:
+            - generic [ref=e105]:
+              - generic [ref=e107]:
+                - button "Like" [ref=e108]:
+                  - img [ref=e109]
+                - button "Dislike" [ref=e111]:
+                  - img [ref=e112]
+              - generic [ref=e116]:
+                - link "Thông tư 36/2019/TT-BLĐTBXH thiết bị yêu cầu nghiêm ngặt về an toàn vệ sinh lao động" [ref=e120] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=e3183030b2b17b47b8a4027ec8193f3bfa52d28f7347bb61be9f7e8ccecd1fe5JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2ltYWdlcy9zZWFyY2g_cT1UaCVjMyViNG5nK3QlYzYlYjArMzYlMmYyMDE5JTJmVFQtQkwlYzQlOTBUQlhIK2RhbmgrbSVlMSViYiVhNWMrbSVjMyVhMXkrdGhpJWUxJWJhJWJmdCtiJWUxJWJiJThiK2MlYzMlYjMreSVjMyVhYXUrYyVlMSViYSVhN3UrbmdoaSVjMyVhYW0rbmclZTElYmElYjd0K2FuK3RvJWMzJWEwbitsYW8rJWM0JTkxJWUxJWJiJTk5bmcmaWQ9Q0NCMTFGQUVDREVDRTQ0MEJFNkVCMTI4NDQ1NDQ5MzI3RTg3OUZBMA&ntb=1
+                  - img "Thông tư 36/2019/TT-BLĐTBXH thiết bị yêu cầu nghiêm ngặt về an toàn vệ sinh lao động" [ref=e121]
+                - generic [ref=e123]:
+                  - text: Ngày 30/12/2019, Bộ Lao động Thương binh và Xã hội ban hành Thông tư 36/2019/TT-BLĐTBXH về việc ban hành Danh mục các loại máy, thiết bị, vật tư, chất có yêu cầu nghiệm ngặt về an toàn, vệ sinh lao động. Theo đó, có
+                  - strong [ref=e124]: 45 loại máy móc, thiết bị, vật tư có yêu cầu nghiêm ngặt về an toàn lao động
+                  - text: .
+              - link "LuatVietnam Thông tư 36/2019/TT-BLĐTBXH thiết bị yêu cầu nghiêm ngặt về an toàn vệ ... Ngày 30/12/2019, Bộ Lao động Thương binh và Xã hội ban hành Thông tư 36/2019/TT-BLĐTBXH về việc ban hành Danh mục các loại máy, thiết bị, vật tư, chất có yêu cầu nghiệm ngặt về an …" [ref=e128] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=b3477bc40a68ed1d982b2dd68950e5fbf9bd6a838c4d12a141720e07734828deJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi9sYW8tZG9uZy90aG9uZy10dS0zNi0yMDE5LXR0LWJsZHRieGgtdGhpZXQtYmkteWV1LWNhdS1uZ2hpZW0tbmdhdC12ZS1hbi10b2FuLXZlLXNpbmgtbGFvLWRvbmctMTgwNzc3LWQxLmh0bWwjOn46dGV4dD1OZyVDMyVBMHklMjAzMCUyRjEyJTJGMjAxOSUyQyUyMEIlRTElQkIlOTklMjBMYW8lMjAlQzQlOTElRTElQkIlOTluZyUyMFRoJUM2JUIwJUM2JUExbmclMjBiaW5oJTIwdiVDMyVBMCxjJUUxJUJBJUE3dSUyMG5naGklQzMlQUFtJTIwbmclRTElQkElQjd0JTIwdiVFMSVCQiU4MSUyMGFuJTIwdG8lQzMlQTBuJTIwbGFvJTIwJUM0JTkxJUUxJUJCJTk5bmcu&ntb=1
+                - generic [ref=e129]:
+                  - generic [ref=e132]: LuatVietnam
+                  - generic [ref=e134]: Thông tư 36/2019/TT-BLĐTBXH thiết bị yêu cầu nghiêm ngặt về an toàn vệ ...
+                  - generic [ref=e135]: Ngày 30/12/2019, Bộ Lao động Thương binh và Xã hội ban hành Thông tư 36/2019/TT-BLĐTBXH về việc ban hành Danh mục các loại máy, thiết bị, vật tư, chất có yêu cầu nghiệm ngặt về an …
+            - status
+        - listitem [ref=e136]:
+          - link "THƯ VIỆN PHÁP LUẬT" [ref=e138] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f0e050bc1c6fa79cbbe4ba979aff0e4a6fe0f5796f24151ae17bb7b9535873c2JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vdmFuLWJhbi9MYW8tZG9uZy1UaWVuLWx1b25nL1Rob25nLXR1LTM2LTIwMTktVFQtQkxEVEJYSC1EYW5oLW11Yy1tYXktdGhpZXQtYmktdmF0LXR1LWNoYXQtY28teWV1LWNhdS1uZ2hpZW0tbmdhdC1hbi10b2FuLTQzNTQ3Mi5hc3B4&ntb=1
+            - img "Global web icon" [ref=e142]
+            - generic [ref=e143]:
+              - generic [ref=e144]: THƯ VIỆN PHÁP LUẬT
+              - generic [ref=e146]:
+                - generic [ref=e147]: https://thuvienphapluat.vn › van-ban › Lao-dong-Tien-luong
+                - generic [ref=e148]: Translate this result
+          - heading "Thông tư 36/2019/TT-BLĐTBXH Danh mục máy thiết bị vật tư chất có …" [level=2] [ref=e149]:
+            - link "Thông tư 36/2019/TT-BLĐTBXH Danh mục máy thiết bị vật tư chất có …" [ref=e150] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=f0e050bc1c6fa79cbbe4ba979aff0e4a6fe0f5796f24151ae17bb7b9535873c2JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vdmFuLWJhbi9MYW8tZG9uZy1UaWVuLWx1b25nL1Rob25nLXR1LTM2LTIwMTktVFQtQkxEVEJYSC1EYW5oLW11Yy1tYXktdGhpZXQtYmktdmF0LXR1LWNoYXQtY28teWV1LWNhdS1uZ2hpZW0tbmdhdC1hbi10b2FuLTQzNTQ3Mi5hc3B4&ntb=1
+          - paragraph [ref=e152]: Toàn văn Thông tư 36/2019/TT-BLĐTBXH của Bộ Lao động - Thương binh và Xã hội quy định về Danh mục các loại máy, thiết bị, vật tư, chất có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động.
+          - list [ref=e154]:
+            - listitem [ref=e155]:
+              - link "36/2019/TT-BLĐTBXH BỘ LAO ĐỘNG - THƯƠN" [ref=e156] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=3326da15bb172db0d9b1ed3c20efe33296f28422b7687c253b7ca93f5820f5a3JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9maWxlcy50aHV2aWVucGhhcGx1YXQudm4vdXBsb2Fkcy9GaWxlTGFyZ2VUZW1wLzIwMTkvMTIvMzAvMzZfMjAxOV9UVC1CTERUQlhIXzQzNTQ3Mi5wZGY&ntb=1
+              - paragraph [ref=e157]: DANH MỤC CÁC LOẠI MÁY, THIẾT BỊ, VẬT TƯ, CHẤT CÓ YÊU CẦU NGHIÊM NGẶT VỀ AN TOÀN, VỆ SINH LAO ĐỘNG (Ban hành kèm theo Thông tư số …
+          - link "See results only from thuvienphapluat.vn" [ref=e158] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=72083e2260f3a6dbac4df9134784f1d5e5e214e5fbf6c0efa197f1e3cf3c119cJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXNpdGU6dGh1dmllbnBoYXBsdWF0LnZuK1RoJWMzJWI0bmcrdCVjNiViMCszNiUyZjIwMTklMmZUVC1CTCVjNCU5MFRCWEgrZGFuaCttJWUxJWJiJWE1YyttJWMzJWExeSt0aGklZTElYmElYmZ0K2IlZTElYmIlOGIrYyVjMyViMyt5JWMzJWFhdStjJWUxJWJhJWE3dStuZ2hpJWMzJWFhbStuZyVlMSViYSViN3QrYW4rdG8lYzMlYTBuK2xhbyslYzQlOTElZTElYmIlOTluZyZmb3JtPURMSU5LUg&ntb=1
+        - listitem [ref=e159]:
+          - link "Cổng thông tin điện tử Chính phủ" [ref=e161] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e71661ca11f083d39c2834e819578f8d64aa9041bb4b06fd22b774e190dc9038JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9jb25nYmFvLmNoaW5ocGh1LnZuL3Zhbi1iYW4vdGhvbmctdHUtc28tMzYtMjAxOS10dC1ibGR0YnhoLTMwNTc5Lmh0bQ&ntb=1
+            - img "Global web icon" [ref=e165]
+            - generic [ref=e166]:
+              - generic [ref=e167]: Cổng thông tin điện tử Chính phủ
+              - generic [ref=e169]:
+                - generic [ref=e170]: https://congbao.chinhphu.vn › van-ban
+                - generic [ref=e171]: Translate this result
+          - heading "Thông tư số 36/2019/TT-BLĐTBXH ban hành Danh mục các loại máy, …" [level=2] [ref=e172]:
+            - link "Thông tư số 36/2019/TT-BLĐTBXH ban hành Danh mục các loại máy, …" [ref=e173] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=e71661ca11f083d39c2834e819578f8d64aa9041bb4b06fd22b774e190dc9038JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9jb25nYmFvLmNoaW5ocGh1LnZuL3Zhbi1iYW4vdGhvbmctdHUtc28tMzYtMjAxOS10dC1ibGR0YnhoLTMwNTc5Lmh0bQ&ntb=1
+          - paragraph [ref=e175]: Dec 30, 2019 · Các cơ quan khác (Ban chỉ đạo, Hội đồng….) ban hành Danh mục các loại máy, thiết bị, vật tư, chất có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động.
+        - listitem [ref=e176]:
+          - generic [ref=e177]:
+            - link "Explore this image" [ref=e180] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=9LBnH7Px&id=CCB11FAECDECE440BE6EB128445449327E879FA0&thid=OIP.9LBnH7PxLinwVNQWMKb6XQHaDo&mediaurl=https://static.luatvietnam.vn/uploaded/Images/Original/2020/03/03/thong-tu-36-2019-tt-bldtbxh_0303151824.png&q=Th%c3%b4ng+t%c6%b0+36%2f2019%2fTT-BL%c4%90TBXH+danh+m%e1%bb%a5c+m%c3%a1y+thi%e1%ba%bft+b%e1%bb%8b+c%c3%b3+y%c3%aau+c%e1%ba%a7u+nghi%c3%aam+ng%e1%ba%b7t+an+to%c3%a0n+lao+%c4%91%e1%bb%99ng&ck=A4E132375CCBDDBA949B6C62DCC00ECD&idpp=rc&expw=800&exph=393&form=rc2idp
+            - generic [ref=e182]:
+              - link "LuatVietnam" [ref=e184] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=27150bca73eabc49482f27481fdfd59114a9a72a9c92502274916ed10181569eJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi9sYW8tZG9uZy90aG9uZy10dS0zNi0yMDE5LXR0LWJsZHRieGgtdGhpZXQtYmkteWV1LWNhdS1uZ2hpZW0tbmdhdC12ZS1hbi10b2FuLXZlLXNpbmgtbGFvLWRvbmctMTgwNzc3LWQxLmh0bWw&ntb=1
+                - img "Global web icon" [ref=e188]
+                - generic [ref=e189]:
+                  - generic [ref=e190]: LuatVietnam
+                  - generic [ref=e192]:
+                    - generic [ref=e193]: https://luatvietnam.vn › lao-dong
+                    - generic [ref=e194]: Translate this result
+              - heading "Thông tư 36/2019/TT-BLĐTBXH thiết bị yêu cầu …" [level=2] [ref=e195]:
+                - link "Thông tư 36/2019/TT-BLĐTBXH thiết bị yêu cầu …" [ref=e196] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=27150bca73eabc49482f27481fdfd59114a9a72a9c92502274916ed10181569eJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi9sYW8tZG9uZy90aG9uZy10dS0zNi0yMDE5LXR0LWJsZHRieGgtdGhpZXQtYmkteWV1LWNhdS1uZ2hpZW0tbmdhdC12ZS1hbi10b2FuLXZlLXNpbmgtbGFvLWRvbmctMTgwNzc3LWQxLmh0bWw&ntb=1
+              - paragraph [ref=e197]: Ngày 30/12/2019, Bộ Lao động Thương binh và Xã hội ban hành Thông tư 36/2019/TT-BLĐTBXH về việc ban hành Danh mục các loại máy, thiết bị, vật tư, …
+        - listitem [ref=e199]:
+          - link "thuvienphapluat.vn" [ref=e201] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3326da15bb172db0d9b1ed3c20efe33296f28422b7687c253b7ca93f5820f5a3JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9maWxlcy50aHV2aWVucGhhcGx1YXQudm4vdXBsb2Fkcy9GaWxlTGFyZ2VUZW1wLzIwMTkvMTIvMzAvMzZfMjAxOV9UVC1CTERUQlhIXzQzNTQ3Mi5wZGY&ntb=1
+            - img "Global web icon" [ref=e205]
+            - generic [ref=e206]:
+              - generic [ref=e207]: thuvienphapluat.vn
+              - generic [ref=e209]:
+                - generic [ref=e210]: https://files.thuvienphapluat.vn › uploads › FileLar…
+                - text: · PDF file
+                - generic [ref=e211]: Translate this result
+          - heading "36/2019/TT-BLĐTBXH BỘ LAO ĐỘNG - THƯƠN" [level=2] [ref=e212]:
+            - link "36/2019/TT-BLĐTBXH BỘ LAO ĐỘNG - THƯƠN":
+              - /url: https://www.bing.com/ck/a?!&&p=3326da15bb172db0d9b1ed3c20efe33296f28422b7687c253b7ca93f5820f5a3JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9maWxlcy50aHV2aWVucGhhcGx1YXQudm4vdXBsb2Fkcy9GaWxlTGFyZ2VUZW1wLzIwMTkvMTIvMzAvMzZfMjAxOV9UVC1CTERUQlhIXzQzNTQ3Mi5wZGY&ntb=1
+          - paragraph [ref=e214]: DANH MỤC CÁC LOẠI MÁY, THIẾT BỊ, VẬT TƯ, CHẤT CÓ YÊU CẦU NGHIÊM NGẶT VỀ AN TOÀN, VỆ SINH LAO ĐỘNG (Ban hành kèm theo Thông tư số 36/2019/TT-BLĐTBXH ngày 30 tháng 12 …
+        - listitem [ref=e215]:
+          - link "Công ty luật Minh Khuê" [ref=e217] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=5d68ff5fa79824e43800fd1eb41c46c0ced715fd6488841c1b96ead5f3882094JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0bWluaGtodWUudm4vdmFuLWJhbi90aG9uZy10dS1zby0zNi0yMDE5LXR0LWJsZHRieGguYXNweA&ntb=1
+            - generic [ref=e222]:
+              - generic [ref=e223]: Công ty luật Minh Khuê
+              - generic [ref=e225]:
+                - generic [ref=e226]: https://luatminhkhue.vn › van-ban
+                - generic [ref=e227]: Translate this result
+          - heading "Thông tư số 36/2019/TT-BLĐTBXH về danh mục máy móc có yêu cầu …" [level=2] [ref=e228]:
+            - link "Thông tư số 36/2019/TT-BLĐTBXH về danh mục máy móc có yêu cầu …":
+              - /url: https://www.bing.com/ck/a?!&&p=5d68ff5fa79824e43800fd1eb41c46c0ced715fd6488841c1b96ead5f3882094JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0bWluaGtodWUudm4vdmFuLWJhbi90aG9uZy10dS1zby0zNi0yMDE5LXR0LWJsZHRieGguYXNweA&ntb=1
+          - paragraph [ref=e230]: Thông tư số 53/2016/TT-BLĐTBXH ngày 28 tháng 12 năm 2016 của Bộ Lao động - Thương binh và Xã hội về việc ban hành Danh mục các loại máy, thiết bị, vật tư, chất có yêu cầu nghiêm ngặt về an …
+        - listitem [ref=e231]:
+          - link "HSE Provider" [ref=e233] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=44b32ff90c1314d301bf4db4a0aef68dca2497e5bee0e35e7f53377e9b52e8b3JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9hdGxkLnZuL2xhdy8xMzYvY29udGVudA&ntb=1
+            - generic [ref=e238]:
+              - generic [ref=e239]: HSE Provider
+              - generic [ref=e241]:
+                - generic [ref=e242]: https://atld.vn › law › content
+                - generic [ref=e243]: Translate this result
+          - heading "HSE Provider | Thông tư 36/2019/TT-BLĐTBXH về Danh mục các loại …" [level=2] [ref=e244]:
+            - link "HSE Provider | Thông tư 36/2019/TT-BLĐTBXH về Danh mục các loại …":
+              - /url: https://www.bing.com/ck/a?!&&p=44b32ff90c1314d301bf4db4a0aef68dca2497e5bee0e35e7f53377e9b52e8b3JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9hdGxkLnZuL2xhdy8xMzYvY29udGVudA&ntb=1
+          - paragraph [ref=e246]: Căn cứ vào tình hình phát triển kinh tế - xã hội và yêu cầu quản lý nhà nước, các Bộ theo thẩm quyền quản lý đối với máy, thiết bị, vật tư, chất có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động quy …
+        - listitem [ref=e247]:
+          - link "Hệ thống pháp luật Việt nam" [ref=e249] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=785557ebbc6d415e78aadaca4c1517aa3dd4972f1e8c9b5356ed9dfb03a62fa7JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9oZXRob25ncGhhcGx1YXQuY29tL2NpcmN1bGFyLW5vLTM2LTIwMTktdHQtYmxkdGJ4aC1kYXRlZC1kZWNlbWJlci0zMC0yMDE5LW9uLXByb211bGdhdGluZy10aGUtbGlzdC1vZi1tYWNoaW5lcnktZXF1aXBtZW50LW1hdGVyaWFscy1hbmQtc3Vic3RhbmNlcy1zdWJqZWN0LXRvLXN0cmljdC1vY2N1cGF0aW9uYWwtc2FmZXR5LWFuZC1oZWFsdGgtcmVxdWlyZW1lbnRzLmh0bWw&ntb=1
+            - generic [ref=e254]:
+              - generic [ref=e255]: Hệ thống pháp luật Việt nam
+              - generic [ref=e257]:
+                - generic [ref=e258]: https://hethongphapluat.com
+                - generic [ref=e259]: Translate this result
+          - heading "Circular no. 36/2019/tt-bldtbxh dated december 30, 2019 on …" [level=2] [ref=e260]:
+            - link "Circular no. 36/2019/tt-bldtbxh dated december 30, 2019 on …":
+              - /url: https://www.bing.com/ck/a?!&&p=785557ebbc6d415e78aadaca4c1517aa3dd4972f1e8c9b5356ed9dfb03a62fa7JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9oZXRob25ncGhhcGx1YXQuY29tL2NpcmN1bGFyLW5vLTM2LTIwMTktdHQtYmxkdGJ4aC1kYXRlZC1kZWNlbWJlci0zMC0yMDE5LW9uLXByb211bGdhdGluZy10aGUtbGlzdC1vZi1tYWNoaW5lcnktZXF1aXBtZW50LW1hdGVyaWFscy1hbmQtc3Vic3RhbmNlcy1zdWJqZWN0LXRvLXN0cmljdC1vY2N1cGF0aW9uYWwtc2FmZXR5LWFuZC1oZWFsdGgtcmVxdWlyZW1lbnRzLmh0bWw&ntb=1
+          - paragraph [ref=e262]: Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành Thông tư Ban hành Danh mục các loại máy, thiết bị, vật tư, chất có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động. Điều 1. Danh mục các loại …
+        - listitem [ref=e263]:
+          - generic [ref=e264]:
+            - link "Explore this image" [ref=e267] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=lNZmajWT&id=2BBA99424C49676C1025DE20DCA2AE9D01CD04C8&thid=OIP.lNZmajWTxxEL5hMuWORzagHaE8&mediaurl=https://www.luatmoitruong.vn/~gitbook/image?url=https%3A%2F%2F2223766484-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LsHdwEuW8q9E1UtLEhd%252Fsocialpreview%252F7CTD27i2zg2eZPtBMob3%252Fluatmoitruong%2520PNG.png%3Falt%3Dmedia%26token%3D30e11420-077b-4a96-be9b-5ca749f4971e&width=1200&height=630&sign=8ab9229b&sv=2&q=Th%c3%b4ng+t%c6%b0+36%2f2019%2fTT-BL%c4%90TBXH+danh+m%e1%bb%a5c+m%c3%a1y+thi%e1%ba%bft+b%e1%bb%8b+c%c3%b3+y%c3%aau+c%e1%ba%a7u+nghi%c3%aam+ng%e1%ba%b7t+an+to%c3%a0n+lao+%c4%91%e1%bb%99ng&ck=0786F516C3C4A46FE71BEBF1973B1932&idpp=rc&expw=945&exph=630&form=rc2idp
+            - generic [ref=e269]:
+              - link "luatmoitruong.vn" [ref=e271] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=ae7d7dc085a1921d6e97f082b8a47e2e06ad736d18318121ad8949064c0fc502JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cubHVhdG1vaXRydW9uZy52bi9hbi10b2FuLWxhby1kb25nL3Rob25nLXR1LTM2LTIwMTktdHQtYmxkdGJ4aC9kYW5oLW11Yy1jYWMtbG9haS1tYXktdGhpZXQtYmktdmF0LXR1LWNoYXQtY28teWV1LWNhdS1uZ2hpZW0tbmdhdC12ZS1hbi10b2FuLXZlLXNpbmgtbGFvLWRvbmc&ntb=1
+                - generic [ref=e276]:
+                  - generic [ref=e277]: luatmoitruong.vn
+                  - generic [ref=e279]:
+                    - generic [ref=e280]: https://www.luatmoitruong.vn › an-toan-lao-d…
+                    - generic [ref=e281]: Translate this result
+              - heading "Danh mục các loại máy, thiết bị, vật tư, chất có yêu cầu …" [level=2] [ref=e282]:
+                - link "Danh mục các loại máy, thiết bị, vật tư, chất có yêu cầu …" [ref=e283] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=ae7d7dc085a1921d6e97f082b8a47e2e06ad736d18318121ad8949064c0fc502JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cubHVhdG1vaXRydW9uZy52bi9hbi10b2FuLWxhby1kb25nL3Rob25nLXR1LTM2LTIwMTktdHQtYmxkdGJ4aC9kYW5oLW11Yy1jYWMtbG9haS1tYXktdGhpZXQtYmktdmF0LXR1LWNoYXQtY28teWV1LWNhdS1uZ2hpZW0tbmdhdC12ZS1hbi10b2FuLXZlLXNpbmgtbGFvLWRvbmc&ntb=1
+              - paragraph [ref=e284]: Danh mục các loại máy, thiết bị, vật tư, chất có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động (Ban hành kèm theo Thông tư số 36/2019/TT-BLĐTBXH ngày 30 …
+        - listitem [ref=e286]:
+          - link "Hệ thống pháp luật Việt nam" [ref=e288] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e7a8c2e2598a7cf06377190e41dddb0ba64d0739e3e3a6b87bfd9f030464cccfJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9oZXRob25ncGhhcGx1YXQuY29tL3Rob25nLXR1LTM2LTIwMTktdHQtYmxkdGJ4aC12ZS1kYW5oLW11Yy1jYWMtbG9haS1tYXktdGhpZXQtYmktdmF0LXR1LWNoYXQtY28teWV1LWNhdS1uZ2hpZW0tbmdhdC12ZS1hbi10b2FuLXZlLXNpbmgtbGFvLWRvbmctZG8tYm8tbGFvLWRvbmctdGh1b25nLWJpbmgtdmEteGEtaG9pLWJhbi1oYW5oLmh0bWw&ntb=1
+            - generic [ref=e293]:
+              - generic [ref=e294]: Hệ thống pháp luật Việt nam
+              - generic [ref=e296]:
+                - generic [ref=e297]: https://hethongphapluat.com
+                - generic [ref=e298]: Translate this result
+          - heading "Thông tư 36/2019/tt-blđtbxh về danh mục các loại máy, thiết bị, vật tư ..." [level=2] [ref=e299]:
+            - link "Thông tư 36/2019/tt-blđtbxh về danh mục các loại máy, thiết bị, vật tư ...":
+              - /url: https://www.bing.com/ck/a?!&&p=e7a8c2e2598a7cf06377190e41dddb0ba64d0739e3e3a6b87bfd9f030464cccfJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9oZXRob25ncGhhcGx1YXQuY29tL3Rob25nLXR1LTM2LTIwMTktdHQtYmxkdGJ4aC12ZS1kYW5oLW11Yy1jYWMtbG9haS1tYXktdGhpZXQtYmktdmF0LXR1LWNoYXQtY28teWV1LWNhdS1uZ2hpZW0tbmdhdC12ZS1hbi10b2FuLXZlLXNpbmgtbGFvLWRvbmctZG8tYm8tbGFvLWRvbmctdGh1b25nLWJpbmgtdmEteGEtaG9pLWJhbi1oYW5oLmh0bWw&ntb=1
+          - paragraph [ref=e301]: Đây là văn bản pháp lý quan trọng nhằm chuẩn hóa danh mục các đối tượng có nguy cơ cao gây tai nạn lao động hoặc sự cố mất an toàn, làm cơ sở cho công tác kiểm định và giám sát an toàn lao …
+        - listitem [ref=e302]:
+          - generic [ref=e303]:
+            - link "Explore this image" [ref=e306] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=g8kJbWma&id=3D349341CC0D33ACABF668F3EEC5AA8267A42824&thid=OIP.g8kJbWma-g03tAEr1Z3wqwAAAA&mediaurl=https://antoannamviet.com/wp-content/uploads/2025/11/457150725_122095059236506310_4361385418264960290_n.jpg&q=Th%c3%b4ng+t%c6%b0+36%2f2019%2fTT-BL%c4%90TBXH+danh+m%e1%bb%a5c+m%c3%a1y+thi%e1%ba%bft+b%e1%bb%8b+c%c3%b3+y%c3%aau+c%e1%ba%a7u+nghi%c3%aam+ng%e1%ba%b7t+an+to%c3%a0n+lao+%c4%91%e1%bb%99ng&ck=3DAE1E04F82B0F8777948E5C3239257D&idpp=rc&expw=297&exph=278&form=rc2idp
+            - generic [ref=e308]:
+              - link "antoannamviet.com" [ref=e310] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=148924155860388751893077c55b0ed95e3e67bcdfbf9041528ddde424cedde0JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9hbnRvYW5uYW12aWV0LmNvbS90aG9uZy10dS0zNi0yMDE5LXR0LWJsZHRieGgtZGFuaC1tdWMtY2FjLWxvYWktdGhpZXQtYmktY28teWV1LWNhdS1uZ2hpZW0tbmdhdC12ZS1hbi10b2FuLXZlLXNpbmgtbGFvLWRvbmcv&ntb=1
+                - generic [ref=e315]:
+                  - generic [ref=e316]: antoannamviet.com
+                  - generic [ref=e318]:
+                    - generic [ref=e319]: https://antoannamviet.com
+                    - generic [ref=e320]: Translate this result
+              - heading "Thông tư 36/2019/TT-BLĐTBXH thiết bị nghiêm ngặt về …" [level=2] [ref=e321]:
+                - link "Thông tư 36/2019/TT-BLĐTBXH thiết bị nghiêm ngặt về …" [ref=e322] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=148924155860388751893077c55b0ed95e3e67bcdfbf9041528ddde424cedde0JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9hbnRvYW5uYW12aWV0LmNvbS90aG9uZy10dS0zNi0yMDE5LXR0LWJsZHRieGgtZGFuaC1tdWMtY2FjLWxvYWktdGhpZXQtYmktY28teWV1LWNhdS1uZ2hpZW0tbmdhdC12ZS1hbi10b2FuLXZlLXNpbmgtbGFvLWRvbmcv&ntb=1
+              - paragraph [ref=e323]: Apr 3, 2023 · Thông tư 36/2019/TT-BLĐTBXH là văn bản mà trong đó có danh mục các loại thiết bị có yêu cầu nghiêm ngặt về an toàn vệ sinh lao động.
+        - listitem [ref=e325]:
+          - generic [ref=e326]:
+            - heading "Deep dive into Thông tư 36/2019/TT-BLĐTBXH danh mục máy thiết bị …" [level=2] [ref=e327]:
+              - text: Deep dive into
+              - strong [ref=e328]: Thông tư 36/2019/TT-BLĐTBXH danh mục máy thiết bị
+              - text: …
+            - list [ref=e329]:
+              - listitem [ref=e330]:
+                - link "danh mục máy và thiết bị" [ref=e331] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=c158c55a8d1168a06203bc2bc296a0edf10dc87a4a1e556b54c79c47704c1d07JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPWRhbmgrbSVlMSViYiVhNWMrbSVjMyVhMXkrdiVjMyVhMCt0aGklZTElYmElYmZ0K2IlZTElYmIlOGImRk9STT1RU1JFMQ&ntb=1
+                  - generic [ref=e333]:
+                    - text: danh mục máy
+                    - strong [ref=e334]: và
+                    - text: thiết bị
+              - listitem [ref=e335]:
+                - link "danh mục máy móc và thiết bị" [ref=e336] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=d93abcd2603460c39d5f67ecaad185ae4b18853c7bbd5f51556812a1aadcf7b6JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPWRhbmgrbSVlMSViYiVhNWMrbSVjMyVhMXkrbSVjMyViM2MrdiVjMyVhMCt0aGklZTElYmElYmZ0K2IlZTElYmIlOGImRk9STT1RU1JFMg&ntb=1
+                  - generic [ref=e338]:
+                    - text: danh mục máy
+                    - strong [ref=e339]: móc và
+                    - text: thiết bị
+        - listitem [ref=e340]:
+          - link "Some results have been removed" [ref=e342] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6a2eeb21b394098b43050e176afdd54e61b4c0836f959b37fe99e70d3b2b6767JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=e343]:
+          - navigation "More results for Thông tư 36/2019/TT-BLĐTBXH danh mục máy thiết bị có yêu cầu nghiêm ngặt an toàn lao động":
+            - list:
+              - listitem [ref=e344]:
+                - generic "Page 1" [ref=e345]: "1"
+              - listitem [ref=e346]:
+                - link "Page 2" [ref=e347] [cursor=pointer]:
+                  - /url: /search?q=Th%c3%b4ng+t%c6%b0+36%2f2019%2fTT-BL%c4%90TBXH+danh+m%e1%bb%a5c+m%c3%a1y+thi%e1%ba%bft+b%e1%bb%8b+c%c3%b3+y%c3%aau+c%e1%ba%a7u+nghi%c3%aam+ng%e1%ba%b7t+an+to%c3%a0n+lao+%c4%91%e1%bb%99ng&FPIG=C24122A3CF3747C6A4CD183B33035087&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e348]:
+                - link "Page 3" [ref=e349] [cursor=pointer]:
+                  - /url: /search?q=Th%c3%b4ng+t%c6%b0+36%2f2019%2fTT-BL%c4%90TBXH+danh+m%e1%bb%a5c+m%c3%a1y+thi%e1%ba%bft+b%e1%bb%8b+c%c3%b3+y%c3%aau+c%e1%ba%a7u+nghi%c3%aam+ng%e1%ba%b7t+an+to%c3%a0n+lao+%c4%91%e1%bb%99ng&FPIG=C24122A3CF3747C6A4CD183B33035087&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e350]:
+                - link "Next page" [ref=e351] [cursor=pointer]:
+                  - /url: /search?q=Th%c3%b4ng+t%c6%b0+36%2f2019%2fTT-BL%c4%90TBXH+danh+m%e1%bb%a5c+m%c3%a1y+thi%e1%ba%bft+b%e1%bb%8b+c%c3%b3+y%c3%aau+c%e1%ba%a7u+nghi%c3%aam+ng%e1%ba%b7t+an+to%c3%a0n+lao+%c4%91%e1%bb%99ng&FPIG=C24122A3CF3747C6A4CD183B33035087&first=11&FORM=PORE
+    - complementary "Additional Results" [ref=e352]:
+      - list [ref=e353]:
+        - listitem [ref=e354]:
+          - generic "Related searches" [ref=e355]:
+            - generic [ref=e357]:
+              - heading "Deep dive into Thông tư 36/2019/TT-BLĐTBXH danh mục máy thiết bị …" [level=2] [ref=e359]:
+                - text: Deep dive into
+                - strong [ref=e360]: Thông tư 36/2019/TT-BLĐTBXH danh mục máy thiết bị
+                - text: …
+              - generic [ref=e361]:
+                - link "danh mục máy và thiết bị" [ref=e363] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=278f63ba58e9c5f731bf9005294e8abb8181346092e580267d62fd7b6856db8eJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPWRhbmgrbSVlMSViYiVhNWMrbSVjMyVhMXkrdiVjMyVhMCt0aGklZTElYmElYmZ0K2IlZTElYmIlOGImRk9STT1SNUZE&ntb=1
+                  - generic [ref=e365]:
+                    - text: danh mục máy
+                    - strong [ref=e366]: và
+                    - text: thiết bị
+                - link "danh mục máy móc và thiết bị" [ref=e368] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=15b8258fcced244d1de368b93cf98c808e97d6aa24450096536f1dc00cb57bdcJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPWRhbmgrbSVlMSViYiVhNWMrbSVjMyVhMXkrbSVjMyViM2MrdiVjMyVhMCt0aGklZTElYmElYmZ0K2IlZTElYmIlOGImRk9STT1SNUZEMQ&ntb=1
+                  - generic [ref=e370]:
+                    - text: danh mục máy
+                    - strong [ref=e371]: móc và
+                    - text: thiết bị
+  - contentinfo [ref=e372]:
+    - generic [ref=e373]:
+      - list:
+        - listitem [ref=e374]:
+          - link "Privacy" [ref=e375] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7b44db685677b97b59d99ac58a6dcb7b55ed8b4aacd5ffe64e4ae4c0aa82d70bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e376]:
+          - link "Terms" [ref=e377] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0c98928a6597273e4a5057fc09082f8c5ed11f1634b17ea06829b02b1e9d7505JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

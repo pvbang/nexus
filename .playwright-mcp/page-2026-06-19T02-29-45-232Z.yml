@@ -1,0 +1,459 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: Nghệ thuật bay người đánh đầu" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=vi&ictx=2&sa=X&ved=0ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQPQgK
+          - 'img "World Cup 2026: Nghệ thuật bay người đánh đầu" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Tìm kiếm" [ref=e19]: EN 10204 type 3.1 inspection certificate manufacturer authorized inspection representative 2.1 2.2 3.2 EN 10204 type 3.1 inspection certificate manufacturer authorized inspection representative 2.1 2.2 3.2
+            - generic [ref=e20]:
+              - button "Xóa" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Công cụ nhập" [ref=e28] [cursor=pointer]:
+                  - img [ref=e30]
+                - button "Tìm kiếm bằng giọng nói" [ref=e32] [cursor=pointer]:
+                  - img [ref=e33]
+                - button "Tìm kiếm bằng hình ảnh" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+          - button "Tìm kiếm" [ref=e38] [cursor=pointer]:
+            - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Cài đặt" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - button "Chia sẻ" [ref=e51] [cursor=pointer]:
+        - img [ref=e55]
+      - generic [ref=e57]:
+        - button "Các ứng dụng của Google" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+        - link "Đăng nhập" [ref=e64] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3DEN%2B10204%2Btype%2B3.1%2Binspection%2Bcertificate%2Bmanufacturer%2Bauthorized%2Binspection%2Brepresentative%2B2.1%2B2.2%2B3.2&ec=futura_srp_og_si_72236_p
+  - generic [ref=e66]:
+    - navigation [ref=e72]:
+      - generic [ref=e78]:
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "Chế độ AI" [ref=e83] [cursor=pointer]:
+              - /url: /search?q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sca_esv=bec4f44b4fc03395&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-ESUzlwBYKB4NPT3tD_N1D94kOgQVef6Cvy4zqkMGa3_hVq5CjpLTEyDkLF7DTnEhSfOHcFWvE3NleApqLubXqqPpVHxYucwrAm2fF1Pq4_tIy0uZEtyA30CX4x-8jxIx3KIhgq0rqgn0CtHAoIv9BSNN99asysTEBdDZoM519F_441Iiq&aep=1&ntc=1&sa=X&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQ2J8OegQIEBAD
+              - generic [ref=e86]: Chế độ AI
+          - listitem [ref=e87]:
+            - link "Tất cả" [disabled] [ref=e88]:
+              - generic [ref=e90]: Tất cả
+          - listitem [ref=e91]:
+            - link "Hình ảnh" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-ESUzlwBYKB4NPT3tD_N1D94kOgQVef6Cvy4zqkMGa3_hVq5CjpLTEyDkLF7DTnEhSfOHcFWvE3NleApqLubXqqPpVHxYucwrAm2fF1Pq4_tIy0uZEtyA30CX4x-8jxIx3KIhgq0rqgn0CtHAoIv9BSNN99asysTEBdDZoM519F_441Iiq&q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sa=X&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQtKgLegQIFxAB
+              - generic [ref=e94]: Hình ảnh
+          - listitem [ref=e95]:
+            - link "Mua sắm" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-ESUzlwBYKB4NPT3tD_N1D94kOgQVef6Cvy4zqkMGa3_hVq5CjpLTEyDkLF7DTnEhSfOHcFWvE3NleApqLubXqqPpVHxYucwrAm2fF1Pq4_tIy0uZEtyA30CX4x-8jxIx3KIhgq0rqgn0CtHAoIv9BSNN99asysTEBdDZoM519F_441Iiq&q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&ved=1t:220175&ictx=111
+              - generic [ref=e98]: Mua sắm
+          - listitem [ref=e99]:
+            - link "Video ngắn" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-ESUzlwBYKB4NPT3tD_N1D94kOgQVef6Cvy4zqkMGa3_hVq5CjpLTEyDkLF7DTnEhSfOHcFWvE3NleApqLubXqqPpVHxYucwrAm2fF1Pq4_tIy0uZEtyA30CX4x-8jxIx3KIhgq0rqgn0CtHAoIv9BSNN99asysTEBdDZoM519F_441Iiq&q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sa=X&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQs6gLegQIExAB
+              - generic [ref=e102]: Video ngắn
+          - listitem [ref=e103]:
+            - link "Video" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-ESUzlwBYKB4NPT3tD_N1D94kOgQVef6Cvy4zqkMGa3_hVq5CjpLTEyDkLF7DTnEhSfOHcFWvE3NleApqLubXqqPpVHxYucwrAm2fF1Pq4_tIy0uZEtyA30CX4x-8jxIx3KIhgq0rqgn0CtHAoIv9BSNN99asysTEBdDZoM519F_441Iiq&q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sa=X&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQtKgLegQIFhAB
+              - generic [ref=e106]: Video
+          - listitem [ref=e107]:
+            - link "Web" [ref=e108] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=web&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-ESUzlwBYKB4NPT3tD_N1D94kOgQVef6Cvy4zqkMGa3_hVq5CjpLTEyDkLF7DTnEhSfOHcFWvE3NleApqLubXqqPpVHxYucwrAm2fF1Pq4_tIy0uZEtyA30CX4x-8jxIx3KIhgq0rqgn0CtHAoIv9BSNN99asysTEBdDZoM519F_441Iiq&q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sa=X&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQs6gLegQIEhAB
+              - generic [ref=e110]: Web
+          - listitem [ref=e111]:
+            - button "Các bộ lọc khác" [ref=e112] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]: Thêm
+                  - img [ref=e117]
+        - button "Công cụ" [ref=e120] [cursor=pointer]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: Công cụ
+            - img [ref=e125]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e127]
+    - generic [ref=e133]:
+      - generic [ref=e134]: Looking for results in English?
+      - link [ref=e135] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e137]
+      - link "Change to English" [ref=e139] [cursor=pointer]:
+        - /url: /setprefs?sig=0_9G5qUwbqBY3u3AWlSDMC2g08LLI%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DEN%2B10204%2Btype%2B3.1%2Binspection%2Bcertificate%2Bmanufacturer%2Bauthorized%2Binspection%2Brepresentative%2B2.1%2B2.2%2B3.2&hl=en&sa=X&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQhoQCKAF6BAgOEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e140] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e142] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQiIQCKAN6BAgOEAY#languages
+    - generic [ref=e143]:
+      - generic [ref=e162]:
+        - generic [ref=e164]:
+          - generic [ref=e166]:
+            - generic [ref=e167]:
+              - img [ref=e168]
+              - heading "Thông tin tổng quan do AI tạo" [level=2] [ref=e170]
+            - button "Thông tin về kết quả này" [ref=e174]:
+              - img [ref=e176]
+          - generic [ref=e200]:
+            - generic [ref=e201]:
+              - strong [ref=e202]: EN 10204
+              - text: is
+              - mark [ref=e203]: a European standard defining types of inspection documents for metallic products
+              - text: . A
+              - strong [ref=e204]: Type 3.1 Inspection Certificate
+              - text: is validated by the manufacturer’s authorized inspection representative, who is independent of the manufacturing process, and confirms that delivered batches comply with the purchase order specifications.
+              - generic [ref=e206]:
+                - link "LinkedIn (+1) – Xem các đường liên kết có liên quan" [ref=e207] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/posts/baher-elsheikh_types-of-inspection-documents-in-en-10204-activity-7409936223655436289-ORr5
+                - button "LinkedIn (+1) – Xem các đường liên kết có liên quan" [disabled] [ref=e208]:
+                  - generic [ref=e210]:
+                    - generic [ref=e211]: LinkedIn
+                    - generic [ref=e212]: ·Baher Elsheikh
+                    - generic [ref=e213]: "+1"
+                  - img [ref=e216]
+            - generic [ref=e218]:
+              - text: "A breakdown of the full standard and document types includes:"
+              - generic [ref=e220]:
+                - link "Φιλιππόπουλος α.ε. – Xem các đường liên kết có liên quan" [ref=e221] [cursor=pointer]:
+                  - /url: https://www.philippopoulos.gr/en/en-10204-inspection-documents-for-industrial-valves-and-process-equipment.htm
+                - button "Φιλιππόπουλος α.ε. – Xem các đường liên kết có liên quan" [disabled] [ref=e222]:
+                  - generic [ref=e225]: Φιλιππόπουλος α.ε.
+                  - img [ref=e228]
+            - heading "Declaration of Compliance" [level=3] [ref=e231]
+            - list [ref=e233]:
+              - listitem [ref=e234]:
+                - generic [ref=e235]:
+                  - strong [ref=e236]: "Type 2.1:"
+                  - text: A simple statement by the manufacturer declaring that the supplied products meet the order requirements. No test results are provided.
+                - generic [ref=e238]:
+                  - link "LinkedIn (+1) – Xem các đường liên kết có liên quan" [ref=e239] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/posts/baher-elsheikh_types-of-inspection-documents-in-en-10204-activity-7409936223655436289-ORr5
+                  - button "LinkedIn (+1) – Xem các đường liên kết có liên quan" [disabled] [ref=e240]:
+                    - generic [ref=e242]:
+                      - generic [ref=e243]: LinkedIn
+                      - generic [ref=e244]: ·Baher Elsheikh
+                      - generic [ref=e245]: "+1"
+                    - img [ref=e248]
+              - listitem [ref=e250]:
+                - generic [ref=e251]:
+                  - strong [ref=e252]: "Type 2.2:"
+                  - text: A test report providing general or non-specific batch test results. The results are not necessarily linked to the exact batch delivered to the customer.
+                - generic [ref=e254]:
+                  - link "Nifty alloys LLC (+2) – Xem các đường liên kết có liên quan" [ref=e255] [cursor=pointer]:
+                    - /url: https://niftyalloys.com/blogs/en-10204-22-vs-31-vs-32-certification
+                  - button "Nifty alloys LLC (+2) – Xem các đường liên kết có liên quan" [disabled] [ref=e256]:
+                    - generic [ref=e258]:
+                      - generic [ref=e259]: Nifty alloys LLC
+                      - generic [ref=e260]: "+2"
+                    - img [ref=e263]
+        - button "Hiện thêm Thông tin tổng quan do AI tạo" [ref=e277]:
+          - generic [ref=e279] [cursor=pointer]:
+            - generic [ref=e280]: Hiện thêm
+            - img [ref=e282]
+      - main [ref=e285]:
+        - generic [ref=e289]:
+          - generic [ref=e292]:
+            - heading "Web results" [level=2] [ref=e293]
+            - generic [ref=e294]:
+              - generic [ref=e297]:
+                - link "EN 10204 2.2 vs 3.1 vs 3.2 Certification Nifty alloys LLC https://niftyalloys.com › blogs › en-10..." [ref=e299] [cursor=pointer]:
+                  - /url: https://niftyalloys.com/blogs/en-10204-22-vs-31-vs-32-certification
+                  - heading "EN 10204 2.2 vs 3.1 vs 3.2 Certification" [level=3] [ref=e300]
+                  - generic [ref=e306]:
+                    - generic [ref=e308]: Nifty alloys LLC
+                    - generic [ref=e310]: https://niftyalloys.com › blogs › en-10...
+                - generic [ref=e311]:
+                  - generic [ref=e312]: ·
+                  - link "Dịch trang này" [ref=e313] [cursor=pointer]:
+                    - /url: https://translate.google.com/translate?u=https://niftyalloys.com/blogs/en-10204-22-vs-31-vs-32-certification&hl=vi&sl=en&tl=vi&client=search
+                - button "Thông tin về kết quả này" [ref=e314] [cursor=pointer]:
+                  - img [ref=e317]
+              - generic [ref=e320]:
+                - generic [ref=e321]: 18 thg 5, 2026 —
+                - generic [ref=e322]:
+                  - emphasis [ref=e323]: Type 2.2 is a manufacturer's test report
+                  - text: based on non-specific batch data. Type 3.1 is an inspection certificate with actual test results from ...
+          - generic [ref=e328]:
+            - heading "Mọi người cũng hỏi" [level=2] [ref=e330]
+            - generic [ref=e331]:
+              - button "What is the difference between EN 10204 3.1 and 3.2 inspection certificates?" [ref=e337] [cursor=pointer]:
+                - generic [ref=e339]: What is the difference between EN 10204 3.1 and 3.2 inspection certificates?
+                - img [ref=e342]
+              - button "What is a 10204 type 3.1 certificate?" [ref=e351] [cursor=pointer]:
+                - generic [ref=e353]: What is a 10204 type 3.1 certificate?
+                - img [ref=e356]
+              - button "What is test certificate 3.1 according to EN 10204?" [ref=e365] [cursor=pointer]:
+                - generic [ref=e367]: What is test certificate 3.1 according to EN 10204?
+                - img [ref=e370]
+              - button "What is EN 10204 Type 3.2 certification?" [ref=e379] [cursor=pointer]:
+                - generic [ref=e381]: What is EN 10204 Type 3.2 certification?
+                - img [ref=e384]
+          - generic [ref=e389]:
+            - heading "Web results" [level=2] [ref=e390]
+            - generic [ref=e391]:
+              - generic [ref=e394]:
+                - link "What is the Difference Between EN 10204 3.1 and 3.2 ... Holland Applied Technologies https://hollandapt.com › what-is-the-dif..." [ref=e396] [cursor=pointer]:
+                  - /url: https://hollandapt.com/what-is-the-difference-between-en-10204-3-1-and-3-2-inspection-certificates/
+                  - heading "What is the Difference Between EN 10204 3.1 and 3.2 ..." [level=3] [ref=e397]
+                  - generic [ref=e399]:
+                    - img [ref=e404]
+                    - generic [ref=e406]:
+                      - generic [ref=e408]: Holland Applied Technologies
+                      - generic [ref=e410]: https://hollandapt.com › what-is-the-dif...
+                - generic [ref=e411]:
+                  - generic [ref=e412]: ·
+                  - link "Dịch trang này" [ref=e413] [cursor=pointer]:
+                    - /url: https://translate.google.com/translate?u=https://hollandapt.com/what-is-the-difference-between-en-10204-3-1-and-3-2-inspection-certificates/&hl=vi&sl=en&tl=vi&client=search
+                - button "Thông tin về kết quả này" [ref=e414] [cursor=pointer]:
+                  - img [ref=e417]
+              - generic [ref=e421]:
+                - text: A
+                - emphasis [ref=e422]: 3.1 Inspection Certificate
+                - text: is endorsed only by the
+                - emphasis [ref=e423]: manufacturers
+                - text: own
+                - emphasis [ref=e424]: representative
+                - text: who has to be independent from the
+                - emphasis [ref=e425]: manufacturing
+                - text: process, such as the ...
+          - generic [ref=e429]:
+            - generic [ref=e432]:
+              - link "Types of Inspection Documents | BS EN 10204:2004 Penflex https://www.penflex.com › News" [ref=e434] [cursor=pointer]:
+                - /url: https://www.penflex.com/news/bs-en-10204-2004-products-types-inspection-documents/
+                - heading "Types of Inspection Documents | BS EN 10204:2004" [level=3] [ref=e435]
+                - generic [ref=e441]:
+                  - generic [ref=e443]: Penflex
+                  - generic [ref=e445]: https://www.penflex.com › News
+              - generic [ref=e446]:
+                - generic [ref=e447]: ·
+                - link "Dịch trang này" [ref=e448] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.penflex.com/news/bs-en-10204-2004-products-types-inspection-documents/&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e449] [cursor=pointer]:
+                - img [ref=e452]
+            - generic [ref=e456]:
+              - emphasis [ref=e457]: Inspection certificate 3.1
+              - text: “type 3.1” – is simply a document issued by the
+              - emphasis [ref=e458]: manufacturer
+              - text: in which he declares that the products supplied are in compliance with ...
+          - generic [ref=e465]:
+            - generic [ref=e468]:
+              - 'link "Learn about 4 Types of Inspection Certificates as per ... YouTube · HardHat Engineer >11,8 N lượt xem: · 2 năm trước" [ref=e470] [cursor=pointer]':
+                - /url: https://www.youtube.com/watch?v=CTbNOQd_OPA
+                - heading "Learn about 4 Types of Inspection Certificates as per ..." [level=3] [ref=e471]
+                - generic [ref=e477]:
+                  - generic [ref=e479]: YouTube · HardHat Engineer
+                  - generic [ref=e481]: ">11,8 N lượt xem: · 2 năm trước"
+              - button "Thông tin về kết quả này" [ref=e482] [cursor=pointer]:
+                - img [ref=e485]
+            - generic [ref=e487]:
+              - button "Learn about 4 Types of Inspection Certificates as per ... của HardHat Engineer trên YouTube. Phát trên Google. 5:30" [ref=e488] [cursor=pointer]:
+                - generic [ref=e490]:
+                  - img [ref=e493]
+                  - generic [ref=e496]:
+                    - generic [ref=e497]: 5:30
+                    - img [ref=e500]
+              - generic [ref=e503]: In this video, you will learn about 4 Types of Inspection Certificates as per EN10204. Such as Type 2.1, Type 2.2, type 3.1, and type 3.2 ...
+            - button "6 khoảnh khắc chính trong video này" [ref=e508] [cursor=pointer]:
+              - generic [ref=e517]:
+                - generic [ref=e520]: 6 khoảnh khắc chính trong video này
+                - img [ref=e522]
+          - generic [ref=e527]:
+            - generic [ref=e530]:
+              - link "EN 10204.pdf sanyosteel.com https://www.sanyosteel.com › files › EN 10204" [ref=e532] [cursor=pointer]:
+                - /url: https://www.sanyosteel.com/files/EN/EN%2010204.pdf
+                - heading "EN 10204.pdf" [level=3] [ref=e533]
+                - generic [ref=e535]:
+                  - img [ref=e540]
+                  - generic [ref=e542]:
+                    - generic [ref=e544]: sanyosteel.com
+                    - generic [ref=e546]: https://www.sanyosteel.com › files › EN 10204
+              - generic [ref=e547]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e548] [cursor=pointer]:
+                - img [ref=e551]
+            - generic [ref=e553]:
+              - generic [ref=e554]:
+                - generic [ref=e555]: viết bởi CE DE NORMALISATION · 2004 —
+                - generic [ref=e556]:
+                  - text: Document prepared by both the
+                  - emphasis [ref=e557]: manufacturer's authorized inspection representative
+                  - text: ", independent of the"
+                  - emphasis [ref=e558]: manufacturing
+                  - text: department and either the ...
+              - generic [ref=e559]: 10 trang
+          - generic [ref=e563]:
+            - generic [ref=e566]:
+              - link "What Is DIN EN 10204? A Complete Guide | Turian Blog turian AI https://www.turian.ai › blog › din-en-..." [ref=e568] [cursor=pointer]:
+                - /url: https://www.turian.ai/blog/din-en-10204
+                - heading "What Is DIN EN 10204? A Complete Guide | Turian Blog" [level=3] [ref=e569]
+                - generic [ref=e575]:
+                  - generic [ref=e577]: turian AI
+                  - generic [ref=e579]: https://www.turian.ai › blog › din-en-...
+              - generic [ref=e580]:
+                - generic [ref=e581]: ·
+                - link "Dịch trang này" [ref=e582] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.turian.ai/blog/din-en-10204&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e583] [cursor=pointer]:
+                - img [ref=e586]
+            - generic [ref=e589]:
+              - generic [ref=e590]: 7 thg 4, 2025 —
+              - generic [ref=e591]:
+                - text: The DIN EN 10204 Type 3.1 is an inspection certificate that
+                - emphasis [ref=e592]: provides a higher level of material verification and traceability
+                - text: compared to Type ...
+          - generic [ref=e596]:
+            - generic [ref=e599]:
+              - 'link "EN 10204: Understanding the differences between 2.1, 2.2, ... LinkedIn · Aditya Mani Tiwari >20 lượt thể hiện cảm xúc · 1 năm trước" [ref=e601] [cursor=pointer]':
+                - /url: https://www.linkedin.com/posts/adityamanitiwari_qualityassurance-en10204-manufacturing-activity-7331327014517248002-swtZ
+                - 'heading "EN 10204: Understanding the differences between 2.1, 2.2, ..." [level=3] [ref=e602]'
+                - generic [ref=e608]:
+                  - generic [ref=e610]: LinkedIn · Aditya Mani Tiwari
+                  - generic [ref=e612]: ">20 lượt thể hiện cảm xúc · 1 năm trước"
+              - button "Thông tin về kết quả này" [ref=e613] [cursor=pointer]:
+                - img [ref=e616]
+            - generic [ref=e620]:
+              - text: Demystifying
+              - emphasis [ref=e621]: EN 10204
+              - text: ": Key Differences Between"
+              - emphasis [ref=e622]: "2.1"
+              - text: ","
+              - emphasis [ref=e623]: "2.2"
+              - text: ","
+              - emphasis [ref=e624]: "3.1"
+              - text: ", &"
+              - emphasis [ref=e625]: 3.2 Certificates
+              - text: In industries like
+              - emphasis [ref=e626]: manufacturing
+              - text: ", construction, ..."
+          - generic [ref=e630]:
+            - generic [ref=e633]:
+              - link "clarification of en 10204 yf-40 rev a Young & Franklin https://yf.com › wp-content › uploads › 2024/06" [ref=e635] [cursor=pointer]:
+                - /url: https://yf.com/wp-content/uploads/2024/06/YF-40-Rev.-A-Clarification-of-EN-10204.pdf
+                - heading "clarification of en 10204 yf-40 rev a" [level=3] [ref=e636]
+                - generic [ref=e642]:
+                  - generic [ref=e644]: Young & Franklin
+                  - generic [ref=e646]: https://yf.com › wp-content › uploads › 2024/06
+              - generic [ref=e647]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e648] [cursor=pointer]:
+                - img [ref=e651]
+            - generic [ref=e653]:
+              - generic [ref=e655]:
+                - text: The
+                - emphasis [ref=e656]: Type 3.1
+                - text: Material
+                - emphasis [ref=e657]: Certificate
+                - text: is signed by an
+                - emphasis [ref=e658]: authorized inspection representative
+                - text: independent of
+                - emphasis [ref=e659]: manufacturing
+                - text: (The signature can be electronic if ...
+              - generic [ref=e660]: 6 trang
+          - generic [ref=e664]:
+            - generic [ref=e667]:
+              - link "EN 10204 3.1 Vs 3.2 — Free Certificate Checklist (PDF Guide) ntia.no https://ntia.no › Blog" [ref=e669] [cursor=pointer]:
+                - /url: https://ntia.no/en-10204-3-1-vs-3-2/
+                - heading "EN 10204 3.1 Vs 3.2 — Free Certificate Checklist (PDF Guide)" [level=3] [ref=e670]
+                - generic [ref=e676]:
+                  - generic [ref=e678]: ntia.no
+                  - generic [ref=e680]: https://ntia.no › Blog
+              - generic [ref=e681]:
+                - generic [ref=e682]: ·
+                - link "Dịch trang này" [ref=e683] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://ntia.no/en-10204-3-1-vs-3-2/&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e684] [cursor=pointer]:
+                - img [ref=e687]
+            - generic [ref=e690]:
+              - generic [ref=e691]: 28 thg 10, 2025 —
+              - generic [ref=e692]:
+                - text: A
+                - emphasis [ref=e693]: 3.1 certificate
+                - text: is issued by the
+                - emphasis [ref=e694]: manufacturer's authorized inspection representative
+                - text: with heat/batch test results and a statement of ...
+          - generic [ref=e698]:
+            - generic [ref=e701]:
+              - link "Understand Mill Test Certificates EN 10204 2.1, 3.1, 3.2 and ... stvvalve.com https://stvvalve.com › Home › News" [ref=e703] [cursor=pointer]:
+                - /url: https://stvvalve.com/understand-mill-test-certificates-en-10204-2-1-3-1-3-2-and-their-differences/
+                - heading "Understand Mill Test Certificates EN 10204 2.1, 3.1, 3.2 and ..." [level=3] [ref=e704]
+                - generic [ref=e706]:
+                  - img [ref=e711]
+                  - generic [ref=e713]:
+                    - generic [ref=e715]: stvvalve.com
+                    - generic [ref=e717]: https://stvvalve.com › Home › News
+              - generic [ref=e718]:
+                - generic [ref=e719]: ·
+                - link "Dịch trang này" [ref=e720] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://stvvalve.com/understand-mill-test-certificates-en-10204-2-1-3-1-3-2-and-their-differences/&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e721] [cursor=pointer]:
+                - img [ref=e724]
+            - generic [ref=e728]:
+              - text: "Validation: The Type 3.1 certificate"
+              - emphasis [ref=e729]: must be validated by the manufacturer's authorized inspection representative
+              - text: who is independent of the manufacturing ...
+        - navigation [ref=e732]:
+          - heading "Điều hướng trang" [level=1] [ref=e733]
+          - text: "1"
+          - link "Page 2" [ref=e736] [cursor=pointer]:
+            - /url: /search?q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sca_esv=bec4f44b4fc03395&ei=mKk0atqOMpna2roPgMjRyQo&start=10&sa=N&sstk=AU9db-A7IpFOzKrB5WWT-RXcaEMAyjWnnSJfSFEdXCySb_GzB2BnjLsiiSYmi2EME7YNIomJmXTDG2WneEMUkLO5wAg-e4swyQfw4Q&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQ8tMDegQIUhAE
+            - text: "2"
+          - link "Page 3" [ref=e738] [cursor=pointer]:
+            - /url: /search?q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sca_esv=bec4f44b4fc03395&ei=mKk0atqOMpna2roPgMjRyQo&start=20&sa=N&sstk=AU9db-A7IpFOzKrB5WWT-RXcaEMAyjWnnSJfSFEdXCySb_GzB2BnjLsiiSYmi2EME7YNIomJmXTDG2WneEMUkLO5wAg-e4swyQfw4Q&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQ8tMDegQIUhAG
+            - text: "3"
+          - link "Page 4" [ref=e740] [cursor=pointer]:
+            - /url: /search?q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sca_esv=bec4f44b4fc03395&ei=mKk0atqOMpna2roPgMjRyQo&start=30&sa=N&sstk=AU9db-A7IpFOzKrB5WWT-RXcaEMAyjWnnSJfSFEdXCySb_GzB2BnjLsiiSYmi2EME7YNIomJmXTDG2WneEMUkLO5wAg-e4swyQfw4Q&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQ8tMDegQIUhAI
+            - text: "4"
+          - link "Page 5" [ref=e742] [cursor=pointer]:
+            - /url: /search?q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sca_esv=bec4f44b4fc03395&ei=mKk0atqOMpna2roPgMjRyQo&start=40&sa=N&sstk=AU9db-A7IpFOzKrB5WWT-RXcaEMAyjWnnSJfSFEdXCySb_GzB2BnjLsiiSYmi2EME7YNIomJmXTDG2WneEMUkLO5wAg-e4swyQfw4Q&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQ8tMDegQIUhAK
+            - text: "5"
+          - link "Page 6" [ref=e744] [cursor=pointer]:
+            - /url: /search?q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sca_esv=bec4f44b4fc03395&ei=mKk0atqOMpna2roPgMjRyQo&start=50&sa=N&sstk=AU9db-A7IpFOzKrB5WWT-RXcaEMAyjWnnSJfSFEdXCySb_GzB2BnjLsiiSYmi2EME7YNIomJmXTDG2WneEMUkLO5wAg-e4swyQfw4Q&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQ8tMDegQIUhAM
+            - text: "6"
+          - link "Page 7" [ref=e746] [cursor=pointer]:
+            - /url: /search?q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sca_esv=bec4f44b4fc03395&ei=mKk0atqOMpna2roPgMjRyQo&start=60&sa=N&sstk=AU9db-A7IpFOzKrB5WWT-RXcaEMAyjWnnSJfSFEdXCySb_GzB2BnjLsiiSYmi2EME7YNIomJmXTDG2WneEMUkLO5wAg-e4swyQfw4Q&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQ8tMDegQIUhAO
+            - text: "7"
+          - link "Page 8" [ref=e748] [cursor=pointer]:
+            - /url: /search?q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sca_esv=bec4f44b4fc03395&ei=mKk0atqOMpna2roPgMjRyQo&start=70&sa=N&sstk=AU9db-A7IpFOzKrB5WWT-RXcaEMAyjWnnSJfSFEdXCySb_GzB2BnjLsiiSYmi2EME7YNIomJmXTDG2WneEMUkLO5wAg-e4swyQfw4Q&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQ8tMDegQIUhAQ
+            - text: "8"
+          - link "Page 9" [ref=e750] [cursor=pointer]:
+            - /url: /search?q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sca_esv=bec4f44b4fc03395&ei=mKk0atqOMpna2roPgMjRyQo&start=80&sa=N&sstk=AU9db-A7IpFOzKrB5WWT-RXcaEMAyjWnnSJfSFEdXCySb_GzB2BnjLsiiSYmi2EME7YNIomJmXTDG2WneEMUkLO5wAg-e4swyQfw4Q&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQ8tMDegQIUhAS
+            - text: "9"
+          - link "Page 10" [ref=e752] [cursor=pointer]:
+            - /url: /search?q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sca_esv=bec4f44b4fc03395&ei=mKk0atqOMpna2roPgMjRyQo&start=90&sa=N&sstk=AU9db-A7IpFOzKrB5WWT-RXcaEMAyjWnnSJfSFEdXCySb_GzB2BnjLsiiSYmi2EME7YNIomJmXTDG2WneEMUkLO5wAg-e4swyQfw4Q&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQ8tMDegQIUhAU
+            - text: "10"
+          - heading "Tiếp" [level=2] [ref=e754]:
+            - link "Tiếp" [ref=e755] [cursor=pointer]:
+              - /url: /search?q=EN+10204+type+3.1+inspection+certificate+manufacturer+authorized+inspection+representative+2.1+2.2+3.2&sca_esv=bec4f44b4fc03395&ei=mKk0atqOMpna2roPgMjRyQo&start=10&sa=N&sstk=AU9db-A7IpFOzKrB5WWT-RXcaEMAyjWnnSJfSFEdXCySb_GzB2BnjLsiiSYmi2EME7YNIomJmXTDG2WneEMUkLO5wAg-e4swyQfw4Q&ved=2ahUKEwjauuCGoZKVAxUZrVYBHQBkNKkQ8NMDegQIUhAW
+              - generic [ref=e757]: Tiếp
+        - navigation
+    - contentinfo [ref=e758]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e759]
+      - generic [ref=e763]:
+        - generic [ref=e765]:
+          - text: Việt Nam
+          - generic [ref=e767]:
+            - button "Mỹ Thượng, Tp. Huế, Huế - Dựa trên địa chỉ IP của bạn" [ref=e769] [cursor=pointer]:
+              - generic [ref=e770]: Mỹ Thượng, Tp. Huế, Huế
+              - generic [ref=e772]:
+                - text: "-"
+                - generic [ref=e773]: Dựa trên địa chỉ IP của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e775] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e778]:
+          - link "Trợ giúp" [ref=e779] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e780] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e781] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e782] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

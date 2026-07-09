@@ -1,0 +1,249 @@
+# MekongAI Nexus + OpenClaw — Unified Production Deployment
+#
+# Architecture:
+#   MekongAI Nexus (Python) = Intelligence Layer (Brain)
+#   OpenClaw (Node.js) = Execution Layer (Arms)
+#
+# Usage:
+#   docker compose -f docker-compose.unified.yml up -d
+#
+# Prerequisites:
+#   - Build OpenClaw: cd src/open-source/openclaw && docker build -t openclaw:local .
+#   - Or use: OPENCLAW_IMAGE=ghcr.io/openclaw/openclaw:latest
+
+services:
+  # ═══════════════════════════════════════════════════════════════
+  # MekongAI Nexus — Intelligence Layer
+  # ═══════════════════════════════════════════════════════════════
+  nexus:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.backend
+    container_name: nexus-brain
+    ports:
+      - "${NEXUS_PORT:-8000}:8000"
+      - "19000-19049:19000-19049"  # Dev server preview ports (frontend 19000-19024, backend 19025-19049)
+    environment:
+      # Application
+      APP_ENV: production
+      APP_DEBUG: "false"
+      APP_HOST: "0.0.0.0"
+      APP_PORT: "8000"
+      APP_SECRET_KEY: ${APP_SECRET_KEY}
+
+      # Database (internal network)
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-mekongai}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-mekongai_nexus}
+
+      # Redis
+      REDIS_URL: redis://redis:6379/0
+
+      # LLM
+      CORE_LLM_PROVIDER: ${CORE_LLM_PROVIDER:-bedrock}
+      CORE_LLM_API_KEY: ${CORE_LLM_API_KEY:-}
+      CORE_LLM_MODEL: ${CORE_LLM_MODEL:-us.anthropic.claude-opus-4-6-v1}
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID:-}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY:-}
+      AWS_REGION: ${AWS_REGION:-us-east-1}
+
+      # OpenClaw Bridge
+      OPENCLAW_GATEWAY_URL: http://openclaw:18789
+      OPENCLAW_GATEWAY_TOKEN: ${OPENCLAW_GATEWAY_TOKEN}
+      OPENCLAW_INTERNAL_SECRET: ${OPENCLAW_INTERNAL_SECRET}
+      OPENCLAW_SUBPROCESS_ENABLED: "false"  # Managed by Docker, not subprocess
+
+      # Security
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY}
+      TOOL_POLICY_ENABLED: "true"
+      SSRF_GUARD_ENABLED: "true"
+      SECURITY_AUDIT_ON_STARTUP: "true"
+
+      # Suppress IronClaw hickory DNS resolver debug spam
+      RUST_LOG: ${RUST_LOG:-ironclaw=info,hickory=warn,hickory_net=warn,hickory_resolver=warn,tower_http=warn}
+
+    volumes:
+      - workspace:/app/workspace_data
+      - nexus-workspace-local:/app/workspace
+      - nexus-logs:/app/logs
+    depends_on:
+      openclaw:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    networks:
+      - internal
+
+  # Minimal public surface (separate port) - proxy to /api/v1/public/inbox/{token}
+  nexus-gateway:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.backend
+    container_name: nexus-public-gateway
+    command: ["uvicorn", "app.public_gateway.main:app", "--host", "0.0.0.0", "--port", "18800"]
+    ports:
+      - "${NEXUS_PUBLIC_GATEWAY_PORT:-18800}:18800"
+    environment:
+      APP_ENV: production
+      APP_DEBUG: "false"
+      PUBLIC_GATEWAY_BACKEND_URL: http://nexus:8000
+      PUBLIC_GATEWAY_BACKEND_PREFIX: /api/v1
+      TZ: ${TZ:-Asia/Bangkok}
+    depends_on:
+      nexus:
+        condition: service_started
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:18800/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    networks:
+      - internal
+
+  # ═══════════════════════════════════════════════════════════════
+  # OpenClaw Gateway — Execution Layer
+  # ═══════════════════════════════════════════════════════════════
+  openclaw:
+    image: ${OPENCLAW_IMAGE:-openclaw:local}
+    container_name: openclaw-gateway
+    ports:
+      - "${OPENCLAW_GATEWAY_PORT:-18789}:18789"
+    environment:
+      HOME: /home/node
+      TERM: xterm-256color
+      NODE_ENV: production
+      TZ: ${TZ:-Asia/Bangkok}
+
+      # Gateway auth
+      OPENCLAW_GATEWAY_TOKEN: ${OPENCLAW_GATEWAY_TOKEN}
+
+      # Hooks → route messages to Nexus
+      OPENCLAW_HOOKS_INBOUND_URL: http://nexus:8000/api/v1/openclaw/inbound
+      OPENCLAW_HOOKS_INTERNAL_SECRET: ${OPENCLAW_INTERNAL_SECRET}
+
+      # LLM credentials — dùng model dự án thay vì default openai/gpt-5.4
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID:-}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY:-}
+      AWS_REGION: ${AWS_REGION:-us-east-1}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+
+      # Channels (configured by user)
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:-}
+      DISCORD_BOT_TOKEN: ${DISCORD_BOT_TOKEN:-}
+      SLACK_BOT_TOKEN: ${SLACK_BOT_TOKEN:-}
+      SLACK_APP_TOKEN: ${SLACK_APP_TOKEN:-}
+      WHATSAPP_TOKEN: ${WHATSAPP_TOKEN:-}
+      MATRIX_HOMESERVER: ${MATRIX_HOMESERVER:-}
+      MATRIX_ACCESS_TOKEN: ${MATRIX_ACCESS_TOKEN:-}
+
+    volumes:
+      - workspace:/home/node/.openclaw/workspace
+      - openclaw-config:/home/node/.openclaw
+      # Uncomment for sandbox support:
+      # - /var/run/docker.sock:/var/run/docker.sock
+    command:
+      [
+        "node", "dist/index.js", "gateway",
+        "--bind", "lan",
+        "--port", "18789",
+      ]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:18789/healthz').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    cap_drop:
+      - NET_RAW
+      - NET_ADMIN
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - internal
+
+  # ═══════════════════════════════════════════════════════════════
+  # PostgreSQL + pgvector
+  # ═══════════════════════════════════════════════════════════════
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: nexus-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-mekongai_nexus}
+      POSTGRES_USER: ${POSTGRES_USER:-mekongai}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      # Bind localhost only — tránh external services kết nối vào
+      - "127.0.0.1:${POSTGRES_PORT:-5432}:5432"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-mekongai} -d ${POSTGRES_DB:-mekongai_nexus}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - internal
+
+  # ═══════════════════════════════════════════════════════════════
+  # Redis
+  # ═══════════════════════════════════════════════════════════════
+  redis:
+    image: redis:7-alpine
+    container_name: nexus-redis
+    command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
+    volumes:
+      - redis-data:/data
+    ports:
+      - "127.0.0.1:${REDIS_PORT:-6379}:6379"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    networks:
+      - internal
+
+# ═══════════════════════════════════════════════════════════════
+# Volumes
+# ═══════════════════════════════════════════════════════════════
+volumes:
+  workspace:
+    driver: local
+    name: nexus-workspace
+  nexus-workspace-local:
+    driver: local
+    name: nexus-workspace-local
+  openclaw-config:
+    driver: local
+    name: openclaw-config
+  postgres-data:
+    driver: local
+    name: nexus-postgres-data
+  redis-data:
+    driver: local
+    name: nexus-redis-data
+  nexus-logs:
+    driver: local
+    name: nexus-logs
+
+# ═══════════════════════════════════════════════════════════════
+# Networks
+# ═══════════════════════════════════════════════════════════════
+networks:
+  internal:
+    driver: bridge
+    name: nexus-network

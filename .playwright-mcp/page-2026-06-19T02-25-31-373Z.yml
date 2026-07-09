@@ -1,0 +1,253 @@
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikipedia The Free Encyclopedia" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=e13]:
+          - img "Wikipedia" [ref=e14]
+          - img "The Free Encyclopedia" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikipedia" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Donate" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=e33]:
+            - link "Create account" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=ISO+4063
+          - listitem [ref=e35]:
+            - link "Log in" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=ISO+4063
+  - generic [ref=e38]:
+    - main [ref=e42]:
+      - generic [ref=e43]:
+        - heading "ISO 4063" [level=1] [ref=e44]:
+          - generic [ref=e45]: ISO 4063
+        - generic [ref=e46]:
+          - button "This article is only available in this language. Add the article for other languages" [ref=e47] [cursor=pointer]
+          - generic [ref=e50]: Add languages
+      - generic [ref=e52]:
+        - navigation "Namespaces" [ref=e54]:
+          - generic [ref=e55]:
+            - generic:
+              - list:
+                - listitem [ref=e56]:
+                  - link "Article" [ref=e57] [cursor=pointer]:
+                    - /url: /w/index.php?title=ISO_4063&action=edit&redlink=1
+                    - generic [ref=e58]: Article
+                - listitem [ref=e59]:
+                  - link "Talk" [ref=e60] [cursor=pointer]:
+                    - /url: /w/index.php?title=Talk:ISO_4063&action=edit&redlink=1
+                    - generic [ref=e61]: Talk
+        - generic [ref=e62]:
+          - navigation "Views"
+          - navigation "Page tools" [ref=e63]:
+            - generic [ref=e64]:
+              - button "Tools" [ref=e65] [cursor=pointer]
+              - generic [ref=e67] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e70]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]: Appearance
+            - button "hide" [ref=e75] [cursor=pointer]
+          - generic [ref=e76]:
+            - generic [ref=e77]: Text
+            - list [ref=e79]:
+              - listitem [ref=e80]:
+                - generic [ref=e82]:
+                  - generic [ref=e83]:
+                    - radio "Small" [ref=e84]
+                    - generic [ref=e87]: Small
+                  - generic [ref=e88]:
+                    - radio "Standard" [checked] [ref=e89]
+                    - generic [ref=e92]: Standard
+                  - generic [ref=e93]:
+                    - radio "Large" [ref=e94]
+                    - generic [ref=e97]: Large
+          - generic [ref=e98]:
+            - generic [ref=e99]: Width
+            - list [ref=e101]:
+              - listitem [ref=e102]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]:
+                    - radio "Standard" [checked] [ref=e106]
+                    - generic [ref=e109]: Standard
+                  - generic [ref=e110]:
+                    - radio "Wide" [ref=e111]
+                    - generic [ref=e114]: Wide
+          - generic [ref=e115]:
+            - generic [ref=e116]: Color
+            - list [ref=e118]:
+              - listitem [ref=e119]:
+                - generic [ref=e121]:
+                  - generic [ref=e122]:
+                    - radio "Automatic" [ref=e123]
+                    - generic [ref=e126]: Automatic
+                  - generic [ref=e127]:
+                    - radio "Light" [checked] [ref=e128]
+                    - generic [ref=e131]: Light
+                  - generic [ref=e132]:
+                    - radio "Dark" [ref=e133]
+                    - generic [ref=e136]: Dark
+      - generic "ISO 4063" [ref=e137]:
+        - generic [ref=e139]: From Wikipedia, the free encyclopedia
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - text: Look for ISO 4063 on one of Wikipedia's
+            - link "sister projects" [ref=e146] [cursor=pointer]:
+              - /url: /wiki/Special:SiteMatrix
+            - text: ":"
+            - list [ref=e148]:
+              - listitem [ref=e149]:
+                - generic [ref=e153]:
+                  - link "Wiktionary" [ref=e154] [cursor=pointer]:
+                    - /url: https://en.wiktionary.org/wiki/Special:Search/ISO_4063
+                  - text: (dictionary)
+              - listitem [ref=e155]:
+                - generic [ref=e159]:
+                  - link "Wikibooks" [ref=e160] [cursor=pointer]:
+                    - /url: https://en.wikibooks.org/wiki/Special:Search/ISO_4063
+                  - text: (textbooks)
+              - listitem [ref=e161]:
+                - generic [ref=e165]:
+                  - link "Wikiquote" [ref=e166] [cursor=pointer]:
+                    - /url: https://en.wikiquote.org/wiki/Special:Search/ISO_4063
+                  - text: (quotations)
+              - listitem [ref=e167]:
+                - generic [ref=e171]:
+                  - link "Wikisource" [ref=e172] [cursor=pointer]:
+                    - /url: https://en.wikisource.org/wiki/Special:Search/ISO_4063
+                  - text: (library)
+              - listitem [ref=e173]:
+                - generic [ref=e177]:
+                  - link "Wikiversity" [ref=e178] [cursor=pointer]:
+                    - /url: https://en.wikiversity.org/wiki/Special:Search/ISO_4063
+                  - text: (learning resources)
+              - listitem [ref=e179]:
+                - generic [ref=e183]:
+                  - link "Commons" [ref=e184] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/Special:Search/ISO_4063
+                  - text: (media)
+              - listitem [ref=e185]:
+                - generic [ref=e189]:
+                  - link "Wikivoyage" [ref=e190] [cursor=pointer]:
+                    - /url: https://en.wikivoyage.org/wiki/Special:Search/ISO_4063
+                  - text: (travel guide)
+              - listitem [ref=e191]:
+                - generic [ref=e195]:
+                  - link "Wikidata" [ref=e196] [cursor=pointer]:
+                    - /url: https://www.wikidata.org/wiki/Special:Search/ISO_4063
+                  - text: (linked database)
+              - listitem [ref=e197]:
+                - generic [ref=e201]:
+                  - link "Wikispecies" [ref=e202] [cursor=pointer]:
+                    - /url: https://species.wikimedia.org/wiki/Special:Search/ISO_4063
+                  - text: (species directory)
+          - text: Wikipedia does not have an article with this exact name. Please
+          - link "search for ISO 4063 in Wikipedia" [ref=e204] [cursor=pointer]:
+            - /url: https://en.wikipedia.org/w/index.php?search=ISO+4063&title=Special%3ASearch&fulltext=1
+          - text: to check for alternative titles or spellings.
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - text: You need to
+              - link "log in or create an account" [ref=e207] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=ISO+4063
+              - text: and be
+              - link "autoconfirmed" [ref=e208] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:User_access_levels#Autoconfirmed_users
+              - text: to create new articles. Alternatively, you can use the
+              - link "article wizard" [ref=e209] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:Article_wizard
+              - text: to submit a draft for review, or
+              - link "request a new article" [ref=e210] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:Requested_articles
+              - text: .
+            - listitem [ref=e211]:
+              - link "Search for \"ISO 4063\"" [ref=e213] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/w/index.php?search=ISO+4063&title=Special%3ASearch&fulltext=1&ns0=1
+              - text: in existing articles.
+            - listitem [ref=e214]:
+              - link "Look for pages within Wikipedia that link to this title" [ref=e215] [cursor=pointer]:
+                - /url: /wiki/Special:WhatLinksHere/ISO_4063
+              - text: .
+          - generic [ref=e216]:
+            - separator [ref=e217]
+            - paragraph [ref=e218]: "Other reasons this message may be displayed:"
+            - list [ref=e219]:
+              - listitem [ref=e220]:
+                - text: If a page was recently created here, it may not be visible yet because of a delay in updating the database; wait a few minutes or
+                - link "try the purge function" [ref=e221] [cursor=pointer]:
+                  - /url: /wiki/Special:Purge/ISO_4063
+                - text: .
+              - listitem [ref=e222]:
+                - text: Titles on Wikipedia are
+                - link "case sensitive" [ref=e224] [cursor=pointer]:
+                  - /url: /wiki/Case_sensitivity
+                - text: except for the first character; please
+                - link "check alternative capitalizations" [ref=e226] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/w/index.php?search=ISO+4063&title=Special%3ASearch&fulltext=1
+                - text: and consider adding a
+                - link "redirect" [ref=e227] [cursor=pointer]:
+                  - /url: /wiki/Wikipedia:Redirect
+                - text: here to the correct title.
+              - listitem [ref=e228]:
+                - text: If the page has been deleted,
+                - link "check the deletion log" [ref=e229] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/w/index.php?title=Special:Log/delete&page=ISO_4063
+                - text: ", and see"
+                - link "Why was the page I created deleted?" [ref=e230] [cursor=pointer]:
+                  - /url: /wiki/Wikipedia:Why_was_the_page_I_created_deleted%3F
+    - contentinfo [ref=e232]:
+      - list
+      - list:
+        - listitem [ref=e233]:
+          - link "Privacy policy" [ref=e234] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e235]:
+          - link "About Wikipedia" [ref=e236] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=e237]:
+          - link "Disclaimers" [ref=e238] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e239]:
+          - link "Contact Wikipedia" [ref=e240] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e241]:
+          - link "Legal & safety contacts" [ref=e242] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e243]:
+          - link "Code of Conduct" [ref=e244] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e245]:
+          - link "Developers" [ref=e246] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e247]:
+          - link "Statistics" [ref=e248] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e249]:
+          - link "Cookie statement" [ref=e250] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e251]:
+          - link "Mobile view" [ref=e252] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=ISO_4063&mobileaction=toggle_view_mobile
+      - list [ref=e253]:
+        - listitem [ref=e254]:
+          - link "Wikimedia Foundation" [ref=e255] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e257]
+        - listitem [ref=e258]:
+          - link "Powered by MediaWiki" [ref=e259] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e261]
+  - generic [ref=e262]:
+    - list

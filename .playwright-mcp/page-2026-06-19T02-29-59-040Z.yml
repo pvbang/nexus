@@ -1,0 +1,460 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: Nghệ thuật bay người đánh đầu" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=vi&ictx=2&sa=X&ved=0ahUKEwiww9WNoZKVAxVAslYBHf2bLagQPQgK
+          - 'img "World Cup 2026: Nghệ thuật bay người đánh đầu" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Tìm kiếm" [ref=e19]: ISO 5817 quality levels B C D imperfections fusion welded joints steel ISO 5817 quality levels B C D imperfections fusion welded joints steel
+            - generic [ref=e20]:
+              - button "Xóa" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Công cụ nhập" [ref=e28] [cursor=pointer]:
+                  - img [ref=e30]
+                - button "Tìm kiếm bằng giọng nói" [ref=e32] [cursor=pointer]:
+                  - img [ref=e33]
+                - button "Tìm kiếm bằng hình ảnh" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+          - button "Tìm kiếm" [ref=e38] [cursor=pointer]:
+            - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Cài đặt" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - button "Chia sẻ" [ref=e51] [cursor=pointer]:
+        - img [ref=e55]
+      - generic [ref=e57]:
+        - button "Các ứng dụng của Google" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+        - link "Đăng nhập" [ref=e64] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3DISO%2B5817%2Bquality%2Blevels%2BB%2BC%2BD%2Bimperfections%2Bfusion%2Bwelded%2Bjoints%2Bsteel&ec=futura_srp_og_si_72236_p
+  - generic [ref=e66]:
+    - navigation [ref=e72]:
+      - generic [ref=e78]:
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "Chế độ AI" [ref=e83] [cursor=pointer]:
+              - /url: /search?q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sca_esv=bec4f44b4fc03395&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-Eorz1k5XaeqxAv60d0Vhfp6tyOGp021bvMd5z_TBBIi-tOfCq76C39M64HkdjCjXl26CzC4SBHap5Fl4O1qiICDBaQ6tduHtD3pQjX22ee2GcXowXqMzjkvb11KSgpndijcAD7dkE9z3WqIRhzRBU1V-lpYBaR0mvDX8Fh5mA1uc9IhYY&aep=1&ntc=1&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ2J8OegQIERAD
+              - generic [ref=e86]: Chế độ AI
+          - listitem [ref=e87]:
+            - link "Tất cả" [disabled] [ref=e88]:
+              - generic [ref=e90]: Tất cả
+          - listitem [ref=e91]:
+            - link "Hình ảnh" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-Eorz1k5XaeqxAv60d0Vhfp6tyOGp021bvMd5z_TBBIi-tOfCq76C39M64HkdjCjXl26CzC4SBHap5Fl4O1qiICDBaQ6tduHtD3pQjX22ee2GcXowXqMzjkvb11KSgpndijcAD7dkE9z3WqIRhzRBU1V-lpYBaR0mvDX8Fh5mA1uc9IhYY&q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQtKgLegQIFxAB
+              - generic [ref=e94]: Hình ảnh
+          - listitem [ref=e95]:
+            - link "Mua sắm" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-Eorz1k5XaeqxAv60d0Vhfp6tyOGp021bvMd5z_TBBIi-tOfCq76C39M64HkdjCjXl26CzC4SBHap5Fl4O1qiICDBaQ6tduHtD3pQjX22ee2GcXowXqMzjkvb11KSgpndijcAD7dkE9z3WqIRhzRBU1V-lpYBaR0mvDX8Fh5mA1uc9IhYY&q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&ved=1t:220175&ictx=111
+              - generic [ref=e98]: Mua sắm
+          - listitem [ref=e99]:
+            - link "Video" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-Eorz1k5XaeqxAv60d0Vhfp6tyOGp021bvMd5z_TBBIi-tOfCq76C39M64HkdjCjXl26CzC4SBHap5Fl4O1qiICDBaQ6tduHtD3pQjX22ee2GcXowXqMzjkvb11KSgpndijcAD7dkE9z3WqIRhzRBU1V-lpYBaR0mvDX8Fh5mA1uc9IhYY&q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQtKgLegQIFRAB
+              - generic [ref=e102]: Video
+          - listitem [ref=e103]:
+            - link "Video ngắn" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-Eorz1k5XaeqxAv60d0Vhfp6tyOGp021bvMd5z_TBBIi-tOfCq76C39M64HkdjCjXl26CzC4SBHap5Fl4O1qiICDBaQ6tduHtD3pQjX22ee2GcXowXqMzjkvb11KSgpndijcAD7dkE9z3WqIRhzRBU1V-lpYBaR0mvDX8Fh5mA1uc9IhYY&q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQs6gLegQIExAB
+              - generic [ref=e106]: Video ngắn
+          - listitem [ref=e107]:
+            - link "Web" [ref=e108] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=web&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-Eorz1k5XaeqxAv60d0Vhfp6tyOGp021bvMd5z_TBBIi-tOfCq76C39M64HkdjCjXl26CzC4SBHap5Fl4O1qiICDBaQ6tduHtD3pQjX22ee2GcXowXqMzjkvb11KSgpndijcAD7dkE9z3WqIRhzRBU1V-lpYBaR0mvDX8Fh5mA1uc9IhYY&q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQs6gLegQIFBAB
+              - generic [ref=e110]: Web
+          - listitem [ref=e111]:
+            - button "Các bộ lọc khác" [ref=e112] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]: Thêm
+                  - img [ref=e117]
+        - button "Công cụ" [ref=e120] [cursor=pointer]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: Công cụ
+            - img [ref=e125]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e127]
+    - generic [ref=e133]:
+      - generic [ref=e134]: Looking for results in English?
+      - link [ref=e135] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e137]
+      - link "Change to English" [ref=e139] [cursor=pointer]:
+        - /url: /setprefs?sig=0_9G5qUwbqBY3u3AWlSDMC2g08LLI%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DISO%2B5817%2Bquality%2Blevels%2BB%2BC%2BD%2Bimperfections%2Bfusion%2Bwelded%2Bjoints%2Bsteel&hl=en&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQhoQCKAF6BAgPEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e140] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e142] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQiIQCKAN6BAgPEAY#languages
+    - generic [ref=e143]:
+      - generic [ref=e162]:
+        - heading "Đang suy nghĩ Đang tìm kiếm Đang suy nghĩ lâu hơn một chút" [level=2] [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e169]: Đang suy nghĩ
+            - generic [ref=e171]: Đang tìm kiếm
+            - generic [ref=e181]: Đang suy nghĩ lâu hơn một chút
+        - progressbar "Đang tạo" [ref=e183]
+      - main [ref=e234]:
+        - generic [ref=e238]:
+          - generic [ref=e241]:
+            - heading "Web results" [level=2] [ref=e242]
+            - generic [ref=e243]:
+              - generic [ref=e246]:
+                - link "ISO 5817:2023(E) SSAB https://weldcalc.ssab.com › sisStandards › ISO 58..." [ref=e248] [cursor=pointer]:
+                  - /url: https://weldcalc.ssab.com/sisStandards/ISO%205817_Ed_4_2023.pdf
+                  - heading "ISO 5817:2023(E)" [level=3] [ref=e249]
+                  - generic [ref=e255]:
+                    - generic [ref=e257]: SSAB
+                    - generic [ref=e259]: https://weldcalc.ssab.com › sisStandards › ISO 58...
+                - generic [ref=e260]:
+                  - generic:
+                    - generic: PDF
+                - button "Thông tin về kết quả này" [ref=e261] [cursor=pointer]:
+                  - img [ref=e264]
+              - generic [ref=e266]:
+                - generic [ref=e268]:
+                  - text: This document specifies
+                  - emphasis [ref=e269]: quality levels of imperfections in fusion-welded joints
+                  - text: (except for beam welding) in all types of steel, nickel, titanium and their ...
+                - generic [ref=e270]: 31 trang
+              - generic [ref=e272]:
+                - text: "Bị thiếu: BCD ‎| Phải có:"
+                - link "BCD" [ref=e273] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ISO+5817+quality+levels+%22BCD%22+D+imperfections+fusion+welded+joints+steel&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ5t4CegQIHRAB
+          - generic [ref=e277]:
+            - generic [ref=e280]:
+              - link "INTERNATIONAL STANDARD ISO 5817 Український центр сталевого будівництва https://uscc.ua › uploads › page › images › dstu" [ref=e282] [cursor=pointer]:
+                - /url: https://uscc.ua/uploads/page/images/normativnye%20dokumenty/dstu/vigotovlennya-mk-mizhnarodna-gilka-standarty/78-dstu-iso-5817-2016-zvaryuvannya.pdf
+                - heading "INTERNATIONAL STANDARD ISO 5817" [level=3] [ref=e283]
+                - generic [ref=e289]:
+                  - generic [ref=e291]: Український центр сталевого будівництва
+                  - generic [ref=e293]: https://uscc.ua › uploads › page › images › dstu
+              - generic [ref=e294]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e295] [cursor=pointer]:
+                - img [ref=e298]
+            - generic [ref=e300]:
+              - generic [ref=e301]:
+                - generic [ref=e302]: 15 thg 2, 2014 —
+                - generic [ref=e303]:
+                  - text: This International Standard specifies requirements for three
+                  - emphasis [ref=e304]: quality levels
+                  - text: for
+                  - emphasis [ref=e305]: imperfections
+                  - text: in
+                  - emphasis [ref=e306]: welded joints
+                  - text: of
+                  - emphasis [ref=e307]: steel
+                  - text: ", nickel, titanium and ..."
+              - generic [ref=e308]: 33 trang
+            - generic [ref=e310]:
+              - text: "Bị thiếu: BCD ‎| Phải có:"
+              - link "BCD" [ref=e311] [cursor=pointer]:
+                - /url: /search?sca_esv=bec4f44b4fc03395&q=ISO+5817+quality+levels+%22BCD%22+D+imperfections+fusion+welded+joints+steel&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ5t4CegQIIxAB
+          - generic [ref=e315]:
+            - generic [ref=e318]:
+              - link "ISO 5817:2014 - Welding — Fusion-welded joints in steel, ... ISO - International Organization for Standardization https://www.iso.org › standard" [ref=e320] [cursor=pointer]:
+                - /url: https://www.iso.org/standard/54952.html
+                - heading "ISO 5817:2014 - Welding — Fusion-welded joints in steel, ..." [level=3] [ref=e321]
+                - generic [ref=e327]:
+                  - generic [ref=e329]: ISO - International Organization for Standardization
+                  - generic [ref=e331]: https://www.iso.org › standard
+              - generic [ref=e332]:
+                - generic [ref=e333]: ·
+                - link "Dịch trang này" [ref=e334] [cursor=pointer]:
+                  - /url: https://www.iso.org/standard/54952.html
+              - button "Thông tin về kết quả này" [ref=e335] [cursor=pointer]:
+                - img [ref=e338]
+            - generic [ref=e342]:
+              - emphasis [ref=e343]: ISO 5817:2014 provides quality levels of imperfections in fusion-welded joints
+              - text: (except for beam welding) in all types of steel, nickel, titanium and their ...
+            - generic [ref=e345]:
+              - text: "Bị thiếu: BCD ‎| Phải có:"
+              - link "BCD" [ref=e346] [cursor=pointer]:
+                - /url: /search?sca_esv=bec4f44b4fc03395&q=ISO+5817+quality+levels+%22BCD%22+D+imperfections+fusion+welded+joints+steel&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ5t4CegQIHxAB
+          - generic [ref=e350]:
+            - generic [ref=e353]:
+              - 'link "ISO 5817 Weld Quality Levels B, C, D: Acceptance Criteria Therness https://www.therness.com › Blog" [ref=e355] [cursor=pointer]':
+                - /url: https://www.therness.com/blog/iso-5817-weld-acceptance-criteria-quality-levels/
+                - 'heading "ISO 5817 Weld Quality Levels B, C, D: Acceptance Criteria" [level=3] [ref=e356]'
+                - generic [ref=e362]:
+                  - generic [ref=e364]: Therness
+                  - generic [ref=e366]: https://www.therness.com › Blog
+              - generic [ref=e367]:
+                - generic [ref=e368]: ·
+                - link "Dịch trang này" [ref=e369] [cursor=pointer]:
+                  - /url: https://www.therness.com/blog/iso-5817-weld-acceptance-criteria-quality-levels/
+              - button "Thông tin về kết quả này" [ref=e370] [cursor=pointer]:
+                - img [ref=e373]
+            - generic [ref=e376]:
+              - generic [ref=e377]: 13 thg 12, 2025 —
+              - generic [ref=e378]:
+                - emphasis [ref=e379]: ISO 5817 specifies quality levels for imperfections in fusion-welded joints in steel
+                - text: ", nickel, titanium and their alloys, excluding beam welding."
+          - generic [ref=e383]:
+            - generic [ref=e386]:
+              - link "ISO 5817:2023 - Quality Levels for Weld Imperfections in ... Studocu Vietnam https://www.studocu.vn › document" [ref=e388] [cursor=pointer]:
+                - /url: https://www.studocu.vn/vn/document/dai-hoc-xay-dung-ha-noi/cong-trinh-thep-go/iso-58172023-quality-levels-for-weld-imperfections-in-steel-nickel-titanium/130319167
+                - heading "ISO 5817:2023 - Quality Levels for Weld Imperfections in ..." [level=3] [ref=e389]
+                - generic [ref=e395]:
+                  - generic [ref=e397]: Studocu Vietnam
+                  - generic [ref=e399]: https://www.studocu.vn › document
+              - generic [ref=e400]:
+                - generic [ref=e401]: ·
+                - link "Dịch trang này" [ref=e402] [cursor=pointer]:
+                  - /url: https://www.studocu.vn/vn/document/dai-hoc-xay-dung-ha-noi/cong-trinh-thep-go/iso-58172023-quality-levels-for-weld-imperfections-in-steel-nickel-titanium/130319167
+              - button "Thông tin về kết quả này" [ref=e403] [cursor=pointer]:
+                - img [ref=e406]
+            - generic [ref=e410]:
+              - emphasis [ref=e411]: "Quality Levels: Defines three levels (B, C, D"
+              - text: ") for assessing weld imperfections based on application requirements. · Imperfection Types: Categorizes various weld ..."
+            - img "Được đánh giá 5,0 trên 5, (6) bài đánh giá của người dùng" [ref=e416]:
+              - text: 5,0
+              - img [ref=e417]
+              - text: (6)
+            - generic [ref=e421]:
+              - text: "Bị thiếu: BCD ‎| Phải có:"
+              - link "BCD" [ref=e422] [cursor=pointer]:
+                - /url: /search?sca_esv=bec4f44b4fc03395&q=ISO+5817+quality+levels+%22BCD%22+D+imperfections+fusion+welded+joints+steel&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ5t4CegQIRxAB
+          - generic [ref=e426]:
+            - generic [ref=e429]:
+              - link "Fusion-welded joints - stimuli.no stimuli.no https://stimuli.no › sites › default › files › wos-105..." [ref=e431] [cursor=pointer]:
+                - /url: https://stimuli.no/sites/default/files/u19/wos-1053357_Quality_levels_for_imperfections__ISO_5817_-WoS_compressed.pdf
+                - heading "Fusion-welded joints - stimuli.no" [level=3] [ref=e432]
+                - generic [ref=e438]:
+                  - generic [ref=e440]: stimuli.no
+                  - generic [ref=e442]: https://stimuli.no › sites › default › files › wos-105...
+              - generic [ref=e443]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e444] [cursor=pointer]:
+                - img [ref=e447]
+            - generic [ref=e449]:
+              - generic [ref=e451]:
+                - emphasis [ref=e452]: Quality levels
+                - text: for
+                - emphasis [ref=e453]: imperfections
+                - text: (inner and surface). Three
+                - emphasis [ref=e454]: quality levels
+                - text: (classes):. • B (high) strictest, for
+                - emphasis [ref=e455]: welded joints
+                - text: subject to fatigue and risk ...
+              - generic [ref=e456]: 16 trang
+            - generic [ref=e458]:
+              - text: "Bị thiếu: BCD ‎| Phải có:"
+              - link "BCD" [ref=e459] [cursor=pointer]:
+                - /url: /search?sca_esv=bec4f44b4fc03395&q=ISO+5817+quality+levels+%22BCD%22+D+imperfections+fusion+welded+joints+steel&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ5t4CegQIRBAB
+          - generic [ref=e463]:
+            - generic [ref=e466]:
+              - link "EN ISO 5817 材料牛 http://www.cailiaoniu.com › ISO5817-2014" [ref=e468] [cursor=pointer]:
+                - /url: http://www.cailiaoniu.com/wp-content/uploads/2016/12/ISO5817-2014.pdf
+                - heading "EN ISO 5817" [level=3] [ref=e469]
+                - generic [ref=e475]:
+                  - generic [ref=e477]: 材料牛
+                  - generic [ref=e479]: http://www.cailiaoniu.com › ISO5817-2014
+              - generic [ref=e480]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e481] [cursor=pointer]:
+                - img [ref=e484]
+            - generic [ref=e486]:
+              - generic [ref=e487]:
+                - generic [ref=e488]: 4 thg 1, 2014 —
+                - generic [ref=e489]:
+                  - text: This International Standard
+                  - emphasis [ref=e490]: provides quality levels of imperfections in fusion-welded joints
+                  - text: (except for beam welding) in all types of steel, ...
+              - generic [ref=e491]: 33 trang
+          - generic [ref=e495]:
+            - generic [ref=e498]:
+              - link "BS EN ISO 5817:2014 cdn-website.com https://irp.cdn-website.com › files › uploaded › B..." [ref=e500] [cursor=pointer]:
+                - /url: https://irp.cdn-website.com/de2c1bc5/files/uploaded/BS%20EN%205817-2014.pdf
+                - heading "BS EN ISO 5817:2014" [level=3] [ref=e501]
+                - generic [ref=e503]:
+                  - img [ref=e508]
+                  - generic [ref=e510]:
+                    - generic [ref=e512]: cdn-website.com
+                    - generic [ref=e514]: https://irp.cdn-website.com › files › uploaded › B...
+              - generic [ref=e515]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e516] [cursor=pointer]:
+                - img [ref=e519]
+            - generic [ref=e521]:
+              - generic [ref=e522]:
+                - generic [ref=e523]: 4 thg 1, 2014 —
+                - generic [ref=e524]:
+                  - text: This International Standard specifies requirements for three
+                  - emphasis [ref=e525]: quality levels
+                  - text: for
+                  - emphasis [ref=e526]: imperfections
+                  - text: in
+                  - emphasis [ref=e527]: welded joints
+                  - text: of
+                  - emphasis [ref=e528]: steel
+                  - text: ", nickel, titanium and ..."
+              - generic [ref=e529]: 38 trang
+            - generic [ref=e531]:
+              - text: "Bị thiếu: BCD ‎| Phải có:"
+              - link "BCD" [ref=e532] [cursor=pointer]:
+                - /url: /search?sca_esv=bec4f44b4fc03395&q=ISO+5817+quality+levels+%22BCD%22+D+imperfections+fusion+welded+joints+steel&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ5t4CegQIRhAB
+          - generic [ref=e536]:
+            - generic [ref=e539]:
+              - link "1. Introduction A required quality level of welded joints ... Instytut Metalurgii i Inżynierii Materiałowej PAN https://www.imim.pl › archiwum › vol1_2013" [ref=e541] [cursor=pointer]:
+                - /url: https://www.imim.pl/files/archiwum/vol1_2013/17.pdf
+                - heading "1. Introduction A required quality level of welded joints ..." [level=3] [ref=e542]
+                - generic [ref=e544]:
+                  - img [ref=e549]
+                  - generic [ref=e551]:
+                    - generic [ref=e553]: Instytut Metalurgii i Inżynierii Materiałowej PAN
+                    - generic [ref=e555]: https://www.imim.pl › archiwum › vol1_2013
+              - generic [ref=e556]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e557] [cursor=pointer]:
+                - img [ref=e560]
+            - generic [ref=e563]:
+              - generic [ref=e564]: viết bởi K STANISZEWSKI · 2013 —
+              - generic [ref=e565]:
+                - text: In case of thickness exceeding 3 mm, the recommenda- tions of standard EN
+                - emphasis [ref=e566]: ISO 5817
+                - text: allow the presence of small undercuts on the face of a
+                - emphasis [ref=e567]: weld
+                - text: ", provided that h ..."
+          - generic [ref=e571]:
+            - generic [ref=e574]:
+              - link "EN ISO 5817 - Indico Home | CERN https://indico.cern.ch › contributions › attachments" [ref=e576] [cursor=pointer]:
+                - /url: https://indico.cern.ch/event/1326947/contributions/5989897/attachments/2871172/5026744/EN_ISO_5817_2023_en_Excerpt.pdf
+                - heading "EN ISO 5817 - Indico" [level=3] [ref=e577]
+                - generic [ref=e583]:
+                  - generic [ref=e585]: Home | CERN
+                  - generic [ref=e587]: https://indico.cern.ch › contributions › attachments
+              - generic [ref=e588]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e589] [cursor=pointer]:
+                - img [ref=e592]
+            - generic [ref=e594]:
+              - generic [ref=e596]:
+                - text: Systematic
+                - emphasis [ref=e597]: imperfections
+                - text: are only permitted in
+                - emphasis [ref=e598]: quality level
+                - text: D, provided the other requirements of. Table 1 are fulfilled. A
+                - emphasis [ref=e599]: welded joint
+                - text: should usually be ...
+              - generic [ref=e600]: 20 trang
+            - generic [ref=e602]:
+              - text: "Bị thiếu: BCD ‎| Phải có:"
+              - link "BCD" [ref=e603] [cursor=pointer]:
+                - /url: /search?sca_esv=bec4f44b4fc03395&q=ISO+5817+quality+levels+%22BCD%22+D+imperfections+fusion+welded+joints+steel&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ5t4CegQIPRAB
+        - generic [ref=e605]:
+          - generic [ref=e610]:
+            - heading "Mọi người cũng tìm kiếm" [level=2] [ref=e612]
+            - generic [ref=e614]:
+              - generic [ref=e615]:
+                - link "ISO 5817:2023" [ref=e619] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ISO+5817:2023&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ1QJ6BAgnEAE
+                  - generic [ref=e620]:
+                    - generic [ref=e625]: ISO 5817:2023
+                    - img [ref=e629]
+                - link "Iso 5817 pdf" [ref=e634] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=Iso+5817+pdf&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ1QJ6BAgmEAE
+                  - generic [ref=e635]:
+                    - generic [ref=e640]: Iso 5817 pdf
+                    - img [ref=e644]
+                - link "ISO 5817:2014" [ref=e649] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ISO+5817:2014&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ1QJ6BAg6EAE
+                  - generic [ref=e650]:
+                    - generic [ref=e655]: ISO 5817:2014
+                    - img [ref=e659]
+                - link "ISO 5817 level B PDF" [ref=e664] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ISO+5817+level+B+PDF&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ1QJ6BAg1EAE
+                  - generic [ref=e665]:
+                    - generic [ref=e670]: ISO 5817 level B PDF
+                    - img [ref=e674]
+              - generic [ref=e676]:
+                - link "ISO 5817 welding Symbols" [ref=e680] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ISO+5817+welding+Symbols&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ1QJ6BAgzEAE
+                  - generic [ref=e681]:
+                    - generic [ref=e686]: ISO 5817 welding Symbols
+                    - img [ref=e690]
+                - link "Iso 5817 latest edition" [ref=e695] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=Iso+5817+latest+edition&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ1QJ6BAgwEAE
+                  - generic [ref=e696]:
+                    - generic [ref=e701]: Iso 5817 latest edition
+                    - img [ref=e705]
+                - link "ISO 5817 levels" [ref=e710] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ISO+5817+levels&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ1QJ6BAgvEAE
+                  - generic [ref=e711]:
+                    - generic [ref=e716]: ISO 5817 levels
+                    - img [ref=e720]
+                - link "ISO 5817 level B acceptance criteria" [ref=e725] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ISO+5817+level+B+acceptance+criteria&sa=X&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ1QJ6BAgrEAE
+                  - generic [ref=e726]:
+                    - generic [ref=e731]: ISO 5817 level B acceptance criteria
+                    - img [ref=e735]
+          - navigation [ref=e737]:
+            - heading "Điều hướng trang" [level=1] [ref=e738]
+            - text: "1"
+            - link "Page 2" [ref=e741] [cursor=pointer]:
+              - /url: /search?q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sca_esv=bec4f44b4fc03395&ei=p6k0avDTE8Dk2roP_be2wQo&start=10&sa=N&sstk=AU9db-DgysyjsvzyhaE0ErMN3Nro0r-bIsLZOhz8VhrbDvgrr0MWQJoC7jYgiXu5rIqZqnMoRUOhObDYxbLDYf02tf6TFMpnhnjb7w&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ8tMDegQIJBAE
+              - text: "2"
+            - link "Page 3" [ref=e743] [cursor=pointer]:
+              - /url: /search?q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sca_esv=bec4f44b4fc03395&ei=p6k0avDTE8Dk2roP_be2wQo&start=20&sa=N&sstk=AU9db-DgysyjsvzyhaE0ErMN3Nro0r-bIsLZOhz8VhrbDvgrr0MWQJoC7jYgiXu5rIqZqnMoRUOhObDYxbLDYf02tf6TFMpnhnjb7w&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ8tMDegQIJBAG
+              - text: "3"
+            - link "Page 4" [ref=e745] [cursor=pointer]:
+              - /url: /search?q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sca_esv=bec4f44b4fc03395&ei=p6k0avDTE8Dk2roP_be2wQo&start=30&sa=N&sstk=AU9db-DgysyjsvzyhaE0ErMN3Nro0r-bIsLZOhz8VhrbDvgrr0MWQJoC7jYgiXu5rIqZqnMoRUOhObDYxbLDYf02tf6TFMpnhnjb7w&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ8tMDegQIJBAI
+              - text: "4"
+            - link "Page 5" [ref=e747] [cursor=pointer]:
+              - /url: /search?q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sca_esv=bec4f44b4fc03395&ei=p6k0avDTE8Dk2roP_be2wQo&start=40&sa=N&sstk=AU9db-DgysyjsvzyhaE0ErMN3Nro0r-bIsLZOhz8VhrbDvgrr0MWQJoC7jYgiXu5rIqZqnMoRUOhObDYxbLDYf02tf6TFMpnhnjb7w&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ8tMDegQIJBAK
+              - text: "5"
+            - link "Page 6" [ref=e749] [cursor=pointer]:
+              - /url: /search?q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sca_esv=bec4f44b4fc03395&ei=p6k0avDTE8Dk2roP_be2wQo&start=50&sa=N&sstk=AU9db-DgysyjsvzyhaE0ErMN3Nro0r-bIsLZOhz8VhrbDvgrr0MWQJoC7jYgiXu5rIqZqnMoRUOhObDYxbLDYf02tf6TFMpnhnjb7w&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ8tMDegQIJBAM
+              - text: "6"
+            - link "Page 7" [ref=e751] [cursor=pointer]:
+              - /url: /search?q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sca_esv=bec4f44b4fc03395&ei=p6k0avDTE8Dk2roP_be2wQo&start=60&sa=N&sstk=AU9db-DgysyjsvzyhaE0ErMN3Nro0r-bIsLZOhz8VhrbDvgrr0MWQJoC7jYgiXu5rIqZqnMoRUOhObDYxbLDYf02tf6TFMpnhnjb7w&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ8tMDegQIJBAO
+              - text: "7"
+            - link "Page 8" [ref=e753] [cursor=pointer]:
+              - /url: /search?q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sca_esv=bec4f44b4fc03395&ei=p6k0avDTE8Dk2roP_be2wQo&start=70&sa=N&sstk=AU9db-DgysyjsvzyhaE0ErMN3Nro0r-bIsLZOhz8VhrbDvgrr0MWQJoC7jYgiXu5rIqZqnMoRUOhObDYxbLDYf02tf6TFMpnhnjb7w&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ8tMDegQIJBAQ
+              - text: "8"
+            - link "Page 9" [ref=e755] [cursor=pointer]:
+              - /url: /search?q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sca_esv=bec4f44b4fc03395&ei=p6k0avDTE8Dk2roP_be2wQo&start=80&sa=N&sstk=AU9db-DgysyjsvzyhaE0ErMN3Nro0r-bIsLZOhz8VhrbDvgrr0MWQJoC7jYgiXu5rIqZqnMoRUOhObDYxbLDYf02tf6TFMpnhnjb7w&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ8tMDegQIJBAS
+              - text: "9"
+            - link "Page 10" [ref=e757] [cursor=pointer]:
+              - /url: /search?q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sca_esv=bec4f44b4fc03395&ei=p6k0avDTE8Dk2roP_be2wQo&start=90&sa=N&sstk=AU9db-DgysyjsvzyhaE0ErMN3Nro0r-bIsLZOhz8VhrbDvgrr0MWQJoC7jYgiXu5rIqZqnMoRUOhObDYxbLDYf02tf6TFMpnhnjb7w&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ8tMDegQIJBAU
+              - text: "10"
+            - heading "Tiếp" [level=2] [ref=e759]:
+              - link "Tiếp" [ref=e760] [cursor=pointer]:
+                - /url: /search?q=ISO+5817+quality+levels+B+C+D+imperfections+fusion+welded+joints+steel&sca_esv=bec4f44b4fc03395&ei=p6k0avDTE8Dk2roP_be2wQo&start=10&sa=N&sstk=AU9db-DgysyjsvzyhaE0ErMN3Nro0r-bIsLZOhz8VhrbDvgrr0MWQJoC7jYgiXu5rIqZqnMoRUOhObDYxbLDYf02tf6TFMpnhnjb7w&ved=2ahUKEwiww9WNoZKVAxVAslYBHf2bLagQ8NMDegQIJBAW
+                - generic [ref=e762]: Tiếp
+        - navigation
+    - contentinfo [ref=e763]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e764]
+      - generic [ref=e768]:
+        - generic [ref=e770]:
+          - text: Việt Nam
+          - generic [ref=e772]:
+            - button "Mỹ Thượng, Tp. Huế, Huế - Dựa trên địa chỉ IP của bạn" [ref=e774] [cursor=pointer]:
+              - generic [ref=e775]: Mỹ Thượng, Tp. Huế, Huế
+              - generic [ref=e777]:
+                - text: "-"
+                - generic [ref=e778]: Dựa trên địa chỉ IP của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e780] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e783]:
+          - link "Trợ giúp" [ref=e784] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e785] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e786] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e787] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

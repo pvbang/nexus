@@ -1,0 +1,319 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - link "Log in" [ref=e7] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/login/
+            - link "Sign up" [ref=e8] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/registration/
+          - generic [ref=e9]:
+            - text: LANGUAGE
+            - link "en" [ref=e10] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/bs-en-iso-17637-2016-non-destructive-testing-of-welds-visual-testing-of-fusion-welded-joints/
+        - generic:
+          - generic:
+            - generic [ref=e11]:
+              - link "STORE" [ref=e12] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/store/
+              - link "Membership" [ref=e13] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/membership/
+              - link "Help center" [ref=e14] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/blog/
+              - link "Contacts" [ref=e15] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/contacts-1/
+              - link "Delivery charges" [ref=e16] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/delivery-charges/
+              - link "ABOUT US" [ref=e17] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/about-us/
+              - link "News" [ref=e18] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/news-5-2026/
+            - generic [ref=e19]:
+              - generic [ref=e20]: SEARCH
+              - generic:
+                - textbox "SEARCH STANDARDS" [ref=e21]
+                - button [ref=e22] [cursor=pointer]
+            - generic [ref=e23]:
+              - generic [ref=e25]: "0"
+              - generic [ref=e26]: Total price
+              - generic [ref=e27]: 0 EUR
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e31]:
+          - generic [ref=e32]: PRICES include / exclude VAT
+          - combobox [ref=e34]:
+            - option "no, exclude" [selected]
+            - option "Czech Republic"
+            - option "Austria"
+            - option "Belgium"
+            - option "Bulgaria"
+            - option "Croatia"
+            - option "Denmark"
+            - option "Estonia"
+            - option "Finland"
+            - option "France"
+            - option "Germany"
+            - option "Greece"
+            - option "Hungary"
+            - option "Ireland"
+            - option "Italy"
+            - option "Latvia"
+            - option "Lithuania"
+            - option "Luxembourg"
+            - option "Monaco"
+            - option "Netherlands"
+            - option "Poland"
+            - option "Portugal"
+            - option "Romania"
+            - option "Slovakia"
+            - option "Slovenia"
+            - option "Spain"
+            - option "Sweden"
+            - option "Malta"
+            - option "Cyprus"
+        - generic [ref=e35]:
+          - link [ref=e36] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/
+          - text: ">"
+          - link "BSI Standards" [ref=e37] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/
+          - text: ">"
+          - link "25 MANUFACTURING ENGINEERING" [ref=e38] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/25-manufacturing-engineering/
+          - text: ">"
+          - link "25.160 Welding, brazing and soldering" [ref=e39] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/25-manufacturing-engineering/25-160-welding-brazing-and-soldering/
+          - text: ">"
+          - link "25.160.40 Welded joints" [ref=e40] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/25-manufacturing-engineering/25-160-welding-brazing-and-soldering/25-160-40-welded-joints/
+          - text: ">BS EN ISO 17637:2016 Non-destructive testing of welds. Visual testing of fusion-welded joints"
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]: "immediate downloadReleased: 2016-12-31"
+            - link "BS EN ISO 17637:2016 Non-destructive testing of welds. Visual testing of fusion-welded joints" [ref=e45] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/imgcache/1/6/pi449-bs-en-iso-17637-2016-BS-EN-ISO-17637-2016-Non-destr_-1_-1_315627.jpg
+              - img "BS EN ISO 17637:2016 Non-destructive testing of welds. Visual testing of fusion-welded joints" [ref=e46]
+            - generic [ref=e47]:
+              - heading "BS EN ISO 17637:2016" [level=1] [ref=e48]
+              - heading "Non-destructive testing of welds. Visual testing of fusion-welded joints" [level=2] [ref=e49]
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - generic [ref=e52]: Format
+              - generic [ref=e53]: Availability
+              - generic [ref=e54]:
+                - text: Price and currency
+                - combobox [ref=e55]:
+                  - option "EUR" [selected]
+                  - option "GBP"
+                  - option "USD"
+            - generic [ref=e56]:
+              - generic "Secure PDF files include digital rights management (DRM) software- protected by Vitrium security. DRM is included at the request of the publisher. It helps them protect their copyright. The DRM solution works with Adobe Reader and internet viewers. For more information visit helpcenter." [ref=e59]: English Secure PDF
+              - generic [ref=e60]:
+                - text: Immediate download
+                - generic "Printable - You are authorized to print 1 copy" [ref=e61]
+              - generic [ref=e62]: 189.24 EUR
+              - button "Add to cart" [ref=e64] [cursor=pointer]
+            - generic [ref=e65]:
+              - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e68]: English Hardcopy
+              - generic [ref=e69]: In stock
+              - generic [ref=e70]: 189.24 EUR
+              - button "Add to cart" [ref=e72] [cursor=pointer]
+          - generic [ref=e75]:
+            - table [ref=e76]:
+              - rowgroup [ref=e77]:
+                - 'row "Standard number: BS EN ISO 17637:2016" [ref=e78]':
+                  - cell "Standard number:" [ref=e79]
+                  - cell "BS EN ISO 17637:2016" [ref=e80]
+                - 'row "Pages: 20" [ref=e81]':
+                  - cell "Pages:" [ref=e82]
+                  - cell "20" [ref=e83]
+                - 'row "Released: 2016-12-31" [ref=e84]':
+                  - cell "Released:" [ref=e85]
+                  - cell "2016-12-31" [ref=e86]
+                - 'row "ISBN: 978 0 580 87798 8" [ref=e87]':
+                  - cell "ISBN:" [ref=e88]
+                  - cell "978 0 580 87798 8" [ref=e89]
+                - 'row "Status: Standard" [ref=e90]':
+                  - cell "Status:" [ref=e91]
+                  - cell "Standard" [ref=e92]
+            - generic [ref=e94]: DESCRIPTION
+            - generic [ref=e95]:
+              - heading "BS EN ISO 17637:2016" [level=1] [ref=e96]
+              - text: "This standard BS EN ISO 17637:2016 Non-destructive testing of welds. Visual testing of fusion-welded joints is classified in these ICS categories:"
+              - list [ref=e97]:
+                - listitem [ref=e98]: 25.160.40 Welded joints and welds
+              - paragraph [ref=e99]: This document specifies the visual testing of fusion welds in metallic materials. It may also be applied to visual testing of the joint prior to welding.
+          - generic [ref=e101]:
+            - link "Print" [ref=e103] [cursor=pointer]:
+              - /url: javascript:window.print()
+            - link "RECOMMEND" [ref=e104] [cursor=pointer]:
+              - /url: mailto:?Subject=Zaj%C3%ADmav%C3%BD%20produkt&Body=https://www.en-standard.eu/bs-en-iso-17637-2016-non-destructive-testing-of-welds-visual-testing-of-fusion-welded-joints/
+          - generic [ref=e105]:
+            - iframe [ref=e106]:
+              
+            - link "Tweet" [ref=e108] [cursor=pointer]:
+              - /url: https://twitter.com/share
+            - button "Share" [ref=e112] [cursor=pointer]:
+              - generic [ref=e113]:
+                - img
+              - text: Share
+      - complementary [ref=e114]:
+        - generic [ref=e116]:
+          - link "ICS codes" [ref=e117] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/ics-codes/
+          - link "AIAG Standards" [ref=e118] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/qs-9000/
+          - link "ASTM Standards" [ref=e119] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/astm-standards/
+          - link "Annual Book of ASTM Standards" [ref=e120] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/annual-book-of-astm-standards/
+          - link "BSI Standards" [ref=e121] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/
+            - text: BSI Standards
+          - link "CSN Standards" [ref=e123] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/csn-standards/
+          - link "CQI Standards" [ref=e124] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/cqi/
+          - link "DIN Standards" [ref=e125] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/din-standards/
+          - link "IEC Standards" [ref=e126] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/iec-standards/
+          - link "IEEE Standards" [ref=e127] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/ieee-standards/
+          - link "IPC Standards" [ref=e128] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/ipc-standards/
+          - link "ISO Standards" [ref=e129] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/iso-standards/
+          - link "UNE standards" [ref=e130] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/une-standards/
+          - link "VDA Automotive Standards" [ref=e131] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/automotive-quality-standards-qs-9000/
+          - link "Eurocodes" [ref=e132] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/eurocodes/
+          - link "Sets of EN Standards" [ref=e133] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/sets-of-en-standards/
+          - link "Quality management standards ISO 9001" [ref=e134] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/quality-management-standards-iso-9001/
+          - link "Environmental management systems ISO 14001" [ref=e135] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/environmental-management-systems-iso-14001/
+          - link "Asset management ISO 55000" [ref=e136] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/asset-management-iso-55000/
+          - link "Energy management systems ISO 50001" [ref=e137] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/energy-management-systems-iso-50001/
+          - link "Facility Management EN 15221 and ISO 41000" [ref=e138] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/facility-management-en-15221-and-iso-41000/
+          - link "ISO 5817-Welding" [ref=e139] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/sets-of-en-standards-iso-5817-welding/
+          - link "Information technology ISO/IEC 27000" [ref=e140] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/information-technology-iso-iec-27000/
+    - contentinfo [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - generic [ref=e144]: Partners
+          - generic [ref=e145]:
+            - paragraph [ref=e146]:
+              - link "ASTM Standards" [ref=e147] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/astm-standards/
+              - text: ","
+              - link "BS Standards" [ref=e148] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/bs-standards/
+            - paragraph [ref=e149]:
+              - link "DIN Standards" [ref=e150] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/din-standards/
+              - text: ","
+              - link "IEC Standards" [ref=e151] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/iec-standards/
+              - text: ","
+            - paragraph [ref=e152]:
+              - link "ISO Standards" [ref=e153] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/iso-standards/
+              - text: ","
+              - link "IEEE Standards" [ref=e154] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/ieee-standards/
+            - paragraph [ref=e155]:
+              - link "IPC Standards" [ref=e156] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/ipc-standards/
+              - text: ","
+              - link "VDA Standards" [ref=e157] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/automotive-quality-standards-qs-9000/
+            - paragraph [ref=e158]:
+              - link "CQI Manuals" [ref=e159] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/cqi/
+            - paragraph [ref=e160]
+            - paragraph [ref=e161]
+            - paragraph [ref=e162]
+            - paragraph [ref=e163]
+        - generic [ref=e164]:
+          - generic [ref=e165]: Terms and conditions
+          - generic [ref=e166]:
+            - paragraph [ref=e167]:
+              - text: Please check our
+              - link "Terms and conditions" [ref=e168] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+              - text: mainly for
+              - strong [ref=e169]: engineering standards in electronic (PDF)
+              - text: format
+            - paragraph [ref=e170]
+            - paragraph [ref=e171]:
+              - link "Privacy Policy" [ref=e172] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/publicdoc/privacy-policy-en-standard-1.pdf
+        - generic [ref=e174]:
+          - generic [ref=e175]: 3D Secure payment
+          - paragraph [ref=e176]
+        - generic [ref=e177]:
+          - generic [ref=e178]: Contacts
+          - generic [ref=e179]:
+            - paragraph [ref=e180]:
+              - text: "email:"
+              - link "info@en-standard.eu" [ref=e181] [cursor=pointer]:
+                - /url: mailto:info@en-standard.eu
+            - paragraph [ref=e182]: "Phone: +420 377 921 379"
+            - paragraph [ref=e183]: "Fax: +420 960 377 387 684"
+        - generic [ref=e184]:
+          - generic [ref=e185]: Copyright 2026 © EUROPEAN STANDARD. All rights reserved.
+          - generic [ref=e186]:
+            - link "SITEMAP" [ref=e187] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/sitemap-en/
+            - link "Ecommerce solutions" [ref=e188] [cursor=pointer]:
+              - /url: https://www.binargon.cz/eshop/
+            - link "BINARGON.cz" [ref=e189] [cursor=pointer]:
+              - /url: https://www.binargon.cz/
+        - generic [ref=e190]:
+          - paragraph [ref=e191]
+          - paragraph [ref=e192]:
+            - link "facebook" [ref=e193] [cursor=pointer]:
+              - /url: https://www.facebook.com/pages/European-Standards-Online-Store/113965131954594?fref=ts
+              - img "facebook" [ref=e194]
+            - link "google plus" [ref=e195] [cursor=pointer]:
+              - /url: https://plus.google.com/u/0/b/109762724017410291385/
+              - img "google plus" [ref=e196]
+            - link "twitter" [ref=e197] [cursor=pointer]:
+              - /url: https://twitter.com/enstandards
+              - img "twitter" [ref=e198]
+            - link "linkedin" [ref=e199] [cursor=pointer]:
+              - /url: http://www.linkedin.com/pub/en-standards/a3/a86/a54
+              - img "linkedin" [ref=e200]
+  - generic:
+    - complementary [ref=e201]:
+      - generic [ref=e202]: Cookies + GDPR
+      - generic [ref=e203]: European Standards and partners need your consent to use individual data in order to show you information related to your interests through ad personalization, among other things. You give consent by clicking on the checkbox "Yes, I agree".
+      - generic [ref=e204]:
+        - button "Reject everything" [ref=e205] [cursor=pointer]
+        - button "Yes, I accept" [ref=e206] [cursor=pointer]
+        - button "Detailed settings with explanations can be found here" [ref=e207] [cursor=pointer]
+    - complementary [ref=e208] [cursor=pointer]:
+      - generic [ref=e209]: Privacy
+  - iframe [ref=e210]:
+    
+  - iframe [ref=e213]:
+    - generic [ref=f30e5]:
+      - generic [ref=f30e6]:
+        - text: protected by
+        - strong [ref=f30e7]: reCAPTCHA
+      - generic [ref=f30e9]:
+        - text: reCAPTCHA is changing its terms of service.
+        - link "Take action." [ref=f30e10] [cursor=pointer]:
+          - /url: https://google.com/recaptcha/admin/migrate

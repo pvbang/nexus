@@ -1,0 +1,1160 @@
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikipedia The Free Encyclopedia" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=e13]:
+          - img "Wikipedia" [ref=e14]
+          - img "The Free Encyclopedia" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikipedia" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Donate" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=e33]:
+            - link "Create account" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=List+of+welding+codes
+          - listitem [ref=e35]:
+            - link "Log in" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=List+of+welding+codes
+  - generic [ref=e38]:
+    - navigation "Contents" [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Contents" [level=2] [ref=e46]
+          - button "hide" [ref=e47] [cursor=pointer]
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "(Top)" [ref=e50] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e51]: (Top)
+          - listitem [ref=e52]:
+            - link "American Society of Mechanical Engineers (ASME) Codes" [ref=e53] [cursor=pointer]:
+              - /url: "#American_Society_of_Mechanical_Engineers_(ASME)_Codes"
+              - generic [ref=e54]: American Society of Mechanical Engineers (ASME) Codes
+            - list
+          - listitem [ref=e55]:
+            - link "American Welding Society (AWS) Standards" [ref=e56] [cursor=pointer]:
+              - /url: "#American_Welding_Society_(AWS)_Standards"
+              - generic [ref=e57]: American Welding Society (AWS) Standards
+            - list
+          - listitem [ref=e58]:
+            - link "American Petroleum Institute (API) Standards" [ref=e59] [cursor=pointer]:
+              - /url: "#American_Petroleum_Institute_(API)_Standards"
+              - generic [ref=e60]: American Petroleum Institute (API) Standards
+            - list
+          - listitem [ref=e61]:
+            - link "Australian / New Zealand (AS/NZS) Standards" [ref=e62] [cursor=pointer]:
+              - /url: "#Australian_/_New_Zealand_(AS/NZS)_Standards"
+              - generic [ref=e63]: Australian / New Zealand (AS/NZS) Standards
+            - list
+          - listitem [ref=e64]:
+            - link "Canadian Standards Association (CSA) Standards" [ref=e65] [cursor=pointer]:
+              - /url: "#Canadian_Standards_Association_(CSA)_Standards"
+              - generic [ref=e66]: Canadian Standards Association (CSA) Standards
+            - list
+          - listitem [ref=e67]:
+            - link "British Standards (BS)" [ref=e68] [cursor=pointer]:
+              - /url: "#British_Standards_(BS)"
+              - generic [ref=e69]: British Standards (BS)
+            - list
+          - listitem [ref=e70]:
+            - link "International Organization for Standardization (ISO) Standards" [ref=e71] [cursor=pointer]:
+              - /url: "#International_Organization_for_Standardization_(ISO)_Standards"
+              - generic [ref=e72]: International Organization for Standardization (ISO) Standards
+            - list
+          - listitem [ref=e73]:
+            - link "European Union (CEN) standards" [ref=e74] [cursor=pointer]:
+              - /url: "#European_Union_(CEN)_standards"
+              - generic [ref=e75]: European Union (CEN) standards
+            - list
+          - listitem [ref=e76]:
+            - link "German Standards (DIN and others)" [ref=e77] [cursor=pointer]:
+              - /url: "#German_Standards_(DIN_and_others)"
+              - generic [ref=e78]: German Standards (DIN and others)
+            - list
+          - listitem [ref=e79]:
+            - link "Japanese Standards (JIS and others)" [ref=e80] [cursor=pointer]:
+              - /url: "#Japanese_Standards_(JIS_and_others)"
+              - generic [ref=e81]: Japanese Standards (JIS and others)
+            - button "Toggle Japanese Standards (JIS and others) subsection" [ref=e82]:
+              - generic [ref=e84]: Toggle Japanese Standards (JIS and others) subsection
+            - list [ref=e85]:
+              - listitem [ref=e86]:
+                - link "Japanese Industrial Standards (JIS)" [ref=e87] [cursor=pointer]:
+                  - /url: "#Japanese_Industrial_Standards_(JIS)"
+                  - generic [ref=e88]: Japanese Industrial Standards (JIS)
+                - list
+              - listitem [ref=e89]:
+                - link "Japan Welding Society Standard (WES)" [ref=e90] [cursor=pointer]:
+                  - /url: "#Japan_Welding_Society_Standard_(WES)"
+                  - generic [ref=e91]: Japan Welding Society Standard (WES)
+                - list
+          - listitem [ref=e92]:
+            - link "See also" [ref=e93] [cursor=pointer]:
+              - /url: "#See_also"
+              - generic [ref=e94]: See also
+            - list
+          - listitem [ref=e95]:
+            - link "Notes" [ref=e96] [cursor=pointer]:
+              - /url: "#Notes"
+              - generic [ref=e97]: Notes
+            - list
+          - listitem [ref=e98]:
+            - link "References" [ref=e99] [cursor=pointer]:
+              - /url: "#References"
+              - generic [ref=e100]: References
+            - list
+          - listitem [ref=e101]:
+            - link "Further reading and external links" [ref=e102] [cursor=pointer]:
+              - /url: "#Further_reading_and_external_links"
+              - generic [ref=e103]: Further reading and external links
+            - list
+    - main [ref=e105]:
+      - generic [ref=e106]:
+        - heading "List of welding codes" [level=1] [ref=e107]:
+          - generic [ref=e108]: List of welding codes
+        - generic [ref=e109]:
+          - button "Go to an article in another language. Available in 1 language" [ref=e110] [cursor=pointer]
+          - generic [ref=e113]: 1 language
+      - generic [ref=e115]:
+        - navigation "Namespaces" [ref=e117]:
+          - generic [ref=e118]:
+            - generic:
+              - list:
+                - listitem [ref=e119]:
+                  - link "Article" [ref=e120] [cursor=pointer]:
+                    - /url: /wiki/List_of_welding_codes
+                    - generic [ref=e121]: Article
+                - listitem [ref=e122]:
+                  - link "Talk" [ref=e123] [cursor=pointer]:
+                    - /url: /wiki/Talk:List_of_welding_codes
+                    - generic [ref=e124]: Talk
+        - generic [ref=e125]:
+          - navigation "Views" [ref=e126]:
+            - generic [ref=e127]:
+              - generic:
+                - list:
+                  - listitem [ref=e128]:
+                    - link "Read" [ref=e129] [cursor=pointer]:
+                      - /url: /wiki/List_of_welding_codes
+                      - generic [ref=e130]: Read
+                  - listitem [ref=e131]:
+                    - link "Edit" [ref=e132] [cursor=pointer]:
+                      - /url: /w/index.php?title=List_of_welding_codes&action=edit
+                      - generic [ref=e133]: Edit
+                  - listitem [ref=e134]:
+                    - link "View history" [ref=e135] [cursor=pointer]:
+                      - /url: /w/index.php?title=List_of_welding_codes&action=history
+                      - generic [ref=e136]: View history
+          - navigation "Page tools" [ref=e137]:
+            - generic [ref=e138]:
+              - button "Tools" [ref=e139] [cursor=pointer]
+              - generic [ref=e141] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e144]:
+        - generic [ref=e147]:
+          - generic [ref=e148]: Appearance
+          - button "hide" [ref=e149] [cursor=pointer]
+      - generic "List of welding codes" [ref=e150]:
+        - generic [ref=e152]: From Wikipedia, the free encyclopedia
+        - generic [ref=e154]:
+          - paragraph [ref=e155]: This page lists published welding codes, procedures, and specifications.
+          - generic [ref=e156]:
+            - heading "American Society of Mechanical Engineers (ASME) Codes" [level=2] [ref=e157]: American Society of Mechanical Engineers (ASME) Codes
+            - generic [ref=e158]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=1
+          - paragraph [ref=e159]:
+            - text: The
+            - link "American Society of Mechanical Engineers" [ref=e160] [cursor=pointer]:
+              - /url: /wiki/American_Society_of_Mechanical_Engineers
+            - text: (ASME)
+            - link "Boiler and Pressure Vessel Code" [ref=e161] [cursor=pointer]:
+              - /url: /wiki/ASME_Boiler_and_Pressure_Vessel_Code_(BPVC)
+            - text: "(BPVC) covers all aspects of design and manufacture of boilers and pressure vessels. All sections contain welding specifications, however most relevant information is contained in the following:"
+          - table [ref=e162]:
+            - rowgroup [ref=e163]:
+              - row "Code Description" [ref=e164]:
+                - columnheader "Code" [ref=e165] [cursor=pointer]
+                - columnheader "Description" [ref=e166] [cursor=pointer]
+              - row "ASME BPVC Section I Rules for Construction of Power Boilers" [ref=e167]:
+                - cell "ASME BPVC Section I" [ref=e168]
+                - cell "Rules for Construction of Power Boilers" [ref=e169]
+              - 'row "ASME BPVC Section II Part C: Specifications for Welding Rods, Electrodes and Filler Metals.[a]" [ref=e170]':
+                - cell "ASME BPVC Section II" [ref=e171]
+                - 'cell "Part C: Specifications for Welding Rods, Electrodes and Filler Metals.[a]" [ref=e172]':
+                  - text: "Part C: Specifications for Welding Rods, Electrodes and Filler Metals."
+                  - superscript [ref=e173]:
+                    - link "[a]" [ref=e174] [cursor=pointer]:
+                      - /url: "#cite_note-1"
+              - row "ASME BPVC Section III Rules for Constructions of Nuclear Facility Components-Subsection NCA-General Requirements for Division 1 and Division 2" [ref=e175]:
+                - cell "ASME BPVC Section III" [ref=e176]
+                - cell "Rules for Constructions of Nuclear Facility Components-Subsection NCA-General Requirements for Division 1 and Division 2" [ref=e177]
+              - row "ASME BPVC Section IV Rules for Construction of Heating Boilers" [ref=e178]:
+                - cell "ASME BPVC Section IV" [ref=e179]
+                - cell "Rules for Construction of Heating Boilers" [ref=e180]
+              - row "ASME BPVC Section V Nondestructive Examination" [ref=e181]:
+                - cell "ASME BPVC Section V" [ref=e182]
+                - cell "Nondestructive Examination" [ref=e183]
+              - row "ASME BPVC Section VIII Rules for Construction of Pressure Vessels Division 1 and Division 2" [ref=e184]:
+                - cell "ASME BPVC Section VIII" [ref=e185]
+                - cell "Rules for Construction of Pressure Vessels Division 1 and Division 2" [ref=e186]
+              - row "ASME BPVC Section IX Welding and Brazing Qualifications" [ref=e187]:
+                - cell "ASME BPVC Section IX" [ref=e188]
+                - cell "Welding and Brazing Qualifications" [ref=e189]
+              - row "ASME B16.25 Buttwelding ends" [ref=e190]:
+                - cell "ASME B16.25" [ref=e191]
+                - cell "Buttwelding ends" [ref=e192]
+              - row "ASME B31.1 Power Piping" [ref=e193]:
+                - cell "ASME B31.1" [ref=e194]
+                - cell "Power Piping" [ref=e195]
+              - row "ASME B31.3 Process Piping" [ref=e196]:
+                - cell "ASME B31.3" [ref=e197]
+                - cell "Process Piping" [ref=e198]
+              - row "ASME B31.9 Building Services Piping" [ref=e199]:
+                - cell "ASME B31.9" [ref=e200]
+                - cell "Building Services Piping" [ref=e201]
+          - generic [ref=e202]:
+            - heading "American Welding Society (AWS) Standards" [level=2] [ref=e203]: American Welding Society (AWS) Standards
+            - generic [ref=e204]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=2
+          - paragraph [ref=e205]:
+            - text: The
+            - link "American Welding Society" [ref=e206] [cursor=pointer]:
+              - /url: /wiki/American_Welding_Society
+            - text: (AWS) publishes over 240 AWS-developed codes, recommended practices and guides which are written in accordance with American National Standards Institute (ANSI) practices.
+            - superscript [ref=e207]:
+              - link "[1]" [ref=e208] [cursor=pointer]:
+                - /url: "#cite_note-2"
+            - text: "The following is a partial list of the more common publications:"
+            - superscript [ref=e209]:
+              - text: "["
+              - link "citation needed" [ref=e211] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:Citation_needed
+              - text: "]"
+          - table [ref=e212]:
+            - rowgroup [ref=e213]:
+              - row "Standard Number Title" [ref=e214]:
+                - columnheader "Standard Number" [ref=e215] [cursor=pointer]
+                - columnheader "Title" [ref=e216] [cursor=pointer]
+              - row "AWS A2.4 Standard symbols for welding, brazing, and non-destructive examination" [ref=e217]:
+                - cell "AWS A2.4" [ref=e218]
+                - cell "Standard symbols for welding, brazing, and non-destructive examination" [ref=e219]
+              - row "AWS A3.0 Standard welding terms and definitions" [ref=e220]:
+                - cell "AWS A3.0" [ref=e221]
+                - cell "Standard welding terms and definitions" [ref=e222]
+              - row "AWS A5.1 Specification for carbon steel electrodes for shielded metal arc welding" [ref=e223]:
+                - cell "AWS A5.1" [ref=e224]
+                - cell "Specification for carbon steel electrodes for shielded metal arc welding" [ref=e225]
+              - row "AWS A5.18 Specification for carbon steel electrodes and rods for gas shielded arc welding" [ref=e226]:
+                - cell "AWS A5.18" [ref=e227]
+                - cell "Specification for carbon steel electrodes and rods for gas shielded arc welding" [ref=e228]
+              - row "AWS B1.10 Guide for the nondestructive examination of welds" [ref=e229]:
+                - cell "AWS B1.10" [ref=e230]
+                - cell "Guide for the nondestructive examination of welds" [ref=e231]
+              - row "AWS B2.1 Specification for Welding Procedure and Performance Qualification" [ref=e232]:
+                - cell "AWS B2.1" [ref=e233]
+                - cell "Specification for Welding Procedure and Performance Qualification" [ref=e234]
+              - row "AWS D1.1 Structural welding (steel)" [ref=e235]:
+                - cell "AWS D1.1" [ref=e236]
+                - cell "Structural welding (steel)" [ref=e237]
+              - row "AWS D1.2 Structural welding (aluminum)" [ref=e238]:
+                - cell "AWS D1.2" [ref=e239]
+                - cell "Structural welding (aluminum)" [ref=e240]
+              - row "AWS D1.3 Structural welding (sheet steel)" [ref=e241]:
+                - cell "AWS D1.3" [ref=e242]
+                - cell "Structural welding (sheet steel)" [ref=e243]
+              - row "AWS D1.4 Structural welding (reinforcing steel)" [ref=e244]:
+                - cell "AWS D1.4" [ref=e245]
+                - cell "Structural welding (reinforcing steel)" [ref=e246]
+              - row "AWS D1.5 Bridge welding" [ref=e247]:
+                - cell "AWS D1.5" [ref=e248]
+                - cell "Bridge welding" [ref=e249]
+              - row "AWS D1.6 Structural welding (stainless steel)" [ref=e250]:
+                - cell "AWS D1.6" [ref=e251]
+                - cell "Structural welding (stainless steel)" [ref=e252]
+              - row "AWS D1.7 Structural welding (strengthening and repair)" [ref=e253]:
+                - cell "AWS D1.7" [ref=e254]
+                - cell "Structural welding (strengthening and repair)" [ref=e255]
+              - row "AWS D1.8 Structural welding seismic supplement" [ref=e256]:
+                - cell "AWS D1.8" [ref=e257]
+                - cell "Structural welding seismic supplement" [ref=e258]
+              - row "AWS D1.9 Structural welding (titanium)" [ref=e259]:
+                - cell "AWS D1.9" [ref=e260]
+                - cell "Structural welding (titanium)" [ref=e261]
+              - row "AWS D3.6R Underwater welding (Offshore & inland pipelines)" [ref=e262]:
+                - cell "AWS D3.6R" [ref=e263]
+                - cell "Underwater welding (Offshore & inland pipelines)" [ref=e264]
+              - row "AWS D8.1 Automotive spot welding" [ref=e265]:
+                - cell "AWS D8.1" [ref=e266]
+                - cell "Automotive spot welding" [ref=e267]
+              - row "AWS D8.6 Automotive spot welding electrodes supplement" [ref=e268]:
+                - cell "AWS D8.6" [ref=e269]
+                - cell "Automotive spot welding electrodes supplement" [ref=e270]
+              - row "AWS D8.7 Automotive spot welding recommendations supplement" [ref=e271]:
+                - cell "AWS D8.7" [ref=e272]
+                - cell "Automotive spot welding recommendations supplement" [ref=e273]
+              - row "AWS D8.8 Automotive arc welding (steel)" [ref=e274]:
+                - cell "AWS D8.8" [ref=e275]
+                - cell "Automotive arc welding (steel)" [ref=e276]
+              - row "AWS D8.9 Automotive spot weld testing" [ref=e277]:
+                - cell "AWS D8.9" [ref=e278]
+                - cell "Automotive spot weld testing" [ref=e279]
+              - row "AWS D8.14 Automotive arc welding (aluminum)" [ref=e280]:
+                - cell "AWS D8.14" [ref=e281]
+                - cell "Automotive arc welding (aluminum)" [ref=e282]
+              - row "AWS D9.1 Sheet metal welding" [ref=e283]:
+                - cell "AWS D9.1" [ref=e284]
+                - cell "Sheet metal welding" [ref=e285]
+              - row "AWS D10.10 Heating practices for pipe and tube" [ref=e286]:
+                - cell "AWS D10.10" [ref=e287]
+                - cell "Heating practices for pipe and tube" [ref=e288]
+              - row "AWS D10.11 Root pass welding for pipe" [ref=e289]:
+                - cell "AWS D10.11" [ref=e290]
+                - cell "Root pass welding for pipe" [ref=e291]
+              - row "AWS D10.12 Pipe welding (mild steel)" [ref=e292]:
+                - cell "AWS D10.12" [ref=e293]
+                - cell "Pipe welding (mild steel)" [ref=e294]
+              - row "AWS D10.13 Tube brazing (copper)" [ref=e295]:
+                - cell "AWS D10.13" [ref=e296]
+                - cell "Tube brazing (copper)" [ref=e297]
+              - row "AWS D10.18 Pipe welding (stainless steel)" [ref=e298]:
+                - cell "AWS D10.18" [ref=e299]
+                - cell "Pipe welding (stainless steel)" [ref=e300]
+              - row "AWS D11.2 Welding (cast iron)" [ref=e301]:
+                - cell "AWS D11.2" [ref=e302]
+                - cell "Welding (cast iron)" [ref=e303]
+              - row "AWS D14.1 Industrial mill crane welding" [ref=e304]:
+                - cell "AWS D14.1" [ref=e305]
+                - cell "Industrial mill crane welding" [ref=e306]
+              - row "AWS D14.3 Earthmoving & agricultural equipment welding" [ref=e307]:
+                - cell "AWS D14.3" [ref=e308]
+                - cell "Earthmoving & agricultural equipment welding" [ref=e309]
+              - row "AWS D14.4 Machinery joint welding" [ref=e310]:
+                - cell "AWS D14.4" [ref=e311]
+                - cell "Machinery joint welding" [ref=e312]
+              - row "AWS D14.5 Press welding" [ref=e313]:
+                - cell "AWS D14.5" [ref=e314]
+                - cell "Press welding" [ref=e315]
+              - row "AWS D14.6 Rotating Elements of Equipment" [ref=e316]:
+                - cell "AWS D14.6" [ref=e317]
+                - cell "Rotating Elements of Equipment" [ref=e318]
+              - row "AWS D14.9 Specification for the Welding of Hydraulic Cylinders" [ref=e319]:
+                - cell "AWS D14.9" [ref=e320]
+                - cell "Specification for the Welding of Hydraulic Cylinders" [ref=e321]
+              - row "AWS D15.1 Railroad welding" [ref=e322]:
+                - cell "AWS D15.1" [ref=e323]
+                - cell "Railroad welding" [ref=e324]
+              - row "AWS D15.2 Railroad welding practice supplement" [ref=e325]:
+                - cell "AWS D15.2" [ref=e326]
+                - cell "Railroad welding practice supplement" [ref=e327]
+              - row "AWS D16.1 Robotic arc welding safety" [ref=e328]:
+                - cell "AWS D16.1" [ref=e329]
+                - cell "Robotic arc welding safety" [ref=e330]
+              - row "AWS D16.2 Robotic arc welding system installation" [ref=e331]:
+                - cell "AWS D16.2" [ref=e332]
+                - cell "Robotic arc welding system installation" [ref=e333]
+              - row "AWS D16.3 Robotic arc welding risk assessment" [ref=e334]:
+                - cell "AWS D16.3" [ref=e335]
+                - cell "Robotic arc welding risk assessment" [ref=e336]
+              - row "AWS D16.4 Robotic arc welder operator qualification" [ref=e337]:
+                - cell "AWS D16.4" [ref=e338]
+                - cell "Robotic arc welder operator qualification" [ref=e339]
+              - row "AWS D17.1 Aerospace fusion welding" [ref=e340]:
+                - cell "AWS D17.1" [ref=e341]
+                - cell "Aerospace fusion welding" [ref=e342]
+              - row "AWS D17.2 Aerospace resistance welding" [ref=e343]:
+                - cell "AWS D17.2" [ref=e344]
+                - cell "Aerospace resistance welding" [ref=e345]
+              - row "AWS D17.3 Aerospace friction stir welding (aluminum)" [ref=e346]:
+                - cell "AWS D17.3" [ref=e347]
+                - cell "Aerospace friction stir welding (aluminum)" [ref=e348]
+              - row "AWS D18.1 Hygienic tube welding (stainless steel)" [ref=e349]:
+                - cell "AWS D18.1" [ref=e350]
+                - cell "Hygienic tube welding (stainless steel)" [ref=e351]
+              - row "AWS D18.2 Stainless steel tube discoloration guide" [ref=e352]:
+                - cell "AWS D18.2" [ref=e353]
+                - cell "Stainless steel tube discoloration guide" [ref=e354]
+              - row "AWS D18.3 Hygienic equipment welding" [ref=e355]:
+                - cell "AWS D18.3" [ref=e356]
+                - cell "Hygienic equipment welding" [ref=e357]
+          - generic [ref=e358]:
+            - heading "American Petroleum Institute (API) Standards" [level=2] [ref=e359]: American Petroleum Institute (API) Standards
+            - generic [ref=e360]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=3
+          - paragraph [ref=e361]:
+            - text: The
+            - link "American Petroleum Institute" [ref=e362] [cursor=pointer]:
+              - /url: /wiki/American_Petroleum_Institute
+            - text: (API) oldest and most successful programs is in the development of API standards which started with its first standard in 1924. API maintains over 500 standards covering the oil and gas field.
+            - superscript [ref=e363]:
+              - link "[2]" [ref=e364] [cursor=pointer]:
+                - /url: "#cite_note-3"
+            - text: "The following is a partial list specific to welding:"
+          - table [ref=e365]:
+            - rowgroup [ref=e366]:
+              - row "Standard Number Description" [ref=e367]:
+                - columnheader "Standard Number" [ref=e368] [cursor=pointer]
+                - columnheader "Description" [ref=e369] [cursor=pointer]
+              - row "API RP 577 Welding Inspection and Metallurgy" [ref=e370]:
+                - cell "API RP 577" [ref=e371]
+                - cell "Welding Inspection and Metallurgy" [ref=e372]
+              - row "API RP 582 Welding Guidelines for the Chemical, Oil, and Gas Industries" [ref=e373]:
+                - cell "API RP 582" [ref=e374]
+                - cell "Welding Guidelines for the Chemical, Oil, and Gas Industries" [ref=e375]
+              - row "API 1104 Welding of pipelines and related facilities" [ref=e376]:
+                - cell "API 1104" [ref=e377]
+                - cell "Welding of pipelines and related facilities" [ref=e378]
+              - row "API 1169 Basic Inspection Requirements for New Pipeline Construction" [ref=e379]:
+                - cell "API 1169" [ref=e380]
+                - cell "Basic Inspection Requirements for New Pipeline Construction" [ref=e381]
+          - generic [ref=e382]:
+            - heading "Australian / New Zealand (AS/NZS) Standards" [level=2] [ref=e383]: Australian / New Zealand (AS/NZS) Standards
+            - generic [ref=e384]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=4
+          - paragraph [ref=e385]:
+            - link "Standards Australia" [ref=e386] [cursor=pointer]:
+              - /url: /wiki/Standards_Australia
+            - text: is the body responsible for the development, maintenance and publication of Australian Standards.
+            - superscript [ref=e387]:
+              - link "[3]" [ref=e388] [cursor=pointer]:
+                - /url: "#cite_note-4"
+            - text: "The following is a partial list specific to welding:"
+          - table [ref=e389]:
+            - rowgroup [ref=e390]:
+              - row "Standard Number Description" [ref=e391]:
+                - columnheader "Standard Number" [ref=e392] [cursor=pointer]
+                - columnheader "Description" [ref=e393] [cursor=pointer]
+              - row "AS/NZS 1554.1 Structural steel welding - Welding of steel structures" [ref=e394]:
+                - cell "AS/NZS 1554.1" [ref=e395]
+                - cell "Structural steel welding - Welding of steel structures" [ref=e396]
+              - row "AS/NZS 1554.2 Structural steel welding - Stud welding (steel studs to steel)" [ref=e397]:
+                - cell "AS/NZS 1554.2" [ref=e398]
+                - cell "Structural steel welding - Stud welding (steel studs to steel)" [ref=e399]
+              - row "AS/NZS 1554.3 Structural steel welding - Welding of reinforcing steel" [ref=e400]:
+                - cell "AS/NZS 1554.3" [ref=e401]
+                - cell "Structural steel welding - Welding of reinforcing steel" [ref=e402]
+              - row "AS/NZS 1554.4 Structural steel welding - Welding of high strength quenched and tempered steels" [ref=e403]:
+                - cell "AS/NZS 1554.4" [ref=e404]
+                - cell "Structural steel welding - Welding of high strength quenched and tempered steels" [ref=e405]
+              - row "AS/NZS 1554.5 Structural steel welding - Welding of steel structures subject to high levels of fatigue loading" [ref=e406]:
+                - cell "AS/NZS 1554.5" [ref=e407]
+                - cell "Structural steel welding - Welding of steel structures subject to high levels of fatigue loading" [ref=e408]
+              - row "AS/NZS 1554.6 Structural steel welding - Welding stainless steels for structural purposes" [ref=e409]:
+                - cell "AS/NZS 1554.6" [ref=e410]
+                - cell "Structural steel welding - Welding stainless steels for structural purposes" [ref=e411]
+              - row "AS/NZS 1554.7 Structural steel welding - Welding of sheet steel structures" [ref=e412]:
+                - cell "AS/NZS 1554.7" [ref=e413]
+                - cell "Structural steel welding - Welding of sheet steel structures" [ref=e414]
+              - row "AS/NZS 3992 Pressure equipment - Welding and brazing qualification" [ref=e415]:
+                - cell "AS/NZS 3992" [ref=e416]:
+                  - link "AS/NZS 3992" [ref=e417] [cursor=pointer]:
+                    - /url: /wiki/AS/NZS_1200
+                - cell "Pressure equipment - Welding and brazing qualification" [ref=e418]
+              - row "AS/NZS 4855 Welding consumables - Covered electrodes for manual metal arc welding" [ref=e419]:
+                - cell "AS/NZS 4855" [ref=e420]
+                - cell "Welding consumables - Covered electrodes for manual metal arc welding" [ref=e421]
+              - row "AS 4041 Pressure Piping" [ref=e422]:
+                - cell "AS 4041" [ref=e423]
+                - cell "Pressure Piping" [ref=e424]
+          - generic [ref=e425]:
+            - heading "Canadian Standards Association (CSA) Standards" [level=2] [ref=e426]: Canadian Standards Association (CSA) Standards
+            - generic [ref=e427]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=5
+          - paragraph [ref=e428]:
+            - text: The
+            - link "Canadian Standards Association" [ref=e429] [cursor=pointer]:
+              - /url: /wiki/Canadian_Standards_Association
+            - text: (CSA) is responsible for the development, maintenance and publication of CSA standards.
+            - superscript [ref=e430]:
+              - link "[4]" [ref=e431] [cursor=pointer]:
+                - /url: "#cite_note-5"
+            - text: "The following is a partial list specific to welding:"
+          - table [ref=e432]:
+            - rowgroup [ref=e433]:
+              - row "Standard Number Description" [ref=e434]:
+                - columnheader "Standard Number" [ref=e435]
+                - columnheader "Description" [ref=e436]
+              - row "CAN/CSA-G401-14 Corrugated steel pipe products" [ref=e437]:
+                - cell "CAN/CSA-G401-14" [ref=e438]
+                - cell "Corrugated steel pipe products" [ref=e439]
+              - row "CAN/CSA-ISO 14341:11 (R2016) Welding consumables - Wire electrodes and weld deposits for gas shielded metal arc welding of non alloy and fine grain steels - Classification" [ref=e440]:
+                - cell "CAN/CSA-ISO 14341:11 (R2016)" [ref=e441]
+                - cell "Welding consumables - Wire electrodes and weld deposits for gas shielded metal arc welding of non alloy and fine grain steels - Classification" [ref=e442]
+              - row "CAN/CSA-W117.2-12 Safety in welding, cutting, and allied processes" [ref=e443]:
+                - cell "CAN/CSA-W117.2-12" [ref=e444]
+                - cell "Safety in welding, cutting, and allied processes" [ref=e445]
+              - row "G40.20-13/G40.21-13 General requirements for rolled or welded structural quality steel/ Structural quality steel" [ref=e446]:
+                - cell "G40.20-13/G40.21-13" [ref=e447]
+                - cell "General requirements for rolled or welded structural quality steel/ Structural quality steel" [ref=e448]
+              - row "W178.1-14 Certification of welding inspection organizations" [ref=e449]:
+                - cell "W178.1-14" [ref=e450]
+                - cell "Certification of welding inspection organizations" [ref=e451]
+              - row "W178.2-14 Certification of welding inspectors" [ref=e452]:
+                - cell "W178.2-14" [ref=e453]
+                - cell "Certification of welding inspectors" [ref=e454]
+              - row "W47.1-09 (R2014) Certification of companies for fusion welding of steel" [ref=e455]:
+                - cell "W47.1-09 (R2014)" [ref=e456]
+                - cell "Certification of companies for fusion welding of steel" [ref=e457]
+              - row "W47.2-11 (R2015) Certification of companies for fusion welding of aluminum" [ref=e458]:
+                - cell "W47.2-11 (R2015)" [ref=e459]
+                - cell "Certification of companies for fusion welding of aluminum" [ref=e460]
+              - row "W48-14 Filler metals and allied materials for metal arc welding" [ref=e461]:
+                - cell "W48-14" [ref=e462]
+                - cell "Filler metals and allied materials for metal arc welding" [ref=e463]
+              - row "W55.3-08 (R2013) Certification of companies for resistance welding of steel and aluminum" [ref=e464]:
+                - cell "W55.3-08 (R2013)" [ref=e465]
+                - cell "Certification of companies for resistance welding of steel and aluminum" [ref=e466]
+              - row "W59-13 Welded steel construction (metal arc welding)" [ref=e467]:
+                - cell "W59-13" [ref=e468]
+                - cell "Welded steel construction (metal arc welding)" [ref=e469]
+              - row "W59.2-M1991 (R2013) Welded Aluminum Construction" [ref=e470]:
+                - cell "W59.2-M1991 (R2013)" [ref=e471]
+                - cell "Welded Aluminum Construction" [ref=e472]
+              - row "CAN/CSA-Z662-15 Oil and gas pipeline systems" [ref=e473]:
+                - cell "CAN/CSA-Z662-15" [ref=e474]
+                - cell "Oil and gas pipeline systems" [ref=e475]
+          - generic [ref=e476]:
+            - heading "British Standards (BS)" [level=2] [ref=e477]: British Standards (BS)
+            - generic [ref=e478]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=6
+          - paragraph [ref=e479]:
+            - link "British Standards" [ref=e480] [cursor=pointer]:
+              - /url: /wiki/British_Standards
+            - text: are developed, maintained and published by BSI Standards which is UK's National Standards Body.
+            - superscript [ref=e481]:
+              - link "[5]" [ref=e482] [cursor=pointer]:
+                - /url: "#cite_note-6"
+            - text: "The following is a partial list of standards specific to welding:"
+          - table [ref=e483]:
+            - rowgroup [ref=e484]:
+              - row "Standard Number Description" [ref=e485]:
+                - columnheader "Standard Number" [ref=e486] [cursor=pointer]
+                - columnheader "Description" [ref=e487] [cursor=pointer]
+              - row "BS 499-1 Welding terms and symbols. Glossary for welding, brazing and thermal cutting" [ref=e488]:
+                - cell "BS 499-1" [ref=e489]
+                - cell "Welding terms and symbols. Glossary for welding, brazing and thermal cutting" [ref=e490]
+              - row "BS 499-2C Welding terms and symbols. European arc welding symbols in chart form" [ref=e491]:
+                - cell "BS 499-2C" [ref=e492]
+                - cell "Welding terms and symbols. European arc welding symbols in chart form" [ref=e493]
+              - row "BS 2633 Specification for Class I arc welding of ferritic steel pipework for carrying fluids" [ref=e494]:
+                - cell "BS 2633" [ref=e495]
+                - cell "Specification for Class I arc welding of ferritic steel pipework for carrying fluids" [ref=e496]
+              - row "BS 2971 Specification for class II arc welding of carbon steel pipework for carrying fluids" [ref=e497]:
+                - cell "BS 2971" [ref=e498]
+                - cell "Specification for class II arc welding of carbon steel pipework for carrying fluids" [ref=e499]
+              - 'row "BS 4515-1 Specification for welding of steel pipelines on land and offshore - Part 1: Carbon and carbon manganese steel pipelines" [ref=e500]':
+                - cell "BS 4515-1" [ref=e501]
+                - 'cell "Specification for welding of steel pipelines on land and offshore - Part 1: Carbon and carbon manganese steel pipelines" [ref=e502]'
+              - row "BS 4515-2 Specification for welding of steel pipelines on land and offshore. Duplex stainless steel pipelines" [ref=e503]:
+                - cell "BS 4515-2" [ref=e504]
+                - cell "Specification for welding of steel pipelines on land and offshore. Duplex stainless steel pipelines" [ref=e505]
+              - row "PD 6705-2 Structural use of steel and aluminium. Recommendations for the execution of steel bridges to BS EN 1090-2" [ref=e506]:
+                - cell "PD 6705-2" [ref=e507]
+                - cell "Structural use of steel and aluminium. Recommendations for the execution of steel bridges to BS EN 1090-2" [ref=e508]
+              - row "PD 6705-3 Structural use of steel and aluminium. Recommendations for the execution of aluminium structures to BS EN 1090-3" [ref=e509]:
+                - cell "PD 6705-3" [ref=e510]
+                - cell "Structural use of steel and aluminium. Recommendations for the execution of aluminium structures to BS EN 1090-3" [ref=e511]
+          - generic [ref=e512]:
+            - heading "International Organization for Standardization (ISO) Standards" [level=2] [ref=e513]: International Organization for Standardization (ISO) Standards
+            - generic [ref=e514]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=7
+          - paragraph [ref=e515]:
+            - link "International Organization for Standardization" [ref=e516] [cursor=pointer]:
+              - /url: /wiki/International_Organization_for_Standardization
+            - text: (ISO) has developed over 18500 standards and over 1100 new standards are published every year.
+            - superscript [ref=e517]:
+              - link "[6]" [ref=e518] [cursor=pointer]:
+                - /url: "#cite_note-7"
+            - text: "The following is a partial list of the standards specific to welding:"
+          - table [ref=e519]:
+            - rowgroup [ref=e520]:
+              - row "Standard Number Description" [ref=e521]:
+                - columnheader "Standard Number" [ref=e522] [cursor=pointer]
+                - columnheader "Description" [ref=e523] [cursor=pointer]
+              - row "ISO 2553 Welded, brazed and soldered joints - symbolic representation on drawings (1992)" [ref=e524]:
+                - cell "ISO 2553" [ref=e525]
+                - cell "Welded, brazed and soldered joints - symbolic representation on drawings (1992)" [ref=e526]
+              - row "ISO 2560 Welding consumables. Covered electrodes for manual metal arc welding of non-alloy and fine grain steels. Classification" [ref=e527]:
+                - cell "ISO 2560" [ref=e528]
+                - cell "Welding consumables. Covered electrodes for manual metal arc welding of non-alloy and fine grain steels. Classification" [ref=e529]
+              - row "ISO 3580 Covered electrodes for manual arc welding of creep-resisting steels - Code of symbols for identification" [ref=e530]:
+                - cell "ISO 3580" [ref=e531]
+                - cell "Covered electrodes for manual arc welding of creep-resisting steels - Code of symbols for identification" [ref=e532]
+              - row "ISO 3581 Covered electrodes for manual arc welding of stainless and other similar high alloy steels - Code of symbols for identification" [ref=e533]:
+                - cell "ISO 3581" [ref=e534]
+                - cell "Covered electrodes for manual arc welding of stainless and other similar high alloy steels - Code of symbols for identification" [ref=e535]
+              - row "ISO 3834 Quality requirements for fusion welding of metallic materials, five parts." [ref=e536]:
+                - cell "ISO 3834" [ref=e537]
+                - cell "Quality requirements for fusion welding of metallic materials, five parts." [ref=e538]
+              - row "ISO 4063 Welding and allied processes - Nomenclature of processes and reference numbers" [ref=e539]:
+                - cell "ISO 4063" [ref=e540]
+                - cell "Welding and allied processes - Nomenclature of processes and reference numbers" [ref=e541]
+              - row "ISO 5817 Welding. Fusion-welded joints in steel, nickel, titanium and their alloys (beam welding excluded). Quality levels for imperfections" [ref=e542]:
+                - cell "ISO 5817" [ref=e543]
+                - cell "Welding. Fusion-welded joints in steel, nickel, titanium and their alloys (beam welding excluded). Quality levels for imperfections" [ref=e544]
+              - 'row "ISO 6520-1 Welding and allied processes — Classification of geometric imperfections in metallic materials — Part 1: Fusion welding" [ref=e545]':
+                - cell "ISO 6520-1" [ref=e546]
+                - 'cell "Welding and allied processes — Classification of geometric imperfections in metallic materials — Part 1: Fusion welding" [ref=e547]'
+              - 'row "ISO 6520-2 Welding and allied processes — Classification of geometric imperfections in metallic materials — Part 2: Welding with pressure" [ref=e548]':
+                - cell "ISO 6520-2" [ref=e549]
+                - 'cell "Welding and allied processes — Classification of geometric imperfections in metallic materials — Part 2: Welding with pressure" [ref=e550]'
+              - row "ISO 6947 Welds. Working positions. Definitions of angles of slope and rotation" [ref=e551]:
+                - cell "ISO 6947" [ref=e552]
+                - cell "Welds. Working positions. Definitions of angles of slope and rotation" [ref=e553]
+              - row "ISO 9606 Qualification test of welders — Fusion welding, parts 1 to 5" [ref=e554]:
+                - cell "ISO 9606" [ref=e555]
+                - cell "Qualification test of welders — Fusion welding, parts 1 to 5" [ref=e556]
+              - row "ISO 9692-1 Welding and allied processes. Recommendations for joint preparation. Manual metal-arc welding, gas-shielded metal-arc welding, gas welding, TIG welding and beam welding of steels" [ref=e557]:
+                - cell "ISO 9692-1" [ref=e558]
+                - cell "Welding and allied processes. Recommendations for joint preparation. Manual metal-arc welding, gas-shielded metal-arc welding, gas welding, TIG welding and beam welding of steels" [ref=e559]
+              - row "ISO 9692-2 Welding and allied processes. Joint preparation. Submerged arc welding of steels" [ref=e560]:
+                - cell "ISO 9692-2" [ref=e561]
+                - cell "Welding and allied processes. Joint preparation. Submerged arc welding of steels" [ref=e562]
+              - 'row "ISO 9692-3 Welding and allied processes. Joint preparation. Part 3: TIG and MIG welding of aluminium and its alloys" [ref=e563]':
+                - cell "ISO 9692-3" [ref=e564]
+                - 'cell "Welding and allied processes. Joint preparation. Part 3: TIG and MIG welding of aluminium and its alloys" [ref=e565]'
+              - 'row "ISO 9692-4 Welding and allied processes. Joint preparation. Part 4: Clad steels" [ref=e566]':
+                - cell "ISO 9692-4" [ref=e567]
+                - 'cell "Welding and allied processes. Joint preparation. Part 4: Clad steels" [ref=e568]'
+              - row "ISO 13847 Petroleum and natural gas industries - Pipeline transportation systems - Welding of pipelines" [ref=e569]:
+                - cell "ISO 13847" [ref=e570]
+                - cell "Petroleum and natural gas industries - Pipeline transportation systems - Welding of pipelines" [ref=e571]:
+                  - text: Petroleum and natural gas industries -
+                  - link "Pipeline transportation systems" [ref=e572] [cursor=pointer]:
+                    - /url: /wiki/Pipeline_transport
+                  - text: "- Welding of pipelines"
+              - row "ISO 13916 Welding - Guidance on the measurement of preheating temperature, interpass temperature and preheat maintenance temperature" [ref=e573]:
+                - cell "ISO 13916" [ref=e574]
+                - cell "Welding - Guidance on the measurement of preheating temperature, interpass temperature and preheat maintenance temperature" [ref=e575]
+              - row "ISO 13918 Welding - Studs and ceramic ferrules for arc stud welding" [ref=e576]:
+                - cell "ISO 13918" [ref=e577]
+                - cell "Welding - Studs and ceramic ferrules for arc stud welding" [ref=e578]:
+                  - text: Welding - Studs and ceramic ferrules for arc
+                  - link "stud welding" [ref=e579] [cursor=pointer]:
+                    - /url: /wiki/Stud_welding
+              - 'row "ISO 13919-1 Welding - Electron and laser-beam welded joints - Guidance on quality level for imperfections - Part 1: Steel" [ref=e580]':
+                - cell "ISO 13919-1" [ref=e581]
+                - 'cell "Welding - Electron and laser-beam welded joints - Guidance on quality level for imperfections - Part 1: Steel" [ref=e582]'
+              - 'row "ISO 13919-2 Welding - Electron and laser-beam welded joints - Guidance on quality level for imperfections - Part 2: Aluminium and its weldable alloys" [ref=e583]':
+                - cell "ISO 13919-2" [ref=e584]
+                - 'cell "Welding - Electron and laser-beam welded joints - Guidance on quality level for imperfections - Part 2: Aluminium and its weldable alloys" [ref=e585]'
+              - row "ISO 13920 Welding - General tolerances for welded constructions - Dimensions for lengths and angles - Shape and position" [ref=e586]:
+                - cell "ISO 13920" [ref=e587]
+                - cell "Welding - General tolerances for welded constructions - Dimensions for lengths and angles - Shape and position" [ref=e588]
+              - row "ISO 14112 Gas welding equipment - Small kits for gas brazing and welding" [ref=e589]:
+                - cell "ISO 14112" [ref=e590]
+                - cell "Gas welding equipment - Small kits for gas brazing and welding" [ref=e591]
+              - row "ISO 14175 Welding consumables — Gases and gas mixtures for fusion welding and allied processes. Replaced EN 439:1994 in Europe." [ref=e592]:
+                - cell "ISO 14175" [ref=e593]
+                - cell "Welding consumables — Gases and gas mixtures for fusion welding and allied processes. Replaced EN 439:1994 in Europe." [ref=e594]
+              - row "ISO 14341 Welding consumables. Wire electrodes and deposits for gas shielded metal arc welding of non alloy and fine grain steels. Classification" [ref=e595]:
+                - cell "ISO 14341" [ref=e596]
+                - cell "Welding consumables. Wire electrodes and deposits for gas shielded metal arc welding of non alloy and fine grain steels. Classification" [ref=e597]
+              - row "ISO 14554 Resistance welding" [ref=e598]:
+                - cell "ISO 14554" [ref=e599]
+                - cell "Resistance welding" [ref=e600]
+              - row "ISO 14744 Electron beam welding, six parts" [ref=e601]:
+                - cell "ISO 14744" [ref=e602]
+                - cell "Electron beam welding, six parts" [ref=e603]
+              - row "ISO 15607 Specification and qualification of welding procedures for metallic materials - General rules" [ref=e604]:
+                - cell "ISO 15607" [ref=e605]
+                - cell "Specification and qualification of welding procedures for metallic materials - General rules" [ref=e606]
+              - row "ISO/TR 15608 Welding - Guidelines for a metallic material grouping system" [ref=e607]:
+                - cell "ISO/TR 15608" [ref=e608]
+                - cell "Welding - Guidelines for a metallic material grouping system" [ref=e609]
+              - row "ISO 15609 Specification and qualification of welding procedures for metallic materials - Welding procedure specification, five parts." [ref=e610]:
+                - cell "ISO 15609" [ref=e611]
+                - cell "Specification and qualification of welding procedures for metallic materials - Welding procedure specification, five parts." [ref=e612]
+              - row "ISO 15610 Specification and qualification of welding procedures for metallic materials — Qualification based on tested welding consumables" [ref=e613]:
+                - cell "ISO 15610" [ref=e614]
+                - cell "Specification and qualification of welding procedures for metallic materials — Qualification based on tested welding consumables" [ref=e615]
+              - row "ISO 15611 Specification and qualification of welding procedures for metallic materials — Qualification based on previous welding experience" [ref=e616]:
+                - cell "ISO 15611" [ref=e617]
+                - cell "Specification and qualification of welding procedures for metallic materials — Qualification based on previous welding experience" [ref=e618]
+              - row "ISO 15612 Specification and qualification of welding procedures for metallic materials — Qualification by adoption of a standard welding procedure" [ref=e619]:
+                - cell "ISO 15612" [ref=e620]
+                - cell "Specification and qualification of welding procedures for metallic materials — Qualification by adoption of a standard welding procedure" [ref=e621]
+              - row "ISO 15613 Specification and qualification of welding procedures for metallic materials — Qualification based on pre-production welding test" [ref=e622]:
+                - cell "ISO 15613" [ref=e623]
+                - cell "Specification and qualification of welding procedures for metallic materials — Qualification based on pre-production welding test" [ref=e624]
+              - row "ISO 15614 Specification and qualification of welding procedures for metallic materials - Welding procedure test, 13 parts." [ref=e625]:
+                - cell "ISO 15614" [ref=e626]
+                - cell "Specification and qualification of welding procedures for metallic materials - Welding procedure test, 13 parts." [ref=e627]
+              - row "ISO 15615 Gas welding equipment. Acetylene manifold systems for welding, cutting and allied processes. Safety requirements in high-pressure devices" [ref=e628]:
+                - cell "ISO 15615" [ref=e629]
+                - cell "Gas welding equipment. Acetylene manifold systems for welding, cutting and allied processes. Safety requirements in high-pressure devices" [ref=e630]
+              - row "ISO 15618-1 Qualification testing of welders for under-water welding. Diver-welders for hyperbaric wet welding" [ref=e631]:
+                - cell "ISO 15618-1" [ref=e632]
+                - cell "Qualification testing of welders for under-water welding. Diver-welders for hyperbaric wet welding" [ref=e633]:
+                  - text: Qualification testing of welders for under-water welding. Diver-welders for
+                  - link "hyperbaric" [ref=e634] [cursor=pointer]:
+                    - /url: /wiki/Hyperbaric_welding
+                  - text: wet welding
+              - row "ISO 15618-2 Qualification testing of welders for under-water welding. Diver-welders and welding operators for hyperbaric dry welding" [ref=e635]:
+                - cell "ISO 15618-2" [ref=e636]
+                - cell "Qualification testing of welders for under-water welding. Diver-welders and welding operators for hyperbaric dry welding" [ref=e637]:
+                  - text: Qualification testing of welders for under-water welding. Diver-welders and welding operators for
+                  - link "hyperbaric" [ref=e638] [cursor=pointer]:
+                    - /url: /wiki/Hyperbaric_welding
+                  - text: dry welding
+              - row "ISO 17635 Non-destructive testing of welds. General rules for metallic materials" [ref=e639]:
+                - cell "ISO 17635" [ref=e640]
+                - cell "Non-destructive testing of welds. General rules for metallic materials" [ref=e641]
+              - 'row "ISO 17660-1 Welding - Welding of reinforcing steel - Part 1: Load-bearing welded joints" [ref=e642]':
+                - cell "ISO 17660-1" [ref=e643]
+                - 'cell "Welding - Welding of reinforcing steel - Part 1: Load-bearing welded joints" [ref=e644]'
+              - 'row "ISO 17660-2 Welding - Welding of reinforcing steel - Part 1: Non-load bearing welded joints" [ref=e645]':
+                - cell "ISO 17660-2" [ref=e646]
+                - 'cell "Welding - Welding of reinforcing steel - Part 1: Non-load bearing welded joints" [ref=e647]'
+              - row "ISO/TR 20172 Welding — Grouping systems for materials — European materials" [ref=e648]:
+                - cell "ISO/TR 20172" [ref=e649]
+                - cell "Welding — Grouping systems for materials — European materials" [ref=e650]
+              - row "ISO/TR 20173 Welding — Grouping systems for materials — American materials" [ref=e651]:
+                - cell "ISO/TR 20173" [ref=e652]
+                - cell "Welding — Grouping systems for materials — American materials" [ref=e653]
+              - row "ISO/TR 20174 Welding — Grouping systems for materials — Japanese materials" [ref=e654]:
+                - cell "ISO/TR 20174" [ref=e655]
+                - cell "Welding — Grouping systems for materials — Japanese materials" [ref=e656]
+              - row "ISO 24394 Welding for aerospace applications. Qualification test for welders and welding operators. Fusion welding of metallic components" [ref=e657]:
+                - cell "ISO 24394" [ref=e658]
+                - cell "Welding for aerospace applications. Qualification test for welders and welding operators. Fusion welding of metallic components" [ref=e659]
+          - generic [ref=e660]:
+            - heading "European Union (CEN) standards" [level=2] [ref=e661]: European Union (CEN) standards
+            - generic [ref=e662]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=8
+          - paragraph [ref=e663]:
+            - text: The
+            - link "European Committee for Standardization" [ref=e664] [cursor=pointer]:
+              - /url: /wiki/European_Committee_for_Standardization
+            - text: (CEN) had issued numerous standards covering welding processes, which unified and replaced former national standards. Of the former national standards, those issued by
+            - link "BSI" [ref=e665] [cursor=pointer]:
+              - /url: /wiki/British_Standards
+            - text: and
+            - link "DIN" [ref=e666] [cursor=pointer]:
+              - /url: /wiki/DIN
+            - text: were widely used outside their countries of origin. After the Vienna Agreement with ISO, CEN has replaced most of them with equivalent ISO standards (EN ISO series).
+            - superscript [ref=e667]:
+              - link "[7]" [ref=e668] [cursor=pointer]:
+                - /url: "#cite_note-8"
+          - table [ref=e669]:
+            - rowgroup [ref=e670]:
+              - row "Standard Number Description" [ref=e671]:
+                - columnheader "Standard Number" [ref=e672] [cursor=pointer]
+                - columnheader "Description" [ref=e673] [cursor=pointer]
+              - 'row "EN 287-1 Qualification test of welders — Fusion welding — Part 1: Steels. Withdrawn and replaced by EN ISO 9606-1 [b] [9]" [ref=e674]':
+                - cell "EN 287-1" [ref=e675]
+                - 'cell "Qualification test of welders — Fusion welding — Part 1: Steels. Withdrawn and replaced by EN ISO 9606-1 [b] [9]" [ref=e676]':
+                  - text: "Qualification test of welders — Fusion welding — Part 1: Steels. Withdrawn and replaced by EN ISO 9606-1"
+                  - superscript [ref=e677]:
+                    - link "[b]" [ref=e678] [cursor=pointer]:
+                      - /url: "#cite_note-10"
+                  - superscript [ref=e679]:
+                    - link "[9]" [ref=e680] [cursor=pointer]:
+                      - /url: "#cite_note-11"
+              - 'row "EN 1090-1 Execution of steel structures and aluminium structures - Part 1: Requirements for conformity assessment of structural components" [ref=e681]':
+                - cell "EN 1090-1" [ref=e682]
+                - 'cell "Execution of steel structures and aluminium structures - Part 1: Requirements for conformity assessment of structural components" [ref=e683]'
+              - 'row "EN 1090-2 Execution of steel structures and aluminium structures - Part 2: Technical requirements for steel structures" [ref=e684]':
+                - cell "EN 1090-2" [ref=e685]
+                - 'cell "Execution of steel structures and aluminium structures - Part 2: Technical requirements for steel structures" [ref=e686]'
+              - 'row "EN 1090-3 Execution of steel structures and aluminium structures - Part 3: Technical requirements for aluminium structures" [ref=e687]':
+                - cell "EN 1090-3" [ref=e688]
+                - 'cell "Execution of steel structures and aluminium structures - Part 3: Technical requirements for aluminium structures" [ref=e689]'
+              - 'row "EN 1011-1 Welding — Recommendations for welding of metallic materials — Part 1: General guidance for arc welding" [ref=e690]':
+                - cell "EN 1011-1" [ref=e691]
+                - 'cell "Welding — Recommendations for welding of metallic materials — Part 1: General guidance for arc welding" [ref=e692]'
+              - 'row "EN 1011-2 Welding — Recommendations for welding of metallic materials — Part 2: Arc welding of ferritic steels" [ref=e693]':
+                - cell "EN 1011-2" [ref=e694]
+                - 'cell "Welding — Recommendations for welding of metallic materials — Part 2: Arc welding of ferritic steels" [ref=e695]'
+              - 'row "EN 1011-3 Welding — Recommendations for welding of metallic materials — Part 3: Arc welding of stainless steels" [ref=e696]':
+                - cell "EN 1011-3" [ref=e697]
+                - 'cell "Welding — Recommendations for welding of metallic materials — Part 3: Arc welding of stainless steels" [ref=e698]'
+              - 'row "EN 1011-4 Welding — Recommendations for welding of metallic materials — Part 4: Arc welding of aluminium and aluminium alloys" [ref=e699]':
+                - cell "EN 1011-4" [ref=e700]
+                - 'cell "Welding — Recommendations for welding of metallic materials — Part 4: Arc welding of aluminium and aluminium alloys" [ref=e701]'
+              - row "EN 1011-5 Welding. Recommendations for welding of metallic materials. Welding of clad steel" [ref=e702]:
+                - cell "EN 1011-5" [ref=e703]
+                - cell "Welding. Recommendations for welding of metallic materials. Welding of clad steel" [ref=e704]
+              - row "EN 1011-6 Welding. Recommendations for welding of metallic materials. Laser beam welding" [ref=e705]:
+                - cell "EN 1011-6" [ref=e706]
+                - cell "Welding. Recommendations for welding of metallic materials. Laser beam welding" [ref=e707]
+              - 'row "EN 1011-7 Welding — Recommendations for welding of metallic materials — Part 7: Electron beam welding" [ref=e708]':
+                - cell "EN 1011-7" [ref=e709]
+                - 'cell "Welding — Recommendations for welding of metallic materials — Part 7: Electron beam welding" [ref=e710]'
+              - row "EN 1011-8 Welding. Recommendations for welding of metallic materials. Welding of cast irons" [ref=e711]:
+                - cell "EN 1011-8" [ref=e712]
+                - cell "Welding. Recommendations for welding of metallic materials. Welding of cast irons" [ref=e713]
+              - row "EN 1418 Welding personnel. Approval testing of welding operators for fusion welding and resistance weld setters for fully mechanized and automatic welding of metallic materials. (CEN version of ISO 14732)" [ref=e714]:
+                - cell "EN 1418" [ref=e715]
+                - cell "Welding personnel. Approval testing of welding operators for fusion welding and resistance weld setters for fully mechanized and automatic welding of metallic materials. (CEN version of ISO 14732)" [ref=e716]
+              - row "EN 1708-1 Welding. Basic welded joint details in steel. Pressurized components." [ref=e717]:
+                - cell "EN 1708-1" [ref=e718]
+                - cell "Welding. Basic welded joint details in steel. Pressurized components." [ref=e719]
+              - row "EN 1708-2 Welding. Basic weld joint details in steel. Non-internal pressurized components." [ref=e720]:
+                - cell "EN 1708-2" [ref=e721]
+                - cell "Welding. Basic weld joint details in steel. Non-internal pressurized components." [ref=e722]
+              - row "EN 1708-3 Welding. Basic weld joint details in steel. Clad, buttered and lined pressurized components." [ref=e723]:
+                - cell "EN 1708-3" [ref=e724]
+                - cell "Welding. Basic weld joint details in steel. Clad, buttered and lined pressurized components." [ref=e725]
+              - 'row "EN 1993-1-8 Eurocode 3: Design of steel structures – Part 1-8: General – Design of joints" [ref=e726]':
+                - cell "EN 1993-1-8" [ref=e727]
+                - 'cell "Eurocode 3: Design of steel structures – Part 1-8: General – Design of joints" [ref=e728]':
+                  - link "Eurocode" [ref=e729] [cursor=pointer]:
+                    - /url: /wiki/Eurocode
+                  - text: "3: Design of steel structures – Part 1-8: General – Design of joints"
+              - row "EN 13133 Brazing - Brazer approval" [ref=e730]:
+                - cell "EN 13133" [ref=e731]
+                - cell "Brazing - Brazer approval" [ref=e732]
+              - row "EN 22553 Welded, brazed and soldered joints – Symbolic representation on drawings. (CEN version of ISO 2553)" [ref=e733]:
+                - cell "EN 22553" [ref=e734]
+                - cell "Welded, brazed and soldered joints – Symbolic representation on drawings. (CEN version of ISO 2553)" [ref=e735]
+          - paragraph [ref=e736]:
+            - text: Additional requirements for welding exist in CEN codes and standards for specific products, like EN 12952, EN 12953,
+            - link "EN 13445" [ref=e737] [cursor=pointer]:
+              - /url: /w/index.php?title=EN_13445&action=edit&redlink=1
+            - text: ", EN 13480, etc."
+          - generic [ref=e738]:
+            - heading "German Standards (DIN and others)" [level=2] [ref=e739]:
+              - text: German Standards (
+              - link "DIN" [ref=e740] [cursor=pointer]:
+                - /url: /wiki/DIN
+              - text: and others)
+            - generic [ref=e741]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=9
+          - paragraph [ref=e742]:
+            - text: NA 092 is the Standards Committee for welding and allied processes (NAS) at DIN Deutsches Institut für Normung e. V.
+            - superscript [ref=e743]:
+              - link "[10]" [ref=e744] [cursor=pointer]:
+                - /url: "#cite_note-12"
+            - text: "The following is a partial list of DIN welding standards:"
+          - table [ref=e745]:
+            - rowgroup [ref=e746]:
+              - row "Code Description" [ref=e747]:
+                - columnheader "Code" [ref=e748] [cursor=pointer]
+                - columnheader "Description" [ref=e749] [cursor=pointer]
+              - row "DIN 1910-100 Welding; terms dependent on materials for metal welding" [ref=e750]:
+                - cell "DIN 1910-100" [ref=e751]
+                - cell "Welding; terms dependent on materials for metal welding" [ref=e752]
+              - row "SEW 088 Schweißgeeignete Feinkornbaustähle - Richtlinien für die Verarbeitung besonders für das Schmelzschweißen, Stahlinstitut VDEh" [ref=e753]:
+                - cell "SEW 088" [ref=e754]
+                - cell "Schweißgeeignete Feinkornbaustähle - Richtlinien für die Verarbeitung besonders für das Schmelzschweißen, Stahlinstitut VDEh" [ref=e755]
+              - row "Merkblatt DVS 0916 Metall-Schutzgasschweißen von Feinkornbaustählen, Deutscher Verband für Schweißtechnik e.V." [ref=e756]:
+                - cell "Merkblatt DVS 0916" [ref=e757]
+                - cell "Metall-Schutzgasschweißen von Feinkornbaustählen, Deutscher Verband für Schweißtechnik e.V." [ref=e758]
+          - generic [ref=e759]:
+            - heading "Japanese Standards (JIS and others)" [level=2] [ref=e760]: Japanese Standards (JIS and others)
+            - generic [ref=e761]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=10
+          - generic [ref=e762]:
+            - heading "Japanese Industrial Standards (JIS)" [level=3] [ref=e763]: Japanese Industrial Standards (JIS)
+            - generic [ref=e764]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=11
+          - note [ref=e765]:
+            - text: "Main article:"
+            - link "jp:溶接規格（日本産業規格(JIS)）の一覧" [ref=e766] [cursor=pointer]:
+              - /url: https://ja.wikipedia.org/wiki/%E6%BA%B6%E6%8E%A5%E8%A6%8F%E6%A0%BC%EF%BC%88%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E8%A6%8F%E6%A0%BC(JIS)%EF%BC%89%E3%81%AE%E4%B8%80%E8%A6%A7
+          - paragraph [ref=e767]:
+            - link "Japanese Industrial Standards" [ref=e768] [cursor=pointer]:
+              - /url: /wiki/Japanese_Industrial_Standards
+            - text: are the standards used for industrial activities in Japan, coordinated by the Japanese Industrial Standards Committee (JISC) and published by the Japanese Standards Association (JSA).
+          - list [ref=e769]:
+            - listitem [ref=e770]: "JIS Z 3001-1 Welding and allied processes-Vocabulary-Part 1: General"
+            - listitem [ref=e771]: "JIS Z 3001-2 Welding and allied processes-Vocabulary-Part 2: Welding processes"
+            - listitem [ref=e772]: "JIS Z 3001-3 Welding and allied processes-Vocabulary-Part 3: Soldering and brazing"
+            - listitem [ref=e773]: "JIS Z 3001-4 Welding and allied processes-Vocabulary-Part 4: Imperfections in welding"
+            - listitem [ref=e774]: "JIS Z 3001-5 Welding and allied processes-Vocabulary-Part 5: Laser welding"
+            - listitem [ref=e775]: "JIS Z 3001-6 Welding and allied processes-Vocabulary-Part 6: Resistance welding"
+            - listitem [ref=e776]: "JIS Z 3001-7 Welding and allied processes-Vocabulary-Part 7: Arc welding"
+            - listitem [ref=e777]: JIS Z 3011 Welding positions defined by means of angles of slope and rotation
+            - listitem [ref=e778]: JIS Z 3021 Welding and allied processes -- Symbolic representation
+          - generic [ref=e779]:
+            - heading "Japan Welding Society Standard (WES)" [level=3] [ref=e780]: Japan Welding Society Standard (WES)
+            - generic [ref=e781]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=12
+          - note [ref=e782]:
+            - text: "Main articles:"
+            - link "jp:日本溶接協会" [ref=e783] [cursor=pointer]:
+              - /url: https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E6%BA%B6%E6%8E%A5%E5%8D%94%E4%BC%9A
+            - text: and
+            - link "jp:溶接規格（日本溶接協会規格（WES））の一覧" [ref=e784] [cursor=pointer]:
+              - /url: https://ja.wikipedia.org/wiki/%E6%BA%B6%E6%8E%A5%E8%A6%8F%E6%A0%BC%EF%BC%88%E6%97%A5%E6%9C%AC%E6%BA%B6%E6%8E%A5%E5%8D%94%E4%BC%9A%E8%A6%8F%E6%A0%BC%EF%BC%88WES%EF%BC%89%EF%BC%89%E3%81%AE%E4%B8%80%E8%A6%A7
+          - paragraph [ref=e785]:
+            - text: As a WES standard, it is defined in the following classification.
+            - superscript [ref=e786]:
+              - link "[11]" [ref=e787] [cursor=pointer]:
+                - /url: "#cite_note-13"
+          - list [ref=e788]:
+            - listitem [ref=e789]: Fundamentals
+            - listitem [ref=e790]: Tests, inspections and their equipment
+            - listitem [ref=e791]: Base material
+            - listitem [ref=e792]: welding material
+            - listitem [ref=e793]: Welding and cutting equipment and accessories
+            - listitem [ref=e794]: Welding design and construction
+            - listitem [ref=e795]: Welding-related certifications and certifications
+            - listitem [ref=e796]: Safety, health and environment
+          - generic [ref=e797]:
+            - heading "See also" [level=2] [ref=e798]
+            - generic [ref=e799]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=13
+          - list [ref=e800]:
+            - listitem [ref=e801]:
+              - link "Welding" [ref=e802] [cursor=pointer]:
+                - /url: /wiki/Welding
+            - listitem [ref=e803]:
+              - link "List of welding processes" [ref=e804] [cursor=pointer]:
+                - /url: /wiki/List_of_welding_processes
+            - listitem [ref=e805]:
+              - link "Welder certification" [ref=e806] [cursor=pointer]:
+                - /url: /wiki/Welder_certification
+            - listitem [ref=e807]:
+              - link "Welding Procedure Specification" [ref=e808] [cursor=pointer]:
+                - /url: /wiki/Welding_Procedure_Specification
+            - listitem [ref=e809]:
+              - link "Welder" [ref=e810] [cursor=pointer]:
+                - /url: /wiki/Welder
+          - generic [ref=e811]:
+            - heading "Notes" [level=2] [ref=e812]
+            - generic [ref=e813]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=14
+          - list [ref=e816]:
+            - listitem [ref=e817]:
+              - link "^" [ref=e820] [cursor=pointer]:
+                - /url: "#cite_ref-1"
+              - text: Actually the ASME code adopts the AWS 5.* series of specifications and renames them as SFA 5.*
+            - listitem [ref=e821]:
+              - link "^" [ref=e824] [cursor=pointer]:
+                - /url: "#cite_ref-10"
+              - generic [ref=e825]:
+                - text: The 2004 version of this CEN standard was introduced in place of ISO 9606-1, which was not accepted by the ISO committee due to reactions by USA and Canada.
+                - superscript [ref=e826]:
+                  - link "[8]" [ref=e827] [cursor=pointer]:
+                    - /url: "#cite_note-9"
+          - generic [ref=e828]:
+            - heading "References" [level=2] [ref=e829]
+            - generic [ref=e830]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=15
+          - list [ref=e833]:
+            - listitem [ref=e834]:
+              - link "^" [ref=e837] [cursor=pointer]:
+                - /url: "#cite_ref-2"
+              - generic [ref=e838]:
+                - generic [ref=e839]:
+                  - link "\"American Welding Society - Technical\"" [ref=e840] [cursor=pointer]:
+                    - /url: http://www.aws.org/technical/
+                  - text: . American Welding Society
+                  - generic [ref=e841]: . Retrieved 7 November 2011
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=American+Welding+Society+-+Technical&rft.pub=American+Welding+Society&rft_id=http%3A%2F%2Fwww.aws.org%2Ftechnical%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+welding+codes"
+            - listitem [ref=e842]:
+              - link "^" [ref=e845] [cursor=pointer]:
+                - /url: "#cite_ref-3"
+              - generic [ref=e846]:
+                - generic [ref=e847]:
+                  - link "\"American Petroleum Institute Standards\"" [ref=e848] [cursor=pointer]:
+                    - /url: http://www.api.org/Standards/
+                  - text: . American Petroleum Institute
+                  - generic [ref=e849]: . Retrieved 7 November 2011
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=American+Petroleum+Institute+Standards&rft.pub=American+Petroleum+Institute&rft_id=http%3A%2F%2Fwww.api.org%2FStandards%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+welding+codes"
+            - listitem [ref=e850]:
+              - link "^" [ref=e853] [cursor=pointer]:
+                - /url: "#cite_ref-4"
+              - generic [ref=e854]:
+                - generic [ref=e855]:
+                  - link "\"Standards Development\"" [ref=e856] [cursor=pointer]:
+                    - /url: http://www.standards.org.au/OurRoles/StandardsDevelopment.aspx
+                  - text: . Standards Australia
+                  - generic [ref=e857]: . Retrieved 7 November 2011
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Standards+Development&rft.pub=Standards+Australia&rft_id=http%3A%2F%2Fwww.standards.org.au%2FOurRoles%2FStandardsDevelopment.aspx&rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+welding+codes"
+            - listitem [ref=e858]:
+              - link "^" [ref=e861] [cursor=pointer]:
+                - /url: "#cite_ref-5"
+              - generic [ref=e862]:
+                - generic [ref=e863]:
+                  - link "\"About CSA\"" [ref=e864] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20111029122501/http://www.csa.ca/cm/ca/en/about-csa
+                  - text: . Canadian Standards Association. Archived from
+                  - link "the original" [ref=e865] [cursor=pointer]:
+                    - /url: http://www.csa.ca/cm/ca/en/about-csa
+                  - text: on 29 October 2011
+                  - generic [ref=e866]: . Retrieved 7 November 2011
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=About+CSA&rft.pub=Canadian+Standards+Association&rft_id=http%3A%2F%2Fwww.csa.ca%2Fcm%2Fca%2Fen%2Fabout-csa&rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+welding+codes"
+            - listitem [ref=e867]:
+              - link "^" [ref=e870] [cursor=pointer]:
+                - /url: "#cite_ref-6"
+              - generic [ref=e871]:
+                - generic [ref=e872]:
+                  - link "\"BSI Standards\"" [ref=e873] [cursor=pointer]:
+                    - /url: http://www.bsigroup.com/en/Standards-and-Publications/About-BSI-British-Standards/
+                  - text: . BSI Standards
+                  - generic [ref=e874]: . Retrieved 7 November 2011
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=BSI+Standards&rft.pub=BSI+Standards&rft_id=http%3A%2F%2Fwww.bsigroup.com%2Fen%2FStandards-and-Publications%2FAbout-BSI-British-Standards%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+welding+codes"
+            - listitem [ref=e875]:
+              - link "^" [ref=e878] [cursor=pointer]:
+                - /url: "#cite_ref-7"
+              - generic [ref=e879]:
+                - generic [ref=e880]:
+                  - link "\"ISO 17662 Standard - Welding\"" [ref=e881] [cursor=pointer]:
+                    - /url: https://www.iso.org/standard/66052.html
+                  - text: . International Organization for Standardization
+                  - generic [ref=e882]: . Retrieved 7 November 2016
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=ISO+17662+Standard+-+Welding&rft.pub=International+Organization+for+Standardization&rft_id=https%3A%2F%2Fwww.iso.org%2Fstandard%2F66052.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+welding+codes"
+            - listitem [ref=e883]:
+              - link "^" [ref=e886] [cursor=pointer]:
+                - /url: "#cite_ref-8"
+              - generic [ref=e887]:
+                - generic [ref=e888]:
+                  - link "\"About us\"" [ref=e889] [cursor=pointer]:
+                    - /url: http://www.cen.eu/cen/AboutUs/Pages/default.aspx
+                  - text: . European Committee for Standardization (CEN)
+                  - generic [ref=e890]: . Retrieved 7 November 2011
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=About+us&rft.pub=European+Committee+for+Standardization+%28CEN%29&rft_id=http%3A%2F%2Fwww.cen.eu%2Fcen%2FAboutUs%2FPages%2Fdefault.aspx&rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+welding+codes"
+            - listitem [ref=e891]:
+              - link "^" [ref=e894] [cursor=pointer]:
+                - /url: "#cite_ref-9"
+              - generic [ref=e895]: "Davis, A.: \"Welder Qualification Standards - Philosophy and Feedback\", AWS Welding Journal, July 2003, pp. 14–16. EN ISO 9606-1 was finally published in November 2013 and is gradually introduced in Europe, the deadline for complete replacement being October 2015."
+            - listitem [ref=e896]:
+              - link "^" [ref=e899] [cursor=pointer]:
+                - /url: "#cite_ref-11"
+              - generic [ref=e900]:
+                - generic [ref=e901]:
+                  - link "\"EWF Guide to deal with the transition from EN 287-1 to EN ISO 9606-1 as efficiently as possible (EWF-654-13)\"" [ref=e902] [cursor=pointer]:
+                    - /url: https://web.archive.org/web/20131212012103/http://www.ewf.be/media/documentosDocs/doc_127_doc_142_ewf-654-13-ewf-guide-for-transition-287-to-9606.pdf
+                  - text: (PDF) (PDF). European Federation for Welding, Joining and Cutting (EWF). 2013. Archived from
+                  - link "the original" [ref=e903] [cursor=pointer]:
+                    - /url: http://www.ewf.be/media/documentosDocs/doc_127_doc_142_ewf-654-13-ewf-guide-for-transition-287-to-9606.pdf
+                  - text: (PDF) on 2013-12-12.
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=EWF+Guide+to+deal+with+the+transition+from+EN+287-1+to+EN+ISO+9606-1+as+efficiently+as+possible+%28EWF-654-13%29&rft.pub=European+Federation+for+Welding%2C+Joining+and+Cutting+%28EWF%29&rft.date=2013&rft_id=http%3A%2F%2Fwww.ewf.be%2Fmedia%2FdocumentosDocs%2Fdoc_127_doc_142_ewf-654-13-ewf-guide-for-transition-287-to-9606.pdf&rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+welding+codes"
+            - listitem [ref=e904]:
+              - link "^" [ref=e907] [cursor=pointer]:
+                - /url: "#cite_ref-12"
+              - generic [ref=e908]:
+                - generic [ref=e909]:
+                  - link "\"NA 092 Welding and allied processes Standards Committee\"" [ref=e910] [cursor=pointer]:
+                    - /url: http://www.nas.din.de/en
+                  - text: . DIN
+                  - generic [ref=e911]: . Retrieved 7 November 2011
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=NA+092+Welding+and+allied+processes+Standards+Committee&rft.pub=DIN&rft_id=http%3A%2F%2Fwww.nas.din.de%2Fen&rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+welding+codes"
+            - listitem [ref=e912]:
+              - link "^" [ref=e915] [cursor=pointer]:
+                - /url: "#cite_ref-13"
+              - generic [ref=e916]:
+                - generic [ref=e917]:
+                  - link "\"WES Standards\"" [ref=e918] [cursor=pointer]:
+                    - /url: https://www-it.jwes.or.jp/wes_ki/en/imokuroku.jsp
+                  - text: . jwes.or.jp
+                  - generic [ref=e919]: . Retrieved 2022-10-26
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=jwes.or.jp&rft.atitle=WES+Standards&rft_id=https%3A%2F%2Fwww-it.jwes.or.jp%2Fwes_ki%2Fen%2Fimokuroku.jsp&rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+welding+codes"
+          - generic [ref=e920]:
+            - heading "Further reading and external links" [level=2] [ref=e921]
+            - generic [ref=e922]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_codes&action=edit&section=16
+          - list [ref=e924]:
+            - listitem [ref=e925]:
+              - link "Overview poster of CEN & ISO welding standards" [ref=e926] [cursor=pointer]:
+                - /url: http://www.svets.se/download/18.5746aac213b817dd419272a/1361959746122/Overview_fusion_welding_standards.pdf
+        - generic [ref=e928]:
+          - link "Categories" [ref=e929] [cursor=pointer]:
+            - /url: /wiki/Help:Category
+          - text: ":"
+          - list [ref=e930]:
+            - listitem [ref=e931]:
+              - link "Structural steel" [ref=e932] [cursor=pointer]:
+                - /url: /wiki/Category:Structural_steel
+            - listitem [ref=e933]:
+              - link "Lists of standards" [ref=e934] [cursor=pointer]:
+                - /url: /wiki/Category:Lists_of_standards
+            - listitem [ref=e935]:
+              - link "Welding" [ref=e936] [cursor=pointer]:
+                - /url: /wiki/Category:Welding
+    - contentinfo [ref=e938]:
+      - list [ref=e939]:
+        - listitem [ref=e940]: This page was last edited on 29 August 2025, at 08:41 (UTC).
+        - listitem [ref=e941]:
+          - text: Text is available under the
+          - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=e942] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=e943] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and
+          - link "Privacy Policy" [ref=e944] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: . Wikipedia® is a registered trademark of the
+          - link "Wikimedia Foundation, Inc." [ref=e945] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org/
+          - text: ", a non-profit organization."
+      - list:
+        - listitem [ref=e946]:
+          - link "Privacy policy" [ref=e947] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e948]:
+          - link "About Wikipedia" [ref=e949] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=e950]:
+          - link "Disclaimers" [ref=e951] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e952]:
+          - link "Contact Wikipedia" [ref=e953] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e954]:
+          - link "Legal & safety contacts" [ref=e955] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e956]:
+          - link "Code of Conduct" [ref=e957] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e958]:
+          - link "Developers" [ref=e959] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e960]:
+          - link "Statistics" [ref=e961] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e962]:
+          - link "Cookie statement" [ref=e963] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e964]:
+          - link "Mobile view" [ref=e965] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=List_of_welding_codes&mobileaction=toggle_view_mobile
+      - list [ref=e966]:
+        - listitem [ref=e967]:
+          - link "Wikimedia Foundation" [ref=e968] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e970]
+        - listitem [ref=e971]:
+          - link "Powered by MediaWiki" [ref=e972] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e974]

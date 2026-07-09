@@ -1,0 +1,96 @@
+# MekongAI Nexus - Production Docker Compose
+# Chỉ dùng pulled image, KHÔNG build từ source
+#
+# Deploy: docker compose -f docker-compose.prod.yml pull && docker compose -f docker-compose.prod.yml up -d
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: nexus-postgres
+    environment:
+      POSTGRES_DB: mekongai_nexus
+      POSTGRES_USER: mekongai
+      POSTGRES_PASSWORD: MekongAI2026
+    ports:
+      # Bind localhost only — tránh external services kết nối vào
+      - "127.0.0.1:${NEXUS_PG_PORT:-5433}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mekongai -d mekongai_nexus"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: nexus-redis
+    ports:
+      - "127.0.0.1:${NEXUS_REDIS_PORT:-6380}:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  nexus:
+    image: pvbang/mekongai-nexus:latest
+    container_name: nexus-app
+    ports:
+      - "${NEXUS_PORT:-8899}:8000"
+      - "19000-19049:19000-19049"  # Dev server preview ports (frontend 19000-19024, backend 19025-19049)
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://mekongai:MekongAI2026@postgres:5432/mekongai_nexus
+      REDIS_URL: redis://redis:6379/0
+      NEXUS_SERVE_FRONTEND: "true"
+      STATIC_DIR: /app/static
+      UVICORN_WORKERS: "2"
+      HF_TOKEN: ${HF_TOKEN:-}
+      # Suppress IronClaw hickory DNS resolver debug spam
+      RUST_LOG: ${RUST_LOG:-ironclaw=info,hickory=warn,hickory_net=warn,hickory_resolver=warn,tower_http=warn}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - workspace_data:/app/workspace_data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+
+  # Public Gateway: expose only a minimal surface (e.g. /inbox/{token})
+  nexus-gateway:
+    image: pvbang/mekongai-nexus:latest
+    container_name: nexus-public-gateway
+    command: ["uvicorn", "app.public_gateway.main:app", "--host", "0.0.0.0", "--port", "18800"]
+    ports:
+      - "${NEXUS_PUBLIC_GATEWAY_PORT:-18800}:18800"
+    env_file:
+      - .env
+    environment:
+      PUBLIC_GATEWAY_BACKEND_URL: http://nexus:8000
+      PUBLIC_GATEWAY_BACKEND_PREFIX: /api/v1
+    depends_on:
+      nexus:
+        condition: service_started
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:18800/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+volumes:
+  postgres_data:
+  redis_data:
+  workspace_data:

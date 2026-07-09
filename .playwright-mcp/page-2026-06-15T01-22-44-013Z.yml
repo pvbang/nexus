@@ -1,0 +1,391 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link "Truy cập trang chủ Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=vi&ictx=0&sa=X&ved=0ahUKEwisu9fOioiVAxVasFYBHQNyIaMQpYkNCAw
+          - img "Truy cập trang chủ Google" [ref=e14]
+        - generic [ref=e15]:
+          - combobox "Tìm kiếm" [ref=e18]: github impit httpcloak scrapling camoufox CycleTLS TLS fingerprint anti-bot 2025 github impit httpcloak scrapling camoufox CycleTLS TLS fingerprint anti-bot 2025
+          - generic [ref=e19]:
+            - button "Xóa" [ref=e21] [cursor=pointer]:
+              - img [ref=e23]
+            - generic [ref=e26]:
+              - button "Công cụ nhập" [ref=e27] [cursor=pointer]:
+                - img [ref=e29]
+              - button "Tìm kiếm bằng giọng nói" [ref=e31] [cursor=pointer]:
+                - img [ref=e32]
+              - button "Tìm kiếm bằng hình ảnh" [ref=e34] [cursor=pointer]:
+                - img [ref=e35]
+        - button "Tìm kiếm" [ref=e37] [cursor=pointer]:
+          - img [ref=e40]
+    - generic [ref=e42]:
+      - button "Cài đặt" [ref=e44] [cursor=pointer]:
+        - img [ref=e47]
+      - generic [ref=e50]:
+        - button "Các ứng dụng của Google" [ref=e52] [cursor=pointer]:
+          - img [ref=e53]
+        - link "Đăng nhập" [ref=e57] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3Dgithub%2Bimpit%2Bhttpcloak%2Bscrapling%2Bcamoufox%2BCycleTLS%2BTLS%2Bfingerprint%2Banti-bot%2B2025&ec=futura_srp_og_si_72236_p
+  - generic [ref=e59]:
+    - navigation [ref=e65]:
+      - generic [ref=e71]:
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - link "Chế độ AI" [ref=e76] [cursor=pointer]:
+              - /url: /search?q=github+impit+httpcloak+scrapling+camoufox+CycleTLS+TLS+fingerprint+anti-bot+2025&sca_esv=61328fda7705c92b&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMETIrVQS-87x-tlG_vOQk0a2uyw_agGQo2X2hItPF9Yrn1rqvKF4a_4aLeysA-vFRxT0O80Jx-Q7kN1RsXRWY45gSWZvoZYTF83XQsv7wKq273O-gPZWrJNCsjCppLldexNuW_&aep=1&ntc=1&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQ2J8OegQIEBAD
+              - generic [ref=e79]: Chế độ AI
+          - listitem [ref=e80]:
+            - link "Tất cả" [disabled] [ref=e81]:
+              - generic [ref=e83]: Tất cả
+          - listitem [ref=e84]:
+            - link "Hình ảnh" [ref=e85] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMETIrVQS-87x-tlG_vOQk0a2uyw_agGQo2X2hItPF9Yrn1rqvKF4a_4aLeysA-vFRxT0O80Jx-Q7kN1RsXRWY45gSWZvoZYTF83XQsv7wKq273O-gPZWrJNCsjCppLldexNuW_&q=github+impit+httpcloak+scrapling+camoufox+CycleTLS+TLS+fingerprint+anti-bot+2025&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQtKgLegQIFxAB
+              - generic [ref=e87]: Hình ảnh
+          - listitem [ref=e88]:
+            - link "Video" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMETIrVQS-87x-tlG_vOQk0a2uyw_agGQo2X2hItPF9Yrn1rqvKF4a_4aLeysA-vFRxT0O80Jx-Q7kN1RsXRWY45gSWZvoZYTF83XQsv7wKq273O-gPZWrJNCsjCppLldexNuW_&q=github+impit+httpcloak+scrapling+camoufox+CycleTLS+TLS+fingerprint+anti-bot+2025&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQtKgLegQIExAB
+              - generic [ref=e91]: Video
+          - listitem [ref=e92]:
+            - link "Mua sắm" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMETIrVQS-87x-tlG_vOQk0a2uyw_agGQo2X2hItPF9Yrn1rqvKF4a_4aLeysA-vFRxT0O80Jx-Q7kN1RsXRWY45gSWZvoZYTF83XQsv7wKq273O-gPZWrJNCsjCppLldexNuW_&q=github+impit+httpcloak+scrapling+camoufox+CycleTLS+TLS+fingerprint+anti-bot+2025&ved=1t:220175&ictx=111
+              - generic [ref=e95]: Mua sắm
+          - listitem [ref=e96]:
+            - link "Video ngắn" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMETIrVQS-87x-tlG_vOQk0a2uyw_agGQo2X2hItPF9Yrn1rqvKF4a_4aLeysA-vFRxT0O80Jx-Q7kN1RsXRWY45gSWZvoZYTF83XQsv7wKq273O-gPZWrJNCsjCppLldexNuW_&q=github+impit+httpcloak+scrapling+camoufox+CycleTLS+TLS+fingerprint+anti-bot+2025&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQs6gLegQIFRAB
+              - generic [ref=e99]: Video ngắn
+          - listitem [ref=e100]:
+            - link "Tin tức" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&q=github+impit+httpcloak+scrapling+camoufox+CycleTLS+TLS+fingerprint+anti-bot+2025&tbm=nws&source=lnms&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMETIrVQS-87x-tlG_vOQk0a2uyw_agGQo2X2hItPF9Yrn1rqvKF4a_4aLeysA-vFRxT0O80Jx-Q7kN1RsXRWY45gSWZvoZYTF83XQsv7wKq273O-gPZWrJNCsjCppLldexNuW_&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQ0pQJegQIEhAB
+              - generic [ref=e103]: Tin tức
+          - listitem [ref=e104]:
+            - button "Các bộ lọc khác" [ref=e105] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e106]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Thêm
+                  - img [ref=e110]
+        - button "Công cụ" [ref=e113] [cursor=pointer]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: Công cụ
+            - img [ref=e118]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e120]
+    - generic [ref=e126]:
+      - generic [ref=e127]: Looking for results in English?
+      - link [ref=e128] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e130]
+      - link "Change to English" [ref=e132] [cursor=pointer]:
+        - /url: /setprefs?sig=0_9G5qUwbqBY3u3AWlSDMC2g08LLI%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dgithub%2Bimpit%2Bhttpcloak%2Bscrapling%2Bcamoufox%2BCycleTLS%2BTLS%2Bfingerprint%2Banti-bot%2B2025&hl=en&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQhoQCKAF6BAgOEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e133] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e135] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQiIQCKAN6BAgOEAY#languages
+    - generic [ref=e136]:
+      - generic [ref=e155]:
+        - heading "Đang suy nghĩ" [level=2] [ref=e159]:
+          - generic [ref=e160]: Đang suy nghĩ
+        - progressbar "Đang tạo" [ref=e161]
+      - main [ref=e163]:
+        - generic [ref=e167]:
+          - generic [ref=e170]:
+            - heading "Web results" [level=2] [ref=e171]
+            - generic [ref=e172]:
+              - generic [ref=e175]:
+                - 'link "daijro/camoufox: 🦊 Anti-detect browser GitHub https://github.com › daijro › camoufox" [ref=e177] [cursor=pointer]':
+                  - /url: https://github.com/daijro/camoufox
+                  - 'heading "daijro/camoufox: 🦊 Anti-detect browser" [level=3] [ref=e178]'
+                  - generic [ref=e184]:
+                    - generic [ref=e186]: GitHub
+                    - generic [ref=e188]: https://github.com › daijro › camoufox
+                - generic [ref=e189]:
+                  - generic [ref=e190]: ·
+                  - link "Dịch trang này" [ref=e191] [cursor=pointer]:
+                    - /url: https://github.com/daijro/camoufox
+                - button "Thông tin về kết quả này" [ref=e192] [cursor=pointer]:
+                  - img [ref=e195]
+              - generic [ref=e199]:
+                - text: Introduction.
+                - emphasis [ref=e200]: Camoufox is a Firefox fork engineered for web scraping
+                - text: and AI agents. It is headless, undetectable, and optimized to run ...
+              - generic [ref=e202]: "Bị thiếu: httpcloak ‎CycleTLS ‎2025"
+          - generic [ref=e206]:
+            - generic [ref=e209]:
+              - 'link "sardanioss/httpcloak: Go HTTP client with browser ... GitHub https://github.com › sardanioss › httpcl..." [ref=e211] [cursor=pointer]':
+                - /url: https://github.com/sardanioss/httpcloak
+                - 'heading "sardanioss/httpcloak: Go HTTP client with browser ..." [level=3] [ref=e212]'
+                - generic [ref=e218]:
+                  - generic [ref=e220]: GitHub
+                  - generic [ref=e222]: https://github.com › sardanioss › httpcl...
+              - generic [ref=e223]:
+                - generic [ref=e224]: ·
+                - link "Dịch trang này" [ref=e225] [cursor=pointer]:
+                  - /url: https://github.com/sardanioss/httpcloak
+              - button "Thông tin về kết quả này" [ref=e226] [cursor=pointer]:
+                - img [ref=e229]
+            - generic [ref=e233]:
+              - emphasis [ref=e234]: Go HTTP client with browser-identical TLS/HTTP2 fingerprinting
+              - text: . Bypass bot detection by perfectly mimicking Chrome, Firefox, and Safari at the cryptographic ...
+            - generic [ref=e236]: "Bị thiếu: camoufox ‎CycleTLS ‎2025"
+          - generic [ref=e240]:
+            - generic [ref=e243]:
+              - link "tls-fingerprint · GitHub Topics GitHub https://github.com › topics › tls-fingerp..." [ref=e245] [cursor=pointer]:
+                - /url: https://github.com/topics/tls-fingerprint?l=go
+                - heading "tls-fingerprint · GitHub Topics" [level=3] [ref=e246]
+                - generic [ref=e252]:
+                  - generic [ref=e254]: GitHub
+                  - generic [ref=e256]: https://github.com › topics › tls-fingerp...
+              - generic [ref=e257]:
+                - generic [ref=e258]: ·
+                - link "Dịch trang này" [ref=e259] [cursor=pointer]:
+                  - /url: https://github.com/topics/tls-fingerprint?l=go
+              - button "Thông tin về kết quả này" [ref=e260] [cursor=pointer]:
+                - img [ref=e263]
+            - generic [ref=e267]:
+              - text: Go
+              - emphasis [ref=e268]: scraping
+              - text: framework with native
+              - emphasis [ref=e269]: Camoufox anti
+              - text: "-detection. Dual-mode fetching ("
+              - emphasis [ref=e270]: TLS
+              - text: stealth + browser), 60+ identity profiles, human behavior simulation, ...
+            - generic [ref=e272]: "Bị thiếu: impit ‎CycleTLS"
+          - generic [ref=e276]:
+            - generic [ref=e279]:
+              - link "anti-bot-detection GitHub https://github.com › topics › anti-bot-d..." [ref=e281] [cursor=pointer]:
+                - /url: https://github.com/topics/anti-bot-detection?o=asc&s=updated
+                - heading "anti-bot-detection" [level=3] [ref=e282]
+                - generic [ref=e288]:
+                  - generic [ref=e290]: GitHub
+                  - generic [ref=e292]: https://github.com › topics › anti-bot-d...
+              - generic [ref=e293]:
+                - generic [ref=e294]: ·
+                - link "Dịch trang này" [ref=e295] [cursor=pointer]:
+                  - /url: https://github.com/topics/anti-bot-detection?o=asc&s=updated
+              - button "Thông tin về kết quả này" [ref=e296] [cursor=pointer]:
+                - img [ref=e299]
+            - generic [ref=e302]:
+              - generic [ref=e303]: 4 thg 6, 2026 —
+              - text: Modern tests to detect automated browser behavior. Cover most important leaks from Puppeteer and Playwright. automation recaptcha captcha ...
+            - generic [ref=e305]: "Bị thiếu: impit ‎camoufox ‎CycleTLS"
+          - generic [ref=e309]:
+            - generic [ref=e312]:
+              - 'link "Introduce TLS fingerprinting protection · Issue #2363 GitHub https://github.com › instagrapi › issues" [ref=e314] [cursor=pointer]':
+                - /url: https://github.com/subzeroid/instagrapi/issues/2363
+                - 'heading "Introduce TLS fingerprinting protection · Issue #2363" [level=3] [ref=e315]'
+                - generic [ref=e321]:
+                  - generic [ref=e323]: GitHub
+                  - generic [ref=e325]: https://github.com › instagrapi › issues
+              - generic [ref=e326]:
+                - generic [ref=e327]: ·
+                - link "Dịch trang này" [ref=e328] [cursor=pointer]:
+                  - /url: https://github.com/subzeroid/instagrapi/issues/2363
+              - button "Thông tin về kết quả này" [ref=e329] [cursor=pointer]:
+                - img [ref=e332]
+            - generic [ref=e335]:
+              - generic [ref=e336]: 16 thg 1, 2026 —
+              - generic [ref=e337]:
+                - emphasis [ref=e338]: Bot
+                - text: detection doesn't just check your User-Agent anymore. It fingerprints your
+                - emphasis [ref=e339]: TLS
+                - text: handshake. Your HTTP/2 frames. Your QUIC parameters.
+            - generic [ref=e341]: "Bị thiếu: scrapling ‎camoufox ‎CycleTLS ‎fingerprint ‎2025"
+          - generic [ref=e345]:
+            - generic [ref=e348]:
+              - link "Daijro Camoufox | MAGI//ARCHIVE GitHub Pages documentation https://tom-doerr.github.io › 2025/07/08" [ref=e350] [cursor=pointer]:
+                - /url: https://tom-doerr.github.io/repo_posts/2025/07/08/daijro-camoufox.html
+                - heading "Daijro Camoufox | MAGI//ARCHIVE" [level=3] [ref=e351]
+                - generic [ref=e353]:
+                  - img [ref=e358]
+                  - generic [ref=e360]:
+                    - generic [ref=e362]: GitHub Pages documentation
+                    - generic [ref=e364]: https://tom-doerr.github.io › 2025/07/08
+              - generic [ref=e365]:
+                - generic [ref=e366]: ·
+                - link "Dịch trang này" [ref=e367] [cursor=pointer]:
+                  - /url: https://tom-doerr.github.io/repo_posts/2025/07/08/daijro-camoufox.html
+              - button "Thông tin về kết quả này" [ref=e368] [cursor=pointer]:
+                - img [ref=e371]
+            - generic [ref=e374]:
+              - generic [ref=e375]: 8 thg 7, 2025 —
+              - generic [ref=e376]:
+                - emphasis [ref=e377]: Generates realistic browser fingerprints
+                - text: · Mimics browser fingerprints to bypass bot detection · browser fingerprint generation and injection ...
+            - generic [ref=e379]: "Bị thiếu: impit ‎CycleTLS ‎TLS"
+          - generic [ref=e383]:
+            - generic [ref=e386]:
+              - link "Issues · sardanioss/httpcloak GitHub https://github.com › sardanioss › issues" [ref=e388] [cursor=pointer]:
+                - /url: https://github.com/sardanioss/httpcloak/issues
+                - heading "Issues · sardanioss/httpcloak" [level=3] [ref=e389]
+                - generic [ref=e395]:
+                  - generic [ref=e397]: GitHub
+                  - generic [ref=e399]: https://github.com › sardanioss › issues
+              - generic [ref=e400]:
+                - generic [ref=e401]: ·
+                - link "Dịch trang này" [ref=e402] [cursor=pointer]:
+                  - /url: https://github.com/sardanioss/httpcloak/issues
+              - button "Thông tin về kết quả này" [ref=e403] [cursor=pointer]:
+                - img [ref=e406]
+            - generic [ref=e410]:
+              - text: Go HTTP client with browser-identical
+              - emphasis [ref=e411]: TLS
+              - text: /HTTP2 fingerprinting. Bypass
+              - emphasis [ref=e412]: bot
+              - text: detection by perfectly mimicking Chrome, Firefox, and Safari at the cryptographic ...
+            - generic [ref=e414]: "Bị thiếu: impit ‎scrapling ‎camoufox ‎CycleTLS ‎TLS ‎anti- ‎2025"
+          - generic [ref=e418]:
+            - generic [ref=e421]:
+              - 'link "jo-inc/camofox-browser: Stealth headless ... GitHub https://github.com › jo-inc › camofox-..." [ref=e423] [cursor=pointer]':
+                - /url: https://github.com/jo-inc/camofox-browser
+                - 'heading "jo-inc/camofox-browser: Stealth headless ..." [level=3] [ref=e424]'
+                - generic [ref=e430]:
+                  - generic [ref=e432]: GitHub
+                  - generic [ref=e434]: https://github.com › jo-inc › camofox-...
+              - generic [ref=e435]:
+                - generic [ref=e436]: ·
+                - link "Dịch trang này" [ref=e437] [cursor=pointer]:
+                  - /url: https://github.com/jo-inc/camofox-browser
+              - button "Thông tin về kết quả này" [ref=e438] [cursor=pointer]:
+                - img [ref=e441]
+            - generic [ref=e444]:
+              - generic [ref=e445]: 11 thg 2, 2026 —
+              - generic [ref=e446]:
+                - text: Stealth headless browser for AI agents —
+                - emphasis [ref=e447]: bypass Cloudflare, bot detection, and anti-scraping
+                - text: . Drop-in Puppeteer/Playwright replacement.
+            - generic [ref=e449]: "Bị thiếu: httpcloak ‎CycleTLS ‎TLS ‎2025"
+          - generic [ref=e453]:
+            - generic [ref=e456]:
+              - 'link "TheGP/untidetect-tools: List of anti-detect and humanizing ... GitHub https://github.com › TheGP › untidetec..." [ref=e458] [cursor=pointer]':
+                - /url: https://github.com/TheGP/untidetect-tools
+                - 'heading "TheGP/untidetect-tools: List of anti-detect and humanizing ..." [level=3] [ref=e459]'
+                - generic [ref=e465]:
+                  - generic [ref=e467]: GitHub
+                  - generic [ref=e469]: https://github.com › TheGP › untidetec...
+              - generic [ref=e470]:
+                - generic [ref=e471]: ·
+                - link "Dịch trang này" [ref=e472] [cursor=pointer]:
+                  - /url: https://github.com/TheGP/untidetect-tools
+              - button "Thông tin về kết quả này" [ref=e473] [cursor=pointer]:
+                - img [ref=e476]
+            - generic [ref=e480]:
+              - text: List of
+              - emphasis [ref=e481]: anti
+              - text: "-detect and humanizing tools and browsers, including captcha solvers and sms-activation. - TheGP/untidetect-tools."
+            - generic [ref=e483]: "Bị thiếu: impit ‎httpcloak ‎TLS ‎2025"
+          - generic [ref=e488]:
+            - heading "Mọi người cũng hỏi" [level=2] [ref=e490]
+            - generic [ref=e491]:
+              - button "Is Camoufox open source?" [ref=e497] [cursor=pointer]:
+                - generic [ref=e499]: Is Camoufox open source?
+                - img [ref=e502]
+              - button "What is camoufox?" [ref=e511] [cursor=pointer]:
+                - generic [ref=e513]: What is camoufox?
+                - img [ref=e516]
+          - generic [ref=e521]:
+            - heading "Web results" [level=2] [ref=e522]
+            - generic [ref=e523]:
+              - generic [ref=e526]:
+                - 'link "niespodd/browser-fingerprinting: Analysis of Bot Protection ... GitHub https://github.com › niespodd › browse..." [ref=e528] [cursor=pointer]':
+                  - /url: https://github.com/niespodd/browser-fingerprinting
+                  - 'heading "niespodd/browser-fingerprinting: Analysis of Bot Protection ..." [level=3] [ref=e529]'
+                  - generic [ref=e535]:
+                    - generic [ref=e537]: GitHub
+                    - generic [ref=e539]: https://github.com › niespodd › browse...
+                - generic [ref=e540]:
+                  - generic [ref=e541]: ·
+                  - link "Dịch trang này" [ref=e542] [cursor=pointer]:
+                    - /url: https://github.com/niespodd/browser-fingerprinting
+                - button "Thông tin về kết quả này" [ref=e543] [cursor=pointer]:
+                  - img [ref=e546]
+              - generic [ref=e550]:
+                - text: Here I study various aspects of evasion techniques used to get around
+                - emphasis [ref=e551]: bot
+                - text: detection systems used by major online websites.
+              - generic [ref=e553]: "Bị thiếu: httpcloak ‎CycleTLS ‎2025"
+        - generic [ref=e555]:
+          - generic [ref=e560]:
+            - heading "Mọi người cũng tìm kiếm" [level=2] [ref=e562]
+            - generic [ref=e564]:
+              - generic [ref=e565]:
+                - link "Camoufox browser" [ref=e569] [cursor=pointer]:
+                  - /url: /search?sca_esv=61328fda7705c92b&q=Camoufox+browser&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQ1QJ6BAg6EAE
+                  - generic [ref=e570]:
+                    - generic [ref=e575]: Camoufox browser
+                    - img [ref=e579]
+                - link "Camoufox openclaw" [ref=e584] [cursor=pointer]:
+                  - /url: /search?sca_esv=61328fda7705c92b&q=Camoufox+openclaw&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQ1QJ6BAhVEAE
+                  - generic [ref=e585]:
+                    - generic [ref=e590]: Camoufox openclaw
+                    - img [ref=e594]
+                - link "Donutbrowser" [ref=e599] [cursor=pointer]:
+                  - /url: /search?sca_esv=61328fda7705c92b&q=Donutbrowser&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQ1QJ6BAhPEAE
+                  - generic [ref=e600]:
+                    - generic [ref=e605]: Donutbrowser
+                    - img [ref=e609]
+                - link "Patchright" [ref=e614] [cursor=pointer]:
+                  - /url: /search?sca_esv=61328fda7705c92b&q=Patchright&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQ1QJ6BAhLEAE
+                  - generic [ref=e615]:
+                    - generic [ref=e620]: Patchright
+                    - img [ref=e624]
+              - generic [ref=e626]:
+                - link "Nodriver" [ref=e630] [cursor=pointer]:
+                  - /url: /search?sca_esv=61328fda7705c92b&q=Nodriver&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQ1QJ6BAhGEAE
+                  - generic [ref=e631]:
+                    - generic [ref=e636]: Nodriver
+                    - img [ref=e640]
+                - link "Fingerprint chromium" [ref=e645] [cursor=pointer]:
+                  - /url: /search?sca_esv=61328fda7705c92b&q=Fingerprint+chromium&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQ1QJ6BAhDEAE
+                  - generic [ref=e646]:
+                    - generic [ref=e651]: Fingerprint chromium
+                    - img [ref=e655]
+                - link "Antibrowser" [ref=e660] [cursor=pointer]:
+                  - /url: /search?sca_esv=61328fda7705c92b&q=Antibrowser&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQ1QJ6BAg_EAE
+                  - generic [ref=e661]:
+                    - generic [ref=e666]: Antibrowser
+                    - img [ref=e670]
+                - link "CloakBrowser" [ref=e675] [cursor=pointer]:
+                  - /url: /search?sca_esv=61328fda7705c92b&q=CloakBrowser&sa=X&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQ1QJ6BAg9EAE
+                  - generic [ref=e676]:
+                    - generic [ref=e681]: CloakBrowser
+                    - img [ref=e685]
+          - navigation [ref=e687]:
+            - heading "Điều hướng trang" [level=1] [ref=e688]
+            - text: "1"
+            - link "Page 2" [ref=e691] [cursor=pointer]:
+              - /url: /search?q=github+impit+httpcloak+scrapling+camoufox+CycleTLS+TLS+fingerprint+anti-bot+2025&sca_esv=61328fda7705c92b&ei=5FMvaqy5ENrg2roPg-SFmQo&start=10&sa=N&sstk=AU9db-BVm6a3xr2Izf9Oo3mAhjQYpUR_K1qjb7gQA4XceolKzqHDaqIIdoDmy2ChAW_8w4EMrJF309bAb6gT5cDMdh4pvD6k0xDqXA&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQ8tMDegQIUxAE
+              - text: "2"
+            - link "Page 3" [ref=e693] [cursor=pointer]:
+              - /url: /search?q=github+impit+httpcloak+scrapling+camoufox+CycleTLS+TLS+fingerprint+anti-bot+2025&sca_esv=61328fda7705c92b&ei=5FMvaqy5ENrg2roPg-SFmQo&start=20&sa=N&sstk=AU9db-BVm6a3xr2Izf9Oo3mAhjQYpUR_K1qjb7gQA4XceolKzqHDaqIIdoDmy2ChAW_8w4EMrJF309bAb6gT5cDMdh4pvD6k0xDqXA&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQ8tMDegQIUxAG
+              - text: "3"
+            - heading "Tiếp" [level=2] [ref=e695]:
+              - link "Tiếp" [ref=e696] [cursor=pointer]:
+                - /url: /search?q=github+impit+httpcloak+scrapling+camoufox+CycleTLS+TLS+fingerprint+anti-bot+2025&sca_esv=61328fda7705c92b&ei=5FMvaqy5ENrg2roPg-SFmQo&start=10&sa=N&sstk=AU9db-BVm6a3xr2Izf9Oo3mAhjQYpUR_K1qjb7gQA4XceolKzqHDaqIIdoDmy2ChAW_8w4EMrJF309bAb6gT5cDMdh4pvD6k0xDqXA&ved=2ahUKEwisu9fOioiVAxVasFYBHQNyIaMQ8NMDegQIUxAI
+                - generic [ref=e698]: Tiếp
+        - navigation
+    - contentinfo [ref=e699]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e700]
+      - generic [ref=e704]:
+        - generic [ref=e706]:
+          - text: Việt Nam
+          - generic [ref=e708]:
+            - button "Ngũ Hành Sơn, Đà Nẵng - Dựa trên hoạt động trước đây của bạn" [ref=e710] [cursor=pointer]:
+              - generic [ref=e711]: Ngũ Hành Sơn, Đà Nẵng
+              - generic [ref=e713]:
+                - text: "-"
+                - generic [ref=e714]: Dựa trên hoạt động trước đây của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e716] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e719]:
+          - link "Trợ giúp" [ref=e720] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e721] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e722] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e723] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

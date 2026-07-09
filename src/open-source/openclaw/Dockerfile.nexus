@@ -1,0 +1,54 @@
+# ============================================================
+# OpenClaw - Simplified Dockerfile (no BuildKit required)
+# Compatible with legacy Docker build engine
+# Requires: Node.js 22.12+ (uses node:24)
+# ============================================================
+
+FROM node:24-bookworm
+
+# Install Bun (needed for build scripts)
+RUN curl --retry 5 --retry-all-errors -fsSL https://bun.sh/install | bash
+ENV PATH="/root/.bun/bin:${PATH}"
+
+# Enable corepack for pnpm
+RUN corepack enable
+
+# Install curl for healthcheck
+RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Copy dependency files
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml .npmrc ./
+COPY openclaw.mjs ./
+COPY ui/package.json ./ui/package.json
+COPY patches ./patches
+COPY scripts/ ./scripts/
+COPY extensions/ ./extensions/
+
+# Install dependencies
+RUN NODE_OPTIONS=--max-old-space-size=2048 pnpm install --frozen-lockfile
+
+# Copy source code for build
+COPY src/ ./src/
+COPY packages/ ./packages/
+COPY tsconfig*.json tsdown.config.ts ./
+COPY docs/ ./docs/
+
+# Create A2UI placeholder bundle (sources excluded by .dockerignore)
+RUN mkdir -p /app/src/canvas-host/a2ui && \
+    echo "// A2UI bundle placeholder - not needed for gateway mode" > /app/src/canvas-host/a2ui/a2ui.bundle.js
+
+# Build TypeScript → dist/
+RUN pnpm run build
+
+# Runtime
+EXPOSE 18789
+ENV PORT=18789
+ENV OPENCLAW_HOST=0.0.0.0
+
+# Healthcheck
+HEALTHCHECK --interval=15s --timeout=5s --retries=5 --start-period=30s \
+  CMD curl -f http://localhost:18789/healthz || exit 1
+
+CMD ["node", "openclaw.mjs", "gateway", "--port", "18789", "--allow-unconfigured"]

@@ -1,0 +1,405 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link "Truy cập trang chủ Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=vi&ictx=0&sa=X&ved=0ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQpYkNCAw
+          - img "Truy cập trang chủ Google" [ref=e14]
+        - generic [ref=e15]:
+          - combobox "Tìm kiếm" [ref=e18]: github python tls-client bogdanfinn go HTTP fingerprint impersonate 2024 2025 github python tls-client bogdanfinn go HTTP fingerprint impersonate 2024 2025
+          - generic [ref=e19]:
+            - button "Xóa" [ref=e21] [cursor=pointer]:
+              - img [ref=e23]
+            - generic [ref=e26]:
+              - button "Công cụ nhập" [ref=e27] [cursor=pointer]:
+                - img [ref=e29]
+              - button "Tìm kiếm bằng giọng nói" [ref=e31] [cursor=pointer]:
+                - img [ref=e32]
+              - button "Tìm kiếm bằng hình ảnh" [ref=e34] [cursor=pointer]:
+                - img [ref=e35]
+        - button "Tìm kiếm" [ref=e37] [cursor=pointer]:
+          - img [ref=e40]
+    - generic [ref=e42]:
+      - button "Cài đặt" [ref=e44] [cursor=pointer]:
+        - img [ref=e47]
+      - generic [ref=e50]:
+        - button "Các ứng dụng của Google" [ref=e52] [cursor=pointer]:
+          - img [ref=e53]
+        - link "Đăng nhập" [ref=e57] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3Dgithub%2Bpython%2Btls-client%2Bbogdanfinn%2Bgo%2BHTTP%2Bfingerprint%2Bimpersonate%2B2024%2B2025&ec=futura_srp_og_si_72236_p
+  - generic [ref=e59]:
+    - navigation [ref=e65]:
+      - generic [ref=e71]:
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - link "Chế độ AI" [ref=e76] [cursor=pointer]:
+              - /url: /search?q=github+python+tls-client+bogdanfinn+go+HTTP+fingerprint+impersonate+2024+2025&sca_esv=61328fda7705c92b&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPz3O3zU3fjTRfoWaNolfm19UUZ3EVk3KJS0cSOCNwd13tijiomrWLz316xtDHLaTbN-l-eHAoGPWB9GaJ1TogcMjkTjDJZGvr1l-wHmsRemxSBTMoK43AZqv0Oa3a2CWHfJuwltyqt4XcwHKxc0NspkWYHCWqEDD2YPEOmz6UFePhd8NBJqSHLa92sgkmc6oVUKd9sc&aep=1&ntc=1&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ2J8OegQIEhAD
+              - generic [ref=e79]: Chế độ AI
+          - listitem [ref=e80]:
+            - link "Tất cả" [disabled] [ref=e81]:
+              - generic [ref=e83]: Tất cả
+          - listitem [ref=e84]:
+            - link "Hình ảnh" [ref=e85] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPz3O3zU3fjTRfoWaNolfm19UUZ3EVk3KJS0cSOCNwd13tijiomrWLz316xtDHLaTbN-l-eHAoGPWB9GaJ1TogcMjkTjDJZGvr1l-wHmsRemxSBTMoK43AZqv0Oa3a2CWHfJuwltyqt4XcwHKxc0NspkWYHCWqEDD2YPEOmz6UFePhd8NBJqSHLa92sgkmc6oVUKd9sc&q=github+python+tls-client+bogdanfinn+go+HTTP+fingerprint+impersonate+2024+2025&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQtKgLegQIGBAB
+              - generic [ref=e87]: Hình ảnh
+          - listitem [ref=e88]:
+            - link "Video" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPz3O3zU3fjTRfoWaNolfm19UUZ3EVk3KJS0cSOCNwd13tijiomrWLz316xtDHLaTbN-l-eHAoGPWB9GaJ1TogcMjkTjDJZGvr1l-wHmsRemxSBTMoK43AZqv0Oa3a2CWHfJuwltyqt4XcwHKxc0NspkWYHCWqEDD2YPEOmz6UFePhd8NBJqSHLa92sgkmc6oVUKd9sc&q=github+python+tls-client+bogdanfinn+go+HTTP+fingerprint+impersonate+2024+2025&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQtKgLegQIFxAB
+              - generic [ref=e91]: Video
+          - listitem [ref=e92]:
+            - link "Video ngắn" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPz3O3zU3fjTRfoWaNolfm19UUZ3EVk3KJS0cSOCNwd13tijiomrWLz316xtDHLaTbN-l-eHAoGPWB9GaJ1TogcMjkTjDJZGvr1l-wHmsRemxSBTMoK43AZqv0Oa3a2CWHfJuwltyqt4XcwHKxc0NspkWYHCWqEDD2YPEOmz6UFePhd8NBJqSHLa92sgkmc6oVUKd9sc&q=github+python+tls-client+bogdanfinn+go+HTTP+fingerprint+impersonate+2024+2025&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQs6gLegQIFRAB
+              - generic [ref=e95]: Video ngắn
+          - listitem [ref=e96]:
+            - link "Mua sắm" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPz3O3zU3fjTRfoWaNolfm19UUZ3EVk3KJS0cSOCNwd13tijiomrWLz316xtDHLaTbN-l-eHAoGPWB9GaJ1TogcMjkTjDJZGvr1l-wHmsRemxSBTMoK43AZqv0Oa3a2CWHfJuwltyqt4XcwHKxc0NspkWYHCWqEDD2YPEOmz6UFePhd8NBJqSHLa92sgkmc6oVUKd9sc&q=github+python+tls-client+bogdanfinn+go+HTTP+fingerprint+impersonate+2024+2025&ved=1t:220175&ictx=111
+              - generic [ref=e99]: Mua sắm
+          - listitem [ref=e100]:
+            - link "Tin tức" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&q=github+python+tls-client+bogdanfinn+go+HTTP+fingerprint+impersonate+2024+2025&tbm=nws&source=lnms&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPz3O3zU3fjTRfoWaNolfm19UUZ3EVk3KJS0cSOCNwd13tijiomrWLz316xtDHLaTbN-l-eHAoGPWB9GaJ1TogcMjkTjDJZGvr1l-wHmsRemxSBTMoK43AZqv0Oa3a2CWHfJuwltyqt4XcwHKxc0NspkWYHCWqEDD2YPEOmz6UFePhd8NBJqSHLa92sgkmc6oVUKd9sc&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ0pQJegQIFhAB
+              - generic [ref=e103]: Tin tức
+          - listitem [ref=e104]:
+            - button "Các bộ lọc khác" [ref=e105] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e106]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Thêm
+                  - img [ref=e110]
+        - button "Công cụ" [ref=e113] [cursor=pointer]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: Công cụ
+            - img [ref=e118]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e120]
+    - generic [ref=e126]:
+      - generic [ref=e127]: Looking for results in English?
+      - link [ref=e128] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e130]
+      - link "Change to English" [ref=e132] [cursor=pointer]:
+        - /url: /setprefs?sig=0_9G5qUwbqBY3u3AWlSDMC2g08LLI%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dgithub%2Bpython%2Btls-client%2Bbogdanfinn%2Bgo%2BHTTP%2Bfingerprint%2Bimpersonate%2B2024%2B2025&hl=en&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQhoQCKAF6BAgLEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e133] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e135] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQiIQCKAN6BAgLEAY#languages
+    - main [ref=e137]:
+      - generic [ref=e141]:
+        - generic [ref=e144]:
+          - heading "Web results" [level=2] [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e149]:
+              - link "bogdanfinn/tls-client GitHub https://github.com › bogdanfinn › tls-cl..." [ref=e151] [cursor=pointer]:
+                - /url: https://github.com/bogdanfinn/tls-client
+                - heading "bogdanfinn/tls-client" [level=3] [ref=e152]
+                - generic [ref=e158]:
+                  - generic [ref=e160]: GitHub
+                  - generic [ref=e162]: https://github.com › bogdanfinn › tls-cl...
+              - generic [ref=e163]:
+                - generic [ref=e164]: ·
+                - link "Dịch trang này" [ref=e165] [cursor=pointer]:
+                  - /url: https://github.com/bogdanfinn/tls-client
+              - button "Thông tin về kết quả này" [ref=e166] [cursor=pointer]:
+                - img [ref=e169]
+            - generic [ref=e173]:
+              - text: This
+              - emphasis [ref=e174]: TLS Client
+              - text: allows you to specify the Client (Browser and Version) you want to use, when requesting a server.
+            - generic [ref=e176]: "Bị thiếu: impersonate ‎2024 ‎2025"
+        - generic [ref=e187]:
+          - heading "Đang suy nghĩ Đang tìm kiếm Đang suy nghĩ lâu hơn một chút" [level=2] [ref=e191]:
+            - generic [ref=e192]:
+              - generic [ref=e194]: Đang suy nghĩ
+              - generic [ref=e196]: Đang tìm kiếm
+              - generic [ref=e206]: Đang suy nghĩ lâu hơn một chút
+          - progressbar "Đang tạo" [ref=e208]
+        - generic [ref=e252]:
+          - heading "Web results" [level=2] [ref=e253]
+          - generic [ref=e254]:
+            - generic [ref=e257]:
+              - link "python-tls-client GitHub https://github.com › topics › python-tls..." [ref=e259] [cursor=pointer]:
+                - /url: https://github.com/topics/python-tls-client
+                - heading "python-tls-client" [level=3] [ref=e260]
+                - generic [ref=e266]:
+                  - generic [ref=e268]: GitHub
+                  - generic [ref=e270]: https://github.com › topics › python-tls...
+              - generic [ref=e271]:
+                - generic [ref=e272]: ·
+                - link "Dịch trang này" [ref=e273] [cursor=pointer]:
+                  - /url: https://github.com/topics/python-tls-client
+              - button "Thông tin về kết quả này" [ref=e274] [cursor=pointer]:
+                - img [ref=e277]
+            - generic [ref=e281]:
+              - emphasis [ref=e282]: TLS Requests
+              - text: is a powerful Python library for secure HTTP requests, offering browser-like TLS client, fingerprinting, anti-bot page bypass, ...
+            - generic [ref=e284]: "Bị thiếu: go ‎impersonate ‎2024"
+        - generic [ref=e288]:
+          - generic [ref=e291]:
+            - link "bogdanfinn/tls-client-api GitHub https://github.com › bogdanfinn › tls-cl..." [ref=e293] [cursor=pointer]:
+              - /url: https://github.com/bogdanfinn/tls-client-api
+              - heading "bogdanfinn/tls-client-api" [level=3] [ref=e294]
+              - generic [ref=e300]:
+                - generic [ref=e302]: GitHub
+                - generic [ref=e304]: https://github.com › bogdanfinn › tls-cl...
+            - generic [ref=e305]:
+              - generic [ref=e306]: ·
+              - link "Dịch trang này" [ref=e307] [cursor=pointer]:
+                - /url: https://github.com/bogdanfinn/tls-client-api
+            - button "Thông tin về kết quả này" [ref=e308] [cursor=pointer]:
+              - img [ref=e311]
+          - generic [ref=e315]:
+            - text: This is an application which is using gosoline and
+            - emphasis [ref=e316]: TLS
+            - text: "-"
+            - emphasis [ref=e317]: Client
+            - text: to run a simple request forwarding service with the option to use specific
+            - emphasis [ref=e318]: tls
+            - text: fingerprints.
+          - generic [ref=e320]: "Bị thiếu: python ‎HTTP ‎impersonate ‎2024 ‎2025"
+        - generic [ref=e324]:
+          - generic [ref=e327]:
+            - link "Python-TLS-Client-Async PyPI https://pypi.org › project › async-tls-cli..." [ref=e329] [cursor=pointer]:
+              - /url: https://pypi.org/project/async-tls-client/
+              - heading "Python-TLS-Client-Async" [level=3] [ref=e330]
+              - generic [ref=e336]:
+                - generic [ref=e338]: PyPI
+                - generic [ref=e340]: https://pypi.org › project › async-tls-cli...
+            - generic [ref=e341]:
+              - generic [ref=e342]: ·
+              - link "Dịch trang này" [ref=e343] [cursor=pointer]:
+                - /url: https://pypi.org/project/async-tls-client/
+            - button "Thông tin về kết quả này" [ref=e344] [cursor=pointer]:
+              - img [ref=e347]
+          - generic [ref=e351]:
+            - emphasis [ref=e352]: Asyncio-first TLS client for Python
+            - text: with advanced fingerprinting capabilities. Modern fork of Python-TLS-Client with enhanced features and active maintenance.
+        - generic [ref=e356]:
+          - generic [ref=e359]:
+            - link "TLS Requests is a powerful Python library ... GitHub https://github.com › thewebscraping › t..." [ref=e361] [cursor=pointer]:
+              - /url: https://github.com/thewebscraping/tls-requests
+              - heading "TLS Requests is a powerful Python library ..." [level=3] [ref=e362]
+              - generic [ref=e368]:
+                - generic [ref=e370]: GitHub
+                - generic [ref=e372]: https://github.com › thewebscraping › t...
+            - generic [ref=e373]:
+              - generic [ref=e374]: ·
+              - link "Dịch trang này" [ref=e375] [cursor=pointer]:
+                - /url: https://github.com/thewebscraping/tls-requests
+            - button "Thông tin về kết quả này" [ref=e376] [cursor=pointer]:
+              - img [ref=e379]
+          - generic [ref=e383]:
+            - text: A powerful
+            - emphasis [ref=e384]: Python
+            - text: library for secure
+            - emphasis [ref=e385]: HTTP
+            - text: requests, offering browser-like
+            - emphasis [ref=e386]: TLS client
+            - text: ", fingerprinting, anti-bot page bypass, and high performance."
+          - generic [ref=e388]: "Bị thiếu: impersonate ‎2024 ‎2025"
+        - generic [ref=e392]:
+          - generic [ref=e395]:
+            - link "Issues · bogdanfinn/tls-client GitHub https://github.com › bogdanfinn › issues" [ref=e397] [cursor=pointer]:
+              - /url: https://github.com/bogdanfinn/tls-client/issues
+              - heading "Issues · bogdanfinn/tls-client" [level=3] [ref=e398]
+              - generic [ref=e404]:
+                - generic [ref=e406]: GitHub
+                - generic [ref=e408]: https://github.com › bogdanfinn › issues
+            - generic [ref=e409]:
+              - generic [ref=e410]: ·
+              - link "Dịch trang này" [ref=e411] [cursor=pointer]:
+                - /url: https://github.com/bogdanfinn/tls-client/issues
+            - button "Thông tin về kết quả này" [ref=e412] [cursor=pointer]:
+              - img [ref=e415]
+          - generic [ref=e419]:
+            - text: ...
+            - emphasis [ref=e420]: Client
+            - text: like
+            - emphasis [ref=e421]: HTTP Client
+            - text: with options to select specific
+            - emphasis [ref=e422]: client TLS
+            - text: "Fingerprints to use for requests ... [Bug]:"
+            - emphasis [ref=e423]: Python
+            - text: example are very old using version 1.7.
+          - generic [ref=e425]: "Bị thiếu: go ‎fingerprint ‎impersonate"
+        - generic [ref=e429]:
+          - generic [ref=e432]:
+            - link "tls_client package - github.com/bogdanfinn/tls-client The Go Programming Language https://pkg.go.dev › github.com › tls-cl..." [ref=e434] [cursor=pointer]:
+              - /url: https://pkg.go.dev/github.com/bogdanfinn/tls-client
+              - heading "tls_client package - github.com/bogdanfinn/tls-client" [level=3] [ref=e435]
+              - generic [ref=e441]:
+                - generic [ref=e443]: The Go Programming Language
+                - generic [ref=e445]: https://pkg.go.dev › github.com › tls-cl...
+            - generic [ref=e446]:
+              - generic [ref=e447]: ·
+              - link "Dịch trang này" [ref=e448] [cursor=pointer]:
+                - /url: https://pkg.go.dev/github.com/bogdanfinn/tls-client
+            - button "Thông tin về kết quả này" [ref=e449] [cursor=pointer]:
+              - img [ref=e452]
+          - generic [ref=e455]:
+            - generic [ref=e456]: 3 thg 2, 2026 —
+            - generic [ref=e457]:
+              - text: It's used for WebSocket connections to ensure they use the same
+              - emphasis [ref=e458]: TLS
+              - text: fingerprinting as regular
+              - emphasis [ref=e459]: HTTP
+              - text: requests. type TransportOptions ¶. type ...
+          - generic [ref=e461]: "Bị thiếu: impersonate ‎2024 ‎2025"
+        - generic [ref=e465]:
+          - generic [ref=e468]:
+            - link "Golang + bogdanfinn/tls-client — TLS fingerprint still ... Reddit · r/golang 2 bình luận · 4 tháng trước" [ref=e470] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/golang/comments/1qj1ktz/golang_bogdanfinntlsclient_tls_fingerprint_still/
+              - heading "Golang + bogdanfinn/tls-client — TLS fingerprint still ..." [level=3] [ref=e471]
+              - generic [ref=e477]:
+                - generic [ref=e479]: Reddit · r/golang
+                - generic [ref=e481]: 2 bình luận · 4 tháng trước
+            - button "Thông tin về kết quả này" [ref=e482] [cursor=pointer]:
+              - img [ref=e485]
+          - generic [ref=e489]:
+            - text: I'm using
+            - emphasis [ref=e490]: tls
+            - text: "-"
+            - emphasis [ref=e491]: client
+            - text: in
+            - emphasis [ref=e492]: Go
+            - text: "to mimic real Chrome TLS fingerprints. ... Introducing Surf: A browser-"
+            - emphasis [ref=e493]: impersonating HTTP
+            - text: client for
+            - emphasis [ref=e494]: Go
+            - text: (TLS/JA3/4/ ...
+          - generic [ref=e496]: "Bị thiếu: 2024 ‎2025"
+        - generic [ref=e500]:
+          - generic [ref=e503]:
+            - link "internpoon/go-tls-client GitHub https://github.com › internpoon › go-tl..." [ref=e505] [cursor=pointer]:
+              - /url: https://github.com/internpoon/go-tls-client
+              - heading "internpoon/go-tls-client" [level=3] [ref=e506]
+              - generic [ref=e512]:
+                - generic [ref=e514]: GitHub
+                - generic [ref=e516]: https://github.com › internpoon › go-tl...
+            - generic [ref=e517]:
+              - generic [ref=e518]: ·
+              - link "Dịch trang này" [ref=e519] [cursor=pointer]:
+                - /url: https://github.com/internpoon/go-tls-client
+            - button "Thông tin về kết quả này" [ref=e520] [cursor=pointer]:
+              - img [ref=e523]
+          - generic [ref=e527]:
+            - text: This
+            - emphasis [ref=e528]: TLS Client
+            - text: allows you to specify the Client (Browser and Version) you want to use, when requesting a server. The Interface of the
+            - emphasis [ref=e529]: HTTP
+            - text: Client looks like ...
+          - generic [ref=e531]: "Bị thiếu: impersonate ‎2024 ‎2025"
+        - generic [ref=e535]:
+          - generic [ref=e538]:
+            - link "TLS-Client (Go library) Grokipedia https://grokipedia.com › page › TLS-..." [ref=e540] [cursor=pointer]:
+              - /url: https://grokipedia.com/page/TLS-Client_Go_library
+              - heading "TLS-Client (Go library)" [level=3] [ref=e541]
+              - generic [ref=e547]:
+                - generic [ref=e549]: Grokipedia
+                - generic [ref=e551]: https://grokipedia.com › page › TLS-...
+            - generic [ref=e552]:
+              - generic [ref=e553]: ·
+              - link "Dịch trang này" [ref=e554] [cursor=pointer]:
+                - /url: https://grokipedia.com/page/TLS-Client_Go_library
+            - button "Thông tin về kết quả này" [ref=e555] [cursor=pointer]:
+              - img [ref=e558]
+          - generic [ref=e562]:
+            - text: TLS-Client is an open-source Go library that
+            - emphasis [ref=e563]: provides an HTTP client with customizable TLS fingerprints
+            - text: ", enabling requests to mimic the TLS handshakes of ..."
+          - generic [ref=e565]: "Bị thiếu: python ‎2024"
+      - generic [ref=e567]:
+        - generic [ref=e572]:
+          - heading "Mọi người cũng tìm kiếm" [level=2] [ref=e574]
+          - generic [ref=e576]:
+            - generic [ref=e577]:
+              - link "TLS-client Python" [ref=e581] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=TLS-client+Python&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ1QJ6BAgoEAE
+                - generic [ref=e582]:
+                  - generic [ref=e587]: TLS-client Python
+                  - img [ref=e591]
+              - link "Node-tls-client" [ref=e596] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=Node-tls-client&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ1QJ6BAgpEAE
+                - generic [ref=e597]:
+                  - generic [ref=e602]: Node-tls-client
+                  - img [ref=e606]
+              - link "TLS-client npm" [ref=e611] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=TLS-client+npm&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ1QJ6BAg9EAE
+                - generic [ref=e612]:
+                  - generic [ref=e617]: TLS-client npm
+                  - img [ref=e621]
+              - link "Pip install tls client" [ref=e626] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=Pip+install+tls+client&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ1QJ6BAg4EAE
+                - generic [ref=e627]:
+                  - generic [ref=e632]: Pip install tls client
+                  - img [ref=e636]
+            - generic [ref=e638]:
+              - link "Tls client2" [ref=e642] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=Tls+client2&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ1QJ6BAg2EAE
+                - generic [ref=e643]:
+                  - generic [ref=e648]: Tls client2
+                  - img [ref=e652]
+              - link "Async tls client python" [ref=e657] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=Async+tls+client+python&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ1QJ6BAgzEAE
+                - generic [ref=e658]:
+                  - generic [ref=e663]: Async tls client python
+                  - img [ref=e667]
+              - link "Azuretls" [ref=e672] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=Azuretls&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ1QJ6BAgvEAE
+                - generic [ref=e673]:
+                  - generic [ref=e678]: Azuretls
+                  - img [ref=e682]
+              - link "TLS fingerprint github" [ref=e687] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=TLS+fingerprint+github&sa=X&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ1QJ6BAgnEAE
+                - generic [ref=e688]:
+                  - generic [ref=e693]: TLS fingerprint github
+                  - img [ref=e697]
+        - navigation [ref=e699]:
+          - heading "Điều hướng trang" [level=1] [ref=e700]
+          - text: "1"
+          - link "Page 2" [ref=e703] [cursor=pointer]:
+            - /url: /search?q=github+python+tls-client+bogdanfinn+go+HTTP+fingerprint+impersonate+2024+2025&sca_esv=61328fda7705c92b&ei=z1MvareHLbzl2roPuYyN0Qw&start=10&sa=N&sstk=AU9db-D2_nbmfk_JLzAaqZahFMp0BNSOZxDbU0n4eaHiN2CeLNB_vE9j_KEOHLTYaaWpX0tWY-hyal5Tq2P2Xr7WfB4J8funcY_WFg&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ8tMDegQIJRAE
+            - text: "2"
+          - link "Page 3" [ref=e705] [cursor=pointer]:
+            - /url: /search?q=github+python+tls-client+bogdanfinn+go+HTTP+fingerprint+impersonate+2024+2025&sca_esv=61328fda7705c92b&ei=z1MvareHLbzl2roPuYyN0Qw&start=20&sa=N&sstk=AU9db-D2_nbmfk_JLzAaqZahFMp0BNSOZxDbU0n4eaHiN2CeLNB_vE9j_KEOHLTYaaWpX0tWY-hyal5Tq2P2Xr7WfB4J8funcY_WFg&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ8tMDegQIJRAG
+            - text: "3"
+          - link "Page 4" [ref=e707] [cursor=pointer]:
+            - /url: /search?q=github+python+tls-client+bogdanfinn+go+HTTP+fingerprint+impersonate+2024+2025&sca_esv=61328fda7705c92b&ei=z1MvareHLbzl2roPuYyN0Qw&start=30&sa=N&sstk=AU9db-D2_nbmfk_JLzAaqZahFMp0BNSOZxDbU0n4eaHiN2CeLNB_vE9j_KEOHLTYaaWpX0tWY-hyal5Tq2P2Xr7WfB4J8funcY_WFg&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ8tMDegQIJRAI
+            - text: "4"
+          - link "Page 5" [ref=e709] [cursor=pointer]:
+            - /url: /search?q=github+python+tls-client+bogdanfinn+go+HTTP+fingerprint+impersonate+2024+2025&sca_esv=61328fda7705c92b&ei=z1MvareHLbzl2roPuYyN0Qw&start=40&sa=N&sstk=AU9db-D2_nbmfk_JLzAaqZahFMp0BNSOZxDbU0n4eaHiN2CeLNB_vE9j_KEOHLTYaaWpX0tWY-hyal5Tq2P2Xr7WfB4J8funcY_WFg&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ8tMDegQIJRAK
+            - text: "5"
+          - link "Page 6" [ref=e711] [cursor=pointer]:
+            - /url: /search?q=github+python+tls-client+bogdanfinn+go+HTTP+fingerprint+impersonate+2024+2025&sca_esv=61328fda7705c92b&ei=z1MvareHLbzl2roPuYyN0Qw&start=50&sa=N&sstk=AU9db-D2_nbmfk_JLzAaqZahFMp0BNSOZxDbU0n4eaHiN2CeLNB_vE9j_KEOHLTYaaWpX0tWY-hyal5Tq2P2Xr7WfB4J8funcY_WFg&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ8tMDegQIJRAM
+            - text: "6"
+          - link "Page 7" [ref=e713] [cursor=pointer]:
+            - /url: /search?q=github+python+tls-client+bogdanfinn+go+HTTP+fingerprint+impersonate+2024+2025&sca_esv=61328fda7705c92b&ei=z1MvareHLbzl2roPuYyN0Qw&start=60&sa=N&sstk=AU9db-D2_nbmfk_JLzAaqZahFMp0BNSOZxDbU0n4eaHiN2CeLNB_vE9j_KEOHLTYaaWpX0tWY-hyal5Tq2P2Xr7WfB4J8funcY_WFg&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ8tMDegQIJRAO
+            - text: "7"
+          - heading "Tiếp" [level=2] [ref=e715]:
+            - link "Tiếp" [ref=e716] [cursor=pointer]:
+              - /url: /search?q=github+python+tls-client+bogdanfinn+go+HTTP+fingerprint+impersonate+2024+2025&sca_esv=61328fda7705c92b&ei=z1MvareHLbzl2roPuYyN0Qw&start=10&sa=N&sstk=AU9db-D2_nbmfk_JLzAaqZahFMp0BNSOZxDbU0n4eaHiN2CeLNB_vE9j_KEOHLTYaaWpX0tWY-hyal5Tq2P2Xr7WfB4J8funcY_WFg&ved=2ahUKEwj3qvLEioiVAxW8slYBHTlGI8oQ8NMDegQIJRAQ
+              - generic [ref=e718]: Tiếp
+      - navigation
+    - contentinfo [ref=e719]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e720]
+      - generic [ref=e724]:
+        - generic [ref=e726]:
+          - text: Việt Nam
+          - generic [ref=e728]:
+            - button "Ngũ Hành Sơn, Đà Nẵng - Dựa trên hoạt động trước đây của bạn" [ref=e730] [cursor=pointer]:
+              - generic [ref=e731]: Ngũ Hành Sơn, Đà Nẵng
+              - generic [ref=e733]:
+                - text: "-"
+                - generic [ref=e734]: Dựa trên hoạt động trước đây của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e736] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e739]:
+          - link "Trợ giúp" [ref=e740] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e741] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e742] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e743] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

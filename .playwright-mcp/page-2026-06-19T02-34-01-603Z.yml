@@ -1,0 +1,359 @@
+- generic [active] [ref=e1]:
+  - dialog [ref=e2]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]: Microsoft and our third-party vendors use cookies and similar technologies to deliver, maintain, and improve our services and ads. If you agree, we will use this data for ads personalization and associated analytics.
+        - paragraph [ref=e10]:
+          - text: You can select ‘Accept’ to consent to these uses, ‘Reject’ to decline these uses or click on ‘More options’ to review your options. You can change your selection under ‘Manage Cookie Preferences’ at the bottom of this page.
+          - link "Privacy Statement" [ref=e11] [cursor=pointer]:
+            - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+      - generic [ref=e12]:
+        - link "Accept" [ref=e14] [cursor=pointer]:
+          - /url: "javascript: void(0)"
+        - link "Reject" [ref=e16] [cursor=pointer]:
+          - /url: "javascript: void(0)"
+      - link "More options" [ref=e18] [cursor=pointer]:
+        - /url: "javascript: void(0)"
+  - banner [ref=e19]:
+    - button "Skip to content" [ref=e20] [cursor=pointer]:
+      - generic [ref=e22]: Skip to content
+    - button "Accessibility Feedback" [ref=e23] [cursor=pointer]:
+      - generic [ref=e25]: Accessibility Feedback
+    - generic [ref=e26]:
+      - link "Back to Bing search" [ref=e27] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e28]
+      - search [ref=e29]:
+        - button "Search" [ref=e32] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e33]: Nghị định 44/2016/NĐ-CP quy định chi tiết luật an toàn vệ sinh lao động kiểm định
+        - button "Search using an image" [ref=e39] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e41]:
+      - button "Microsoft Rewards"
+      - link "Sign in" [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e43]
+    - navigation "Search Filter" [ref=e44]:
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - link "All" [ref=e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e48]:
+          - link "Search" [ref=e49] [cursor=pointer]:
+            - /url: /copilotsearch?q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+44%2f2016%2fN%c4%90-CP+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft+lu%e1%ba%adt+an+to%c3%a0n+v%e1%bb%87+sinh+lao+%c4%91%e1%bb%99ng+ki%e1%bb%83m+%c4%91%e1%bb%8bnh&FORM=CSSCOP
+            - img [ref=e50]
+            - text: Search
+        - listitem [ref=e52]:
+          - link "Videos" [ref=e53] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b610ab18dc5cecb798e4b903304cef544608769d5ab8cc573883581d8ff8a9b6JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9zZWFyY2g_cT1OZ2glZTElYmIlOGIrJWM0JTkxJWUxJWJiJThibmgrNDQlMmYyMDE2JTJmTiVjNCU5MC1DUCtxdXkrJWM0JTkxJWUxJWJiJThibmgrY2hpK3RpJWUxJWJhJWJmdCtsdSVlMSViYSVhZHQrYW4rdG8lYzMlYTBuK3YlZTElYmIlODcrc2luaCtsYW8rJWM0JTkxJWUxJWJiJTk5bmcra2klZTElYmIlODNtKyVjNCU5MSVlMSViYiU4Ym5oJkZPUk09SERSU0M0&ntb=1
+        - listitem [ref=e54]:
+          - link "Images" [ref=e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0943b572f1cc475c58ca12029cbc0743603d79c6fc951fab85045a3f60efec9dJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2ltYWdlcy9zZWFyY2g_cT1OZ2glZTElYmIlOGIrJWM0JTkxJWUxJWJiJThibmgrNDQlMmYyMDE2JTJmTiVjNCU5MC1DUCtxdXkrJWM0JTkxJWUxJWJiJThibmgrY2hpK3RpJWUxJWJhJWJmdCtsdSVlMSViYSVhZHQrYW4rdG8lYzMlYTBuK3YlZTElYmIlODcrc2luaCtsYW8rJWM0JTkxJWUxJWJiJTk5bmcra2klZTElYmIlODNtKyVjNCU5MSVlMSViYiU4Ym5oJkZPUk09SERSU0Mz&ntb=1
+        - listitem [ref=e56]:
+          - link "Maps" [ref=e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=fe870cc86340ec1356b937fcde84f79c00ddf96d6bee82255fbd7bc34e2138bbJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L21hcHM_cT1OZ2glZTElYmIlOGIrJWM0JTkxJWUxJWJiJThibmgrNDQlMmYyMDE2JTJmTiVjNCU5MC1DUCtxdXkrJWM0JTkxJWUxJWJiJThibmgrY2hpK3RpJWUxJWJhJWJmdCtsdSVlMSViYSVhZHQrYW4rdG8lYzMlYTBuK3YlZTElYmIlODcrc2luaCtsYW8rJWM0JTkxJWUxJWJiJTk5bmcra2klZTElYmIlODNtKyVjNCU5MSVlMSViYiU4Ym5oJkZPUk09SERSU0M2&ntb=1
+        - listitem [ref=e58]:
+          - link "Copilot" [ref=e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=280857115da12e9038d0b9c42134b43c55411daab8446d621b29546e9074c7cfJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2NoYXQ_cHJvbXB0PU5naCVlMSViYiU4YislYzQlOTElZTElYmIlOGJuaCs0NCUyZjIwMTYlMmZOJWM0JTkwLUNQK3F1eSslYzQlOTElZTElYmIlOGJuaCtjaGkrdGklZTElYmElYmZ0K2x1JWUxJWJhJWFkdCthbit0byVjMyVhMG4rdiVlMSViYiU4NytzaW5oK2xhbyslYzQlOTElZTElYmIlOTluZytraSVlMSViYiU4M20rJWM0JTkxJWUxJWJiJThibmgmc2VuZHF1ZXJ5PTEmRk9STT1TQ0NPRFg&ntb=1
+        - listitem [ref=e60]:
+          - button "More" [ref=e61] [cursor=pointer]:
+            - img [ref=e63]
+            - text: More
+  - generic [ref=e65]:
+    - main "Search Results" [ref=e66]:
+      - generic [ref=e68]: About 2,030 results
+      - list [ref=e79]:
+        - listitem [ref=e80]:
+          - generic [ref=e88]:
+            - generic [ref=e91]:
+              - generic [ref=e93]:
+                - button "Like" [ref=e94]:
+                  - img [ref=e95]
+                - button "Dislike" [ref=e97]:
+                  - img [ref=e98]
+              - generic [ref=e104]:
+                - text: Chính phủ ban hành
+                - strong [ref=e105]: Nghị định 44/2016/NĐ-CP ngày 15/5/2016
+                - text: hướng dẫn Luật an toàn, vệ sinh lao động (ATVSLĐ) về kiểm định kỹ thuật an toàn lao động, huấn luyện ATVSLĐ và quan trắc môi trường lao động.
+              - link "cucgiamdinh.gov.vn Nghị định 44/2016/NĐ-CP hướng dẫn Luật an toàn, vệ sinh lao động về ... Chính phủ ban hành Nghị định 44/2016/NĐ-CP ngày 15/5/2016 hướng dẫn Luật an toàn, vệ sinh lao động (ATVSLĐ) về kiểm định kỹ thuật an toàn lao động, huấn luyện ATVSLĐ và quan trắc m…" [ref=e109] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=3fe3605124743e4526b84d1d4c818fa39cfb032b74fea42b51c7f2c41bbbb436JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9jdWNnaWFtZGluaC5nb3Yudm4vTmdoaS1kaW5oLTQ0LTIwMTYtTkQtQ1AtaHVvbmctZGFuLUx1YXQtYW4tdG9hbi12ZS1zaW5oLWxhby1kb25nLXZlLWtpZW0tZGluaC1reS10aHVhdC1hbi10b2FuLWxhby1kb25nLWh1YW4tbHV5ZW4tQVRWU0xELXZhLXF1YW4tdHJhYy1tb2ktdHJ1b25nLWxhby1kb25nLTI4Ni1hNDYyLmFzcHgjOn46dGV4dD1DaCVDMyVBRG5oJTIwcGglRTElQkIlQTclMjBiYW4lMjBoJUMzJUEwbmglMjBOZ2glRTElQkIlOEIlMjAlQzQlOTElRTElQkIlOEJuaCUyMDQ0JTJGMjAxNiUyRk4lQzQlOTAtQ1AlMjBuZyVDMyVBMHksQVRWU0wlQzQlOTAlMjB2JUMzJUEwJTIwcXVhbiUyMHRyJUUxJUJBJUFGYyUyMG0lQzMlQjRpJTIwdHIlQzYlQjAlRTElQkIlOURuZyUyMGxhbyUyMCVDNCU5MSVFMSVCQiU5OW5nLg&ntb=1
+                - generic [ref=e110]:
+                  - generic [ref=e114]: cucgiamdinh.gov.vn
+                  - generic [ref=e116]: Nghị định 44/2016/NĐ-CP hướng dẫn Luật an toàn, vệ sinh lao động về ...
+                  - generic [ref=e117]: Chính phủ ban hành Nghị định 44/2016/NĐ-CP ngày 15/5/2016 hướng dẫn Luật an toàn, vệ sinh lao động (ATVSLĐ) về kiểm định kỹ thuật an toàn lao động, huấn luyện ATVSLĐ và quan trắc m…
+            - status
+        - listitem [ref=e118]:
+          - link "THƯ VIỆN PHÁP LUẬT" [ref=e120] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=54639bd418cc27f4278ac81d873de4708a7c091873244c66e4409a3d5c3c2563JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vdmFuLWJhbi9MYW8tZG9uZy1UaWVuLWx1b25nL05naGktZGluaC00NC0yMDE2LU5ELUNQLWt5LXRodWF0LWFuLXRvYW4tbGFvLWRvbmctaHVhbi1sdXllbi1hbi10b2FuLXZlLXNpbmgtbW9pLXRydW9uZy1sYW8tZG9uZy0yOTk4MzcuYXNweA&ntb=1
+            - generic [ref=e125]:
+              - generic [ref=e126]: THƯ VIỆN PHÁP LUẬT
+              - generic [ref=e128]:
+                - generic [ref=e129]: https://thuvienphapluat.vn › van-ban › Lao-dong-Tien-luong
+                - generic [ref=e130]: Translate this result
+          - heading "Nghị định 44/2016/NĐ-CP kỹ thuật an toàn lao động huấn luyện an …" [level=2] [ref=e131]:
+            - link "Nghị định 44/2016/NĐ-CP kỹ thuật an toàn lao động huấn luyện an …" [ref=e132] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=54639bd418cc27f4278ac81d873de4708a7c091873244c66e4409a3d5c3c2563JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vdmFuLWJhbi9MYW8tZG9uZy1UaWVuLWx1b25nL05naGktZGluaC00NC0yMDE2LU5ELUNQLWt5LXRodWF0LWFuLXRvYW4tbGFvLWRvbmctaHVhbi1sdXllbi1hbi10b2FuLXZlLXNpbmgtbW9pLXRydW9uZy1sYW8tZG9uZy0yOTk4MzcuYXNweA&ntb=1
+          - generic [ref=e135]:
+            - generic [ref=e137]:
+              - link "Hoạt Động Kiểm Định Kỹ Thuật An Toàn Lao Động" [ref=e138] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=f301d1a68d20025f51ff9ff23106d342452257d6b02b03e56c9fea544855f455JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vdmFuLWJhbi9MYW8tZG9uZy1UaWVuLWx1b25nL05naGktZGluaC00NC0yMDE2LU5ELUNQLWt5LXRodWF0LWFuLXRvYW4tbGFvLWRvbmctaHVhbi1sdXllbi1hbi10b2FuLXZlLXNpbmgtbW9pLXRydW9uZy1sYW8tZG9uZy0yOTk4MzcuYXNweCM6fjp0ZXh0PU5naOG7iyDEkeG7i25oIHPhu5EgNDQgbsSDbSA&ntb=1
+              - generic [ref=e140]:
+                - generic [ref=e141]:
+                  - heading "Hoạt Động Kiểm Định Kỹ Thuật An Toàn Lao Động" [level=2] [ref=e142]
+                  - img [ref=e145]
+                - paragraph [ref=e147]: "Nghị định số 44 năm 2016 quy định điều kiện được cấp Giấy chứng nhận (GCN) đủ điều kiện hoạt động kiểm định kỹ thuật an toàn lao động như sau: + Được thành lập theo quy định, được phép cung ứng dịch vụ kiểm định kỹ thuật an toàn lao động. + B…"
+            - generic [ref=e149]:
+              - link "Hoạt Động Huấn Luyện An Toàn, Vệ Sinh Lao Động" [ref=e150] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=f1b01df87b32e2d65d3fdcea2c72f2ebb3012daf4d6688d207aac72b4667eaafJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vdmFuLWJhbi9MYW8tZG9uZy1UaWVuLWx1b25nL05naGktZGluaC00NC0yMDE2LU5ELUNQLWt5LXRodWF0LWFuLXRvYW4tbGFvLWRvbmctaHVhbi1sdXllbi1hbi10b2FuLXZlLXNpbmgtbW9pLXRydW9uZy1sYW8tZG9uZy0yOTk4MzcuYXNweCM6fjp0ZXh0PVRoZW8gxJHDsywgTmdo4buLIMSR4buLbmggNA&ntb=1
+              - generic [ref=e152]:
+                - generic [ref=e153]:
+                  - heading "Hoạt Động Huấn Luyện An Toàn, Vệ Sinh Lao Động" [level=2] [ref=e154]
+                  - img [ref=e157]
+                - paragraph [ref=e159]: "Theo đó, Nghị định 44/2016 chia các đối tượng tham dự khóa huấn luyện an toàn, vệ sinh lao động thành các nhóm và quy định mức thời gian huấn luyện lần đầu tối thiểu như sau: - Người quản lý phụ trách công tác an toàn, vệ sinh lao động với tổ…"
+        - listitem [ref=e160]:
+          - link "Cổng thông tin điện tử Chính phủ" [ref=e162] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6556615b43151a8af4c3ecd24aa31f80ca1162362cf29d3c4a2f049152dea55aJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9jb25nYmFvLmNoaW5ocGh1LnZuL3Zhbi1iYW4vbmdoaS1kaW5oLXNvLTQ0LTIwMTYtbmQtY3AtMTk5MTYuaHRt&ntb=1
+            - generic [ref=e167]:
+              - generic [ref=e168]: Cổng thông tin điện tử Chính phủ
+              - generic [ref=e170]:
+                - generic [ref=e171]: https://congbao.chinhphu.vn › van-ban
+                - generic [ref=e172]: Translate this result
+          - heading "Nghị định số 44/2016/NĐ-CP quy định chi tiết một số điều của Luật an ..." [level=2] [ref=e173]:
+            - link "Nghị định số 44/2016/NĐ-CP quy định chi tiết một số điều của Luật an ..." [ref=e174] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=6556615b43151a8af4c3ecd24aa31f80ca1162362cf29d3c4a2f049152dea55aJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9jb25nYmFvLmNoaW5ocGh1LnZuL3Zhbi1iYW4vbmdoaS1kaW5oLXNvLTQ0LTIwMTYtbmQtY3AtMTk5MTYuaHRt&ntb=1
+          - paragraph [ref=e176]: May 15, 2016 · Nghị định số 44/2016/NĐ-CP quy định chi tiết một số điều của Luật an toàn, vệ sinh lao động về hoạt động kiểm định kỹ thuật an toàn lao động, huấn luyện an toàn, vệ sinh lao động và …
+        - listitem [ref=e177]:
+          - generic [ref=e179]:
+            - heading "Videos of Nghị định 44 2016 Nđ Cp Quy định Chi Tiết Luật An toàn vệ …" [level=2] [ref=e181]:
+              - link "Videos of Nghị định 44 2016 Nđ Cp Quy định Chi Tiết Luật An toàn vệ …" [ref=e182] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=440f473d2527c683a7f90a619aade94200eae9fe7051b24bbefe6930dd6ed086JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9zZWFyY2g_cT1OZ2glZTElYmIlOGIrJWM0JTkxJWUxJWJiJThibmgrNDQlMmYyMDE2JTJmTiVjNCU5MC1DUCtxdXkrJWM0JTkxJWUxJWJiJThibmgrY2hpK3RpJWUxJWJhJWJmdCtsdSVlMSViYSVhZHQrYW4rdG8lYzMlYTBuK3YlZTElYmIlODcrc2luaCtsYW8rJWM0JTkxJWUxJWJiJTk5bmcra2klZTElYmIlODNtKyVjNCU5MSVlMSViYiU4Ym5oJnFwdnQ9TmdoJWUxJWJiJThiKyVjNCU5MSVlMSViYiU4Ym5oKzQ0JTJmMjAxNiUyZk4lYzQlOTAtQ1ArcXV5KyVjNCU5MSVlMSViYiU4Ym5oK2NoaSt0aSVlMSViYSViZnQrbHUlZTElYmElYWR0K2FuK3RvJWMzJWEwbit2JWUxJWJiJTg3K3NpbmgrbGFvKyVjNCU5MSVlMSViYiU5OW5nK2tpJWUxJWJiJTgzbSslYzQlOTElZTElYmIlOGJuaCZGT1JNPVZEUkU&ntb=1
+            - generic [ref=e184]:
+              - 'link "Huấn luyện An toàn vệ sinh lao động theo Nghị định 44/2016/NĐ-CP cho NHÓM 2 from YouTube · Duration: 2 minutes 59 seconds · 2.2K views · uploaded on Aug 23, 2016 · uploaded by HSE-TST EDUCATION Thu · Click to play. · Chương trình đào tạo theo Nghị định 44/2016/NĐ-CP nhóm 2: Người làm công tác An Toàn, Vệ Sinh Lao Động (cán bộ an toàn chuyên trách)" [ref=e187] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=a252f730067eca40ba3ac0cbc6db1cab26fe947f0779e6cf33c034a4e5262e82JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9TmdoJWUxJWJiJThiKyVjNCU5MSVlMSViYiU4Ym5oKzQ0JTJmMjAxNiUyZk4lYzQlOTAtQ1ArcXV5KyVjNCU5MSVlMSViYiU4Ym5oK2NoaSt0aSVlMSViYSViZnQrbHUlZTElYmElYWR0K2FuK3RvJWMzJWEwbit2JWUxJWJiJTg3K3NpbmgrbGFvKyVjNCU5MSVlMSViYiU5OW5nK2tpJWUxJWJiJTgzbSslYzQlOTElZTElYmIlOGJuaCZtaWQ9NjlERjQ5QTFCMzFBNUJCQ0E2Q0I2OURGNDlBMUIzMUE1QkJDQTZDQiZjaHVybD1odHRwcyUzYSUyZiUyZnd3dy55b3V0dWJlLmNvbSUyZmNoYW5uZWwlMmZVQ0dEY2xNcWd4NlFONHVCWVYxcF9CR1EmRk9STT1WSVJF&ntb=1
+                - generic [ref=e188]:
+                  - generic [ref=e197]: 2:59
+                  - generic [ref=e198]:
+                    - generic "Huấn luyện An toàn vệ sinh lao động theo Nghị định 44/2016/NĐ-CP cho NHÓM 2" [ref=e199]:
+                      - text: Huấn luyện
+                      - strong [ref=e200]: An
+                      - strong [ref=e201]: toàn
+                      - strong [ref=e202]: vệ
+                      - strong [ref=e203]: sinh
+                      - strong [ref=e204]: lao
+                      - strong [ref=e205]: động
+                      - text: theo
+                      - strong [ref=e206]: Nghị
+                      - strong [ref=e207]: định
+                      - strong [ref=e208]: "44"
+                      - text: /
+                      - strong [ref=e209]: "2016"
+                      - text: /
+                      - strong [ref=e210]: NĐ
+                      - text: "-"
+                      - strong [ref=e211]: CP
+                      - text: cho NHÓM 2
+                    - generic [ref=e212]:
+                      - generic [ref=e213]:
+                        - img "Video source site" [ref=e214]
+                        - text: YouTube · HSE-TST EDUCATION Thu
+                      - generic [ref=e215]: 2.2K views · Aug 23, 2016
+              - 'link "Huấn luyện An toàn vệ sinh lao động theo Nghị định 44/2016/NĐ-CP cho NHÓM 6 from YouTube · Duration: 3 minutes · 665 views · uploaded on Aug 26, 2016 · uploaded by HSE-TST EDUCATION Thu · Click to play. · Chương trình đào tạo theo Nghị định 44/2016/NĐ-CP nhóm 6: An toàn, vệ sinh viên" [ref=e218] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=1ed4b751577f79cde27b45a397488a60a7f15d2d4030743307dcdd9f6e07881aJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9TmdoJWUxJWJiJThiKyVjNCU5MSVlMSViYiU4Ym5oKzQ0JTJmMjAxNiUyZk4lYzQlOTAtQ1ArcXV5KyVjNCU5MSVlMSViYiU4Ym5oK2NoaSt0aSVlMSViYSViZnQrbHUlZTElYmElYWR0K2FuK3RvJWMzJWEwbit2JWUxJWJiJTg3K3NpbmgrbGFvKyVjNCU5MSVlMSViYiU5OW5nK2tpJWUxJWJiJTgzbSslYzQlOTElZTElYmIlOGJuaCZtaWQ9RUNCMzQ1MEIwQzEzM0M5NTRGQjVFQ0IzNDUwQjBDMTMzQzk1NEZCNSZjaHVybD1odHRwcyUzYSUyZiUyZnd3dy55b3V0dWJlLmNvbSUyZmNoYW5uZWwlMmZVQ0dEY2xNcWd4NlFONHVCWVYxcF9CR1EmRk9STT1WSVJF&ntb=1
+                - generic [ref=e219]:
+                  - generic [ref=e228]: 3:00
+                  - generic [ref=e229]:
+                    - generic "Huấn luyện An toàn vệ sinh lao động theo Nghị định 44/2016/NĐ-CP cho NHÓM 6" [ref=e230]:
+                      - text: Huấn luyện
+                      - strong [ref=e231]: An
+                      - strong [ref=e232]: toàn
+                      - strong [ref=e233]: vệ
+                      - strong [ref=e234]: sinh
+                      - strong [ref=e235]: lao
+                      - strong [ref=e236]: động
+                      - text: theo
+                      - strong [ref=e237]: Nghị
+                      - strong [ref=e238]: định
+                      - strong [ref=e239]: "44"
+                      - text: /
+                      - strong [ref=e240]: "2016"
+                      - text: /
+                      - strong [ref=e241]: NĐ
+                      - text: "-"
+                      - strong [ref=e242]: CP
+                      - text: cho NHÓM 6
+                    - generic [ref=e243]:
+                      - generic [ref=e244]:
+                        - img "Video source site" [ref=e245]
+                        - text: YouTube · HSE-TST EDUCATION Thu
+                      - generic [ref=e246]: 665 views · Aug 26, 2016
+              - 'link "Quy Trình Huấn Luyện Cấp Chứng Chỉ An Toàn Lao Động Chuẩn Nghị Định 44 | GPAT Nam Việt from YouTube · Duration: 1 minutes 22 seconds · 9 views · uploaded on 3 months ago · uploaded by GPAT Nam Việt · Click to play. · Video này giới thiệu chi tiết về quy trình 5 bước huấn luyện và cấp chứng chỉ An toàn vệ sinh lao động (ATVSLD) theo chuẩn Nghị định 44/2016/NĐ-CP tại GPAT Nam Việt. 📌 Nội dung chính trong video: 0:00 - Giới thiệu GPAT Nam Việt 0:11 - Bước 1: Khảo sát thực tế tại doanh nghiệp 0 ..." [ref=e249] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=8bb2b684e32ecd1a426c4f13a65f79733e0f5217de385dfb52822d9a40c452b9JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9TmdoJWUxJWJiJThiKyVjNCU5MSVlMSViYiU4Ym5oKzQ0JTJmMjAxNiUyZk4lYzQlOTAtQ1ArcXV5KyVjNCU5MSVlMSViYiU4Ym5oK2NoaSt0aSVlMSViYSViZnQrbHUlZTElYmElYWR0K2FuK3RvJWMzJWEwbit2JWUxJWJiJTg3K3NpbmgrbGFvKyVjNCU5MSVlMSViYiU5OW5nK2tpJWUxJWJiJTgzbSslYzQlOTElZTElYmIlOGJuaCZtaWQ9MDY2NkZCQjcwRUQxOUQ4RjQzOTAwNjY2RkJCNzBFRDE5RDhGNDM5MCZjaHVybD1odHRwcyUzYSUyZiUyZnd3dy55b3V0dWJlLmNvbSUyZmNoYW5uZWwlMmZVQzYwZVBtWEVOd3FHNGJFRlZ4NndMQ2cmRk9STT1WSVJF&ntb=1
+                - generic [ref=e250]:
+                  - generic [ref=e259]: 1:22
+                  - generic [ref=e260]:
+                    - generic "Quy Trình Huấn Luyện Cấp Chứng Chỉ An Toàn Lao Động Chuẩn Nghị Định 44 | GPAT Nam Việt" [ref=e261]:
+                      - strong [ref=e262]: Quy
+                      - text: Trình Huấn Luyện Cấp Chứng Chỉ
+                      - strong [ref=e263]: An
+                      - strong [ref=e264]: Toàn
+                      - strong [ref=e265]: Lao
+                      - strong [ref=e266]: Động
+                      - text: Chuẩn
+                      - strong [ref=e267]: Nghị
+                      - strong [ref=e268]: Định
+                      - strong [ref=e269]: "44"
+                      - text: "| GPAT Nam Việt"
+                    - generic [ref=e270]:
+                      - generic [ref=e271]:
+                        - img "Video source site" [ref=e272]
+                        - text: YouTube · GPAT Nam Việt
+                      - generic [ref=e273]: 9 views · 3 months ago
+        - listitem [ref=e274]:
+          - generic [ref=e275]:
+            - link "Explore this image" [ref=e278] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=w9NuKWq3&id=C6A8A0D037DD4ECB1664E771868D7C55F2DD3243&thid=OIP.w9NuKWq3p8Ht_-7q5wYidwHaD4&mediaurl=https://static.luatvietnam.vn/ImageDocs/nghi-dinh-44-2016-ndcp-106221.jpg&q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+44%2f2016%2fN%c4%90-CP+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft+lu%e1%ba%adt+an+to%c3%a0n+v%e1%bb%87+sinh+lao+%c4%91%e1%bb%99ng+ki%e1%bb%83m+%c4%91%e1%bb%8bnh&ck=59F8370F77BC5266E8F160F335A11544&idpp=rc&expw=1200&exph=628&form=rc2idp
+            - generic [ref=e280]:
+              - link "LuatVietnam" [ref=e282] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=c1ff19ab42a5dfab2ce23f194d4b1227a48aa5f17c755081140421c615863aadJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi9sYW8tZG9uZy9uZ2hpLWRpbmgtNDQtMjAxNi1uZC1jcC1jaGluaC1waHUtMTA2MjIxLWQxLmh0bWw&ntb=1
+                - generic [ref=e287]:
+                  - generic [ref=e288]: LuatVietnam
+                  - generic [ref=e290]:
+                    - generic [ref=e291]: https://luatvietnam.vn › lao-dong
+                    - generic [ref=e292]: Translate this result
+              - heading "Nghị định 44/2016/NĐ-CP hướng dẫn Luật An toàn vệ …" [level=2] [ref=e293]:
+                - link "Nghị định 44/2016/NĐ-CP hướng dẫn Luật An toàn vệ …" [ref=e294] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=c1ff19ab42a5dfab2ce23f194d4b1227a48aa5f17c755081140421c615863aadJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi9sYW8tZG9uZy9uZ2hpLWRpbmgtNDQtMjAxNi1uZC1jcC1jaGluaC1waHUtMTA2MjIxLWQxLmh0bWw&ntb=1
+              - paragraph [ref=e295]: Jun 27, 2016 · NGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU CỦA LUẬT AN TOÀN, VỆ SINH LAO ĐỘNG VỀ HOẠT ĐỘNG KIỂM ĐỊNH KỸ THUẬT AN …
+        - listitem [ref=e297]:
+          - generic [ref=e298]:
+            - link "Explore this image" [ref=e301] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=pPOkTq+o&id=4F6F9B835ADE8EB10B6571F7FAD4E8D82925B30F&thid=OIP.pPOkTq-oWQypcMW2XKhWdgHaHg&mediaurl=https://datafiles.chinhphu.vn/cpp/1/Logo/quoc-huy2.png&q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+44%2f2016%2fN%c4%90-CP+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft+lu%e1%ba%adt+an+to%c3%a0n+v%e1%bb%87+sinh+lao+%c4%91%e1%bb%99ng+ki%e1%bb%83m+%c4%91%e1%bb%8bnh&ck=A531EE77EF71B349170DB1B29D2B2B6D&idpp=rc&expw=631&exph=639&form=rc2idp
+            - generic [ref=e303]:
+              - link "Hệ thống văn bản" [ref=e305] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=aba2dd65e8fc60fed8359f1e04bb780e477b1c421b3b6b5a2865c6a0cd69ba20JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly92YW5iYW4uY2hpbmhwaHUudm4vZGVmYXVsdC5hc3B4P3BhZ2VpZD0yNzE2MCZkb2NpZD0xODUxMTc&ntb=1
+                - generic [ref=e310]:
+                  - generic [ref=e311]: Hệ thống văn bản
+                  - generic [ref=e313]:
+                    - generic [ref=e314]: https://vanban.chinhphu.vn › default.aspx
+                    - generic [ref=e315]: Translate this result
+              - 'heading "Nghị định số 44/2016/NĐ-CP của Chính phủ: Quy định …" [level=2] [ref=e316]':
+                - 'link "Nghị định số 44/2016/NĐ-CP của Chính phủ: Quy định …" [ref=e317] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=aba2dd65e8fc60fed8359f1e04bb780e477b1c421b3b6b5a2865c6a0cd69ba20JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly92YW5iYW4uY2hpbmhwaHUudm4vZGVmYXVsdC5hc3B4P3BhZ2VpZD0yNzE2MCZkb2NpZD0xODUxMTc&ntb=1
+              - paragraph [ref=e318]: "May 15, 2016 · Nghị định số 44/2016/NĐ-CP của Chính phủ: Quy định chi tiết một số điều của Luật an toàn, vệ sinh lao động về hoạt động kiểm định kỹ thuật an …"
+        - listitem [ref=e320]:
+          - link "hanoiinsacom.com.vn" [ref=e322] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8449e8cb61fdbc7529db28845d7ca3b5e15c4d81853022903ed51ae276a99967JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9oYW5vaWluc2Fjb20uY29tLnZuL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIyLzEwL05HSEktRElOSF80NC0yMDE2LW5kLWNwLnBkZg&ntb=1
+            - generic [ref=e327]:
+              - generic [ref=e328]: hanoiinsacom.com.vn
+              - generic [ref=e330]:
+                - generic [ref=e331]: https://hanoiinsacom.com.vn › wp-content › uploads
+                - text: · PDF file
+                - generic [ref=e332]: Translate this result
+          - heading "Nghị định 44/2016/NĐ-CP - hanoiinsacom.com.vn" [level=2] [ref=e333]:
+            - link "Nghị định 44/2016/NĐ-CP - hanoiinsacom.com.vn":
+              - /url: https://www.bing.com/ck/a?!&&p=8449e8cb61fdbc7529db28845d7ca3b5e15c4d81853022903ed51ae276a99967JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9oYW5vaWluc2Fjb20uY29tLnZuL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIyLzEwL05HSEktRElOSF80NC0yMDE2LW5kLWNwLnBkZg&ntb=1
+          - paragraph [ref=e335]: "Kiến thức cơ bản về an toàn, vệ sinh lao động: Quyền và nghĩa vụ của người sử dụng lao động, người lao động; chính sách, chế độ về an toàn, vệ sinh lao động đối với người lao động; kiến thức cơ bản …"
+        - listitem [ref=e336]:
+          - generic [ref=e337]:
+            - link "LuatVietnam" [ref=e338] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=a711aba9280cf1d4468174d6f45686623afee80eeaf0e1d5a5d8cd77b01bb754JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi92YW4tYmFuL3RhaS1sdW9jLWRvL25naGktZGluaC00NC0yMDE2LW5kLWNwLWh1b25nLWRhbi1sdWF0LWFuLXRvYW4tdmUtc2luaC1sYW8tZG9uZy0xMDYyMjEuaHRtbA&ntb=1
+            - generic [ref=e343]:
+              - link "LuatVietnam" [ref=e344] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=a711aba9280cf1d4468174d6f45686623afee80eeaf0e1d5a5d8cd77b01bb754JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi92YW4tYmFuL3RhaS1sdW9jLWRvL25naGktZGluaC00NC0yMDE2LW5kLWNwLWh1b25nLWRhbi1sdWF0LWFuLXRvYW4tdmUtc2luaC1sYW8tZG9uZy0xMDYyMjEuaHRtbA&ntb=1
+                - generic [ref=e345]: LuatVietnam
+              - generic [ref=e346]:
+                - link "LuatVietnam":
+                  - /url: https://www.bing.com/ck/a?!&&p=a711aba9280cf1d4468174d6f45686623afee80eeaf0e1d5a5d8cd77b01bb754JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi92YW4tYmFuL3RhaS1sdW9jLWRvL25naGktZGluaC00NC0yMDE2LW5kLWNwLWh1b25nLWRhbi1sdWF0LWFuLXRvYW4tdmUtc2luaC1sYW8tZG9uZy0xMDYyMjEuaHRtbA&ntb=1
+                - generic [ref=e347]:
+                  - link "LuatVietnam" [ref=e348] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=a711aba9280cf1d4468174d6f45686623afee80eeaf0e1d5a5d8cd77b01bb754JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi92YW4tYmFuL3RhaS1sdW9jLWRvL25naGktZGluaC00NC0yMDE2LW5kLWNwLWh1b25nLWRhbi1sdWF0LWFuLXRvYW4tdmUtc2luaC1sYW8tZG9uZy0xMDYyMjEuaHRtbA&ntb=1
+                    - generic [ref=e349]: https://luatvietnam.vn › van-ban › tai-l…
+                    - text: · XLS file ·
+                  - link "Web view" [ref=e350] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=95afd4185702dedecb9dd710f5d0abb872cdd61535776a4907d6d1568cf01276JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly92aWV3Lm9mZmljZWFwcHMubGl2ZS5jb20vb3Avdmlldy5hc3B4P3NyYz1odHRwcyUzQSUyRiUyRmx1YXR2aWV0bmFtLnZuJTJGdmFuLWJhbiUyRnRhaS1sdW9jLWRvJTJGbmdoaS1kaW5oLTQ0LTIwMTYtbmQtY3AtaHVvbmctZGFuLWx1YXQtYW4tdG9hbi12ZS1zaW5oLWxhby1kb25nLTEwNjIyMS5odG1s&ntb=1
+                  - generic [ref=e351]: Translate this result
+          - heading "LuatVietnam" [level=2] [ref=e352]:
+            - link "LuatVietnam":
+              - /url: https://www.bing.com/ck/a?!&&p=a711aba9280cf1d4468174d6f45686623afee80eeaf0e1d5a5d8cd77b01bb754JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi92YW4tYmFuL3RhaS1sdW9jLWRvL25naGktZGluaC00NC0yMDE2LW5kLWNwLWh1b25nLWRhbi1sdWF0LWFuLXRvYW4tdmUtc2luaC1sYW8tZG9uZy0xMDYyMjEuaHRtbA&ntb=1
+          - paragraph [ref=e354]: Văn bản hợp nhất 2279/VBHN-BLĐTBXH năm 2023 do Bộ Lao động Thương binh và Xã hội ban hành hợp nhất Nghị định quy định chi tiết một số điều của Luật An toàn, vệ sinh lao động về hoạt động …
+        - listitem [ref=e355]:
+          - link "bachkhoaluat.vn" [ref=e357] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7df6870f20f520e8bd555d611c3728ad15332435157c6ac60615b4719e55b605JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9iYWNoa2hvYWx1YXQudm4vdmFuLWJhbi1sdWF0LzgyMjcvbmdoaS1kaW5oLTQ0MjAxNm5kLWNwLWh1b25nLWRhbi1sdWF0LWFuLXRvYW4tdmUtc2luaC1sYW8tZG9uZy12ZS1ob2F0LWRvbmcta2llbS1kaW5oLWt5LXRodWF0LWFuLXRvYW4&ntb=1
+            - generic [ref=e362]:
+              - generic [ref=e363]: bachkhoaluat.vn
+              - generic [ref=e365]:
+                - generic [ref=e366]: https://bachkhoaluat.vn › van-ban-luat
+                - generic [ref=e367]: Translate this result
+          - heading "NGHỊ ĐỊNH 44/2016/NĐ-CP HƯỚNG DẪN LUẬT AN TOÀN, VỆ …" [level=2] [ref=e368]:
+            - link "NGHỊ ĐỊNH 44/2016/NĐ-CP HƯỚNG DẪN LUẬT AN TOÀN, VỆ …":
+              - /url: https://www.bing.com/ck/a?!&&p=7df6870f20f520e8bd555d611c3728ad15332435157c6ac60615b4719e55b605JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9iYWNoa2hvYWx1YXQudm4vdmFuLWJhbi1sdWF0LzgyMjcvbmdoaS1kaW5oLTQ0MjAxNm5kLWNwLWh1b25nLWRhbi1sdWF0LWFuLXRvYW4tdmUtc2luaC1sYW8tZG9uZy12ZS1ob2F0LWRvbmcta2llbS1kaW5oLWt5LXRodWF0LWFuLXRvYW4&ntb=1
+          - paragraph [ref=e370]: Hoạt động kiểm định kỹ thuật an toàn lao động, huấn luyện an toàn, vệ sinh lao động và quan trắc môi trường lao động trong lĩnh vực an ninh, quốc phòng được áp dụng quy định tại Nghị định này, trừ …
+        - listitem [ref=e371]:
+          - link "CÔNG TY CỔ PHẦN DỊCH VỤ AN TOÀN LAO ĐỘNG BẮC GIANG" [ref=e373] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9270a39dd95c350c45b585d20261091df77e45e3b78aebe47fa394c678e7686cJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9hbnRvYW5iYWNnaWFuZy52bi92YW4tYmFuLXBoYXAtcXV5LzE0OS1uZ2hpLWRpbmgtNDQyMDE2bmQtY3AtaG9hdC1kb25nLWtpZW0tZGluaC1reS10aHVhdC1hbi10b2FuLWxhby1kb25nLWh1YW4tbHV5ZW4tYW4tdG9hbi12ZS1zaW5oLWxhby1kb25nLmh0bWw&ntb=1
+            - generic [ref=e378]:
+              - generic [ref=e379]: CÔNG TY CỔ PHẦN DỊCH VỤ AN TOÀN LAO ĐỘNG BẮC GIANG
+              - generic [ref=e381]:
+                - generic [ref=e382]: https://antoanbacgiang.vn › van-ban-phap-quy
+                - generic [ref=e383]: Translate this result
+          - heading "Nghị định 44/2016/NĐ-CP - Hoạt động kiểm định kỹ thuật an toàn lao …" [level=2] [ref=e384]:
+            - link "Nghị định 44/2016/NĐ-CP - Hoạt động kiểm định kỹ thuật an toàn lao …":
+              - /url: https://www.bing.com/ck/a?!&&p=9270a39dd95c350c45b585d20261091df77e45e3b78aebe47fa394c678e7686cJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9hbnRvYW5iYWNnaWFuZy52bi92YW4tYmFuLXBoYXAtcXV5LzE0OS1uZ2hpLWRpbmgtNDQyMDE2bmQtY3AtaG9hdC1kb25nLWtpZW0tZGluaC1reS10aHVhdC1hbi10b2FuLWxhby1kb25nLWh1YW4tbHV5ZW4tYW4tdG9hbi12ZS1zaW5oLWxhby1kb25nLmh0bWw&ntb=1
+          - paragraph [ref=e386]: Nghị định 44/2016/NĐ-CP hướng dẫn Luật an toàn, vệ sinh lao động về hoạt động kiểm định kỹ thuật an toàn lao động, huấn luyện an toàn, vệ sinh lao động và quan trắc môi trường lao động cho người sử …
+        - listitem [ref=e387]:
+          - generic [ref=e388]:
+            - link "Explore this image" [ref=e391] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=0Rpcwxkx&id=B4E5726254F9039839F0068023B649ED306D330D&thid=OIP.0RpcwxkxVeKGEFBYUnGFrAHaFm&mediaurl=https://ldt.vn/wp-content/uploads/2021/10/ND-44-2016-1.jpg&q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+44%2f2016%2fN%c4%90-CP+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft+lu%e1%ba%adt+an+to%c3%a0n+v%e1%bb%87+sinh+lao+%c4%91%e1%bb%99ng+ki%e1%bb%83m+%c4%91%e1%bb%8bnh&ck=34532DC4B815056CDAFD05B2DAD8EED4&idpp=rc&expw=500&exph=378&form=rc2idp
+            - generic [ref=e393]:
+              - link "Công ty Cổ phần LDT" [ref=e395] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=93d027196a8403a4920db9a7775aa117ec4bdeaab8312432da9155b1f022b10bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sZHQudm4vbmdoaS1kaW5oLTQ0LTIwMTYtbmQtY3AtdmUtYW4tdG9hbi12ZS1zaW5oLWxhby1kb25nLw&ntb=1
+                - generic [ref=e400]:
+                  - generic [ref=e401]: Công ty Cổ phần LDT
+                  - generic [ref=e403]:
+                    - generic [ref=e404]: https://ldt.vn
+                    - generic [ref=e405]: Translate this result
+              - heading "Nghị định 44/2016/NĐ-CP Về An Toàn, Vệ Sinh Lao động" [level=2] [ref=e406]:
+                - link "Nghị định 44/2016/NĐ-CP Về An Toàn, Vệ Sinh Lao động" [ref=e407] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=93d027196a8403a4920db9a7775aa117ec4bdeaab8312432da9155b1f022b10bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sZHQudm4vbmdoaS1kaW5oLTQ0LTIwMTYtbmQtY3AtdmUtYW4tdG9hbi12ZS1zaW5oLWxhby1kb25nLw&ntb=1
+              - paragraph [ref=e408]: Tải về máy xem file Nghị Định 44/2016/NĐ-CP pdf quy định chi tiết một số điều của Luật an toàn, vệ sinh lao động về hoạt động kiểm định kỹ thuật an toàn lao …
+        - listitem [ref=e410]:
+          - link "cucgiamdinh.gov.vn" [ref=e412] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=880486be6082b1169ef072ce98364e93e48133d1cd9c23ae6910bb8f2690dd2dJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9jdWNnaWFtZGluaC5nb3Yudm4vTmdoaS1kaW5oLTQ0LTIwMTYtTkQtQ1AtaHVvbmctZGFuLUx1YXQtYW4tdG9hbi12ZS1zaW5oLWxhby1kb25nLXZlLWtpZW0tZGluaC1reS10aHVhdC1hbi10b2FuLWxhby1kb25nLWh1YW4tbHV5ZW4tQVRWU0xELXZhLXF1YW4tdHJhYy1tb2ktdHJ1b25nLWxhby1kb25nLTI4Ni1hNDYyLmFzcHg&ntb=1
+            - generic [ref=e417]:
+              - generic [ref=e418]: cucgiamdinh.gov.vn
+              - generic [ref=e420]:
+                - generic [ref=e421]: https://cucgiamdinh.gov.vn
+                - generic [ref=e422]: Translate this result
+          - heading "Nghị định 44/2016/NĐ-CP hướng dẫn Luật an toàn, vệ sinh lao động …" [level=2] [ref=e423]:
+            - link "Nghị định 44/2016/NĐ-CP hướng dẫn Luật an toàn, vệ sinh lao động …":
+              - /url: https://www.bing.com/ck/a?!&&p=880486be6082b1169ef072ce98364e93e48133d1cd9c23ae6910bb8f2690dd2dJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9jdWNnaWFtZGluaC5nb3Yudm4vTmdoaS1kaW5oLTQ0LTIwMTYtTkQtQ1AtaHVvbmctZGFuLUx1YXQtYW4tdG9hbi12ZS1zaW5oLWxhby1kb25nLXZlLWtpZW0tZGluaC1reS10aHVhdC1hbi10b2FuLWxhby1kb25nLWh1YW4tbHV5ZW4tQVRWU0xELXZhLXF1YW4tdHJhYy1tb2ktdHJ1b25nLWxhby1kb25nLTI4Ni1hNDYyLmFzcHg&ntb=1
+          - paragraph [ref=e425]: Chính phủ ban hành Nghị định 44/2016/NĐ-CP ngày 15/5/2016 hướng dẫn Luật an toàn, vệ sinh lao động (ATVSLĐ) về kiểm định kỹ thuật an toàn lao động, huấn luyện ATVSLĐ và quan trắc môi …
+        - listitem [ref=e426]:
+          - link "Some results have been removed" [ref=e428] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6a2eeb21b394098b43050e176afdd54e61b4c0836f959b37fe99e70d3b2b6767JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=e429]:
+          - navigation "More results for Nghị định 44/2016/NĐ-CP quy định chi tiết luật an toàn vệ sinh lao động kiểm định":
+            - list:
+              - listitem [ref=e430]:
+                - generic "Page 1" [ref=e431]: "1"
+              - listitem [ref=e432]:
+                - link "Page 2" [ref=e433] [cursor=pointer]:
+                  - /url: /search?q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+44%2f2016%2fN%c4%90-CP+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft+lu%e1%ba%adt+an+to%c3%a0n+v%e1%bb%87+sinh+lao+%c4%91%e1%bb%99ng+ki%e1%bb%83m+%c4%91%e1%bb%8bnh&FPIG=B44A6A15299A429D96AB8D95B59D570F&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e434]:
+                - link "Page 3" [ref=e435] [cursor=pointer]:
+                  - /url: /search?q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+44%2f2016%2fN%c4%90-CP+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft+lu%e1%ba%adt+an+to%c3%a0n+v%e1%bb%87+sinh+lao+%c4%91%e1%bb%99ng+ki%e1%bb%83m+%c4%91%e1%bb%8bnh&FPIG=B44A6A15299A429D96AB8D95B59D570F&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e436]:
+                - link "Next page" [ref=e437] [cursor=pointer]:
+                  - /url: /search?q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+44%2f2016%2fN%c4%90-CP+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft+lu%e1%ba%adt+an+to%c3%a0n+v%e1%bb%87+sinh+lao+%c4%91%e1%bb%99ng+ki%e1%bb%83m+%c4%91%e1%bb%8bnh&FPIG=B44A6A15299A429D96AB8D95B59D570F&first=11&FORM=PORE
+    - complementary "Additional Results" [ref=e438]:
+      - list
+  - contentinfo [ref=e439]:
+    - generic [ref=e440]:
+      - list:
+        - listitem [ref=e441]:
+          - link "Privacy" [ref=e442] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7b44db685677b97b59d99ac58a6dcb7b55ed8b4aacd5ffe64e4ae4c0aa82d70bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e443]:
+          - link "Terms" [ref=e444] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0c98928a6597273e4a5057fc09082f8c5ed11f1634b17ea06829b02b1e9d7505JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

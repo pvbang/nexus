@@ -1,0 +1,750 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Design System: MeNexus-inspired ===== */
+/* Feature #7: CSS Variables driven theming    */
+
+@layer base {
+  /* ── Default (light) CSS Variables ── */
+  :root {
+    --color-bg-primary: #ffffff;
+    --color-bg-secondary: #f8f9fb;
+    --color-bg-tertiary: #f0f1f3;
+    --color-bg-raised: #ffffff;
+    --color-bg-inset: #fafbfc;
+    --color-bg-overlay: rgba(255, 255, 255, 0.95);
+    --color-text-heading: #18181b;
+    --color-text-primary: #222222;
+    --color-text-secondary: #45515e;
+    --color-text-muted: #6e6e73;
+    --color-border-light: #f2f3f5;
+    --color-border-default: #e5e7eb;
+    --color-border-hover: #d1d5db;
+    --color-accent: #3B82F6;
+    --color-accent-secondary: #2563EB;
+    --color-accent-hover: #2563EB;
+    --color-accent-light: #DBEAFE;
+    --color-accent-ring: rgba(59, 130, 246, 0.3);
+    --color-status-success: #22c55e;
+    --color-status-warning: #f59e0b;
+    --color-status-error: #ef4444;
+    --color-status-info: #3b82f6;
+  }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'DM Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    line-height: 1.50;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Outfit', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-default);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d1d5db;
+}
+
+/* Hide scrollbar utility */
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* ===== Component Styles (raw CSS to avoid @apply issues) ===== */
+
+/* Pill nav button */
+.btn-pill-nav {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease-out;
+  background: rgba(0, 0, 0, 0.05);
+  color: #18181b;
+}
+.btn-pill-nav:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+.btn-pill-nav.active {
+  background: var(--color-accent);
+  color: #ffffff;
+  box-shadow: 0 0 15px rgba(44, 30, 116, 0.16);
+}
+
+/* Primary dark button */
+.btn-primary {
+  padding: 0.625rem 1.25rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: #181e25;
+  transition: all 0.2s ease-out;
+}
+.btn-primary:hover {
+  background: #2a3342;
+}
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Secondary button */
+.btn-secondary {
+  padding: 0.625rem 1.25rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  background: #f0f0f0;
+  color: #333333;
+  transition: all 0.2s ease-out;
+}
+.btn-secondary:hover {
+  background: #e5e5e5;
+}
+
+/* Ghost button */
+.btn-ghost {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  background: transparent;
+  transition: all 0.2s ease-out;
+}
+.btn-ghost:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+/* Card base */
+.card {
+  background: var(--color-bg-primary);
+  border-radius: 20px;
+  padding: 1.25rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+}
+.card-elevated {
+  background: var(--color-bg-primary);
+  border-radius: 24px;
+  padding: 1.5rem;
+  box-shadow: 0 12px 16px -4px rgba(36, 36, 36, 0.08);
+}
+.card-brand {
+  background: var(--color-bg-primary);
+  border-radius: 24px;
+  padding: 1.5rem;
+  box-shadow: 0 0 15px rgba(44, 30, 116, 0.16);
+}
+
+/* Input field */
+.input-field {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 11px;
+  border: 1px solid var(--color-border-default);
+  font-size: 1rem;
+  color: var(--color-text-primary);
+  background: var(--color-bg-primary);
+  transition: all 0.2s ease-out;
+}
+.input-field::placeholder {
+  color: var(--color-text-muted);
+}
+.input-field:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--color-accent-ring);
+}
+
+/* Code block */
+.code-block {
+  border-radius: 13px;
+  overflow: hidden;
+  border: 1px solid var(--color-border-default);
+}
+.code-block-header {
+  padding: 0.5rem 1rem;
+  background: var(--color-bg-secondary);
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.code-block-content {
+  padding: 1rem;
+  background: var(--color-bg-secondary);
+  font-size: 0.875rem;
+  color: var(--color-text-primary);
+  overflow-x: auto;
+  font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+}
+
+/* Badge */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.125rem 0.625rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Status dot */
+.status-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px;
+  display: inline-block;
+}
+
+/* ===== Animations ===== */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes typingBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95) translateY(8px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.animate-fade-in { animation: fadeIn 0.3s ease-out; }
+.animate-slide-up { animation: slideUp 0.3s ease-out; }
+.animate-slide-down { animation: slideDown 0.2s ease-out; }
+.animate-scale-in { animation: scaleIn 0.2s ease-out; }
+.animate-pulse-dot { animation: pulseDot 2s ease-in-out infinite; }
+
+/* ===== Chat Scroll Buttons ===== */
+@keyframes scrollBtnIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateY(8px);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.08) translateY(-2px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+@keyframes scrollBtnPulse {
+  0%, 100% {
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15);
+  }
+  50% {
+    box-shadow: 0 4px 16px rgba(59, 130, 246, 0.35);
+  }
+}
+@keyframes scrollBtnOut {
+  0% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.8) translateY(8px);
+    pointer-events: none;
+  }
+}
+@keyframes scrollBtnGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(59, 130, 246, 0.12);
+  }
+}
+/* Base styles for scroll buttons (always rendered, visibility via transitions) */
+.chat-scroll-btn-base {
+  will-change: transform, opacity;
+  backdrop-filter: blur(16px) saturate(1.8);
+  -webkit-backdrop-filter: blur(16px) saturate(1.8);
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1),
+              opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.25s ease,
+              background-color 0.2s ease,
+              border-color 0.2s ease;
+}
+.dark .chat-scroll-btn-base {
+  background: rgba(30, 30, 53, 0.82);
+  border-color: rgba(42, 42, 69, 0.8);
+}
+/* Visible state — smooth spring-in */
+.chat-scroll-btn-visible {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  pointer-events: auto;
+}
+/* Hidden state — smooth fade-out + shrink */
+.chat-scroll-btn-hidden {
+  opacity: 0;
+  transform: scale(0.8) translateY(6px);
+  pointer-events: none;
+}
+/* Hover — lift + glow */
+.chat-scroll-btn-base:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(59, 130, 246, 0.2);
+  transform: scale(1.1) translateY(-1px);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+/* Active press — squish */
+.chat-scroll-btn-base:active {
+  transform: scale(0.92);
+  transition-duration: 0.1s;
+}
+/* Unread state — pulsing glow animation */
+.chat-scroll-btn--has-unread {
+  animation: scrollBtnPulse 2s ease-in-out 0.5s infinite,
+             scrollBtnGlow 2.5s ease-in-out 1s infinite;
+  border-color: rgba(59, 130, 246, 0.4);
+}
+/* Legacy compat (used by older code paths) */
+.chat-scroll-btn {
+  animation: scrollBtnIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  will-change: transform, opacity;
+  backdrop-filter: blur(16px) saturate(1.8);
+  -webkit-backdrop-filter: blur(16px) saturate(1.8);
+}
+.chat-scroll-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.45), 0 0 0 2px rgba(255, 255, 255, 0.9);
+  animation: scrollBtnIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+.dark .chat-scroll-badge {
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.45), 0 0 0 2px rgba(30, 30, 53, 0.9);
+}
+/* Scroll progress ring (SVG-based, rendered in JSX) */
+.chat-scroll-progress-ring {
+  position: absolute;
+  inset: -3px;
+  pointer-events: none;
+}
+.chat-scroll-progress-ring circle {
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.3s ease;
+}
+.chat-scroll-progress-ring .track {
+  stroke: rgba(59, 130, 246, 0.1);
+}
+.chat-scroll-progress-ring .progress {
+  stroke: rgba(59, 130, 246, 0.6);
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+/* ===== Tool Trail Animations (Feature #2) ===== */
+@keyframes orbitalSpin {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0.8;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(180deg);
+    opacity: 0.6;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0.8;
+  }
+}
+
+@keyframes statusFlashSuccess {
+  0% {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  30% {
+    background-color: rgba(34, 197, 94, 0.12);
+    box-shadow: 0 0 12px rgba(34, 197, 94, 0.25);
+  }
+  100% {
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+
+@keyframes statusFlashError {
+  0% {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  30% {
+    background-color: rgba(239, 68, 68, 0.12);
+    box-shadow: 0 0 12px rgba(239, 68, 68, 0.25);
+  }
+  100% {
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+
+@keyframes borderPulse {
+  0%, 100% {
+    border-left-color: rgba(59, 130, 246, 0.4);
+  }
+  50% {
+    border-left-color: rgba(59, 130, 246, 1);
+  }
+}
+
+@keyframes iconFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  60% {
+    transform: scale(1.15);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-orbital-spin {
+  animation: orbitalSpin 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.animate-status-flash-success {
+  animation: statusFlashSuccess 0.6s ease-out forwards;
+}
+.animate-status-flash-error {
+  animation: statusFlashError 0.6s ease-out forwards;
+}
+.animate-border-pulse {
+  animation: borderPulse 1.5s ease-in-out infinite;
+}
+.animate-icon-fade-in {
+  animation: iconFadeIn 0.35s ease-out forwards;
+}
+
+.typing-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background: var(--color-accent);
+  animation: typingBounce 0.6s ease-in-out infinite;
+}
+
+/* Glass morphism */
+.glass {
+  background: hsla(0, 0%, 100%, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* ===== Prose / Markdown Rendering ===== */
+.prose-nexus {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.prose-nexus > :first-child {
+  margin-top: 0 !important;
+}
+.prose-nexus > :last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Code blocks with highlight.js */
+.prose-nexus pre {
+  margin: 0;
+  padding: 0.875rem 1rem;
+  background: var(--color-bg-secondary);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  overflow-x: auto;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace;
+}
+.prose-nexus pre code {
+  background: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  font-size: inherit;
+  color: inherit;
+}
+/* Override highlight.js background */
+.prose-nexus pre code.hljs {
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+/* Ensure tables don't overflow */
+.prose-nexus table {
+  border-collapse: collapse;
+}
+/* Striped table rows */
+.prose-nexus tbody tr:nth-child(even) {
+  background: var(--color-bg-secondary);
+}
+
+/* Task list (GFM) */
+.prose-nexus input[type="checkbox"] {
+  margin-right: 0.375rem;
+  accent-color: var(--color-accent);
+}
+.prose-nexus ul:has(input[type="checkbox"]) {
+  list-style: none;
+  padding-left: 0.25rem;
+}
+
+/* ===== Dark Theme ===== */
+/* Note: CSS variables are set dynamically via ThemeProvider.ts */
+/* These selectors provide fallback dark styling for components */
+.dark {
+  --color-bg-primary: #0f0f17;
+  --color-bg-secondary: #1a1a2e;
+  --color-bg-tertiary: #232340;
+  --color-bg-raised: #1a1a2e;
+  --color-bg-inset: #0a0a14;
+  --color-bg-overlay: rgba(15, 15, 23, 0.95);
+  --color-text-heading: #f0f0f8;
+  --color-text-primary: #e4e4ed;
+  --color-text-secondary: #a0a0b8;
+  --color-text-muted: #6b6b85;
+  --color-text-dark: #f0f0f8;
+  --color-border-light: #2a2a45;
+  --color-border-default: #3a3a55;
+  --color-border-hover: #4a4a65;
+  --color-accent: #3B82F6;
+  --color-accent-secondary: #60A5FA;
+  --color-accent-hover: #60A5FA;
+  --color-accent-light: rgba(59, 130, 246, 0.15);
+  --color-accent-ring: rgba(59, 130, 246, 0.25);
+}
+
+.dark body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+/* Dark mode — Cards */
+.dark .card,
+.dark .card-elevated,
+.dark .card-brand {
+  background: var(--color-bg-secondary);
+  border-color: var(--color-border-light);
+}
+
+/* Dark mode — Input */
+.dark .input-field {
+  background: var(--color-bg-secondary);
+  border-color: var(--color-border-light);
+  color: var(--color-text-primary);
+}
+.dark .input-field::placeholder {
+  color: var(--color-text-muted);
+}
+.dark .input-field:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--color-accent-ring);
+}
+
+/* Dark mode — Buttons */
+.dark .btn-primary {
+  background: var(--color-text-primary);
+  color: var(--color-bg-primary);
+}
+.dark .btn-primary:hover {
+  background: #ffffff;
+}
+.dark .btn-secondary {
+  background: var(--color-bg-tertiary);
+  color: var(--color-text-primary);
+}
+.dark .btn-secondary:hover {
+  background: var(--color-border-light);
+}
+.dark .btn-ghost {
+  color: var(--color-text-secondary);
+}
+.dark .btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+.dark .btn-pill-nav {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--color-text-secondary);
+}
+.dark .btn-pill-nav:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.dark .btn-pill-nav.active {
+  background: var(--color-accent);
+  color: #ffffff;
+}
+
+/* Dark mode — Code blocks */
+.dark .code-block {
+  border-color: var(--color-border-light);
+}
+.dark .code-block-header {
+  background: var(--color-bg-tertiary);
+  color: var(--color-text-secondary);
+}
+.dark .code-block-content {
+  background: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+}
+
+/* Dark mode — Badge (keep their variant colors via Tailwind) */
+.dark .badge {
+  /* badges keep their colors in dark mode */
+}
+
+/* Dark mode — Glass */
+.dark .glass {
+  background: rgba(15, 15, 23, 0.8);
+}
+
+/* Dark mode — Prose / Markdown */
+.dark .prose-nexus pre {
+  background: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+}
+.dark .prose-nexus pre code.hljs {
+  background: transparent !important;
+}
+.dark .prose-nexus tbody tr:nth-child(even) {
+  background: var(--color-bg-tertiary);
+}
+.dark .prose-nexus table th {
+  border-color: var(--color-border-light);
+}
+.dark .prose-nexus table td {
+  border-color: var(--color-border-light);
+}
+.dark .prose-nexus blockquote {
+  border-left-color: var(--color-border-default);
+  color: var(--color-text-secondary);
+}
+.dark .prose-nexus hr {
+  border-color: var(--color-border-light);
+}
+
+/* Dark mode — Scrollbar */
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--color-border-default);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #4a4a65;
+}
+
+/* ===== Reduced Motion ===== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-fade-in,
+  .animate-slide-up,
+  .animate-slide-down,
+  .animate-scale-in,
+  .animate-pulse-dot,
+  .animate-orbital-spin,
+  .animate-status-flash-success,
+  .animate-status-flash-error,
+  .animate-border-pulse,
+  .animate-icon-fade-in,
+  .typing-dot {
+    animation: none !important;
+  }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .display-hero {
+    font-size: 2.5rem !important;
+  }
+}
+
+/* ===== Accessibility ===== */
+
+/* Focus-visible: consistent outline for keyboard navigation */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

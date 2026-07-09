@@ -1,0 +1,405 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link "Truy cập trang chủ Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=vi&ictx=0&sa=X&ved=0ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQpYkNCAw
+          - img "Truy cập trang chủ Google" [ref=e14]
+        - generic [ref=e15]:
+          - combobox "Tìm kiếm" [ref=e18]: curl-impersonate utls tls-client cycletls pyhttpx github TLS fingerprint curl-impersonate utls tls-client cycletls pyhttpx github TLS fingerprint
+          - generic [ref=e19]:
+            - button "Xóa" [ref=e21] [cursor=pointer]:
+              - img [ref=e23]
+            - generic [ref=e26]:
+              - button "Công cụ nhập" [ref=e27] [cursor=pointer]:
+                - img [ref=e29]
+              - button "Tìm kiếm bằng giọng nói" [ref=e31] [cursor=pointer]:
+                - img [ref=e32]
+              - button "Tìm kiếm bằng hình ảnh" [ref=e34] [cursor=pointer]:
+                - img [ref=e35]
+        - button "Tìm kiếm" [ref=e37] [cursor=pointer]:
+          - img [ref=e40]
+    - generic [ref=e42]:
+      - button "Cài đặt" [ref=e44] [cursor=pointer]:
+        - img [ref=e47]
+      - generic [ref=e50]:
+        - button "Các ứng dụng của Google" [ref=e52] [cursor=pointer]:
+          - img [ref=e53]
+        - link "Đăng nhập" [ref=e57] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3Dcurl-impersonate%2Butls%2Btls-client%2Bcycletls%2Bpyhttpx%2Bgithub%2BTLS%2Bfingerprint&ec=futura_srp_og_si_72236_p
+  - generic [ref=e59]:
+    - navigation [ref=e65]:
+      - generic [ref=e71]:
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - link "Chế độ AI" [ref=e76] [cursor=pointer]:
+              - /url: /search?q=curl-impersonate+utls+tls-client+cycletls+pyhttpx+github+TLS+fingerprint&sca_esv=61328fda7705c92b&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPza85BBzMhaPG53g-b8d8PKsM_pquXkTO_rJjgat7dXQWsvCVdXjqe2SSkUrS_xndvvWsB7r0YkNsg0qntdwfVSvxaA1JiC9ZQcbDhLphFljeAluhfrvqy93rFF6FR5USlb2-ZUKx_k6CSp_LYoUjZwPWlivqjzB3Ji4WySJJZg47-ucDRR8slHKAQUPcDCjXy0i6w5&aep=1&ntc=1&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ2J8OegQIExAD
+              - generic [ref=e79]: Chế độ AI
+          - listitem [ref=e80]:
+            - link "Tất cả" [disabled] [ref=e81]:
+              - generic [ref=e83]: Tất cả
+          - listitem [ref=e84]:
+            - link "Hình ảnh" [ref=e85] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPza85BBzMhaPG53g-b8d8PKsM_pquXkTO_rJjgat7dXQWsvCVdXjqe2SSkUrS_xndvvWsB7r0YkNsg0qntdwfVSvxaA1JiC9ZQcbDhLphFljeAluhfrvqy93rFF6FR5USlb2-ZUKx_k6CSp_LYoUjZwPWlivqjzB3Ji4WySJJZg47-ucDRR8slHKAQUPcDCjXy0i6w5&q=curl-impersonate+utls+tls-client+cycletls+pyhttpx+github+TLS+fingerprint&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQtKgLegQIGRAB
+              - generic [ref=e87]: Hình ảnh
+          - listitem [ref=e88]:
+            - link "Video ngắn" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPza85BBzMhaPG53g-b8d8PKsM_pquXkTO_rJjgat7dXQWsvCVdXjqe2SSkUrS_xndvvWsB7r0YkNsg0qntdwfVSvxaA1JiC9ZQcbDhLphFljeAluhfrvqy93rFF6FR5USlb2-ZUKx_k6CSp_LYoUjZwPWlivqjzB3Ji4WySJJZg47-ucDRR8slHKAQUPcDCjXy0i6w5&q=curl-impersonate+utls+tls-client+cycletls+pyhttpx+github+TLS+fingerprint&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQs6gLegQIGBAB
+              - generic [ref=e91]: Video ngắn
+          - listitem [ref=e92]:
+            - link "Mua sắm" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPza85BBzMhaPG53g-b8d8PKsM_pquXkTO_rJjgat7dXQWsvCVdXjqe2SSkUrS_xndvvWsB7r0YkNsg0qntdwfVSvxaA1JiC9ZQcbDhLphFljeAluhfrvqy93rFF6FR5USlb2-ZUKx_k6CSp_LYoUjZwPWlivqjzB3Ji4WySJJZg47-ucDRR8slHKAQUPcDCjXy0i6w5&q=curl-impersonate+utls+tls-client+cycletls+pyhttpx+github+TLS+fingerprint&ved=1t:220175&ictx=111
+              - generic [ref=e95]: Mua sắm
+          - listitem [ref=e96]:
+            - link "Video" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPza85BBzMhaPG53g-b8d8PKsM_pquXkTO_rJjgat7dXQWsvCVdXjqe2SSkUrS_xndvvWsB7r0YkNsg0qntdwfVSvxaA1JiC9ZQcbDhLphFljeAluhfrvqy93rFF6FR5USlb2-ZUKx_k6CSp_LYoUjZwPWlivqjzB3Ji4WySJJZg47-ucDRR8slHKAQUPcDCjXy0i6w5&q=curl-impersonate+utls+tls-client+cycletls+pyhttpx+github+TLS+fingerprint&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQtKgLegQIFhAB
+              - generic [ref=e99]: Video
+          - listitem [ref=e100]:
+            - link "Tin tức" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&q=curl-impersonate+utls+tls-client+cycletls+pyhttpx+github+TLS+fingerprint&tbm=nws&source=lnms&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPza85BBzMhaPG53g-b8d8PKsM_pquXkTO_rJjgat7dXQWsvCVdXjqe2SSkUrS_xndvvWsB7r0YkNsg0qntdwfVSvxaA1JiC9ZQcbDhLphFljeAluhfrvqy93rFF6FR5USlb2-ZUKx_k6CSp_LYoUjZwPWlivqjzB3Ji4WySJJZg47-ucDRR8slHKAQUPcDCjXy0i6w5&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ0pQJegQIFRAB
+              - generic [ref=e103]: Tin tức
+          - listitem [ref=e104]:
+            - button "Các bộ lọc khác" [ref=e105] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e106]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Thêm
+                  - img [ref=e110]
+        - button "Công cụ" [ref=e113] [cursor=pointer]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: Công cụ
+            - img [ref=e118]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e120]
+    - generic [ref=e126]:
+      - generic [ref=e127]: Looking for results in English?
+      - link [ref=e128] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e130]
+      - link "Change to English" [ref=e132] [cursor=pointer]:
+        - /url: /setprefs?sig=0_9G5qUwbqBY3u3AWlSDMC2g08LLI%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dcurl-impersonate%2Butls%2Btls-client%2Bcycletls%2Bpyhttpx%2Bgithub%2BTLS%2Bfingerprint&hl=en&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQhoQCKAF6BAgOEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e133] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e135] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQiIQCKAN6BAgOEAY#languages
+    - generic [ref=e136]:
+      - generic [ref=e155]:
+        - heading "Đang tìm kiếm Đang suy nghĩ lâu hơn một chút" [level=2] [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e162]: Đang tìm kiếm
+            - generic [ref=e172]: Đang suy nghĩ lâu hơn một chút
+        - progressbar "Đang tạo" [ref=e174]
+      - main [ref=e216]:
+        - generic [ref=e220]:
+          - generic [ref=e223]:
+            - heading "Web results" [level=2] [ref=e224]
+            - generic [ref=e225]:
+              - generic [ref=e228]:
+                - 'link "curl-impersonate: An alternative to utls? #345 GitHub https://github.com › bbs › issues" [ref=e230] [cursor=pointer]':
+                  - /url: https://github.com/net4people/bbs/issues/345
+                  - 'heading "curl-impersonate: An alternative to utls? #345" [level=3] [ref=e231]'
+                  - generic [ref=e237]:
+                    - generic [ref=e239]: GitHub
+                    - generic [ref=e241]: https://github.com › bbs › issues
+                - generic [ref=e242]:
+                  - generic [ref=e243]: ·
+                  - link "Dịch trang này" [ref=e244] [cursor=pointer]:
+                    - /url: https://github.com/net4people/bbs/issues/345
+                - button "Thông tin về kết quả này" [ref=e245] [cursor=pointer]:
+                  - img [ref=e248]
+              - generic [ref=e251]:
+                - generic [ref=e252]: 21 thg 3, 2024 —
+                - generic [ref=e253]:
+                  - text: This week I came across https://
+                  - emphasis [ref=e254]: github
+                  - text: .com/lwthiker/
+                  - emphasis [ref=e255]: curl
+                  - text: "-"
+                  - emphasis [ref=e256]: impersonate
+                  - text: ", which appears to be identical in function to"
+                  - emphasis [ref=e257]: uTLS
+                  - text: ", except written by ..."
+              - generic [ref=e259]: "Bị thiếu: cycletls ‎pyhttpx"
+          - generic [ref=e263]:
+            - generic [ref=e266]:
+              - link "A special build of curl that can impersonate Chrome & Firefox GitHub https://github.com › lwthiker › curl-im..." [ref=e268] [cursor=pointer]:
+                - /url: https://github.com/lwthiker/curl-impersonate
+                - heading "A special build of curl that can impersonate Chrome & Firefox" [level=3] [ref=e269]
+                - generic [ref=e275]:
+                  - generic [ref=e277]: GitHub
+                  - generic [ref=e279]: https://github.com › lwthiker › curl-im...
+              - generic [ref=e280]:
+                - generic [ref=e281]: ·
+                - link "Dịch trang này" [ref=e282] [cursor=pointer]:
+                  - /url: https://github.com/lwthiker/curl-impersonate
+              - button "Thông tin về kết quả này" [ref=e283] [cursor=pointer]:
+                - img [ref=e286]
+            - generic [ref=e290]:
+              - text: "A special build of curl that can impersonate the four major browsers: Chrome, Edge, Safari & Firefox."
+              - emphasis [ref=e291]: curl-impersonate
+              - text: is able to perform TLS and HTTP ...
+            - generic [ref=e293]:
+              - text: "Bị thiếu: pyhttpx ‎| Phải có:"
+              - link "pyhttpx" [ref=e294] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=curl-impersonate+utls+tls-client+cycletls+%22pyhttpx%22+github+TLS+fingerprint&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ5t4CegQIHBAB
+          - generic [ref=e298]:
+            - generic [ref=e301]:
+              - link "curl's TLS fingerprint | daniel.haxx.se daniel.haxx.se https://daniel.haxx.se › 2022/09/02 › c..." [ref=e303] [cursor=pointer]:
+                - /url: https://daniel.haxx.se/blog/2022/09/02/curls-tls-fingerprint/
+                - heading "curl's TLS fingerprint | daniel.haxx.se" [level=3] [ref=e304]
+                - generic [ref=e306]:
+                  - img [ref=e311]
+                  - generic [ref=e313]:
+                    - generic [ref=e315]: daniel.haxx.se
+                    - generic [ref=e317]: https://daniel.haxx.se › 2022/09/02 › c...
+              - generic [ref=e318]:
+                - generic [ref=e319]: ·
+                - link "Dịch trang này" [ref=e320] [cursor=pointer]:
+                  - /url: https://daniel.haxx.se/blog/2022/09/02/curls-tls-fingerprint/
+              - button "Thông tin về kết quả này" [ref=e321] [cursor=pointer]:
+                - img [ref=e324]
+            - generic [ref=e327]:
+              - generic [ref=e328]: 2 thg 9, 2022 —
+              - generic [ref=e329]:
+                - text: A pattern in a
+                - emphasis [ref=e330]: TLS
+                - text: handshake that allows an involved party to tell or at least guess with a certain level of accuracy what
+                - emphasis [ref=e331]: client
+                - text: software that performed it.
+            - generic [ref=e333]:
+              - text: "Bị thiếu: pyhttpx ‎| Phải có:"
+              - link "pyhttpx" [ref=e334] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=curl-impersonate+utls+tls-client+cycletls+%22pyhttpx%22+github+TLS+fingerprint&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ5t4CegQIIBAB
+          - generic [ref=e338]:
+            - generic [ref=e341]:
+              - link "How to use my own fingerprints? e.g. okhttp curl_cffi documentation https://curl-cffi.readthedocs.io › latest" [ref=e343] [cursor=pointer]:
+                - /url: https://curl-cffi.readthedocs.io/en/latest/impersonate/customize.html
+                - heading "How to use my own fingerprints? e.g. okhttp" [level=3] [ref=e344]
+                - generic [ref=e350]:
+                  - generic [ref=e352]: curl_cffi documentation
+                  - generic [ref=e354]: https://curl-cffi.readthedocs.io › latest
+              - generic [ref=e355]:
+                - generic [ref=e356]: ·
+                - link "Dịch trang này" [ref=e357] [cursor=pointer]:
+                  - /url: https://curl-cffi.readthedocs.io/en/latest/impersonate/customize.html
+              - button "Thông tin về kết quả này" [ref=e358] [cursor=pointer]:
+                - img [ref=e361]
+            - generic [ref=e365]:
+              - text: You can retrieve the JA3 and Akamai strings using tools like WireShark or from
+              - emphasis [ref=e366]: TLS
+              - text: "fingerprinting sites. #"
+              - emphasis [ref=e367]: OKHTTP
+              - text: "impersonatation examples # credits: https:// ..."
+            - generic [ref=e369]:
+              - text: "Bị thiếu: cycletls ‎| Phải có:"
+              - link "cycletls" [ref=e370] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=curl-impersonate+utls+tls-client+%22cycletls%22+pyhttpx+github+TLS+fingerprint&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ5t4CegQIOBAB
+          - generic [ref=e374]:
+            - generic [ref=e377]:
+              - link "What's everyone using to avoid TLS fingerprinting? ... Reddit · r/webscraping 4 bình luận · 1 năm trước" [ref=e379] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/webscraping/comments/1j8kski/whats_everyone_using_to_avoid_tls_fingerprinting/
+                - heading "What's everyone using to avoid TLS fingerprinting? ..." [level=3] [ref=e380]
+                - generic [ref=e386]:
+                  - generic [ref=e388]: Reddit · r/webscraping
+                  - generic [ref=e390]: 4 bình luận · 1 năm trước
+              - button "Thông tin về kết quả này" [ref=e391] [cursor=pointer]:
+                - img [ref=e394]
+            - generic [ref=e397]: Curious to see what everyone's using to avoid getting fingerprinted through TLS. I'm working with Java right now, and keep getting rate-limited by ...
+            - generic [ref=e402]:
+              - link "4 câu trả lời" [ref=e403] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/webscraping/comments/1j8kski/comment/mh75e9n/
+              - generic [ref=e404]: ·
+              - generic [ref=e405]: "Câu trả lời hàng đầu:"
+              - generic [ref=e406]: "I've been in a similar boat in the past. A few things that worked for me: * uTLS in Go ..."
+            - generic [ref=e408]:
+              - text: "Bị thiếu: pyhttpx ‎| Phải có:"
+              - link "pyhttpx" [ref=e409] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=curl-impersonate+utls+tls-client+cycletls+%22pyhttpx%22+github+TLS+fingerprint&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ5t4CegQISRAB
+          - generic [ref=e413]:
+            - generic [ref=e416]:
+              - link "CycleTLS vs curl-impersonate - compare differences and ... LibHunt https://www.libhunt.com › compare-Cy..." [ref=e418] [cursor=pointer]:
+                - /url: https://www.libhunt.com/compare-CycleTLS-vs-curl-impersonate
+                - heading "CycleTLS vs curl-impersonate - compare differences and ..." [level=3] [ref=e419]
+                - generic [ref=e425]:
+                  - generic [ref=e427]: LibHunt
+                  - generic [ref=e429]: https://www.libhunt.com › compare-Cy...
+              - generic [ref=e430]:
+                - generic [ref=e431]: ·
+                - link "Dịch trang này" [ref=e432] [cursor=pointer]:
+                  - /url: https://www.libhunt.com/compare-CycleTLS-vs-curl-impersonate
+              - button "Thông tin về kết quả này" [ref=e433] [cursor=pointer]:
+                - img [ref=e436]
+            - generic [ref=e440]:
+              - text: curl_cffi - Python binding for
+              - emphasis [ref=e441]: curl
+              - text: "-"
+              - emphasis [ref=e442]: impersonate
+              - text: fork via cffi. A http
+              - emphasis [ref=e443]: client
+              - text: that can impersonate browser
+              - emphasis [ref=e444]: tls
+              - text: /ja3/http2 fingerprints. visiblev8 - A instrumented ...
+            - generic [ref=e446]:
+              - text: "Bị thiếu: pyhttpx ‎| Phải có:"
+              - link "pyhttpx" [ref=e447] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=curl-impersonate+utls+tls-client+cycletls+%22pyhttpx%22+github+TLS+fingerprint&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ5t4CegQITBAB
+          - generic [ref=e451]:
+            - generic [ref=e454]:
+              - 'link "Customized impersonating fingerprints · Issue #194 GitHub https://github.com › curl_cffi › issues" [ref=e456] [cursor=pointer]':
+                - /url: https://github.com/lexiforest/curl_cffi/issues/194
+                - 'heading "Customized impersonating fingerprints · Issue #194" [level=3] [ref=e457]'
+                - generic [ref=e463]:
+                  - generic [ref=e465]: GitHub
+                  - generic [ref=e467]: https://github.com › curl_cffi › issues
+              - generic [ref=e468]:
+                - generic [ref=e469]: ·
+                - link "Dịch trang này" [ref=e470] [cursor=pointer]:
+                  - /url: https://github.com/lexiforest/curl_cffi/issues/194
+              - button "Thông tin về kết quả này" [ref=e471] [cursor=pointer]:
+                - img [ref=e474]
+            - generic [ref=e477]:
+              - generic [ref=e478]: 26 thg 12, 2023 —
+              - generic [ref=e479]:
+                - text: Ability to create impersonation in python level and use it in requests. Describe alternatives you've considered python-
+                - emphasis [ref=e480]: tls
+                - text: "-"
+                - emphasis [ref=e481]: client
+                - text: example.
+            - generic [ref=e483]:
+              - text: "Bị thiếu: cycletls ‎| Phải có:"
+              - link "cycletls" [ref=e484] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=curl-impersonate+utls+tls-client+%22cycletls%22+pyhttpx+github+TLS+fingerprint&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ5t4CegQIThAB
+          - generic [ref=e489]:
+            - heading "Mọi người cũng hỏi" [level=2] [ref=e491]
+            - generic [ref=e492]:
+              - button "How to install curl impersonate?" [ref=e498] [cursor=pointer]:
+                - generic [ref=e500]: How to install curl impersonate?
+                - img [ref=e503]
+              - button "What is curl impersonate?" [ref=e512] [cursor=pointer]:
+                - generic [ref=e514]: What is curl impersonate?
+                - img [ref=e517]
+          - generic [ref=e522]:
+            - heading "Web results" [level=2] [ref=e523]
+            - generic [ref=e524]:
+              - generic [ref=e527]:
+                - link "Special build of curl that can impersonate the major browsers Hacker News https://news.ycombinator.com › item" [ref=e529] [cursor=pointer]:
+                  - /url: https://news.ycombinator.com/item?id=43571099
+                  - heading "Special build of curl that can impersonate the major browsers" [level=3] [ref=e530]
+                  - generic [ref=e536]:
+                    - generic [ref=e538]: Hacker News
+                    - generic [ref=e540]: https://news.ycombinator.com › item
+                - generic [ref=e541]:
+                  - generic [ref=e542]: ·
+                  - link "Dịch trang này" [ref=e543] [cursor=pointer]:
+                    - /url: https://news.ycombinator.com/item?id=43571099
+                - button "Thông tin về kết quả này" [ref=e544] [cursor=pointer]:
+                  - img [ref=e547]
+              - generic [ref=e550]:
+                - generic [ref=e551]: 3 thg 4, 2025 —
+                - generic [ref=e552]:
+                  - text: Easy.
+                  - emphasis [ref=e553]: Just make a small fragment shader to produce a token in your client
+                  - text: . No bot is going to waste GPU resources to compile your shader.
+              - generic [ref=e555]: "Bị thiếu: cycletls ‎pyhttpx"
+          - generic [ref=e559]:
+            - generic [ref=e562]:
+              - link "How to Solve TLS/JA3 Fingerprinting in Web Scraping with ... CapSolver https://www.capsolver.com › Blog › All" [ref=e564] [cursor=pointer]:
+                - /url: https://www.capsolver.com/blog/All/web-scraping-with-curl-cffi
+                - heading "How to Solve TLS/JA3 Fingerprinting in Web Scraping with ..." [level=3] [ref=e565]
+                - generic [ref=e571]:
+                  - generic [ref=e573]: CapSolver
+                  - generic [ref=e575]: https://www.capsolver.com › Blog › All
+              - generic [ref=e576]:
+                - generic [ref=e577]: ·
+                - link "Dịch trang này" [ref=e578] [cursor=pointer]:
+                  - /url: https://www.capsolver.com/blog/All/web-scraping-with-curl-cffi
+              - button "Thông tin về kết quả này" [ref=e579] [cursor=pointer]:
+                - img [ref=e582]
+            - generic [ref=e585]:
+              - generic [ref=e586]: 27 thg 8, 2024 —
+              - generic [ref=e587]:
+                - text: By mimicking browser behavior and leveraging
+                - emphasis [ref=e588]: cURL's
+                - text: features, curl_cffi enhances your scraper's ability to avoid detection and perform smoothly.
+            - generic [ref=e590]: "Bị thiếu: cycletls ‎pyhttpx"
+          - generic [ref=e594]:
+            - generic [ref=e597]:
+              - link "tls package - github.com/refraction-networking/utls Go Packages https://pkg.go.dev › github.com › utls" [ref=e599] [cursor=pointer]:
+                - /url: https://pkg.go.dev/github.com/refraction-networking/utls
+                - heading "tls package - github.com/refraction-networking/utls" [level=3] [ref=e600]
+                - generic [ref=e606]:
+                  - generic [ref=e608]: Go Packages
+                  - generic [ref=e610]: https://pkg.go.dev › github.com › utls
+              - generic [ref=e611]:
+                - generic [ref=e612]: ·
+                - link "Dịch trang này" [ref=e613] [cursor=pointer]:
+                  - /url: https://pkg.go.dev/github.com/refraction-networking/utls
+              - button "Thông tin về kết quả này" [ref=e614] [cursor=pointer]:
+                - img [ref=e617]
+            - generic [ref=e620]:
+              - generic [ref=e621]: 12 thg 1, 2026 —
+              - generic [ref=e622]:
+                - emphasis [ref=e623]: uTLS
+                - text: is a fork of crypto/
+                - emphasis [ref=e624]: tls
+                - text: ", which provides ClientHello fingerprinting resistance, low-level access to handshake, fake session tickets and some other features."
+            - generic [ref=e626]: "Bị thiếu: curl- ‎impersonate ‎cycletls ‎pyhttpx"
+        - generic [ref=e628]:
+          - generic [ref=e633]:
+            - heading "Mọi người cũng tìm kiếm" [level=2] [ref=e635]
+            - generic [ref=e637]:
+              - generic [ref=e638]:
+                - link "Curl_cffi" [ref=e642] [cursor=pointer]:
+                  - /url: /search?sca_esv=61328fda7705c92b&q=Curl_cffi&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ1QJ6BAgnEAE
+                  - generic [ref=e643]:
+                    - generic [ref=e648]: Curl_cffi
+                    - img [ref=e652]
+                - link "Libcurl-impersonate" [ref=e657] [cursor=pointer]:
+                  - /url: /search?sca_esv=61328fda7705c92b&q=Libcurl-impersonate&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ1QJ6BAgpEAE
+                  - generic [ref=e658]:
+                    - generic [ref=e663]: Libcurl-impersonate
+                    - img [ref=e667]
+              - link "Impit" [ref=e673] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=Impit&sa=X&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ1QJ6BAgoEAE
+                - generic [ref=e674]:
+                  - generic [ref=e679]: Impit
+                  - img [ref=e683]
+          - navigation [ref=e685]:
+            - heading "Điều hướng trang" [level=1] [ref=e686]
+            - text: "1"
+            - link "Page 2" [ref=e689] [cursor=pointer]:
+              - /url: /search?q=curl-impersonate+utls+tls-client+cycletls+pyhttpx+github+TLS+fingerprint&sca_esv=61328fda7705c92b&ei=xVMvaonuBe2v0-kPiOHF0Ag&start=10&sa=N&sstk=AU9db-Dad8Yau3fhTpW1n57SuvOWGjJx7QpF5UI4Xi7MZeS4EaJTKZ1PejQgmma26D51NLKNGSkKlwoUrLeqPK4EcClws9bCjQOkOw&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ8tMDegQILRAE
+              - text: "2"
+            - link "Page 3" [ref=e691] [cursor=pointer]:
+              - /url: /search?q=curl-impersonate+utls+tls-client+cycletls+pyhttpx+github+TLS+fingerprint&sca_esv=61328fda7705c92b&ei=xVMvaonuBe2v0-kPiOHF0Ag&start=20&sa=N&sstk=AU9db-Dad8Yau3fhTpW1n57SuvOWGjJx7QpF5UI4Xi7MZeS4EaJTKZ1PejQgmma26D51NLKNGSkKlwoUrLeqPK4EcClws9bCjQOkOw&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ8tMDegQILRAG
+              - text: "3"
+            - heading "Tiếp" [level=2] [ref=e693]:
+              - link "Tiếp" [ref=e694] [cursor=pointer]:
+                - /url: /search?q=curl-impersonate+utls+tls-client+cycletls+pyhttpx+github+TLS+fingerprint&sca_esv=61328fda7705c92b&ei=xVMvaonuBe2v0-kPiOHF0Ag&start=10&sa=N&sstk=AU9db-Dad8Yau3fhTpW1n57SuvOWGjJx7QpF5UI4Xi7MZeS4EaJTKZ1PejQgmma26D51NLKNGSkKlwoUrLeqPK4EcClws9bCjQOkOw&ved=2ahUKEwjJ5Oi_ioiVAxXt1zQHHYhwEYoQ8NMDegQILRAI
+                - generic [ref=e696]: Tiếp
+        - navigation
+    - contentinfo [ref=e697]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e698]
+      - generic [ref=e702]:
+        - generic [ref=e704]:
+          - text: Việt Nam
+          - generic [ref=e706]:
+            - button "Ngũ Hành Sơn, Đà Nẵng - Dựa trên địa chỉ IP của bạn" [ref=e708] [cursor=pointer]:
+              - generic [ref=e709]: Ngũ Hành Sơn, Đà Nẵng
+              - generic [ref=e711]:
+                - text: "-"
+                - generic [ref=e712]: Dựa trên địa chỉ IP của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e714] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e717]:
+          - link "Trợ giúp" [ref=e718] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e719] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e720] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e721] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

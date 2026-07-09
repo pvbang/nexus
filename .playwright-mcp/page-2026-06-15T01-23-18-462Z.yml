@@ -1,0 +1,382 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link "Truy cập trang chủ Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=vi&ictx=0&sa=X&ved=0ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0QpYkNCAw
+          - img "Truy cập trang chủ Google" [ref=e14]
+        - generic [ref=e15]:
+          - combobox "Tìm kiếm" [ref=e18]: github impit curl impersonate rust TLS fingerprint library github impit curl impersonate rust TLS fingerprint library
+          - generic [ref=e19]:
+            - button "Xóa" [ref=e21] [cursor=pointer]:
+              - img [ref=e23]
+            - generic [ref=e26]:
+              - button "Công cụ nhập" [ref=e27] [cursor=pointer]:
+                - img [ref=e29]
+              - button "Tìm kiếm bằng giọng nói" [ref=e31] [cursor=pointer]:
+                - img [ref=e32]
+              - button "Tìm kiếm bằng hình ảnh" [ref=e34] [cursor=pointer]:
+                - img [ref=e35]
+        - button "Tìm kiếm" [ref=e37] [cursor=pointer]:
+          - img [ref=e40]
+    - generic [ref=e42]:
+      - button "Cài đặt" [ref=e44] [cursor=pointer]:
+        - img [ref=e47]
+      - generic [ref=e50]:
+        - button "Các ứng dụng của Google" [ref=e52] [cursor=pointer]:
+          - img [ref=e53]
+        - link "Đăng nhập" [ref=e57] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3Dgithub%2Bimpit%2Bcurl%2Bimpersonate%2Brust%2BTLS%2Bfingerprint%2Blibrary&ec=futura_srp_og_si_72236_p
+  - generic [ref=e59]:
+    - navigation [ref=e65]:
+      - generic [ref=e71]:
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - link "Chế độ AI" [ref=e76] [cursor=pointer]:
+              - /url: /search?q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sca_esv=61328fda7705c92b&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnb8obTC9Cf43rNKvT_8WoTHqzxv6jg5EvtWQVVL5l-RtvZbgw2hXAOdXDa5n_FszjrfgsNCRMO4a_8KRtvjw6JM-W3wULeeW9d09Iid3KKg0Ixy_aT9cOdTkYJXzN9dQGrKTQqGte4y3RKqFWUNw7MfpA6sZdF0qXD2S3kBwjhIdgutB0Pw3OL3kr-8t7cvJrOBJDx8PL66tJDxCUVghPahERFh_gWml9Y4GG4OxUZ6gOztSUW&aep=1&ntc=1&sa=X&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q2J8OegQIExAD
+              - generic [ref=e79]: Chế độ AI
+          - listitem [ref=e80]:
+            - link "Tất cả" [disabled] [ref=e81]:
+              - generic [ref=e83]: Tất cả
+          - listitem [ref=e84]:
+            - link "Video" [ref=e85] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnb8obTC9Cf43rNKvT_8WoTHqzxv6jg5EvtWQVVL5l-RtvZbgw2hXAOdXDa5n_FszjrfgsNCRMO4a_8KRtvjw6JM-W3wULeeW9d09Iid3KKg0Ixy_aT9cOdTkYJXzN9dQGrKTQqGte4y3RKqFWUNw7MfpA6sZdF0qXD2S3kBwjhIdgutB0Pw3OL3kr-8t7cvJrOBJDx8PL66tJDxCUVghPahERFh_gWml9Y4GG4OxUZ6gOztSUW&q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sa=X&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0QtKgLegQIGRAB
+              - generic [ref=e87]: Video
+          - listitem [ref=e88]:
+            - link "Video ngắn" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnb8obTC9Cf43rNKvT_8WoTHqzxv6jg5EvtWQVVL5l-RtvZbgw2hXAOdXDa5n_FszjrfgsNCRMO4a_8KRtvjw6JM-W3wULeeW9d09Iid3KKg0Ixy_aT9cOdTkYJXzN9dQGrKTQqGte4y3RKqFWUNw7MfpA6sZdF0qXD2S3kBwjhIdgutB0Pw3OL3kr-8t7cvJrOBJDx8PL66tJDxCUVghPahERFh_gWml9Y4GG4OxUZ6gOztSUW&q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sa=X&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Qs6gLegQIGBAB
+              - generic [ref=e91]: Video ngắn
+          - listitem [ref=e92]:
+            - link "Hình ảnh" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnb8obTC9Cf43rNKvT_8WoTHqzxv6jg5EvtWQVVL5l-RtvZbgw2hXAOdXDa5n_FszjrfgsNCRMO4a_8KRtvjw6JM-W3wULeeW9d09Iid3KKg0Ixy_aT9cOdTkYJXzN9dQGrKTQqGte4y3RKqFWUNw7MfpA6sZdF0qXD2S3kBwjhIdgutB0Pw3OL3kr-8t7cvJrOBJDx8PL66tJDxCUVghPahERFh_gWml9Y4GG4OxUZ6gOztSUW&q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sa=X&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0QtKgLegQIFxAB
+              - generic [ref=e95]: Hình ảnh
+          - listitem [ref=e96]:
+            - link "Mua sắm" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnb8obTC9Cf43rNKvT_8WoTHqzxv6jg5EvtWQVVL5l-RtvZbgw2hXAOdXDa5n_FszjrfgsNCRMO4a_8KRtvjw6JM-W3wULeeW9d09Iid3KKg0Ixy_aT9cOdTkYJXzN9dQGrKTQqGte4y3RKqFWUNw7MfpA6sZdF0qXD2S3kBwjhIdgutB0Pw3OL3kr-8t7cvJrOBJDx8PL66tJDxCUVghPahERFh_gWml9Y4GG4OxUZ6gOztSUW&q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&ved=1t:220175&ictx=111
+              - generic [ref=e99]: Mua sắm
+          - listitem [ref=e100]:
+            - link "Tin tức" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&tbm=nws&source=lnms&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnb8obTC9Cf43rNKvT_8WoTHqzxv6jg5EvtWQVVL5l-RtvZbgw2hXAOdXDa5n_FszjrfgsNCRMO4a_8KRtvjw6JM-W3wULeeW9d09Iid3KKg0Ixy_aT9cOdTkYJXzN9dQGrKTQqGte4y3RKqFWUNw7MfpA6sZdF0qXD2S3kBwjhIdgutB0Pw3OL3kr-8t7cvJrOBJDx8PL66tJDxCUVghPahERFh_gWml9Y4GG4OxUZ6gOztSUW&sa=X&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q0pQJegQIFhAB
+              - generic [ref=e103]: Tin tức
+          - listitem [ref=e104]:
+            - button "Các bộ lọc khác" [ref=e105] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e106]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Thêm
+                  - img [ref=e110]
+        - button "Công cụ" [ref=e113] [cursor=pointer]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: Công cụ
+            - img [ref=e118]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e120]
+    - generic [ref=e126]:
+      - generic [ref=e127]: Looking for results in English?
+      - link [ref=e128] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e130]
+      - link "Change to English" [ref=e132] [cursor=pointer]:
+        - /url: /setprefs?sig=0_9G5qUwbqBY3u3AWlSDMC2g08LLI%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dgithub%2Bimpit%2Bcurl%2Bimpersonate%2Brust%2BTLS%2Bfingerprint%2Blibrary&hl=en&sa=X&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0QhoQCKAF6BAgOEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e133] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e135] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0QiIQCKAN6BAgOEAY#languages
+    - generic [ref=e136]:
+      - generic [ref=e155]:
+        - heading "Đang tìm kiếm Đang suy nghĩ lâu hơn một chút" [level=2] [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e162]: Đang tìm kiếm
+            - generic [ref=e164]: Đang suy nghĩ lâu hơn một chút
+        - progressbar "Đang tạo" [ref=e166]
+      - main [ref=e208]:
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - heading "Web results" [level=2] [ref=e216]
+            - generic [ref=e217]:
+              - generic [ref=e220]:
+                - 'link "curl-impersonate support · Issue #482 · alexcrichton/curl-rust GitHub https://github.com › curl-rust › issues" [ref=e222] [cursor=pointer]':
+                  - /url: https://github.com/carllerche/curl-rust/issues/482
+                  - 'heading "curl-impersonate support · Issue #482 · alexcrichton/curl-rust" [level=3] [ref=e223]'
+                  - generic [ref=e229]:
+                    - generic [ref=e231]: GitHub
+                    - generic [ref=e233]: https://github.com › curl-rust › issues
+                - generic [ref=e234]:
+                  - generic [ref=e235]: ·
+                  - link "Dịch trang này" [ref=e236] [cursor=pointer]:
+                    - /url: https://github.com/carllerche/curl-rust/issues/482
+                - button "Thông tin về kết quả này" [ref=e237] [cursor=pointer]:
+                  - img [ref=e240]
+              - generic [ref=e243]:
+                - generic [ref=e244]: 15 thg 12, 2022 —
+                - generic [ref=e245]:
+                  - emphasis [ref=e246]: curl-impersonate allows to fight with TLS fingerprinting
+                  - text: ", a technique used to prevent scraping (here's an example offering from Cloudflare: ..."
+              - generic [ref=e248]:
+                - text: "Bị thiếu: impit ‎| Phải có:"
+                - link "impit" [ref=e249] [cursor=pointer]:
+                  - /url: /search?sca_esv=61328fda7705c92b&q=github+%22impit%22+curl+impersonate+rust+TLS+fingerprint+library&sa=X&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q5t4CegQIJRAB
+          - generic [ref=e253]:
+            - generic [ref=e256]:
+              - 'link "tuchg/impcurl: Async WebSocket client powered by libcurl ... GitHub https://github.com › tuchg › implcurl" [ref=e258] [cursor=pointer]':
+                - /url: https://github.com/tuchg/implcurl
+                - 'heading "tuchg/impcurl: Async WebSocket client powered by libcurl ..." [level=3] [ref=e259]'
+                - generic [ref=e265]:
+                  - generic [ref=e267]: GitHub
+                  - generic [ref=e269]: https://github.com › tuchg › implcurl
+              - generic [ref=e270]:
+                - generic [ref=e271]: ·
+                - link "Dịch trang này" [ref=e272] [cursor=pointer]:
+                  - /url: https://github.com/tuchg/implcurl
+              - button "Thông tin về kết quả này" [ref=e273] [cursor=pointer]:
+                - img [ref=e276]
+            - generic [ref=e280]:
+              - emphasis [ref=e281]: Rust WebSocket client with TLS fingerprint impersonation
+              - text: ", powered by libcurl-impersonate. Bypass TLS fingerprinting by impersonating real browser signatures ..."
+            - generic [ref=e283]:
+              - text: "Bị thiếu: impit ‎| Phải có:"
+              - link "impit" [ref=e284] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=github+%22impit%22+curl+impersonate+rust+TLS+fingerprint+library&sa=X&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q5t4CegQIHxAB
+          - generic [ref=e288]:
+            - generic [ref=e291]:
+              - link "Texnomic/Curl.Impersonate GitHub https://github.com › Texnomic › Curl.I..." [ref=e293] [cursor=pointer]:
+                - /url: https://github.com/Texnomic/Curl.Impersonate
+                - heading "Texnomic/Curl.Impersonate" [level=3] [ref=e294]
+                - generic [ref=e300]:
+                  - generic [ref=e302]: GitHub
+                  - generic [ref=e304]: https://github.com › Texnomic › Curl.I...
+              - generic [ref=e305]:
+                - generic [ref=e306]: ·
+                - link "Dịch trang này" [ref=e307] [cursor=pointer]:
+                  - /url: https://github.com/Texnomic/Curl.Impersonate
+              - button "Thông tin về kết quả này" [ref=e308] [cursor=pointer]:
+                - img [ref=e311]
+            - generic [ref=e315]:
+              - text: Managed .NET 10 wrapper around libcurl-
+              - emphasis [ref=e316]: impersonate
+              - text: . Sends HTTP requests with
+              - emphasis [ref=e317]: TLS
+              - text: ", HTTP/2 and HTTP/3 fingerprints identical to real Chrome, Firefox, Safari, ..."
+            - generic [ref=e319]: "Bị thiếu: impit ‎rust"
+          - generic [ref=e323]:
+            - generic [ref=e326]:
+              - link "ajsb85/impersonate-rs GitHub https://github.com › ajsb85 › imperson..." [ref=e328] [cursor=pointer]:
+                - /url: https://github.com/ajsb85/impersonate-rs
+                - heading "ajsb85/impersonate-rs" [level=3] [ref=e329]
+                - generic [ref=e335]:
+                  - generic [ref=e337]: GitHub
+                  - generic [ref=e339]: https://github.com › ajsb85 › imperson...
+              - generic [ref=e340]:
+                - generic [ref=e341]: ·
+                - link "Dịch trang này" [ref=e342] [cursor=pointer]:
+                  - /url: https://github.com/ajsb85/impersonate-rs
+              - button "Thông tin về kết quả này" [ref=e343] [cursor=pointer]:
+                - img [ref=e346]
+            - generic [ref=e350]:
+              - text: This crate provides a safe, ergonomic, and idiomatic
+              - emphasis [ref=e351]: Rust
+              - text: interface for performing HTTP requests that mimic specific browser
+              - emphasis [ref=e352]: TLS
+              - text: fingerprints (Chrome, Firefox, ...
+            - generic [ref=e354]:
+              - text: "Bị thiếu: impit ‎| Phải có:"
+              - link "impit" [ref=e355] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=github+%22impit%22+curl+impersonate+rust+TLS+fingerprint+library&sa=X&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q5t4CegQIOxAB
+          - generic [ref=e359]:
+            - generic [ref=e362]:
+              - link "A special build of curl that can impersonate Chrome & Firefox GitHub https://github.com › lwthiker › curl-im..." [ref=e364] [cursor=pointer]:
+                - /url: https://github.com/lwthiker/curl-impersonate
+                - heading "A special build of curl that can impersonate Chrome & Firefox" [level=3] [ref=e365]
+                - generic [ref=e371]:
+                  - generic [ref=e373]: GitHub
+                  - generic [ref=e375]: https://github.com › lwthiker › curl-im...
+              - generic [ref=e376]:
+                - generic [ref=e377]: ·
+                - link "Dịch trang này" [ref=e378] [cursor=pointer]:
+                  - /url: https://github.com/lwthiker/curl-impersonate
+              - button "Thông tin về kết quả này" [ref=e379] [cursor=pointer]:
+                - img [ref=e382]
+            - generic [ref=e386]:
+              - text: "A special build of curl that can impersonate the four major browsers: Chrome, Edge, Safari & Firefox."
+              - emphasis [ref=e387]: curl-impersonate
+              - text: is able to perform TLS and HTTP ...
+            - generic [ref=e389]: "Bị thiếu: impit ‎rust"
+          - generic [ref=e393]:
+            - generic [ref=e396]:
+              - 'link "Aditya-PS-05/hyprcurl: A high-performance Rust HTTP ... GitHub https://github.com › Aditya-PS-05 › hy..." [ref=e398] [cursor=pointer]':
+                - /url: https://github.com/Aditya-PS-05/hyprcurl
+                - 'heading "Aditya-PS-05/hyprcurl: A high-performance Rust HTTP ..." [level=3] [ref=e399]'
+                - generic [ref=e405]:
+                  - generic [ref=e407]: GitHub
+                  - generic [ref=e409]: https://github.com › Aditya-PS-05 › hy...
+              - generic [ref=e410]:
+                - generic [ref=e411]: ·
+                - link "Dịch trang này" [ref=e412] [cursor=pointer]:
+                  - /url: https://github.com/Aditya-PS-05/hyprcurl
+              - button "Thông tin về kết quả này" [ref=e413] [cursor=pointer]:
+                - img [ref=e416]
+            - generic [ref=e420]:
+              - text: A high-performance
+              - emphasis [ref=e421]: Rust HTTP client with browser impersonation and TLS fingerprinting support
+              - text: . Rust implementation inspired by Python's curl_cffi. Installation ...
+            - generic [ref=e423]: "Bị thiếu: impit ‎fingerprint"
+          - generic [ref=e427]:
+            - generic [ref=e430]:
+              - 'link "curl-impersonate: An alternative to utls? #345 GitHub https://github.com › bbs › issues" [ref=e432] [cursor=pointer]':
+                - /url: https://github.com/net4people/bbs/issues/345
+                - 'heading "curl-impersonate: An alternative to utls? #345" [level=3] [ref=e433]'
+                - generic [ref=e439]:
+                  - generic [ref=e441]: GitHub
+                  - generic [ref=e443]: https://github.com › bbs › issues
+              - generic [ref=e444]:
+                - generic [ref=e445]: ·
+                - link "Dịch trang này" [ref=e446] [cursor=pointer]:
+                  - /url: https://github.com/net4people/bbs/issues/345
+              - button "Thông tin về kết quả này" [ref=e447] [cursor=pointer]:
+                - img [ref=e450]
+            - generic [ref=e453]:
+              - generic [ref=e454]: 21 thg 3, 2024 —
+              - generic [ref=e455]:
+                - text: This week I came across https://
+                - emphasis [ref=e456]: github
+                - text: .com/lwthiker/
+                - emphasis [ref=e457]: curl
+                - text: "-"
+                - emphasis [ref=e458]: impersonate
+                - text: ", which appears to be identical in function to uTLS, except written by ..."
+            - generic [ref=e460]:
+              - text: "Bị thiếu: impit ‎| Phải có:"
+              - link "impit" [ref=e461] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=github+%22impit%22+curl+impersonate+rust+TLS+fingerprint+library&sa=X&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q5t4CegQISRAB
+          - generic [ref=e465]:
+            - generic [ref=e468]:
+              - 'link "4JX/reqwest-impersonate: Impersonating the Chrome ... GitHub https://github.com › reqwest-impersonate" [ref=e470] [cursor=pointer]':
+                - /url: https://github.com/4JX/reqwest-impersonate
+                - 'heading "4JX/reqwest-impersonate: Impersonating the Chrome ..." [level=3] [ref=e471]'
+                - generic [ref=e477]:
+                  - generic [ref=e479]: GitHub
+                  - generic [ref=e481]: https://github.com › reqwest-impersonate
+              - generic [ref=e482]:
+                - generic [ref=e483]: ·
+                - link "Dịch trang này" [ref=e484] [cursor=pointer]:
+                  - /url: https://github.com/4JX/reqwest-impersonate
+              - button "Thông tin về kết quả này" [ref=e485] [cursor=pointer]:
+                - img [ref=e488]
+            - generic [ref=e491]:
+              - generic [ref=e492]: 16 thg 5, 2025 —
+              - generic [ref=e493]:
+                - text: Inspired by
+                - emphasis [ref=e494]: curl
+                - text: "-"
+                - emphasis [ref=e495]: impersonate
+                - text: . This crate was intended to be an experiment to learn more about
+                - emphasis [ref=e496]: TLS
+                - text: and HTTP2 fingerprinting. Some parts of ...
+          - generic [ref=e500]:
+            - generic [ref=e503]:
+              - link "fingerprint-verification.md - narumiruna/go-curl-impersonate GitHub https://github.com › blob › main › docs" [ref=e505] [cursor=pointer]:
+                - /url: https://github.com/narumiruna/go-curl-impersonate/blob/main/docs/fingerprint-verification.md
+                - heading "fingerprint-verification.md - narumiruna/go-curl-impersonate" [level=3] [ref=e506]
+                - generic [ref=e512]:
+                  - generic [ref=e514]: GitHub
+                  - generic [ref=e516]: https://github.com › blob › main › docs
+              - generic [ref=e517]:
+                - generic [ref=e518]: ·
+                - link "Dịch trang này" [ref=e519] [cursor=pointer]:
+                  - /url: https://github.com/narumiruna/go-curl-impersonate/blob/main/docs/fingerprint-verification.md
+              - button "Thông tin về kết quả này" [ref=e520] [cursor=pointer]:
+                - img [ref=e523]
+            - generic [ref=e526]:
+              - generic [ref=e527]: 16 thg 5, 2026 —
+              - generic [ref=e528]:
+                - text: The native and release workflows run the Chrome and Firefox
+                - emphasis [ref=e529]: fingerprint
+                - text: verifier in
+                - emphasis [ref=e530]: GitHub
+                - text: Actions after building the pinned
+                - emphasis [ref=e531]: curl
+                - text: "-"
+                - emphasis [ref=e532]: impersonate
+                - text: ...
+            - generic [ref=e534]: "Bị thiếu: impit ‎rust ‎library"
+          - generic [ref=e538]:
+            - generic [ref=e541]:
+              - 'link "0x676e67/wreq: An ergonomic Rust HTTP Client with TLS ... GitHub https://github.com › wreq" [ref=e543] [cursor=pointer]':
+                - /url: https://github.com/0x676e67/wreq
+                - 'heading "0x676e67/wreq: An ergonomic Rust HTTP Client with TLS ..." [level=3] [ref=e544]'
+                - generic [ref=e550]:
+                  - generic [ref=e552]: GitHub
+                  - generic [ref=e554]: https://github.com › wreq
+              - generic [ref=e555]:
+                - generic [ref=e556]: ·
+                - link "Dịch trang này" [ref=e557] [cursor=pointer]:
+                  - /url: https://github.com/0x676e67/wreq
+              - button "Thông tin về kết quả này" [ref=e558] [cursor=pointer]:
+                - img [ref=e561]
+            - generic [ref=e565]:
+              - text: An ergonomic and modular
+              - emphasis [ref=e566]: Rust
+              - text: HTTP Client for high-fidelity protocol matching, featuring customizable
+              - emphasis [ref=e567]: TLS
+              - text: ", JA3/JA4, and HTTP/2 signature capabilities. Features."
+            - generic [ref=e569]: "Bị thiếu: impit ‎curl"
+        - navigation [ref=e572]:
+          - heading "Điều hướng trang" [level=1] [ref=e573]
+          - text: "1"
+          - link "Page 2" [ref=e576] [cursor=pointer]:
+            - /url: /search?q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sca_esv=61328fda7705c92b&ei=BlQvaonEGOvf2roP5Iqg6AI&start=10&sa=N&sstk=AU9db-CWu3LAuiv1O-_soWUL-b7DNI_xG-36YdQ5d04dKH_zXThu63qHQENoXilFrKX0-lYxMJz1d_XJCLrE3Huj3p2ma4ptY4efWw&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q8tMDegQIJhAE
+            - text: "2"
+          - link "Page 3" [ref=e578] [cursor=pointer]:
+            - /url: /search?q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sca_esv=61328fda7705c92b&ei=BlQvaonEGOvf2roP5Iqg6AI&start=20&sa=N&sstk=AU9db-CWu3LAuiv1O-_soWUL-b7DNI_xG-36YdQ5d04dKH_zXThu63qHQENoXilFrKX0-lYxMJz1d_XJCLrE3Huj3p2ma4ptY4efWw&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q8tMDegQIJhAG
+            - text: "3"
+          - link "Page 4" [ref=e580] [cursor=pointer]:
+            - /url: /search?q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sca_esv=61328fda7705c92b&ei=BlQvaonEGOvf2roP5Iqg6AI&start=30&sa=N&sstk=AU9db-CWu3LAuiv1O-_soWUL-b7DNI_xG-36YdQ5d04dKH_zXThu63qHQENoXilFrKX0-lYxMJz1d_XJCLrE3Huj3p2ma4ptY4efWw&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q8tMDegQIJhAI
+            - text: "4"
+          - link "Page 5" [ref=e582] [cursor=pointer]:
+            - /url: /search?q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sca_esv=61328fda7705c92b&ei=BlQvaonEGOvf2roP5Iqg6AI&start=40&sa=N&sstk=AU9db-CWu3LAuiv1O-_soWUL-b7DNI_xG-36YdQ5d04dKH_zXThu63qHQENoXilFrKX0-lYxMJz1d_XJCLrE3Huj3p2ma4ptY4efWw&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q8tMDegQIJhAK
+            - text: "5"
+          - link "Page 6" [ref=e584] [cursor=pointer]:
+            - /url: /search?q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sca_esv=61328fda7705c92b&ei=BlQvaonEGOvf2roP5Iqg6AI&start=50&sa=N&sstk=AU9db-CWu3LAuiv1O-_soWUL-b7DNI_xG-36YdQ5d04dKH_zXThu63qHQENoXilFrKX0-lYxMJz1d_XJCLrE3Huj3p2ma4ptY4efWw&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q8tMDegQIJhAM
+            - text: "6"
+          - link "Page 7" [ref=e586] [cursor=pointer]:
+            - /url: /search?q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sca_esv=61328fda7705c92b&ei=BlQvaonEGOvf2roP5Iqg6AI&start=60&sa=N&sstk=AU9db-CWu3LAuiv1O-_soWUL-b7DNI_xG-36YdQ5d04dKH_zXThu63qHQENoXilFrKX0-lYxMJz1d_XJCLrE3Huj3p2ma4ptY4efWw&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q8tMDegQIJhAO
+            - text: "7"
+          - link "Page 8" [ref=e588] [cursor=pointer]:
+            - /url: /search?q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sca_esv=61328fda7705c92b&ei=BlQvaonEGOvf2roP5Iqg6AI&start=70&sa=N&sstk=AU9db-CWu3LAuiv1O-_soWUL-b7DNI_xG-36YdQ5d04dKH_zXThu63qHQENoXilFrKX0-lYxMJz1d_XJCLrE3Huj3p2ma4ptY4efWw&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q8tMDegQIJhAQ
+            - text: "8"
+          - link "Page 9" [ref=e590] [cursor=pointer]:
+            - /url: /search?q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sca_esv=61328fda7705c92b&ei=BlQvaonEGOvf2roP5Iqg6AI&start=80&sa=N&sstk=AU9db-CWu3LAuiv1O-_soWUL-b7DNI_xG-36YdQ5d04dKH_zXThu63qHQENoXilFrKX0-lYxMJz1d_XJCLrE3Huj3p2ma4ptY4efWw&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q8tMDegQIJhAS
+            - text: "9"
+          - link "Page 10" [ref=e592] [cursor=pointer]:
+            - /url: /search?q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sca_esv=61328fda7705c92b&ei=BlQvaonEGOvf2roP5Iqg6AI&start=90&sa=N&sstk=AU9db-CWu3LAuiv1O-_soWUL-b7DNI_xG-36YdQ5d04dKH_zXThu63qHQENoXilFrKX0-lYxMJz1d_XJCLrE3Huj3p2ma4ptY4efWw&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q8tMDegQIJhAU
+            - text: "10"
+          - heading "Tiếp" [level=2] [ref=e594]:
+            - link "Tiếp" [ref=e595] [cursor=pointer]:
+              - /url: /search?q=github+impit+curl+impersonate+rust+TLS+fingerprint+library&sca_esv=61328fda7705c92b&ei=BlQvaonEGOvf2roP5Iqg6AI&start=10&sa=N&sstk=AU9db-CWu3LAuiv1O-_soWUL-b7DNI_xG-36YdQ5d04dKH_zXThu63qHQENoXilFrKX0-lYxMJz1d_XJCLrE3Huj3p2ma4ptY4efWw&ved=2ahUKEwiJ3_reioiVAxXrr1YBHWQFCC0Q8NMDegQIJhAW
+              - generic [ref=e597]: Tiếp
+        - navigation
+    - contentinfo [ref=e598]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e599]
+      - generic [ref=e603]:
+        - generic [ref=e605]:
+          - text: Việt Nam
+          - generic [ref=e607]:
+            - button "Ngũ Hành Sơn, Đà Nẵng - Dựa trên hoạt động trước đây của bạn" [ref=e609] [cursor=pointer]:
+              - generic [ref=e610]: Ngũ Hành Sơn, Đà Nẵng
+              - generic [ref=e612]:
+                - text: "-"
+                - generic [ref=e613]: Dựa trên hoạt động trước đây của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e615] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e618]:
+          - link "Trợ giúp" [ref=e619] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e620] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e621] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e622] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

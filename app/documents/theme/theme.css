@@ -1,0 +1,78 @@
+/* app/documents/theme/theme.css
+   Design language dùng chung cho WeasyPrint (PDF) và frontend preview.
+   Đường dẫn font tương đối được resolve qua base_url khi render PDF. */
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../../../assets/fonts/NotoSans-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../../../assets/fonts/NotoSans-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../../../assets/fonts/NotoSans-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../../../assets/fonts/NotoSans-BoldItalic.ttf") format("truetype");
+  font-weight: 700; font-style: italic;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../../../assets/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../../../assets/fonts/JetBrainsMono-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+:root {
+  --ink: #1a1a1a;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --border: #e5e7eb;
+  --code-bg: #f6f8fa;
+}
+
+@page {
+  size: A4;
+  margin: 2.2cm 2cm;
+  @bottom-center { content: counter(page) " / " counter(pages); color: var(--muted); font-size: 9pt; }
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: var(--ink);
+  font-size: 11pt;
+  line-height: 1.6;
+}
+h1, h2, h3, h4 { font-family: "Noto Sans", sans-serif; font-weight: 700; line-height: 1.25; margin: 1.2em 0 0.5em; }
+h1 { font-size: 22pt; color: var(--ink); border-bottom: 2px solid var(--accent); padding-bottom: 0.2em; }
+h2 { font-size: 16pt; }
+h3 { font-size: 13pt; }
+h4 { font-size: 11.5pt; color: var(--muted); }
+p { margin: 0.5em 0; }
+a { color: var(--accent); text-decoration: none; }
+code, pre { font-family: "JetBrains Mono", monospace; }
+code { background: var(--code-bg); padding: 0.1em 0.3em; border-radius: 4px; font-size: 0.9em; }
+pre {
+  background: var(--code-bg); padding: 12px 14px; border-radius: 8px;
+  border: 1px solid var(--border); overflow-x: auto; font-size: 9.5pt; line-height: 1.45;
+}
+pre code { background: none; padding: 0; }
+blockquote { margin: 0.8em 0; padding: 0.2em 1em; border-left: 4px solid var(--accent); color: var(--muted); }
+table { border-collapse: collapse; width: 100%; margin: 0.8em 0; font-size: 10pt; }
+th, td { border: 1px solid var(--border); padding: 7px 10px; text-align: left; vertical-align: top; }
+th { background: var(--accent); color: #fff; font-weight: 700; }
+tr:nth-child(even) td { background: #fafbfc; }
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5em 0; }
+ul, ol { padding-left: 1.4em; }
+li { margin: 0.2em 0; }
+img { max-width: 100%; }

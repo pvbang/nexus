@@ -1,0 +1,3 @@
+# Default owner for everything in this repo.
+# Required reviewer for all PRs once branch protection is enabled.
+* @0xSteph

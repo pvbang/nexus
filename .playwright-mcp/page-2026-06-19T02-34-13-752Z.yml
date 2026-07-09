@@ -1,0 +1,247 @@
+- generic [active] [ref=e1]:
+  - dialog [ref=e2]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]: Microsoft and our third-party vendors use cookies and similar technologies to deliver, maintain, and improve our services and ads. If you agree, we will use this data for ads personalization and associated analytics.
+        - paragraph [ref=e10]:
+          - text: You can select ‘Accept’ to consent to these uses, ‘Reject’ to decline these uses or click on ‘More options’ to review your options. You can change your selection under ‘Manage Cookie Preferences’ at the bottom of this page.
+          - link "Privacy Statement" [ref=e11] [cursor=pointer]:
+            - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+      - generic [ref=e12]:
+        - link "Accept" [ref=e14] [cursor=pointer]:
+          - /url: "javascript: void(0)"
+        - link "Reject" [ref=e16] [cursor=pointer]:
+          - /url: "javascript: void(0)"
+      - link "More options" [ref=e18] [cursor=pointer]:
+        - /url: "javascript: void(0)"
+  - banner [ref=e19]:
+    - button "Skip to content" [ref=e20] [cursor=pointer]:
+      - generic [ref=e22]: Skip to content
+    - button "Accessibility Feedback" [ref=e23] [cursor=pointer]:
+      - generic [ref=e25]: Accessibility Feedback
+    - generic [ref=e26]:
+      - link "Back to Bing search" [ref=e27] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e28]
+      - search [ref=e29]:
+        - button "Search" [ref=e32] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e33]: TCVN 6700-1:2000 kiểm tra chấp nhận thợ hàn ISO 9606
+        - button "Search using an image" [ref=e39] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e41]:
+      - button "Microsoft Rewards"
+      - link "Sign in" [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e43]
+    - navigation "Search Filter" [ref=e44]:
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - link "All" [ref=e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e48]:
+          - link "Search" [ref=e49] [cursor=pointer]:
+            - /url: /copilotsearch?q=TCVN+6700-1%3a2000+ki%e1%bb%83m+tra+ch%e1%ba%a5p+nh%e1%ba%adn+th%e1%bb%a3+h%c3%a0n+ISO+9606&FORM=CSSCOP
+            - img [ref=e50]
+            - text: Search
+        - listitem [ref=e52]:
+          - link "Images" [ref=e53] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8276cd4697c95f0b2794857d317e73ce04fe388bed5f1488b61746a337219443JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2ltYWdlcy9zZWFyY2g_cT1UQ1ZOKzY3MDAtMSUzYTIwMDAra2klZTElYmIlODNtK3RyYStjaCVlMSViYSVhNXArbmglZTElYmElYWRuK3RoJWUxJWJiJWEzK2glYzMlYTBuK0lTTys5NjA2JkZPUk09SERSU0Mz&ntb=1
+        - listitem [ref=e54]:
+          - link "Videos" [ref=e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7ccc9386803e496f82e6874ce86ec398d6568a814f6dece64ca807faa30b934fJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9zZWFyY2g_cT1UQ1ZOKzY3MDAtMSUzYTIwMDAra2klZTElYmIlODNtK3RyYStjaCVlMSViYSVhNXArbmglZTElYmElYWRuK3RoJWUxJWJiJWEzK2glYzMlYTBuK0lTTys5NjA2JkZPUk09SERSU0M0&ntb=1
+        - listitem [ref=e56]:
+          - link "Maps" [ref=e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3e64aa1d8d6e3e25f6bddc539bf196bc33e3df44d843886047ba444c9edfdf26JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L21hcHM_cT1UQ1ZOKzY3MDAtMSUzYTIwMDAra2klZTElYmIlODNtK3RyYStjaCVlMSViYSVhNXArbmglZTElYmElYWRuK3RoJWUxJWJiJWEzK2glYzMlYTBuK0lTTys5NjA2JkZPUk09SERSU0M2&ntb=1
+        - listitem [ref=e58]:
+          - link "Copilot" [ref=e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1a17d2cb8ff19cd0f07b699625fbbdb52dc269acf84673f9f1295cced978716bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2NoYXQ_cHJvbXB0PVRDVk4rNjcwMC0xJTNhMjAwMCtraSVlMSViYiU4M20rdHJhK2NoJWUxJWJhJWE1cCtuaCVlMSViYSVhZG4rdGglZTElYmIlYTMraCVjMyVhMG4rSVNPKzk2MDYmc2VuZHF1ZXJ5PTEmRk9STT1TQ0NPRFg&ntb=1
+        - listitem [ref=e60]:
+          - button "More" [ref=e61] [cursor=pointer]:
+            - img [ref=e63]
+            - text: More
+  - generic [ref=e65]:
+    - main "Search Results" [ref=e66]:
+      - generic [ref=e68]: About 2 results
+      - list [ref=e79]:
+        - listitem [ref=e80]:
+          - link "THƯ VIỆN PHÁP LUẬT" [ref=e82] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c0db934352d6f056ea85b95bdbeb223f2f10b3c05d0d50f1abace199dde776a6JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vVENWTi9Db25nLW5naGllcC9UQ1ZOLTY3MDAtMS0yMDAwLUtpZW0tdHJhLWNoYXAtbmhhbi10aG8taGFuLUhhbi1ub25nLWNoYXktOTA1Nzc2LmFzcHg&ntb=1
+            - generic [ref=e87]:
+              - generic [ref=e88]: THƯ VIỆN PHÁP LUẬT
+              - generic [ref=e90]:
+                - generic [ref=e91]: https://thuvienphapluat.vn › TCVN › Cong-nghiep
+                - generic [ref=e92]: Translate this result
+          - heading "Tiêu chuẩn Việt Nam TCVN 6700-1:2000 Kiểm tra chấp nhận thợ hàn" [level=2] [ref=e93]:
+            - link "Tiêu chuẩn Việt Nam TCVN 6700-1:2000 Kiểm tra chấp nhận thợ hàn" [ref=e94] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=c0db934352d6f056ea85b95bdbeb223f2f10b3c05d0d50f1abace199dde776a6JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vVENWTi9Db25nLW5naGllcC9UQ1ZOLTY3MDAtMS0yMDAwLUtpZW0tdHJhLWNoYXAtbmhhbi10aG8taGFuLUhhbi1ub25nLWNoYXktOTA1Nzc2LmFzcHg&ntb=1
+          - paragraph [ref=e96]: "Toàn văn Tiêu chuẩn Việt Nam TCVN 6700-1:2000 (ISO 9606-1 : 1994) về Kiểm tra chấp nhận thợ hàn - Hàn nóng chảy - Phần 1: Thép do Bộ Khoa học Công nghệ và Môi trường ban hành"
+          - list [ref=e98]:
+            - listitem [ref=e99]:
+              - link "Tiêu chuẩn quốc gia TCVN 6700-1:2016 về Kiểm tra chấp nhận …" [ref=e100] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=97781bc0758ff64ed7206c3c80cb346368433943303d337408c88fd2ac473cd9JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vVENWTi9Db25nLW5naGllcC9UQ1ZOLTY3MDAtMS0yMDE2LUlTTy05NjA2LTEtMjAxMi1LaWVtLXRyYS1jaGFwLW5oYW4tdGhvLWhhbi1oYW4tbm9uZy1jaGF5LXRoZXAtOTE5NTcwLmFzcHg&ntb=1
+              - paragraph [ref=e101]: Tiêu chuẩn này đưa ra một bộ các qui tắc kỹ thuật để kiểm tra đánh giá có hệ thống trình độ chuyên môn các thợ hàn, và cho phép các trình độ chuyên môn …
+          - link "See results only from thuvienphapluat.vn" [ref=e102] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=ac9be12ca3f706fc6973dadcdba631f98c95859993397c736bf6f90d7ef00c39JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXNpdGU6dGh1dmllbnBoYXBsdWF0LnZuK1RDVk4rNjcwMC0xJTNhMjAwMCtraSVlMSViYiU4M20rdHJhK2NoJWUxJWJhJWE1cCtuaCVlMSViYSVhZG4rdGglZTElYmIlYTMraCVjMyVhMG4rSVNPKzk2MDYmZm9ybT1ETElOS1I&ntb=1
+        - listitem [ref=e103]:
+          - link "Công ty luật Minh Khuê" [ref=e105] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9d86cf493fa641f4f47a1f0931163de1c820d38630abc66824f254369d01cfa3JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0bWluaGtodWUudm4vdmFuLWJhbi90aWV1LWNodWFuLXZpZXQtbmFtLXRjdm4tNjcwMC0xLTIwMDAtaXNvLTk2MDYtMS0xOTk0LXZlLWtpZW0tdHJhLWNoYXAtbmhhbi10aG8taGFuLWhhbi1ub25nLWNoYXktcGhhbi0xLXRoZXAtZG8tYm8ta2hvYS1ob2MtY29uZy1uZ2hlLXZhLW1vaS10cnVvbmctYmFuLWhhbmguYXNweA&ntb=1
+            - generic [ref=e110]:
+              - generic [ref=e111]: Công ty luật Minh Khuê
+              - generic [ref=e113]:
+                - generic [ref=e114]: https://luatminhkhue.vn › van-ban
+                - generic [ref=e115]: Translate this result
+          - 'heading "Tiêu chuẩn Việt Nam TCVN 6700-1:2000 (ISO 9606-1 : 1994) về Kiểm …" [level=2] [ref=e116]':
+            - 'link "Tiêu chuẩn Việt Nam TCVN 6700-1:2000 (ISO 9606-1 : 1994) về Kiểm …" [ref=e117] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=9d86cf493fa641f4f47a1f0931163de1c820d38630abc66824f254369d01cfa3JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0bWluaGtodWUudm4vdmFuLWJhbi90aWV1LWNodWFuLXZpZXQtbmFtLXRjdm4tNjcwMC0xLTIwMDAtaXNvLTk2MDYtMS0xOTk0LXZlLWtpZW0tdHJhLWNoYXAtbmhhbi10aG8taGFuLWhhbi1ub25nLWNoYXktcGhhbi0xLXRoZXAtZG8tYm8ta2hvYS1ob2MtY29uZy1uZ2hlLXZhLW1vaS10cnVvbmctYmFuLWhhbmguYXNweA&ntb=1
+          - paragraph [ref=e119]: Tiêu chuẩn này quy định các yêu cầu, các phạm vi chấp nhận, các điều kiện kiểm tra, các yêu cầu chấp nhận và cấp chứng chỉ kiểm tra chấp nhận thợ hàn thép. Mẫu chứng chỉ kiểm tra chấp nhận được …
+        - listitem [ref=e120]:
+          - link "Viện Tiêu chuẩn chất lượng Việt Nam" [ref=e122] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6611185cad021b550bc2be843c7d5f810d44bd4206923a11c2b2d4b9283888bdJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aWV1Y2h1YW4udnNxaS5nb3Yudm4vdGlldWNodWFuL3ZpZXc_c29oaWV1PVRDVk4rNjcwMC0xJTNBMjAwMA&ntb=1
+            - generic [ref=e127]:
+              - generic [ref=e128]: Viện Tiêu chuẩn chất lượng Việt Nam
+              - generic [ref=e130]:
+                - generic [ref=e131]: https://tieuchuan.vsqi.gov.vn › tieuchuan › view
+                - generic [ref=e132]: Translate this result
+          - 'heading "Tiêu chuẩn: TCVN 6700-1:2000 - Kiểm tra chấp nhận thợ hàn. Hàn …" [level=2] [ref=e133]':
+            - 'link "Tiêu chuẩn: TCVN 6700-1:2000 - Kiểm tra chấp nhận thợ hàn. Hàn …" [ref=e134] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=6611185cad021b550bc2be843c7d5f810d44bd4206923a11c2b2d4b9283888bdJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aWV1Y2h1YW4udnNxaS5nb3Yudm4vdGlldWNodWFuL3ZpZXc_c29oaWV1PVRDVk4rNjcwMC0xJTNBMjAwMA&ntb=1
+          - paragraph [ref=e136]: Tiêu chuẩn này áp dụng khi có yêu cầu kiểm tra chấp nhận thợ hàn của khách hàng, tổ chức có thẩm quyền kiểm tra hoặc các tổ chức khác. Tiêu chuẩn này áp dụng cho kiểm tra chấp nhận thợ hàn …
+        - listitem [ref=e137]:
+          - link "insatest.com" [ref=e139] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=914b27198974e063490111cfdebbcaa7c2438464cd61863769dba37b15c515e7JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9pbnNhdGVzdC5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMTcvMDMvdGN2bi02NzAwLTEtMjAwMC1raWVtLXRyYS1jaGFwLW5oYW4tdGhvLWhhbi1oYW4tbm9uZy1jaGF5LXBoYW4tMS10aGVwLnBkZg&ntb=1
+            - generic [ref=e144]:
+              - generic [ref=e145]: insatest.com
+              - generic [ref=e147]:
+                - generic [ref=e148]: https://insatest.com › wp-content › uploads
+                - text: · PDF file
+                - generic [ref=e149]: Translate this result
+          - 'heading "TIÊU CHUẨN VIỆT NAM TCVN 6700-1 : 2000 (ISO 9606-1 : 1994) …" [level=2] [ref=e150]':
+            - 'link "TIÊU CHUẨN VIỆT NAM TCVN 6700-1 : 2000 (ISO 9606-1 : 1994) …" [ref=e151] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=914b27198974e063490111cfdebbcaa7c2438464cd61863769dba37b15c515e7JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9pbnNhdGVzdC5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMTcvMDMvdGN2bi02NzAwLTEtMjAwMC1raWVtLXRyYS1jaGFwLW5oYW4tdGhvLWhhbi1oYW4tbm9uZy1jaGF5LXBoYW4tMS10aGVwLnBkZg&ntb=1
+          - paragraph [ref=e153]: thực hiện tốt kiểm tra chấp nhận đối với hàn mối nối có nhiều phương pháp hàn, nghĩa là chân mối hàn được hàn TIG (141) không có đệm lót mặt sau mối hàn, các đường hàn hoặc lớp hàn tiếp sau được …
+        - listitem [ref=e154]:
+          - link "tcvn.info" [ref=e156] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b5e72408c74f4d9499b314f0d56a11c3705fb04765a3c521e5bceaab381be2e1JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90Y3ZuLmluZm8vdGN2bi02NzAwLTEtMjAwMC1raWVtLXRyYS1jaGFwLW5oYW4tdGhvLWhhbi1oYW4tbm9uZy1jaGF5Lmh0bWw&ntb=1
+            - generic [ref=e161]:
+              - generic [ref=e162]: tcvn.info
+              - generic [ref=e164]:
+                - generic [ref=e165]: https://tcvn.info
+                - generic [ref=e166]: Translate this result
+          - 'heading "Tiêu chuẩn Việt Nam TCVN 6700-1:2000 (ISO 9606-1 : 1994) về Kiểm …" [level=2] [ref=e167]':
+            - 'link "Tiêu chuẩn Việt Nam TCVN 6700-1:2000 (ISO 9606-1 : 1994) về Kiểm …"':
+              - /url: https://www.bing.com/ck/a?!&&p=b5e72408c74f4d9499b314f0d56a11c3705fb04765a3c521e5bceaab381be2e1JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90Y3ZuLmluZm8vdGN2bi02NzAwLTEtMjAwMC1raWVtLXRyYS1jaGFwLW5oYW4tdGhvLWhhbi1oYW4tbm9uZy1jaGF5Lmh0bWw&ntb=1
+          - paragraph [ref=e169]: Tiêu chuẩn này áp dụng khi có yêu cầu kiểm tra chấp nhận thợ hàn của khách hàng, tổ chức có thẩm quyền kiểm tra hoặc các tổ chức khác. Tiêu chuẩn này áp dụng cho kiểm tra chấp nhận thợ hàn …
+        - listitem [ref=e170]:
+          - link "thuviennhadat.vn" [ref=e172] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=675b315510be8f9a338261d52b6530a95d74003dcc98cfab07fc2f8322eda8d8JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVubmhhZGF0LnZuL3Zhbi1iYW4tcGhhcC1sdWF0LXZpZXQtbmFtL3Rjdm4tNjcwMC0xLTIwMDAta2llbS10cmEtY2hhcC1uaGFuLXRoby1oYW4taGFuLW5vbmctY2hheS05MDU3NzYuaHRtbA&ntb=1
+            - generic [ref=e177]:
+              - generic [ref=e178]: thuviennhadat.vn
+              - generic [ref=e180]:
+                - generic [ref=e181]: https://thuviennhadat.vn › van-ban-phap-luat-viet-nam
+                - generic [ref=e182]: Translate this result
+          - 'heading "Tiêu chuẩn Việt Nam TCVN 6700-1:2000 (ISO 9606-1 : 1994) về Kiểm …" [level=2] [ref=e183]':
+            - 'link "Tiêu chuẩn Việt Nam TCVN 6700-1:2000 (ISO 9606-1 : 1994) về Kiểm …"':
+              - /url: https://www.bing.com/ck/a?!&&p=675b315510be8f9a338261d52b6530a95d74003dcc98cfab07fc2f8322eda8d8JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVubmhhZGF0LnZuL3Zhbi1iYW4tcGhhcC1sdWF0LXZpZXQtbmFtL3Rjdm4tNjcwMC0xLTIwMDAta2llbS10cmEtY2hhcC1uaGFuLXRoby1oYW4taGFuLW5vbmctY2hheS05MDU3NzYuaHRtbA&ntb=1
+          - paragraph [ref=e185]: Tiêu chuẩn này áp dụng khi có yêu cầu kiểm tra chấp nhận thợ hàn của khách hàng, tổ chức có thẩm quyền kiểm tra hoặc các tổ chức khác. ... Các phương pháp hàn đề cập đến trong tiêu chuẩn này …
+        - listitem [ref=e186]:
+          - link "THƯ VIỆN PHÁP LUẬT" [ref=e188] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=97781bc0758ff64ed7206c3c80cb346368433943303d337408c88fd2ac473cd9JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vVENWTi9Db25nLW5naGllcC9UQ1ZOLTY3MDAtMS0yMDE2LUlTTy05NjA2LTEtMjAxMi1LaWVtLXRyYS1jaGFwLW5oYW4tdGhvLWhhbi1oYW4tbm9uZy1jaGF5LXRoZXAtOTE5NTcwLmFzcHg&ntb=1
+            - generic [ref=e193]:
+              - generic [ref=e194]: THƯ VIỆN PHÁP LUẬT
+              - generic [ref=e196]:
+                - generic [ref=e197]: https://thuvienphapluat.vn › TCVN › Cong-nghiep
+                - generic [ref=e198]: Translate this result
+          - heading "Tiêu chuẩn quốc gia TCVN 6700-1:2016 về Kiểm tra chấp nhận thợ …" [level=2] [ref=e199]:
+            - link "Tiêu chuẩn quốc gia TCVN 6700-1:2016 về Kiểm tra chấp nhận thợ …":
+              - /url: https://www.bing.com/ck/a?!&&p=97781bc0758ff64ed7206c3c80cb346368433943303d337408c88fd2ac473cd9JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vVENWTi9Db25nLW5naGllcC9UQ1ZOLTY3MDAtMS0yMDE2LUlTTy05NjA2LTEtMjAxMi1LaWVtLXRyYS1jaGFwLW5oYW4tdGhvLWhhbi1oYW4tbm9uZy1jaGF5LXRoZXAtOTE5NTcwLmFzcHg&ntb=1
+          - paragraph [ref=e201]: Tiêu chuẩn này đưa ra một bộ các qui tắc kỹ thuật để kiểm tra đánh giá có hệ thống trình độ chuyên môn các thợ hàn, và cho phép các trình độ chuyên môn đó được chấp nhận như nhau không phụ …
+        - listitem [ref=e202]:
+          - link "Dữ Liệu Pháp Luật" [ref=e204] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=cae096ebaeef5fda574a7b8e1e419b660afbd3ec1261902edf9843cf8331fd62JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9kdWxpZXVwaGFwbHVhdC52bi92YW4tYmFuL2xpbmgtdnVjLWtoYWMtdmFuLWJhbi90aWV1LWNodWFuLXZpZXQtbmFtLXRjdm4tNjcwMC0xMjAwMC1pc28tOTYwNi0xLTE5OTQtdmUta2llbS10cmEtY2hhcC1uaGFuLXRoby1oYW4taGFuLW5vbmctY2hheS1waGFuLTEtdGhlcC1kby1iby1raG9hLWhvYy1jb25nLW5naGUtdmEtbW9pLXRydW9uZy1iYW4taGFuaC02NDQ2OTAuaHRtbA&ntb=1
+            - generic [ref=e209]:
+              - generic [ref=e210]: Dữ Liệu Pháp Luật
+              - generic [ref=e212]:
+                - generic [ref=e213]: https://dulieuphapluat.vn › van-ban › linh-vuc-khac-van-ban
+                - generic [ref=e214]: Translate this result
+          - 'heading "Tiêu chuẩn Việt Nam TCVN 6700-1:2000 (ISO 9606-1 : 1994) về Kiểm …" [level=2] [ref=e215]':
+            - 'link "Tiêu chuẩn Việt Nam TCVN 6700-1:2000 (ISO 9606-1 : 1994) về Kiểm …"':
+              - /url: https://www.bing.com/ck/a?!&&p=cae096ebaeef5fda574a7b8e1e419b660afbd3ec1261902edf9843cf8331fd62JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9kdWxpZXVwaGFwbHVhdC52bi92YW4tYmFuL2xpbmgtdnVjLWtoYWMtdmFuLWJhbi90aWV1LWNodWFuLXZpZXQtbmFtLXRjdm4tNjcwMC0xMjAwMC1pc28tOTYwNi0xLTE5OTQtdmUta2llbS10cmEtY2hhcC1uaGFuLXRoby1oYW4taGFuLW5vbmctY2hheS1waGFuLTEtdGhlcC1kby1iby1raG9hLWhvYy1jb25nLW5naGUtdmEtbW9pLXRydW9uZy1iYW4taGFuaC02NDQ2OTAuaHRtbA&ntb=1
+          - paragraph [ref=e217]: Tiêu chuẩn này qu y định các y ê u c ầ u, các phạm\r\nvi chấp nh ậ n, các điều\r\nkiện kiểm tra, các yêu cầu chấp nhận và cấp chứng chỉ kiểm tra chấp nhận th ợ hàn thép.\r\nMẫu chứng chỉ kiểm tra chấp …
+        - listitem [ref=e218]:
+          - generic [ref=e219]:
+            - link "Explore this image" [ref=e222] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=TnJpBbSH&id=8CD12E7D012747E403124D763FD22EEC0F09E8EE&thid=OIP.TnJpBbSH-71EfAXe1ar3hAHaEa&mediaurl=https://cdn.luatvietnam.vn/uploaded/vietlawfile/2024/8/tcvn6700_1_2000_020824101954.docx_files/image002.jpg&q=TCVN+6700-1%3a2000+ki%e1%bb%83m+tra+ch%e1%ba%a5p+nh%e1%ba%adn+th%e1%bb%a3+h%c3%a0n+ISO+9606&ck=16ACA4D7508983781C3C160B551D2EDF&idpp=rc&expw=488&exph=291&form=rc2idp
+            - generic [ref=e224]:
+              - link "LuatVietnam" [ref=e226] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=8a89f65b5a9775353f515c1fa853a243a6116b79fc8a6f2087c7749ad21ef4e1JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi9jb25nLW5naGllcC90aWV1LWNodWFuLXZpZXQtbmFtLXRjdm4tNjcwMC0xLTIwMDAtaXNvLTk2MDYtMS0xOTk0LWtpZW0tdHJhLWNoYXAtbmhhbi10aG8taGFuLXRoZXAtMTg0NzQzLWQzLmh0bWw&ntb=1
+                - generic [ref=e231]:
+                  - generic [ref=e232]: LuatVietnam
+                  - generic [ref=e234]:
+                    - generic [ref=e235]: https://luatvietnam.vn › cong-nghiep
+                    - generic [ref=e236]: Translate this result
+              - heading "Tiêu chuẩn Việt Nam TCVN 6700-1:2000 ISO 9606 …" [level=2] [ref=e237]:
+                - link "Tiêu chuẩn Việt Nam TCVN 6700-1:2000 ISO 9606 …" [ref=e238] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=8a89f65b5a9775353f515c1fa853a243a6116b79fc8a6f2087c7749ad21ef4e1JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi9jb25nLW5naGllcC90aWV1LWNodWFuLXZpZXQtbmFtLXRjdm4tNjcwMC0xLTIwMDAtaXNvLTk2MDYtMS0xOTk0LWtpZW0tdHJhLWNoYXAtbmhhbi10aG8taGFuLXRoZXAtMTg0NzQzLWQzLmh0bWw&ntb=1
+              - paragraph [ref=e239]: "Tiêu chuẩn Việt Nam TCVN 6700-1:2000 ISO 9606-1:1994 Kiểm tra chấp nhận thợ hàn - Hàn nóng chảy - Phần 1: Thép"
+        - listitem [ref=e241]:
+          - link "vsqi.gov.vn" [ref=e243] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=78e0bdfcbb9ee799e9e1dd430613ffa4a7f24c1f08d5627c977ce893b4c57de1JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aWV1Y2h1YW54YXlkdW5nLnZzcWkuZ292LnZuL3RpZXVjaHVhbi92aWV3P3NvaGlldT1UQ1ZOJTIwNjcwMC0xOjIwMDA&ntb=1
+            - generic [ref=e248]:
+              - generic [ref=e249]: vsqi.gov.vn
+              - generic [ref=e251]:
+                - generic [ref=e252]: https://tieuchuanxaydung.vsqi.gov.vn › tieuchuan › view
+                - generic [ref=e253]: Translate this result
+          - 'heading "Tiêu chuẩn: TCVN 6700-1:2000 - Kiểm tra chấp nhận thợ hàn. Hàn …" [level=2] [ref=e254]':
+            - 'link "Tiêu chuẩn: TCVN 6700-1:2000 - Kiểm tra chấp nhận thợ hàn. Hàn …"':
+              - /url: https://www.bing.com/ck/a?!&&p=78e0bdfcbb9ee799e9e1dd430613ffa4a7f24c1f08d5627c977ce893b4c57de1JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aWV1Y2h1YW54YXlkdW5nLnZzcWkuZ292LnZuL3RpZXVjaHVhbi92aWV3P3NvaGlldT1UQ1ZOJTIwNjcwMC0xOjIwMDA&ntb=1
+          - paragraph [ref=e256]: "Tiêu chuẩn: TCVN 6700-1:2000 - Kiểm tra chấp nhận thợ hàn. Hàn nóng chảy. Phần 1: Thép Trang chủ Tra cứu Tiêu chuẩn: TCVN 6700-1:2000"
+        - listitem [ref=e257]:
+          - generic [ref=e258]:
+            - heading "Deep dive into TCVN 6700-1:2000 kiểm tra chấp nhận thợ hàn ISO 9606" [level=2] [ref=e259]:
+              - text: Deep dive into
+              - strong [ref=e260]: TCVN 6700-1:2000 kiểm tra chấp nhận thợ hàn ISO 9606
+            - list [ref=e261]:
+              - listitem [ref=e262]:
+                - link "insatest tcvn iso" [ref=e263] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=f64b26b2fee4ab504ef7ec4194476f592d4159633e235cf0ad63cdc04664c017JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPWluc2F0ZXN0K3Rjdm4raXNvJkZPUk09UVNSRTE&ntb=1
+                  - generic [ref=e265]:
+                    - strong [ref=e266]: insatest
+                    - text: tcvn iso
+              - listitem [ref=e267]:
+                - link "tcvn 670 0 2000" [ref=e268] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=13011b7cac94e8afce7426d27cafd4a35c95922617d9daca514d109dc7e2a49dJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXRjdm4rNjcwKzArMjAwMCZGT1JNPVFTUkUy&ntb=1
+                  - generic [ref=e270]:
+                    - text: tcvn
+                    - strong [ref=e271]: 670 0
+                    - text: "2000"
+        - listitem [ref=e272]:
+          - link "Some results have been removed" [ref=e274] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6a2eeb21b394098b43050e176afdd54e61b4c0836f959b37fe99e70d3b2b6767JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+    - complementary "Additional Results" [ref=e275]:
+      - list [ref=e276]:
+        - listitem [ref=e277]:
+          - generic "Related searches" [ref=e278]:
+            - generic [ref=e280]:
+              - heading "Deep dive into TCVN 6700-1:2000 kiểm tra chấp nhận thợ hàn ISO 9606" [level=2] [ref=e282]:
+                - text: Deep dive into
+                - strong [ref=e283]: TCVN 6700-1:2000 kiểm tra chấp nhận thợ hàn ISO 9606
+              - generic [ref=e284]:
+                - link "insatest tcvn iso" [ref=e286] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=2b72531b66291c993bcd9c84f4e378a6504395c889f954f75b0d4125318879c3JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPWluc2F0ZXN0K3Rjdm4raXNvJkZPUk09UjVGRA&ntb=1
+                  - generic [ref=e288]:
+                    - strong [ref=e289]: insatest
+                    - text: tcvn iso
+                - link "tcvn 670 0 2000" [ref=e291] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=88a461f757e84176bc7844b1f530acdd8dc63d2a300f31bfdd0d4ba655cc1156JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXRjdm4rNjcwKzArMjAwMCZGT1JNPVI1RkQx&ntb=1
+                  - generic [ref=e293]:
+                    - text: tcvn
+                    - strong [ref=e294]: 670 0
+                    - text: "2000"
+  - contentinfo [ref=e295]:
+    - generic [ref=e296]:
+      - list:
+        - listitem [ref=e297]:
+          - link "Privacy" [ref=e298] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7b44db685677b97b59d99ac58a6dcb7b55ed8b4aacd5ffe64e4ae4c0aa82d70bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e299]:
+          - link "Terms" [ref=e300] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0c98928a6597273e4a5057fc09082f8c5ed11f1634b17ea06829b02b1e9d7505JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

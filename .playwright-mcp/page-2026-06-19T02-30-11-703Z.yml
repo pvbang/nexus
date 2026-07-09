@@ -1,0 +1,498 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: Nghệ thuật bay người đánh đầu" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=vi&ictx=2&sa=X&ved=0ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQPQgK
+          - 'img "World Cup 2026: Nghệ thuật bay người đánh đầu" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Tìm kiếm" [ref=e19]: ASME BPVC Section IX WPS PQR welder qualification welding brazing fusing qualifications ASME BPVC Section IX WPS PQR welder qualification welding brazing fusing qualifications
+            - generic [ref=e20]:
+              - button "Xóa" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Công cụ nhập" [ref=e28] [cursor=pointer]:
+                  - img [ref=e30]
+                - button "Tìm kiếm bằng giọng nói" [ref=e32] [cursor=pointer]:
+                  - img [ref=e33]
+                - button "Tìm kiếm bằng hình ảnh" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+          - button "Tìm kiếm" [ref=e38] [cursor=pointer]:
+            - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Cài đặt" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - button "Chia sẻ" [ref=e51] [cursor=pointer]:
+        - img [ref=e55]
+      - generic [ref=e57]:
+        - button "Các ứng dụng của Google" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+        - link "Đăng nhập" [ref=e64] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3DASME%2BBPVC%2BSection%2BIX%2BWPS%2BPQR%2Bwelder%2Bqualification%2Bwelding%2Bbrazing%2Bfusing%2Bqualifications&ec=futura_srp_og_si_72236_p
+  - generic [ref=e66]:
+    - navigation [ref=e72]:
+      - generic [ref=e78]:
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "Chế độ AI" [ref=e83] [cursor=pointer]:
+              - /url: /search?q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sca_esv=bec4f44b4fc03395&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-Eorz1k5XaeqxAv60d0Vhfp6tyOGp021bvMd5z_TBBIi-QKaSv3PAdGDmO86_mfoQZF3xFBPYSwokyAmNfd75viHz-icrtP7XqkFD_wkx8drwbRTMQ1p7Ao5Uv4Y0NAyzSHQlJd5jIXrAWwHjNzhirEstsEyGHv3gQDoVtgcLTxkLE5HxH&aep=1&ntc=1&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ2J8OegQIERAD
+              - generic [ref=e86]: Chế độ AI
+          - listitem [ref=e87]:
+            - link "Tất cả" [disabled] [ref=e88]:
+              - generic [ref=e90]: Tất cả
+          - listitem [ref=e91]:
+            - link "Hình ảnh" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-Eorz1k5XaeqxAv60d0Vhfp6tyOGp021bvMd5z_TBBIi-QKaSv3PAdGDmO86_mfoQZF3xFBPYSwokyAmNfd75viHz-icrtP7XqkFD_wkx8drwbRTMQ1p7Ao5Uv4Y0NAyzSHQlJd5jIXrAWwHjNzhirEstsEyGHv3gQDoVtgcLTxkLE5HxH&q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQtKgLegQIFxAB
+              - generic [ref=e94]: Hình ảnh
+          - listitem [ref=e95]:
+            - link "Mua sắm" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-Eorz1k5XaeqxAv60d0Vhfp6tyOGp021bvMd5z_TBBIi-QKaSv3PAdGDmO86_mfoQZF3xFBPYSwokyAmNfd75viHz-icrtP7XqkFD_wkx8drwbRTMQ1p7Ao5Uv4Y0NAyzSHQlJd5jIXrAWwHjNzhirEstsEyGHv3gQDoVtgcLTxkLE5HxH&q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&ved=1t:220175&ictx=111
+              - generic [ref=e98]: Mua sắm
+          - listitem [ref=e99]:
+            - link "Video" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-Eorz1k5XaeqxAv60d0Vhfp6tyOGp021bvMd5z_TBBIi-QKaSv3PAdGDmO86_mfoQZF3xFBPYSwokyAmNfd75viHz-icrtP7XqkFD_wkx8drwbRTMQ1p7Ao5Uv4Y0NAyzSHQlJd5jIXrAWwHjNzhirEstsEyGHv3gQDoVtgcLTxkLE5HxH&q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQtKgLegQIFhAB
+              - generic [ref=e102]: Video
+          - listitem [ref=e103]:
+            - link "Video ngắn" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-Eorz1k5XaeqxAv60d0Vhfp6tyOGp021bvMd5z_TBBIi-QKaSv3PAdGDmO86_mfoQZF3xFBPYSwokyAmNfd75viHz-icrtP7XqkFD_wkx8drwbRTMQ1p7Ao5Uv4Y0NAyzSHQlJd5jIXrAWwHjNzhirEstsEyGHv3gQDoVtgcLTxkLE5HxH&q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQs6gLegQIFBAB
+              - generic [ref=e106]: Video ngắn
+          - listitem [ref=e107]:
+            - link "Web" [ref=e108] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=web&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-Eorz1k5XaeqxAv60d0Vhfp6tyOGp021bvMd5z_TBBIi-QKaSv3PAdGDmO86_mfoQZF3xFBPYSwokyAmNfd75viHz-icrtP7XqkFD_wkx8drwbRTMQ1p7Ao5Uv4Y0NAyzSHQlJd5jIXrAWwHjNzhirEstsEyGHv3gQDoVtgcLTxkLE5HxH&q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQs6gLegQIFRAB
+              - generic [ref=e110]: Web
+          - listitem [ref=e111]:
+            - button "Các bộ lọc khác" [ref=e112] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]: Thêm
+                  - img [ref=e117]
+        - button "Công cụ" [ref=e120] [cursor=pointer]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: Công cụ
+            - img [ref=e125]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e127]
+    - generic [ref=e133]:
+      - generic [ref=e134]: Looking for results in English?
+      - link [ref=e135] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e137]
+      - link "Change to English" [ref=e139] [cursor=pointer]:
+        - /url: /setprefs?sig=0_9G5qUwbqBY3u3AWlSDMC2g08LLI%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DASME%2BBPVC%2BSection%2BIX%2BWPS%2BPQR%2Bwelder%2Bqualification%2Bwelding%2Bbrazing%2Bfusing%2Bqualifications&hl=en&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQhoQCKAF6BAgLEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e140] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e142] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQiIQCKAN6BAgLEAY#languages
+    - generic [ref=e143]:
+      - generic [ref=e162]:
+        - heading "Đang suy nghĩ Đang tìm kiếm Đang suy nghĩ lâu hơn một chút" [level=2] [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e169]: Đang suy nghĩ
+            - generic [ref=e171]: Đang tìm kiếm
+            - generic [ref=e181]: Đang suy nghĩ lâu hơn một chút
+        - progressbar "Đang tạo" [ref=e183]
+      - main [ref=e234]:
+        - generic [ref=e238]:
+          - generic [ref=e242]:
+            - generic [ref=e244]:
+              - heading "Video" [level=2] [ref=e245]
+              - button "Thông tin về kết quả này" [ref=e246] [cursor=pointer]:
+                - img [ref=e249]
+            - generic [ref=e252]:
+              - generic [ref=e258]:
+                - generic [ref=e259]:
+                  - 'link "ASME Section IX explained: WPS, PQR, WPQ, welding ... YouTube Welding Fabrication World 8 thg 3, 2026" [ref=e261] [cursor=pointer]':
+                    - /url: https://www.youtube.com/watch?v=QhNu5Vw_rwg
+                    - 'heading "ASME Section IX explained: WPS, PQR, WPQ, welding ... YouTube Welding Fabrication World 8 thg 3, 2026" [level=3] [ref=e262]':
+                      - generic [ref=e265]: "ASME Section IX explained: WPS, PQR, WPQ, welding ..."
+                      - generic [ref=e267]:
+                        - generic [ref=e268]:
+                          - text: YouTube
+                          - generic [ref=e269]: · Welding Fabrication World
+                        - generic [ref=e270]: 8 thg 3, 2026
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Welding Fabrication World
+                      - button "Thông tin về kết quả này" [ref=e271] [cursor=pointer]:
+                        - img [ref=e274]
+                - 'button "ASME Section IX explained: WPS, PQR, WPQ, welding ... của Welding Fabrication World trên YouTube. Phát trên Google. 6:15" [ref=e276] [cursor=pointer]':
+                  - generic [ref=e277]:
+                    - img [ref=e280]
+                    - generic [ref=e283]:
+                      - generic [ref=e284]: 6:15
+                      - img [ref=e287]
+              - generic [ref=e293]:
+                - generic [ref=e294]:
+                  - generic [ref=e295]:
+                    - 'link "ASME BPVC Section IX Explained: WPS, PQR, WPQ ... YouTube vvk tutorials 27 thg 8, 2025" [ref=e297] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=6UaypcnnzKs
+                      - 'heading "ASME BPVC Section IX Explained: WPS, PQR, WPQ ... YouTube vvk tutorials 27 thg 8, 2025" [level=3] [ref=e298]':
+                        - generic [ref=e301]: "ASME BPVC Section IX Explained: WPS, PQR, WPQ ..."
+                        - generic [ref=e303]:
+                          - generic [ref=e304]:
+                            - text: YouTube
+                            - generic [ref=e305]: · vvk tutorials
+                          - generic [ref=e306]: 27 thg 8, 2025
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · vvk tutorials
+                        - button "Thông tin về kết quả này" [ref=e307] [cursor=pointer]:
+                          - img [ref=e310]
+                  - 'button "ASME BPVC Section IX Explained: WPS, PQR, WPQ ... của vvk tutorials trên YouTube. Phát trên Google. 19:50" [ref=e312] [cursor=pointer]':
+                    - generic [ref=e313]:
+                      - img [ref=e316]
+                      - generic [ref=e319]:
+                        - generic [ref=e320]: 19:50
+                        - img [ref=e323]
+                - button "6 khoảnh khắc chính trong video này" [ref=e329] [cursor=pointer]:
+                  - generic [ref=e338]:
+                    - generic [ref=e341]: 6 khoảnh khắc chính trong video này
+                    - img [ref=e343]
+              - generic [ref=e350]:
+                - generic [ref=e351]:
+                  - link "ASME Section IX Explained | WPS, PQR & Welder ... YouTube 3D DECODE 1 tháng trước" [ref=e353] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=yDzT1zHg5hk
+                    - heading "ASME Section IX Explained | WPS, PQR & Welder ... YouTube 3D DECODE 1 tháng trước" [level=3] [ref=e354]:
+                      - generic [ref=e357]: ASME Section IX Explained | WPS, PQR & Welder ...
+                      - generic [ref=e359]:
+                        - generic [ref=e360]:
+                          - text: YouTube
+                          - generic [ref=e361]: · 3D DECODE
+                        - generic [ref=e362]: 1 tháng trước
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · 3D DECODE
+                      - button "Thông tin về kết quả này" [ref=e363] [cursor=pointer]:
+                        - img [ref=e366]
+                - button "ASME Section IX Explained | WPS, PQR & Welder ... của 3D DECODE trên YouTube. Phát trên Google. 4:45" [ref=e368] [cursor=pointer]:
+                  - generic [ref=e369]:
+                    - img [ref=e372]
+                    - generic [ref=e375]:
+                      - generic [ref=e376]: 4:45
+                      - img [ref=e379]
+            - link "Xem tất cả video" [ref=e383] [cursor=pointer]:
+              - /url: /search?sca_esv=bec4f44b4fc03395&udm=7&q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ8ccDKAJ6BAgbEAQ
+              - separator [ref=e384]
+              - generic [ref=e385]:
+                - generic [ref=e386]: Xem tất cả
+                - img [ref=e388]
+          - generic [ref=e392]:
+            - heading "Web results" [level=2] [ref=e393]
+            - generic [ref=e394]:
+              - generic [ref=e397]:
+                - link "ASME BPVC 2023 Section IX.pdf gasplus.ir https://dl.gasplus.ir › standard-ha › Standard-ASME" [ref=e399] [cursor=pointer]:
+                  - /url: https://dl.gasplus.ir/standard-ha/Standard-ASME/ASME%20BPVC%202023%20Section%20IX.pdf
+                  - heading "ASME BPVC 2023 Section IX.pdf" [level=3] [ref=e400]
+                  - generic [ref=e402]:
+                    - img [ref=e407]
+                    - generic [ref=e409]:
+                      - generic [ref=e411]: gasplus.ir
+                      - generic [ref=e413]: https://dl.gasplus.ir › standard-ha › Standard-ASME
+                - generic [ref=e414]:
+                  - generic:
+                    - generic: PDF
+                - button "Thông tin về kết quả này" [ref=e415] [cursor=pointer]:
+                  - img [ref=e418]
+              - generic [ref=e420]:
+                - generic [ref=e421]:
+                  - generic [ref=e422]: 1 thg 7, 2023 —
+                  - generic [ref=e423]:
+                    - text: Page 1.
+                    - emphasis [ref=e424]: Qualification
+                    - text: Standard for.
+                    - emphasis [ref=e425]: Welding
+                    - text: ","
+                    - emphasis [ref=e426]: Brazing
+                    - text: ", and"
+                    - emphasis [ref=e427]: Fusing
+                    - text: . Procedures; Welders; Brazers; and
+                    - emphasis [ref=e428]: Welding
+                    - text: ","
+                    - emphasis [ref=e429]: Brazing
+                    - text: ", and."
+                    - emphasis [ref=e430]: Fusing
+                    - text: Operators.
+                - generic [ref=e431]: 423 trang
+          - generic [ref=e435]:
+            - generic [ref=e438]:
+              - 'link "ASME Section IX: A Comprehensive Guide to Welding, ... LinkedIn · SYAMKUMAR K 7 lượt bày tỏ cảm xúc · 1 năm trước" [ref=e440] [cursor=pointer]':
+                - /url: https://www.linkedin.com/pulse/asme-section-ix-comprehensive-guide-welding-brazing-fusing-k-dackc
+                - 'heading "ASME Section IX: A Comprehensive Guide to Welding, ..." [level=3] [ref=e441]'
+                - generic [ref=e447]:
+                  - generic [ref=e449]: LinkedIn · SYAMKUMAR K
+                  - generic [ref=e451]: 7 lượt bày tỏ cảm xúc · 1 năm trước
+              - button "Thông tin về kết quả này" [ref=e452] [cursor=pointer]:
+                - img [ref=e455]
+            - generic [ref=e459]:
+              - emphasis [ref=e460]: ASME Section IX
+              - text: is a part of the
+              - emphasis [ref=e461]: ASME
+              - text: Boiler and Pressure Vessel Code (
+              - emphasis [ref=e462]: BPVC
+              - text: ), primarily concerned with the
+              - emphasis [ref=e463]: qualification
+              - text: of welders,
+              - emphasis [ref=e464]: welding
+              - text: operators, brazers ...
+          - generic [ref=e468]:
+            - generic [ref=e471]:
+              - link "BPVC Section IX Welding Brazing and Fusing Qualifications The American Society of Mechanical Engineers - ASME https://www.asme.org › codes-standards" [ref=e473] [cursor=pointer]:
+                - /url: https://www.asme.org/codes-standards/find-codes-standards/bpvc-ix-bpvc-section-ix-welding-brazing-fusing-qualifications
+                - heading "BPVC Section IX Welding Brazing and Fusing Qualifications" [level=3] [ref=e474]
+                - generic [ref=e480]:
+                  - generic [ref=e482]: The American Society of Mechanical Engineers - ASME
+                  - generic [ref=e484]: https://www.asme.org › codes-standards
+              - generic [ref=e485]:
+                - generic [ref=e486]: ·
+                - link "Dịch trang này" [ref=e487] [cursor=pointer]:
+                  - /url: https://www.asme.org/codes-standards/find-codes-standards/bpvc-ix-bpvc-section-ix-welding-brazing-fusing-qualifications
+              - button "Thông tin về kết quả này" [ref=e488] [cursor=pointer]:
+                - img [ref=e491]
+            - generic [ref=e495]:
+              - text: Section IX of the BPVC contains
+              - emphasis [ref=e496]: rules relating to the qualification of welding, brazing, and fusing procedures
+              - text: as required by other BPVC sections.
+            - generic [ref=e498]:
+              - generic [ref=e499]: 785,00 US$
+              - text: ·
+              - generic [ref=e500]: Còn hàng
+            - generic [ref=e504]: "Bị thiếu: WPS ‎PQR"
+          - generic [ref=e508]:
+            - generic [ref=e511]:
+              - link "ASME BPVC.IX (ASME BPVC Section 5) 2025 PDF Областна администрация Търговище https://tg.government.bg › docu › dokladi2019" [ref=e513] [cursor=pointer]:
+                - /url: https://tg.government.bg/docu/dokladi2019/ASME%20BPVC.IX%20%28ASME%20BPVC%20Section%205%29%202025.pdf
+                - heading "ASME BPVC.IX (ASME BPVC Section 5) 2025 PDF" [level=3] [ref=e514]
+                - generic [ref=e516]:
+                  - img [ref=e521]
+                  - generic [ref=e523]:
+                    - generic [ref=e525]: Областна администрация Търговище
+                    - generic [ref=e527]: https://tg.government.bg › docu › dokladi2019
+              - generic [ref=e528]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e529] [cursor=pointer]:
+                - img [ref=e532]
+            - generic [ref=e534]:
+              - generic [ref=e535]:
+                - generic [ref=e536]: 1 thg 7, 2025 —
+                - generic [ref=e537]:
+                  - emphasis [ref=e538]: welding, brazing, and fusing qualifications
+                  - text: "conform to the requirements of this Section. rabbet joint: typical design is indicated in ..."
+              - generic [ref=e539]: 85 trang
+          - generic [ref=e543]:
+            - generic [ref=e546]:
+              - 'link "ASME BPV Code IX: Welding Qualifications | PDF Scribd https://www.scribd.com › document" [ref=e548] [cursor=pointer]':
+                - /url: https://www.scribd.com/document/431006576/M-1-03-Section-IX-Part-QW-2-pdf
+                - 'heading "ASME BPV Code IX: Welding Qualifications | PDF" [level=3] [ref=e549]'
+                - generic [ref=e555]:
+                  - generic [ref=e557]: Scribd
+                  - generic [ref=e559]: https://www.scribd.com › document
+              - generic [ref=e560]:
+                - generic [ref=e561]: ·
+                - link "Dịch trang này" [ref=e562] [cursor=pointer]:
+                  - /url: https://www.scribd.com/document/431006576/M-1-03-Section-IX-Part-QW-2-pdf
+              - button "Thông tin về kết quả này" [ref=e563] [cursor=pointer]:
+                - img [ref=e566]
+            - generic [ref=e570]:
+              - text: This document summarizes the
+              - emphasis [ref=e571]: requirements
+              - text: for qualifying
+              - emphasis [ref=e572]: welding
+              - text: procedures and personnel according to the
+              - emphasis [ref=e573]: ASME
+              - text: BPV Code
+              - emphasis [ref=e574]: Section IX
+              - text: .
+          - generic [ref=e578]:
+            - generic [ref=e581]:
+              - link "ASME BPVC 2021 Section IX - Qualification Standard for ... Slideshare https://www.slideshare.net › slideshow" [ref=e583] [cursor=pointer]:
+                - /url: https://www.slideshare.net/slideshow/asme-bpvc-2021-section-ix-qualification-standard-for-welding-brazing-and-fusing-procedures-welders-brazers-and-welding-brazing-and-fusing-operatorspdf/255079400
+                - heading "ASME BPVC 2021 Section IX - Qualification Standard for ..." [level=3] [ref=e584]
+                - generic [ref=e590]:
+                  - generic [ref=e592]: Slideshare
+                  - generic [ref=e594]: https://www.slideshare.net › slideshow
+              - generic [ref=e595]:
+                - generic [ref=e596]: ·
+                - link "Dịch trang này" [ref=e597] [cursor=pointer]:
+                  - /url: https://www.slideshare.net/slideshow/asme-bpvc-2021-section-ix-qualification-standard-for-welding-brazing-and-fusing-procedures-welders-brazers-and-welding-brazing-and-fusing-operatorspdf/255079400
+              - button "Thông tin về kết quả này" [ref=e598] [cursor=pointer]:
+                - img [ref=e601]
+            - generic [ref=e605]:
+              - text: This document provides the
+              - emphasis [ref=e606]: qualifications and requirements for welding, brazing, and fusing procedures
+              - text: ", welders, brazers, and welding, brazing, and fusing ..."
+          - generic [ref=e610]:
+            - generic [ref=e613]:
+              - link "ASME Section IX welding procedure qualification ... Facebook · THE QA/QC INSPECTOR GROUP 6 tháng trước" [ref=e615] [cursor=pointer]:
+                - /url: https://www.facebook.com/groups/295248060551044/posts/25392622003720303/
+                - heading "ASME Section IX welding procedure qualification ..." [level=3] [ref=e616]
+                - generic [ref=e622]:
+                  - generic [ref=e624]: Facebook · THE QA/QC INSPECTOR GROUP
+                  - generic [ref=e626]: 6 tháng trước
+              - button "Thông tin về kết quả này" [ref=e627] [cursor=pointer]:
+                - img [ref=e630]
+            - generic [ref=e634]:
+              - text: ... 6. Welder Performance Qualification (WPQ) (QW 300) Separate from
+              - emphasis [ref=e635]: the
+              - text: PQR, welders must demonstrate skill using the qualified WPS.
+          - generic [ref=e639]:
+            - generic [ref=e642]:
+              - link "Qualification Standard for Welding, Brazing, and Fusing ... Academia.edu https://www.academia.edu › Qualificat..." [ref=e644] [cursor=pointer]:
+                - /url: https://www.academia.edu/50881198/Qualification_Standard_for_Welding_Brazing_and_Fusing_Procedures_Welders_Brazers_and_Welding_Brazing_and_Fusing_Operators_SECTION_IX
+                - heading "Qualification Standard for Welding, Brazing, and Fusing ..." [level=3] [ref=e645]
+                - generic [ref=e651]:
+                  - generic [ref=e653]: Academia.edu
+                  - generic [ref=e655]: https://www.academia.edu › Qualificat...
+              - generic [ref=e656]:
+                - generic [ref=e657]: ·
+                - link "Dịch trang này" [ref=e658] [cursor=pointer]:
+                  - /url: https://www.academia.edu/50881198/Qualification_Standard_for_Welding_Brazing_and_Fusing_Procedures_Welders_Brazers_and_Welding_Brazing_and_Fusing_Operators_SECTION_IX
+              - button "Thông tin về kết quả này" [ref=e659] [cursor=pointer]:
+                - img [ref=e662]
+            - generic [ref=e666]:
+              - emphasis [ref=e667]: Qualification Standard for Welding, Brazing, and Fusing Procedures
+              - text: ; Welders; Brazers; and Welding, Brazing, and Fusing Operators SECTION IX.
+          - generic [ref=e671]:
+            - generic [ref=e674]:
+              - link "Asme code section ix website-files.com https://cdn.prod.website-files.com › ..." [ref=e676] [cursor=pointer]:
+                - /url: https://cdn.prod.website-files.com/67556102353621c21e4c3932/67a954a5eeda170f9c8d8ee7_52107638142.pdf
+                - heading "Asme code section ix" [level=3] [ref=e677]
+                - generic [ref=e679]:
+                  - img [ref=e684]
+                  - generic [ref=e686]:
+                    - generic [ref=e688]: website-files.com
+                    - generic [ref=e690]: https://cdn.prod.website-files.com › ...
+              - generic [ref=e691]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e692] [cursor=pointer]:
+                - img [ref=e695]
+            - generic [ref=e697]:
+              - generic [ref=e699]:
+                - emphasis [ref=e700]: ASME Section IX provides a set of rules, guidelines, and requirements
+                - text: for welding, brazing, and fusing qualifications. Part QG consists of general requirements ...
+              - generic [ref=e701]: 3 trang
+        - generic [ref=e703]:
+          - generic [ref=e708]:
+            - heading "Mọi người cũng tìm kiếm" [level=2] [ref=e710]
+            - generic [ref=e712]:
+              - generic [ref=e713]:
+                - link "ASME Section IX welding" [ref=e717] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ASME+Section+IX+welding&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ1QJ6BAhPEAE
+                  - generic [ref=e718]:
+                    - generic [ref=e723]: ASME Section IX welding
+                    - img [ref=e727]
+                - link "ASME Section 9 Welder Qualification pdf" [ref=e732] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ASME+Section+9+Welder+Qualification+pdf&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ1QJ6BAhTEAE
+                  - generic [ref=e733]:
+                    - generic [ref=e738]: ASME Section 9 Welder Qualification pdf
+                    - img [ref=e742]
+                - link "ASME Section IX latest edition" [ref=e747] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ASME+Section+IX+latest+edition&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ1QJ6BAhUEAE
+                  - generic [ref=e748]:
+                    - generic [ref=e753]: ASME Section IX latest edition
+                    - img [ref=e757]
+                - link "ASME Section IX interpretations PDF" [ref=e762] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ASME+Section+IX+interpretations+PDF&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ1QJ6BAhSEAE
+                  - generic [ref=e763]:
+                    - generic [ref=e768]: ASME Section IX interpretations PDF
+                    - img [ref=e772]
+              - generic [ref=e774]:
+                - link "ASME Section IX WPS FORMAT" [ref=e778] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ASME+Section+IX+WPS+FORMAT&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ1QJ6BAhOEAE
+                  - generic [ref=e779]:
+                    - generic [ref=e784]: ASME Section IX WPS FORMAT
+                    - img [ref=e788]
+                - link "ASME Section IX Welder Qualification test" [ref=e793] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ASME+Section+IX+Welder+Qualification+test&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ1QJ6BAhNEAE
+                  - generic [ref=e794]:
+                    - generic [ref=e799]: ASME Section IX Welder Qualification test
+                    - img [ref=e803]
+                - link "ASME Section IX 2025 pdf" [ref=e808] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ASME+Section+IX+2025+pdf&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ1QJ6BAhREAE
+                  - generic [ref=e809]:
+                    - generic [ref=e814]: ASME Section IX 2025 pdf
+                    - img [ref=e818]
+                - link "ASME Section IX 2023 PDF" [ref=e823] [cursor=pointer]:
+                  - /url: /search?sca_esv=bec4f44b4fc03395&q=ASME+Section+IX+2023+PDF&sa=X&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ1QJ6BAhQEAE
+                  - generic [ref=e824]:
+                    - generic [ref=e829]: ASME Section IX 2023 PDF
+                    - img [ref=e833]
+          - navigation [ref=e835]:
+            - heading "Điều hướng trang" [level=1] [ref=e836]
+            - text: "1"
+            - link "Page 2" [ref=e839] [cursor=pointer]:
+              - /url: /search?q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sca_esv=bec4f44b4fc03395&ei=tKk0apUb3q7T6Q_tiYPZCg&start=10&sa=N&sstk=AU9db-B76P-FqPXH_Qtx4oPqhY_J5cOG1DHbD9EMobd-WTWs7E8xIjHjxYhHyJVDHKfJD2PRyupSuJfDiDgG06yCMu3PRHr8TBY4jA&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ8tMDegQISxAE
+              - text: "2"
+            - link "Page 3" [ref=e841] [cursor=pointer]:
+              - /url: /search?q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sca_esv=bec4f44b4fc03395&ei=tKk0apUb3q7T6Q_tiYPZCg&start=20&sa=N&sstk=AU9db-B76P-FqPXH_Qtx4oPqhY_J5cOG1DHbD9EMobd-WTWs7E8xIjHjxYhHyJVDHKfJD2PRyupSuJfDiDgG06yCMu3PRHr8TBY4jA&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ8tMDegQISxAG
+              - text: "3"
+            - link "Page 4" [ref=e843] [cursor=pointer]:
+              - /url: /search?q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sca_esv=bec4f44b4fc03395&ei=tKk0apUb3q7T6Q_tiYPZCg&start=30&sa=N&sstk=AU9db-B76P-FqPXH_Qtx4oPqhY_J5cOG1DHbD9EMobd-WTWs7E8xIjHjxYhHyJVDHKfJD2PRyupSuJfDiDgG06yCMu3PRHr8TBY4jA&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ8tMDegQISxAI
+              - text: "4"
+            - link "Page 5" [ref=e845] [cursor=pointer]:
+              - /url: /search?q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sca_esv=bec4f44b4fc03395&ei=tKk0apUb3q7T6Q_tiYPZCg&start=40&sa=N&sstk=AU9db-B76P-FqPXH_Qtx4oPqhY_J5cOG1DHbD9EMobd-WTWs7E8xIjHjxYhHyJVDHKfJD2PRyupSuJfDiDgG06yCMu3PRHr8TBY4jA&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ8tMDegQISxAK
+              - text: "5"
+            - link "Page 6" [ref=e847] [cursor=pointer]:
+              - /url: /search?q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sca_esv=bec4f44b4fc03395&ei=tKk0apUb3q7T6Q_tiYPZCg&start=50&sa=N&sstk=AU9db-B76P-FqPXH_Qtx4oPqhY_J5cOG1DHbD9EMobd-WTWs7E8xIjHjxYhHyJVDHKfJD2PRyupSuJfDiDgG06yCMu3PRHr8TBY4jA&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ8tMDegQISxAM
+              - text: "6"
+            - link "Page 7" [ref=e849] [cursor=pointer]:
+              - /url: /search?q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sca_esv=bec4f44b4fc03395&ei=tKk0apUb3q7T6Q_tiYPZCg&start=60&sa=N&sstk=AU9db-B76P-FqPXH_Qtx4oPqhY_J5cOG1DHbD9EMobd-WTWs7E8xIjHjxYhHyJVDHKfJD2PRyupSuJfDiDgG06yCMu3PRHr8TBY4jA&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ8tMDegQISxAO
+              - text: "7"
+            - link "Page 8" [ref=e851] [cursor=pointer]:
+              - /url: /search?q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sca_esv=bec4f44b4fc03395&ei=tKk0apUb3q7T6Q_tiYPZCg&start=70&sa=N&sstk=AU9db-B76P-FqPXH_Qtx4oPqhY_J5cOG1DHbD9EMobd-WTWs7E8xIjHjxYhHyJVDHKfJD2PRyupSuJfDiDgG06yCMu3PRHr8TBY4jA&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ8tMDegQISxAQ
+              - text: "8"
+            - link "Page 9" [ref=e853] [cursor=pointer]:
+              - /url: /search?q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sca_esv=bec4f44b4fc03395&ei=tKk0apUb3q7T6Q_tiYPZCg&start=80&sa=N&sstk=AU9db-B76P-FqPXH_Qtx4oPqhY_J5cOG1DHbD9EMobd-WTWs7E8xIjHjxYhHyJVDHKfJD2PRyupSuJfDiDgG06yCMu3PRHr8TBY4jA&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ8tMDegQISxAS
+              - text: "9"
+            - link "Page 10" [ref=e855] [cursor=pointer]:
+              - /url: /search?q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sca_esv=bec4f44b4fc03395&ei=tKk0apUb3q7T6Q_tiYPZCg&start=90&sa=N&sstk=AU9db-B76P-FqPXH_Qtx4oPqhY_J5cOG1DHbD9EMobd-WTWs7E8xIjHjxYhHyJVDHKfJD2PRyupSuJfDiDgG06yCMu3PRHr8TBY4jA&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ8tMDegQISxAU
+              - text: "10"
+            - heading "Tiếp" [level=2] [ref=e857]:
+              - link "Tiếp" [ref=e858] [cursor=pointer]:
+                - /url: /search?q=ASME+BPVC+Section+IX+WPS+PQR+welder+qualification+welding+brazing+fusing+qualifications&sca_esv=bec4f44b4fc03395&ei=tKk0apUb3q7T6Q_tiYPZCg&start=10&sa=N&sstk=AU9db-B76P-FqPXH_Qtx4oPqhY_J5cOG1DHbD9EMobd-WTWs7E8xIjHjxYhHyJVDHKfJD2PRyupSuJfDiDgG06yCMu3PRHr8TBY4jA&ved=2ahUKEwiVxduToZKVAxVe1zQHHe3EIKsQ8NMDegQISxAW
+                - generic [ref=e860]: Tiếp
+        - navigation
+    - contentinfo [ref=e861]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e862]
+      - generic [ref=e866]:
+        - generic [ref=e868]:
+          - text: Việt Nam
+          - generic [ref=e870]:
+            - button "Mỹ Thượng, Tp. Huế, Huế - Dựa trên địa chỉ IP của bạn" [ref=e872] [cursor=pointer]:
+              - generic [ref=e873]: Mỹ Thượng, Tp. Huế, Huế
+              - generic [ref=e875]:
+                - text: "-"
+                - generic [ref=e876]: Dựa trên địa chỉ IP của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e878] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e881]:
+          - link "Trợ giúp" [ref=e882] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e883] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e884] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e885] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

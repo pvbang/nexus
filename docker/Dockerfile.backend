@@ -1,0 +1,41 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+# System deps + Node.js (for capitol-ai-grafana IMDS refresh script)
+# Recon CLIs (whois/dnsutils=dig,nslookup,host/nmap/jq): the pentest & OSINT
+# toolset (execute_command) calls these directly. Without them a red-team task
+# gets "command not found" and either stalls or fabricates results (tri-run audit
+# 2026-07-02, F-C1: the DeepSeek run died trying CLI recon these were missing).
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    bash \
+    build-essential \
+    ca-certificates \
+    curl \
+    dnsutils \
+    git \
+    iproute2 \
+    jq \
+    nmap \
+    nodejs \
+    procps \
+    whois \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install uv for fast dependency management
+RUN pip install uv
+
+# Copy dependency manifest & install dependencies (full extras for all features)
+COPY pyproject.toml .
+RUN uv pip install --system ".[full]"
+
+# Install Playwright browsers (for browser tools)
+RUN python -m playwright install --with-deps chromium
+
+COPY . .
+
+# Create workspace_data directory for artifacts
+RUN mkdir -p /app/workspace_data && chmod 777 /app/workspace_data
+
+# Run migrations and start server
+CMD ["sh", "-c", "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000"]

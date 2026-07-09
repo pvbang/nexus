@@ -1,0 +1,43 @@
+# ============================================================
+# OpenClaw - Simplified Dockerfile (no BuildKit required)
+# Compatible with legacy Docker build engine
+# Build context: project root (.)
+# ============================================================
+
+FROM node:24-bookworm
+
+# Install Bun
+RUN curl --retry 5 --retry-all-errors -fsSL https://bun.sh/install | bash
+ENV PATH="/root/.bun/bin:${PATH}"
+
+# Enable corepack for pnpm
+RUN corepack enable
+
+WORKDIR /app
+
+# Copy dependency files from openclaw subdirectory
+COPY src/open-source/openclaw/package.json src/open-source/openclaw/pnpm-lock.yaml src/open-source/openclaw/pnpm-workspace.yaml src/open-source/openclaw/.npmrc ./
+COPY src/open-source/openclaw/openclaw.mjs ./
+COPY src/open-source/openclaw/ui/package.json ./ui/package.json
+COPY src/open-source/openclaw/patches ./patches
+COPY src/open-source/openclaw/scripts/postinstall-bundled-plugins.mjs src/open-source/openclaw/scripts/preinstall-package-manager-warning.mjs src/open-source/openclaw/scripts/npm-runner.mjs src/open-source/openclaw/scripts/windows-cmd-helpers.mjs ./scripts/
+COPY src/open-source/openclaw/extensions/ ./extensions/
+
+# Install dependencies (without --mount cache, works on legacy Docker)
+RUN NODE_OPTIONS=--max-old-space-size=2048 pnpm install --frozen-lockfile
+
+# Copy source code
+COPY src/open-source/openclaw/src/ ./src/
+COPY src/open-source/openclaw/packages/ ./packages/
+COPY src/open-source/openclaw/tsconfig*.json src/open-source/openclaw/tsdown.config.ts ./
+COPY src/open-source/openclaw/docs/ ./docs/
+
+# Build
+RUN pnpm run build 2>/dev/null || pnpm exec tsdown 2>/dev/null || echo "Build step optional"
+
+# Runtime
+EXPOSE 18789
+ENV PORT=18789
+ENV OPENCLAW_HOST=0.0.0.0
+
+CMD ["node", "openclaw.mjs"]

@@ -1,0 +1,553 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - link "Log in" [ref=e7] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/login/
+            - link "Sign up" [ref=e8] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/registration/
+          - generic [ref=e9]:
+            - text: LANGUAGE
+            - link "en" [ref=e10] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/bs-en-iso-17636-1-2022-non-destructive-testing-of-welds-radiographic-testing-x-and-gamma-ray-techniques-with-film/
+        - generic:
+          - generic:
+            - generic [ref=e11]:
+              - link "STORE" [ref=e12] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/store/
+              - link "Membership" [ref=e13] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/membership/
+              - link "Help center" [ref=e14] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/blog/
+              - link "Contacts" [ref=e15] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/contacts-1/
+              - link "Delivery charges" [ref=e16] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/delivery-charges/
+              - link "ABOUT US" [ref=e17] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/about-us/
+              - link "News" [ref=e18] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/news-5-2026/
+            - generic [ref=e19]:
+              - generic [ref=e20]: SEARCH
+              - generic:
+                - textbox "SEARCH STANDARDS" [ref=e21]
+                - button [ref=e22] [cursor=pointer]
+            - generic [ref=e23]:
+              - generic [ref=e25]: "0"
+              - generic [ref=e26]: Total price
+              - generic [ref=e27]: 0 EUR
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e31]:
+          - generic [ref=e32]: PRICES include / exclude VAT
+          - combobox [ref=e34]:
+            - option "no, exclude" [selected]
+            - option "Czech Republic"
+            - option "Austria"
+            - option "Belgium"
+            - option "Bulgaria"
+            - option "Croatia"
+            - option "Denmark"
+            - option "Estonia"
+            - option "Finland"
+            - option "France"
+            - option "Germany"
+            - option "Greece"
+            - option "Hungary"
+            - option "Ireland"
+            - option "Italy"
+            - option "Latvia"
+            - option "Lithuania"
+            - option "Luxembourg"
+            - option "Monaco"
+            - option "Netherlands"
+            - option "Poland"
+            - option "Portugal"
+            - option "Romania"
+            - option "Slovakia"
+            - option "Slovenia"
+            - option "Spain"
+            - option "Sweden"
+            - option "Malta"
+            - option "Cyprus"
+        - generic [ref=e35]:
+          - link [ref=e36] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/
+          - text: ">"
+          - link "BSI Standards" [ref=e37] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/
+          - text: ">"
+          - link "25 MANUFACTURING ENGINEERING" [ref=e38] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/25-manufacturing-engineering/
+          - text: ">"
+          - link "25.160 Welding, brazing and soldering" [ref=e39] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/25-manufacturing-engineering/25-160-welding-brazing-and-soldering/
+          - text: ">"
+          - link "25.160.40 Welded joints" [ref=e40] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/25-manufacturing-engineering/25-160-welding-brazing-and-soldering/25-160-40-welded-joints/
+          - text: ">BS EN ISO 17636-1:2022 Non-destructive testing of welds. Radiographic testing X- and gamma-ray techniques with film"
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]: "immediate downloadReleased: 2022-08-05"
+            - link "BS EN ISO 17636-1:2022 Non-destructive testing of welds. Radiographic testing X- and gamma-ray techniques with film" [ref=e45] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/imgcache/1/0/pi449-bs-en-iso-17636-1-2022-BS-EN-ISO-17636-1-2022-Non-des_-1_-1_319448.jpg
+              - img "BS EN ISO 17636-1:2022 Non-destructive testing of welds. Radiographic testing X- and gamma-ray techniques with film" [ref=e46]
+            - generic [ref=e47]:
+              - heading "BS EN ISO 17636-1:2022" [level=1] [ref=e48]
+              - heading "Non-destructive testing of welds. Radiographic testing X- and gamma-ray techniques with film" [level=2] [ref=e49]
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - generic [ref=e52]: Format
+              - generic [ref=e53]: Availability
+              - generic [ref=e54]:
+                - text: Price and currency
+                - combobox [ref=e55]:
+                  - option "EUR" [selected]
+                  - option "GBP"
+                  - option "USD"
+            - generic [ref=e56]:
+              - generic "Secure PDF files include digital rights management (DRM) software- protected by Vitrium security. DRM is included at the request of the publisher. It helps them protect their copyright. The DRM solution works with Adobe Reader and internet viewers. For more information visit helpcenter." [ref=e59]: English Secure PDF
+              - generic [ref=e60]:
+                - text: Immediate download
+                - generic "Printable - You are authorized to print 1 copy" [ref=e61]
+              - generic [ref=e62]: 348.84 EUR
+              - button "Add to cart" [ref=e64] [cursor=pointer]
+            - generic [ref=e65]:
+              - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e68]: English Hardcopy
+              - generic [ref=e69]: In stock
+              - generic [ref=e70]: 348.84 EUR
+              - button "Add to cart" [ref=e72] [cursor=pointer]
+          - generic [ref=e75]:
+            - table [ref=e76]:
+              - rowgroup [ref=e77]:
+                - 'row "Standard number: BS EN ISO 17636-1:2022" [ref=e78]':
+                  - cell "Standard number:" [ref=e79]
+                  - cell "BS EN ISO 17636-1:2022" [ref=e80]
+                - 'row "Pages: 46" [ref=e81]':
+                  - cell "Pages:" [ref=e82]
+                  - cell "46" [ref=e83]
+                - 'row "Released: 2022-08-05" [ref=e84]':
+                  - cell "Released:" [ref=e85]
+                  - cell "2022-08-05" [ref=e86]
+                - 'row "ISBN: 978 0 539 04732 5" [ref=e87]':
+                  - cell "ISBN:" [ref=e88]
+                  - cell "978 0 539 04732 5" [ref=e89]
+                - 'row "Status: Standard" [ref=e90]':
+                  - cell "Status:" [ref=e91]
+                  - cell "Standard" [ref=e92]
+            - generic [ref=e94]: DESCRIPTION
+            - generic [ref=e95]:
+              - heading "BS EN ISO 17636-1:2022" [level=1] [ref=e96]
+              - text: "This standard BS EN ISO 17636-1:2022 Non-destructive testing of welds. Radiographic testing is classified in these ICS categories:"
+              - list [ref=e97]:
+                - listitem [ref=e98]: 25.160.40 Welded joints and welds
+              - text: This document specifies techniques of radiographic testing of fusion-welded joints in metallic materials using industrial radiographic film techniques with the object of enabling satisfactory and repeatable results. The techniques are based on generally recognized practice and fundamental theory of the subject. It applies to the joints of plates and pipes in metallic materials. Besides its conventional meaning, “pipe” as used in this document covers other cylindrical bodies, such as tubes, penstocks, boiler drums and pressure vessels. This document does not specify acceptance levels for any of the indications found on the radiographs. The ISO 10675 series provides information on acceptance levels for weld evaluation. If contracting parties apply lower test criteria, it is possible that the quality achieved will be significantly lower than when this document is strictly applied.
+            - generic [ref=e99]:
+              - heading "BS EN ISO 17636-1:2022 Non-destructive testing of welds. Radiographic testing X- and gamma-ray techniques with film" [level=1] [ref=e100]
+              - paragraph [ref=e101]:
+                - strong [ref=e102]: "Standard number:"
+                - text: BS EN ISO 17636-1:2022
+              - paragraph [ref=e103]:
+                - strong [ref=e104]: "Pages:"
+                - text: "46"
+              - paragraph [ref=e105]:
+                - strong [ref=e106]: "Released:"
+                - text: 2022-08-05
+              - paragraph [ref=e107]:
+                - strong [ref=e108]: "ISBN:"
+                - text: 978 0 539 04732 5
+              - paragraph [ref=e109]:
+                - strong [ref=e110]: "Name:"
+                - text: Non-destructive testing of welds. Radiographic testing X- and gamma-ray techniques with film
+              - paragraph [ref=e111]:
+                - strong [ref=e112]: "Status:"
+                - text: Standard
+              - heading "Overview" [level=2] [ref=e113]
+              - paragraph [ref=e114]:
+                - text: Introducing the
+                - strong [ref=e115]: BS EN ISO 17636-1:2022
+                - text: ", the definitive standard for non-destructive testing of welds using radiographic testing techniques with X- and gamma-rays. This comprehensive document, spanning 46 pages, is an essential resource for professionals in the field of welding and quality assurance, providing the latest guidelines and methodologies to ensure the highest standards of safety and integrity in welded structures."
+              - heading "Key Features" [level=2] [ref=e116]
+              - list [ref=e117]:
+                - listitem [ref=e118]:
+                  - strong [ref=e119]: "Comprehensive Coverage:"
+                  - text: This standard offers an in-depth exploration of radiographic testing techniques, ensuring you have all the information needed to perform accurate and reliable weld inspections.
+                - listitem [ref=e120]:
+                  - strong [ref=e121]: "Latest Guidelines:"
+                  - text: Released on 2022-08-05, this document incorporates the most recent advancements and best practices in the field, ensuring your testing methods are up-to-date.
+                - listitem [ref=e122]:
+                  - strong [ref=e123]: "International Standard:"
+                  - text: As a BS EN ISO standard, it is recognized and respected globally, making it a valuable addition to any professional's library.
+                - listitem [ref=e124]:
+                  - strong [ref=e125]: "Detailed Methodologies:"
+                  - text: The standard provides detailed instructions on the use of X- and gamma-ray techniques, helping you achieve precise and consistent results.
+                - listitem [ref=e126]:
+                  - strong [ref=e127]: "Quality Assurance:"
+                  - text: Adhering to this standard ensures that your weld inspections meet the highest quality and safety standards, reducing the risk of defects and failures.
+              - heading "Why Choose BS EN ISO 17636-1:2022?" [level=2] [ref=e128]
+              - paragraph [ref=e129]:
+                - text: In the world of welding and fabrication, ensuring the integrity and safety of welded joints is paramount. The
+                - strong [ref=e130]: BS EN ISO 17636-1:2022
+                - text: "standard is your go-to resource for achieving this goal. Here’s why:"
+              - list [ref=e131]:
+                - listitem [ref=e132]:
+                  - strong [ref=e133]: "Expertly Crafted:"
+                  - text: Developed by leading experts in the field, this standard reflects the collective knowledge and experience of industry professionals.
+                - listitem [ref=e134]:
+                  - strong [ref=e135]: "Global Recognition:"
+                  - text: As an ISO standard, it is recognized and implemented worldwide, ensuring consistency and reliability across international borders.
+                - listitem [ref=e136]:
+                  - strong [ref=e137]: "Enhanced Safety:"
+                  - text: By following the guidelines outlined in this standard, you can significantly reduce the risk of weld failures, enhancing the overall safety of your projects.
+                - listitem [ref=e138]:
+                  - strong [ref=e139]: "Cost-Effective:"
+                  - text: Implementing non-destructive testing techniques as per this standard can help identify potential issues early, saving you time and money in the long run.
+              - heading "Who Should Use This Standard?" [level=2] [ref=e140]
+              - paragraph [ref=e141]:
+                - text: The
+                - strong [ref=e142]: BS EN ISO 17636-1:2022
+                - text: "standard is designed for a wide range of professionals involved in the welding and fabrication industry, including:"
+              - list [ref=e143]:
+                - listitem [ref=e144]:
+                  - strong [ref=e145]: "Welding Inspectors:"
+                  - text: Ensure the highest quality of welds by adhering to the latest radiographic testing techniques.
+                - listitem [ref=e146]:
+                  - strong [ref=e147]: "Quality Assurance Managers:"
+                  - text: Implement robust testing protocols to maintain the integrity and safety of welded structures.
+                - listitem [ref=e148]:
+                  - strong [ref=e149]: "Engineers and Technicians:"
+                  - text: Gain a thorough understanding of non-destructive testing methods to enhance your technical expertise.
+                - listitem [ref=e150]:
+                  - strong [ref=e151]: "Training Providers:"
+                  - text: Equip your students with the most up-to-date knowledge and skills in radiographic testing of welds.
+              - heading "Detailed Content" [level=2] [ref=e152]
+              - paragraph [ref=e153]:
+                - text: The
+                - strong [ref=e154]: BS EN ISO 17636-1:2022
+                - text: "standard covers a wide range of topics related to radiographic testing of welds, including but not limited to:"
+              - list [ref=e155]:
+                - listitem [ref=e156]:
+                  - strong [ref=e157]: "Principles of Radiographic Testing:"
+                  - text: An overview of the fundamental principles and concepts behind radiographic testing using X- and gamma-rays.
+                - listitem [ref=e158]:
+                  - strong [ref=e159]: "Equipment and Materials:"
+                  - text: Detailed information on the types of equipment and materials required for effective radiographic testing.
+                - listitem [ref=e160]:
+                  - strong [ref=e161]: "Testing Procedures:"
+                  - text: Step-by-step guidelines on how to conduct radiographic tests, including preparation, execution, and evaluation.
+                - listitem [ref=e162]:
+                  - strong [ref=e163]: "Safety Considerations:"
+                  - text: Essential safety protocols and precautions to ensure the well-being of personnel and the environment.
+                - listitem [ref=e164]:
+                  - strong [ref=e165]: "Interpretation of Results:"
+                  - text: Guidance on how to accurately interpret radiographic images and identify potential defects.
+                - listitem [ref=e166]:
+                  - strong [ref=e167]: "Documentation and Reporting:"
+                  - text: Best practices for documenting and reporting test results to ensure transparency and traceability.
+              - heading "Conclusion" [level=2] [ref=e168]
+              - paragraph [ref=e169]:
+                - text: The
+                - strong [ref=e170]: BS EN ISO 17636-1:2022
+                - text: standard is an indispensable resource for anyone involved in the non-destructive testing of welds. With its comprehensive coverage, up-to-date guidelines, and global recognition, it provides the knowledge and tools needed to ensure the highest standards of quality and safety in welded structures. Whether you are a welding inspector, quality assurance manager, engineer, technician, or training provider, this standard will help you achieve excellence in your field.
+          - generic [ref=e171]:
+            - link "Print" [ref=e173] [cursor=pointer]:
+              - /url: javascript:window.print()
+            - link "RECOMMEND" [ref=e174] [cursor=pointer]:
+              - /url: mailto:?Subject=Zaj%C3%ADmav%C3%BD%20produkt&Body=https://www.en-standard.eu/bs-en-iso-17636-1-2022-non-destructive-testing-of-welds-radiographic-testing-x-and-gamma-ray-techniques-with-film/
+          - generic [ref=e175]:
+            - iframe [ref=e176]:
+              
+            - link "Tweet" [ref=e178] [cursor=pointer]:
+              - /url: https://twitter.com/share
+            - button "Share" [ref=e182] [cursor=pointer]:
+              - generic [ref=e183]:
+                - img
+              - text: Share
+        - generic [ref=e184]:
+          - generic [ref=e185]: Customers who bought this item also bought
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - generic [ref=e188]:
+                - 'link "DIN EN 755-2 Aluminium and aluminium alloys - Extruded rod/bar, tube and profiles - Part 2: Mechanical properties" [ref=e189] [cursor=pointer]':
+                  - /url: https://www.en-standard.eu/din-en-755-2-aluminium-and-aluminium-alloys-extruded-rod-bar-tube-and-profiles-part-2-mechanical-properties/
+                  - text: DIN EN 755-2
+                  - text: "Aluminium and aluminium alloys - Extruded rod/bar, tube and profiles - Part 2: Mechanical properties"
+                - generic [ref=e190]: "Released: 2025-09"
+              - generic [ref=e191]:
+                - generic "PDF – Printable electronic format pdf, you can print the standard." [ref=e194]: English PDF
+                - generic [ref=e195]:
+                  - text: Immediate download
+                  - generic "Printable" [ref=e196]
+                - generic [ref=e197]: 199.03 EUR
+                - button "Add to cart" [ref=e199] [cursor=pointer]
+              - generic [ref=e200]:
+                - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e203]: English Hardcopy
+                - generic [ref=e204]: In stock
+                - generic [ref=e205]: 199.03 EUR
+                - button "Add to cart" [ref=e207] [cursor=pointer]
+              - generic [ref=e208]:
+                - generic "PDF – Printable electronic format pdf, you can print the standard." [ref=e211]: German PDF
+                - generic [ref=e212]:
+                  - text: Immediate download
+                  - generic "Printable" [ref=e213]
+                - generic [ref=e214]: 159.11 EUR
+                - button "Add to cart" [ref=e216] [cursor=pointer]
+              - generic [ref=e217]:
+                - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e220]: German Hardcopy
+                - generic [ref=e221]: In stock
+                - generic [ref=e222]: 159.11 EUR
+                - button "Add to cart" [ref=e224] [cursor=pointer]
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - link "UNE EN ISO 17637:2017 Non-destructive testing of welds - Visual testing of fusion-welded joints (ISO 17637:2016)" [ref=e227] [cursor=pointer]:
+                  - /url: https://www.en-standard.eu/une-en-iso-17637-2017-non-destructive-testing-of-welds-visual-testing-of-fusion-welded-joints-iso-17637-2016/
+                  - text: UNE EN ISO 17637:2017
+                  - text: Non-destructive testing of welds - Visual testing of fusion-welded joints (ISO 17637:2016)
+                - generic [ref=e228]: "Released: 2017-03-08"
+              - generic [ref=e229]:
+                - generic "PDF – Printable electronic format pdf, you can print the standard." [ref=e232]: English PDF
+                - generic [ref=e233]:
+                  - text: Immediate download
+                  - generic "Printable" [ref=e234]
+                - generic [ref=e235]: 72.60 EUR
+                - button "Add to cart" [ref=e237] [cursor=pointer]
+              - generic [ref=e238]:
+                - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e241]: English Hardcopy
+                - generic [ref=e242]: In stock
+                - generic [ref=e243]: 72.60 EUR
+                - button "Add to cart" [ref=e245] [cursor=pointer]
+              - generic [ref=e246]:
+                - generic "PDF – Printable electronic format pdf, you can print the standard." [ref=e249]: Spanish PDF
+                - generic [ref=e250]:
+                  - text: Immediate download
+                  - generic "Printable" [ref=e251]
+                - generic [ref=e252]: 72.60 EUR
+                - button "Add to cart" [ref=e254] [cursor=pointer]
+              - generic [ref=e255]:
+                - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e258]: Spanish Hardcopy
+                - generic [ref=e259]: In stock
+                - generic [ref=e260]: 72.60 EUR
+                - button "Add to cart" [ref=e262] [cursor=pointer]
+            - generic [ref=e263]:
+              - generic [ref=e264]:
+                - 'link "DIN EN 755-9 Aluminium and aluminium alloys - Extruded rod/bar, tube and profiles - Part 9: Profiles, tolerances on dimensions and form" [ref=e265] [cursor=pointer]':
+                  - /url: https://www.en-standard.eu/din-en-755-9-aluminium-and-aluminium-alloys-extruded-rod-bar-tube-and-profiles-part-9-profiles-tolerances-on-dimensions-and-form/
+                  - text: DIN EN 755-9
+                  - text: "Aluminium and aluminium alloys - Extruded rod/bar, tube and profiles - Part 9: Profiles, tolerances on dimensions and form"
+                - generic [ref=e266]: "Released: 2016-10"
+              - generic [ref=e267]:
+                - generic "PDF – Printable electronic format pdf, you can print the standard." [ref=e270]: English PDF
+                - generic [ref=e271]:
+                  - text: Immediate download
+                  - generic "Printable" [ref=e272]
+                - generic [ref=e273]: 120.10 EUR
+                - button "Add to cart" [ref=e275] [cursor=pointer]
+              - generic [ref=e276]:
+                - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e279]: English Hardcopy
+                - generic [ref=e280]: In stock
+                - generic [ref=e281]: 120.10 EUR
+                - button "Add to cart" [ref=e283] [cursor=pointer]
+              - generic [ref=e284]:
+                - generic "PDF – Printable electronic format pdf, you can print the standard." [ref=e287]: German PDF
+                - generic [ref=e288]:
+                  - text: Immediate download
+                  - generic "Printable" [ref=e289]
+                - generic [ref=e290]: 96.20 EUR
+                - button "Add to cart" [ref=e292] [cursor=pointer]
+              - generic [ref=e293]:
+                - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e296]: German Hardcopy
+                - generic [ref=e297]: In stock
+                - generic [ref=e298]: 96.20 EUR
+                - button "Add to cart" [ref=e300] [cursor=pointer]
+            - generic [ref=e301]:
+              - generic [ref=e302]:
+                - link "UNE EN ISO 17639:2022 Destructive tests on welds in metallic materials - Macroscopic and microscopic examination of welds (ISO 17639:2022)" [ref=e303] [cursor=pointer]:
+                  - /url: https://www.en-standard.eu/une-en-iso-17639-2022-destructive-tests-on-welds-in-metallic-materials-macroscopic-and-microscopic-examination-of-welds-iso-17639-2022/
+                  - text: UNE EN ISO 17639:2022
+                  - text: Destructive tests on welds in metallic materials - Macroscopic and microscopic examination of welds (ISO 17639:2022)
+                - generic [ref=e304]: "Released: 2022-09-28"
+              - generic [ref=e305]:
+                - generic "PDF – Printable electronic format pdf, you can print the standard." [ref=e308]: English PDF
+                - generic [ref=e309]:
+                  - text: Immediate download
+                  - generic "Printable" [ref=e310]
+                - generic [ref=e311]: 71.50 EUR
+                - button "Add to cart" [ref=e313] [cursor=pointer]
+              - generic [ref=e314]:
+                - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e317]: English Hardcopy
+                - generic [ref=e318]: In stock
+                - generic [ref=e319]: 71.50 EUR
+                - button "Add to cart" [ref=e321] [cursor=pointer]
+              - generic [ref=e322]:
+                - generic "PDF – Printable electronic format pdf, you can print the standard." [ref=e325]: Spanish PDF
+                - generic [ref=e326]:
+                  - text: Immediate download
+                  - generic "Printable" [ref=e327]
+                - generic [ref=e328]: 71.50 EUR
+                - button "Add to cart" [ref=e330] [cursor=pointer]
+              - generic [ref=e331]:
+                - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e334]: Spanish Hardcopy
+                - generic [ref=e335]: In stock
+                - generic [ref=e336]: 71.50 EUR
+                - button "Add to cart" [ref=e338] [cursor=pointer]
+      - complementary [ref=e339]:
+        - generic [ref=e341]:
+          - link "ICS codes" [ref=e342] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/ics-codes/
+          - link "AIAG Standards" [ref=e343] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/qs-9000/
+          - link "ASTM Standards" [ref=e344] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/astm-standards/
+          - link "Annual Book of ASTM Standards" [ref=e345] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/annual-book-of-astm-standards/
+          - link "BSI Standards" [ref=e346] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/
+            - text: BSI Standards
+          - link "CSN Standards" [ref=e348] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/csn-standards/
+          - link "CQI Standards" [ref=e349] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/cqi/
+          - link "DIN Standards" [ref=e350] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/din-standards/
+          - link "IEC Standards" [ref=e351] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/iec-standards/
+          - link "IEEE Standards" [ref=e352] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/ieee-standards/
+          - link "IPC Standards" [ref=e353] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/ipc-standards/
+          - link "ISO Standards" [ref=e354] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/iso-standards/
+          - link "UNE standards" [ref=e355] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/une-standards/
+          - link "VDA Automotive Standards" [ref=e356] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/automotive-quality-standards-qs-9000/
+          - link "Eurocodes" [ref=e357] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/eurocodes/
+          - link "Sets of EN Standards" [ref=e358] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/sets-of-en-standards/
+          - link "Quality management standards ISO 9001" [ref=e359] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/quality-management-standards-iso-9001/
+          - link "Environmental management systems ISO 14001" [ref=e360] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/environmental-management-systems-iso-14001/
+          - link "Asset management ISO 55000" [ref=e361] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/asset-management-iso-55000/
+          - link "Energy management systems ISO 50001" [ref=e362] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/energy-management-systems-iso-50001/
+          - link "Facility Management EN 15221 and ISO 41000" [ref=e363] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/facility-management-en-15221-and-iso-41000/
+          - link "ISO 5817-Welding" [ref=e364] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/sets-of-en-standards-iso-5817-welding/
+          - link "Information technology ISO/IEC 27000" [ref=e365] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/information-technology-iso-iec-27000/
+    - contentinfo [ref=e366]:
+      - generic [ref=e367]:
+        - generic [ref=e368]:
+          - generic [ref=e369]: Partners
+          - generic [ref=e370]:
+            - paragraph [ref=e371]:
+              - link "ASTM Standards" [ref=e372] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/astm-standards/
+              - text: ","
+              - link "BS Standards" [ref=e373] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/bs-standards/
+            - paragraph [ref=e374]:
+              - link "DIN Standards" [ref=e375] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/din-standards/
+              - text: ","
+              - link "IEC Standards" [ref=e376] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/iec-standards/
+              - text: ","
+            - paragraph [ref=e377]:
+              - link "ISO Standards" [ref=e378] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/iso-standards/
+              - text: ","
+              - link "IEEE Standards" [ref=e379] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/ieee-standards/
+            - paragraph [ref=e380]:
+              - link "IPC Standards" [ref=e381] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/ipc-standards/
+              - text: ","
+              - link "VDA Standards" [ref=e382] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/automotive-quality-standards-qs-9000/
+            - paragraph [ref=e383]:
+              - link "CQI Manuals" [ref=e384] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/cqi/
+            - paragraph [ref=e385]
+            - paragraph [ref=e386]
+            - paragraph [ref=e387]
+            - paragraph [ref=e388]
+        - generic [ref=e389]:
+          - generic [ref=e390]: Terms and conditions
+          - generic [ref=e391]:
+            - paragraph [ref=e392]:
+              - text: Please check our
+              - link "Terms and conditions" [ref=e393] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+              - text: mainly for
+              - strong [ref=e394]: engineering standards in electronic (PDF)
+              - text: format
+            - paragraph [ref=e395]
+            - paragraph [ref=e396]:
+              - link "Privacy Policy" [ref=e397] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/publicdoc/privacy-policy-en-standard-1.pdf
+        - generic [ref=e399]:
+          - generic [ref=e400]: 3D Secure payment
+          - paragraph [ref=e401]
+        - generic [ref=e402]:
+          - generic [ref=e403]: Contacts
+          - generic [ref=e404]:
+            - paragraph [ref=e405]:
+              - text: "email:"
+              - link "info@en-standard.eu" [ref=e406] [cursor=pointer]:
+                - /url: mailto:info@en-standard.eu
+            - paragraph [ref=e407]: "Phone: +420 377 921 379"
+            - paragraph [ref=e408]: "Fax: +420 960 377 387 684"
+        - generic [ref=e409]:
+          - generic [ref=e410]: Copyright 2026 © EUROPEAN STANDARD. All rights reserved.
+          - generic [ref=e411]:
+            - link "SITEMAP" [ref=e412] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/sitemap-en/
+            - link "Ecommerce solutions" [ref=e413] [cursor=pointer]:
+              - /url: https://www.binargon.cz/eshop/
+            - link "BINARGON.cz" [ref=e414] [cursor=pointer]:
+              - /url: https://www.binargon.cz/
+        - generic [ref=e415]:
+          - paragraph [ref=e416]
+          - paragraph [ref=e417]:
+            - link "facebook" [ref=e418] [cursor=pointer]:
+              - /url: https://www.facebook.com/pages/European-Standards-Online-Store/113965131954594?fref=ts
+              - img "facebook" [ref=e419]
+            - link "google plus" [ref=e420] [cursor=pointer]:
+              - /url: https://plus.google.com/u/0/b/109762724017410291385/
+              - img "google plus" [ref=e421]
+            - link "twitter" [ref=e422] [cursor=pointer]:
+              - /url: https://twitter.com/enstandards
+              - img "twitter" [ref=e423]
+            - link "linkedin" [ref=e424] [cursor=pointer]:
+              - /url: http://www.linkedin.com/pub/en-standards/a3/a86/a54
+              - img "linkedin" [ref=e425]
+  - generic:
+    - complementary [ref=e426]:
+      - generic [ref=e427]: Cookies + GDPR
+      - generic [ref=e428]: European Standards and partners need your consent to use individual data in order to show you information related to your interests through ad personalization, among other things. You give consent by clicking on the checkbox "Yes, I agree".
+      - generic [ref=e429]:
+        - button "Reject everything" [ref=e430] [cursor=pointer]
+        - button "Yes, I accept" [ref=e431] [cursor=pointer]
+        - button "Detailed settings with explanations can be found here" [ref=e432] [cursor=pointer]
+    - complementary [ref=e433] [cursor=pointer]:
+      - generic [ref=e434]: Privacy
+  - iframe [ref=e435]:
+    
+  - iframe [ref=e438]:
+    - generic [ref=f41e5]:
+      - generic [ref=f41e6]:
+        - text: protected by
+        - strong [ref=f41e7]: reCAPTCHA
+      - generic [ref=f41e9]:
+        - text: reCAPTCHA is changing its terms of service.
+        - link "Take action." [ref=f41e10] [cursor=pointer]:
+          - /url: https://google.com/recaptcha/admin/migrate

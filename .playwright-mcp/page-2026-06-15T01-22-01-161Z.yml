@@ -1,0 +1,359 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link "Truy cập trang chủ Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=vi&ictx=0&sa=X&ved=0ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQpYkNCAw
+          - img "Truy cập trang chủ Google" [ref=e14]
+        - generic [ref=e15]:
+          - combobox "Tìm kiếm" [ref=e18]: TLS fingerprint spoofing JA3 JA4 github 2025 tools TLS fingerprint spoofing JA3 JA4 github 2025 tools
+          - generic [ref=e19]:
+            - button "Xóa" [ref=e21] [cursor=pointer]:
+              - img [ref=e23]
+            - generic [ref=e26]:
+              - button "Công cụ nhập" [ref=e27] [cursor=pointer]:
+                - img [ref=e29]
+              - button "Tìm kiếm bằng giọng nói" [ref=e31] [cursor=pointer]:
+                - img [ref=e32]
+              - button "Tìm kiếm bằng hình ảnh" [ref=e34] [cursor=pointer]:
+                - img [ref=e35]
+        - button "Tìm kiếm" [ref=e37] [cursor=pointer]:
+          - img [ref=e40]
+    - generic [ref=e42]:
+      - button "Cài đặt" [ref=e44] [cursor=pointer]:
+        - img [ref=e47]
+      - generic [ref=e50]:
+        - button "Các ứng dụng của Google" [ref=e52] [cursor=pointer]:
+          - img [ref=e53]
+        - link "Đăng nhập" [ref=e57] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3DTLS%2Bfingerprint%2Bspoofing%2BJA3%2BJA4%2Bgithub%2B2025%2Btools%26sei%3DuFMvaoS6DsSZjuMP2vbK0A0&ec=futura_srp_og_si_72236_p
+  - generic [ref=e59]:
+    - navigation [ref=e65]:
+      - generic [ref=e71]:
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - link "Chế độ AI" [ref=e76] [cursor=pointer]:
+              - /url: /search?q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&sca_esv=61328fda7705c92b&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbltHdB45MC_O_Dkxw77BoaSZKGjPbAsi-PqVaDerfnvQoaM3tJiE7h3VbwmhmcvgEAuwc48vIWhyzNphnuWbFGJSyDhFs9xZpZEkmyPz60JdI1gfFgOqQcJLzH4S1ntOSUm1pCGN9h0d4NacblhqGUQvB0Mc7NRj_WK5R9kgRB90XJ5n7fjqMY7maXuBgyu8M3U2P0zwJkQ3urGsq3UwwunvOxWUScSvywH2VlT0KgvTXfgDP&aep=1&ntc=1&sa=X&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQ2J8OegQIEBAD
+              - generic [ref=e79]: Chế độ AI
+          - listitem [ref=e80]:
+            - link "Tất cả" [disabled] [ref=e81]:
+              - generic [ref=e83]: Tất cả
+          - listitem [ref=e84]:
+            - link "Mua sắm" [ref=e85] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbltHdB45MC_O_Dkxw77BoaSZKGjPbAsi-PqVaDerfnvQoaM3tJiE7h3VbwmhmcvgEAuwc48vIWhyzNphnuWbFGJSyDhFs9xZpZEkmyPz60JdI1gfFgOqQcJLzH4S1ntOSUm1pCGN9h0d4NacblhqGUQvB0Mc7NRj_WK5R9kgRB90XJ5n7fjqMY7maXuBgyu8M3U2P0zwJkQ3urGsq3UwwunvOxWUScSvywH2VlT0KgvTXfgDP&q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&ved=1t:220175&ictx=111
+              - generic [ref=e87]: Mua sắm
+          - listitem [ref=e88]:
+            - link "Hình ảnh" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbltHdB45MC_O_Dkxw77BoaSZKGjPbAsi-PqVaDerfnvQoaM3tJiE7h3VbwmhmcvgEAuwc48vIWhyzNphnuWbFGJSyDhFs9xZpZEkmyPz60JdI1gfFgOqQcJLzH4S1ntOSUm1pCGN9h0d4NacblhqGUQvB0Mc7NRj_WK5R9kgRB90XJ5n7fjqMY7maXuBgyu8M3U2P0zwJkQ3urGsq3UwwunvOxWUScSvywH2VlT0KgvTXfgDP&q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&sa=X&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQtKgLegQIEhAB
+              - generic [ref=e91]: Hình ảnh
+          - listitem [ref=e92]:
+            - link "Video ngắn" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbltHdB45MC_O_Dkxw77BoaSZKGjPbAsi-PqVaDerfnvQoaM3tJiE7h3VbwmhmcvgEAuwc48vIWhyzNphnuWbFGJSyDhFs9xZpZEkmyPz60JdI1gfFgOqQcJLzH4S1ntOSUm1pCGN9h0d4NacblhqGUQvB0Mc7NRj_WK5R9kgRB90XJ5n7fjqMY7maXuBgyu8M3U2P0zwJkQ3urGsq3UwwunvOxWUScSvywH2VlT0KgvTXfgDP&q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&sa=X&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQs6gLegQIExAB
+              - generic [ref=e95]: Video ngắn
+          - listitem [ref=e96]:
+            - link "Video" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbltHdB45MC_O_Dkxw77BoaSZKGjPbAsi-PqVaDerfnvQoaM3tJiE7h3VbwmhmcvgEAuwc48vIWhyzNphnuWbFGJSyDhFs9xZpZEkmyPz60JdI1gfFgOqQcJLzH4S1ntOSUm1pCGN9h0d4NacblhqGUQvB0Mc7NRj_WK5R9kgRB90XJ5n7fjqMY7maXuBgyu8M3U2P0zwJkQ3urGsq3UwwunvOxWUScSvywH2VlT0KgvTXfgDP&q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&sa=X&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQtKgLegQIFRAB
+              - generic [ref=e99]: Video
+          - listitem [ref=e100]:
+            - link "Tin tức" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&tbm=nws&source=lnms&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbltHdB45MC_O_Dkxw77BoaSZKGjPbAsi-PqVaDerfnvQoaM3tJiE7h3VbwmhmcvgEAuwc48vIWhyzNphnuWbFGJSyDhFs9xZpZEkmyPz60JdI1gfFgOqQcJLzH4S1ntOSUm1pCGN9h0d4NacblhqGUQvB0Mc7NRj_WK5R9kgRB90XJ5n7fjqMY7maXuBgyu8M3U2P0zwJkQ3urGsq3UwwunvOxWUScSvywH2VlT0KgvTXfgDP&sa=X&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQ0pQJegQIFBAB
+              - generic [ref=e103]: Tin tức
+          - listitem [ref=e104]:
+            - button "Các bộ lọc khác" [ref=e105] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e106]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Thêm
+                  - img [ref=e110]
+        - button "Công cụ" [ref=e113] [cursor=pointer]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: Công cụ
+            - img [ref=e118]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e120]
+    - generic [ref=e126]:
+      - generic [ref=e127]: Looking for results in English?
+      - link [ref=e128] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e130]
+      - link "Change to English" [ref=e132] [cursor=pointer]:
+        - /url: /setprefs?sig=0_9G5qUwbqBY3u3AWlSDMC2g08LLI%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DTLS%2Bfingerprint%2Bspoofing%2BJA3%2BJA4%2Bgithub%2B2025%2Btools%26sei%3DuFMvaoS6DsSZjuMP2vbK0A0&hl=en&sa=X&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQhoQCKAF6BAgKEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e133] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e135] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQiIQCKAN6BAgKEAY#languages
+    - main [ref=e137]:
+      - generic [ref=e141]:
+        - generic [ref=e144]:
+          - heading "Web results" [level=2] [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e149]:
+              - link "JA3.JA4.TLS.Fingerprinting.Tool.md - Cybersecurity-Projects GitHub https://github.com › main › intermediate" [ref=e151] [cursor=pointer]:
+                - /url: https://github.com/CarterPerez-dev/Cybersecurity-Projects/blob/main/SYNOPSES/intermediate/JA3.JA4.TLS.Fingerprinting.Tool.md
+                - heading "JA3.JA4.TLS.Fingerprinting.Tool.md - Cybersecurity-Projects" [level=3] [ref=e152]
+                - generic [ref=e158]:
+                  - generic [ref=e160]: GitHub
+                  - generic [ref=e162]: https://github.com › main › intermediate
+              - generic [ref=e163]:
+                - generic [ref=e164]: ·
+                - link "Dịch trang này" [ref=e165] [cursor=pointer]:
+                  - /url: https://github.com/CarterPerez-dev/Cybersecurity-Projects/blob/main/SYNOPSES/intermediate/JA3.JA4.TLS.Fingerprinting.Tool.md
+              - button "Thông tin về kết quả này" [ref=e166] [cursor=pointer]:
+                - img [ref=e169]
+            - generic [ref=e173]:
+              - text: This project teaches
+              - emphasis [ref=e174]: how TLS metadata leaks client identity information
+              - text: even over encrypted connections, how security teams use fingerprinting to detect ...
+            - generic [ref=e176]:
+              - text: "Bị thiếu: 2025 ‎| Phải có:"
+              - link "2025" [ref=e177] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=TLS+fingerprint+spoofing+JA3+JA4+github+%222025%22+tools&sa=X&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQ5t4CegQIJxAB
+        - generic [ref=e188]:
+          - heading "Đang tìm kiếm Đang suy nghĩ lâu hơn một chút" [level=2] [ref=e192]:
+            - generic [ref=e193]:
+              - generic [ref=e195]: Đang tìm kiếm
+              - generic [ref=e197]: Đang suy nghĩ lâu hơn một chút
+          - progressbar "Đang tạo" [ref=e199]
+        - generic [ref=e243]:
+          - heading "Web results" [level=2] [ref=e244]
+          - generic [ref=e245]:
+            - generic [ref=e248]:
+              - 'link "TLS Fingerprinting with JA3/JA4: The Defender''s Lens GitHub https://github.com › ja3_ja4_guide" [ref=e250] [cursor=pointer]':
+                - /url: https://github.com/VolkanSah/Detection-Labs-for-Palantir-Style-Activity/blob/main/ja3_ja4_guide.md
+                - 'heading "TLS Fingerprinting with JA3/JA4: The Defender''s Lens" [level=3] [ref=e251]'
+                - generic [ref=e257]:
+                  - generic [ref=e259]: GitHub
+                  - generic [ref=e261]: https://github.com › ja3_ja4_guide
+              - generic [ref=e262]:
+                - generic [ref=e263]: ·
+                - link "Dịch trang này" [ref=e264] [cursor=pointer]:
+                  - /url: https://github.com/VolkanSah/Detection-Labs-for-Palantir-Style-Activity/blob/main/ja3_ja4_guide.md
+              - button "Thông tin về kết quả này" [ref=e265] [cursor=pointer]:
+                - img [ref=e268]
+            - generic [ref=e272]:
+              - text: This guide covers detection theory, implementation, and practical hunting strategies. What are
+              - emphasis [ref=e273]: JA3
+              - text: and
+              - emphasis [ref=e274]: JA4
+              - text: "?"
+              - emphasis [ref=e275]: Fingerprint
+              - text: ", Focus, Protocol Layer, Best Used For ..."
+            - generic [ref=e277]:
+              - text: "Bị thiếu: spoofing ‎| Phải có:"
+              - link "spoofing" [ref=e278] [cursor=pointer]:
+                - /url: /search?sca_esv=61328fda7705c92b&q=TLS+fingerprint+%22spoofing%22+JA3+JA4+github+2025+tools&sa=X&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQ5t4CegQIIRAB
+        - generic [ref=e282]:
+          - generic [ref=e285]:
+            - 'link "TLS fingerprint spoof #2295 - uazo/cromite GitHub https://github.com › cromite › issues" [ref=e287] [cursor=pointer]':
+              - /url: https://github.com/uazo/cromite/issues/2295
+              - 'heading "TLS fingerprint spoof #2295 - uazo/cromite" [level=3] [ref=e288]'
+              - generic [ref=e294]:
+                - generic [ref=e296]: GitHub
+                - generic [ref=e298]: https://github.com › cromite › issues
+            - generic [ref=e299]:
+              - generic [ref=e300]: ·
+              - link "Dịch trang này" [ref=e301] [cursor=pointer]:
+                - /url: https://github.com/uazo/cromite/issues/2295
+            - button "Thông tin về kết quả này" [ref=e302] [cursor=pointer]:
+              - img [ref=e305]
+          - generic [ref=e308]:
+            - generic [ref=e309]: 28 thg 8, 2025 —
+            - generic [ref=e310]:
+              - text: Describe the solution you would like. Is those
+              - emphasis [ref=e311]: JA3
+              - text: /
+              - emphasis [ref=e312]: JA4
+              - text: fingerprints are randomized or everyone got the same one ? If not, when it change ? https ...
+        - generic [ref=e316]:
+          - generic [ref=e319]:
+            - link "tls-fingerprint · GitHub Topics GitHub https://github.com › topics › tls-fingerp..." [ref=e321] [cursor=pointer]:
+              - /url: https://github.com/topics/tls-fingerprint?l=go
+              - heading "tls-fingerprint · GitHub Topics" [level=3] [ref=e322]
+              - generic [ref=e328]:
+                - generic [ref=e330]: GitHub
+                - generic [ref=e332]: https://github.com › topics › tls-fingerp...
+            - generic [ref=e333]:
+              - generic [ref=e334]: ·
+              - link "Dịch trang này" [ref=e335] [cursor=pointer]:
+                - /url: https://github.com/topics/tls-fingerprint?l=go
+            - button "Thông tin về kết quả này" [ref=e336] [cursor=pointer]:
+              - img [ref=e339]
+          - generic [ref=e343]:
+            - emphasis [ref=e344]: Service to bypass Cloudflare TLS fingerptint with JA3 spoofing
+            - text: . parsing proxy scraping cloudflare spoofing bypass ja3 tls-fingerprint. Updated on Jun 9, 2025 ...
+        - generic [ref=e348]:
+          - generic [ref=e351]:
+            - link "ja3-fingerprint GitHub https://github.com › topics › ja3-finger..." [ref=e353] [cursor=pointer]:
+              - /url: https://github.com/topics/ja3-fingerprint?o=desc&s=forks
+              - heading "ja3-fingerprint" [level=3] [ref=e354]
+              - generic [ref=e360]:
+                - generic [ref=e362]: GitHub
+                - generic [ref=e364]: https://github.com › topics › ja3-finger...
+            - generic [ref=e365]:
+              - generic [ref=e366]: ·
+              - link "Dịch trang này" [ref=e367] [cursor=pointer]:
+                - /url: https://github.com/topics/ja3-fingerprint?o=desc&s=forks
+            - button "Thông tin về kết quả này" [ref=e368] [cursor=pointer]:
+              - img [ref=e371]
+          - generic [ref=e375]:
+            - text: Go HTTP client with browser-identical
+            - emphasis [ref=e376]: TLS
+            - text: /HTTP2 fingerprinting. Bypass bot detection by perfectly mimicking Chrome, Firefox, and Safari at the cryptographic ...
+        - generic [ref=e380]:
+          - generic [ref=e383]:
+            - link "browser-fingerprinting · GitHub Topics GitHub https://github.com › topics › browser-fi..." [ref=e385] [cursor=pointer]:
+              - /url: https://github.com/topics/browser-fingerprinting
+              - heading "browser-fingerprinting · GitHub Topics" [level=3] [ref=e386]
+              - generic [ref=e392]:
+                - generic [ref=e394]: GitHub
+                - generic [ref=e396]: https://github.com › topics › browser-fi...
+            - generic [ref=e397]:
+              - generic [ref=e398]: ·
+              - link "Dịch trang này" [ref=e399] [cursor=pointer]:
+                - /url: https://github.com/topics/browser-fingerprinting
+            - button "Thông tin về kết quả này" [ref=e400] [cursor=pointer]:
+              - img [ref=e403]
+          - generic [ref=e407]:
+            - text: Bypass bot detection by perfectly mimicking Chrome, Firefox, and Safari at the cryptographic level (
+            - emphasis [ref=e408]: JA3
+            - text: /
+            - emphasis [ref=e409]: JA4
+            - text: ", Akamai"
+            - emphasis [ref=e410]: fingerprint
+            - text: ", header order). Supports HTTP/ ..."
+        - generic [ref=e414]:
+          - generic [ref=e417]:
+            - 'link "Chrome: Passing TLS fingerprints using the ja3, akamai ... GitHub https://github.com › curl_cffi › issues" [ref=e419] [cursor=pointer]':
+              - /url: https://github.com/lexiforest/curl_cffi/issues/529
+              - 'heading "Chrome: Passing TLS fingerprints using the ja3, akamai ..." [level=3] [ref=e420]'
+              - generic [ref=e426]:
+                - generic [ref=e428]: GitHub
+                - generic [ref=e430]: https://github.com › curl_cffi › issues
+            - generic [ref=e431]:
+              - generic [ref=e432]: ·
+              - link "Dịch trang này" [ref=e433] [cursor=pointer]:
+                - /url: https://github.com/lexiforest/curl_cffi/issues/529
+            - button "Thông tin về kết quả này" [ref=e434] [cursor=pointer]:
+              - img [ref=e437]
+          - generic [ref=e440]:
+            - generic [ref=e441]: 5 thg 4, 2025 —
+            - generic [ref=e442]:
+              - text: The Documentation is lacking when it comes to explaining how to update the
+              - emphasis [ref=e443]: TLS fingerprint
+              - text: for the latest versions of browsers such as Chrome.
+        - generic [ref=e447]:
+          - generic [ref=e450]:
+            - link "How to Use JA4 Network Fingerprints in Zeek The Zeek Network Security Monitor https://zeek.org › 2026/01 › how-to-u..." [ref=e452] [cursor=pointer]:
+              - /url: https://zeek.org/2026/01/how-to-use-ja4-network-fingerprints-in-zeek/
+              - heading "How to Use JA4 Network Fingerprints in Zeek" [level=3] [ref=e453]
+              - generic [ref=e459]:
+                - generic [ref=e461]: The Zeek Network Security Monitor
+                - generic [ref=e463]: https://zeek.org › 2026/01 › how-to-u...
+            - generic [ref=e464]:
+              - generic [ref=e465]: ·
+              - link "Dịch trang này" [ref=e466] [cursor=pointer]:
+                - /url: https://zeek.org/2026/01/how-to-use-ja4-network-fingerprints-in-zeek/
+            - button "Thông tin về kết quả này" [ref=e467] [cursor=pointer]:
+              - img [ref=e470]
+          - generic [ref=e473]:
+            - generic [ref=e474]: 27 thg 1, 2026 —
+            - generic [ref=e475]:
+              - text: Learn how to use
+              - emphasis [ref=e476]: JA4 network fingerprinting in Zeek
+              - text: to identify client and server software, detect malware, and track behavior across ...
+        - generic [ref=e480]:
+          - generic [ref=e483]:
+            - 'link "TLS Fingerprint Spoofing · Issue #684 GitHub https://github.com › httptoolkit › issues" [ref=e485] [cursor=pointer]':
+              - /url: https://github.com/httptoolkit/httptoolkit/issues/684
+              - 'heading "TLS Fingerprint Spoofing · Issue #684" [level=3] [ref=e486]'
+              - generic [ref=e492]:
+                - generic [ref=e494]: GitHub
+                - generic [ref=e496]: https://github.com › httptoolkit › issues
+            - generic [ref=e497]:
+              - generic [ref=e498]: ·
+              - link "Dịch trang này" [ref=e499] [cursor=pointer]:
+                - /url: https://github.com/httptoolkit/httptoolkit/issues/684
+            - button "Thông tin về kết quả này" [ref=e500] [cursor=pointer]:
+              - img [ref=e503]
+          - generic [ref=e506]:
+            - generic [ref=e507]: 3 thg 1, 2025 —
+            - generic [ref=e508]:
+              - text: Some web services use
+              - emphasis [ref=e509]: TLS
+              - text: fingerprints to block undesired clients. When using HTTPtoolkit, those fingerprints are changed, which can lead to ...
+          - generic [ref=e511]:
+            - text: "Bị thiếu: JA4 ‎| Phải có:"
+            - link "JA4" [ref=e512] [cursor=pointer]:
+              - /url: /search?sca_esv=61328fda7705c92b&q=TLS+fingerprint+spoofing+JA3+%22JA4%22+github+2025+tools&sa=X&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQ5t4CegQISBAB
+        - generic [ref=e516]:
+          - generic [ref=e519]:
+            - link "Support for TLS Fingerprint Impersonation (uTLS) to ... GitHub https://github.com › tulir › discussions" [ref=e521] [cursor=pointer]:
+              - /url: https://github.com/tulir/whatsmeow/discussions/1088
+              - heading "Support for TLS Fingerprint Impersonation (uTLS) to ..." [level=3] [ref=e522]
+              - generic [ref=e528]:
+                - generic [ref=e530]: GitHub
+                - generic [ref=e532]: https://github.com › tulir › discussions
+            - generic [ref=e533]:
+              - generic [ref=e534]: ·
+              - link "Dịch trang này" [ref=e535] [cursor=pointer]:
+                - /url: https://github.com/tulir/whatsmeow/discussions/1088
+            - button "Thông tin về kết quả này" [ref=e536] [cursor=pointer]:
+              - img [ref=e539]
+          - generic [ref=e543]:
+            - text: This causes two main problems regarding
+            - emphasis [ref=e544]: JA3
+            - text: "identification: Direct Connection: The standard Go handshake is easily flagged as a bot by the Meta infrastructure."
+      - navigation [ref=e547]:
+        - heading "Điều hướng trang" [level=1] [ref=e548]
+        - text: "1"
+        - link "Page 2" [ref=e551] [cursor=pointer]:
+          - /url: /search?q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&sca_esv=61328fda7705c92b&ei=uFMvavTkGfDb2roP6rbQoQw&start=10&sa=N&sstk=AU9db-Cs84Q7w4BpBGjBzW_jmxqp5WFPxMn1TCo0HVBJ7s-_DF0akUEms1oPG6jUdcq6rfD5tXJwJAdJ5ytyifcGxRen8a5WfFBbeg&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQ8tMDegQIOhAE
+          - text: "2"
+        - link "Page 3" [ref=e553] [cursor=pointer]:
+          - /url: /search?q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&sca_esv=61328fda7705c92b&ei=uFMvavTkGfDb2roP6rbQoQw&start=20&sa=N&sstk=AU9db-Cs84Q7w4BpBGjBzW_jmxqp5WFPxMn1TCo0HVBJ7s-_DF0akUEms1oPG6jUdcq6rfD5tXJwJAdJ5ytyifcGxRen8a5WfFBbeg&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQ8tMDegQIOhAG
+          - text: "3"
+        - link "Page 4" [ref=e555] [cursor=pointer]:
+          - /url: /search?q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&sca_esv=61328fda7705c92b&ei=uFMvavTkGfDb2roP6rbQoQw&start=30&sa=N&sstk=AU9db-Cs84Q7w4BpBGjBzW_jmxqp5WFPxMn1TCo0HVBJ7s-_DF0akUEms1oPG6jUdcq6rfD5tXJwJAdJ5ytyifcGxRen8a5WfFBbeg&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQ8tMDegQIOhAI
+          - text: "4"
+        - link "Page 5" [ref=e557] [cursor=pointer]:
+          - /url: /search?q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&sca_esv=61328fda7705c92b&ei=uFMvavTkGfDb2roP6rbQoQw&start=40&sa=N&sstk=AU9db-Cs84Q7w4BpBGjBzW_jmxqp5WFPxMn1TCo0HVBJ7s-_DF0akUEms1oPG6jUdcq6rfD5tXJwJAdJ5ytyifcGxRen8a5WfFBbeg&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQ8tMDegQIOhAK
+          - text: "5"
+        - link "Page 6" [ref=e559] [cursor=pointer]:
+          - /url: /search?q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&sca_esv=61328fda7705c92b&ei=uFMvavTkGfDb2roP6rbQoQw&start=50&sa=N&sstk=AU9db-Cs84Q7w4BpBGjBzW_jmxqp5WFPxMn1TCo0HVBJ7s-_DF0akUEms1oPG6jUdcq6rfD5tXJwJAdJ5ytyifcGxRen8a5WfFBbeg&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQ8tMDegQIOhAM
+          - text: "6"
+        - link "Page 7" [ref=e561] [cursor=pointer]:
+          - /url: /search?q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&sca_esv=61328fda7705c92b&ei=uFMvavTkGfDb2roP6rbQoQw&start=60&sa=N&sstk=AU9db-Cs84Q7w4BpBGjBzW_jmxqp5WFPxMn1TCo0HVBJ7s-_DF0akUEms1oPG6jUdcq6rfD5tXJwJAdJ5ytyifcGxRen8a5WfFBbeg&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQ8tMDegQIOhAO
+          - text: "7"
+        - link "Page 8" [ref=e563] [cursor=pointer]:
+          - /url: /search?q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&sca_esv=61328fda7705c92b&ei=uFMvavTkGfDb2roP6rbQoQw&start=70&sa=N&sstk=AU9db-Cs84Q7w4BpBGjBzW_jmxqp5WFPxMn1TCo0HVBJ7s-_DF0akUEms1oPG6jUdcq6rfD5tXJwJAdJ5ytyifcGxRen8a5WfFBbeg&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQ8tMDegQIOhAQ
+          - text: "8"
+        - heading "Tiếp" [level=2] [ref=e565]:
+          - link "Tiếp" [ref=e566] [cursor=pointer]:
+            - /url: /search?q=TLS+fingerprint+spoofing+JA3+JA4+github+2025+tools&sca_esv=61328fda7705c92b&ei=uFMvavTkGfDb2roP6rbQoQw&start=10&sa=N&sstk=AU9db-Cs84Q7w4BpBGjBzW_jmxqp5WFPxMn1TCo0HVBJ7s-_DF0akUEms1oPG6jUdcq6rfD5tXJwJAdJ5ytyifcGxRen8a5WfFBbeg&ved=2ahUKEwj0oOO5ioiVAxXwrVYBHWobNMQQ8NMDegQIOhAS
+            - generic [ref=e568]: Tiếp
+      - navigation
+    - contentinfo [ref=e569]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e570]
+      - generic [ref=e574]:
+        - generic [ref=e576]:
+          - text: Việt Nam
+          - generic [ref=e578]:
+            - button "Ngũ Hành Sơn, Đà Nẵng - Dựa trên địa chỉ IP của bạn" [ref=e580] [cursor=pointer]:
+              - generic [ref=e581]: Ngũ Hành Sơn, Đà Nẵng
+              - generic [ref=e583]:
+                - text: "-"
+                - generic [ref=e584]: Dựa trên địa chỉ IP của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e586] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e589]:
+          - link "Trợ giúp" [ref=e590] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e591] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e592] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e593] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

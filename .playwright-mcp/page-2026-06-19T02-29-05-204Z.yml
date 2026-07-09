@@ -1,0 +1,408 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - link "Log in" [ref=e7] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/login/
+            - link "Sign up" [ref=e8] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/registration/
+          - generic [ref=e9]:
+            - text: LANGUAGE
+            - link "en" [ref=e10] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/bs-en-10204-2004-metallic-products-types-of-inspection-documents/
+        - generic:
+          - generic:
+            - generic [ref=e11]:
+              - link "STORE" [ref=e12] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/store/
+              - link "Membership" [ref=e13] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/membership/
+              - link "Help center" [ref=e14] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/blog/
+              - link "Contacts" [ref=e15] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/contacts-1/
+              - link "Delivery charges" [ref=e16] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/delivery-charges/
+              - link "ABOUT US" [ref=e17] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/about-us/
+              - link "News" [ref=e18] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/news-5-2026/
+            - generic [ref=e19]:
+              - generic [ref=e20]: SEARCH
+              - generic:
+                - textbox "SEARCH STANDARDS" [ref=e21]
+                - button [ref=e22] [cursor=pointer]
+            - generic [ref=e23]:
+              - generic [ref=e25]: "0"
+              - generic [ref=e26]: Total price
+              - generic [ref=e27]: 0 EUR
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e31]:
+          - generic [ref=e32]: PRICES include / exclude VAT
+          - combobox [ref=e34]:
+            - option "no, exclude" [selected]
+            - option "Czech Republic"
+            - option "Austria"
+            - option "Belgium"
+            - option "Bulgaria"
+            - option "Croatia"
+            - option "Denmark"
+            - option "Estonia"
+            - option "Finland"
+            - option "France"
+            - option "Germany"
+            - option "Greece"
+            - option "Hungary"
+            - option "Ireland"
+            - option "Italy"
+            - option "Latvia"
+            - option "Lithuania"
+            - option "Luxembourg"
+            - option "Monaco"
+            - option "Netherlands"
+            - option "Poland"
+            - option "Portugal"
+            - option "Romania"
+            - option "Slovakia"
+            - option "Slovenia"
+            - option "Spain"
+            - option "Sweden"
+            - option "Malta"
+            - option "Cyprus"
+        - generic [ref=e35]:
+          - link [ref=e36] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/
+          - text: ">"
+          - link "BSI Standards" [ref=e37] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/
+          - text: ">"
+          - link "01 GENERALITIES. TERMINOLOGY. STANDARDIZATION. DOCUMENTATION" [ref=e38] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/01-generalities-terminology-standardization-documentation/
+          - text: ">"
+          - link "01.110 Technical product documentation" [ref=e39] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/01-generalities-terminology-standardization-documentation/01-110-technical-product-documentation/
+          - text: ">BS EN 10204:2004 Metallic products. Types of inspection documents"
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: "immediate downloadReleased: 2004-10-25"
+            - link "BS EN 10204:2004 Metallic products. Types of inspection documents" [ref=e44] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/imgcache/f/1/pi449-bs-en-10204-2004-BS-EN-10204-2004-Metallic-prod_-1_-1_310589.jpg
+              - img "BS EN 10204:2004 Metallic products. Types of inspection documents" [ref=e45]
+            - generic [ref=e46]:
+              - heading "BS EN 10204:2004" [level=1] [ref=e47]
+              - heading "Metallic products. Types of inspection documents" [level=2] [ref=e48]
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - generic [ref=e51]: Format
+              - generic [ref=e52]: Availability
+              - generic [ref=e53]:
+                - text: Price and currency
+                - combobox [ref=e54]:
+                  - option "EUR" [selected]
+                  - option "GBP"
+                  - option "USD"
+            - generic [ref=e55]:
+              - generic "Secure PDF files include digital rights management (DRM) software- protected by Vitrium security. DRM is included at the request of the publisher. It helps them protect their copyright. The DRM solution works with Adobe Reader and internet viewers. For more information visit helpcenter." [ref=e58]: English Secure PDF
+              - generic [ref=e59]:
+                - text: Immediate download
+                - generic "Printable - You are authorized to print 1 copy" [ref=e60]
+              - generic [ref=e61]: 161.88 EUR
+              - button "Add to cart" [ref=e63] [cursor=pointer]
+            - generic [ref=e64]:
+              - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e67]: English Hardcopy
+              - generic [ref=e68]: In stock
+              - generic [ref=e69]: 161.88 EUR
+              - button "Add to cart" [ref=e71] [cursor=pointer]
+          - generic [ref=e74]:
+            - table [ref=e75]:
+              - rowgroup [ref=e76]:
+                - 'row "Standard number: BS EN 10204:2004" [ref=e77]':
+                  - cell "Standard number:" [ref=e78]
+                  - cell "BS EN 10204:2004" [ref=e79]
+                - 'row "Pages: 14" [ref=e80]':
+                  - cell "Pages:" [ref=e81]
+                  - cell "14" [ref=e82]
+                - 'row "Released: 2004-10-25" [ref=e83]':
+                  - cell "Released:" [ref=e84]
+                  - cell "2004-10-25" [ref=e85]
+                - 'row "ISBN: 0 580 44653 0" [ref=e86]':
+                  - cell "ISBN:" [ref=e87]
+                  - cell "0 580 44653 0" [ref=e88]
+                - 'row "Status: Standard" [ref=e89]':
+                  - cell "Status:" [ref=e90]
+                  - cell "Standard" [ref=e91]
+            - generic [ref=e93]: DESCRIPTION
+            - generic [ref=e94]:
+              - heading "BS EN 10204:2004" [level=1] [ref=e95]
+              - text: "This standard BS EN 10204:2004 Metallic products. Types of inspection documents is classified in these ICS categories:"
+              - list [ref=e96]:
+                - listitem [ref=e97]: 77.120.01 Non-ferrous metals in general
+                - listitem [ref=e98]: 77.040.01 Testing of metals in general
+                - listitem [ref=e99]: 01.110 Technical product documentation
+                - listitem [ref=e100]: 77.080.01 Ferrous metals in general
+                - listitem [ref=e101]: 77.140.01 Iron and steel products in general
+                - listitem [ref=e102]: 77.150.01 Products of non-ferrous metals in general
+              - paragraph [ref=e103]: 1.1 This document specifies the different types of inspection documents supplied to the purchaser, in accordance with the requirements of the order, for the delivery of all metallic products e.g. plates, sheets, bars, forgings, castings, whatever their method of production.
+              - paragraph [ref=e104]: 1.2 This document may also apply to non-metallic products.
+              - paragraph [ref=e105]: 1.3 This document is used in conjunction with the product specifications which specify the technical delivery conditions of the products.
+              - blockquote [ref=e106]:
+                - paragraph [ref=e107]: NOTE 1 The list of information that may be included in the inspection documents can be found in appropriate documents, e.g. EN 10168 for steel.
+                - paragraph [ref=e108]: NOTE 2 Annex A gives a summary of the different inspection documents.
+          - generic [ref=e110]:
+            - link "Print" [ref=e112] [cursor=pointer]:
+              - /url: javascript:window.print()
+            - link "RECOMMEND" [ref=e113] [cursor=pointer]:
+              - /url: mailto:?Subject=Zaj%C3%ADmav%C3%BD%20produkt&Body=https://www.en-standard.eu/bs-en-10204-2004-metallic-products-types-of-inspection-documents/
+          - generic [ref=e114]:
+            - iframe [ref=e115]:
+              
+            - link "Tweet" [ref=e117] [cursor=pointer]:
+              - /url: https://twitter.com/share
+            - button "Share" [ref=e121] [cursor=pointer]:
+              - generic [ref=e122]:
+                - img
+              - text: Share
+        - generic [ref=e123]:
+          - generic [ref=e124]: Customers who bought this item also bought
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - link "BS EN 10028-4:2017 Flat products made of steels for pressure purposes Nickel alloy steels with specified low temperature properties" [ref=e128] [cursor=pointer]:
+                  - /url: https://www.en-standard.eu/bs-en-10028-4-2017-flat-products-made-of-steels-for-pressure-purposes-nickel-alloy-steels-with-specified-low-temperature-properties/
+                  - text: BS EN 10028-4:2017
+                  - text: Flat products made of steels for pressure purposes Nickel alloy steels with specified low temperature properties
+                - generic [ref=e129]: "Released: 2017-08-25"
+              - generic [ref=e130]:
+                - generic "Secure PDF files include digital rights management (DRM) software- protected by Vitrium security. DRM is included at the request of the publisher. It helps them protect their copyright. The DRM solution works with Adobe Reader and internet viewers. For more information visit helpcenter." [ref=e133]: English Secure PDF
+                - generic [ref=e134]:
+                  - text: Immediate download
+                  - generic "Printable - You are authorized to print 1 copy" [ref=e135]
+                - generic [ref=e136]: 189.24 EUR
+                - button "Add to cart" [ref=e138] [cursor=pointer]
+              - generic [ref=e139]:
+                - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e142]: English Hardcopy
+                - generic [ref=e143]: In stock
+                - generic [ref=e144]: 189.24 EUR
+                - button "Add to cart" [ref=e146] [cursor=pointer]
+            - generic [ref=e147]:
+              - generic [ref=e148]:
+                - 'link "ISO 148-1:2016 ISO 148-1:2016 - Metallic materials — Charpy pendulum impact test — Part 1: Test method" [ref=e149] [cursor=pointer]':
+                  - /url: https://www.en-standard.eu/iso-148-1-2016-metallic-materials-charpy-pendulum-impact-test-part-1-test-method/
+                  - text: ISO 148-1:2016
+                  - text: "ISO 148-1:2016 - Metallic materials — Charpy pendulum impact test — Part 1: Test method"
+                - generic [ref=e150]: "Released: 2016-10-12"
+              - generic [ref=e151]:
+                - generic "PDF – Printable electronic format pdf, you can print the standard." [ref=e154]: English PDF
+                - generic [ref=e155]:
+                  - text: Immediate download
+                  - generic "Printable" [ref=e156]
+                - generic [ref=e157]: 180.31 EUR
+                - button "Add to cart" [ref=e159] [cursor=pointer]
+              - generic [ref=e160]:
+                - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e163]: English Hardcopy
+                - generic [ref=e164]: In stock
+                - generic [ref=e165]: 180.31 EUR
+                - button "Add to cart" [ref=e167] [cursor=pointer]
+              - generic [ref=e168]:
+                - generic "PDF – Printable electronic format pdf, you can print the standard." [ref=e171]: French PDF
+                - generic [ref=e172]:
+                  - text: Immediate download
+                  - generic "Printable" [ref=e173]
+                - generic [ref=e174]: 180.31 EUR
+                - button "Add to cart" [ref=e176] [cursor=pointer]
+              - generic [ref=e177]:
+                - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e180]: French Hardcopy
+                - generic [ref=e181]: In stock
+                - generic [ref=e182]: 180.31 EUR
+                - button "Add to cart" [ref=e184] [cursor=pointer]
+            - generic [ref=e185]:
+              - generic [ref=e186]:
+                - link "BS EN 10243-2:1999 Steel die forgings. Tolerances on dimensions Upset forgings made on horizontal forging machines" [ref=e187] [cursor=pointer]:
+                  - /url: https://www.en-standard.eu/bs-en-10243-2-1999-steel-die-forgings-tolerances-on-dimensions-upset-forgings-made-on-horizontal-forging-machines/
+                  - text: BS EN 10243-2:1999
+                  - text: Steel die forgings. Tolerances on dimensions Upset forgings made on horizontal forging machines
+                - generic [ref=e188]: "Released: 2006-02-15"
+              - generic [ref=e189]:
+                - generic "Secure PDF files include digital rights management (DRM) software- protected by Vitrium security. DRM is included at the request of the publisher. It helps them protect their copyright. The DRM solution works with Adobe Reader and internet viewers. For more information visit helpcenter." [ref=e192]: English Secure PDF
+                - generic [ref=e193]:
+                  - text: Immediate download
+                  - generic "Printable - You are authorized to print 1 copy" [ref=e194]
+                - generic [ref=e195]: 264.48 EUR
+                - button "Add to cart" [ref=e197] [cursor=pointer]
+              - generic [ref=e198]:
+                - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e201]: English Hardcopy
+                - generic [ref=e202]: In stock
+                - generic [ref=e203]: 264.48 EUR
+                - button "Add to cart" [ref=e205] [cursor=pointer]
+            - generic [ref=e206]:
+              - generic [ref=e207]:
+                - link "BS EN ISO 15614-1:2017+A1:2019 Specification and qualification of welding procedures for metallic materials. Welding procedure test Arc and gas welding of steels and arc welding of nickel and nickel alloys" [ref=e208] [cursor=pointer]:
+                  - /url: https://www.en-standard.eu/bs-en-iso-15614-1-2017-a1-2019-specification-and-qualification-of-welding-procedures-for-metallic-materials-welding-procedure-test-arc-and-gas-welding-of-steels-and-arc-welding-of-nickel-and-nickel-alloys/
+                  - text: BS EN ISO 15614-1:2017+A1:2019
+                  - text: Specification and qualification of welding procedures for metallic materials. Welding procedure test Arc and gas welding of steels and arc welding of nickel and nickel alloys
+                - generic [ref=e209]: "Released: 2019-08-21"
+              - generic [ref=e210]:
+                - generic "Secure PDF files include digital rights management (DRM) software- protected by Vitrium security. DRM is included at the request of the publisher. It helps them protect their copyright. The DRM solution works with Adobe Reader and internet viewers. For more information visit helpcenter." [ref=e213]: English Secure PDF
+                - generic [ref=e214]:
+                  - text: Immediate download
+                  - generic "Printable - You are authorized to print 1 copy" [ref=e215]
+                - generic [ref=e216]: 367.08 EUR
+                - button "Add to cart" [ref=e218] [cursor=pointer]
+              - generic [ref=e219]:
+                - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e222]: English Hardcopy
+                - generic [ref=e223]: In stock
+                - generic [ref=e224]: 367.08 EUR
+                - button "Add to cart" [ref=e226] [cursor=pointer]
+      - complementary [ref=e227]:
+        - generic [ref=e229]:
+          - link "ICS codes" [ref=e230] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/ics-codes/
+          - link "AIAG Standards" [ref=e231] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/qs-9000/
+          - link "ASTM Standards" [ref=e232] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/astm-standards/
+          - link "Annual Book of ASTM Standards" [ref=e233] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/annual-book-of-astm-standards/
+          - link "BSI Standards" [ref=e234] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/
+            - text: BSI Standards
+          - link "CSN Standards" [ref=e236] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/csn-standards/
+          - link "CQI Standards" [ref=e237] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/cqi/
+          - link "DIN Standards" [ref=e238] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/din-standards/
+          - link "IEC Standards" [ref=e239] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/iec-standards/
+          - link "IEEE Standards" [ref=e240] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/ieee-standards/
+          - link "IPC Standards" [ref=e241] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/ipc-standards/
+          - link "ISO Standards" [ref=e242] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/iso-standards/
+          - link "UNE standards" [ref=e243] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/une-standards/
+          - link "VDA Automotive Standards" [ref=e244] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/automotive-quality-standards-qs-9000/
+          - link "Eurocodes" [ref=e245] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/eurocodes/
+          - link "Sets of EN Standards" [ref=e246] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/sets-of-en-standards/
+          - link "Quality management standards ISO 9001" [ref=e247] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/quality-management-standards-iso-9001/
+          - link "Environmental management systems ISO 14001" [ref=e248] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/environmental-management-systems-iso-14001/
+          - link "Asset management ISO 55000" [ref=e249] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/asset-management-iso-55000/
+          - link "Energy management systems ISO 50001" [ref=e250] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/energy-management-systems-iso-50001/
+          - link "Facility Management EN 15221 and ISO 41000" [ref=e251] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/facility-management-en-15221-and-iso-41000/
+          - link "ISO 5817-Welding" [ref=e252] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/sets-of-en-standards-iso-5817-welding/
+          - link "Information technology ISO/IEC 27000" [ref=e253] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/information-technology-iso-iec-27000/
+    - contentinfo [ref=e254]:
+      - generic [ref=e255]:
+        - generic [ref=e256]:
+          - generic [ref=e257]: Partners
+          - generic [ref=e258]:
+            - paragraph [ref=e259]:
+              - link "ASTM Standards" [ref=e260] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/astm-standards/
+              - text: ","
+              - link "BS Standards" [ref=e261] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/bs-standards/
+            - paragraph [ref=e262]:
+              - link "DIN Standards" [ref=e263] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/din-standards/
+              - text: ","
+              - link "IEC Standards" [ref=e264] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/iec-standards/
+              - text: ","
+            - paragraph [ref=e265]:
+              - link "ISO Standards" [ref=e266] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/iso-standards/
+              - text: ","
+              - link "IEEE Standards" [ref=e267] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/ieee-standards/
+            - paragraph [ref=e268]:
+              - link "IPC Standards" [ref=e269] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/ipc-standards/
+              - text: ","
+              - link "VDA Standards" [ref=e270] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/automotive-quality-standards-qs-9000/
+            - paragraph [ref=e271]:
+              - link "CQI Manuals" [ref=e272] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/cqi/
+            - paragraph [ref=e273]
+            - paragraph [ref=e274]
+            - paragraph [ref=e275]
+            - paragraph [ref=e276]
+        - generic [ref=e277]:
+          - generic [ref=e278]: Terms and conditions
+          - generic [ref=e279]:
+            - paragraph [ref=e280]:
+              - text: Please check our
+              - link "Terms and conditions" [ref=e281] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+              - text: mainly for
+              - strong [ref=e282]: engineering standards in electronic (PDF)
+              - text: format
+            - paragraph [ref=e283]
+            - paragraph [ref=e284]:
+              - link "Privacy Policy" [ref=e285] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/publicdoc/privacy-policy-en-standard-1.pdf
+        - generic [ref=e287]:
+          - generic [ref=e288]: 3D Secure payment
+          - paragraph [ref=e289]
+        - generic [ref=e290]:
+          - generic [ref=e291]: Contacts
+          - generic [ref=e292]:
+            - paragraph [ref=e293]:
+              - text: "email:"
+              - link "info@en-standard.eu" [ref=e294] [cursor=pointer]:
+                - /url: mailto:info@en-standard.eu
+            - paragraph [ref=e295]: "Phone: +420 377 921 379"
+            - paragraph [ref=e296]: "Fax: +420 960 377 387 684"
+        - generic [ref=e297]:
+          - generic [ref=e298]: Copyright 2026 © EUROPEAN STANDARD. All rights reserved.
+          - generic [ref=e299]:
+            - link "SITEMAP" [ref=e300] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/sitemap-en/
+            - link "Ecommerce solutions" [ref=e301] [cursor=pointer]:
+              - /url: https://www.binargon.cz/eshop/
+            - link "BINARGON.cz" [ref=e302] [cursor=pointer]:
+              - /url: https://www.binargon.cz/
+        - generic [ref=e303]:
+          - paragraph [ref=e304]
+          - paragraph [ref=e305]:
+            - link "facebook" [ref=e306] [cursor=pointer]:
+              - /url: https://www.facebook.com/pages/European-Standards-Online-Store/113965131954594?fref=ts
+              - img "facebook" [ref=e307]
+            - link "google plus" [ref=e308] [cursor=pointer]:
+              - /url: https://plus.google.com/u/0/b/109762724017410291385/
+              - img "google plus" [ref=e309]
+            - link "twitter" [ref=e310] [cursor=pointer]:
+              - /url: https://twitter.com/enstandards
+              - img "twitter" [ref=e311]
+            - link "linkedin" [ref=e312] [cursor=pointer]:
+              - /url: http://www.linkedin.com/pub/en-standards/a3/a86/a54
+              - img "linkedin" [ref=e313]
+  - generic:
+    - complementary [ref=e314]:
+      - generic [ref=e315]: Cookies + GDPR
+      - generic [ref=e316]: European Standards and partners need your consent to use individual data in order to show you information related to your interests through ad personalization, among other things. You give consent by clicking on the checkbox "Yes, I agree".
+      - generic [ref=e317]:
+        - button "Reject everything" [ref=e318] [cursor=pointer]
+        - button "Yes, I accept" [ref=e319] [cursor=pointer]
+        - button "Detailed settings with explanations can be found here" [ref=e320] [cursor=pointer]
+    - complementary [ref=e321] [cursor=pointer]:
+      - generic [ref=e322]: Privacy
+  - iframe [ref=e323]:
+    

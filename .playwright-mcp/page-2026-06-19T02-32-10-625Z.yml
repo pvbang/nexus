@@ -1,0 +1,1108 @@
+- generic [active] [ref=e1]:
+  - iframe [ref=e2]:
+    - iframe [ref=f105e3]:
+      - img [ref=f106e3] [cursor=pointer]
+  - text:     
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - text: 
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "Logo" [ref=e9] [cursor=pointer]:
+            - /url: /
+            - img "Logo" [ref=e10]
+          - generic [ref=e11]:
+            - link "ThuVienNhaDat .vn" [ref=e12] [cursor=pointer]:
+              - /url: /
+              - strong [ref=e13]:
+                - text: ThuVienNhaDat
+                - generic [ref=e14]: .vn
+            - strong [ref=e16]: Trang thông tin điện tử tổng hợp
+            - generic [ref=e18]: ...hiểu pháp lý, rõ quy hoạch, giao dịch nhanh...
+          - generic [ref=e19] [cursor=pointer]:
+            - link "Nhà đất bán" [ref=e20]:
+              - /url: /ban-nha-dat-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+            - generic [ref=e21]:
+              - link "Căn hộ chung cư" [ref=e22]:
+                - /url: /ban-can-ho-chung-cu-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e23]: Căn hộ chung cư
+              - link "Nhà tái định cư" [ref=e24]:
+                - /url: /ban-nha-tai-dinh-cu-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e25]: Nhà tái định cư
+              - link "Chung cư mini, căn hộ dịch vụ" [ref=e26]:
+                - /url: /ban-chung-cu-mini-can-ho-dich-vu-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e27]: Chung cư mini, căn hộ dịch vụ
+              - link "Nhà riêng" [ref=e28]:
+                - /url: /ban-nha-rieng-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e29]: Nhà riêng
+              - link "Nhà biệt thự, liền kề" [ref=e30]:
+                - /url: /ban-nha-biet-thu-lien-ke-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e31]: Nhà biệt thự, liền kề
+              - link "Nhà mặt phố" [ref=e32]:
+                - /url: /ban-nha-mat-pho-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e33]: Nhà mặt phố
+              - link "Nhà phố thương mại" [ref=e34]:
+                - /url: /ban-nha-pho-thuong-mai-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e35]: Nhà phố thương mại
+              - link "Shophouse" [ref=e36]:
+                - /url: /ban-shop-house-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e37]: Shophouse
+              - link "Condotel" [ref=e38]:
+                - /url: /ban-condotel-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e39]: Condotel
+              - link "Đất" [ref=e40]:
+                - /url: /ban-dat-o-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e41]: Đất
+              - link "Đất nền dự án" [ref=e42]:
+                - /url: /ban-dat-nen-du-an-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e43]: Đất nền dự án
+              - link "Kho, nhà xưởng" [ref=e44]:
+                - /url: /ban-kho-nha-xuong-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e45]: Kho, nhà xưởng
+              - link "Bất động sản khác" [ref=e46]:
+                - /url: /ban-bat-dong-san-khac-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e47]: Bất động sản khác
+          - generic [ref=e48] [cursor=pointer]:
+            - link "Nhà đất cho thuê" [ref=e49]:
+              - /url: /cho-thue-nha-dat-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+            - generic [ref=e50]:
+              - link "Căn hộ chung cư" [ref=e51]:
+                - /url: /cho-thue-can-ho-chung-cu-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e52]: Căn hộ chung cư
+              - link "Chung cư mini, căn hộ dịch vụ" [ref=e53]:
+                - /url: /cho-thue-chung-cu-mini-can-ho-dich-vu-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e54]: Chung cư mini, căn hộ dịch vụ
+              - link "Nhà riêng" [ref=e55]:
+                - /url: /cho-thue-nha-rieng-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e56]: Nhà riêng
+              - link "Nhà biệt thự, liền kề" [ref=e57]:
+                - /url: /cho-thue-nha-biet-thu-lien-ke-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e58]: Nhà biệt thự, liền kề
+              - link "Nhà mặt phố" [ref=e59]:
+                - /url: /cho-thue-nha-mat-pho-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e60]: Nhà mặt phố
+              - link "Nhà phố thương mại" [ref=e61]:
+                - /url: /cho-thue-nha-pho-thuong-mai-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e62]: Nhà phố thương mại
+              - link "Nhà tái định cư" [ref=e63]:
+                - /url: /cho-thue-nha-tai-dinh-cu-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e64]: Nhà tái định cư
+              - link "Shophouse" [ref=e65]:
+                - /url: /cho-thue-shop-house-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e66]: Shophouse
+              - link "Condotel" [ref=e67]:
+                - /url: /cho-thue-condotel-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e68]: Condotel
+              - link "Nhà trọ, phòng trọ" [ref=e69]:
+                - /url: /cho-thue-nha-tro-phong-tro-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e70]: Nhà trọ, phòng trọ
+              - link "Văn phòng" [ref=e71]:
+                - /url: /cho-thue-van-phong-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e72]: Văn phòng
+              - link "Mặt bằng kinh doanh, cửa hàng, kiot" [ref=e73]:
+                - /url: /cho-thue-cua-hang-ki-ot-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e74]: Mặt bằng kinh doanh, cửa hàng, kiot
+              - link "Kho, nhà xưởng" [ref=e75]:
+                - /url: /cho-thue-kho-nha-xuong-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e76]: Kho, nhà xưởng
+              - link "Bất động sản khác" [ref=e77]:
+                - /url: /cho-thue-bat-dong-san-khac-toan-quoc?utm_source=thuviennhadat_trangchu&utm_medium=internal&utm_campaign=rao_vat_tu_trangchu&utm_content=menu_header
+                - generic [ref=e78]: Bất động sản khác
+          - generic [ref=e79] [cursor=pointer]:
+            - link "Dự án" [ref=e80]:
+              - /url: /du-an-bat-dong-san
+            - generic [ref=e81]:
+              - link "Căn hộ chung cư" [ref=e82]:
+                - /url: /du-an-can-ho-chung-cu
+                - generic [ref=e83]: Căn hộ chung cư
+              - link "Nhà tái định cư" [ref=e84]:
+                - /url: /du-an-nha-tai-dinh-cu
+                - generic [ref=e85]: Nhà tái định cư
+              - link "Cao ốc văn phòng" [ref=e86]:
+                - /url: /du-an-cao-oc-van-phong
+                - generic [ref=e87]: Cao ốc văn phòng
+              - link "Đất chăn nuôi" [ref=e88]:
+                - /url: /du-an-dat-chan-nuoi
+                - generic [ref=e89]: Đất chăn nuôi
+              - link "Trung tâm thương mại" [ref=e90]:
+                - /url: /du-an-trung-tam-thuong-mai
+                - generic [ref=e91]: Trung tâm thương mại
+              - link "Biệt thự, liền kề" [ref=e92]:
+                - /url: /du-an-biet-thu-lien-ke
+                - generic [ref=e93]: Biệt thự, liền kề
+              - link "Nhà mặt phố" [ref=e94]:
+                - /url: /du-an-nha-mat-pho
+                - generic [ref=e95]: Nhà mặt phố
+              - link "Nhà hẻm" [ref=e96]:
+                - /url: /du-an-nha-hem
+                - generic [ref=e97]: Nhà hẻm
+              - link "Khu đô thị mới" [ref=e98]:
+                - /url: /du-an-khu-do-thi-moi
+                - generic [ref=e99]: Khu đô thị mới
+              - link "Khu phức hợp" [ref=e100]:
+                - /url: /du-an-khu-phuc-hop
+                - generic [ref=e101]: Khu phức hợp
+              - link "Nhà ở xã hội" [ref=e102]:
+                - /url: /du-an-nha-o-xa-hoi
+                - generic [ref=e103]: Nhà ở xã hội
+              - link "Khu công nghiệp" [ref=e104]:
+                - /url: /du-an-khu-cong-nghiep
+                - generic [ref=e105]: Khu công nghiệp
+              - link "Dự án khác" [ref=e106]:
+                - /url: /du-an-khac
+                - generic [ref=e107]: Dự án khác
+              - link "Shophouse" [ref=e108]:
+                - /url: /du-an-shophouse
+                - generic [ref=e109]: Shophouse
+              - link "Đất nền" [ref=e110]:
+                - /url: /du-an-dat-nen
+                - generic [ref=e111]: Đất nền
+              - link "Condotel" [ref=e112]:
+                - /url: /du-an-condotel
+                - generic [ref=e113]: Condotel
+          - generic [ref=e114] [cursor=pointer]:
+            - generic [ref=e115]: Môi giới
+            - generic [ref=e116]:
+              - link "Chuyên trang môi giới" [ref=e117]:
+                - /url: /nha-moi-gioi
+                - generic [ref=e118]: Chuyên trang môi giới
+              - link "Danh bạ môi giới" [ref=e119]:
+                - /url: /moi-gioi
+                - generic [ref=e120]: Danh bạ môi giới
+          - generic [ref=e121] [cursor=pointer]:
+            - generic [ref=e122]: Thông tin BĐS
+            - generic [ref=e124]:
+              - link "Bảng giá đất 2026 Mới" [ref=e126]:
+                - /url: /bang-gia-dat-moi-nhat-2026
+                - text: Bảng giá đất 2026
+                - strong [ref=e127]: Mới
+              - generic [ref=e128]:
+                - link "Pháp lý nhà đất " [ref=e129]:
+                  - /url: /phap-ly-nha-dat
+                  - text: Pháp lý nhà đất
+                  - generic [ref=e130]: 
+                - generic [ref=e131]:
+                  - link "Chính sách mới về nhà đất" [ref=e132]:
+                    - /url: /phap-ly-nha-dat/chinh-sach-moi-ve-nha-dat
+                  - link "Hồ sơ, thủ tục nhà đất" [ref=e133]:
+                    - /url: /phap-ly-nha-dat/ho-so-thu-tuc-nha-dat
+                  - link "Pháp luật về bất động sản" [ref=e134]:
+                    - /url: /phap-ly-nha-dat/phap-luat-ve-bat-dong-san
+                  - link "Quy hoạch đất đai" [ref=e135]:
+                    - /url: /phap-ly-nha-dat/quy-hoach-dat-dai
+                  - link "Thông tin bất động sản" [ref=e136]:
+                    - /url: /phap-ly-nha-dat/thong-tin-bat-dong-san
+                  - link "Tư vấn pháp lý nhà đất" [ref=e137]:
+                    - /url: /phap-ly-nha-dat/tu-van-phap-ly-nha-dat
+              - generic [ref=e138]:
+                - link "Bất động sản " [ref=e139]:
+                  - /url: /bat-dong-san
+                  - text: Bất động sản
+                  - generic [ref=e140]: 
+                - generic [ref=e141]:
+                  - link "Dự án Nhà đất" [ref=e142]:
+                    - /url: /bat-dong-san/du-an-nha-dat
+                  - link "Mua bán Nhà đất" [ref=e143]:
+                    - /url: /bat-dong-san/mua-ban-nha-dat
+              - generic [ref=e144]:
+                - link "Cẩm nang nhà đất " [ref=e145]:
+                  - /url: /cam-nang-nha-dat
+                  - text: Cẩm nang nhà đất
+                  - generic [ref=e146]: 
+                - generic [ref=e147]:
+                  - link "Kinh nghiệm mua bán cho thuê" [ref=e148]:
+                    - /url: /cam-nang-nha-dat/kinh-nghiem-mua-ban-cho-thue
+                  - link "Phong thủy nhà đất" [ref=e149]:
+                    - /url: /cam-nang-nha-dat/phong-thuy-nha-dat
+                  - link "Thuật ngữ nhà đất" [ref=e150]:
+                    - /url: /cam-nang-nha-dat/thuat-ngu-nha-dat
+                  - link "Vật liệu xây dựng" [ref=e151]:
+                    - /url: /cam-nang-nha-dat/vat-lieu-xay-dung
+              - link "Tài chính bất động sản" [ref=e153]:
+                - /url: /tai-chinh-bat-dong-san
+              - link "Thị trường bất động sản" [ref=e155]:
+                - /url: /thi-truong-bat-dong-san
+              - generic [ref=e156]:
+                - link "Không gian sống " [ref=e157]:
+                  - /url: /khong-gian-song
+                  - text: Không gian sống
+                  - generic [ref=e158]: 
+                - generic [ref=e159]:
+                  - link "Nhà đẹp, vườn đẹp" [ref=e160]:
+                    - /url: /khong-gian-song/nha-dep-vuon-dep
+                  - link "Nội thất, ngoại thất" [ref=e161]:
+                    - /url: /khong-gian-song/noi-that-ngoai-that
+                  - link "Thiết bị gia dụng" [ref=e162]:
+                    - /url: /khong-gian-song/thiet-bi-gia-dung
+              - generic [ref=e163]:
+                - link "Pháp luật " [ref=e164]:
+                  - /url: /phap-luat
+                  - text: Pháp luật
+                  - generic [ref=e165]: 
+                - generic [ref=e166]:
+                  - link "Chỉ đạo - Điều hành" [ref=e167]:
+                    - /url: /phap-luat/chi-dao-dieu-hanh
+                  - link "Đất đai và Nhà ở" [ref=e168]:
+                    - /url: /phap-luat/dat-dai-va-nha-o
+                  - link "Hạ tầng bất động sản" [ref=e169]:
+                    - /url: /phap-luat/ha-tang-bat-dong-san
+                  - link "Văn bản mới" [ref=e170]:
+                    - /url: /phap-luat/van-ban-moi
+              - generic [ref=e171]:
+                - link "Hỏi đáp Pháp luật nhà đất " [ref=e172]:
+                  - /url: /hoi-dap
+                  - text: Hỏi đáp Pháp luật nhà đất
+                  - generic [ref=e173]: 
+                - generic [ref=e174]:
+                  - link "Bồi thường, tái định cư" [ref=e175]:
+                    - /url: /hoi-dap/boi-thuong-tai-dinh-cu
+                  - link "Đầu tư xây dựng" [ref=e176]:
+                    - /url: /hoi-dap/dau-tu-xay-dung
+                  - link "Giao dịch nhà đất" [ref=e177]:
+                    - /url: /hoi-dap/giao-dich-nha-dat
+                  - link "Hỏi đáp khác" [ref=e178]:
+                    - /url: /hoi-dap/hoi-dap-khac
+                  - link "Tài chính nhà đất" [ref=e179]:
+                    - /url: /hoi-dap/tai-chinh-nha-dat
+                  - link "Thủ tục hành chính nhà đất" [ref=e180]:
+                    - /url: /hoi-dap/thu-tuc-hanh-chinh-nha-dat
+              - link "Văn bản Pháp luật" [ref=e182]:
+                - /url: /van-ban-phap-luat-viet-nam
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - text: Tiện ích hỗ trợ
+                  - generic [ref=e185]: 
+                - generic [ref=e186]:
+                  - link "Tra cứu sáp nhập tỉnh" [ref=e187]:
+                    - /url: /sap-nhap-tinh
+                  - link "Tra cứu bảng giá đất" [ref=e188]:
+                    - /url: /bang-gia-dat
+                  - link "Tính dự toán xây nhà" [ref=e189]:
+                    - /url: /tinh-du-toan-vat-lieu-xay-nha
+                  - link "Tính lãi suất vay" [ref=e190]:
+                    - /url: /tinh-lai-suat-vay
+        - generic [ref=e192]:
+          - text:   
+          - generic [ref=e193]:
+            - button "Đăng nhập" [ref=e194] [cursor=pointer]
+            - button "Đăng ký" [ref=e196] [cursor=pointer]
+          - link "Đăng tin" [ref=e197] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - link "" [ref=e198] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e199]: 
+    - text:                                 
+    - main [ref=e200]:
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - generic "Tìm kiếm Văn bản" [ref=e204]:
+              - generic [ref=e205]: Văn bản Pháp Luật
+              - text: 
+            - generic "Tìm kiếm Dự thảo" [ref=e206]:
+              - generic [ref=e207]: Dự thảo
+              - text: 
+            - generic "Tìm kiếm Công văn" [ref=e208]:
+              - generic [ref=e209]: Công văn
+              - text: 
+            - generic "Tìm kiếm Tiêu chuẩn Việt Nam" [ref=e210]:
+              - generic [ref=e211]: Tiêu chuẩn Việt Nam
+              - text: 
+          - generic [ref=e212]:
+            - generic [ref=e214]: "Từ khoá: Số Hiệu, Tiêu đề hoặc Nội dung ngắn gọn của Văn Bản..."
+            - generic [ref=e217]:
+              - generic: 
+              - textbox "Tìm kiếm văn bản pháp luật" [ref=e218]
+              - button "Tìm kiếm" [ref=e219] [cursor=pointer]
+            - generic [ref=e220]:
+              - text: "Tra cứu nhanh:"
+              - generic [ref=e221]: Thời điểm Áp dụng | Tình trạng Hiệu lực | Lĩnh vực, Ngành | Thời gian Ban hành
+        - complementary [ref=e223]:
+          - generic [ref=e224]: HỖ TRỢ TRỰC TUYẾN
+          - generic [ref=e225]:
+            - link " Hỗ trợ qua Zalo" [ref=e228] [cursor=pointer]:
+              - /url: https://zalo.me/thuviennhadat
+              - generic [ref=e229]: 
+              - text: Hỗ trợ qua Zalo
+            - generic [ref=e231]:
+              - generic [ref=e232]: 
+              - text: 0858 22 99 66
+            - generic [ref=e234]:
+              - generic [ref=e235]: 
+              - text: (028) 36 22 43 63
+            - link " Mời góp ý" [ref=e237] [cursor=pointer]:
+              - /url: https://thuviennhadat.vn/lien-he.html
+              - generic [ref=e238]: 
+              - text: Mời góp ý
+        - complementary [ref=e240]:
+          - generic [ref=e242]:
+            - text: ĐĂNG NHẬP
+            - strong [ref=e243]: THƯ VIỆN PHÁP LUẬT
+          - generic [ref=e244]:
+            - generic [ref=e246]:
+              - generic: 
+              - textbox "Tài khoản Thư Viện Pháp Luật" [ref=e247]
+            - generic [ref=e248]:
+              - generic [ref=e250]:
+                - generic: 
+                - textbox "Mật khẩu" [ref=e251]
+              - generic [ref=e253] [cursor=pointer]: Đăng nhập
+      - generic [ref=e255]:
+        - complementary [ref=e257]:
+          - link "CẨM NANG NHÀ ĐẤT" [ref=e259] [cursor=pointer]:
+            - /url: /cam-nang-nha-dat
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - generic:
+                - link "Bảng giá vật liệu xây dựng Lai Châu tháng 5/2026":
+                  - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-lai-chau-thang-5-2026-740516.html
+              - link "Bảng giá vật liệu xây dựng Lai Châu tháng 5/2026" [ref=e265] [cursor=pointer]:
+                - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-lai-chau-thang-5-2026-740516.html
+            - generic [ref=e266]:
+              - generic:
+                - link "Bảng giá vật liệu xây dựng Hà Tĩnh tháng 5/2026":
+                  - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-ha-tinh-thang-5-2026-740515.html
+              - link "Bảng giá vật liệu xây dựng Hà Tĩnh tháng 5/2026" [ref=e269] [cursor=pointer]:
+                - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-ha-tinh-thang-5-2026-740515.html
+            - generic [ref=e270]:
+              - generic:
+                - link "Bảng giá vật liệu xây dựng Quảng Trị tháng 5/2026":
+                  - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-quang-tri-thang-5-2026-740514.html
+              - link "Bảng giá vật liệu xây dựng Quảng Trị tháng 5/2026" [ref=e273] [cursor=pointer]:
+                - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-quang-tri-thang-5-2026-740514.html
+            - generic [ref=e274]:
+              - generic:
+                - link "Bảng giá vật liệu xây dựng Quảng Ngãi tháng 5/2026":
+                  - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-quang-ngai-thang-5-2026-740513.html
+              - link "Bảng giá vật liệu xây dựng Quảng Ngãi tháng 5/2026" [ref=e277] [cursor=pointer]:
+                - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-quang-ngai-thang-5-2026-740513.html
+            - generic [ref=e278]:
+              - generic:
+                - link "Bảng giá vật liệu xây dựng Vĩnh Long tháng 5/2026":
+                  - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-vinh-long-thang-5-2026-740512.html
+              - link "Bảng giá vật liệu xây dựng Vĩnh Long tháng 5/2026" [ref=e281] [cursor=pointer]:
+                - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-vinh-long-thang-5-2026-740512.html
+            - generic [ref=e282]:
+              - generic:
+                - link "Bảng giá vật liệu xây dựng Đà Nẵng tháng 5/2026":
+                  - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-da-nang-thang-5-2026-740507.html
+              - link "Bảng giá vật liệu xây dựng Đà Nẵng tháng 5/2026" [ref=e285] [cursor=pointer]:
+                - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-da-nang-thang-5-2026-740507.html
+            - generic [ref=e286]:
+              - generic:
+                - link "Bảng giá vật liệu xây dựng thành phố Huế tháng 5/2026":
+                  - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-thanh-pho-hue-thang-5-2026-740508.html
+              - link "Bảng giá vật liệu xây dựng thành phố Huế tháng 5/2026" [ref=e289] [cursor=pointer]:
+                - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-thanh-pho-hue-thang-5-2026-740508.html
+            - generic [ref=e290]:
+              - generic:
+                - link "Giá vật liệu xây dựng Đồng Tháp tháng 5/2026":
+                  - /url: /cam-nang-nha-dat/gia-vat-lieu-xay-dung-dong-thap-thang-5-2026-740511.html
+              - link "Giá vật liệu xây dựng Đồng Tháp tháng 5/2026" [ref=e293] [cursor=pointer]:
+                - /url: /cam-nang-nha-dat/gia-vat-lieu-xay-dung-dong-thap-thang-5-2026-740511.html
+            - generic [ref=e294]:
+              - generic:
+                - link "Bảng giá vật liệu xây dựng Lâm Đồng tháng 5/2026":
+                  - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-lam-dong-thang-5-2026-740504.html
+              - link "Bảng giá vật liệu xây dựng Lâm Đồng tháng 5/2026" [ref=e297] [cursor=pointer]:
+                - /url: /cam-nang-nha-dat/bang-gia-vat-lieu-xay-dung-lam-dong-thang-5-2026-740504.html
+            - generic [ref=e298]:
+              - generic:
+                - link "Giá vật liệu xây dựng tỉnh Khánh Hòa tháng 5/2026":
+                  - /url: /cam-nang-nha-dat/gia-vat-lieu-xay-dung-tinh-khanh-hoa-thang-5-2026-739456.html
+              - link "Giá vật liệu xây dựng tỉnh Khánh Hòa tháng 5/2026" [ref=e301] [cursor=pointer]:
+                - /url: /cam-nang-nha-dat/gia-vat-lieu-xay-dung-tinh-khanh-hoa-thang-5-2026-739456.html
+          - link " Xem thêm" [ref=e302] [cursor=pointer]:
+            - /url: /cam-nang-nha-dat
+            - generic [ref=e303]: 
+            - text: Xem thêm
+        - generic [ref=e305]:
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - generic [ref=e309]: Văn bản Pháp luật mới
+              - generic [ref=e311]: Công văn mới
+              - generic [ref=e313]: Tiêu chuẩn (TCVN) mới
+              - generic [ref=e315]: Dự thảo mới
+            - generic [ref=e317]:
+              - generic [ref=e318]:
+                - generic [ref=e320]: "1"
+                - generic [ref=e323]:
+                  - generic [ref=e324]:
+                    - link "Văn bản hợp nhất 69/VBHN-BNNMT năm 2026 hợp nhất Thông tư quy định kỹ thuật điều tra, đánh giá tài nguyên và thăm dò khoáng sản đất hiếm do Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành" [ref=e326] [cursor=pointer]:
+                      - /url: /vbpl/van-ban-hop-nhat-69-vbhn-bnnmt-2026-thong-tu-ky-thuat-dieu-tra-tham-do-khoang-san-dat-hiem-710978.html
+                    - generic [ref=e327]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e329]:
+                    - generic [ref=e330]:
+                      - text: "Ban hành: 17/06/2026"
+                      - link "Cẩm nang nhà đất" [ref=e331] [cursor=pointer]:
+                        - img [ref=e333]
+                        - text: Cẩm nang nhà đất
+                    - generic [ref=e335]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e336]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e337]: "Cập nhật: 18/06/2026"
+              - generic [ref=e338]:
+                - generic [ref=e340]: "2"
+                - generic [ref=e343]:
+                  - generic [ref=e344]:
+                    - link "Văn bản hợp nhất 48/VBHN-BXD năm 2026 hợp nhất Nghị định về quản lý không gian xây dựng ngầm đô thị do Bộ trưởng Bộ Xây dựng ban hành" [ref=e346] [cursor=pointer]:
+                      - /url: /vbpl/van-ban-hop-nhat-48-vbhn-bxd-2026-nghi-dinh-quan-ly-khong-gian-xay-dung-ngam-do-thi-710977.html
+                    - generic [ref=e347]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e349]:
+                    - generic [ref=e350]: "Ban hành: 17/06/2026"
+                    - generic [ref=e351]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e352]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e353]: "Cập nhật: 18/06/2026"
+              - generic [ref=e354]:
+                - generic [ref=e356]: "3"
+                - generic [ref=e359]:
+                  - generic [ref=e360]:
+                    - link "Văn bản hợp nhất 50/VBHN-BXD năm 2026 hợp nhất Nghị định về thoát nước và xử lý nước thải do Bộ Xây dựng ban hành" [ref=e362] [cursor=pointer]:
+                      - /url: /vbpl/van-ban-hop-nhat-50-vbhn-bxd-2026-nghi-dinh-thoat-nuoc-va-xu-ly-nuoc-thai-710945.html
+                    - generic [ref=e363]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e365]:
+                    - generic [ref=e366]: "Ban hành: 17/06/2026"
+                    - generic [ref=e367]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e368]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e369]: "Cập nhật: 18/06/2026"
+              - generic [ref=e370]:
+                - generic [ref=e372]: "4"
+                - generic [ref=e375]:
+                  - generic [ref=e376]:
+                    - link "Văn bản hợp nhất 47/VBHN-BXD năm 2026 hợp nhất Nghị định về quản lý và sử dụng chung công trình hạ tầng kỹ thuật do Bộ Xây dựng ban hành" [ref=e378] [cursor=pointer]:
+                      - /url: /vbpl/van-ban-hop-nhat-47-vbhn-bxd-2026-nghi-dinh-quan-ly-cong-trinh-ha-tang-ky-thuat-710944.html
+                    - generic [ref=e379]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e381]:
+                    - generic [ref=e382]: "Ban hành: 17/06/2026"
+                    - generic [ref=e383]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e384]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e385]: "Cập nhật: 18/06/2026"
+              - generic [ref=e386]:
+                - generic [ref=e388]: "5"
+                - generic [ref=e391]:
+                  - generic [ref=e392]:
+                    - link "Văn bản hợp nhất 49/VBHN-BXD năm 2026 hợp nhất Thông tư hướng dẫn về quản lý cơ sở dữ liệu công trình ngầm đô thị do Bộ Xây dựng ban hành" [ref=e394] [cursor=pointer]:
+                      - /url: /vbpl/van-ban-hop-nhat-49-vbhn-bxd-2026-thong-tu-quan-ly-co-so-du-lieu-cong-trinh-ngam-do-thi-710881.html
+                    - generic [ref=e395]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e397]:
+                    - generic [ref=e398]: "Ban hành: 17/06/2026"
+                    - generic [ref=e399]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e400]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e401]:
+                      - text: "Cập nhật: 18/06/2026"
+                      - link "Pháp luật bất động sản" [ref=e402] [cursor=pointer]:
+                        - img [ref=e404]
+                        - text: Pháp luật bất động sản
+              - generic [ref=e406]:
+                - generic [ref=e408]: "6"
+                - generic [ref=e411]:
+                  - generic [ref=e412]:
+                    - link "Thông tư 24/2026/TT-NHNN sửa đổi Thông tư 14/2024/TT-NHNN quy định về phân loại tài sản có của tổ chức tài chính vi mô và Thông tư 36/2024/TT-NHNN quy định về phân loại tài sản có của tổ chức tín dụng là hợp tác xã do Thống đốc Ngân hàng Nhà nước Việt Nam ban hành" [ref=e414] [cursor=pointer]:
+                      - /url: /vbpl/thong-tu-24-2026-tt-nhnn-sua-doi-thong-tu-14-2024-tt-nhnn-36-2024-tt-nhnn-710964.html
+                    - generic [ref=e415]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e417]:
+                    - generic [ref=e418]: "Ban hành: 17/06/2026"
+                    - generic [ref=e419]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e420]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e421]: "Cập nhật: 18/06/2026"
+              - generic [ref=e422]:
+                - generic [ref=e424]: "7"
+                - generic [ref=e427]:
+                  - generic [ref=e428]:
+                    - link "Thông tư 21/2026/TT-BYT quy định về phân cấp trong lĩnh vực y, dược cổ truyền do Bộ trưởng Bộ Y tế ban hành" [ref=e430] [cursor=pointer]:
+                      - /url: /vbpl/thong-tu-21-2026-tt-byt-phan-cap-trong-linh-vuc-y-duoc-co-truyen-710889.html
+                    - generic [ref=e431]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e433]:
+                    - generic [ref=e434]: "Ban hành: 17/06/2026"
+                    - generic [ref=e435]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e436]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e437]: "Cập nhật: 18/06/2026"
+              - generic [ref=e438]:
+                - generic [ref=e440]: "8"
+                - generic [ref=e443]:
+                  - generic [ref=e444]:
+                    - link "Quyết định 1091/QĐ-TTg năm 2026 phê duyệt Đề án hình thành các doanh nghiệp công nghệ chiến lược quy mô lớn trong nước để phát triển hạ tầng số, nhân lực số, dữ liệu số, công nghệ chiến lược, an ninh mạng giai đoạn 2026-2030 do Thủ tướng Chính phủ ban hành" [ref=e446] [cursor=pointer]:
+                      - /url: /vbpl/quyet-dinh-1091-qd-ttg-2026-de-an-hinh-thanh-cac-doanh-nghiep-cong-nghe-chien-luoc-quy-mo-lon-710974.html
+                    - generic [ref=e447]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e449]:
+                    - generic [ref=e450]: "Ban hành: 17/06/2026"
+                    - generic [ref=e451]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e452]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e453]: "Cập nhật: 18/06/2026"
+              - generic [ref=e454]:
+                - generic [ref=e456]: "9"
+                - generic [ref=e459]:
+                  - generic [ref=e460]:
+                    - link "Quyết định 945/QĐ-BXD năm 2026 về Từ điển dữ liệu dùng chung ngành xây dựng (Phiên bản 1.0) do Bộ trưởng Bộ Xây dựng ban hành" [ref=e462] [cursor=pointer]:
+                      - /url: /vbpl/quyet-dinh-945-qd-bxd-2026-tu-dien-du-lieu-dung-chung-nganh-xay-dung-phien-ban-1-0-710948.html
+                    - generic [ref=e463]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e465]:
+                    - generic [ref=e466]: "Ban hành: 17/06/2026"
+                    - generic [ref=e467]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e468]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e469]: "Cập nhật: 19/06/2026"
+              - generic [ref=e470]:
+                - generic [ref=e472]: "10"
+                - generic [ref=e475]:
+                  - generic [ref=e476]:
+                    - link "Quyết định 942/QĐ-BXD năm 2026 về Khung kiến trúc dữ liệu; Khung quản trị, quản lý dữ liệu Bộ Xây dựng (Phiên bản 1.0)" [ref=e478] [cursor=pointer]:
+                      - /url: /vbpl/quyet-dinh-942-qd-bxd-2026-khung-kien-truc-du-lieu-khung-quan-tri-quan-ly-du-lieu-phien-ban-1-0-710947.html
+                    - generic [ref=e479]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e481]:
+                    - generic [ref=e482]: "Ban hành: 17/06/2026"
+                    - generic [ref=e483]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e484]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e485]: "Cập nhật: 19/06/2026"
+          - generic [ref=e486]:
+            - generic [ref=e487]:
+              - generic [ref=e489]: Văn bản sắp có hiệu lực
+              - generic [ref=e491]: Văn bản sắp hết hiệu lực
+            - generic [ref=e493]:
+              - generic [ref=e494]:
+                - generic [ref=e496]: "1"
+                - generic [ref=e499]:
+                  - generic [ref=e500]:
+                    - link "Thông tư 24/2026/TT-NHNN sửa đổi Thông tư 14/2024/TT-NHNN quy định về phân loại tài sản có của tổ chức tài chính vi mô và Thông tư 36/2024/TT-NHNN quy định về phân loại tài sản có của tổ chức tín dụng là hợp tác xã do Thống đốc Ngân hàng Nhà nước Việt Nam ban hành" [ref=e502] [cursor=pointer]:
+                      - /url: /vbpl/thong-tu-24-2026-tt-nhnn-sua-doi-thong-tu-14-2024-tt-nhnn-36-2024-tt-nhnn-710964.html
+                    - generic [ref=e503]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e505]:
+                    - generic [ref=e506]: "Ban hành: 17/06/2026"
+                    - generic [ref=e507]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e508]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e509]: "Cập nhật: 18/06/2026"
+              - generic [ref=e510]:
+                - generic [ref=e512]: "2"
+                - generic [ref=e515]:
+                  - generic [ref=e516]:
+                    - link "Thông tư 21/2026/TT-BYT quy định về phân cấp trong lĩnh vực y, dược cổ truyền do Bộ trưởng Bộ Y tế ban hành" [ref=e518] [cursor=pointer]:
+                      - /url: /vbpl/thong-tu-21-2026-tt-byt-phan-cap-trong-linh-vuc-y-duoc-co-truyen-710889.html
+                    - generic [ref=e519]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e521]:
+                    - generic [ref=e522]: "Ban hành: 17/06/2026"
+                    - generic [ref=e523]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e524]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e525]: "Cập nhật: 18/06/2026"
+              - generic [ref=e526]:
+                - generic [ref=e528]: "3"
+                - generic [ref=e531]:
+                  - generic [ref=e532]:
+                    - link "Quyết định 949/QĐ-BXD năm 2026 công bố thủ tục hành chính được sửa đổi, bổ sung trong lĩnh vực Hoạt động xây dựng theo quy định về cắt giảm, đơn giản hóa thủ tục hành chính thuộc phạm vi chức năng quản lý của Bộ Xây dựng" [ref=e534] [cursor=pointer]:
+                      - /url: /vbpl/quyet-dinh-949-qd-bxd-2026-cong-bo-thu-tuc-hanh-chinh-sua-doi-linh-vuc-hoat-dong-xay-dung-710946.html
+                    - generic [ref=e535]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e537]:
+                    - generic [ref=e538]: "Ban hành: 17/06/2026"
+                    - generic [ref=e539]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e540]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e541]: "Cập nhật: 18/06/2026"
+              - generic [ref=e542]:
+                - generic [ref=e544]: "4"
+                - generic [ref=e547]:
+                  - generic [ref=e548]:
+                    - link "Nghị định 212/2026/NĐ-CP quy định về điều kiện năng lực hoạt động xây dựng, Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng" [ref=e550] [cursor=pointer]:
+                      - /url: /vbpl/nghi-dinh-212-2026-nd-cp-dieu-kien-nang-luc-hoat-dong-xay-dung-697287.html
+                    - generic [ref=e551]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e553]:
+                    - generic [ref=e554]: "Ban hành: 17/06/2026"
+                    - generic [ref=e555]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e556]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e557]: "Cập nhật: 18/06/2026"
+              - generic [ref=e558]:
+                - generic [ref=e560]: "5"
+                - generic [ref=e563]:
+                  - generic [ref=e564]:
+                    - link "Nghị định 211/2026/NĐ-CP quy định xử phạt vi phạm hành chính về chăn nuôi" [ref=e566] [cursor=pointer]:
+                      - /url: /vbpl/nghi-dinh-211-2026-nd-cp-xu-phat-vi-pham-hanh-chinh-chan-nuoi-710863.html
+                    - generic [ref=e567]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e569]:
+                    - generic [ref=e570]: "Ban hành: 16/06/2026"
+                    - generic [ref=e571]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e572]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e573]: "Cập nhật: 18/06/2026"
+              - generic [ref=e574]:
+                - generic [ref=e576]: "6"
+                - generic [ref=e579]:
+                  - generic [ref=e580]:
+                    - link "Thông tư 74/2026/TT-BQP hướng dẫn thực hiện mức lương cơ sở đối với các đối tượng hưởng lương hoặc phụ cấp quân hàm, sinh hoạt phí từ ngân sách nhà nước trong các cơ quan, đơn vị thuộc Bộ Quốc phòng" [ref=e582] [cursor=pointer]:
+                      - /url: /vbpl/thong-tu-74-2026-tt-bqp-muc-luong-co-so-doi-tuong-huong-luong-tu-ngan-sach-nha-nuoc-710768.html
+                    - generic [ref=e583]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e585]:
+                    - generic [ref=e586]: "Ban hành: 16/06/2026"
+                    - generic [ref=e587]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e588]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e589]: "Cập nhật: 18/06/2026"
+              - generic [ref=e590]:
+                - generic [ref=e592]: "7"
+                - generic [ref=e595]:
+                  - generic [ref=e596]:
+                    - link "Thông tư 66/2026/TT-BTC hướng dẫn xác định nhu cầu, nguồn và phương thức chi thực hiện mức lương cơ sở và chế độ tiền thưởng theo Nghị định 161/2026/NĐ-CP và điều chỉnh trợ cấp hằng tháng đối với cán bộ xã đã nghỉ việc theo Nghị định 162/2026/NĐ-CP do Bộ trưởng Bộ Tài chính ban hành" [ref=e598] [cursor=pointer]:
+                      - /url: /vbpl/thong-tu-66-2026-tt-btc-xac-dinh-phuong-thuc-chi-thuc-hien-muc-luong-co-so-theo-161-2026-nd-cp-564058.html
+                    - generic [ref=e599]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e601]:
+                    - generic [ref=e602]: "Ban hành: 16/06/2026"
+                    - generic [ref=e603]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e604]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e605]: "Cập nhật: 18/06/2026"
+              - generic [ref=e606]:
+                - generic [ref=e608]: "8"
+                - generic [ref=e611]:
+                  - generic [ref=e612]:
+                    - link "Quyết định 933/QĐ-BXD năm 2026 công bố thủ tục hành chính được sửa đổi, bổ sung, bãi bỏ trong lĩnh vực Đường sắt thuộc phạm vi chức năng quản lý của Bộ Xây dựng" [ref=e614] [cursor=pointer]:
+                      - /url: /vbpl/quyet-dinh-933-qd-bxd-2026-cong-bo-thu-tuc-hanh-chinh-sua-doi-linh-vuc-duong-sat-710879.html
+                    - generic [ref=e615]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e617]:
+                    - generic [ref=e618]: "Ban hành: 16/06/2026"
+                    - generic [ref=e619]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e620]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e621]: "Cập nhật: 18/06/2026"
+              - generic [ref=e622]:
+                - generic [ref=e624]: "9"
+                - generic [ref=e627]:
+                  - generic [ref=e628]:
+                    - link "Quyết định 3864/QĐ-UBND năm 2026 công bố Danh mục 11 thủ tục hành chính cấp tỉnh bị bãi bỏ lĩnh vực Phòng bệnh thuộc phạm vi chức năng quản lý của Sở Y tế tỉnh Vĩnh Long (Thủ tục hành chính cắt giảm, đơn giản hóa theo Nghị quyết 21/2026/NQ-CP, Nghị định 165/2026/NĐ-CP và thực hiện không phụ thuộc vào địa giới hành chính)" [ref=e630] [cursor=pointer]:
+                      - /url: /vbpl/quyet-dinh-3864-qd-ubnd-2026-cong-bo-thu-tuc-hanh-chinh-linh-vuc-phong-benh-so-y-te-vinh-long-710565.html
+                    - generic [ref=e631]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e633]:
+                    - generic [ref=e634]: "Ban hành: 15/06/2026"
+                    - generic [ref=e635]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e636]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e637]: "Cập nhật: 18/06/2026"
+              - generic [ref=e638]:
+                - generic [ref=e640]: "10"
+                - generic [ref=e643]:
+                  - generic [ref=e644]:
+                    - link "Thông tư 09/2026/TT-BTP quy định chế độ báo cáo về công tác kiểm soát thủ tục hành chính do Bộ trưởng Bộ Tư pháp ban hành" [ref=e646] [cursor=pointer]:
+                      - /url: /vbpl/thong-tu-09-2026-tt-btp-che-do-bao-cao-cong-tac-kiem-soat-thu-tuc-hanh-chinh-710855.html
+                    - generic [ref=e647]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e649]:
+                    - generic [ref=e650]: "Ban hành: 15/06/2026"
+                    - generic [ref=e651]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e652]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e653]: "Cập nhật: 18/06/2026"
+          - generic [ref=e654]:
+            - generic [ref=e655]:
+              - generic [ref=e657]: Văn bản Gốc mới
+              - generic [ref=e659]: Văn bản tiếng Anh mới
+            - generic [ref=e661]:
+              - generic [ref=e662]:
+                - generic [ref=e664]: "1"
+                - generic [ref=e667]:
+                  - generic [ref=e668]:
+                    - link "Văn bản hợp nhất 69/VBHN-BNNMT năm 2026 hợp nhất Thông tư quy định kỹ thuật điều tra, đánh giá tài nguyên và thăm dò khoáng sản đất hiếm do Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành" [ref=e670] [cursor=pointer]:
+                      - /url: /vbpl/van-ban-hop-nhat-69-vbhn-bnnmt-2026-thong-tu-ky-thuat-dieu-tra-tham-do-khoang-san-dat-hiem-710978.html
+                    - generic [ref=e671]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e673]:
+                    - generic [ref=e674]: "Ban hành: 17/06/2026"
+                    - generic [ref=e675]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e676]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e677]: "Cập nhật: 18/06/2026"
+              - generic [ref=e678]:
+                - generic [ref=e680]: "2"
+                - generic [ref=e683]:
+                  - generic [ref=e684]:
+                    - link "Văn bản hợp nhất 48/VBHN-BXD năm 2026 hợp nhất Nghị định về quản lý không gian xây dựng ngầm đô thị do Bộ trưởng Bộ Xây dựng ban hành" [ref=e686] [cursor=pointer]:
+                      - /url: /vbpl/van-ban-hop-nhat-48-vbhn-bxd-2026-nghi-dinh-quan-ly-khong-gian-xay-dung-ngam-do-thi-710977.html
+                    - generic [ref=e687]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e689]:
+                    - generic [ref=e690]: "Ban hành: 17/06/2026"
+                    - generic [ref=e691]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e692]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e693]: "Cập nhật: 18/06/2026"
+              - generic [ref=e694]:
+                - generic [ref=e696]: "3"
+                - generic [ref=e699]:
+                  - generic [ref=e700]:
+                    - link "Văn bản hợp nhất 50/VBHN-BXD năm 2026 hợp nhất Nghị định về thoát nước và xử lý nước thải do Bộ Xây dựng ban hành" [ref=e702] [cursor=pointer]:
+                      - /url: /vbpl/van-ban-hop-nhat-50-vbhn-bxd-2026-nghi-dinh-thoat-nuoc-va-xu-ly-nuoc-thai-710945.html
+                    - generic [ref=e703]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e705]:
+                    - generic [ref=e706]: "Ban hành: 17/06/2026"
+                    - generic [ref=e707]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e708]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e709]: "Cập nhật: 18/06/2026"
+              - generic [ref=e710]:
+                - generic [ref=e712]: "4"
+                - generic [ref=e715]:
+                  - generic [ref=e716]:
+                    - link "Văn bản hợp nhất 47/VBHN-BXD năm 2026 hợp nhất Nghị định về quản lý và sử dụng chung công trình hạ tầng kỹ thuật do Bộ Xây dựng ban hành" [ref=e718] [cursor=pointer]:
+                      - /url: /vbpl/van-ban-hop-nhat-47-vbhn-bxd-2026-nghi-dinh-quan-ly-cong-trinh-ha-tang-ky-thuat-710944.html
+                    - generic [ref=e719]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e721]:
+                    - generic [ref=e722]: "Ban hành: 17/06/2026"
+                    - generic [ref=e723]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e724]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e725]: "Cập nhật: 18/06/2026"
+              - generic [ref=e726]:
+                - generic [ref=e728]: "5"
+                - generic [ref=e731]:
+                  - generic [ref=e732]:
+                    - link "Văn bản hợp nhất 49/VBHN-BXD năm 2026 hợp nhất Thông tư hướng dẫn về quản lý cơ sở dữ liệu công trình ngầm đô thị do Bộ Xây dựng ban hành" [ref=e734] [cursor=pointer]:
+                      - /url: /vbpl/van-ban-hop-nhat-49-vbhn-bxd-2026-thong-tu-quan-ly-co-so-du-lieu-cong-trinh-ngam-do-thi-710881.html
+                    - generic [ref=e735]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e737]:
+                    - generic [ref=e738]: "Ban hành: 17/06/2026"
+                    - generic [ref=e739]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e740]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e741]: "Cập nhật: 18/06/2026"
+              - generic [ref=e742]:
+                - generic [ref=e744]: "6"
+                - generic [ref=e747]:
+                  - generic [ref=e748]:
+                    - link "Thông tư 24/2026/TT-NHNN sửa đổi Thông tư 14/2024/TT-NHNN quy định về phân loại tài sản có của tổ chức tài chính vi mô và Thông tư 36/2024/TT-NHNN quy định về phân loại tài sản có của tổ chức tín dụng là hợp tác xã do Thống đốc Ngân hàng Nhà nước Việt Nam ban hành" [ref=e750] [cursor=pointer]:
+                      - /url: /vbpl/thong-tu-24-2026-tt-nhnn-sua-doi-thong-tu-14-2024-tt-nhnn-36-2024-tt-nhnn-710964.html
+                    - generic [ref=e751]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e753]:
+                    - generic [ref=e754]: "Ban hành: 17/06/2026"
+                    - generic [ref=e755]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e756]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e757]: "Cập nhật: 18/06/2026"
+              - generic [ref=e758]:
+                - generic [ref=e760]: "7"
+                - generic [ref=e763]:
+                  - generic [ref=e764]:
+                    - link "Thông tư 21/2026/TT-BYT quy định về phân cấp trong lĩnh vực y, dược cổ truyền do Bộ trưởng Bộ Y tế ban hành" [ref=e766] [cursor=pointer]:
+                      - /url: /vbpl/thong-tu-21-2026-tt-byt-phan-cap-trong-linh-vuc-y-duoc-co-truyen-710889.html
+                    - generic [ref=e767]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e769]:
+                    - generic [ref=e770]: "Ban hành: 17/06/2026"
+                    - generic [ref=e771]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e772]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e773]: "Cập nhật: 18/06/2026"
+              - generic [ref=e774]:
+                - generic [ref=e776]: "8"
+                - generic [ref=e779]:
+                  - generic [ref=e780]:
+                    - link "Quyết định 1091/QĐ-TTg năm 2026 phê duyệt Đề án hình thành các doanh nghiệp công nghệ chiến lược quy mô lớn trong nước để phát triển hạ tầng số, nhân lực số, dữ liệu số, công nghệ chiến lược, an ninh mạng giai đoạn 2026-2030 do Thủ tướng Chính phủ ban hành" [ref=e782] [cursor=pointer]:
+                      - /url: /vbpl/quyet-dinh-1091-qd-ttg-2026-de-an-hinh-thanh-cac-doanh-nghiep-cong-nghe-chien-luoc-quy-mo-lon-710974.html
+                    - generic [ref=e783]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e785]:
+                    - generic [ref=e786]: "Ban hành: 17/06/2026"
+                    - generic [ref=e787]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e788]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e789]: "Cập nhật: 18/06/2026"
+              - generic [ref=e790]:
+                - generic [ref=e792]: "9"
+                - generic [ref=e795]:
+                  - generic [ref=e796]:
+                    - link "Quyết định 945/QĐ-BXD năm 2026 về Từ điển dữ liệu dùng chung ngành xây dựng (Phiên bản 1.0) do Bộ trưởng Bộ Xây dựng ban hành" [ref=e798] [cursor=pointer]:
+                      - /url: /vbpl/quyet-dinh-945-qd-bxd-2026-tu-dien-du-lieu-dung-chung-nganh-xay-dung-phien-ban-1-0-710948.html
+                    - generic [ref=e799]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e801]:
+                    - generic [ref=e802]: "Ban hành: 17/06/2026"
+                    - generic [ref=e803]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e804]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e805]: "Cập nhật: 19/06/2026"
+              - generic [ref=e806]:
+                - generic [ref=e808]: "10"
+                - generic [ref=e811]:
+                  - generic [ref=e812]:
+                    - link "Quyết định 942/QĐ-BXD năm 2026 về Khung kiến trúc dữ liệu; Khung quản trị, quản lý dữ liệu Bộ Xây dựng (Phiên bản 1.0)" [ref=e814] [cursor=pointer]:
+                      - /url: /vbpl/quyet-dinh-942-qd-bxd-2026-khung-kien-truc-du-lieu-khung-quan-tri-quan-ly-du-lieu-phien-ban-1-0-710947.html
+                    - generic [ref=e815]: Tiếng Anh | Văn bản gốc | Lược đồ | Liên quan hiệu lực | Tải về
+                  - generic [ref=e817]:
+                    - generic [ref=e818]: "Ban hành: 17/06/2026"
+                    - generic [ref=e819]: "Hiệu lực: Đã biết (?)"
+                    - generic [ref=e820]: "Tình trạng: Đã biết (?)"
+                    - generic [ref=e821]: "Cập nhật: 19/06/2026"
+        - complementary [ref=e824]:
+          - link "PHÁP LÝ NHÀ ĐẤT MỚI" [ref=e826] [cursor=pointer]:
+            - /url: /phap-ly-nha-dat
+          - generic [ref=e828]:
+            - generic [ref=e829]:
+              - link "thuviennhadat.vn" [ref=e831] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/khai-thac-va-su-dung-he-thong-thong-tin-ve-hoat-dong-xay-dung-tu-01-7-2026-nhu-the-nao-740568.html
+                - img "thuviennhadat.vn" [ref=e832]
+              - link "Khai thác và sử dụng Hệ thống thông tin về hoạt động xây dựng từ 01/7/2026 như thế nào?" [ref=e835] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/khai-thac-va-su-dung-he-thong-thong-tin-ve-hoat-dong-xay-dung-tu-01-7-2026-nhu-the-nao-740568.html
+            - generic [ref=e836]:
+              - link "thuviennhadat.vn" [ref=e838] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/ma-dinh-danh-trong-he-thong-thong-tin-ve-hoat-dong-xay-dung-theo-nghi-dinh-212-2026-nhu-the-nao-740567.html
+                - img "thuviennhadat.vn" [ref=e839]
+              - link "Mã định danh trong Hệ thống thông tin về hoạt động xây dựng theo Nghị định 212/2026 như thế nào?" [ref=e842] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/ma-dinh-danh-trong-he-thong-thong-tin-ve-hoat-dong-xay-dung-theo-nghi-dinh-212-2026-nhu-the-nao-740567.html
+            - generic [ref=e843]:
+              - link "thuviennhadat.vn" [ref=e845] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/phan-dinh-trach-nhiem-giua-cac-chu-the-trong-quan-ly-xay-dung-cong-trinh-theo-nghi-dinh-207-2026-nhu-740564.html
+                - img "thuviennhadat.vn" [ref=e846]
+              - link "Phân định trách nhiệm giữa các chủ thể trong quản lý xây dựng công trình theo Nghị định 207/2026 như thế nào?" [ref=e849] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/phan-dinh-trach-nhiem-giua-cac-chu-the-trong-quan-ly-xay-dung-cong-trinh-theo-nghi-dinh-207-2026-nhu-740564.html
+            - generic [ref=e850]:
+              - link "thuviennhadat.vn" [ref=e852] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/so-bo-tong-muc-dau-tu-xay-dung-la-gi-so-bo-tong-muc-dau-tu-xay-dung-tu-01-7-2026-duoc-quy-dinh-nhu-t-740563.html
+                - img "thuviennhadat.vn" [ref=e853]
+              - link "Sơ bộ tổng mức đầu tư xây dựng là gì? Sơ bộ tổng mức đầu tư xây dựng từ 01/7/2026 được quy định như thế nào?" [ref=e856] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/so-bo-tong-muc-dau-tu-xay-dung-la-gi-so-bo-tong-muc-dau-tu-xay-dung-tu-01-7-2026-duoc-quy-dinh-nhu-t-740563.html
+            - generic [ref=e857]:
+              - link "thuviennhadat.vn" [ref=e859] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/nguyen-tac-chung-trong-quan-ly-xay-dung-cong-trinh-xay-dung-theo-nghi-dinh-207-2026-gom-nhung-gi-740556.html
+                - img "thuviennhadat.vn" [ref=e860]
+              - link "Nguyên tắc chung trong quản lý xây dựng công trình xây dựng theo Nghị định 207/2026 gồm những gì?" [ref=e863] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/nguyen-tac-chung-trong-quan-ly-xay-dung-cong-trinh-xay-dung-theo-nghi-dinh-207-2026-gom-nhung-gi-740556.html
+            - generic [ref=e864]:
+              - link "thuviennhadat.vn" [ref=e866] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/xac-dinh-tong-muc-dau-tu-xay-dung-theo-nghi-dinh-206-2026-nhu-the-nao-740555.html
+                - img "thuviennhadat.vn" [ref=e867]
+              - link "Xác định tổng mức đầu tư xây dựng theo Nghị định 206/2026 như thế nào?" [ref=e870] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/xac-dinh-tong-muc-dau-tu-xay-dung-theo-nghi-dinh-206-2026-nhu-the-nao-740555.html
+            - generic [ref=e871]:
+              - link "thuviennhadat.vn" [ref=e873] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/quan-ly-xay-dung-cong-trinh-nha-o-rieng-le-tu-01-7-2026-theo-nghi-dinh-207-2026-nhu-the-nao-740550.html
+                - img "thuviennhadat.vn" [ref=e874]
+              - link "Quản lý xây dựng công trình nhà ở riêng lẻ từ 01/7/2026 theo Nghị định 207/2026 như thế nào?" [ref=e877] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/quan-ly-xay-dung-cong-trinh-nha-o-rieng-le-tu-01-7-2026-theo-nghi-dinh-207-2026-nhu-the-nao-740550.html
+            - generic [ref=e878]:
+              - link "thuviennhadat.vn" [ref=e880] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/phan-loai-hop-dong-xay-dung-tu-01-7-2026-theo-nghi-dinh-210-2026-nhu-the-nao-740545.html
+                - img "thuviennhadat.vn" [ref=e881]
+              - link "Phân loại hợp đồng xây dựng từ 01/7/2026 theo Nghị định 210/2026 như thế nào?" [ref=e884] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/phan-loai-hop-dong-xay-dung-tu-01-7-2026-theo-nghi-dinh-210-2026-nhu-the-nao-740545.html
+            - generic [ref=e885]:
+              - link "thuviennhadat.vn" [ref=e887] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/noi-dung-tong-muc-dau-tu-xay-dung-theo-nghi-dinh-206-2026-gom-nhung-gi-740536.html
+                - img "thuviennhadat.vn" [ref=e888]
+              - link "Nội dung tổng mức đầu tư xây dựng theo Nghị định 206/2026 gồm những gì?" [ref=e891] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/noi-dung-tong-muc-dau-tu-xay-dung-theo-nghi-dinh-206-2026-gom-nhung-gi-740536.html
+            - generic [ref=e892]:
+              - link "thuviennhadat.vn" [ref=e894] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/05-khu-vuc-dat-nong-nghiep-trong-bang-gia-dat-da-nang-theo-nghi-quyet-28-2026-nq-hdnd-nhu-the-nao-739469.html
+                - img "thuviennhadat.vn" [ref=e895]
+              - link "05 khu vực đất nông nghiệp trong bảng giá đất Đà Nẵng theo Nghị quyết 28/2026/NQ-HĐND như thế nào?" [ref=e898] [cursor=pointer]:
+                - /url: /phap-ly-nha-dat/05-khu-vuc-dat-nong-nghiep-trong-bang-gia-dat-da-nang-theo-nghi-quyet-28-2026-nq-hdnd-nhu-the-nao-739469.html
+          - link " Xem thêm" [ref=e899] [cursor=pointer]:
+            - /url: /phap-ly-nha-dat
+            - generic [ref=e900]: 
+            - text: Xem thêm
+    - text: 
+    - generic [ref=e908]:
+      - link [ref=e909] [cursor=pointer]:
+        - /url: http://adx.admicro.vn/?utm_source=Admicro&utm_medium=thuviennhadat.vn&utm_campaign=adxzone
+      - iframe [ref=e910]:
+        - generic [ref=f103e2]:
+          - link [ref=f103e4] [cursor=pointer]:
+            - /url: javascript:void()
+          - generic [ref=f103e7]:
+            - link [ref=f103e9] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468525&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468525&pr=46865541154&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e10]
+            - link [ref=f103e12] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468530&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468530&pr=46866091204&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e13]
+            - link [ref=f103e15] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468519&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468519&pr=46864971094&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e16]
+            - link [ref=f103e18] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468520&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468520&pr=46865081104&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e19]
+            - link [ref=f103e21] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468521&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468521&pr=46865191114&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e22]
+            - link [ref=f103e24] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468523&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468523&pr=46865321134&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e25]
+            - link [ref=f103e27] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468529&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468529&pr=46865981194&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e28]
+            - link [ref=f103e30] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468526&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468526&pr=46865651164&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e31]
+            - link [ref=f103e33] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468524&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468524&pr=46865431144&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e34]
+            - link [ref=f103e36] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468527&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468527&pr=46865761174&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e37]
+            - link [ref=f103e39] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468522&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468522&pr=46865211124&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e40]
+            - link [ref=f103e42] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468525&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468525&pr=46865541154&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e43]
+            - link [ref=f103e45] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468530&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468530&pr=46866091204&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e46]
+            - link [ref=f103e48] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468519&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468519&pr=46864971094&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e49]
+            - link [ref=f103e51] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468520&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468520&pr=46865081104&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e52]
+            - link [ref=f103e54] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468521&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468521&pr=46865191114&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e55]
+            - link [ref=f103e57] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468523&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468523&pr=46865321134&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e58]
+            - link [ref=f103e60] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468529&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468529&pr=46865981194&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e61]
+            - link [ref=f103e63] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468526&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468526&pr=46865651164&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e64]
+            - link [ref=f103e66] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468524&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468524&pr=46865431144&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e67]
+            - link [ref=f103e69] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468527&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468527&pr=46865761174&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e70]
+            - link [ref=f103e72] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468522&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468522&pr=46865211124&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e73]
+            - link [ref=f103e75] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468525&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468525&pr=46865541154&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e76]
+            - link [ref=f103e78] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468530&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468530&pr=46866091204&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e79]
+            - link [ref=f103e81] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468519&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468519&pr=46864971094&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e82]
+            - link [ref=f103e84] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468520&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468520&pr=46865081104&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e85]
+            - link [ref=f103e87] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468521&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468521&pr=46865191114&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e88]
+            - link [ref=f103e90] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468523&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468523&pr=46865321134&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e91]
+            - link [ref=f103e93] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468529&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468529&pr=46865981194&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e94]
+            - link [ref=f103e96] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468526&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468526&pr=46865651164&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e97]
+            - link [ref=f103e99] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468524&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468524&pr=46865431144&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e100]
+            - link [ref=f103e102] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468527&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468527&pr=46865761174&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e103]
+            - link [ref=f103e105] [cursor=pointer]:
+              - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&cmpg=102385&tpn=4&items=468522&ii=0&zid=530297&cov=1&cid=-1&tp=11&bi=468522&pr=46865211124&sspr=8480&sspb=8480&rid=011a3lrfr1p0g00&alg=1102&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg3MywicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsNDAwMC4wLDQwMDAuMCw4NDgwLjAsODQ4MC4wLDg0ODAsLCwsLDAsLCwxLjAsMSwwLjAwMjEyLDEsMSw0NmMxYzRiNTssIn0%3D&sspz=2033738&re=https%3A%2F%2Fsmiledaysdnd.matquocte.vn%2F%3Futm_source%3DAdmicro_AdX%26utm_campaign%3DAdX_Collection%26utm_content%3Dthuviennhadat.vn%26dg%3D&adm_random=5.916092742083002&adc_cpa=1&zft=165
+              - img [ref=f103e106]
+          - generic:
+            - img [ref=f103e109] [cursor=pointer]
+            - img [ref=f103e113] [cursor=pointer]
+          - list [ref=f103e116]:
+            - listitem [ref=f103e117] [cursor=pointer]
+            - listitem [ref=f103e118] [cursor=pointer]
+            - listitem [ref=f103e119] [cursor=pointer]
+            - listitem [ref=f103e120] [cursor=pointer]
+            - listitem [ref=f103e121] [cursor=pointer]
+            - listitem [ref=f103e122] [cursor=pointer]
+            - listitem [ref=f103e123] [cursor=pointer]
+            - listitem [ref=f103e124] [cursor=pointer]
+            - listitem [ref=f103e125] [cursor=pointer]
+            - listitem [ref=f103e126] [cursor=pointer]
+            - listitem [ref=f103e127] [cursor=pointer]
+    - contentinfo [ref=e911]:
+      - generic [ref=e913]:
+        - generic [ref=e915]:
+          - generic [ref=e916]:
+            - generic [ref=e917]:
+              - link "Logo" [ref=e918] [cursor=pointer]:
+                - /url: /
+                - img "Logo" [ref=e919]
+              - link "Thư Viện Nhà Đất" [ref=e921] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e922]: Thư Viện Nhà Đất
+            - generic [ref=e923]:
+              - generic [ref=e924]:
+                - generic [ref=e925]: 
+                - text: "Trụ sở: Số 15 Đường 32, Khu Vạn Phúc, P. Hiệp Bình, TP. HCM"
+              - generic [ref=e926]:
+                - generic [ref=e927]: 
+                - text: "Địa điểm KD: Số 63, Đường 10, Khu Sala, P. An Khánh, TP. HCM"
+              - generic [ref=e928]:
+                - generic [ref=e929]: 
+                - text: Info@ThuVienNhaDat.vn
+              - generic [ref=e930]:
+                - img "phone-call-black" [ref=e931]
+                - text: "Hotline: (028) 36.22.4363"
+                - generic [ref=e932]: (06 lines) (Từ 7g30 - 19g30)
+              - generic [ref=e933]:
+                - img "phone-call-black" [ref=e934]
+                - text: "Hỗ trợ pháp luật: (028) 3930 3279"
+                - generic [ref=e935]: (06 lines)
+              - link [ref=e937] [cursor=pointer]:
+                - /url: http://online.gov.vn/Website/chi-tiet-128145
+                - img [ref=e938]
+          - generic [ref=e940]:
+            - link "Giới thiệu" [ref=e942] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "SiteMap" [ref=e944] [cursor=pointer]:
+              - /url: /site-map.html
+            - link "Báo giá và hướng dẫn" [ref=e946] [cursor=pointer]:
+              - /url: /huong-dan-su-dung/bang-gia-dang-tin.html
+            - link "Pháp luật" [ref=e948] [cursor=pointer]:
+              - /url: /phap-luat
+            - link "Văn bản pháp luật Việt Nam" [ref=e950] [cursor=pointer]:
+              - /url: /van-ban-phap-luat-viet-nam
+            - link "Thị trường bất động sản" [ref=e952] [cursor=pointer]:
+              - /url: /thi-truong-bat-dong-san
+            - link "Tài chính bất động sản" [ref=e954] [cursor=pointer]:
+              - /url: /tai-chinh-bat-dong-san
+            - link "Pháp lý nhà đất" [ref=e956] [cursor=pointer]:
+              - /url: /phap-ly-nha-dat
+            - link "Danh bạ môi giới" [ref=e958] [cursor=pointer]:
+              - /url: /nha-moi-gioi
+          - generic [ref=e960]:
+            - link "Liên hệ" [ref=e962] [cursor=pointer]:
+              - /url: /lien-he.html
+            - link "Quy chế hoạt động" [ref=e964] [cursor=pointer]:
+              - /url: /huong-dan-su-dung/quy-che-hoat-dong.html
+            - link "Quy trình giải quyết khiếu nại" [ref=e966] [cursor=pointer]:
+              - /url: /huong-dan-su-dung/quy-trinh-giai-quyet-khieu-nai.html
+            - link "Quy chế bảo mật thông tin" [ref=e968] [cursor=pointer]:
+              - /url: /huong-dan-su-dung/quy-che-bao-mat-thong-tin.html
+            - link "Quy chế bảo vệ DLCN" [ref=e970] [cursor=pointer]:
+              - /url: /huong-dan-su-dung/quy-che-bao-ve-du-lieu-ca-nhan.html
+            - link "Tiếp nhận đánh giá của khách hàng và tổ chức xã hội" [ref=e972] [cursor=pointer]:
+              - /url: /tiep-nhan-danh-gia.html
+            - link "Danh sách đánh giá của khách hàng và tổ chức xã hội" [ref=e974] [cursor=pointer]:
+              - /url: /danh-sach-danh-gia.html
+        - text:   
+    - generic [ref=e975]:
+      - generic [ref=e977]:
+        - generic [ref=e980]:
+          - generic [ref=e981]:
+            - text: "Chủ quản: Công ty TNHH"
+            - generic [ref=e983]: Thư Viện Nhà Đất
+          - generic [ref=e984]:
+            - text: "Mã số thuế: 0318679464, cấp ngày: 20/09/2024, nơi cấp: Sở Kế hoạch và Đầu tư TP HCM. Đại diện theo pháp luật: Ông Bùi Tường Vũ"
+            - link "Pháp luật bất động sản" [ref=e985] [cursor=pointer]:
+              - img [ref=e987]
+              - text: Pháp luật bất động sản
+          - generic [ref=e989]: Giấy phép Trang TTĐTTH số 03/GP-TTĐT, do Sở TTTT TP. HCM cấp ngày 06/02/2025.
+        - generic [ref=e991]:
+          - link "THƯ VIỆN PHÁP LUẬT THƯ VIỆN PHÁP LUẬT ...loại rủi ro pháp lý, nắm cơ hội làm giàu..." [ref=e993] [cursor=pointer]:
+            - /url: https://thuvienphapluat.vn/
+            - generic [ref=e994]:
+              - img "THƯ VIỆN PHÁP LUẬT" [ref=e996]
+              - generic [ref=e998]:
+                - generic [ref=e999]: THƯ VIỆN PHÁP LUẬT
+                - generic [ref=e1000]: ...loại rủi ro pháp lý, nắm cơ hội làm giàu...
+          - link "NHÂN SỰ NhanSu.vn" [ref=e1002] [cursor=pointer]:
+            - /url: https://nhansu.vn/
+            - generic [ref=e1003]:
+              - img "NHÂN SỰ" [ref=e1005]
+              - generic [ref=e1008]: NhanSu.vn
+      - generic [ref=e1009]: v1.0.90
+    - text: 
+    - generic [ref=e1015]:
+      - link [ref=e1016] [cursor=pointer]:
+        - /url: //lg1.logging.admicro.vn/adn?dmn=https%3A%2F%2Fthuviennhadat.vn%2Fvan-ban-phap-luat-viet-nam&rid=011a3lrfr1u6000&sspb=7600&sspr=6405.9055339999995&lsn=1781836325471&ce=1&lc=50&cr=&ui=&uuid=&profileID=&bi=0&cmpg=97251&items=440007&zid=531034&pr=44094174151&cid=-1&tp=11&tpn=4&alg=1111&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxOTM2NiwicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsMTAwMDAuMCwxMDAwMC4wLDc2MDAuMCw3NjAwLjAsNjQwNS45MDU1MzM5OTk5OTk1LCwsLCwwLCwsMS4wLDEsMC4wMDA3NiwxLDEsZmI2N2EzNGU7LCJ9&sspz=2034341&adc_cpa=1&cov=1&re=https%3A%2F%2Fthietbivesinh.com.vn%2Fban-cau%2Fban-cau-thong-minh%2Fban-cau-thong-minh-integrated-smart-toilet-bc5018pro.html
+        - img [ref=e1017]
+      - link [ref=e1018] [cursor=pointer]:
+        - /url: http://adx.admicro.vn/?utm_source=Admicro&utm_medium=thuviennhadat.vn&utm_campaign=adxzone
+      - link [ref=e1019] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - img [ref=e1020]
+  - generic [ref=e1022]:
+    - img [ref=e1024] [cursor=pointer]
+    - link [ref=e1028] [cursor=pointer]:
+      - /url: https://s.shopee.vn/8fIGVjDLTb
+  - generic:
+    - link [ref=e1030] [cursor=pointer]:
+      - /url: https://lg1.logging.admicro.vn/atvc?p=1328310%3B632150%3B552625%3B-1%3B-1%3B9%3B0%3B0%3Bthuviennhadat.vn%3B%2Fvan-ban-phap-luat-viet-nam&path=%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=&cr=&ui=&uuid=&profileID=&sspz=2033731&rid=011a3lrfr4tpg00&alg=0&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg2OCwicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsMTU1NTIwLjAsMTU1NTIwLjAsMTU1NTIwLjAsMTU1NTIwLjAsNjA5OTkuOTc5MDQyLCwsLCwxLDE1NTUyMC4wLCwxLjAsMiwwLjAwMzgyLDEsMSw1NjNhMzIxOTssMC4wIiwiZGluZm9zIjp7InByIjo2MzQzNDM5NjAxMX19&sspz=2033731&cov=1&re=https%3A%2F%2Fcharmoracity.vn%2F%3Futm_source%3DAdmicro%26utm_medium%3DBranding%26utm_campaign%3DSungroup_Charmora_city_BB_plus
+    - link [ref=e1031] [cursor=pointer]:
+      - /url: https://lg1.logging.admicro.vn/atvc?p=1328310%3B632150%3B552625%3B-1%3B-1%3B9%3B0%3B0%3Bthuviennhadat.vn%3B%2Fvan-ban-phap-luat-viet-nam&path=%2Fvan-ban-phap-luat-viet-nam&lsn=1781836325471&ce=1&lc=&cr=&ui=&uuid=&profileID=&sspz=2033731&rid=011a3lrfr4tpg00&alg=0&dg=016a34aa2588c7241cbd25e40cc35380&xtr=eyJhc2lkIjoxODg2OCwicHJvZmlsZWlkIjoiIiwiYmx2IjoiLCwsLDgsMTU1NTIwLjAsMTU1NTIwLjAsMTU1NTIwLjAsMTU1NTIwLjAsNjA5OTkuOTc5MDQyLCwsLCwxLDE1NTUyMC4wLCwxLjAsMiwwLjAwMzgyLDEsMSw1NjNhMzIxOTssMC4wIiwiZGluZm9zIjp7InByIjo2MzQzNDM5NjAxMX19&sspz=2033731&cov=1&re=https%3A%2F%2Fcharmoracity.vn%2F%3Futm_source%3DAdmicro%26utm_medium%3DBranding%26utm_campaign%3DSungroup_Charmora_city_BB_plus
+  - generic [ref=e1033] [cursor=pointer]: CLOSE AD

@@ -1,0 +1,856 @@
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikipedia The Free Encyclopedia" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=e13]:
+          - img "Wikipedia" [ref=e14]
+          - img "The Free Encyclopedia" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikipedia" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Donate" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=e33]:
+            - link "Create account" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=List+of+welding+processes
+          - listitem [ref=e35]:
+            - link "Log in" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=List+of+welding+processes
+  - generic [ref=e38]:
+    - navigation "Contents" [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Contents" [level=2] [ref=e46]
+          - button "hide" [ref=e47] [cursor=pointer]
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "(Top)" [ref=e50] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e51]: (Top)
+          - listitem [ref=e52]:
+            - link "Arc welding" [ref=e53] [cursor=pointer]:
+              - /url: "#Arc_welding"
+              - generic [ref=e54]: Arc welding
+            - list
+          - listitem [ref=e55]:
+            - link "Oxyfuel gas welding" [ref=e56] [cursor=pointer]:
+              - /url: "#Oxyfuel_gas_welding"
+              - generic [ref=e57]: Oxyfuel gas welding
+            - list
+          - listitem [ref=e58]:
+            - link "Resistance welding" [ref=e59] [cursor=pointer]:
+              - /url: "#Resistance_welding"
+              - generic [ref=e60]: Resistance welding
+            - list
+          - listitem [ref=e61]:
+            - link "Solid-state welding" [ref=e62] [cursor=pointer]:
+              - /url: "#Solid-state_welding"
+              - generic [ref=e63]: Solid-state welding
+            - list
+          - listitem [ref=e64]:
+            - link "Other types of welding" [ref=e65] [cursor=pointer]:
+              - /url: "#Other_types_of_welding"
+              - generic [ref=e66]: Other types of welding
+            - list
+          - listitem [ref=e67]:
+            - link "Notes and references" [ref=e68] [cursor=pointer]:
+              - /url: "#Notes_and_references"
+              - generic [ref=e69]: Notes and references
+            - list
+          - listitem [ref=e70]:
+            - link "See also" [ref=e71] [cursor=pointer]:
+              - /url: "#See_also"
+              - generic [ref=e72]: See also
+            - list
+          - listitem [ref=e73]:
+            - link "External links" [ref=e74] [cursor=pointer]:
+              - /url: "#External_links"
+              - generic [ref=e75]: External links
+            - list
+    - main [ref=e77]:
+      - generic [ref=e78]:
+        - heading "List of welding processes" [level=1] [ref=e79]:
+          - generic [ref=e80]: List of welding processes
+        - generic [ref=e81]:
+          - button "Go to an article in another language. Available in 4 languages" [ref=e82] [cursor=pointer]
+          - generic [ref=e85]: 4 languages
+      - generic [ref=e87]:
+        - navigation "Namespaces" [ref=e89]:
+          - generic [ref=e90]:
+            - generic:
+              - list:
+                - listitem [ref=e91]:
+                  - link "Article" [ref=e92] [cursor=pointer]:
+                    - /url: /wiki/List_of_welding_processes
+                    - generic [ref=e93]: Article
+                - listitem [ref=e94]:
+                  - link "Talk" [ref=e95] [cursor=pointer]:
+                    - /url: /wiki/Talk:List_of_welding_processes
+                    - generic [ref=e96]: Talk
+        - generic [ref=e97]:
+          - navigation "Views" [ref=e98]:
+            - generic [ref=e99]:
+              - generic:
+                - list:
+                  - listitem [ref=e100]:
+                    - link "Read" [ref=e101] [cursor=pointer]:
+                      - /url: /wiki/List_of_welding_processes
+                      - generic [ref=e102]: Read
+                  - listitem [ref=e103]:
+                    - link "Edit" [ref=e104] [cursor=pointer]:
+                      - /url: /w/index.php?title=List_of_welding_processes&action=edit
+                      - generic [ref=e105]: Edit
+                  - listitem [ref=e106]:
+                    - link "View history" [ref=e107] [cursor=pointer]:
+                      - /url: /w/index.php?title=List_of_welding_processes&action=history
+                      - generic [ref=e108]: View history
+          - navigation "Page tools" [ref=e109]:
+            - generic [ref=e110]:
+              - button "Tools" [ref=e111] [cursor=pointer]
+              - generic [ref=e113] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e116]:
+        - generic [ref=e119]:
+          - generic [ref=e120]: Appearance
+          - button "hide" [ref=e121] [cursor=pointer]
+      - generic "List of welding processes" [ref=e122]:
+        - generic [ref=e124]: From Wikipedia, the free encyclopedia
+        - generic [ref=e126]:
+          - paragraph [ref=e127]:
+            - text: This is a list of welding processes, separated into their respective categories. The associated N reference numbers (second column) are specified in ISO 4063 (in the European Union published as EN ISO 4063).
+            - superscript [ref=e128]:
+              - link "[1]" [ref=e129] [cursor=pointer]:
+                - /url: "#cite_note-1"
+            - text: Numbers in parentheses are obsolete and were removed from the current (1998) version of ISO 4063. The AWS reference codes of the American Welding Society are commonly used in North America.
+            - superscript [ref=e130]:
+              - link "[2]" [ref=e131] [cursor=pointer]:
+                - /url: "#cite_note-2"
+          - generic [ref=e132]:
+            - heading "Arc welding" [level=2] [ref=e133]
+            - generic [ref=e134]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_processes&action=edit&section=1
+          - paragraph [ref=e135]:
+            - generic [ref=e136]:
+              - text: "Overview article:"
+              - link "arc welding" [ref=e137] [cursor=pointer]:
+                - /url: /wiki/Arc_welding
+          - table [ref=e138]:
+            - rowgroup [ref=e139]:
+              - row "Name N AWS Characteristics Applications" [ref=e140]:
+                - columnheader "Name" [ref=e141] [cursor=pointer]
+                - columnheader "N" [ref=e142] [cursor=pointer]
+                - columnheader "AWS" [ref=e143] [cursor=pointer]
+                - columnheader "Characteristics" [ref=e144] [cursor=pointer]
+                - columnheader "Applications" [ref=e145] [cursor=pointer]
+            - rowgroup [ref=e146]:
+              - row "Bare Metal Arc Welding (113) BMAW Consumable electrode, no flux or shielding gas Historical" [ref=e147]:
+                - cell "Bare Metal Arc Welding" [ref=e148]:
+                  - link "Bare Metal Arc Welding" [ref=e149] [cursor=pointer]:
+                    - /url: /w/index.php?title=Bare_Metal_Arc_Welding&action=edit&redlink=1
+                - cell "(113)" [ref=e150]
+                - cell "BMAW" [ref=e151]
+                - cell "Consumable electrode, no flux or shielding gas" [ref=e152]
+                - cell "Historical" [ref=e153]
+              - row "Carbon Arc Welding (181) CAW Carbon electrode, historical Copper, repair (limited)" [ref=e154]:
+                - cell "Carbon Arc Welding" [ref=e155]:
+                  - link "Carbon Arc Welding" [ref=e156] [cursor=pointer]:
+                    - /url: /wiki/Carbon_Arc_Welding
+                - cell "(181)" [ref=e157]
+                - cell "CAW" [ref=e158]
+                - cell "Carbon electrode, historical" [ref=e159]
+                - cell "Copper, repair (limited)" [ref=e160]
+              - row "Flux Cored Arc Welding 136 138 FCAW FCAW-S Continuous consumable electrode filled with flux Industry, construction" [ref=e161]:
+                - cell "Flux Cored Arc Welding" [ref=e162]:
+                  - link "Flux Cored Arc Welding" [ref=e163] [cursor=pointer]:
+                    - /url: /wiki/Flux_Cored_Arc_Welding
+                - cell "136 138" [ref=e164]:
+                  - text: "136"
+                  - text: "138"
+                - cell "FCAW FCAW-S" [ref=e165]:
+                  - text: FCAW
+                  - text: FCAW-S
+                - cell "Continuous consumable electrode filled with flux" [ref=e166]
+                - cell "Industry, construction" [ref=e167]
+              - row "Gas Metal Arc Welding[3] 131 135 GMAW Continuous consumable electrode and shielding gas Industry" [ref=e168]:
+                - cell "Gas Metal Arc Welding[3]" [ref=e169]:
+                  - link "Gas Metal Arc Welding" [ref=e170] [cursor=pointer]:
+                    - /url: /wiki/Gas_Metal_Arc_Welding
+                  - superscript [ref=e171]:
+                    - link "[3]" [ref=e172] [cursor=pointer]:
+                      - /url: "#cite_note-3"
+                - cell "131 135" [ref=e173]:
+                  - text: "131"
+                  - text: "135"
+                - cell "GMAW" [ref=e174]
+                - cell "Continuous consumable electrode and shielding gas" [ref=e175]:
+                  - text: Continuous consumable electrode and
+                  - link "shielding gas" [ref=e176] [cursor=pointer]:
+                    - /url: /wiki/Shielding_gas
+                - cell "Industry" [ref=e177]
+              - row "Gas Tungsten Arc Welding[4] 141 GTAW Nonconsumable electrode, slow, high quality welds Aerospace, Construction (piping), Tool and Die" [ref=e178]:
+                - cell "Gas Tungsten Arc Welding[4]" [ref=e179]:
+                  - link "Gas Tungsten Arc Welding" [ref=e180] [cursor=pointer]:
+                    - /url: /wiki/Gas_Tungsten_Arc_Welding
+                  - superscript [ref=e181]:
+                    - link "[4]" [ref=e182] [cursor=pointer]:
+                      - /url: "#cite_note-4"
+                - cell "141" [ref=e183]
+                - cell "GTAW" [ref=e184]
+                - cell "Nonconsumable electrode, slow, high quality welds" [ref=e185]
+                - cell "Aerospace, Construction (piping), Tool and Die" [ref=e186]
+              - row "Plasma Arc Welding 15 PAW Nonconsumable electrode, constricted arc Tubing, instrumentation" [ref=e187]:
+                - cell "Plasma Arc Welding" [ref=e188]:
+                  - link "Plasma Arc Welding" [ref=e189] [cursor=pointer]:
+                    - /url: /wiki/Plasma_Arc_Welding
+                - cell "15" [ref=e190]
+                - cell "PAW" [ref=e191]
+                - cell "Nonconsumable electrode, constricted arc" [ref=e192]
+                - cell "Tubing, instrumentation" [ref=e193]
+              - row "Shielded Metal Arc Welding[5] 111 SMAW Consumable electrode covered in flux, can weld any metal as long as they have the right electrode Construction, outdoors, maintenance" [ref=e194]:
+                - cell "Shielded Metal Arc Welding[5]" [ref=e195]:
+                  - link "Shielded Metal Arc Welding" [ref=e196] [cursor=pointer]:
+                    - /url: /wiki/Shielded_Metal_Arc_Welding
+                  - superscript [ref=e197]:
+                    - link "[5]" [ref=e198] [cursor=pointer]:
+                      - /url: "#cite_note-5"
+                - cell "111" [ref=e199]
+                - cell "SMAW" [ref=e200]
+                - cell "Consumable electrode covered in flux, can weld any metal as long as they have the right electrode" [ref=e201]
+                - cell "Construction, outdoors, maintenance" [ref=e202]
+              - row "Submerged Arc Welding 121 SAW Automatic, arc submerged in granular flux" [ref=e203]:
+                - cell "Submerged Arc Welding" [ref=e204]:
+                  - link "Submerged Arc Welding" [ref=e205] [cursor=pointer]:
+                    - /url: /wiki/Submerged_Arc_Welding
+                - cell "121" [ref=e206]
+                - cell "SAW" [ref=e207]
+                - cell "Automatic, arc submerged in granular flux" [ref=e208]
+                - cell [ref=e209]
+              - row "Magnetically Impelled Arc Butt Welding 185 MIAB Both tube ends are electrodes; no protection gas; arc rotates fast along edge by applied magnetic field Pipelines and tubes" [ref=e210]:
+                - cell "Magnetically Impelled Arc Butt Welding" [ref=e211]
+                - cell "185" [ref=e212]
+                - cell "MIAB" [ref=e213]
+                - cell "Both tube ends are electrodes; no protection gas; arc rotates fast along edge by applied magnetic field" [ref=e214]
+                - cell "Pipelines and tubes" [ref=e215]
+              - row "Atomic Hydrogen Welding (149) AHW Two metal electrodes in hydrogen atmosphere Historical" [ref=e216]:
+                - cell "Atomic Hydrogen Welding" [ref=e217]:
+                  - link "Atomic Hydrogen Welding" [ref=e218] [cursor=pointer]:
+                    - /url: /wiki/Atomic_Hydrogen_Welding
+                - cell "(149)" [ref=e219]
+                - cell "AHW" [ref=e220]
+                - cell "Two metal electrodes in hydrogen atmosphere" [ref=e221]
+                - cell "Historical" [ref=e222]
+            - rowgroup
+          - generic [ref=e223]:
+            - heading "Oxyfuel gas welding" [level=2] [ref=e224]
+            - generic [ref=e225]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_processes&action=edit&section=2
+          - paragraph [ref=e226]:
+            - generic [ref=e227]:
+              - text: "Overview article:"
+              - link "Oxy-fuel welding and cutting" [ref=e228] [cursor=pointer]:
+                - /url: /wiki/Oxy-fuel_welding_and_cutting
+          - table [ref=e229]:
+            - rowgroup [ref=e230]:
+              - row "Name N AWS Characteristics Applications" [ref=e231]:
+                - columnheader "Name" [ref=e232]
+                - columnheader "N" [ref=e233]
+                - columnheader "AWS" [ref=e234]
+                - columnheader "Characteristics" [ref=e235]
+                - columnheader "Applications" [ref=e236]
+              - row "Air acetylene welding (321) AAW Chemical welding process, not popular Limited" [ref=e237]:
+                - cell "Air acetylene welding" [ref=e238]:
+                  - link "Air acetylene welding" [ref=e239] [cursor=pointer]:
+                    - /url: /w/index.php?title=Air_acetylene_welding&action=edit&redlink=1
+                - cell "(321)" [ref=e240]
+                - cell "AAW" [ref=e241]
+                - cell "Chemical welding process, not popular" [ref=e242]
+                - cell "Limited" [ref=e243]
+              - row "Oxyacetylene welding 311 OAW Combustion of acetylene with oxygen produces high-temperature flame, inexpensive equipment Maintenance, repair" [ref=e244]:
+                - cell "Oxyacetylene welding" [ref=e245]:
+                  - link "Oxyacetylene welding" [ref=e246] [cursor=pointer]:
+                    - /url: /wiki/Oxyacetylene_welding
+                - cell "311" [ref=e247]
+                - cell "OAW" [ref=e248]
+                - cell "Combustion of acetylene with oxygen produces high-temperature flame, inexpensive equipment" [ref=e249]
+                - cell "Maintenance, repair" [ref=e250]
+              - row "Oxygen/Propane welding 312 Gas welding with oxygen/propane flame" [ref=e251]:
+                - cell "Oxygen/Propane welding" [ref=e252]
+                - cell "312" [ref=e253]
+                - cell [ref=e254]
+                - cell "Gas welding with oxygen/propane flame" [ref=e255]:
+                  - text: Gas welding with oxygen/
+                  - link "propane" [ref=e256] [cursor=pointer]:
+                    - /url: /wiki/Propane
+                  - text: flame
+                - cell [ref=e257]
+              - row "Oxyhydrogen welding 313 OHW Combustion of hydrogen with oxygen produces flame Limited" [ref=e258]:
+                - cell "Oxyhydrogen welding" [ref=e259]:
+                  - link "Oxyhydrogen welding" [ref=e260] [cursor=pointer]:
+                    - /url: /wiki/Oxyhydrogen_welding
+                - cell "313" [ref=e261]
+                - cell "OHW" [ref=e262]
+                - cell "Combustion of hydrogen with oxygen produces flame" [ref=e263]
+                - cell "Limited" [ref=e264]
+              - row "Pressure gas welding PGW Gas flames heat surfaces and pressure produces the weld Pipe, railroad rails (limited)" [ref=e265]:
+                - cell "Pressure gas welding" [ref=e266]:
+                  - link "Pressure gas welding" [ref=e267] [cursor=pointer]:
+                    - /url: /wiki/Pressure_gas_welding
+                - cell [ref=e268]
+                - cell "PGW" [ref=e269]
+                - cell "Gas flames heat surfaces and pressure produces the weld" [ref=e270]
+                - cell "Pipe, railroad rails (limited)" [ref=e271]
+          - generic [ref=e272]:
+            - heading "Resistance welding" [level=2] [ref=e273]
+            - generic [ref=e274]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_processes&action=edit&section=3
+          - paragraph [ref=e275]:
+            - generic [ref=e276]:
+              - text: "Overview article:"
+              - link "electric resistance welding" [ref=e277] [cursor=pointer]:
+                - /url: /wiki/Electric_resistance_welding
+          - table [ref=e278]:
+            - rowgroup [ref=e279]:
+              - row "Name N AWS Characteristics Applications" [ref=e280]:
+                - columnheader "Name" [ref=e281]
+                - columnheader "N" [ref=e282]
+                - columnheader "AWS" [ref=e283]
+                - columnheader "Characteristics" [ref=e284]
+                - columnheader "Applications" [ref=e285]
+              - row "Resistance spot welding 21 RSW Two pointed electrodes apply pressure and current to two or more thin workpieces Automobile industry, Aerospace industry" [ref=e286]:
+                - cell "Resistance spot welding" [ref=e287]:
+                  - link "Resistance spot welding" [ref=e288] [cursor=pointer]:
+                    - /url: /wiki/Spot_welding
+                - cell "21" [ref=e289]
+                - cell "RSW" [ref=e290]
+                - cell "Two pointed electrodes apply pressure and current to two or more thin workpieces" [ref=e291]
+                - cell "Automobile industry, Aerospace industry" [ref=e292]
+              - row "Resistance seam welding[6] 22 RSEW Two wheel-shaped electrodes roll along workpieces, applying pressure and current Aerospace industry, steel drums, tubing" [ref=e293]:
+                - cell "Resistance seam welding[6]" [ref=e294]:
+                  - link "Resistance seam welding" [ref=e295] [cursor=pointer]:
+                    - /url: /wiki/Resistance_seam_welding
+                  - superscript [ref=e296]:
+                    - link "[6]" [ref=e297] [cursor=pointer]:
+                      - /url: "#cite_note-6"
+                - cell "22" [ref=e298]
+                - cell "RSEW" [ref=e299]
+                - cell "Two wheel-shaped electrodes roll along workpieces, applying pressure and current" [ref=e300]
+                - cell "Aerospace industry, steel drums, tubing" [ref=e301]:
+                  - text: Aerospace industry,
+                  - link "steel drums" [ref=e302] [cursor=pointer]:
+                    - /url: /wiki/Drum_(container)
+                  - text: ", tubing"
+              - row "Projection welding 23 PW Semi-Automatic, Automatic, Welds are localized at predetermined points." [ref=e303]:
+                - cell "Projection welding" [ref=e304]:
+                  - link "Projection welding" [ref=e305] [cursor=pointer]:
+                    - /url: /wiki/Projection_welding
+                - cell "23" [ref=e306]
+                - cell "PW" [ref=e307]
+                - cell "Semi-Automatic, Automatic, Welds are localized at predetermined points." [ref=e308]
+                - cell [ref=e309]
+              - row "Flash welding 24 FW" [ref=e310]:
+                - cell "Flash welding" [ref=e311]:
+                  - link "Flash welding" [ref=e312] [cursor=pointer]:
+                    - /url: /wiki/Flash_welding
+                - cell "24" [ref=e313]
+                - cell "FW" [ref=e314]
+                - cell [ref=e315]
+                - cell [ref=e316]
+              - row "Upset welding 25 UW Butt joint surfaces heated and brought together by force" [ref=e317]:
+                - cell "Upset welding" [ref=e318]:
+                  - link "Upset welding" [ref=e319] [cursor=pointer]:
+                    - /url: /wiki/Upset_welding
+                - cell "25" [ref=e320]
+                - cell "UW" [ref=e321]
+                - cell "Butt joint surfaces heated and brought together by force" [ref=e322]
+                - cell [ref=e323]
+          - generic [ref=e324]:
+            - heading "Solid-state welding" [level=2] [ref=e325]
+            - generic [ref=e326]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_processes&action=edit&section=4
+          - table [ref=e327]:
+            - rowgroup [ref=e328]:
+              - row "Name N AWS Characteristics Applications" [ref=e329]:
+                - columnheader "Name" [ref=e330]
+                - columnheader "N" [ref=e331]
+                - columnheader "AWS" [ref=e332]
+                - columnheader "Characteristics" [ref=e333]
+                - columnheader "Applications" [ref=e334]
+              - row "Coextrusion Welding CEW Dissimilar metals are extruded through the same die Joining of corrosion resistant alloys to cheaper alloys or alloys with more favorable mechanical properties" [ref=e335]:
+                - cell "Coextrusion Welding" [ref=e336]:
+                  - link "Coextrusion Welding" [ref=e337] [cursor=pointer]:
+                    - /url: /w/index.php?title=Coextrusion_Welding&action=edit&redlink=1
+                - cell [ref=e338]
+                - cell "CEW" [ref=e339]
+                - cell "Dissimilar metals are extruded through the same die" [ref=e340]
+                - cell "Joining of corrosion resistant alloys to cheaper alloys or alloys with more favorable mechanical properties" [ref=e341]
+              - row "Cold pressure welding 48 CW Joining of soft alloys such as copper and aluminium below their melting point Electrical contacts" [ref=e342]:
+                - cell "Cold pressure welding" [ref=e343]:
+                  - link "Cold pressure welding" [ref=e344] [cursor=pointer]:
+                    - /url: /wiki/Cold_welding
+                - cell "48" [ref=e345]
+                - cell "CW" [ref=e346]
+                - cell "Joining of soft alloys such as copper and aluminium below their melting point" [ref=e347]
+                - cell "Electrical contacts" [ref=e348]
+              - row "Diffusion welding 45 DFW No weld line visible Titanium pump impellor wheels" [ref=e349]:
+                - cell "Diffusion welding" [ref=e350]:
+                  - link "Diffusion welding" [ref=e351] [cursor=pointer]:
+                    - /url: /wiki/Diffusion_welding
+                - cell "45" [ref=e352]
+                - cell "DFW" [ref=e353]
+                - cell "No weld line visible" [ref=e354]
+                - cell "Titanium pump impellor wheels" [ref=e355]
+              - row "Explosion welding 441 EXW Joining of dissimilar materials, e.g. corrosion resistant alloys to structural steels Transition joints for chemical industry and shipbuilding. Bimetal pipelines" [ref=e356]:
+                - cell "Explosion welding" [ref=e357]:
+                  - link "Explosion welding" [ref=e358] [cursor=pointer]:
+                    - /url: /wiki/Explosion_welding
+                - cell "441" [ref=e359]
+                - cell "EXW" [ref=e360]
+                - cell "Joining of dissimilar materials, e.g. corrosion resistant alloys to structural steels" [ref=e361]
+                - cell "Transition joints for chemical industry and shipbuilding. Bimetal pipelines" [ref=e362]
+              - row "Electromagnetic pulse welding Tubes or sheets are accelerated by electromagnetic forces. Oxides are expelled during impact Automotive industry, pressure vessels, dissimilar material joints" [ref=e363]:
+                - cell "Electromagnetic pulse welding" [ref=e364]:
+                  - link "Electromagnetic pulse welding" [ref=e365] [cursor=pointer]:
+                    - /url: /wiki/Magnetic_pulse_welding
+                - cell [ref=e366]
+                - cell [ref=e367]
+                - cell "Tubes or sheets are accelerated by electromagnetic forces. Oxides are expelled during impact" [ref=e368]
+                - cell "Automotive industry, pressure vessels, dissimilar material joints" [ref=e369]
+              - row "Forge welding (43) FOW The oldest welding process in the world. Oxides must be removed by flux or flames. Damascus steel" [ref=e370]:
+                - cell "Forge welding" [ref=e371]:
+                  - link "Forge welding" [ref=e372] [cursor=pointer]:
+                    - /url: /wiki/Forge_welding
+                - cell "(43)" [ref=e373]
+                - cell "FOW" [ref=e374]
+                - cell "The oldest welding process in the world. Oxides must be removed by flux or flames." [ref=e375]
+                - cell "Damascus steel" [ref=e376]:
+                  - link "Damascus steel" [ref=e377] [cursor=pointer]:
+                    - /url: /wiki/Damascus_steel
+              - row "Friction welding 42 FRW Thin heat affected zone, oxides disrupted by friction, needs sufficient pressure Aerospace industry, railway, land transport" [ref=e378]:
+                - cell "Friction welding" [ref=e379]:
+                  - link "Friction welding" [ref=e380] [cursor=pointer]:
+                    - /url: /wiki/Friction_welding
+                - cell "42" [ref=e381]
+                - cell "FRW" [ref=e382]
+                - cell "Thin heat affected zone, oxides disrupted by friction, needs sufficient pressure" [ref=e383]
+                - cell "Aerospace industry, railway, land transport" [ref=e384]
+              - row "Friction stir welding 43 FSW A rotating non-consumable tool is traversed along the joint line Shipbuilding, aerospace, railway rolling stock, automotive industry" [ref=e385]:
+                - cell "Friction stir welding" [ref=e386]:
+                  - link "Friction stir welding" [ref=e387] [cursor=pointer]:
+                    - /url: /wiki/Friction_stir_welding
+                - cell "43" [ref=e388]
+                - cell "FSW" [ref=e389]
+                - cell "A rotating non-consumable tool is traversed along the joint line" [ref=e390]
+                - cell "Shipbuilding, aerospace, railway rolling stock, automotive industry" [ref=e391]
+              - row "Friction stir spot welding FSSW A rotating non-consumable tool is plunged into overlapping sheets Automotive industry" [ref=e392]:
+                - cell "Friction stir spot welding" [ref=e393]:
+                  - link "Friction stir spot welding" [ref=e394] [cursor=pointer]:
+                    - /url: /wiki/Friction_stir_spot_welding
+                - cell [ref=e395]
+                - cell "FSSW" [ref=e396]
+                - cell "A rotating non-consumable tool is plunged into overlapping sheets" [ref=e397]
+                - cell "Automotive industry" [ref=e398]
+              - row "Hot pressure welding HPW Metals are pressed together at elevated temperatures below the melting point in vacuum or an inert gas atmosphere Aerospace components" [ref=e399]:
+                - cell "Hot pressure welding" [ref=e400]:
+                  - link "Hot pressure welding" [ref=e401] [cursor=pointer]:
+                    - /url: /w/index.php?title=Hot_pressure_welding&action=edit&redlink=1
+                - cell [ref=e402]
+                - cell "HPW" [ref=e403]
+                - cell "Metals are pressed together at elevated temperatures below the melting point in vacuum or an inert gas atmosphere" [ref=e404]
+                - cell "Aerospace components" [ref=e405]
+              - row "Hot isostatic pressure welding 47 HPW A hot inert gas applies the pressure inside a pressure vessel, i.e. an autoclave Aerospace components" [ref=e406]:
+                - cell "Hot isostatic pressure welding" [ref=e407]:
+                  - link "Hot isostatic pressure welding" [ref=e408] [cursor=pointer]:
+                    - /url: /wiki/Hot_isostatic_pressing
+                - cell "47" [ref=e409]
+                - cell "HPW" [ref=e410]
+                - cell "A hot inert gas applies the pressure inside a pressure vessel, i.e. an autoclave" [ref=e411]:
+                  - text: A hot inert gas applies the pressure inside a pressure vessel, i.e. an
+                  - link "autoclave" [ref=e412] [cursor=pointer]:
+                    - /url: /wiki/Autoclave
+                - cell "Aerospace components" [ref=e413]
+              - row "Roll welding ROW Bimetallic materials are joined by forcing them between two rotating wheels Dissimilar materials" [ref=e414]:
+                - cell "Roll welding" [ref=e415]:
+                  - link "Roll welding" [ref=e416] [cursor=pointer]:
+                    - /url: /w/index.php?title=Roll_welding&action=edit&redlink=1
+                - cell [ref=e417]
+                - cell "ROW" [ref=e418]
+                - cell "Bimetallic materials are joined by forcing them between two rotating wheels" [ref=e419]
+                - cell "Dissimilar materials" [ref=e420]
+              - row "Ultrasonic welding 41 USW High-frequency vibratory energy is applied to foils, thin metal sheets or plastics. Solar industries-. Electronics. Rear lights of cars. Diapers." [ref=e421]:
+                - cell "Ultrasonic welding" [ref=e422]:
+                  - link "Ultrasonic welding" [ref=e423] [cursor=pointer]:
+                    - /url: /wiki/Ultrasonic_welding
+                - cell "41" [ref=e424]
+                - cell "USW" [ref=e425]
+                - cell "High-frequency vibratory energy is applied to foils, thin metal sheets or plastics." [ref=e426]
+                - cell "Solar industries-. Electronics. Rear lights of cars. Diapers." [ref=e427]
+          - generic [ref=e428]:
+            - heading "Other types of welding" [level=2] [ref=e429]
+            - generic [ref=e430]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_processes&action=edit&section=5
+          - table [ref=e431]:
+            - rowgroup [ref=e432]:
+              - row "Name N AWS Characteristics Applications" [ref=e433]:
+                - columnheader "Name" [ref=e434]
+                - columnheader "N" [ref=e435]
+                - columnheader "AWS" [ref=e436]
+                - columnheader "Characteristics" [ref=e437]
+                - columnheader "Applications" [ref=e438]
+              - row "Electron beam welding 51 511 EBW Deep penetration, fast, high equipment cost" [ref=e439]:
+                - cell "Electron beam welding" [ref=e440]:
+                  - link "Electron beam welding" [ref=e441] [cursor=pointer]:
+                    - /url: /wiki/Electron_beam_welding
+                - cell "51 511" [ref=e442]:
+                  - text: "51"
+                  - text: "511"
+                - cell "EBW" [ref=e443]
+                - cell "Deep penetration, fast, high equipment cost" [ref=e444]
+                - cell [ref=e445]
+              - row "Electroslag welding 72 ESW Welds thick workpieces quickly, vertical position, steel only, continuous consumable electrode Heavy plate fabrication, construction, shipbuilding" [ref=e446]:
+                - cell "Electroslag welding" [ref=e447]:
+                  - link "Electroslag welding" [ref=e448] [cursor=pointer]:
+                    - /url: /wiki/Electroslag_welding
+                - cell "72" [ref=e449]
+                - cell "ESW" [ref=e450]
+                - cell "Welds thick workpieces quickly, vertical position, steel only, continuous consumable electrode" [ref=e451]:
+                  - text: Welds thick workpieces quickly, vertical position, steel only,
+                  - text: continuous consumable electrode
+                - cell "Heavy plate fabrication, construction, shipbuilding" [ref=e452]:
+                  - text: Heavy plate fabrication, construction,
+                  - text: shipbuilding
+              - row "Flow welding (previously cast welding) Distortion is minimized, and the thermal cycle is relatively benign.[7][8][9][10][11] Joining rails in situ by liquid metal" [ref=e453]:
+                - cell "Flow welding (previously cast welding)" [ref=e454]
+                - cell [ref=e455]
+                - cell [ref=e456]
+                - cell "Distortion is minimized, and the thermal cycle is relatively benign.[7][8][9][10][11]" [ref=e457]:
+                  - text: Distortion is minimized, and the thermal cycle is relatively benign.
+                  - superscript [ref=e458]:
+                    - link "[7]" [ref=e459] [cursor=pointer]:
+                      - /url: "#cite_note-7"
+                  - superscript [ref=e460]:
+                    - link "[8]" [ref=e461] [cursor=pointer]:
+                      - /url: "#cite_note-8"
+                  - superscript [ref=e462]:
+                    - link "[9]" [ref=e463] [cursor=pointer]:
+                      - /url: "#cite_note-9"
+                  - superscript [ref=e464]:
+                    - link "[10]" [ref=e465] [cursor=pointer]:
+                      - /url: "#cite_note-10"
+                  - superscript [ref=e466]:
+                    - link "[11]" [ref=e467] [cursor=pointer]:
+                      - /url: "#cite_note-11"
+                - cell "Joining rails in situ by liquid metal" [ref=e468]
+              - row "Induction welding 74 IW" [ref=e469]:
+                - cell "Induction welding" [ref=e470]:
+                  - link "Induction welding" [ref=e471] [cursor=pointer]:
+                    - /url: /wiki/Induction_welding
+                - cell "74" [ref=e472]
+                - cell "IW" [ref=e473]
+                - cell [ref=e474]
+                - cell [ref=e475]
+              - row "Laser beam welding 521 522 LBW Deep penetration, fast, high equipment cost Automotive industry" [ref=e476]:
+                - cell "Laser beam welding" [ref=e477]:
+                  - link "Laser beam welding" [ref=e478] [cursor=pointer]:
+                    - /url: /wiki/Laser_beam_welding
+                - cell "521 522" [ref=e479]:
+                  - text: "521"
+                  - text: "522"
+                - cell "LBW" [ref=e480]
+                - cell "Deep penetration, fast, high equipment cost" [ref=e481]
+                - cell "Automotive industry" [ref=e482]
+              - row "Laser-hybrid welding Combines LBW with GMAW in the same welding head, able to bridge gaps up to 2mm (between plates), previously not possible with LBW alone. Automotive, Shipbuilding, Steelwork industries" [ref=e483]:
+                - cell "Laser-hybrid welding" [ref=e484]:
+                  - link "Laser-hybrid welding" [ref=e485] [cursor=pointer]:
+                    - /url: /wiki/Laser-hybrid_welding
+                - cell [ref=e486]
+                - cell [ref=e487]
+                - cell "Combines LBW with GMAW in the same welding head, able to bridge gaps up to 2mm (between plates), previously not possible with LBW alone." [ref=e488]:
+                  - text: Combines
+                  - link "LBW" [ref=e489] [cursor=pointer]:
+                    - /url: /wiki/Laser_beam_welding
+                  - text: with
+                  - link "GMAW" [ref=e490] [cursor=pointer]:
+                    - /url: /wiki/Gas_metal_arc_welding
+                  - text: in the same welding head, able to bridge gaps up to 2mm (between plates), previously not possible with LBW alone.
+                - cell "Automotive, Shipbuilding, Steelwork industries" [ref=e491]
+              - row "Percussion welding 77 PEW Following an electrical discharge, pressure is applied which forges the materials together Components of switch gear devices" [ref=e492]:
+                - cell "Percussion welding" [ref=e493]:
+                  - link "Percussion welding" [ref=e494] [cursor=pointer]:
+                    - /url: /wiki/Percussion_welding
+                - cell "77" [ref=e495]
+                - cell "PEW" [ref=e496]
+                - cell "Following an electrical discharge, pressure is applied which forges the materials together" [ref=e497]
+                - cell "Components of switch gear devices" [ref=e498]
+              - row "Thermite welding 71 TW Exothermic reaction between aluminium powder and iron oxide powder Railway tracks" [ref=e499]:
+                - cell "Thermite welding" [ref=e500]:
+                  - link "Thermite welding" [ref=e501] [cursor=pointer]:
+                    - /url: /wiki/Thermite_welding
+                - cell "71" [ref=e502]
+                - cell "TW" [ref=e503]
+                - cell "Exothermic reaction between aluminium powder and iron oxide powder" [ref=e504]
+                - cell "Railway tracks" [ref=e505]
+              - row "Electrogas welding 73 Continuous consumable electrode, vertical positioning, steel only Storage tanks, shipbuilding" [ref=e506]:
+                - cell "Electrogas welding" [ref=e507]:
+                  - link "Electrogas welding" [ref=e508] [cursor=pointer]:
+                    - /url: /wiki/Electrogas_welding
+                - cell "73" [ref=e509]
+                - cell [ref=e510]
+                - cell "Continuous consumable electrode, vertical positioning, steel only" [ref=e511]
+                - cell "Storage tanks, shipbuilding" [ref=e512]
+              - row "Stud arc welding 78 Welds studs to base material with heat and pressure" [ref=e513]:
+                - cell "Stud arc welding" [ref=e514]:
+                  - link "Stud arc welding" [ref=e515] [cursor=pointer]:
+                    - /url: /wiki/Stud_arc_welding
+                - cell "78" [ref=e516]
+                - cell [ref=e517]
+                - cell "Welds studs to base material with heat and pressure" [ref=e518]
+                - cell [ref=e519]
+          - generic [ref=e520]:
+            - heading "Notes and references" [level=2] [ref=e521]
+            - generic [ref=e522]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_processes&action=edit&section=6
+          - list [ref=e525]:
+            - listitem [ref=e526]:
+              - link "Jump up" [ref=e529] [cursor=pointer]:
+                - /url: "#cite_ref-1"
+                - text: ^
+              - text: "ISO 4063: \"Welding and allied processes - Nomenclature of processes and reference numbers\" (1998)"
+            - listitem [ref=e530]:
+              - link "Jump up" [ref=e533] [cursor=pointer]:
+                - /url: "#cite_ref-2"
+                - text: ^
+              - generic [ref=e534]:
+                - text: "\"Welding Inspection Handbook\", 3rd edition,"
+                - link "American Welding Society" [ref=e535] [cursor=pointer]:
+                  - /url: /wiki/American_Welding_Society
+                - text: ","
+                - link "ISBN" [ref=e536] [cursor=pointer]:
+                  - /url: /wiki/ISBN_(identifier)
+                - link "0-87171-560-0" [ref=e537] [cursor=pointer]:
+                  - /url: /wiki/Special:BookSources/0-87171-560-0
+                - text: ", Miami, FL, pp. 10-11 (2000)"
+            - listitem [ref=e538]:
+              - link "Jump up" [ref=e541] [cursor=pointer]:
+                - /url: "#cite_ref-3"
+                - text: ^
+              - text: Also known as metal inert gas (MIG) welding or metal active gas (MAG) welding.
+            - listitem [ref=e542]:
+              - link "Jump up" [ref=e545] [cursor=pointer]:
+                - /url: "#cite_ref-4"
+                - text: ^
+              - text: Also known as tungsten inert gas (TIG) welding.
+            - listitem [ref=e546]:
+              - link "Jump up" [ref=e549] [cursor=pointer]:
+                - /url: "#cite_ref-5"
+                - text: ^
+              - text: Also known as manual metal arc (MMA) welding or stick welding.
+            - listitem [ref=e550]:
+              - link "Jump up" [ref=e553] [cursor=pointer]:
+                - /url: "#cite_ref-6"
+                - text: ^
+              - text: Also known as electric resistance welding (ERW).
+            - listitem [ref=e554]:
+              - link "Jump up" [ref=e557] [cursor=pointer]:
+                - /url: "#cite_ref-7"
+                - text: ^
+              - generic [ref=e558]:
+                - generic [ref=e559]:
+                  - link "\"جوشکاری گدازی FLOW Welding | شریف +\"" [ref=e560] [cursor=pointer]:
+                    - /url: http://www.sharifplus.ir/%D9%85%D8%B7%D8%A7%D9%84%D8%A8-%D8%B9%D9%84%D9%85%DB%8C/%D8%AC%D9%88%D8%B4%DA%A9%D8%A7%D8%B1%DB%8C-%DA%AF%D8%AF%D8%A7%D8%B2%DB%8C-flow-welding.html
+                  - text: . www.sharifplus.ir (in Persian)
+                  - generic [ref=e561]: . Retrieved 2018-09-28
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=www.sharifplus.ir&rft.atitle=%D8%AC%D9%88%D8%B4%DA%A9%D8%A7%D8%B1%DB%8C+%DA%AF%D8%AF%D8%A7%D8%B2%DB%8C+FLOW+Welding+%7C+%D8%B4%D8%B1%DB%8C%D9%81+%2B&rft_id=http%3A%2F%2Fwww.sharifplus.ir%2F%25D9%2585%25D8%25B7%25D8%25A7%25D9%2584%25D8%25A8-%25D8%25B9%25D9%2584%25D9%2585%25DB%258C%2F%25D8%25AC%25D9%2588%25D8%25B4%25DA%25A9%25D8%25A7%25D8%25B1%25DB%258C-%25DA%25AF%25D8%25AF%25D8%25A7%25D8%25B2%25DB%258C-flow-welding.html&rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+welding+processes"
+            - listitem [ref=e562]:
+              - link "Jump up" [ref=e565] [cursor=pointer]:
+                - /url: "#cite_ref-8"
+                - text: ^
+              - generic [ref=e566]:
+                - link "Cast-Welding of Rail Joints." [ref=e567] [cursor=pointer]:
+                  - /url: https://www.alustir.com/english/cast-welding-1894/
+                - text: Street Railway Review, Vol. 4, Windsor & Kenfield Publishers, Chicago, 1894.
+            - listitem [ref=e568]:
+              - link "Jump up" [ref=e571] [cursor=pointer]:
+                - /url: "#cite_ref-9"
+                - text: ^
+              - generic [ref=e572]:
+                - link "The Cast Welded Joint." [ref=e573] [cursor=pointer]:
+                  - /url: https://www.alustir.com/english/cast-welding-1894/cast-welding-1896/
+                - text: The Street Railway Review, Vol. 6, No 10, 15 October 1896, p. 643.
+            - listitem [ref=e574]:
+              - link "Jump up" [ref=e577] [cursor=pointer]:
+                - /url: "#cite_ref-10"
+                - text: ^
+              - generic [ref=e578]:
+                - link "Roadbed Construction in Chicago." [ref=e579] [cursor=pointer]:
+                  - /url: https://www.alustir.com/english/cast-welding-1899/
+                - text: Street Railway Journal, Vol. 15, No 10, October, 1899, p. 636-642.
+            - listitem [ref=e580]:
+              - link "Jump up" [ref=e583] [cursor=pointer]:
+                - /url: "#cite_ref-11"
+                - text: ^
+              - generic [ref=e584]:
+                - text: "Fred G. Simmons:"
+                - link "The Cast-Welding of Rail Joints." [ref=e585] [cursor=pointer]:
+                  - /url: https://www.alustir.com/english/cast-welding/
+                - text: "In: Daily Street Railway Review, 27 September 1905, p. 650-654."
+          - list [ref=e587]:
+            - listitem [ref=e588]:
+              - text: Cary, Howard B. and Scott C. Helzer (2005). Modern Welding Technology. Upper Saddle River,
+              - link "New Jersey" [ref=e589] [cursor=pointer]:
+                - /url: /wiki/New_Jersey
+              - text: ": Pearson Education."
+              - link "ISBN" [ref=e590] [cursor=pointer]:
+                - /url: /wiki/ISBN_(identifier)
+              - link "0-13-113029-3" [ref=e591] [cursor=pointer]:
+                - /url: /wiki/Special:BookSources/0-13-113029-3
+              - text: .
+            - listitem [ref=e592]:
+              - text: Lincoln Electric (1994). The Procedure Handbook of Arc Welding.
+              - link "Cleveland" [ref=e593] [cursor=pointer]:
+                - /url: /wiki/Cleveland
+              - text: ": Lincoln Electric."
+              - link "ISBN" [ref=e594] [cursor=pointer]:
+                - /url: /wiki/ISBN_(identifier)
+              - link "99949-25-82-2" [ref=e595] [cursor=pointer]:
+                - /url: /wiki/Special:BookSources/99949-25-82-2
+              - text: .
+          - generic [ref=e596]:
+            - heading "See also" [level=2] [ref=e597]
+            - generic [ref=e598]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_processes&action=edit&section=7
+          - list [ref=e599]:
+            - listitem [ref=e600]:
+              - link "Welding" [ref=e601] [cursor=pointer]:
+                - /url: /wiki/Welding
+            - listitem [ref=e602]:
+              - link "List of welding codes" [ref=e603] [cursor=pointer]:
+                - /url: /wiki/List_of_welding_codes
+            - listitem [ref=e604]:
+              - link "Symbols and conventions used in welding documentation" [ref=e605] [cursor=pointer]:
+                - /url: /wiki/Symbols_and_conventions_used_in_welding_documentation
+            - listitem [ref=e606]:
+              - link "Laser cladding" [ref=e607] [cursor=pointer]:
+                - /url: /wiki/Cladding_(metalworking)
+          - generic [ref=e608]:
+            - heading "External links" [level=2] [ref=e609]
+            - generic [ref=e610]:
+              - link "edit":
+                - /url: /w/index.php?title=List_of_welding_processes&action=edit&section=8
+          - list [ref=e611]:
+            - listitem [ref=e612]:
+              - link "Welding process information" [ref=e613] [cursor=pointer]:
+                - /url: http://www.keytometals.com/page.aspx?ID=CheckArticle&site=kts&NM=75
+            - listitem [ref=e614]:
+              - link "Resistance welding process information" [ref=e615] [cursor=pointer]:
+                - /url: http://www.keytometals.com/page.aspx?ID=CheckArticle&site=kts&NM=76
+          - navigation "Metalworking" [ref=e616]:
+            - table [ref=e617]:
+              - rowgroup [ref=e618]:
+                - row "[show] v · t · e Metalworking" [ref=e619]:
+                  - columnheader "[show] v · t · e Metalworking" [ref=e620]:
+                    - button "[show]" [ref=e621] [cursor=pointer]
+                    - list [ref=e623]:
+                      - listitem [ref=e624]:
+                        - link "v" [ref=e625] [cursor=pointer]:
+                          - /url: /wiki/Template:Metalworking_navbox
+                        - text: ·
+                      - listitem [ref=e626]:
+                        - link "t" [ref=e627] [cursor=pointer]:
+                          - /url: /wiki/Template_talk:Metalworking_navbox
+                        - text: ·
+                      - listitem [ref=e628]:
+                        - link "e" [ref=e629] [cursor=pointer]:
+                          - /url: /wiki/Special:EditPage/Template:Metalworking_navbox
+                    - link "Metalworking" [ref=e631] [cursor=pointer]:
+                      - /url: /wiki/Metalworking
+                - row: "[] · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·"
+                - row: · · · · · · · ·
+        - generic [ref=e633]:
+          - link "Categories" [ref=e634] [cursor=pointer]:
+            - /url: /wiki/Help:Category
+          - text: ":"
+          - list [ref=e635]:
+            - listitem [ref=e636]:
+              - link "Welding" [ref=e637] [cursor=pointer]:
+                - /url: /wiki/Category:Welding
+            - listitem [ref=e638]:
+              - link "Technology-related lists" [ref=e639] [cursor=pointer]:
+                - /url: /wiki/Category:Technology-related_lists
+    - contentinfo [ref=e641]:
+      - list [ref=e642]:
+        - listitem [ref=e643]: This page was last edited on 6 October 2024, at 15:11 (UTC).
+        - listitem [ref=e644]:
+          - text: Text is available under the
+          - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=e645] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=e646] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and
+          - link "Privacy Policy" [ref=e647] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: . Wikipedia® is a registered trademark of the
+          - link "Wikimedia Foundation, Inc." [ref=e648] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org/
+          - text: ", a non-profit organization."
+      - list:
+        - listitem [ref=e649]:
+          - link "Privacy policy" [ref=e650] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e651]:
+          - link "About Wikipedia" [ref=e652] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=e653]:
+          - link "Disclaimers" [ref=e654] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e655]:
+          - link "Contact Wikipedia" [ref=e656] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e657]:
+          - link "Legal & safety contacts" [ref=e658] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e659]:
+          - link "Code of Conduct" [ref=e660] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e661]:
+          - link "Developers" [ref=e662] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e663]:
+          - link "Statistics" [ref=e664] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e665]:
+          - link "Cookie statement" [ref=e666] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e667]:
+          - link "Mobile view" [ref=e668] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=List_of_welding_processes&mobileaction=toggle_view_mobile
+      - list [ref=e669]:
+        - listitem [ref=e670]:
+          - link "Wikimedia Foundation" [ref=e671] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e673]
+        - listitem [ref=e674]:
+          - link "Powered by MediaWiki" [ref=e675] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e677]
+  - generic [ref=e678]:
+    - list

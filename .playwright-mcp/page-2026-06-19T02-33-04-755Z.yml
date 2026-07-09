@@ -1,0 +1,294 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - dialog:
+      - generic [ref=e2]:
+        - generic [ref=e3]:
+          - paragraph
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - generic [ref=e7]: Microsoft and our third-party vendors use cookies and similar technologies to deliver, maintain, and improve our services and ads. If you agree, we will use this data for ads personalization and associated analytics.
+            - generic [ref=e8]:
+              - text: You can select ‘Accept’ to consent to these uses, ‘Reject’ to decline these uses or click on ‘More options’ to review your options. You can change your selection under ‘Manage Cookie Preferences’ at the bottom of this page.
+              - link "Privacy Statement" [ref=e9] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+          - generic [ref=e10]:
+            - link "Accept" [ref=e12] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+            - link "Reject" [ref=e14] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+            - link "More options" [ref=e15] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+  - banner [ref=e16]:
+    - button "Skip to content" [ref=e17] [cursor=pointer]:
+      - generic [ref=e19]: Skip to content
+    - button "Accessibility Feedback" [ref=e20] [cursor=pointer]:
+      - generic [ref=e22]: Accessibility Feedback
+    - generic [ref=e23]:
+      - link "Back to Bing search" [ref=e24] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e25]
+      - search [ref=e26]:
+        - button "Search" [ref=e29] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e30]: TCVN 8366:2010 bình chịu áp lực thiết kế là gì
+        - button "Search using an image" [ref=e36] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e38]:
+      - button "Microsoft Rewards" [ref=e39] [cursor=pointer]:
+        - generic [ref=e41]:
+          - generic [ref=e42]: Rewards
+          - img [ref=e44]
+      - link "Sign in" [ref=e56] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e57]
+    - navigation "Search Filter" [ref=e58]:
+      - list [ref=e59]:
+        - listitem [ref=e60]:
+          - link "All" [ref=e61] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e62]:
+          - link "Search" [ref=e63] [cursor=pointer]:
+            - /url: /copilotsearch?q=TCVN+8366%3a2010+b%c3%acnh+ch%e1%bb%8bu+%c3%a1p+l%e1%bb%b1c+thi%e1%ba%bft+k%e1%ba%bf+l%c3%a0+g%c3%ac&FORM=CSSCOP
+            - img [ref=e64]
+            - text: Search
+        - listitem [ref=e66]:
+          - link "Images" [ref=e67] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=fba029ebdb8f0ad342781e6842fe22de8f4a84cf1f5b58dc0aeb30ea8c7de3b0JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2ltYWdlcy9zZWFyY2g_cT1UQ1ZOKzgzNjYlM2EyMDEwK2IlYzMlYWNuaCtjaCVlMSViYiU4YnUrJWMzJWExcCtsJWUxJWJiJWIxYyt0aGklZTElYmElYmZ0K2slZTElYmElYmYrbCVjMyVhMCtnJWMzJWFjJkZPUk09SERSU0Mz&ntb=1
+        - listitem [ref=e68]:
+          - link "Videos" [ref=e69] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=06a2e128e52a2d8b053ef2d62465ee10777b3c6aaea8f8428499415fa19a5521JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9zZWFyY2g_cT1UQ1ZOKzgzNjYlM2EyMDEwK2IlYzMlYWNuaCtjaCVlMSViYiU4YnUrJWMzJWExcCtsJWUxJWJiJWIxYyt0aGklZTElYmElYmZ0K2slZTElYmElYmYrbCVjMyVhMCtnJWMzJWFjJkZPUk09SERSU0M0&ntb=1
+        - listitem [ref=e70]:
+          - link "Maps" [ref=e71] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8d1c1e6f2f30a779acd926df242fe0e52685d065c978f3fa3c280aa15c4d61b4JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L21hcHM_cT1UQ1ZOKzgzNjYlM2EyMDEwK2IlYzMlYWNuaCtjaCVlMSViYiU4YnUrJWMzJWExcCtsJWUxJWJiJWIxYyt0aGklZTElYmElYmZ0K2slZTElYmElYmYrbCVjMyVhMCtnJWMzJWFjJkZPUk09SERSU0M2&ntb=1
+        - listitem [ref=e72]:
+          - link "Copilot" [ref=e73] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6091b617737376cbd479292738388465a76d8084111f009459e5884ce7cd8e22JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2NoYXQ_cHJvbXB0PVRDVk4rODM2NiUzYTIwMTArYiVjMyVhY25oK2NoJWUxJWJiJThidSslYzMlYTFwK2wlZTElYmIlYjFjK3RoaSVlMSViYSViZnQrayVlMSViYSViZitsJWMzJWEwK2clYzMlYWMmc2VuZHF1ZXJ5PTEmRk9STT1TQ0NPRFg&ntb=1
+        - listitem [ref=e74]:
+          - button "More" [ref=e75] [cursor=pointer]:
+            - img [ref=e77]
+            - text: More
+  - generic [ref=e79]:
+    - main "Search Results" [ref=e80]:
+      - generic [ref=e82]: About 241 results
+      - list [ref=e93]:
+        - listitem [ref=e94]:
+          - link "THƯ VIỆN PHÁP LUẬT" [ref=e96] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b8d56adc474aeb85496d2b9cbf21fb2518cf6ec5fec06a3c870686bcac78d823JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vVENWTi9kaWVuLWRpZW4tdHUvdGN2bi04MzY2LTIwMTAtYmluaC1jaGl1LWFwLWx1Yy15ZXUtY2F1LXZlLXRoaWV0LWtlLXZhLWNoZS10YW8tOTA0NjExLmFzcHg&ntb=1
+            - generic [ref=e101]:
+              - generic [ref=e102]: THƯ VIỆN PHÁP LUẬT
+              - generic [ref=e104]:
+                - generic [ref=e105]: https://thuvienphapluat.vn › TCVN › dien-dien-tu
+                - generic [ref=e106]: Translate this result
+          - heading "Tiêu chuẩn quốc gia TCVN 8366:2010 về Bình chịu áp lực - Yêu cầu …" [level=2] [ref=e107]:
+            - link "Tiêu chuẩn quốc gia TCVN 8366:2010 về Bình chịu áp lực - Yêu cầu …" [ref=e108] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=b8d56adc474aeb85496d2b9cbf21fb2518cf6ec5fec06a3c870686bcac78d823JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vVENWTi9kaWVuLWRpZW4tdHUvdGN2bi04MzY2LTIwMTAtYmluaC1jaGl1LWFwLWx1Yy15ZXUtY2F1LXZlLXRoaWV0LWtlLXZhLWNoZS10YW8tOTA0NjExLmFzcHg&ntb=1
+          - paragraph [ref=e110]: TCVN 8366:2010 được biên soạn trên cơ sở AS 1210:1997 Pressure vessels TCVN 8366:2010 do Ban kỹ thuật tiêu chuẩn quốc gia TCVN/TC 11 Nồi hơi và bình chịu áp lực biên soạn, Tổng cục Tiêu …
+        - listitem [ref=e111]:
+          - link "VNCE" [ref=e113] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a7e6eb89eee17bafb7cc0ce38d133595ffd83d7c58dd9497d83525e8a718bba4JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly92bmNlLnZuL1VwbG9hZHMvZmlsZXMvVENWTi04MzY2LTIwMTAucGRm&ntb=1
+            - generic [ref=e118]:
+              - generic [ref=e119]: VNCE
+              - generic [ref=e121]:
+                - generic [ref=e122]: https://vnce.vn › Uploads › files
+                - text: · PDF file
+                - generic [ref=e123]: Translate this result
+          - heading "TCVN 8366:2010 - vnce.vn" [level=2] [ref=e124]:
+            - link "TCVN 8366:2010 - vnce.vn" [ref=e125] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=a7e6eb89eee17bafb7cc0ce38d133595ffd83d7c58dd9497d83525e8a718bba4JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly92bmNlLnZuL1VwbG9hZHMvZmlsZXMvVENWTi04MzY2LTIwMTAucGRm&ntb=1
+          - paragraph [ref=e127]: Tiêu chuẩn này quy định các yêu cầu tối thiểu về vật liệu, thiết kế, chế tạo, thử nghiệm, giám sát, chứng nhận và chuyển giao các bình chịu áp lực có đốt nóng hoặc không đốt nóng cấu tạo từ kim loại đen …
+        - listitem [ref=e128]:
+          - generic [ref=e129]:
+            - link "Explore this image" [ref=e132] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=s6esjkYM&id=06656383F5AC581343F4019DCD4BC7EB1F953C44&thid=OIP.s6esjkYMVTyYXndav4wpQAHaD4&mediaurl=https://cdn.luatvietnam.vn/ImageDocs/tieu-chuan-viet-nam-tcvn-83662010-164834.jpg&q=TCVN+8366%3a2010+b%c3%acnh+ch%e1%bb%8bu+%c3%a1p+l%e1%bb%b1c+thi%e1%ba%bft+k%e1%ba%bf+l%c3%a0+g%c3%ac&ck=E923ADF3CCA9519BC35B247BF8FAD08C&idpp=rc&expw=1200&exph=628&form=rc2idp
+            - generic [ref=e134]:
+              - link "LuatVietnam" [ref=e136] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=61a5bb8809ec2ba996514e79d926280736aadd619d2f7414d821d3b910f01770JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi9jb25nLW5naGllcC90aWV1LWNodWFuLXRjdm4tODM2Ni0yMDEwLXRoaWV0LWtlLWNoZS10YW8tYmluaC1jaGl1LWFwLWx1Yy0xNjQ4MzQtZDMuaHRtbA&ntb=1
+                - generic [ref=e141]:
+                  - generic [ref=e142]: LuatVietnam
+                  - generic [ref=e144]:
+                    - generic [ref=e145]: https://luatvietnam.vn › cong-nghiep
+                    - generic [ref=e146]: Translate this result
+              - heading "Tiêu chuẩn TCVN 8366:2010 Thiết kế, chế tạo bình …" [level=2] [ref=e147]:
+                - link "Tiêu chuẩn TCVN 8366:2010 Thiết kế, chế tạo bình …" [ref=e148] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=61a5bb8809ec2ba996514e79d926280736aadd619d2f7414d821d3b910f01770JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi9jb25nLW5naGllcC90aWV1LWNodWFuLXRjdm4tODM2Ni0yMDEwLXRoaWV0LWtlLWNoZS10YW8tYmluaC1jaGl1LWFwLWx1Yy0xNjQ4MzQtZDMuaHRtbA&ntb=1
+              - paragraph [ref=e149]: Tiêu chuẩn này quy định các yêu cầu tối thiểu về thiết kế, chế tạo, thử nghiệm và giám sát các bình chịu áp lực, bao gồm cả các bình kim loại lẫn phi kim loại. …
+        - listitem [ref=e151]:
+          - generic [ref=e152]:
+            - link "Explore this image" [ref=e155] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=AVpEnM0c&id=58F456CF66E0798799B370BB16B62C7C90E5D52F&thid=OIP.AVpEnM0cmTnVXz3kOBIWUQHaFj&mediaurl=https://thietbivieta.com/wp-content/uploads/2025/09/tcvn-8366-2010.jpg&q=TCVN+8366%3a2010+b%c3%acnh+ch%e1%bb%8bu+%c3%a1p+l%e1%bb%b1c+thi%e1%ba%bft+k%e1%ba%bf+l%c3%a0+g%c3%ac&ck=C48B15027286185EBB39F6E04CDEE120&idpp=rc&expw=960&exph=720&form=rc2idp
+            - generic [ref=e157]:
+              - link "thietbivieta.com" [ref=e159] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=4fd594749d8a0ed355d33aad5baca8eb4e1a1c2a13ef5f90832dfa7338f8ea74JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aGlldGJpdmlldGEuY29tL3Rjdm4tODM2Ni0yMDEwLw&ntb=1
+                - generic [ref=e164]:
+                  - generic [ref=e165]: thietbivieta.com
+                  - generic [ref=e167]:
+                    - generic [ref=e168]: https://thietbivieta.com
+                    - generic [ref=e169]: Translate this result
+              - heading "TCVN 8366-2010 Bình chịu áp lực – Yêu cầu về thiết …" [level=2] [ref=e170]:
+                - link "TCVN 8366-2010 Bình chịu áp lực – Yêu cầu về thiết …" [ref=e171] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=4fd594749d8a0ed355d33aad5baca8eb4e1a1c2a13ef5f90832dfa7338f8ea74JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aGlldGJpdmlldGEuY29tL3Rjdm4tODM2Ni0yMDEwLw&ntb=1
+              - paragraph [ref=e172]: Sep 13, 2025 · TCVN 8366-2010 Bình chịu áp lực – Yêu cầu về thiết kế và chế tạo là gì? Đây là tiêu chuẩn quốc gia quan trọng quy định các yêu cầu kỹ thuật …
+        - listitem [ref=e174]:
+          - generic [ref=e175]:
+            - link "Explore this image" [ref=e178] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=egoFXQeO&id=9107FD673AB4F4620347FE71BDA329E56C464D3E&thid=OIP.egoFXQeOAqrUJ-Z1DMSh5QHaE8&mediaurl=https://cdn.thuvienphapluat.vn/phap-luat/2022-2/HT/che-tao-binh-chiu-ap-luc.jpg&q=TCVN+8366%3a2010+b%c3%acnh+ch%e1%bb%8bu+%c3%a1p+l%e1%bb%b1c+thi%e1%ba%bft+k%e1%ba%bf+l%c3%a0+g%c3%ac&ck=67263C2A5B40835A8D412B2A7841C98B&idpp=rc&expw=600&exph=400&form=rc2idp
+            - generic [ref=e180]:
+              - link "THƯ VIỆN PHÁP LUẬT" [ref=e182] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=dd876fad7e915d6e2dbc535576d89ab39e2b80e822a2c9b8ec32040d5c887decJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vcGhhcC1sdWF0L2hvLXRyby1waGFwLWx1YXQvdGN2bi04MzY2MjAxMC12ZS10aGlldC1rZS1jaGUtdGFvLWJpbmgtY2hpdS1hcC1sdWMtdGN2bi04MzY2MjAxMC1hcC1kdW5nLXZvaS1iaW5oLWNoaXUtYXAtbHVjLW5hby0xMjU4MDQuaHRtbA&ntb=1
+                - generic [ref=e187]:
+                  - generic [ref=e188]: THƯ VIỆN PHÁP LUẬT
+                  - generic [ref=e190]:
+                    - generic [ref=e191]: https://thuvienphapluat.vn › phap-luat › ho-tr…
+                    - generic [ref=e192]: Translate this result
+              - heading "TCVN 8366:2010 về thiết kế, chế tạo bình chịu áp lực?" [level=2] [ref=e193]:
+                - link "TCVN 8366:2010 về thiết kế, chế tạo bình chịu áp lực?" [ref=e194] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=dd876fad7e915d6e2dbc535576d89ab39e2b80e822a2c9b8ec32040d5c887decJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vcGhhcC1sdWF0L2hvLXRyby1waGFwLWx1YXQvdGN2bi04MzY2MjAxMC12ZS10aGlldC1rZS1jaGUtdGFvLWJpbmgtY2hpdS1hcC1sdWMtdGN2bi04MzY2MjAxMC1hcC1kdW5nLXZvaS1iaW5oLWNoaXUtYXAtbHVjLW5hby0xMjU4MDQuaHRtbA&ntb=1
+              - paragraph [ref=e195]: Nov 23, 2023 · Theo đó, Tiêu chuẩn này quy định các yêu cầu tối thiểu về vật liệu, thiết kế, chế tạo, thử nghiệm, giám sát, chứng nhận và chuyển giao các bình …
+        - listitem [ref=e197]:
+          - link "luatpvlgroup.com" [ref=e199] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=219be70142137546700d8bc9910d295f140530190fbf5f55372a5e0367710492JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0cHZsZ3JvdXAuY29tL3RpZXUtY2h1YW4tcXVvYy1naWEtdGN2bi04MzY2MjAxMC12ZS1raWVtLXRyYS10aGlldC1iaS1hcC1sdWMv&ntb=1
+            - generic [ref=e204]:
+              - generic [ref=e205]: luatpvlgroup.com
+              - generic [ref=e207]:
+                - generic [ref=e208]: https://luatpvlgroup.com
+                - generic [ref=e209]: Translate this result
+          - heading "Tiêu chuẩn quốc gia TCVN 8366:2010 về kiểm tra thiết bị áp lực" [level=2] [ref=e210]:
+            - link "Tiêu chuẩn quốc gia TCVN 8366:2010 về kiểm tra thiết bị áp lực":
+              - /url: https://www.bing.com/ck/a?!&&p=219be70142137546700d8bc9910d295f140530190fbf5f55372a5e0367710492JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0cHZsZ3JvdXAuY29tL3RpZXUtY2h1YW4tcXVvYy1naWEtdGN2bi04MzY2MjAxMC12ZS1raWVtLXRyYS10aGlldC1iaS1hcC1sdWMv&ntb=1
+          - paragraph [ref=e212]: May 24, 2025 · Tiêu chuẩn quốc gia TCVN 8366:2010 – Bình chịu áp lực – Yêu cầu về an toàn thiết kế, chế tạo và phương pháp kiểm tra được ban hành nhằm thiết lập các yêu cầu kỹ thuật tối thiểu đối …
+        - listitem [ref=e213]:
+          - link "Viện Tiêu chuẩn chất lượng Việt Nam" [ref=e215] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=14bbd44675936f50e4e52cc3a49fbfe0cd45fac0222a401bcca779637dca00bcJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aWV1Y2h1YW4udnNxaS5nb3Yudm4vdGlldWNodWFuL3ZpZXc_c29oaWV1PVRDVk4lMjA4MzY2OjIwMTA&ntb=1
+            - generic [ref=e220]:
+              - generic [ref=e221]: Viện Tiêu chuẩn chất lượng Việt Nam
+              - generic [ref=e223]:
+                - generic [ref=e224]: https://tieuchuan.vsqi.gov.vn › tieuchuan › view
+                - generic [ref=e225]: Translate this result
+          - 'heading "Tiêu chuẩn: TCVN 8366:2010 - Bình chịu áp lực - Yêu cầu về thiết kế …" [level=2] [ref=e226]':
+            - 'link "Tiêu chuẩn: TCVN 8366:2010 - Bình chịu áp lực - Yêu cầu về thiết kế …"':
+              - /url: https://www.bing.com/ck/a?!&&p=14bbd44675936f50e4e52cc3a49fbfe0cd45fac0222a401bcca779637dca00bcJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aWV1Y2h1YW4udnNxaS5nb3Yudm4vdGlldWNodWFuL3ZpZXc_c29oaWV1PVRDVk4lMjA4MzY2OjIwMTA&ntb=1
+          - paragraph [ref=e228]: Tiêu chuẩn này cũng đưa ra các yêu cầu đối với các bình phi kim loại và bình kim loại có lớp lót phi kim loại.
+        - listitem [ref=e229]:
+          - generic [ref=e230]:
+            - link "Explore this image" [ref=e233] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=SHmcgYEc&id=5F46BCF385ECB39F34E5000CCB692C9FB13F7A58&thid=OIP.SHmcgYEc3GU5ij6RJCUoXQHaJl&mediaurl=https://website-assets.studocu.com/img/document_thumbnails/d048b59f0f3eb11e7781dab35712bfa3/thumb_1200_1553.png&q=TCVN+8366%3a2010+b%c3%acnh+ch%e1%bb%8bu+%c3%a1p+l%e1%bb%b1c+thi%e1%ba%bft+k%e1%ba%bf+l%c3%a0+g%c3%ac&ck=6FB2665A52613BB33BBAB07F2202B52C&idpp=rc&expw=1200&exph=1553&form=rc2idp
+            - generic [ref=e235]:
+              - link "studocu.vn" [ref=e237] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=91ca65d1894cdce49e1225a2b0a764dcb513eb6d5a1069401080155a43f9d552JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cuc3R1ZG9jdS52bi92bi9kb2N1bWVudC90cnVvbmctZGFpLWhvYy1zdS1waGFtLWt5LXRodWF0LXRoYW5oLXBoby1oby1jaGktbWluaC9lbmdpbmVlcmluZy1tZWNoYW5pY3MvdG9uZy1xdWFuLXRoaWV0LWtlLWJvbi1hcC1sdWMtdGN2bi04MzY2LWh1b25nLWRhbi1jaGktdGlldC8xNTYwMDk2ODI&ntb=1
+                - generic [ref=e242]:
+                  - generic [ref=e243]: studocu.vn
+                  - generic [ref=e245]:
+                    - generic [ref=e246]: https://www.studocu.vn › vn › document › tru…
+                    - generic [ref=e247]: Translate this result
+              - 'heading "Tổng Quan Thiết Kế Bồn Áp Lực - TCVN 8366: Hướng …" [level=2] [ref=e248]':
+                - 'link "Tổng Quan Thiết Kế Bồn Áp Lực - TCVN 8366: Hướng …" [ref=e249] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=91ca65d1894cdce49e1225a2b0a764dcb513eb6d5a1069401080155a43f9d552JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly93d3cuc3R1ZG9jdS52bi92bi9kb2N1bWVudC90cnVvbmctZGFpLWhvYy1zdS1waGFtLWt5LXRodWF0LXRoYW5oLXBoby1oby1jaGktbWluaC9lbmdpbmVlcmluZy1tZWNoYW5pY3MvdG9uZy1xdWFuLXRoaWV0LWtlLWJvbi1hcC1sdWMtdGN2bi04MzY2LWh1b25nLWRhbi1jaGktdGlldC8xNTYwMDk2ODI&ntb=1
+              - paragraph [ref=e250]: Tài liệu này trình bày quy trình thiết kế bồn áp lực, bao gồm các bước từ thu …
+              - generic [ref=e252]:
+                - list [ref=e253]:
+                  - listitem [ref=e254]:
+                    - generic [ref=e255]:
+                      - strong [ref=e256]: "Reviews:"
+                      - text: "1"
+                - list
+        - listitem [ref=e258]:
+          - link "maynenkhivieta.com" [ref=e260] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=11be9bdf7d17773d8ddfc8b3440687cd4e7f9f872069cfaf42594afa3341e8faJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9tYXluZW5raGl2aWV0YS5jb20vYmxvZy90aWV1LWNodWFuL3Rjdm4tODM2Ni0yMDEwLw&ntb=1
+            - generic [ref=e265]:
+              - generic [ref=e266]: maynenkhivieta.com
+              - generic [ref=e268]:
+                - generic [ref=e269]: https://maynenkhivieta.com › blog › tieu-chuan
+                - generic [ref=e270]: Translate this result
+          - heading "TCVN 8366-2010 BÌNH CHỊU ÁP LỰC – YÊU CẦU VỀ THIẾT KẾ VÀ …" [level=2] [ref=e271]:
+            - link "TCVN 8366-2010 BÌNH CHỊU ÁP LỰC – YÊU CẦU VỀ THIẾT KẾ VÀ …":
+              - /url: https://www.bing.com/ck/a?!&&p=11be9bdf7d17773d8ddfc8b3440687cd4e7f9f872069cfaf42594afa3341e8faJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9tYXluZW5raGl2aWV0YS5jb20vYmxvZy90aWV1LWNodWFuL3Rjdm4tODM2Ni0yMDEwLw&ntb=1
+          - paragraph [ref=e273]: Jan 20, 2026 · Tiêu chuẩn này quy định các yêu cầu tối thiểu về vật liệu, thiết kế, chế tạo, thử nghiệm, giám sát, chứng nhận và chuyển giao các bình chịu áp lực có đốt nóng hoặc không đốt nóng cấu tạo …
+        - listitem [ref=e274]:
+          - link "VNCE" [ref=e276] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3aed2d161c8f6240dc30f7246eea0ae52eb8351f034f2e6acccbe3294e76f0dbJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly92bmNlLnZuL3RpZXUtY2h1YW4tcXVvYy1naWEtdGN2bi04MzY2LTIwMTAtdmUtYmluaC1jaGl1LWFwLWx1Yy15ZXUtY2F1LXZlLXRoaWV0LWtlLXZhLWNoZS10YW8&ntb=1
+            - generic [ref=e281]:
+              - generic [ref=e282]: VNCE
+              - generic [ref=e284]:
+                - generic [ref=e285]: https://vnce.vn
+                - generic [ref=e286]: Translate this result
+          - heading "Tiêu chuẩn quốc gia TCVN 8366:2010 về Bình chịu áp lực - Yêu cầu …" [level=2] [ref=e287]:
+            - link "Tiêu chuẩn quốc gia TCVN 8366:2010 về Bình chịu áp lực - Yêu cầu …":
+              - /url: https://www.bing.com/ck/a?!&&p=3aed2d161c8f6240dc30f7246eea0ae52eb8351f034f2e6acccbe3294e76f0dbJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly92bmNlLnZuL3RpZXUtY2h1YW4tcXVvYy1naWEtdGN2bi04MzY2LTIwMTAtdmUtYmluaC1jaGl1LWFwLWx1Yy15ZXUtY2F1LXZlLXRoaWV0LWtlLXZhLWNoZS10YW8&ntb=1
+          - paragraph [ref=e289]: Jan 20, 2026 · TCXDVN 46:2007 Chống sét cho công trình xây dựng - hướng dẫn thiết kế, kiểm tra và bảo trì hệ thống TCVN 6395:2008 Thang máy điện - yêu cầu về kỹ thuật và lắp đặt
+        - listitem [ref=e290]:
+          - generic [ref=e291]:
+            - heading "Deep dive into TCVN 8366:2010 bình chịu áp lực thiết kế là gì" [level=2] [ref=e292]:
+              - text: Deep dive into
+              - strong [ref=e293]: TCVN 8366:2010 bình chịu áp lực thiết kế là gì
+            - list [ref=e294]:
+              - listitem [ref=e295]:
+                - link "tcvn 8366 2010 pdf" [ref=e296] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=c97ef38d4abad28bee076d085accfe0ab4309b01f3ff373f9293220e33d5def1JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXRjdm4rODM2NisyMDEwK1BERiZGT1JNPVFTUkUx&ntb=1
+                  - generic [ref=e298]:
+                    - text: tcvn 8366 2010
+                    - strong [ref=e299]: pdf
+              - listitem [ref=e300]:
+                - link "bình chịu áp suất" [ref=e301] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=5682cab7da456aa6c1096a3b232098d0437c855442f4cabd87720bb7f2ecfe7bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPWIlYzMlYWNuaCtjaCVlMSViYiU4YnUrJWMzJWExcCtzdSVlMSViYSVhNXQmRk9STT1RU1JFMg&ntb=1
+                  - generic [ref=e303]:
+                    - text: bình chịu áp
+                    - strong [ref=e304]: suất
+              - listitem [ref=e305]:
+                - link "bình chịu áp lực" [ref=e306] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=545174e1127a996ce459f1a4b7d580f2e9bb33cf81c813e977c53a5348c6245dJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPWIlYzMlYWNuaCtjaCVlMSViYiU4YnUrJWMzJWExcCtsJWUxJWJiJWIxYyZGT1JNPVFTUkUz&ntb=1
+                  - generic [ref=e308]: bình chịu áp lực
+              - listitem [ref=e309]:
+                - link "tcvn 8366" [ref=e310] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=e040e1831a010a05fda97bec11d7aa195bf15196259f2816ee0a9d5be2f7eb8cJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXRjdm4rODM2NiZGT1JNPVFTUkU0&ntb=1
+                  - generic [ref=e312]: tcvn 8366
+        - listitem [ref=e313]:
+          - link "Some results have been removed" [ref=e315] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6a2eeb21b394098b43050e176afdd54e61b4c0836f959b37fe99e70d3b2b6767JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=e316]:
+          - navigation "More results for TCVN 8366:2010 bình chịu áp lực thiết kế là gì":
+            - list:
+              - listitem [ref=e317]:
+                - generic "Page 1" [ref=e318]: "1"
+              - listitem [ref=e319]:
+                - link "Page 2" [ref=e320] [cursor=pointer]:
+                  - /url: /search?q=TCVN+8366%3a2010+b%c3%acnh+ch%e1%bb%8bu+%c3%a1p+l%e1%bb%b1c+thi%e1%ba%bft+k%e1%ba%bf+l%c3%a0+g%c3%ac&FPIG=1767BE031ACC4184810584E8C6D5CCC9&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e321]:
+                - link "Page 3" [ref=e322] [cursor=pointer]:
+                  - /url: /search?q=TCVN+8366%3a2010+b%c3%acnh+ch%e1%bb%8bu+%c3%a1p+l%e1%bb%b1c+thi%e1%ba%bft+k%e1%ba%bf+l%c3%a0+g%c3%ac&FPIG=1767BE031ACC4184810584E8C6D5CCC9&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e323]:
+                - link "Next page" [ref=e324] [cursor=pointer]:
+                  - /url: /search?q=TCVN+8366%3a2010+b%c3%acnh+ch%e1%bb%8bu+%c3%a1p+l%e1%bb%b1c+thi%e1%ba%bft+k%e1%ba%bf+l%c3%a0+g%c3%ac&FPIG=1767BE031ACC4184810584E8C6D5CCC9&first=11&FORM=PORE
+    - complementary "Additional Results" [ref=e325]:
+      - list [ref=e326]:
+        - listitem [ref=e327]:
+          - generic "Related searches" [ref=e328]:
+            - generic [ref=e330]:
+              - heading "Deep dive into TCVN 8366:2010 bình chịu áp lực thiết kế là gì" [level=2] [ref=e332]:
+                - text: Deep dive into
+                - strong [ref=e333]: TCVN 8366:2010 bình chịu áp lực thiết kế là gì
+              - generic [ref=e334]:
+                - link "tcvn 8366 2010 pdf" [ref=e336] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=922b492da881150345ca5b1a7bb8265df5544c2cfbde53c3e4bbc5dbf829555fJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXRjdm4rODM2NisyMDEwK1BERiZGT1JNPVI1RkQ&ntb=1
+                  - generic [ref=e338]:
+                    - text: tcvn 8366 2010
+                    - strong [ref=e339]: pdf
+                - link "bình chịu áp suất" [ref=e341] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=5c7f1437814962d92e719fb5b01dc0df02f38c0be4b0677948042da9437f28c4JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPWIlYzMlYWNuaCtjaCVlMSViYiU4YnUrJWMzJWExcCtzdSVlMSViYSVhNXQmRk9STT1SNUZEMQ&ntb=1
+                  - generic [ref=e343]:
+                    - text: bình chịu áp
+                    - strong [ref=e344]: suất
+                - link "bình chịu áp lực" [ref=e346] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=ab156cc07b7f050cffd94abc983fc659d5925a2498691ca39aa55d62c48cdc40JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPWIlYzMlYWNuaCtjaCVlMSViYiU4YnUrJWMzJWExcCtsJWUxJWJiJWIxYyZGT1JNPVI1RkQy&ntb=1
+                  - generic [ref=e348]: bình chịu áp lực
+                - link "tcvn 8366" [ref=e350] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=500fb52b1c6e9889b9ed6cb6bef1c475ed533218a0e83441155411e5586fb68cJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXRjdm4rODM2NiZGT1JNPVI1RkQz&ntb=1
+                  - generic [ref=e352]: tcvn 8366
+  - contentinfo [ref=e353]:
+    - generic [ref=e354]:
+      - list:
+        - listitem [ref=e355]:
+          - link "Privacy" [ref=e356] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7b44db685677b97b59d99ac58a6dcb7b55ed8b4aacd5ffe64e4ae4c0aa82d70bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e357]:
+          - link "Terms" [ref=e358] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0c98928a6597273e4a5057fc09082f8c5ed11f1634b17ea06829b02b1e9d7505JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

@@ -1,0 +1,363 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - link "Log in" [ref=e7] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/login/
+            - link "Sign up" [ref=e8] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/registration/
+          - generic [ref=e9]:
+            - text: LANGUAGE
+            - link "en" [ref=e10] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/bs-en-iso-3452-1-2021-non-destructive-testing-penetrant-testing-general-principles/
+        - generic:
+          - generic:
+            - generic [ref=e11]:
+              - link "STORE" [ref=e12] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/store/
+              - link "Membership" [ref=e13] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/membership/
+              - link "Help center" [ref=e14] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/blog/
+              - link "Contacts" [ref=e15] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/contacts-1/
+              - link "Delivery charges" [ref=e16] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/delivery-charges/
+              - link "ABOUT US" [ref=e17] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/about-us/
+              - link "News" [ref=e18] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/news-5-2026/
+            - generic [ref=e19]:
+              - generic [ref=e20]: SEARCH
+              - generic:
+                - textbox "SEARCH STANDARDS" [ref=e21]
+                - button [ref=e22] [cursor=pointer]
+            - generic [ref=e23]:
+              - generic [ref=e25]: "0"
+              - generic [ref=e26]: Total price
+              - generic [ref=e27]: 0 EUR
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e31]:
+          - generic [ref=e32]: PRICES include / exclude VAT
+          - combobox [ref=e34]:
+            - option "no, exclude" [selected]
+            - option "Czech Republic"
+            - option "Austria"
+            - option "Belgium"
+            - option "Bulgaria"
+            - option "Croatia"
+            - option "Denmark"
+            - option "Estonia"
+            - option "Finland"
+            - option "France"
+            - option "Germany"
+            - option "Greece"
+            - option "Hungary"
+            - option "Ireland"
+            - option "Italy"
+            - option "Latvia"
+            - option "Lithuania"
+            - option "Luxembourg"
+            - option "Monaco"
+            - option "Netherlands"
+            - option "Poland"
+            - option "Portugal"
+            - option "Romania"
+            - option "Slovakia"
+            - option "Slovenia"
+            - option "Spain"
+            - option "Sweden"
+            - option "Malta"
+            - option "Cyprus"
+        - generic [ref=e35]:
+          - link [ref=e36] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/
+          - text: ">"
+          - link "BSI Standards" [ref=e37] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/
+          - text: ">"
+          - link "19 TESTING" [ref=e38] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/19-testing/
+          - text: ">"
+          - link "19.100 Non-destructive testing" [ref=e39] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/19-testing/19-100-non-destructive-testing/
+          - text: ">BS EN ISO 3452-1:2021 Non-destructive testing. Penetrant testing General principles"
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: "immediate downloadReleased: 2021-06-07"
+            - link "BS EN ISO 3452-1:2021 Non-destructive testing. Penetrant testing General principles" [ref=e44] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/imgcache/5/9/pi449-bs-en-iso-3452-1-2021-BS-EN-ISO-3452-1-2021-Non-dest_-1_-1_315590.jpg
+              - img "BS EN ISO 3452-1:2021 Non-destructive testing. Penetrant testing General principles" [ref=e45]
+            - generic [ref=e46]:
+              - heading "BS EN ISO 3452-1:2021" [level=1] [ref=e47]
+              - heading "Non-destructive testing. Penetrant testing General principles" [level=2] [ref=e48]
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - generic [ref=e51]: Format
+              - generic [ref=e52]: Availability
+              - generic [ref=e53]:
+                - text: Price and currency
+                - combobox [ref=e54]:
+                  - option "EUR" [selected]
+                  - option "GBP"
+                  - option "USD"
+            - generic [ref=e55]:
+              - generic "Secure PDF files include digital rights management (DRM) software- protected by Vitrium security. DRM is included at the request of the publisher. It helps them protect their copyright. The DRM solution works with Adobe Reader and internet viewers. For more information visit helpcenter." [ref=e58]: English Secure PDF
+              - generic [ref=e59]:
+                - text: Immediate download
+                - generic "Printable - You are authorized to print 1 copy" [ref=e60]
+              - generic [ref=e61]: 310.08 EUR
+              - button "Add to cart" [ref=e63] [cursor=pointer]
+            - generic [ref=e64]:
+              - generic "Printed version - Standard will be sent you by FedEx International Priority Express." [ref=e67]: English Hardcopy
+              - generic [ref=e68]: In stock
+              - generic [ref=e69]: 310.08 EUR
+              - button "Add to cart" [ref=e71] [cursor=pointer]
+          - generic [ref=e74]:
+            - table [ref=e75]:
+              - rowgroup [ref=e76]:
+                - 'row "Standard number: BS EN ISO 3452-1:2021" [ref=e77]':
+                  - cell "Standard number:" [ref=e78]
+                  - cell "BS EN ISO 3452-1:2021" [ref=e79]
+                - 'row "Pages: 34" [ref=e80]':
+                  - cell "Pages:" [ref=e81]
+                  - cell "34" [ref=e82]
+                - 'row "Released: 2021-06-07" [ref=e83]':
+                  - cell "Released:" [ref=e84]
+                  - cell "2021-06-07" [ref=e85]
+                - 'row "ISBN: 978 0 539 00647 6" [ref=e86]':
+                  - cell "ISBN:" [ref=e87]
+                  - cell "978 0 539 00647 6" [ref=e88]
+                - 'row "Status: Standard" [ref=e89]':
+                  - cell "Status:" [ref=e90]
+                  - cell "Standard" [ref=e91]
+            - generic [ref=e93]: DESCRIPTION
+            - generic [ref=e94]:
+              - heading "BS EN ISO 3452-1:2021" [level=1] [ref=e95]
+              - text: "This standard BS EN ISO 3452-1:2021 Non-destructive testing. Penetrant testing is classified in these ICS categories:"
+              - list [ref=e96]:
+                - listitem [ref=e97]: 19.100 Non-destructive testing
+              - text: This standard defines a method of penetrant testing used to detect discontinuities, e.g. cracks, laps, folds, porosity and lack of fusion, which are open to the surface of the material to be tested. It is mainly applied to metallic materials, but can also be performed on other materials, provided that they are inert to the test media and they are not excessively porous, examples of which are castings, forgings, welds, ceramics, etc. This standard is not intended to be used for acceptance criteria and gives no information relating to the suitability of individual test systems for specific applications nor requirements for test equipment. The term 'discontinuity' is used here in the sense that no evaluation concerning acceptability or non-acceptability is included. Methods for determining and monitoring the essential properties of penetrant testing products to be used are specified in ISO 3452-2 and ISO 3452-3.
+            - generic [ref=e98]:
+              - 'heading "BS EN ISO 3452-1:2021: Non-destructive Testing - Penetrant Testing General Principles" [level=1] [ref=e99]'
+              - paragraph [ref=e100]:
+                - text: Discover the essential guidelines and principles of non-destructive testing with the
+                - strong [ref=e101]: BS EN ISO 3452-1:2021
+                - text: standard. This comprehensive document is a must-have for professionals in the field of material testing, quality assurance, and engineering. Released on June 7, 2021, this standard provides the latest insights and methodologies in penetrant testing, ensuring that your practices are up-to-date and in compliance with international standards.
+              - heading "Key Features of BS EN ISO 3452-1:2021" [level=2] [ref=e102]
+              - list [ref=e103]:
+                - listitem [ref=e104]:
+                  - strong [ref=e105]: "Standard Number:"
+                  - text: BS EN ISO 3452-1:2021
+                - listitem [ref=e106]:
+                  - strong [ref=e107]: "Pages:"
+                  - text: "34"
+                - listitem [ref=e108]:
+                  - strong [ref=e109]: "Release Date:"
+                  - text: June 7, 2021
+                - listitem [ref=e110]:
+                  - strong [ref=e111]: "ISBN:"
+                  - text: 978 0 539 00647 6
+                - listitem [ref=e112]:
+                  - strong [ref=e113]: "Status:"
+                  - text: Standard
+              - heading "Comprehensive Coverage" [level=2] [ref=e114]
+              - paragraph [ref=e115]: This standard encompasses a wide range of topics related to penetrant testing, a crucial method in non-destructive testing (NDT). It provides detailed guidelines on the general principles of penetrant testing, ensuring that practitioners can effectively detect surface-breaking defects in materials. Whether you are involved in manufacturing, construction, or maintenance, this standard is an invaluable resource for ensuring the integrity and safety of your products and structures.
+              - heading "Why Choose BS EN ISO 3452-1:2021?" [level=2] [ref=e116]
+              - paragraph [ref=e117]: "Adopting the BS EN ISO 3452-1:2021 standard offers numerous benefits:"
+              - list [ref=e118]:
+                - listitem [ref=e119]:
+                  - strong [ref=e120]: "International Recognition:"
+                  - text: As an ISO standard, it is recognized globally, facilitating international trade and cooperation.
+                - listitem [ref=e121]:
+                  - strong [ref=e122]: "Up-to-date Practices:"
+                  - text: Stay ahead with the latest methodologies and practices in penetrant testing.
+                - listitem [ref=e123]:
+                  - strong [ref=e124]: "Quality Assurance:"
+                  - text: Enhance the reliability and safety of your products by adhering to proven testing principles.
+                - listitem [ref=e125]:
+                  - strong [ref=e126]: "Comprehensive Guidelines:"
+                  - text: Detailed instructions and principles ensure thorough understanding and application.
+              - heading "Who Should Use This Standard?" [level=2] [ref=e127]
+              - paragraph [ref=e128]: "The BS EN ISO 3452-1:2021 standard is designed for a wide range of professionals, including:"
+              - list [ref=e129]:
+                - listitem [ref=e130]: Quality Assurance Engineers
+                - listitem [ref=e131]: Non-destructive Testing Technicians
+                - listitem [ref=e132]: Material Scientists
+                - listitem [ref=e133]: Manufacturing Engineers
+                - listitem [ref=e134]: Construction Professionals
+              - heading "Enhance Your Testing Capabilities" [level=2] [ref=e135]
+              - paragraph [ref=e136]: By integrating the principles outlined in this standard, you can significantly enhance your testing capabilities. The document provides a structured approach to penetrant testing, ensuring that you can identify defects with precision and accuracy. This not only improves the quality of your products but also reduces the risk of failures and accidents, thereby protecting your brand reputation and customer trust.
+              - heading "Stay Compliant and Competitive" [level=2] [ref=e137]
+              - paragraph [ref=e138]: In today's competitive market, compliance with international standards is crucial. The BS EN ISO 3452-1:2021 standard helps you meet regulatory requirements and industry expectations, positioning your business as a leader in quality and safety. By adopting this standard, you demonstrate your commitment to excellence and continuous improvement, setting you apart from competitors.
+              - heading "Conclusion" [level=2] [ref=e139]
+              - paragraph [ref=e140]: The BS EN ISO 3452-1:2021 standard is an essential tool for anyone involved in non-destructive testing. With its comprehensive guidelines and international recognition, it provides the foundation for effective and reliable penetrant testing. Ensure your practices are aligned with the latest standards and enhance the quality and safety of your products with this indispensable resource.
+          - generic [ref=e141]:
+            - link "Print" [ref=e143] [cursor=pointer]:
+              - /url: javascript:window.print()
+            - link "RECOMMEND" [ref=e144] [cursor=pointer]:
+              - /url: mailto:?Subject=Zaj%C3%ADmav%C3%BD%20produkt&Body=https://www.en-standard.eu/bs-en-iso-3452-1-2021-non-destructive-testing-penetrant-testing-general-principles/
+          - generic [ref=e145]:
+            - iframe [ref=e146]:
+              
+            - link "Tweet" [ref=e148] [cursor=pointer]:
+              - /url: https://twitter.com/share
+            - button "Share" [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]:
+                - img
+              - text: Share
+      - complementary [ref=e154]:
+        - generic [ref=e156]:
+          - link "ICS codes" [ref=e157] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/ics-codes/
+          - link "AIAG Standards" [ref=e158] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/qs-9000/
+          - link "ASTM Standards" [ref=e159] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/astm-standards/
+          - link "Annual Book of ASTM Standards" [ref=e160] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/annual-book-of-astm-standards/
+          - link "BSI Standards" [ref=e161] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/bsi-standards/
+            - text: BSI Standards
+          - link "CSN Standards" [ref=e163] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/csn-standards/
+          - link "CQI Standards" [ref=e164] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/cqi/
+          - link "DIN Standards" [ref=e165] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/din-standards/
+          - link "IEC Standards" [ref=e166] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/iec-standards/
+          - link "IEEE Standards" [ref=e167] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/ieee-standards/
+          - link "IPC Standards" [ref=e168] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/ipc-standards/
+          - link "ISO Standards" [ref=e169] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/iso-standards/
+          - link "UNE standards" [ref=e170] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/une-standards/
+          - link "VDA Automotive Standards" [ref=e171] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/automotive-quality-standards-qs-9000/
+          - link "Eurocodes" [ref=e172] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/eurocodes/
+          - link "Sets of EN Standards" [ref=e173] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/sets-of-en-standards/
+          - link "Quality management standards ISO 9001" [ref=e174] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/quality-management-standards-iso-9001/
+          - link "Environmental management systems ISO 14001" [ref=e175] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/environmental-management-systems-iso-14001/
+          - link "Asset management ISO 55000" [ref=e176] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/asset-management-iso-55000/
+          - link "Energy management systems ISO 50001" [ref=e177] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/energy-management-systems-iso-50001/
+          - link "Facility Management EN 15221 and ISO 41000" [ref=e178] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/facility-management-en-15221-and-iso-41000/
+          - link "ISO 5817-Welding" [ref=e179] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/sets-of-en-standards-iso-5817-welding/
+          - link "Information technology ISO/IEC 27000" [ref=e180] [cursor=pointer]:
+            - /url: https://www.en-standard.eu/information-technology-iso-iec-27000/
+    - contentinfo [ref=e181]:
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - generic [ref=e184]: Partners
+          - generic [ref=e185]:
+            - paragraph [ref=e186]:
+              - link "ASTM Standards" [ref=e187] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/astm-standards/
+              - text: ","
+              - link "BS Standards" [ref=e188] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/bs-standards/
+            - paragraph [ref=e189]:
+              - link "DIN Standards" [ref=e190] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/din-standards/
+              - text: ","
+              - link "IEC Standards" [ref=e191] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/iec-standards/
+              - text: ","
+            - paragraph [ref=e192]:
+              - link "ISO Standards" [ref=e193] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/iso-standards/
+              - text: ","
+              - link "IEEE Standards" [ref=e194] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/ieee-standards/
+            - paragraph [ref=e195]:
+              - link "IPC Standards" [ref=e196] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/ipc-standards/
+              - text: ","
+              - link "VDA Standards" [ref=e197] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/automotive-quality-standards-qs-9000/
+            - paragraph [ref=e198]:
+              - link "CQI Manuals" [ref=e199] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/cqi/
+            - paragraph [ref=e200]
+            - paragraph [ref=e201]
+            - paragraph [ref=e202]
+            - paragraph [ref=e203]
+        - generic [ref=e204]:
+          - generic [ref=e205]: Terms and conditions
+          - generic [ref=e206]:
+            - paragraph [ref=e207]:
+              - text: Please check our
+              - link "Terms and conditions" [ref=e208] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+              - text: mainly for
+              - strong [ref=e209]: engineering standards in electronic (PDF)
+              - text: format
+            - paragraph [ref=e210]
+            - paragraph [ref=e211]:
+              - link "Privacy Policy" [ref=e212] [cursor=pointer]:
+                - /url: https://www.en-standard.eu/publicdoc/privacy-policy-en-standard-1.pdf
+        - generic [ref=e214]:
+          - generic [ref=e215]: 3D Secure payment
+          - paragraph [ref=e216]
+        - generic [ref=e217]:
+          - generic [ref=e218]: Contacts
+          - generic [ref=e219]:
+            - paragraph [ref=e220]:
+              - text: "email:"
+              - link "info@en-standard.eu" [ref=e221] [cursor=pointer]:
+                - /url: mailto:info@en-standard.eu
+            - paragraph [ref=e222]: "Phone: +420 377 921 379"
+            - paragraph [ref=e223]: "Fax: +420 960 377 387 684"
+        - generic [ref=e224]:
+          - generic [ref=e225]: Copyright 2026 © EUROPEAN STANDARD. All rights reserved.
+          - generic [ref=e226]:
+            - link "SITEMAP" [ref=e227] [cursor=pointer]:
+              - /url: https://www.en-standard.eu/sitemap-en/
+            - link "Ecommerce solutions" [ref=e228] [cursor=pointer]:
+              - /url: https://www.binargon.cz/eshop/
+            - link "BINARGON.cz" [ref=e229] [cursor=pointer]:
+              - /url: https://www.binargon.cz/
+        - generic [ref=e230]:
+          - paragraph [ref=e231]
+          - paragraph [ref=e232]:
+            - link "facebook" [ref=e233] [cursor=pointer]:
+              - /url: https://www.facebook.com/pages/European-Standards-Online-Store/113965131954594?fref=ts
+              - img "facebook" [ref=e234]
+            - link "google plus" [ref=e235] [cursor=pointer]:
+              - /url: https://plus.google.com/u/0/b/109762724017410291385/
+              - img "google plus" [ref=e236]
+            - link "twitter" [ref=e237] [cursor=pointer]:
+              - /url: https://twitter.com/enstandards
+              - img "twitter" [ref=e238]
+            - link "linkedin" [ref=e239] [cursor=pointer]:
+              - /url: http://www.linkedin.com/pub/en-standards/a3/a86/a54
+              - img "linkedin" [ref=e240]
+  - generic:
+    - complementary [ref=e241]:
+      - generic [ref=e242]: Cookies + GDPR
+      - generic [ref=e243]: European Standards and partners need your consent to use individual data in order to show you information related to your interests through ad personalization, among other things. You give consent by clicking on the checkbox "Yes, I agree".
+      - generic [ref=e244]:
+        - button "Reject everything" [ref=e245] [cursor=pointer]
+        - button "Yes, I accept" [ref=e246] [cursor=pointer]
+        - button "Detailed settings with explanations can be found here" [ref=e247] [cursor=pointer]
+    - complementary [ref=e248] [cursor=pointer]:
+      - generic [ref=e249]: Privacy
+  - iframe [ref=e250]:
+    
+  - iframe [ref=e253]:
+    

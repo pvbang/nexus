@@ -1,0 +1,194 @@
+- generic [ref=e1]:
+  - dialog "Cookie Consent Banner" [ref=e2]:
+    - button "Close this dialog" [active] [ref=e3] [cursor=pointer]:
+      - img "Close this dialog" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. You may change your settings at any time or accept the default settings. You may close this banner to continue with only essential cookies.
+      - link "Privacy Policy" [ref=e7] [cursor=pointer]:
+        - /url: https://www.fmamfg.org/privacy-policy
+      - paragraph [ref=e8]:
+        - link "Storage Preferences" [ref=e9] [cursor=pointer]:
+          - /url: "#80b3537b-a6a4-4242-8ed2-f8f9af226ecd"
+      - group "Storage Preferences" [ref=e10]:
+        - list "Storage Preferences" [ref=e11]:
+          - listitem [ref=e12]:
+            - generic [ref=e13]:
+              - switch "Targeted Advertising" [ref=e14]
+              - generic [ref=e16]: Targeted Advertising
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - switch "Personalization" [ref=e19]
+              - generic [ref=e21]: Personalization
+          - listitem [ref=e22]:
+            - generic [ref=e23]:
+              - switch "Analytics" [ref=e24]
+              - generic [ref=e26]: Analytics
+    - generic [ref=e27]:
+      - button "Save" [ref=e28] [cursor=pointer]
+      - button "Accept All" [ref=e29] [cursor=pointer]
+      - button "Reject Non-Essential" [ref=e30] [cursor=pointer]
+  - main [ref=e31]:
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - text: Our Sites
+        - generic [ref=e36]: 
+      - list [ref=e37]:
+        - listitem [ref=e38]:
+          - link "FMA" [ref=e39] [cursor=pointer]:
+            - /url: https://www.fmamfg.org/
+        - listitem [ref=e40]: The Fabricator
+        - listitem [ref=e41]:
+          - link "FABTECH" [ref=e42] [cursor=pointer]:
+            - /url: https://www.fabtechexpo.com
+        - listitem [ref=e43]:
+          - link "Canadian Metalworking" [ref=e44] [cursor=pointer]:
+            - /url: https://www.canadianmetalworking.com/
+    - insertion [ref=e48]
+    - navigation [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - link "The logo of The Fabricator" [ref=e53] [cursor=pointer]:
+            - /url: /
+            - img "The logo of The Fabricator" [ref=e54]
+          - generic "Toggle navigation" [ref=e56] [cursor=pointer]
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - text: Categories
+              - generic [ref=e63]: 
+            - generic [ref=e64]:
+              - text: Directory
+              - generic [ref=e65]: 
+            - link "Podcasts" [ref=e67] [cursor=pointer]:
+              - /url: https://www.thefabricator.com/podcast
+            - link "Webcasts" [ref=e69] [cursor=pointer]:
+              - /url: /?filter=webcast
+            - link "FAB 40" [ref=e71] [cursor=pointer]:
+              - /url: /fab40
+            - link "Advertise" [ref=e73] [cursor=pointer]:
+              - /url: /advertise
+          - generic [ref=e74]:
+            - link "Subscribe Free" [ref=e77] [cursor=pointer]:
+              - /url: https://www.thefabricator.com/my-subscriptions
+            - generic [ref=e80] [cursor=pointer]: 
+            - generic [ref=e83] [cursor=pointer]: 
+          - text: 
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - list [ref=e87]:
+          - listitem [ref=e88] [cursor=pointer]:
+            - link "" [ref=e89]:
+              - /url: /
+              - generic [ref=e90]: 
+          - listitem [ref=e91]:
+            - link "Our Publications" [ref=e92] [cursor=pointer]:
+              - /url: /publication
+          - listitem [ref=e93] [cursor=pointer]:
+            - link "The Fabricator" [ref=e94]:
+              - /url: /thefabricator
+          - listitem [ref=e95] [cursor=pointer]:
+            - link "The Welder" [ref=e96]:
+              - /url: /thewelder
+          - listitem [ref=e97] [cursor=pointer]:
+            - link "The Tube and Pipe Journal" [ref=e98]:
+              - /url: /tubepipejournal
+          - listitem [ref=e99] [cursor=pointer]:
+            - link "The Fabricator en Español" [ref=e100]:
+              - /url: /thefabricatorenespanol
+        - text: ▶ ▶ ▶ ▶
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - 'heading "Server Error: 404 (Not Found)" [level=1] [ref=e104]'
+          - heading "I think we're lost." [level=2] [ref=e105]
+        - separator [ref=e106]
+        - paragraph [ref=e107]:
+          - strong [ref=e108]: So what does this mean?
+        - paragraph [ref=e109]:
+          - text: We couldn't find the page you requested on our servers. We're really sorry about that. It's our fault, not yours. We'll work hard to get this page back online as soon as possible. Perhaps you would like to visit our
+          - link "home page" [ref=e110] [cursor=pointer]:
+            - /url: /
+          - text: "? Otherwise, you could try searching for the content you are looking for below."
+        - textbox "search" [ref=e116]
+  - contentinfo [ref=e118]:
+    - generic [ref=e120]:
+      - heading "Our Affiliated Brands" [level=5] [ref=e121]
+      - generic [ref=e122]:
+        - link "The logo of the Fabricators and Manufacturers Association" [ref=e125] [cursor=pointer]:
+          - /url: https://www.fmamfg.org
+          - img "The logo of the Fabricators and Manufacturers Association" [ref=e126]
+        - link "The logo of FABTECH" [ref=e129] [cursor=pointer]:
+          - /url: https://www.fabtechexpo.com
+          - img "The logo of FABTECH" [ref=e130]
+        - link "The logo of Canadian Metalworking" [ref=e133] [cursor=pointer]:
+          - /url: https://www.canadianmetalworking.com
+          - img "The logo of Canadian Metalworking" [ref=e134]
+        - link "The logo of SparkForce, The FMA Foundation" [ref=e137] [cursor=pointer]:
+          - /url: https://www.fmamfg.org/foundation
+          - img "The logo of SparkForce, The FMA Foundation" [ref=e138]
+    - generic [ref=e140]:
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - link "The logo of The Fabricator":
+              - /url: /thefabricator/about
+              - img "The logo of The Fabricator" [ref=e145] [cursor=pointer]
+          - generic [ref=e146]:
+            - link "The logo of The Welder":
+              - /url: /thewelder/about
+              - img "The logo of The Welder" [ref=e147] [cursor=pointer]
+          - generic [ref=e148]:
+            - link "The logo of The Tube and Pipe Journal":
+              - /url: /tubepipejournal/about
+              - img "The logo of The Tube and Pipe Journal" [ref=e149] [cursor=pointer]
+        - generic [ref=e151]:
+          - link "The logo of The Fabricator en Español":
+            - /url: /thefabricatorenespanol/about
+            - img "The logo of The Fabricator en Español" [ref=e152] [cursor=pointer]
+      - paragraph [ref=e155]: © 2026 FMA Communications, Inc. All rights reserved.
+    - generic [ref=e158]:
+      - list [ref=e160]:
+        - link "The Fabricator on Facebook" [ref=e161] [cursor=pointer]:
+          - /url: https://www.facebook.com/thefabricator/
+          - listitem [ref=e162]:
+            - generic [ref=e163]: 
+        - link "The Fabricator on X" [ref=e164] [cursor=pointer]:
+          - /url: https://x.com/fabricating
+          - listitem [ref=e165]:
+            - generic [ref=e166]: 
+        - link "The Fabricator on LinkedIn" [ref=e167] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/the-fabricator-magazine/
+          - listitem [ref=e168]:
+            - generic [ref=e169]: 
+        - link "Fabricators and Manufacturers Association on YouTube" [ref=e170] [cursor=pointer]:
+          - /url: https://www.youtube.com/@fmamfg/podcasts
+          - listitem [ref=e171]:
+            - generic [ref=e172]: 
+        - link "The Fabricator on Instagram" [ref=e173] [cursor=pointer]:
+          - /url: https://www.instagram.com/thefabricator_magazine/
+          - listitem [ref=e174]:
+            - generic [ref=e175]: 
+        - link "The Fabricator on Threads" [ref=e176] [cursor=pointer]:
+          - /url: https://www.threads.com/@thefabricator_magazine
+          - listitem [ref=e177]:
+            - generic [ref=e178]: 
+        - link "The Fabricator on TikTok" [ref=e179] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@fabricatorpodcast
+          - listitem [ref=e180]:
+            - generic [ref=e181]: 
+      - generic [ref=e182]:
+        - paragraph [ref=e183]:
+          - link "Terms of Use" [ref=e184] [cursor=pointer]:
+            - /url: https://www.fmamfg.org/terms-of-use
+          - text: "|"
+        - paragraph [ref=e185]:
+          - link "Privacy Policy" [ref=e186] [cursor=pointer]:
+            - /url: https://www.fmamfg.org/privacy-policy
+          - text: "|"
+        - paragraph [ref=e187]:
+          - link "Contact Us" [ref=e188] [cursor=pointer]:
+            - /url: /contact-us
+          - text: "|"
+        - paragraph [ref=e189]:
+          - link "Manage Cookie Preferences" [ref=e190] [cursor=pointer]:
+            - /url: "#"
+  - text: "*"

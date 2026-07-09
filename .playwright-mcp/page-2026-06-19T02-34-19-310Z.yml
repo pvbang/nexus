@@ -1,0 +1,363 @@
+- generic [active] [ref=e1]:
+  - dialog [ref=e2]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]: Microsoft and our third-party vendors use cookies and similar technologies to deliver, maintain, and improve our services and ads. If you agree, we will use this data for ads personalization and associated analytics.
+        - paragraph [ref=e10]:
+          - text: You can select ‘Accept’ to consent to these uses, ‘Reject’ to decline these uses or click on ‘More options’ to review your options. You can change your selection under ‘Manage Cookie Preferences’ at the bottom of this page.
+          - link "Privacy Statement" [ref=e11] [cursor=pointer]:
+            - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+      - generic [ref=e12]:
+        - link "Accept" [ref=e14] [cursor=pointer]:
+          - /url: "javascript: void(0)"
+        - link "Reject" [ref=e16] [cursor=pointer]:
+          - /url: "javascript: void(0)"
+      - link "More options" [ref=e18] [cursor=pointer]:
+        - /url: "javascript: void(0)"
+  - banner [ref=e19]:
+    - button "Skip to content" [ref=e20] [cursor=pointer]:
+      - generic [ref=e22]: Skip to content
+    - button "Accessibility Feedback" [ref=e23] [cursor=pointer]:
+      - generic [ref=e25]: Accessibility Feedback
+    - generic [ref=e26]:
+      - link "Back to Bing search" [ref=e27] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e28]
+      - search [ref=e29]:
+        - button "Search" [ref=e32] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e33]: Nghị định 136/2020/NĐ-CP phong cháy chữa cháy PCCC quy định chi tiết
+        - button "Search using an image" [ref=e39] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e41]:
+      - button "Microsoft Rewards"
+      - link "Sign in" [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e43]
+    - navigation "Search Filter" [ref=e44]:
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - link "All" [ref=e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e48]:
+          - link "Search" [ref=e49] [cursor=pointer]:
+            - /url: /copilotsearch?q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+136%2f2020%2fN%c4%90-CP+phong+ch%c3%a1y+ch%e1%bb%afa+ch%c3%a1y+PCCC+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft&FORM=CSSCOP
+            - img [ref=e50]
+            - text: Search
+        - listitem [ref=e52]:
+          - link "Videos" [ref=e53] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f21aa2752e0e6bc13ee7da165a4a74b244509404d0fba8b80ce66e0cf1f5a353JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9zZWFyY2g_cT1OZ2glZTElYmIlOGIrJWM0JTkxJWUxJWJiJThibmgrMTM2JTJmMjAyMCUyZk4lYzQlOTAtQ1ArcGhvbmcrY2glYzMlYTF5K2NoJWUxJWJiJWFmYStjaCVjMyVhMXkrUENDQytxdXkrJWM0JTkxJWUxJWJiJThibmgrY2hpK3RpJWUxJWJhJWJmdCZGT1JNPUhEUlNDNA&ntb=1
+        - listitem [ref=e54]:
+          - link "Images" [ref=e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=86b0625ee907ec99dbfa8adb5eca5253a4fdfb20555d43e8510da936982dd3f0JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2ltYWdlcy9zZWFyY2g_cT1OZ2glZTElYmIlOGIrJWM0JTkxJWUxJWJiJThibmgrMTM2JTJmMjAyMCUyZk4lYzQlOTAtQ1ArcGhvbmcrY2glYzMlYTF5K2NoJWUxJWJiJWFmYStjaCVjMyVhMXkrUENDQytxdXkrJWM0JTkxJWUxJWJiJThibmgrY2hpK3RpJWUxJWJhJWJmdCZGT1JNPUhEUlNDMw&ntb=1
+        - listitem [ref=e56]:
+          - link "Maps" [ref=e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1f988bb1b4c858ba0e704096f1ebb103f01bd941cd948f9e52677943f7be88afJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L21hcHM_cT1OZ2glZTElYmIlOGIrJWM0JTkxJWUxJWJiJThibmgrMTM2JTJmMjAyMCUyZk4lYzQlOTAtQ1ArcGhvbmcrY2glYzMlYTF5K2NoJWUxJWJiJWFmYStjaCVjMyVhMXkrUENDQytxdXkrJWM0JTkxJWUxJWJiJThibmgrY2hpK3RpJWUxJWJhJWJmdCZGT1JNPUhEUlNDNg&ntb=1
+        - listitem [ref=e58]:
+          - link "Copilot" [ref=e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=136875f9e36fe0fe142461905e2746385cef46f5a91e20c8c2ddcb261dbaa7d6JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2NoYXQ_cHJvbXB0PU5naCVlMSViYiU4YislYzQlOTElZTElYmIlOGJuaCsxMzYlMmYyMDIwJTJmTiVjNCU5MC1DUCtwaG9uZytjaCVjMyVhMXkrY2glZTElYmIlYWZhK2NoJWMzJWExeStQQ0NDK3F1eSslYzQlOTElZTElYmIlOGJuaCtjaGkrdGklZTElYmElYmZ0JnNlbmRxdWVyeT0xJkZPUk09U0NDT0RY&ntb=1
+        - listitem [ref=e60]:
+          - button "More" [ref=e61] [cursor=pointer]:
+            - img [ref=e63]
+            - text: More
+  - generic [ref=e65]:
+    - main "Search Results" [ref=e66]:
+      - generic [ref=e68]: About 1,940 results
+      - list [ref=e79]:
+        - listitem [ref=e80]:
+          - generic [ref=e88]:
+            - generic [ref=e91]:
+              - generic [ref=e93]:
+                - button "Like" [ref=e94]:
+                  - img [ref=e95]
+                - button "Dislike" [ref=e97]:
+                  - img [ref=e98]
+              - generic [ref=e104]:
+                - strong [ref=e105]: Nghị định số 136/2020/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy và chữa cháy
+                - text: và Luật sửa đổi, bổ sung một số điều của Luật Phòng cháy và chữa cháy.
+              - link "Cổng thông tin điện tử Chính phủ Nghị định số 136/2020/NĐ-CP quy định chi tiết một số điều và biện pháp ... Nghị định số 136/2020/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy và chữa cháy và Luật sửa đổi, bổ sung một số điều của Luật Phòng cháy và chữa cháy." [ref=e109] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=66c92e9d95ace99d3ece4dd2f349b5607265b577740c4a9ed3d76d0fb56401c5JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9jb25nYmFvLmNoaW5ocGh1LnZuL3Zhbi1iYW4vbmdoaS1kaW5oLXNvLTEzNi0yMDIwLW5kLWNwLTMyNTQxLmh0bSM6fjp0ZXh0PU5naCVFMSVCQiU4QiUyMCVDNCU5MSVFMSVCQiU4Qm5oJTIwcyVFMSVCQiU5MSUyMDEzNiUyRjIwMjAlMkZOJUM0JTkwLUNQJTIwcXV5JTIwJUM0JTkxJUUxJUJCJThCbmglMjBjaGklMjB0aSVFMSVCQSVCRnQsJUM0JTkxaSVFMSVCQiU4MXUlMjBjJUUxJUJCJUE3YSUyMEx1JUUxJUJBJUFEdCUyMFBoJUMzJUIybmclMjBjaCVDMyVBMXklMjB2JUMzJUEwJTIwY2glRTElQkIlQUZhJTIwY2glQzMlQTF5Lg&ntb=1
+                - generic [ref=e110]:
+                  - generic [ref=e114]: Cổng thông tin điện tử Chính phủ
+                  - generic [ref=e116]: Nghị định số 136/2020/NĐ-CP quy định chi tiết một số điều và biện pháp ...
+                  - generic [ref=e117]: Nghị định số 136/2020/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy và chữa cháy và Luật sửa đổi, bổ sung một số điều của Luật Phòng cháy và chữa cháy.
+            - status
+        - listitem [ref=e118]:
+          - link "THƯ VIỆN PHÁP LUẬT" [ref=e120] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=be815aa855b4b4dbce95393e933abf8a84d4e3340da7a2e62be6a850514164e5JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vdmFuLWJhbi9UYWktbmd1eWVuLU1vaS10cnVvbmcvTmdoaS1kaW5oLTEzNi0yMDIwLU5ELUNQLWh1b25nLWRhbi1MdWF0LVBob25nLWNoYXktdmEtY2h1YS1jaGF5LTQ1ODI5Mi5hc3B4&ntb=1
+            - generic [ref=e125]:
+              - generic [ref=e126]: THƯ VIỆN PHÁP LUẬT
+              - generic [ref=e128]:
+                - generic [ref=e129]: https://thuvienphapluat.vn › van-ban › Tai-nguyen-Moi-truong
+                - generic [ref=e130]: Translate this result
+          - heading "Nghị định 136/2020/NĐ-CP hướng dẫn Luật Phòng cháy và chữa cháy" [level=2] [ref=e131]:
+            - link "Nghị định 136/2020/NĐ-CP hướng dẫn Luật Phòng cháy và chữa cháy" [ref=e132] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=be815aa855b4b4dbce95393e933abf8a84d4e3340da7a2e62be6a850514164e5JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vdmFuLWJhbi9UYWktbmd1eWVuLU1vaS10cnVvbmcvTmdoaS1kaW5oLTEzNi0yMDIwLU5ELUNQLWh1b25nLWRhbi1MdWF0LVBob25nLWNoYXktdmEtY2h1YS1jaGF5LTQ1ODI5Mi5hc3B4&ntb=1
+          - paragraph [ref=e134]: Toàn văn Nghị định 136/2020/NĐ-CP quy định về hoạt động phòng cháy và chữa cháy, tổ chức lực lượng, phương tiện phòng cháy và chữa cháy, kinh doanh dịch vụ phòng cháy và chữa cháy, kinh …
+          - list [ref=e136]:
+            - listitem [ref=e137]:
+              - link "Nghị định 50/2024/NĐ-CP sửa đổi Nghị định 136/2020/NĐ-CP v…" [ref=e138] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=41e186bf2b0919b8f375471a2d9dc12d5a4be8f3e66069616cd3c073300b2376JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vdmFuLWJhbi9UYWktbmd1eWVuLU1vaS10cnVvbmcvTmdoaS1kaW5oLTUwLTIwMjQtTkQtQ1Atc3VhLWRvaS1OZ2hpLWRpbmgtMTM2LTIwMjAtTkQtQ1AtaHVvbmctZGFuLUx1YXQtUGhvbmctY2hheS01ODU2NDkuYXNweA&ntb=1
+              - paragraph [ref=e139]: Chính phủ ban hành Nghị định sửa đổi, bổ sung một số điều của Nghị định số 136/2020/NĐ-CP ngày 24 tháng 11 năm 2020 của Chính phủ quy định chi tiết …
+          - link "See results only from thuvienphapluat.vn" [ref=e140] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=ad3e3176a123dc6fcff324e42692671195fe69400659f25c3d7781f005878d17JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3NlYXJjaD9xPXNpdGU6dGh1dmllbnBoYXBsdWF0LnZuK05naCVlMSViYiU4YislYzQlOTElZTElYmIlOGJuaCsxMzYlMmYyMDIwJTJmTiVjNCU5MC1DUCtwaG9uZytjaCVjMyVhMXkrY2glZTElYmIlYWZhK2NoJWMzJWExeStQQ0NDK3F1eSslYzQlOTElZTElYmIlOGJuaCtjaGkrdGklZTElYmElYmZ0JmZvcm09RExJTktS&ntb=1
+        - listitem [ref=e141]:
+          - generic [ref=e142]:
+            - link "Explore this image" [ref=e145] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=pPOkTq+o&id=8A68541D75269575CD1E71F7FAD4E8D82925B30F&thid=OIP.pPOkTq-oWQypcMW2XKhWdgHaHg&mediaurl=https://datafiles.chinhphu.vn/cpp/1/Logo/quoc-huy2.png&q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+136%2f2020%2fN%c4%90-CP+phong+ch%c3%a1y+ch%e1%bb%afa+ch%c3%a1y+PCCC+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft&ck=6089B05ACFEBCDEEC98E9618E1733386&idpp=rc&expw=631&exph=639&form=rc2idp
+            - generic [ref=e147]:
+              - link "Hệ thống văn bản" [ref=e149] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=c28193bac6aa595918d4c4838c0456c74fc58b8058f750cd9a830b769e057a4bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly92YW5iYW4uY2hpbmhwaHUudm4vP3BhZ2VpZD0yNzE2MCZkb2NpZD0yMDE2ODg&ntb=1
+                - generic [ref=e154]:
+                  - generic [ref=e155]: Hệ thống văn bản
+                  - generic [ref=e157]:
+                    - generic [ref=e158]: https://vanban.chinhphu.vn
+                    - generic [ref=e159]: Translate this result
+              - 'heading "Nghị định số 136/2020/NĐ-CP của Chính phủ: Quy …" [level=2] [ref=e160]':
+                - 'link "Nghị định số 136/2020/NĐ-CP của Chính phủ: Quy …" [ref=e161] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=c28193bac6aa595918d4c4838c0456c74fc58b8058f750cd9a830b769e057a4bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly92YW5iYW4uY2hpbmhwaHUudm4vP3BhZ2VpZD0yNzE2MCZkb2NpZD0yMDE2ODg&ntb=1
+              - paragraph [ref=e162]: 1 day ago · Ghi rõ nguồn 'Cổng Thông tin điện tử Chính phủ' hoặc 'www.chinhphu.vn' khi phát hành lại thông tin từ các nguồn này.
+        - listitem [ref=e164]:
+          - generic [ref=e166]:
+            - heading "Videos of Nghị định 136 2020 NĐ Cp Phong Cháy chữa Cháy PCCC q…" [level=2] [ref=e168]:
+              - link "Videos of Nghị định 136 2020 NĐ Cp Phong Cháy chữa Cháy PCCC q…" [ref=e169] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=dcd53d135069c242816596ef989d6c9856a1914f78b9109aae81aa5d703b9b30JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9zZWFyY2g_cT1OZ2glZTElYmIlOGIrJWM0JTkxJWUxJWJiJThibmgrMTM2JTJmMjAyMCUyZk4lYzQlOTAtQ1ArcGhvbmcrY2glYzMlYTF5K2NoJWUxJWJiJWFmYStjaCVjMyVhMXkrUENDQytxdXkrJWM0JTkxJWUxJWJiJThibmgrY2hpK3RpJWUxJWJhJWJmdCZxcHZ0PU5naCVlMSViYiU4YislYzQlOTElZTElYmIlOGJuaCsxMzYlMmYyMDIwJTJmTiVjNCU5MC1DUCtwaG9uZytjaCVjMyVhMXkrY2glZTElYmIlYWZhK2NoJWMzJWExeStQQ0NDK3F1eSslYzQlOTElZTElYmIlOGJuaCtjaGkrdGklZTElYmElYmZ0JkZPUk09VkRSRQ&ntb=1
+            - generic [ref=e171]:
+              - 'link "Nghị Định 136/2020/NĐ-CP - Luật Phòng Cháy Chữa Cháy - Chương 1. QUY ĐỊNH CHUNG (Điều 1-3) from YouTube · Duration: 1 minutes 56 seconds · 316 views · uploaded on May 7, 2024 · uploaded by Phuong Thom Voice · Click to play. · Nghị Định 136/2020/NĐ-CP - Luật Phòng Cháy Chữa Cháy Full playlist: https://www.youtube.com/playlist?list=PLdFsv0tRjX1IfUxtE7kA-VPnnHIf5u_SK ---------------------------------- NGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP THI HÀNH LUẬT PHÒNG CHÁY VÀ CHỮA CHÁY VÀ LUẬT SỬA ĐỔI, BỔ SUNG ..." [ref=e174] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=db8aadab6fe894bdfcaa985a2e7aadb6d30de43d8f1e0dfa2a556f64cdc7d39eJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9TmdoJWUxJWJiJThiKyVjNCU5MSVlMSViYiU4Ym5oKzEzNiUyZjIwMjAlMmZOJWM0JTkwLUNQK3Bob25nK2NoJWMzJWExeStjaCVlMSViYiVhZmErY2glYzMlYTF5K1BDQ0MrcXV5KyVjNCU5MSVlMSViYiU4Ym5oK2NoaSt0aSVlMSViYSViZnQmbWlkPTZFNTNDRDExRTM4M0U2NkIxNzMwNkU1M0NEMTFFMzgzRTY2QjE3MzAmY2h1cmw9aHR0cHMlM2ElMmYlMmZ3d3cueW91dHViZS5jb20lMmZjaGFubmVsJTJmVUNPLURfVWRqYjhfOEZHSDg5cFIyYnN3JkZPUk09VklSRQ&ntb=1
+                - generic [ref=e175]:
+                  - generic [ref=e184]: 1:56
+                  - generic [ref=e185]:
+                    - generic "Nghị Định 136/2020/NĐ-CP - Luật Phòng Cháy Chữa Cháy - Chương 1. QUY ĐỊNH CHUNG (Điều 1-3)" [ref=e186]:
+                      - strong [ref=e187]: Nghị
+                      - strong [ref=e188]: Định
+                      - strong [ref=e189]: "136"
+                      - text: /
+                      - strong [ref=e190]: "2020"
+                      - text: /
+                      - strong [ref=e191]: NĐ
+                      - text: "-"
+                      - strong [ref=e192]: CP
+                      - text: "- Luật Phòng"
+                      - strong [ref=e193]: Cháy
+                      - strong [ref=e194]: Chữa
+                      - strong [ref=e195]: Cháy
+                      - text: "- Chương 1."
+                      - strong [ref=e196]: QUY
+                      - strong [ref=e197]: ĐỊNH
+                      - text: CHUNG (Điều 1-3)
+                    - generic [ref=e198]:
+                      - generic [ref=e199]:
+                        - img "Video source site" [ref=e200]
+                        - text: YouTube · Phuong Thom Voice
+                      - generic [ref=e201]: 316 views · May 7, 2024
+              - 'link "Hồ sơ Phòng cháy chữa cháy PCCC gồm những gì - Cách làm hồ sơ PCCC Phương án chữa cháy from YouTube · Duration: 23 minutes 29 seconds · 18.4K views · uploaded on Aug 7, 2022 · uploaded by Hiếu Marketing · Click to play. · Từ khi Chính phủ ban hành Nghị định 136/2020, Bộ Công an ban hành Thông tư 149/2020 các thành phần hồ sơ phòng cháy chữa cháy PCCC đã được thay đổi chặt chẽ hơn. Sau đây là hướng dẫn về thành phần hồ sơ PCCC và cách làm. Hướng dẫn cách làm phương án chữa cháy, phương ..." [ref=e204] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=332c69d64b2323c0c90b45e3bfa170ca4235fbf759a6c18e7a7724db8e532108JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9TmdoJWUxJWJiJThiKyVjNCU5MSVlMSViYiU4Ym5oKzEzNiUyZjIwMjAlMmZOJWM0JTkwLUNQK3Bob25nK2NoJWMzJWExeStjaCVlMSViYiVhZmErY2glYzMlYTF5K1BDQ0MrcXV5KyVjNCU5MSVlMSViYiU4Ym5oK2NoaSt0aSVlMSViYSViZnQmbWlkPUJEMzZFMzE5RkNEODZBQ0NCQTAyQkQzNkUzMTlGQ0Q4NkFDQ0JBMDImY2h1cmw9aHR0cHMlM2ElMmYlMmZ3d3cueW91dHViZS5jb20lMmZjaGFubmVsJTJmVUNuanpLdGZRNmZXSW1XVlFSZUFZT2Z3JkZPUk09VklSRQ&ntb=1
+                - generic [ref=e205]:
+                  - generic [ref=e214]: 23:29
+                  - generic [ref=e215]:
+                    - generic "Hồ sơ Phòng cháy chữa cháy PCCC gồm những gì - Cách làm hồ sơ PCCC Phương án chữa cháy" [ref=e216]:
+                      - text: Hồ sơ Phòng
+                      - strong [ref=e217]: cháy
+                      - strong [ref=e218]: chữa
+                      - strong [ref=e219]: cháy
+                      - strong [ref=e220]: PCCC
+                      - text: gồm những gì - Cách làm hồ sơ
+                      - strong [ref=e221]: PCCC
+                      - text: Phương án
+                      - strong [ref=e222]: chữa
+                      - strong [ref=e223]: cháy
+                    - generic [ref=e224]:
+                      - generic [ref=e225]:
+                        - img "Video source site" [ref=e226]
+                        - text: YouTube · Hiếu Marketing
+                      - generic [ref=e227]: 18.4K views · Aug 7, 2022
+              - 'link "Nghị Định 136/2020/NĐ-CP - Luật Phòng Cháy Chữa Cháy - Chương 3. CHỮA CHÁY (Điều 19-29) from YouTube · Duration: 22 minutes 6 seconds · 171 views · uploaded on May 9, 2024 · uploaded by Phuong Thom Voice · Click to play. · Nghị Định 136/2020/NĐ-CP - Luật Phòng Cháy Chữa Cháy Full playlist: https://www.youtube.com/playlist?list=PLdFsv0tRjX1IfUxtE7kA-VPnnHIf5u_SK ---------------------------------- NGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP THI HÀNH LUẬT PHÒNG CHÁY VÀ CHỮA CHÁY VÀ LUẬT SỬA ĐỔI, BỔ SUNG ..." [ref=e230] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=7b154673df6258140c226fb956807fb036affee84ceb301284014d19e2651c24JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9TmdoJWUxJWJiJThiKyVjNCU5MSVlMSViYiU4Ym5oKzEzNiUyZjIwMjAlMmZOJWM0JTkwLUNQK3Bob25nK2NoJWMzJWExeStjaCVlMSViYiVhZmErY2glYzMlYTF5K1BDQ0MrcXV5KyVjNCU5MSVlMSViYiU4Ym5oK2NoaSt0aSVlMSViYSViZnQmbWlkPUYwQkVFOEIxNTJCQzhBNDI4MUJERjBCRUU4QjE1MkJDOEE0MjgxQkQmY2h1cmw9aHR0cHMlM2ElMmYlMmZ3d3cueW91dHViZS5jb20lMmZjaGFubmVsJTJmVUNPLURfVWRqYjhfOEZHSDg5cFIyYnN3JkZPUk09VklSRQ&ntb=1
+                - generic [ref=e231]:
+                  - generic [ref=e240]: 22:06
+                  - generic [ref=e241]:
+                    - generic "Nghị Định 136/2020/NĐ-CP - Luật Phòng Cháy Chữa Cháy - Chương 3. CHỮA CHÁY (Điều 19-29)" [ref=e242]:
+                      - strong [ref=e243]: Nghị
+                      - strong [ref=e244]: Định
+                      - strong [ref=e245]: "136"
+                      - text: /
+                      - strong [ref=e246]: "2020"
+                      - text: /
+                      - strong [ref=e247]: NĐ
+                      - text: "-"
+                      - strong [ref=e248]: CP
+                      - text: "- Luật Phòng"
+                      - strong [ref=e249]: Cháy
+                      - strong [ref=e250]: Chữa
+                      - strong [ref=e251]: Cháy
+                      - text: "- Chương 3."
+                      - strong [ref=e252]: CHỮA
+                      - strong [ref=e253]: CHÁY
+                      - text: (Điều 19-29)
+                    - generic [ref=e254]:
+                      - generic [ref=e255]:
+                        - img "Video source site" [ref=e256]
+                        - text: YouTube · Phuong Thom Voice
+                      - generic [ref=e257]: 171 views · May 9, 2024
+        - listitem [ref=e258]:
+          - link "LuatVietnam" [ref=e260] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6ccbfd9d945d93878a8f19b683b0612b0716bbc3c49f503a081788b4a7acf88bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi9hbi1uaW5oLXRyYXQtdHUvbmdoaS1kaW5oLTEzNi0yMDIwLW5kLWNwLXF1eS1kaW5oLWNoaS10aWV0LWx1YXQtcGhvbmctY2hheS12YS1jaHVhLWNoYXktMTk0NjI0LWQxLmh0bWw&ntb=1
+            - generic [ref=e265]:
+              - generic [ref=e266]: LuatVietnam
+              - generic [ref=e268]:
+                - generic [ref=e269]: https://luatvietnam.vn › an-ninh-trat-tu
+                - generic [ref=e270]: Translate this result
+          - heading "Nghị định 136/2020/NĐ-CP hướng dẫn Luật Phòng cháy và chữa cháy" [level=2] [ref=e271]:
+            - link "Nghị định 136/2020/NĐ-CP hướng dẫn Luật Phòng cháy và chữa cháy":
+              - /url: https://www.bing.com/ck/a?!&&p=6ccbfd9d945d93878a8f19b683b0612b0716bbc3c49f503a081788b4a7acf88bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9sdWF0dmlldG5hbS52bi9hbi1uaW5oLXRyYXQtdHUvbmdoaS1kaW5oLTEzNi0yMDIwLW5kLWNwLXF1eS1kaW5oLWNoaS10aWV0LWx1YXQtcGhvbmctY2hheS12YS1jaHVhLWNoYXktMTk0NjI0LWQxLmh0bWw&ntb=1
+          - generic [ref=e272]:
+            - list [ref=e276]:
+              - listitem [ref=e277]:
+                - link "Web page related images" [ref=e280] [cursor=pointer]:
+                  - /url: /images/search?view=detailV2&ccid=eMW+oZfh&id=67F44D6281EE96EA23BBAE2B3DAD6250B4E5E2EA&thid=OIP.eMW-oZfhyeniNrWqhKMvEgHaD4&mediaurl=https://static.luatvietnam.vn/uploaded/Images/Original/2022/08/16/Nghi-dinh-136-2020-ND-CP_1608103338.jpg&exph=628&expw=1200&q=Nghị định 136/2020/NĐ-CP phong cháy chữa cháy PCCC quy định chi tiết&ck=4F6384D1D21DA8ED325572999802D72D&idpp=rc&form=rc2idp
+              - listitem [ref=e282]:
+                - link "Web page related images" [ref=e285] [cursor=pointer]:
+                  - /url: /images/search?view=detailV2&ccid=Px1OJR/Y&id=67F44D6281EE96EA23BB48F04EB3C7B5956E0E1A&thid=OIP.Px1OJR_YCtvjwU3ctooB1AHaGd&mediaurl=https://cdn.luatvietnam.vn/uploaded/Images/Standard/2020/11/27/image006_2711150941.png&exph=436&expw=500&q=Nghị định 136/2020/NĐ-CP phong cháy chữa cháy PCCC quy định chi tiết&ck=C211D731C10F04714B920BC5E5DE69FB&idpp=rc&form=rc2idp
+              - listitem [ref=e287]:
+                - link "Web page related images" [ref=e290] [cursor=pointer]:
+                  - /url: /images/search?view=detailV2&ccid=RlG4Imdm&id=67F44D6281EE96EA23BB5D090DFF43E8510D26F5&thid=OIP.RlG4ImdmAGpJNJgttbS-kwAAAA&mediaurl=https://cdn.luatvietnam.vn/uploaded/Images/Standard/2020/11/27/image007_2711150941.png&exph=420&expw=373&q=Nghị định 136/2020/NĐ-CP phong cháy chữa cháy PCCC quy định chi tiết&ck=D365622421F947F5226B728EAC2C5B2A&idpp=rc&form=rc2idp
+              - listitem [ref=e292]:
+                - link "Web page related images" [ref=e295] [cursor=pointer]:
+                  - /url: /images/search?view=detailV2&ccid=+bZZOcNR&id=67F44D6281EE96EA23BB9B2DDF7CFC972F3DBB00&thid=OIP.-bZZOcNRWiGN0KjKfaEejgAAAA&mediaurl=https://cdn.luatvietnam.vn/uploaded/Images/Standard/2020/11/27/image008_2711150941.png&exph=420&expw=339&q=Nghị định 136/2020/NĐ-CP phong cháy chữa cháy PCCC quy định chi tiết&ck=87DB85C2992DCC2D6C4FABC0FCE5C019&idpp=rc&form=rc2idp
+              - listitem [ref=e297]:
+                - generic [ref=e298] [cursor=pointer]:
+                  - link "Web page related images" [ref=e300]:
+                    - /url: https://www.bing.com/ck/a?!&&p=3ea41af46be7b43117317fd09f6430b114fb555711e5413e5308a420611a0b14JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1L2ltYWdlcy9zZWFyY2g_cT11cmw6aHR0cHMlM0ElMkYlMkZsdWF0dmlldG5hbS52biUyRmFuLW5pbmgtdHJhdC10dSUyRm5naGktZGluaC0xMzYtMjAyMC1uZC1jcC1xdXktZGluaC1jaGktdGlldC1sdWF0LXBob25nLWNoYXktdmEtY2h1YS1jaGF5LTE5NDYyNC1kMS5odG1sJkZPUk09cmMyaXJw&ntb=1
+                  - generic:
+                    - text: See More
+                    - img
+            - paragraph [ref=e302]: Nov 26, 2020 · Nghị định này quy định về hoạt động phòng cháy và chữa cháy, tổ chức lực lượng, phương tiện phòng cháy và chữa cháy, kinh doanh dịch vụ phòng cháy và chữa cháy, kinh phí bảo …
+        - listitem [ref=e303]:
+          - link "Cổng thông tin điện tử Chính phủ" [ref=e305] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=bf636b8dc11952799f4e8f1627ef2aac33dbcc06d49ba3a30b9b3037625fa850JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9jb25nYmFvLmNoaW5ocGh1LnZuL3Zhbi1iYW4vbmdoaS1kaW5oLXNvLTEzNi0yMDIwLW5kLWNwLTMyNTQxLmh0bQ&ntb=1
+            - generic [ref=e310]:
+              - generic [ref=e311]: Cổng thông tin điện tử Chính phủ
+              - generic [ref=e313]:
+                - generic [ref=e314]: https://congbao.chinhphu.vn › van-ban
+                - generic [ref=e315]: Translate this result
+          - heading "Nghị định số 136/2020/NĐ-CP quy định chi tiết một số điều và biện …" [level=2] [ref=e316]:
+            - link "Nghị định số 136/2020/NĐ-CP quy định chi tiết một số điều và biện …":
+              - /url: https://www.bing.com/ck/a?!&&p=bf636b8dc11952799f4e8f1627ef2aac33dbcc06d49ba3a30b9b3037625fa850JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9jb25nYmFvLmNoaW5ocGh1LnZuL3Zhbi1iYW4vbmdoaS1kaW5oLXNvLTEzNi0yMDIwLW5kLWNwLTMyNTQxLmh0bQ&ntb=1
+          - paragraph [ref=e318]: Nov 24, 2020 · Nghị định số 136/2020/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy và chữa cháy và Luật sửa đổi, bổ sung một số điều của Luật Phòng cháy và chữa cháy.
+        - listitem [ref=e319]:
+          - link "medinet.gov.vn" [ref=e321] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=046347e430ce28d290ff24ed3da905ff3a6570af2224b4917ff96c8a34734839JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90cnVuZ3RhbXl0ZWdvdmFwLm1lZGluZXQuZ292LnZuL3Rob25nLXR1LW5naGktZGluaC9uZ2hpLWRpbmgtMTM2MjAyMG5kLWNwLWhpZXUtbHVjLXR1LTEwMTIwMjEtcXV5LWRpbmgtY2hpLXRpZXQtbW90LXNvLWRpZXUtdmEtYmllLWNtb2JpbGUxNjU1OC00NDk2Mi5hc3B4&ntb=1
+            - generic [ref=e326]:
+              - generic [ref=e327]: medinet.gov.vn
+              - generic [ref=e329]:
+                - generic [ref=e330]: https://trungtamytegovap.medinet.gov.vn › thong-tu-nghi-dinh
+                - generic [ref=e331]: Translate this result
+          - heading "NGHỊ ĐỊNH 136/2020/NĐ-CP (HIỆU LỰC TỪ 10/1/2021) QUY ĐỊNH …" [level=2] [ref=e332]:
+            - link "NGHỊ ĐỊNH 136/2020/NĐ-CP (HIỆU LỰC TỪ 10/1/2021) QUY ĐỊNH …":
+              - /url: https://www.bing.com/ck/a?!&&p=046347e430ce28d290ff24ed3da905ff3a6570af2224b4917ff96c8a34734839JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90cnVuZ3RhbXl0ZWdvdmFwLm1lZGluZXQuZ292LnZuL3Rob25nLXR1LW5naGktZGluaC9uZ2hpLWRpbmgtMTM2MjAyMG5kLWNwLWhpZXUtbHVjLXR1LTEwMTIwMjEtcXV5LWRpbmgtY2hpLXRpZXQtbW90LXNvLWRpZXUtdmEtYmllLWNtb2JpbGUxNjU1OC00NDk2Mi5hc3B4&ntb=1
+          - paragraph [ref=e334]: Theo đề nghị của Bộ trưởng Bộ Công an; Chính phủ ban hành Nghị định quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy và chữa cháy và Luật sửa đổi, bổ sung một số điều của Luật …
+        - listitem [ref=e335]:
+          - generic [ref=e336]:
+            - link "Explore this image" [ref=e339] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=ceSys/2S&id=13193A85DACDF697913E21E7C3DAA789B8810DDF&thid=OIP.ceSys_2SNZlHYovYdkmTSwHaD4&mediaurl=https://tulieuvankien.dangcongsan.vn/publish/thumbnail/2006988/600x315xdefault/upload/2006988/20250410/co-dang_d040e.jpg&q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+136%2f2020%2fN%c4%90-CP+phong+ch%c3%a1y+ch%e1%bb%afa+ch%c3%a1y+PCCC+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft&ck=E9EEFAAA180B0B66D501054506379134&idpp=rc&expw=600&exph=315&form=rc2idp
+            - generic [ref=e341]:
+              - link "Tư liệu - Văn kiện" [ref=e343] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=22898809f9fa5b6dc0930dc90f4f5dbd337666fd2be66702970bab61f8aa5e51JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90dWxpZXV2YW5raWVuLmRhbmdjb25nc2FuLnZuL2hlLXRob25nLXZhbi1iYW4vdmFuLWJhbi1xdXktcGhhbS1waGFwLWx1YXQvbmdoaS1kaW5oLXNvLTEzNjIwMjBuZC1jcC1uZ2F5LTI0MTEyMDIwLWN1YS1jaGluaC1waHUtcXV5LWRpbmgtY2hpLXRpZXQtbW90LXNvLWRpZXUtdmEtYmllbi1waGFwLXRoaS1oYW5oLWx1YXQtcGhvbmctY2hheS12YS02OTYz&ntb=1
+                - generic [ref=e348]:
+                  - generic [ref=e349]: Tư liệu - Văn kiện
+                  - generic [ref=e351]:
+                    - generic [ref=e352]: https://tulieuvankien.dangcongsan.vn › he-th…
+                    - generic [ref=e353]: Translate this result
+              - heading "Nghị định số 136/2020/NĐ-CP ngày 24/11/2020 của …" [level=2] [ref=e354]:
+                - link "Nghị định số 136/2020/NĐ-CP ngày 24/11/2020 của …" [ref=e355] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=22898809f9fa5b6dc0930dc90f4f5dbd337666fd2be66702970bab61f8aa5e51JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90dWxpZXV2YW5raWVuLmRhbmdjb25nc2FuLnZuL2hlLXRob25nLXZhbi1iYW4vdmFuLWJhbi1xdXktcGhhbS1waGFwLWx1YXQvbmdoaS1kaW5oLXNvLTEzNjIwMjBuZC1jcC1uZ2F5LTI0MTEyMDIwLWN1YS1jaGluaC1waHUtcXV5LWRpbmgtY2hpLXRpZXQtbW90LXNvLWRpZXUtdmEtYmllbi1waGFwLXRoaS1oYW5oLWx1YXQtcGhvbmctY2hheS12YS02OTYz&ntb=1
+              - paragraph [ref=e356]: 21 rows · Nov 24, 2020 · Nghị định số 136/2020/NĐ-CP ngày 24/11/2020 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật phòng cháy và …
+        - listitem [ref=e358]:
+          - generic [ref=e359]:
+            - link "Explore this image" [ref=e362] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=viXw5Lpg&id=DAE8341B304E34241014028872D048CABDE65F57&thid=OIP.viXw5LpgwvQI6MYhSWlFNgHaD4&mediaurl=https://cdn.thuvienphapluat.vn/uploads/Images/thumbnail_TVPL.png&q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+136%2f2020%2fN%c4%90-CP+phong+ch%c3%a1y+ch%e1%bb%afa+ch%c3%a1y+PCCC+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft&ck=191C75E206757459EB16BCF9C7A65F0E&idpp=rc&expw=1200&exph=628&form=rc2idp
+            - generic [ref=e364]:
+              - link "THƯ VIỆN PHÁP LUẬT" [ref=e366] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=41e186bf2b0919b8f375471a2d9dc12d5a4be8f3e66069616cd3c073300b2376JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vdmFuLWJhbi9UYWktbmd1eWVuLU1vaS10cnVvbmcvTmdoaS1kaW5oLTUwLTIwMjQtTkQtQ1Atc3VhLWRvaS1OZ2hpLWRpbmgtMTM2LTIwMjAtTkQtQ1AtaHVvbmctZGFuLUx1YXQtUGhvbmctY2hheS01ODU2NDkuYXNweA&ntb=1
+                - generic [ref=e371]:
+                  - generic [ref=e372]: THƯ VIỆN PHÁP LUẬT
+                  - generic [ref=e374]:
+                    - generic [ref=e375]: https://thuvienphapluat.vn › van-ban › Tai-ng…
+                    - generic [ref=e376]: Translate this result
+              - heading "Nghị định 50/2024/NĐ-CP sửa đổi Nghị định …" [level=2] [ref=e377]:
+                - link "Nghị định 50/2024/NĐ-CP sửa đổi Nghị định …" [ref=e378] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=41e186bf2b0919b8f375471a2d9dc12d5a4be8f3e66069616cd3c073300b2376JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly90aHV2aWVucGhhcGx1YXQudm4vdmFuLWJhbi9UYWktbmd1eWVuLU1vaS10cnVvbmcvTmdoaS1kaW5oLTUwLTIwMjQtTkQtQ1Atc3VhLWRvaS1OZ2hpLWRpbmgtMTM2LTIwMjAtTkQtQ1AtaHVvbmctZGFuLUx1YXQtUGhvbmctY2hheS01ODU2NDkuYXNweA&ntb=1
+              - paragraph [ref=e379]: Chính phủ ban hành Nghị định sửa đổi, bổ sung một số điều của Nghị định số 136/2020/NĐ-CP ngày 24 tháng 11 năm 2020 của Chính phủ quy định chi tiết …
+        - listitem [ref=e381]:
+          - generic [ref=e382]:
+            - link "Explore this image" [ref=e385] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=4Ravn1oG&id=E9A630ACDBD5BDEA297C1F9A2D9CE5F05BA82D0B&thid=OIP.4Ravn1oGU4mo1hS6qK_xDgAAAA&mediaurl=https://pccc.vn/wp-content/uploads/2022/02/nghe1bb8a-c490e1bb8anh-136-pccc-1-2.gif&q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+136%2f2020%2fN%c4%90-CP+phong+ch%c3%a1y+ch%e1%bb%afa+ch%c3%a1y+PCCC+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft&ck=6A6EFB5F1568B5D144523D6994B84D79&idpp=rc&expw=449&exph=318&form=rc2idp
+            - generic [ref=e387]:
+              - link "PCCC .vn" [ref=e389] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=1e991b33102e60d1f8bbf0e31920f2cd98361394087ce61f8c02369e567a3afcJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9wY2NjLnZuL25naGktZGluaC0xMzYtMjAyMC1uZC1jcC1jYXAtbmhhdC10aGFuZy0xLW5hbS0yMDI0Lw&ntb=1
+                - generic [ref=e394]:
+                  - generic [ref=e395]: PCCC .vn
+                  - generic [ref=e397]:
+                    - generic [ref=e398]: https://pccc.vn
+                    - generic [ref=e399]: Translate this result
+              - heading "Nghị định 136/2020/NĐ-CP – Cập nhật tháng 1 năm …" [level=2] [ref=e400]:
+                - link "Nghị định 136/2020/NĐ-CP – Cập nhật tháng 1 năm …" [ref=e401] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=1e991b33102e60d1f8bbf0e31920f2cd98361394087ce61f8c02369e567a3afcJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9wY2NjLnZuL25naGktZGluaC0xMzYtMjAyMC1uZC1jcC1jYXAtbmhhdC10aGFuZy0xLW5hbS0yMDI0Lw&ntb=1
+              - paragraph [ref=e402]: Feb 28, 2024 · Nghị định này quy định về hoạt động phòng cháy và chữa cháy, tổ chức lực lượng, phương tiện phòng cháy và chữa cháy, kinh doanh dịch vụ …
+        - listitem [ref=e404]:
+          - generic [ref=e405]:
+            - link "Explore this image" [ref=e408] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=N1oWHM0V&id=8D8774A9611B86BEA8C2EA191B1A13A54ECD3FC2&thid=OIP.N1oWHM0VNSwJ7rQGmHnnBQHaEo&mediaurl=https://hethongphapluat.com/uploads/images/docs.jpg&q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+136%2f2020%2fN%c4%90-CP+phong+ch%c3%a1y+ch%e1%bb%afa+ch%c3%a1y+PCCC+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft&ck=18FCBF7E0EC35F762D1626327FAE0923&idpp=rc&expw=800&exph=500&form=rc2idp
+            - generic [ref=e410]:
+              - link "Hệ thống pháp luật Việt nam" [ref=e412] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=4ea71c310c78920ce639c6e77412fa0a7678e846593a4a52644180d045489be0JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9oZXRob25ncGhhcGx1YXQuY29tL25naGktZGluaC0xMzYtMjAyMC1uZC1jcC1odW9uZy1kYW4tbHVhdC1waG9uZy1jaGF5LXZhLWNodWEtY2hheS12YS1sdWF0LXBob25nLWNoYXktdmEtY2h1YS1jaGF5LXN1YS1kb2kuaHRtbA&ntb=1
+                - generic [ref=e417]:
+                  - generic [ref=e418]: Hệ thống pháp luật Việt nam
+                  - generic [ref=e420]:
+                    - generic [ref=e421]: https://hethongphapluat.com
+                    - generic [ref=e422]: Translate this result
+              - heading "Nghị định 136/2020/nđ-cp hướng dẫn luật phòng cháy …" [level=2] [ref=e423]:
+                - link "Nghị định 136/2020/nđ-cp hướng dẫn luật phòng cháy …" [ref=e424] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=4ea71c310c78920ce639c6e77412fa0a7678e846593a4a52644180d045489be0JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9oZXRob25ncGhhcGx1YXQuY29tL25naGktZGluaC0xMzYtMjAyMC1uZC1jcC1odW9uZy1kYW4tbHVhdC1waG9uZy1jaGF5LXZhLWNodWEtY2hheS12YS1sdWF0LXBob25nLWNoYXktdmEtY2h1YS1jaGF5LXN1YS1kb2kuaHRtbA&ntb=1
+              - paragraph [ref=e425]: nghị định 136/2020/nđ-cp do chính phủ ban hành ngày 11/24/2020 quy định chi tiết một số điều và biện pháp thi hành luật phòng cháy và chữa cháy và luật sửa …
+        - listitem [ref=e427]:
+          - link "pccc.io" [ref=e429] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=43404612abcea45e449208f931f56d611657333969a09d573fdcfe8379c4b382JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9wY2NjLmlvL2xhd3MvZGV0YWlsL05naGktZGluaC1zby0xMzYtMjAyMC1ORC1DUC1RdXktZGluaC1jaGktdGlldC1tb3Qtc28tZGlldS12YS1iaWVuLXBoYXAtdGhpLWhhbmgtTHVhdC1QaG9uZy1jaGF5LXZhLWNodWEtY2hheS12YS1MdWF0LXN1YS1kb2ktYm8tc3VuZy1tb3Qtc28tZGlldS1jdWEtTHVhdC1QaG9uZy1jaGF5LXZhLWNodWEtY2hheS0zMS8&ntb=1
+            - generic [ref=e434]:
+              - generic [ref=e435]: pccc.io
+              - generic [ref=e437]:
+                - generic [ref=e438]: https://pccc.io › laws › detail
+                - generic [ref=e439]: Translate this result
+          - heading "Nghị định số 136/2020/NĐ-CP - Quy định chi tiết một số điều và biện ..." [level=2] [ref=e440]:
+            - link "Nghị định số 136/2020/NĐ-CP - Quy định chi tiết một số điều và biện ...":
+              - /url: https://www.bing.com/ck/a?!&&p=43404612abcea45e449208f931f56d611657333969a09d573fdcfe8379c4b382JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cHM6Ly9wY2NjLmlvL2xhd3MvZGV0YWlsL05naGktZGluaC1zby0xMzYtMjAyMC1ORC1DUC1RdXktZGluaC1jaGktdGlldC1tb3Qtc28tZGlldS12YS1iaWVuLXBoYXAtdGhpLWhhbmgtTHVhdC1QaG9uZy1jaGF5LXZhLWNodWEtY2hheS12YS1MdWF0LXN1YS1kb2ktYm8tc3VuZy1tb3Qtc28tZGlldS1jdWEtTHVhdC1QaG9uZy1jaGF5LXZhLWNodWEtY2hheS0zMS8&ntb=1
+          - paragraph [ref=e442]: Nov 23, 2020 · Nội dung Nghị định số 136/2020/NĐ-CP về Quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy và chữa cháy và Luật sửa đổi, bổ sung một số điều của Luật Phòng cháy và …
+        - listitem [ref=e443]:
+          - link "Some results have been removed" [ref=e445] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6a2eeb21b394098b43050e176afdd54e61b4c0836f959b37fe99e70d3b2b6767JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=e446]:
+          - navigation "More results for Nghị định 136/2020/NĐ-CP phong cháy chữa cháy PCCC quy định chi tiết":
+            - list:
+              - listitem [ref=e447]:
+                - generic "Page 1" [ref=e448]: "1"
+              - listitem [ref=e449]:
+                - link "Page 2" [ref=e450] [cursor=pointer]:
+                  - /url: /search?q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+136%2f2020%2fN%c4%90-CP+phong+ch%c3%a1y+ch%e1%bb%afa+ch%c3%a1y+PCCC+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft&FPIG=15FF9D597604470F97F5E717F4BC0B0F&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e451]:
+                - link "Page 3" [ref=e452] [cursor=pointer]:
+                  - /url: /search?q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+136%2f2020%2fN%c4%90-CP+phong+ch%c3%a1y+ch%e1%bb%afa+ch%c3%a1y+PCCC+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft&FPIG=15FF9D597604470F97F5E717F4BC0B0F&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e453]:
+                - link "Next page" [ref=e454] [cursor=pointer]:
+                  - /url: /search?q=Ngh%e1%bb%8b+%c4%91%e1%bb%8bnh+136%2f2020%2fN%c4%90-CP+phong+ch%c3%a1y+ch%e1%bb%afa+ch%c3%a1y+PCCC+quy+%c4%91%e1%bb%8bnh+chi+ti%e1%ba%bft&FPIG=15FF9D597604470F97F5E717F4BC0B0F&first=11&FORM=PORE
+    - complementary "Additional Results" [ref=e455]:
+      - list
+  - contentinfo [ref=e456]:
+    - generic [ref=e457]:
+      - list:
+        - listitem [ref=e458]:
+          - link "Privacy" [ref=e459] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7b44db685677b97b59d99ac58a6dcb7b55ed8b4aacd5ffe64e4ae4c0aa82d70bJmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e460]:
+          - link "Terms" [ref=e461] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0c98928a6597273e4a5057fc09082f8c5ed11f1634b17ea06829b02b1e9d7505JmltdHM9MTc4MTc0MDgwMA&ptn=3&ver=2&hsh=4&fclid=3842aa69-ffff-689c-2d9d-bd14feed69b7&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

@@ -1,0 +1,193 @@
+# MekongAI Nexus - Docker Compose
+# Hỗ trợ 2 modes:
+#   1. All-in-One (mặc định): 1 container backend+frontend → port 8000
+#   2. Separated: 2 containers riêng biệt (backend + frontend nginx)
+#
+# Port mapping (host → container):
+#   PostgreSQL: 5433 → 5432  (tránh trùng local PostgreSQL 5432)
+#   Redis:      6380 → 6379  (tránh trùng local Redis 6379)
+#   App:        8899 → 8000  (All-in-One: API + Web UI cùng port)
+
+services:
+  # ============================================
+  # PostgreSQL + pgvector
+  # ============================================
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: nexus-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-mekongai_nexus}
+      POSTGRES_USER: ${POSTGRES_USER:-mekongai}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-MekongAI2026}
+    ports:
+      # Bind localhost only — tránh services bên ngoài kết nối (postgres/airflow roles)
+      - "127.0.0.1:${NEXUS_PG_PORT:-5433}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mekongai -d mekongai_nexus"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ============================================
+  # Redis (Pub/Sub + Cache)
+  # ============================================
+  redis:
+    image: redis:7-alpine
+    container_name: nexus-redis
+    # NOTE: Nếu thấy "Memory overcommit must be enabled" warning, chạy trên HOST:
+    #   sysctl vm.overcommit_memory=1
+    #   echo "vm.overcommit_memory = 1" >> /etc/sysctl.conf
+    ports:
+      - "127.0.0.1:${NEXUS_REDIS_PORT:-6380}:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ============================================
+  # MekongAI Nexus - All-in-One (Backend + Frontend)
+  # ============================================
+  nexus:
+    image: pvbang/mekongai-nexus:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nexus-app
+    ports:
+      - "${NEXUS_BACKEND_PORT:-8899}:8000"
+      - "19000-19049:19000-19049"  # Dev server preview ports (frontend 19000-19024, backend 19025-19049)
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-mekongai}:${POSTGRES_PASSWORD:-MekongAI2026}@postgres:5432/${POSTGRES_DB:-mekongai_nexus}
+      REDIS_URL: redis://redis:6379/0
+      NEXUS_SERVE_FRONTEND: "true"
+      STATIC_DIR: /app/static
+      OPENCLAW_GATEWAY_URL: http://openclaw:18789
+      OPENCLAW_GATEWAY_TOKEN: ${OPENCLAW_GATEWAY_TOKEN:-nexus-internal-token}
+      OPENCLAW_INTERNAL_SECRET: ${OPENCLAW_INTERNAL_SECRET:-nexus-webhook-secret}
+      OPENCLAW_SUBPROCESS_ENABLED: "false"
+      UVICORN_WORKERS: "2"
+      HF_TOKEN: ${HF_TOKEN:-}
+      # Suppress IronClaw hickory DNS resolver debug spam
+      RUST_LOG: ${RUST_LOG:-ironclaw=info,hickory=warn,hickory_net=warn,hickory_resolver=warn,tower_http=warn}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      openclaw:
+        condition: service_started
+        required: false  # BUG-B04: nexus can start without openclaw (graceful degradation)
+    volumes:
+      - workspace_data:/app/workspace_data
+      # RW directory mount (was single-file :ro): the container self-refreshes
+      # AWS Bedrock tokens via the capitol node script, which writes fresh creds
+      # here. Directory mount also avoids the single-file stale-inode issue on
+      # Docker Desktop/Windows when the host's refresh-aws.sh updates the file.
+      - ./src/open-source/capitol-ai-grafana/output:/app/src/open-source/capitol-ai-grafana/output
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+
+  # ============================================
+  # Public Gateway (minimal public surface)
+  # ============================================
+  nexus-gateway:
+    image: pvbang/mekongai-nexus:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nexus-public-gateway
+    command: ["uvicorn", "app.public_gateway.main:app", "--host", "0.0.0.0", "--port", "18800"]
+    ports:
+      - "${NEXUS_PUBLIC_GATEWAY_PORT:-18800}:18800"
+    env_file:
+      - .env
+    environment:
+      PUBLIC_GATEWAY_BACKEND_URL: http://nexus:8000
+      PUBLIC_GATEWAY_BACKEND_PREFIX: /api/v1
+    depends_on:
+      nexus:
+        condition: service_started
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:18800/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  # ============================================
+  # OpenClaw - Execution Layer (Sandbox + Tools)
+  # ============================================
+  openclaw:
+    build:
+      context: ./src/open-source/openclaw
+      dockerfile: Dockerfile.nexus
+    container_name: nexus-openclaw
+    environment:
+      PORT: "18789"
+      OPENCLAW_HOST: "0.0.0.0"
+      OPENCLAW_PORT: "18789"
+      OPENCLAW_AUTH_TOKEN: ${OPENCLAW_GATEWAY_TOKEN:-nexus-internal-token}
+      OPENCLAW_WEBHOOK_SECRET: ${OPENCLAW_INTERNAL_SECRET:-nexus-webhook-secret}
+      OPENCLAW_NEXUS_URL: http://nexus:8000
+      # Workspace shared with Nexus
+      OPENCLAW_WORKSPACE_DIR: /workspace
+      # LLM credentials — truyền từ .env để OpenClaw dùng model dự án thay vì default openai/gpt-5.4
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID:-}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY:-}
+      AWS_REGION: ${AWS_REGION:-us-east-1}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+    volumes:
+      - workspace_data:/workspace
+      # Docker socket for sandbox execution
+      - /var/run/docker.sock:/var/run/docker.sock
+      # Workspace templates needed by heartbeat
+      - ./docs/reference/templates:/app/docs/reference/templates:ro
+      # OpenClaw config seed — copied to writable path at startup (gateway needs write access)
+      - ./docker/openclaw.json:/tmp/openclaw-seed.json:ro
+    entrypoint: ["/bin/sh", "-c", "mkdir -p /root/.openclaw && cp /tmp/openclaw-seed.json /root/.openclaw/openclaw.json && exec node openclaw.mjs gateway --port 18789 --allow-unconfigured"]
+    ports:
+      - "${OPENCLAW_PORT:-18789}:18789"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:18789/healthz"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  # ============================================
+  # Security Toolkit (build-only, not a running service)
+  # Agent uses this image via docker_exec tool on-demand.
+  # Build: docker compose build security-toolkit
+  # ============================================
+  security-toolkit:
+    image: nexus-security-toolkit:latest
+    build:
+      context: .
+      dockerfile: docker/security-toolkit.Dockerfile
+    container_name: nexus-security-toolkit-builder
+    entrypoint: ["echo", "Image built successfully. This is not a running service."]
+    restart: "no"
+    network_mode: "none"
+    profiles:
+      - tools  # Only builds when: docker compose --profile tools build
+
+volumes:
+  postgres_data:
+  redis_data:
+  workspace_data:

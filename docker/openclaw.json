@@ -1,0 +1,21 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "/workspace",
+      "model": {
+        "primary": "kilocode/kilo/auto"
+      }
+    }
+  },
+  "models": {
+    "providers": {
+      "kilocode": {
+        "baseUrl": "https://api.kilo.ai/api/gateway/",
+        "api": "openai-completions",
+        "models": [
+          { "id": "kilo/auto", "name": "Kilo Auto (free)" }
+        ]
+      }
+    }
+  }
+}

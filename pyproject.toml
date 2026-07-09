@@ -1,0 +1,158 @@
+[project]
+name = "mekongai-nexus"
+version = "0.1.0"
+description = "MekongAI Nexus - Core Agent System with Swarm Intelligence, Multi-Agent Orchestration"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "MekongAI Team"},
+]
+dependencies = [
+    # FastAPI & Server
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "python-multipart>=0.0.12",
+    "pydantic>=2.10.0",
+    "pydantic-settings>=2.6.0",
+    
+    # Async
+    "httpx>=0.28.0",
+    "aiohttp>=3.11.0",
+    "websockets>=14.0",
+    "sse-starlette>=2.2.0",
+    
+    # Database
+    "asyncpg>=0.30.0",
+    "psycopg2-binary>=2.9.0",
+    "sqlalchemy[asyncio]>=2.0.36",
+    "alembic>=1.14.0",
+    "pgvector>=0.3.6",
+    
+    # Redis
+    "redis[hiredis]>=5.2.0",
+    
+    # LLM & AI (Multi-Provider)
+    "openai>=1.58.0",
+    "litellm>=1.55.0",
+    "tiktoken>=0.8.0",
+    "boto3>=1.35.0",
+    "langchain-aws>=0.2.0",
+    
+    # Memory & RAG
+    "langchain-text-splitters>=0.3.0",
+    
+    # Graph
+    "networkx>=3.4.0",
+    
+    # Security
+    "python-jose[cryptography]>=3.3.0",
+    "passlib[bcrypt]>=1.7.4",
+    
+    # Utilities
+    "structlog>=24.4.0",
+    "python-dotenv>=1.0.1",
+    "tenacity>=9.0.0",
+    "orjson>=3.10.12",
+    "jinja2>=3.1.4",
+    "rich>=13.9.0",
+    "click>=8.1.7",
+
+    # Web Search (pin major to avoid breaking multi-engine changes)
+    "ddgs>=9.0.0,<10.0.0",
+
+    # Document processing (MarkItDown + OCR plugin)
+    "markitdown[all]>=0.1.0",
+    "markitdown-ocr>=0.1.0",
+
+    # Word document generation
+    "python-docx>=1.1.0",
+
+    # Excel read/write (generate_excel, read_spreadsheet, edit_spreadsheet)
+    "openpyxl>=3.1.0",
+
+    # Unified document rendering (Markdown → HTML → PDF/DOCX).
+    # markdown-it-py + plugins: single Markdown parser (replaces hand-rolled regex).
+    # weasyprint: HTML+CSS → PDF with embedded Vietnamese fonts.
+    # pypandoc: Markdown → DOCX via the pandoc binary + styled reference.docx.
+    "markdown-it-py>=3.0",
+    "mdit-py-plugins>=0.4",
+    "weasyprint>=62",
+    "pypandoc>=1.13",
+
+    # OCR engine for extract_text_from_image (falls back to vision LLM if the
+    # tesseract binary is absent; the pip package alone needs the system binary).
+    "pytesseract>=0.3.10",
+
+    # Cross-encoder reranker for advanced RAG (retriever falls back to fused
+    # order if this is absent — see app/rag/reranker.py).
+    "sentence-transformers>=3.0.0",
+
+    # Browser automation (AI-powered)
+    "browser-use>=0.1.0",
+
+    # Stealth browser (anti-bot bypass)
+    "curl_cffi>=0.7.0",
+
+    # Scheduler
+    "apscheduler>=3.10.0",
+]
+
+[project.scripts]
+nexus = "app.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.24.0",
+    "pytest-cov>=6.0.0",
+    "ruff>=0.8.0",
+    "mypy>=1.13.0",
+]
+full = [
+    "zep-cloud>=2.8.0",
+    "sentence-transformers>=3.3.0",
+    "neo4j>=5.27.0",
+    "mcp>=1.3.0",
+    "pynacl>=1.5.0",
+    # LangChain connectors (required by browser_ai tools for non-Bedrock providers)
+    "langchain-openai>=0.2.0",
+    "langchain-anthropic>=0.3.0",
+    "langchain-google-genai>=2.0.0",
+    # Browser automation (browser toolset - stealth)
+    "patchright>=1.48.0",
+    "camoufox>=0.4.0",
+    "playwright>=1.48.0",
+    # Text-to-Speech (voice toolset)
+    "edge-tts>=6.1.0",
+    # PDF generation (data toolset)
+    "reportlab>=4.0.0",
+    # Chart generation (data toolset)
+    "matplotlib>=3.9.0",
+    # QR code generation (utility toolset)
+    "qrcode[pil]>=7.4.0",
+    # Network & Security tools
+    "paramiko>=3.4.0",
+    "dnspython>=2.4.0",
+    "python-whois>=0.9.0",
+    # GPT4Free (anonymous AI fallback)
+    "g4f>=0.3.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP", "B", "A", "SIM"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
