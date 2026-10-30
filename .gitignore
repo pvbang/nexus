@@ -88,3 +88,7 @@ src/open-source/capitol-ai-grafana/output/capitol_creds_history.jsonl
 
 # --- Downloaded installers (not source; pandoc is installed in the Docker image) ---
 *.msi
+# --- Personal / authorization data: NEVER commit (use *.example files) ---
+developer_profile.json
+pentest_scope.yaml
+docker_logs_*.txt
