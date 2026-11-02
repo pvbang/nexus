@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Divergent Thinker (Creative Divergence Layer).
+Nexus - Divergent Thinker (Creative Divergence Layer).
 
 Generates multiple radically different approaches to a problem BEFORE
 the turn loop begins. Each "frame" forces a completely different angle:

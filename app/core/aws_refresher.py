@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - AWS Credential Refresher.
+Nexus - AWS Credential Refresher.
 
 Refreshes AWS session tokens via capitol-ai-grafana IMDS bridge script.
 Strategy: Run `node capitol_creds_refresh.js` → read output JSON → update env/settings.

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Badge UI Primitive
+// Nexus - Badge UI Primitive
 // Status badge with variants, sizes, and animated dot
 // ============================================================
 

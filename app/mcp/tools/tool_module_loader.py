@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Dynamic Tool Module Loader.
+Nexus - Dynamic Tool Module Loader.
 
 Allows loading (importing) additional tool modules at runtime so agents can:
 1) Create a new tool module under app/mcp/tools/custom/

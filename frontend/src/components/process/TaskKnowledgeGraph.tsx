@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - TaskKnowledgeGraph
+// Nexus - TaskKnowledgeGraph
 // Interactive SVG knowledge graph showing entities extracted
 // from task results with relationship lines and tooltips
 // ============================================================

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Web Tools.
+Nexus - Web Tools.
 
 Register web_search, web_search_news, web_search_academic, fetch_url
 into the global tool registry.
@@ -416,7 +416,7 @@ async def handle_fetch_url(params: dict[str, Any], **kwargs: Any) -> dict[str, A
 
     try:
         http = await _get_http()
-        resp = await http.get(url, headers={"User-Agent": "MekongAI-Nexus/1.0"})
+        resp = await http.get(url, headers={"User-Agent": "Nexus/1.0"})
         content = resp.text[:50000]
 
         clean = re.sub(r'<script.*?</script>', '', content, flags=re.DOTALL)

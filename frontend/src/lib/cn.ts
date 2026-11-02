@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Tailwind CSS class merger utility
+// Nexus - Tailwind CSS class merger utility
 // ============================================================
 
 import { clsx, type ClassValue } from 'clsx'

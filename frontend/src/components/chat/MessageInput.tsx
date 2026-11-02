@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - MessageInput
+// Nexus - MessageInput
 // Chat input area with file attachments, paste, drag-drop
 // Extracted from ChatPanel.tsx lines 1217-1316
 // ============================================================

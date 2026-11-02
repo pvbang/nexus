@@ -1,12 +1,12 @@
 [project]
-name = "mekongai-nexus"
+name = "nexus"
 version = "0.1.0"
-description = "MekongAI Nexus - Core Agent System with Swarm Intelligence, Multi-Agent Orchestration"
+description = "Nexus - Core Agent System with Swarm Intelligence, Multi-Agent Orchestration"
 readme = "README.md"
 requires-python = ">=3.12"
 license = {text = "MIT"}
 authors = [
-    {name = "MekongAI Team"},
+    {name = "Nexus Team"},
 ]
 dependencies = [
     # FastAPI & Server

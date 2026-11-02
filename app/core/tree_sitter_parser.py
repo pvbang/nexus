@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Tree-Sitter Based Code Structure Extraction.
+Nexus - Tree-Sitter Based Code Structure Extraction.
 
 Extracts function signatures, class declarations, imports using AST parsing
 instead of regex. Provides much more accurate file folding during context

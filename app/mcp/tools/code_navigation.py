@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Code Navigation Tools.
+Nexus - Code Navigation Tools.
 
 Provides IDE-like code intelligence for agents:
   - list_code_definitions: list functions/classes/methods in a file (AST)

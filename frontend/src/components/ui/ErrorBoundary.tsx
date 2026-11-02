@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Error Boundary
+// Nexus - Error Boundary
 // ============================================================
 
 import { Component, type ReactNode, type ErrorInfo } from 'react'

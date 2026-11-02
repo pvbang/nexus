@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Toast Notification Component
+// Nexus - Toast Notification Component
 // ============================================================
 
 import { X, CheckCircle, AlertCircle, Info, AlertTriangle } from 'lucide-react'

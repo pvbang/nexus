@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Secret Scanner (OpenClaw-inspired).
+Nexus - Secret Scanner (OpenClaw-inspired).
 
 Detect secrets/credentials in tool outputs and LLM responses
 before they are logged or sent to external services.

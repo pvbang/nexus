@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Plugin Error Boundary
+// Nexus - Plugin Error Boundary
 // Feature #10: Isolates plugin crashes from the main app
 // ============================================================
 

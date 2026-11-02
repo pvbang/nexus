@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Infrastructure Map (Self-Awareness Layer).
+Nexus - Infrastructure Map (Self-Awareness Layer).
 
 Builds a dynamic, live-status map of what the agent CAN and CANNOT do
 in its current environment. Injected into agent prompts so they:

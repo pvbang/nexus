@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - InlineDebateChatStream
+// Nexus - InlineDebateChatStream
 // Renders chat-based debate (debate_message events) inline in
 // the main chat area as a self-contained, visually distinct panel.
 // Works for both live streaming and history replay.

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Plugin Manager Admin View
+// Nexus - Plugin Manager Admin View
 // Plugin system overview with detail expansion
 // ============================================================
 

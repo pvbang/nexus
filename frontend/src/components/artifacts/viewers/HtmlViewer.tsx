@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - HtmlViewer Component
+// Nexus - HtmlViewer Component
 // Sandboxed iframe rendering of HTML content
 // ============================================================
 

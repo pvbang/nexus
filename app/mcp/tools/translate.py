@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Translation Tool.
+Nexus - Translation Tool.
 
 Translate text between languages using the LLM.
 Self-registers with the tool registry at import time.

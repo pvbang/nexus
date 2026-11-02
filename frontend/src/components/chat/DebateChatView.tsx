@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - DebateChatView
+// Nexus - DebateChatView
 // Group chat UI for the new conversational debate system.
 // Renders debate messages as a real-time chat between agents,
 // with avatar, role badges, tool indicators, and references.

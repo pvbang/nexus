@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Error Codes & Classification System.
+Nexus - Error Codes & Classification System.
 
 Inspired by Shannon's ErrorCode enum + classifyErrorForTemporal pattern.
 Two-tier classification:
@@ -194,7 +194,7 @@ _NON_RETRYABLE_PATTERNS: list[str] = [
 
 class NexusError(Exception):
     """
-    Base exception for MekongAI Nexus with structured error code.
+    Base exception for Nexus with structured error code.
 
     Enhanced from the original NexusError to include ErrorCode for
     reliable classification.

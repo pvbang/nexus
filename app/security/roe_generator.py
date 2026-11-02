@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - ROE (Rules of Engagement) Generator for Security Operations.
+Nexus - ROE (Rules of Engagement) Generator for Security Operations.
 
 LLM-driven classification and content generation. No keyword matching —
 the LLM understands intent/language/context far better than regex ever could.

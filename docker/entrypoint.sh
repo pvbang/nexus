@@ -57,6 +57,6 @@ timeout 30 python -m app.cli_seed || echo "Agent seeding skipped (non-fatal)"
 
 # Get effective workers from config
 WORKERS=$(python -c "from app.config import get_settings; print(get_settings().effective_workers)")
-echo "Starting MekongAI Nexus with ${WORKERS} workers (auto_scale=${AUTO_SCALE:-false})"
+echo "Starting Nexus with ${WORKERS} workers (auto_scale=${AUTO_SCALE:-false})"
 
 exec uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers "$WORKERS"

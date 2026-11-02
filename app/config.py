@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Configuration Management.
+Nexus - Configuration Management.
 
 Sử dụng pydantic-settings để quản lý cấu hình từ env vars.
 """
@@ -22,7 +22,7 @@ class Settings(BaseSettings):
     )
 
     # --- Application ---
-    app_name: str = "MekongAI Nexus"
+    app_name: str = "Nexus"
     app_env: str = "development"
     app_debug: bool = True
     app_host: str = "0.0.0.0"

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Conversation Sidebar
+// Nexus - Conversation Sidebar
 // Batch 7: Added SessionInsights context menu option
 // Phase 6: Added ExportDialog integration
 // ============================================================

@@ -1,1 +1,1 @@
-"""MekongAI Nexus - Browser automation with anti-detection."""
+"""Nexus - Browser automation with anti-detection."""

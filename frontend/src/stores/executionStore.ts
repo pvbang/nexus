@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Execution Trace Store (Zustand)
+// Nexus - Execution Trace Store (Zustand)
 // Persists execution events per session across navigation
 // ============================================================
 // Key design: when a tool_done event arrives, we merge its data

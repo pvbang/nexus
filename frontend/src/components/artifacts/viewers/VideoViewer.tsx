@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - VideoViewer Component
+// Nexus - VideoViewer Component
 // Native HTML5 video player with streaming support
 // ============================================================
 

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Text-to-Speech & Speech-to-Text tools.
+Nexus - Text-to-Speech & Speech-to-Text tools.
 
 Supports: Edge TTS (free), ElevenLabs (premium), Whisper (STT).
 Inspired by: hermes-agent Edge/ElevenLabs TTS + Whisper/Groq STT

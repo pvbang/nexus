@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Case Management System.
+Nexus - Case Management System.
 
 Provides structured lifecycle management for intelligence/security cases
 following Vietnamese law enforcement procedures (A05/Cục B).

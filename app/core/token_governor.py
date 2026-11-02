@@ -11,7 +11,7 @@ and return a verdict; the caller decides the action):
     inside its react-loop.
 
 Inspired by deer-flow's TokenBudgetMiddleware + LoopDetectionMiddleware, adapted
-to mekongai's plain-dict LLM result shape.
+to nexus's plain-dict LLM result shape.
 """
 
 from __future__ import annotations

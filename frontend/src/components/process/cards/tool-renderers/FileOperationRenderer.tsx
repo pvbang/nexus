@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - FileOperationRenderer
+// Nexus - FileOperationRenderer
 // Specialized renderer for write_file, read_file, list_directory
 // Shows file icon + path + content with syntax highlighting
 // ============================================================

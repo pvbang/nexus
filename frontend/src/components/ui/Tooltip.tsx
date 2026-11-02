@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Tooltip UI Primitive
+// Nexus - Tooltip UI Primitive
 // Pure CSS/state hover tooltip with positioning
 // ============================================================
 

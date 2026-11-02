@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Project Builder Data Models.
+Nexus - Project Builder Data Models.
 
 Tất cả dataclasses cho Project Builder Pipeline — hệ thống cho phép AI
 tự động build full project (scaffold → code → test → preview → iterate).

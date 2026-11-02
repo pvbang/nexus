@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Cross-Encoder Reranker.
+Nexus - Cross-Encoder Reranker.
 
 After hybrid fusion (vector + FTS + graph → RRF) produces a candidate set,
 a cross-encoder re-scores each (query, chunk) PAIR jointly. Unlike the

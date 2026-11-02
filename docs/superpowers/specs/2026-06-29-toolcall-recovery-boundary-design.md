@@ -6,7 +6,7 @@
 
 ## Problem
 
-mekongai calls Claude-on-Bedrock (the default provider) through a **litellm +
+nexus calls Claude-on-Bedrock (the default provider) through a **litellm +
 OpenAI-compat shim** (`AsyncOpenAI`, `litellm.acompletion`, `modify_params=True`).
 Claude returns a tool call as a native `tool_use` content block; litellm maps it
 to OpenAI-shaped `choice.message.tool_calls`. The **phantom-write** failure mode

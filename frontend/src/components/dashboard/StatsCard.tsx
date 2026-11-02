@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - StatsCard Dashboard Component
+// Nexus - StatsCard Dashboard Component
 // Animated stat card with gradient background, count-up animation,
 // trend indicator, and dark mode support
 // ============================================================

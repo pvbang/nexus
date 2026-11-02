@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ToolCreationCard
+// Nexus - ToolCreationCard
 // Inline chat card showing dynamic tool creation events
 // ============================================================
 

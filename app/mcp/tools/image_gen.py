@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Image Generation Tool (Hermes-agent inspired).
+Nexus - Image Generation Tool (Hermes-agent inspired).
 
 Generate images using AI models (FLUX via fal.ai, DALL-E 3 via OpenAI).
 Self-registers with the tool registry at import time.

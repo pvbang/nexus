@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - RAG (Retrieval-Augmented Generation) Pipeline.
+Nexus - RAG (Retrieval-Augmented Generation) Pipeline.
 
 PostgreSQL pgvector-based document indexing, chunking, and hybrid retrieval.
 

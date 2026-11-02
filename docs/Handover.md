@@ -1,4 +1,4 @@
-# HƯỚNG DẪN BÀN GIAO KỸ THUẬT SIÊU CHI TIẾT & CHUYÊN SÂU (MEKONGAI NEXUS)
+# HƯỚNG DẪN BÀN GIAO KỸ THUẬT SIÊU CHI TIẾT & CHUYÊN SÂU (NEXUS)
 
 > **Tài liệu đặc tả kiến trúc cấp cao (Architectural Specification) và hướng dẫn vận hành hệ thống**  
 > *Dành riêng cho đội ngũ kỹ sư Core, DevOps và Bảo mật.*  
@@ -8,9 +8,9 @@
 
 ## PHẦN 1: MÔ HÌNH THIẾT KẾ PHÂN TẦNG CAR & TRIẾT LÝ HARNESS ENGINEERING
 
-### 1.1. Triết lý Harness Engineering trong MekongAI Nexus
+### 1.1. Triết lý Harness Engineering trong Nexus
 
-Trong các hệ thống AI tác nhân truyền thống (như AutoGPT hoặc các vòng lặp script đơn giản), tác nhân thường rơi vào trạng thái mất kiểm soát (entropy tăng cao), cạn kiệt cửa sổ ngữ cảnh (context exhaustion), hoặc lặp vô hạn do thiếu nhận thức về môi trường. MekongAI Nexus giải quyết vấn đề này bằng phương pháp **Harness Engineering** — xây dựng một "bộ yên cương" kỹ thuật bao quanh tác nhân, kiểm soát chặt chẽ tài nguyên, ngữ cảnh, quyền hạn và khả năng tự phục hồi.
+Trong các hệ thống AI tác nhân truyền thống (như AutoGPT hoặc các vòng lặp script đơn giản), tác nhân thường rơi vào trạng thái mất kiểm soát (entropy tăng cao), cạn kiệt cửa sổ ngữ cảnh (context exhaustion), hoặc lặp vô hạn do thiếu nhận thức về môi trường. Nexus giải quyết vấn đề này bằng phương pháp **Harness Engineering** — xây dựng một "bộ yên cương" kỹ thuật bao quanh tác nhân, kiểm soát chặt chẽ tài nguyên, ngữ cảnh, quyền hạn và khả năng tự phục hồi.
 
 Hệ thống được thiết kế theo cấu trúc phân rã **Control-Agency-Runtime (CAR)**:
 
@@ -188,7 +188,7 @@ Mỗi lượt thực thi bao gồm 3 pha con:
 
 ## PHẦN 3: PHÂN RÃ TÁC VỤ 3 CẤP (SUB-TASK DECOMPOSITION PIPELINE)
 
-MekongAI Nexus thực hiện phân rã tác vụ thành 3 cấp độ độc lập để xử lý các bài toán từ đơn giản đến phức tạp:
+Nexus thực hiện phân rã tác vụ thành 3 cấp độ độc lập để xử lý các bài toán từ đơn giản đến phức tạp:
 
 ```
 ┌────────────────────────────────────────────────────────┐
@@ -246,7 +246,7 @@ Khi một tác nhân gặp một bài toán con quá phức tạp (ví dụ: c�
 
 ## PHẦN 4: HỆ THỐNG BỘ NHỚ PHÂN TẦNG (MEMORY SYSTEM L0→L3) & DREAMING ENGINE
 
-Kiến trúc bộ nhớ của MekongAI Nexus được thiết kế để chuyển đổi thông tin từ dạng sự kiện ngắn hạn sang tri thức dài hạn thông qua 4 tầng chưng cất liên tục:
+Kiến trúc bộ nhớ của Nexus được thiết kế để chuyển đổi thông tin từ dạng sự kiện ngắn hạn sang tri thức dài hạn thông qua 4 tầng chưng cất liên tục:
 
 ```
 ┌────────────────────────────────────────────────────────┐
@@ -294,7 +294,7 @@ Kết quả được hợp nhất, sắp xếp theo điểm liên quan và tiêm
 
 ## PHẦN 5: XSKILL CONTINUAL LEARNING
 
-Khối học máy liên tục XSkill (`app/xskill/`) giúp MekongAI Nexus tự động rút kinh nghiệm qua từng tác vụ:
+Khối học máy liên tục XSkill (`app/xskill/`) giúp Nexus tự động rút kinh nghiệm qua từng tác vụ:
 
 ```
 [Pre-Execution]
@@ -374,7 +374,7 @@ $$\text{Core Provider (Bedrock/OpenAI)} \longrightarrow \text{Agent Provider (Op
 
 ## PHẦN 7: MÔ HÌNH THỰC THI 4 CẤP (EXECUTION TIERS) & MCP TOOL SYSTEM
 
-Để khắc phục hạn chế của các Agent chỉ hoạt động trong môi trường lý thuyết, MekongAI Nexus phân cấp khả năng thực thi của các công cụ thành 4 cấp độ tăng dần:
+Để khắc phục hạn chế của các Agent chỉ hoạt động trong môi trường lý thuyết, Nexus phân cấp khả năng thực thi của các công cụ thành 4 cấp độ tăng dần:
 
 ```
 ┌────────────────────────────────────────────────────────┐

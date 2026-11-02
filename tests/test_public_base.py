@@ -24,7 +24,7 @@ def _reset_learned():
 
 
 def test_derive_from_host_header_defaults_https():
-    assert derive_base_url({"Host": "nexus2.mekongai.com"}) == "https://nexus2.mekongai.com"
+    assert derive_base_url({"Host": "nexus.example.com"}) == "https://nexus.example.com"
 
 
 def test_derive_honours_forwarded_proto():
@@ -35,9 +35,9 @@ def test_derive_honours_forwarded_proto():
 
 def test_forwarded_host_takes_precedence():
     # Behind a proxy: X-Forwarded-Host is the public one, Host is proxy↔app.
-    h = {"Host": "internal:8000", "X-Forwarded-Host": "nexus.mekongai.com",
+    h = {"Host": "internal:8000", "X-Forwarded-Host": "nexus.example.com",
          "X-Forwarded-Proto": "https"}
-    assert derive_base_url(h) == "https://nexus.mekongai.com"
+    assert derive_base_url(h) == "https://nexus.example.com"
 
 
 def test_forwarded_host_comma_list_takes_first():
@@ -77,8 +77,8 @@ def test_public_host_wins_over_learned():
 
 
 def test_falls_back_to_learned_when_no_config():
-    public_base.remember_base_url("https://nexus2.mekongai.com")
-    assert resolve_public_base("", "") == "https://nexus2.mekongai.com"
+    public_base.remember_base_url("https://nexus.example.com")
+    assert resolve_public_base("", "") == "https://nexus.example.com"
 
 
 def test_empty_when_nothing_available():

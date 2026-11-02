@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ArtifactsPanel (Session-grouped view) [OPTIMIZED]
+// Nexus - ArtifactsPanel (Session-grouped view) [OPTIMIZED]
 // - File content LRU cache (no re-fetch on switch back)
 // - Reduced refresh: 30s + only when tab visible
 // - Shallow compare before re-render

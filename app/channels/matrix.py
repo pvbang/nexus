@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Matrix Channel Adapter (Hermes-agent inspired).
+Nexus - Matrix Channel Adapter (Hermes-agent inspired).
 
 Matrix messaging via matrix-nio library. Supports E2EE rooms.
 

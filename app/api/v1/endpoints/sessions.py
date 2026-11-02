@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Session Search API.
+Nexus - Session Search API.
 
 Full-text search across conversation history,
 session listing with auto-generated titles, session deletion,

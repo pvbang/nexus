@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Lightweight ANSI Escape Code Parser & Renderer
+// Nexus - Lightweight ANSI Escape Code Parser & Renderer
 // Parses basic ANSI codes and renders as styled HTML spans.
 // No external dependencies — custom parser for terminal output.
 // ============================================================

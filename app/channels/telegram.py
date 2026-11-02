@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Telegram Channel (OpenClaw-inspired).
+Nexus - Telegram Channel (OpenClaw-inspired).
 
 Telegram bot integration using python-telegram-bot (or httpx fallback).
 """

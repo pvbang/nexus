@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Dev Server Manager.
+Nexus - Dev Server Manager.
 
 Quản lý lifecycle của dev servers cho project preview:
 start/stop, dynamic port allocation, health checks,

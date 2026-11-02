@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Token Status Bar
+// Nexus - Token Status Bar
 // Real-time token count + cost estimation for chat sessions
 // ============================================================
 

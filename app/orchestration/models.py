@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Orchestration Data Models.
+Nexus - Orchestration Data Models.
 
 Pure data classes for the turn-based execution pipeline.
 No business logic — just structure and serialization.

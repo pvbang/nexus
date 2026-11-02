@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Workspace Manager.
+Nexus - Workspace Manager.
 
 Manages per-task workspace directories with:
 - File naming conventions/policies

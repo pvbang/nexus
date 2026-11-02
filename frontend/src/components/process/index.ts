@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Process components barrel export
+// Nexus - Process components barrel export
 // ============================================================
 
 export { ProcessViewer } from './ProcessViewer'

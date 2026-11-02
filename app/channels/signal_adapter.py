@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Signal Channel Adapter (Hermes-agent inspired).
+Nexus - Signal Channel Adapter (Hermes-agent inspired).
 
 Signal messaging via signal-cli-rest-api bridge.
 

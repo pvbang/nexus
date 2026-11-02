@@ -1,5 +1,5 @@
 # ============================================================
-# MekongAI Nexus - All-in-One Dockerfile
+# Nexus - All-in-One Dockerfile
 # Backend (FastAPI) + Frontend (React) + IronClaw (Rust) trong 1 container
 # ============================================================
 

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - SynthesisView
+// Nexus - SynthesisView
 // Displays final-answer synthesis progress and results
 // ============================================================
 

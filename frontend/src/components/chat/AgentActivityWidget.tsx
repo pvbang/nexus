@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Agent Activity Widget
+// Nexus - Agent Activity Widget
 // Shows active agents and their current status during task execution
 // Collapsible sidebar/panel component
 // ============================================================

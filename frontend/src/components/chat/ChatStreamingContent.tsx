@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ChatStreamingContent
+// Nexus - ChatStreamingContent
 // Displays streaming AI response content in real-time.
 // Extracted from ChatPanel for performance isolation.
 // React.memo prevents re-render from unrelated state changes (e.g. statusText).

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Adaptive Concurrency Limiter.
+Nexus - Adaptive Concurrency Limiter.
 
 FIX GAP-7: Prevent rate limit compounding from parallel agents.
 

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - useElapsedTimer Hook
+// Nexus - useElapsedTimer Hook
 // Live elapsed timer for tool execution tracking.
 // Updates every 100ms while active, returns formatted string.
 // ============================================================

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - External World Messaging Tools.
+Nexus - External World Messaging Tools.
 
 Goal: bridge the "local/academic" gap by letting agents communicate with the
 outside world via common channels (Telegram/Slack/Discord/WhatsApp/Signal).

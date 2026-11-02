@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - MarkdownViewer Component
+// Nexus - MarkdownViewer Component
 // Wraps the shared MarkdownRenderer with proper scrolling container
 // ============================================================
 

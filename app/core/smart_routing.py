@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Smart Model Routing (Hermes-agent inspired).
+Nexus - Smart Model Routing (Hermes-agent inspired).
 
 Route simple messages to cheaper/faster models, complex ones to strongest.
 Conservative by design: if uncertain, keep the primary model.

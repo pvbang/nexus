@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - AgentThinkingCard
+// Nexus - AgentThinkingCard
 // Displays agent reasoning/thinking process inline with full
 // content visibility, markdown rendering, and decision markers.
 // Enhanced: no truncation by default, collapsible for very long content.

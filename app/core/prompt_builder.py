@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Prompt Builder (Roo-Code + OpenClaw-inspired).
+Nexus - Prompt Builder (Roo-Code + OpenClaw-inspired).
 
 Modular prompt assembly for Core Agent and Sub-Agents.
 Auto-generates tool catalog from registry metadata.

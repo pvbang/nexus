@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Discord Channel (OpenClaw-inspired).
+Nexus - Discord Channel (OpenClaw-inspired).
 
 Discord bot integration using discord.py (optional) or httpx fallback.
 """
@@ -387,7 +387,7 @@ class DiscordChannel(AbstractChannel):
         """Register slash commands on the command tree."""
         tree = self._tree
 
-        @tree.command(name="ask", description="Ask MekongAI a question")
+        @tree.command(name="ask", description="Ask Nexus a question")
         @app_commands.describe(question="Your question for the AI")
         async def slash_ask(interaction: discord.Interaction, question: str) -> None:
             await interaction.response.defer(thinking=True)
@@ -413,10 +413,10 @@ class DiscordChannel(AbstractChannel):
             else:
                 await interaction.followup.send(response)
 
-        @tree.command(name="status", description="Check MekongAI Nexus status")
+        @tree.command(name="status", description="Check Nexus status")
         async def slash_status(interaction: discord.Interaction) -> None:
             embed = discord.Embed(
-                title="🤖 MekongAI Nexus Status",
+                title="🤖 Nexus Status",
                 color=discord.Color.green(),
             )
             embed.add_field(name="Status", value="✅ Online", inline=True)
@@ -428,10 +428,10 @@ class DiscordChannel(AbstractChannel):
             embed.add_field(name="Channel", value="Discord", inline=True)
             await interaction.response.send_message(embed=embed)
 
-        @tree.command(name="help", description="Show MekongAI help")
+        @tree.command(name="help", description="Show Nexus help")
         async def slash_help(interaction: discord.Interaction) -> None:
             embed = discord.Embed(
-                title="📖 MekongAI Nexus Help",
+                title="📖 Nexus Help",
                 description="Multi-agent AI system accessible via Discord.",
                 color=discord.Color.blue(),
             )
@@ -446,7 +446,7 @@ class DiscordChannel(AbstractChannel):
             )
             embed.add_field(
                 name="Mentions",
-                value="You can also mention the bot: `@MekongAI <question>`",
+                value="You can also mention the bot: `@Nexus <question>`",
                 inline=False,
             )
             embed.add_field(

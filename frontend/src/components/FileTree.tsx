@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - FileTree Component (Optimized)
+// Nexus - FileTree Component (Optimized)
 // Virtualized tree using @tanstack/react-virtual.
 // - Flattened tree → only visible nodes rendered (~30-50)
 // - Heavy directories auto-collapsed with warning badge

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - BuildProgress
+// Nexus - BuildProgress
 // Phase tracker component showing project build progress
 // with step indicators, stats, and error display.
 // ============================================================

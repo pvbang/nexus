@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - DeepAnalysisCard
+// Nexus - DeepAnalysisCard
 // Displays Deep Analysis Engine results with dimensions, risks,
 // assumptions, unknowns, tool plan, and success criteria.
 // ============================================================

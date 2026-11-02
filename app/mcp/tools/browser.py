@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Browser Automation Tool (Playwright).
+Nexus - Browser Automation Tool (Playwright).
 
 Navigate, screenshot, extract text, click elements, type into inputs.
 Inspired by: hermes-agent Browserbase/CDP integration
@@ -85,7 +85,7 @@ class _BrowserManager:
             self._browser = await self._pw.chromium.launch(headless=True)
             self._context = await self._browser.new_context(
                 viewport={"width": 1280, "height": 720},
-                user_agent="MekongAI-Nexus/1.0",
+                user_agent="Nexus/1.0",
             )
             self._page = await self._context.new_page()
             logger.info("browser_manager_started")

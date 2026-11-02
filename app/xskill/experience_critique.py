@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Experience Critique (LLM-as-Judge).
+Nexus - Experience Critique (LLM-as-Judge).
 
 LLM-based evaluation of task execution quality.
 Lấy cảm hứng từ XSkill experience_critique.py:

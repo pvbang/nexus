@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - WebSocket connection manager hook
+// Nexus - WebSocket connection manager hook
 // Auto-reconnect with exponential backoff, heartbeat detection,
 // and tab-visibility awareness
 // Batch 7: Bridge task_update events â†’ notificationCenterStore

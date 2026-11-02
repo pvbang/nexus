@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Prompt Cache Stability + Anthropic Cache Injection.
+Nexus - Prompt Cache Stability + Anthropic Cache Injection.
 
 Ensure deterministic system prompt assembly for provider cache hits.
 Inject Anthropic cache_control breakpoints for ~75% input cost reduction.

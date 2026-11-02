@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Vision / Image Analysis Tool.
+Nexus - Vision / Image Analysis Tool.
 
 Send images to LLM for analysis (GPT-4V, Claude Vision, Gemini Vision).
 Supports both local file paths (workspace) and remote URLs pointing to

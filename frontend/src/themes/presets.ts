@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Theme Presets (Feature #7)
+// Nexus - Theme Presets (Feature #7)
 // 4 preset themes + custom accent color support
 // ============================================================
 

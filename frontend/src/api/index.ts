@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - API Layer (Barrel Re-exports)
+// Nexus - API Layer (Barrel Re-exports)
 // ============================================================
 // All public APIs are re-exported here so existing imports like
 // `import { streamChat, apiGet, ... } from '../api'` continue to work.

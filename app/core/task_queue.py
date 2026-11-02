@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Task Queue for Heavy Requests.
+Nexus - Task Queue for Heavy Requests.
 
 Redis-based async task queue that prevents server overload
 when many users submit complex orchestrator requests simultaneously.

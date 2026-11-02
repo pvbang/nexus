@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Tool Execution Guard (Integration Layer).
+Nexus - Tool Execution Guard (Integration Layer).
 
 Wires together Tool Policy, SSRF Guard, Approval Manager, and Hook System
 into a unified tool execution security pipeline.

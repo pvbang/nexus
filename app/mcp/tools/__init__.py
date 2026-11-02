@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Tool Modules.
+Nexus - Tool Modules.
 
 Importing this package triggers registration of all built-in tools
 into the global :pydata:`app.mcp.tool_registry.registry`.

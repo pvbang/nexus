@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Webhook Channel Adapter (Hermes-agent inspired).
+Nexus - Webhook Channel Adapter (Hermes-agent inspired).
 
 Generic HTTP webhook receiver for external event triggers.
 Supports signature validation and configurable event routing.

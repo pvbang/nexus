@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - English Translations
+// Nexus - English Translations
 // Feature #9: i18n System
 // ============================================================
 

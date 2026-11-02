@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Background Task Runner.
+Nexus - Background Task Runner.
 
 UNIFIED execution engine for ALL chat paths (SSE + WebSocket).
 Tasks run independently — surviving WS disconnect, page refresh, tab close.

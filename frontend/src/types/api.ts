@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - API type definitions (SOURCE OF TRUTH)
+// Nexus - API type definitions (SOURCE OF TRUTH)
 // All API interfaces live here. api.ts re-exports them.
 // ============================================================
 

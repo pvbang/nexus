@@ -1,6 +1,6 @@
 """TokenJournal — a single sink that aggregates LLM token usage.
 
-Token usage in mekongai is returned per-call in ``result["usage"]`` but was not
+Token usage in nexus is returned per-call in ``result["usage"]`` but was not
 collected anywhere, so per-run breakdowns by model/caller did not exist. This
 journal is the one place usage is recorded, with:
 
@@ -9,7 +9,7 @@ journal is the one place usage is recorded, with:
 - a running grand total.
 
 Mirrors deer-flow's ``runtime/journal.py`` token-aggregation idea, adapted to
-mekongai's plain-dict LLM result shape (no LangChain callbacks).
+nexus's plain-dict LLM result shape (no LangChain callbacks).
 """
 
 from __future__ import annotations

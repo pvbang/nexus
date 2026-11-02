@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Session Manager.
+Nexus - Session Manager.
 
 Session isolation + Agent caching per session (Hermes-agent inspired).
 Central coordination point for session lifecycle management.

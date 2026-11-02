@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Route definitions with lazy imports
+// Nexus - Route definitions with lazy imports
 // ============================================================
 
 import { lazy } from 'react'

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Chat WS Doorbell
+// Nexus - Chat WS Doorbell
 //
 // ARCHITECTURE: DB polling is the SOLE source of execution events.
 // The Chat WebSocket (useResilientChat) is demoted to a "doorbell": it never

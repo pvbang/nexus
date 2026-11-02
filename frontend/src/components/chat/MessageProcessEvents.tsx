@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - MessageProcessEvents
+// Nexus - MessageProcessEvents
 // Renders execution events associated with a specific assistant message.
 // Shows collapsed summary by default, expandable to see full timeline.
 // Used in chat history to preserve event context per-message.

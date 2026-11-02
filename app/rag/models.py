@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - RAG Data Models.
+Nexus - RAG Data Models.
 
 Dataclasses for chunks, search results, and index metadata.
 """

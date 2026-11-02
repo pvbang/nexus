@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ArtifactsPage
+// Nexus - ArtifactsPage
 // Enhanced artifacts page with:
 // - Route-aware task scoping (/artifacts/:taskId)
 // - Session-grouped overview when no taskId

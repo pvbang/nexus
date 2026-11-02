@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Git Operations Tool.
+Nexus - Git Operations Tool.
 
 Execute git commands safely within workspace.
 Self-registers with the tool registry at import time.

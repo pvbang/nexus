@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Agent Status Display
+// Nexus - Agent Status Display
 // Shows which agent/specialist is working with avatar, role, status
 // ============================================================
 

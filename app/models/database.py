@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - SQLAlchemy Base & Database Models.
+Nexus - SQLAlchemy Base & Database Models.
 
 Định nghĩa tất cả ORM models cho hệ thống.
 """

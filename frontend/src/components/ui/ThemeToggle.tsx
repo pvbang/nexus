@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Theme Toggle Component
+// Nexus - Theme Toggle Component
 // Dark/Light/System toggle with smooth transitions
 // ============================================================
 

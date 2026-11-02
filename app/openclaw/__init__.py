@@ -1,10 +1,10 @@
 """
-MekongAI Nexus - OpenClaw Bridge Package.
+Nexus - OpenClaw Bridge Package.
 
-Communication layer between MekongAI Nexus (Intelligence) and OpenClaw (Execution).
+Communication layer between Nexus (Intelligence) and OpenClaw (Execution).
 
 Architecture:
-- MekongAI Nexus = Brain (orchestration, memory, RAG, swarm, LLM)
+- Nexus = Brain (orchestration, memory, RAG, swarm, LLM)
 - OpenClaw = Arms (channels, tool execution, UI, sandbox)
 
 Communication via HTTP API (OpenAI-compatible) on port 18789.

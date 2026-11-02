@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Notifications barrel exports
+// Nexus - Notifications barrel exports
 // ============================================================
 
 export { NotificationCenter } from './NotificationCenter'

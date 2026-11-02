@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - XSkill Embedding Utility.
+Nexus - XSkill Embedding Utility.
 
 Generate vector embeddings for Skills and Experiences to enable
 semantic search (pgvector cosine similarity) instead of ILIKE keywords.

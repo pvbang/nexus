@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Port 4 hardening capabilities from `deer-flow` into mekongai-nexus — password hashing+revoke, skill security scanning, provider safety-finish-reason handling, and full MCP content extraction — without disturbing the offensive-security (pentest) mission.
+**Goal:** Port 4 hardening capabilities from `deer-flow` into nexus — password hashing+revoke, skill security scanning, provider safety-finish-reason handling, and full MCP content extraction — without disturbing the offensive-security (pentest) mission.
 
 **Architecture:** Each capability is a small, self-contained module added beside existing code, wired into the single integration point that needs it. No refactor of orchestrator, no engine swap. New code follows existing structlog + dataclass + async-first style. Every task is independently testable with pytest.
 
@@ -336,7 +336,7 @@ git commit -m "feat(auth): bcrypt password hashing, constant-time login, token_v
 **Problem (verified):** Agents generate skills via `app/xskill/` (`SkillBuilder.build_skill`) and `SkillsHub.install`/`import_from_text` write `SKILL.md` to disk (`app/skills/hub.py:198-210`) with **no security screening** — prompt-injection / exfiltration / role-override content lands on disk and is re-loaded into prompts. deer-flow gates every skill write through an LLM moderation scan that **fails closed**.
 
 **Files:**
-- Create: `app/skills/security_scanner.py` (ported from deer-flow `skills/security_scanner.py`, adapted to mekongai `LLMClient`)
+- Create: `app/skills/security_scanner.py` (ported from deer-flow `skills/security_scanner.py`, adapted to nexus `LLMClient`)
 - Modify: `app/skills/hub.py` (gate `import_from_text` through the scanner)
 - Test: `tests/test_skill_security_scanner.py`
 
@@ -605,7 +605,7 @@ git commit -m "feat(skills): fail-closed LLM security scan on agent-generated sk
 
 ### Task 3: Provider safety-finish-reason handling
 
-**Problem (verified):** `app/services/llm_client.py` reads `finish_reason` (line 744) but only acts on `"length"` (truncation retry, line 1108). When a provider stops for `content_filter` / `refusal` / safety while a partial `tool_calls` payload is present, mekongai will execute truncated/garbage tool args. deer-flow's `safety_finish_reason_middleware` strips dangling tool_calls in that case.
+**Problem (verified):** `app/services/llm_client.py` reads `finish_reason` (line 744) but only acts on `"length"` (truncation retry, line 1108). When a provider stops for `content_filter` / `refusal` / safety while a partial `tool_calls` payload is present, nexus will execute truncated/garbage tool args. deer-flow's `safety_finish_reason_middleware` strips dangling tool_calls in that case.
 
 **Files:**
 - Create: `app/services/safety_finish_reason.py`

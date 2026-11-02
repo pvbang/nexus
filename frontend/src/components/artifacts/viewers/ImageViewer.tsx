@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ImageViewer Component
+// Nexus - ImageViewer Component
 // Simple image viewer with zoom toggle (fit vs actual size)
 // ============================================================
 

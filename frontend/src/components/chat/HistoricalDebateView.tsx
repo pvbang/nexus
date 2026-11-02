@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - HistoricalDebateView
+// Nexus - HistoricalDebateView
 // Renders debate events as a professional group-chat UI for
 // historical replay. Used in MessageEventExplorer when debate
 // events are detected in a message's execution trace.

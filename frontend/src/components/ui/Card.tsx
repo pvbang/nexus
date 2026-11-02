@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Card UI Primitive
+// Nexus - Card UI Primitive
 // Container card with variants, padding options, and click support
 // ============================================================
 

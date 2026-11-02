@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Per-Session Iteration Budget.
+Nexus - Per-Session Iteration Budget.
 
 Controls how many iterations (tool calls, LLM rounds) a session can consume.
 Prevents runaway agents from burning infinite resources.

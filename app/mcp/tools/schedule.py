@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Schedule Task Tool.
+Nexus - Schedule Task Tool.
 
 Schedule tasks for future execution using the cron module.
 Self-registers with the tool registry at import time.

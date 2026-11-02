@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Process Store Persistence (localStorage)
+// Nexus - Process Store Persistence (localStorage)
 // F5 recovery: taskId → { sessionId, stage } mapping
 // ============================================================
 // Multi-tab safe: stage is keyed by taskId (not sessionId) so two tabs

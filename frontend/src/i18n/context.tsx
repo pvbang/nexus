@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - i18n Context, Provider & Hook
+// Nexus - i18n Context, Provider & Hook
 // Feature #9: Type-safe i18n with React Context
 // ============================================================
 

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Notification Center
+// Nexus - Notification Center
 // Bell icon → slide-out panel with grouped notifications
 // ============================================================
 

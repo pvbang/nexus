@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Skeleton UI Primitive
+// Nexus - Skeleton UI Primitive
 // Animated loading placeholder with shape variants
 // ============================================================
 

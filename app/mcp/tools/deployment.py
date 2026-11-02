@@ -1,6 +1,6 @@
 # DEPRECATED: Functionality covered by docker_tools.py
 """
-MekongAI Nexus - Deployment Tools.
+Nexus - Deployment Tools.
 
 Register docker_build, docker_deploy into the global tool registry.
 

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Viewers Barrel Export
+// Nexus - Viewers Barrel Export
 // ============================================================
 
 export { ImageViewer } from './ImageViewer';

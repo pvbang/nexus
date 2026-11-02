@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Complete Task Tool.
+Nexus - Complete Task Tool.
 
 DEPRECATED: This tool is a no-op. Pipeline orchestration manages task completion
 automatically via NexusOrchestrator evaluation. Agents should NOT call this tool.

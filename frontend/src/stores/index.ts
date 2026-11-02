@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Stores barrel exports
+// Nexus - Stores barrel exports
 // ============================================================
 
 export { useArtifactPreviewStore } from './artifactPreviewStore'

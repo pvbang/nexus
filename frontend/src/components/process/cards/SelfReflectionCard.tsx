@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - SelfReflectionCard
+// Nexus - SelfReflectionCard
 // Displays self-reflection checkpoint results with quality score,
 // on-track indicator, missing aspects, and strategy changes.
 // ============================================================

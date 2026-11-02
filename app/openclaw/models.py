@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - OpenClaw Pydantic Models.
+Nexus - OpenClaw Pydantic Models.
 
 Request/response models for OpenClaw Gateway API communication.
 """

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-MekongAI Nexus - Hermes Agent MCP Wrapper.
+Nexus - Hermes Agent MCP Wrapper.
 
 Custom MCP server that exposes Hermes Agent's actual capabilities
 (terminal execution, agent chat, batch runner, session search)
-as MCP tools, bridging MekongAI's needs with Hermes internals.
+as MCP tools, bridging Nexus's needs with Hermes internals.
 
 This wrapper is started by HermesProcessManager instead of mcp_serve.py,
 because mcp_serve.py only exposes messaging channel tools.
@@ -35,7 +35,7 @@ if HERMES_PATH and HERMES_PATH not in sys.path:
 
 
 # ------------------------------------------------------------------
-# Tool Definitions (what we expose to MekongAI via MCP)
+# Tool Definitions (what we expose to Nexus via MCP)
 # ------------------------------------------------------------------
 
 TOOLS = [

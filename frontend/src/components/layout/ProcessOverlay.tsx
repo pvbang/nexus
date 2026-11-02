@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ProcessOverlay
+// Nexus - ProcessOverlay
 // Slide-up overlay showing full ProcessViewer + TaskFlowGraph
 // ============================================================
 

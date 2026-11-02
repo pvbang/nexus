@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Spinner UI Primitive
+// Nexus - Spinner UI Primitive
 // SVG-based animated loading spinner, inherits parent color
 // ============================================================
 

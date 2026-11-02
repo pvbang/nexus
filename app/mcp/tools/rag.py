@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - RAG Search & Index Tools (Rewritten).
+Nexus - RAG Search & Index Tools (Rewritten).
 
 Uses PostgreSQL pgvector via the new app.rag pipeline.
 Replaces the old get_vector_store() approach with proper DB session.

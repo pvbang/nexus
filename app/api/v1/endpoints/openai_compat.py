@@ -1,7 +1,7 @@
 """
-MekongAI Nexus - OpenAI-Compatible API Endpoint.
+Nexus - OpenAI-Compatible API Endpoint.
 
-Allows MekongAI Nexus to be used as a drop-in LLM provider.
+Allows Nexus to be used as a drop-in LLM provider.
 Implements ``/v1/chat/completions`` and ``/v1/models`` following the
 OpenAI API specification.
 
@@ -288,7 +288,7 @@ async def list_models() -> JSONResponse:
             "id": "nexus",
             "object": "model",
             "created": 1700000000,
-            "owned_by": "mekongai",
+            "owned_by": "nexus",
             "permission": [],
             "root": "nexus",
             "parent": None,
@@ -297,7 +297,7 @@ async def list_models() -> JSONResponse:
             "id": "nexus-core",
             "object": "model",
             "created": 1700000000,
-            "owned_by": "mekongai",
+            "owned_by": "nexus",
             "permission": [],
             "root": "nexus-core",
             "parent": None,
@@ -306,7 +306,7 @@ async def list_models() -> JSONResponse:
             "id": "nexus-agent",
             "object": "model",
             "created": 1700000000,
-            "owned_by": "mekongai",
+            "owned_by": "nexus",
             "permission": [],
             "root": "nexus-agent",
             "parent": None,

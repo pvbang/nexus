@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Agent Worker.
+Nexus - Agent Worker.
 
 Individual agent that receives an assignment, thinks about it,
 discusses with peers, and executes using tools.

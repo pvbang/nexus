@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - LiveMetrics Dashboard Component
+// Nexus - LiveMetrics Dashboard Component
 // Real-time system metrics from WebSocket realtimeStore
 // Displays active tasks, agents, queue, cache, uptime, last event
 // ============================================================

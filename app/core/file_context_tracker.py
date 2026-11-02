@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - File Context Tracker.
+Nexus - File Context Tracker.
 
 Tracks all file operations within a task to:
 - Know what files exist in workspace

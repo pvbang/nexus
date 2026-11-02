@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Metacognitive Agent (Layer 2).
+Nexus - Metacognitive Agent (Layer 2).
 
 Thinks about HOW the system is thinking. When the system is stuck,
 performs root-cause analysis to determine WHY and produces a specific,

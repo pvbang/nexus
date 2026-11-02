@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Notification Tool.
+Nexus - Notification Tool.
 
 Push notifications to users through their active channel.
 Self-registers with the tool registry at import time.
@@ -27,7 +27,7 @@ async def _handle_notify_user(args: dict[str, Any]) -> str:
 
     notification = {
         "type": "notification",
-        "title": title or "MekongAI Nexus",
+        "title": title or "Nexus",
         "message": message,
         "urgency": urgency,
     }

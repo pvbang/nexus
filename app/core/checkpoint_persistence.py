@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Checkpoint Persistence Service.
+Nexus - Checkpoint Persistence Service.
 
 Persists ExecutionState checkpoints to PostgreSQL for crash recovery.
 Enables auto-resume of tasks after server restart.

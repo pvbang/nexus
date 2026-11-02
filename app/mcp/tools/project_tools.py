@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Project Builder Tools.
+Nexus - Project Builder Tools.
 
 Tools for scaffolding new projects and managing dependencies.
 Used by ProjectBuilderPipeline but also available to agents directly.

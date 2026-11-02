@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Event Filter Bar
+// Nexus - Event Filter Bar
 // Quick filters for event timeline: type, agent, search
 // ============================================================
 

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Search & Patch Tools.
+Nexus - Search & Patch Tools.
 
 Provides search_files (grep-like) and patch (apply unified diff) tools.
 These are essential for agents that need to find and modify code.

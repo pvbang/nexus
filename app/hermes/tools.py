@@ -1,14 +1,14 @@
 """
-MekongAI Nexus - Hermes Agent Tools (IN-PROCESS).
+Nexus - Hermes Agent Tools (IN-PROCESS).
 
-All Hermes capabilities chạy trực tiếp trong MekongAI process — KHÔNG CẦN
+All Hermes capabilities chạy trực tiếp trong Nexus process — KHÔNG CẦN
 subprocess, KHÔNG CẦN cài thêm bất kỳ package nào.
 
-Sử dụng MekongAI infrastructure sẵn có:
+Sử dụng Nexus infrastructure sẵn có:
 - Terminal: asyncio.create_subprocess_shell (local) + optional Hermes backends
-- Agent Chat: MekongAI LLMClient (multi-provider)
-- Code Edit: MekongAI LLMClient + file I/O
-- Session Search: MekongAI session_search (PostgreSQL FTS) + optional Hermes FTS5
+- Agent Chat: Nexus LLMClient (multi-provider)
+- Code Edit: Nexus LLMClient + file I/O
+- Session Search: Nexus session_search (PostgreSQL FTS) + optional Hermes FTS5
 - Batch Run: asyncio.gather in-process
 - Multi-backend terminal: try import from Hermes, fallback to local
 
@@ -170,7 +170,7 @@ async def _handle_hermes_code_edit(arguments: dict[str, Any]) -> str:
     except Exception as e:
         return json.dumps({"error": f"Cannot read file: {e}"})
 
-    # Use MekongAI's LLM to generate search/replace edits
+    # Use Nexus's LLM to generate search/replace edits
     try:
         from app.services.llm_client import get_core_llm_with_fallback
         llm = get_core_llm_with_fallback()
@@ -280,7 +280,7 @@ async def _handle_hermes_code_edit(arguments: dict[str, Any]) -> str:
 
 
 async def _handle_hermes_agent_chat(arguments: dict[str, Any]) -> str:
-    """Agent chat — uses MekongAI's LLMClient with any configured provider.
+    """Agent chat — uses Nexus's LLMClient with any configured provider.
 
     HERMES-03 fix: Wires event_callback from execution context so frontend
     can see Hermes agent activity (thinking, tool calls, etc.).
@@ -373,7 +373,7 @@ async def _handle_hermes_agent_chat(arguments: dict[str, Any]) -> str:
 
 
 async def _handle_hermes_session_search(arguments: dict[str, Any]) -> str:
-    """Search sessions — uses MekongAI PostgreSQL FTS, optional Hermes FTS5."""
+    """Search sessions — uses Nexus PostgreSQL FTS, optional Hermes FTS5."""
     query = arguments.get("query", "")
     logger.info("hermes_session_search_start", query=query[:100])
     if not query:
@@ -382,7 +382,7 @@ async def _handle_hermes_session_search(arguments: dict[str, Any]) -> str:
     limit = arguments.get("limit", 20)
     results = []
 
-    # Try MekongAI's session search first (PostgreSQL FTS)
+    # Try Nexus's session search first (PostgreSQL FTS)
     try:
         from app.core.session_search import search_sessions
         mekong_results = await search_sessions(query, limit=limit)
@@ -515,8 +515,8 @@ async def _handle_hermes_list_tools(arguments: dict[str, Any]) -> str:
 
     tools_info = [
         {"name": "hermes_terminal", "status": "active", "note": "Local always works. Docker/SSH/Modal need Hermes installed."},
-        {"name": "hermes_code_edit", "status": "active" if settings.expose_code_edit else "disabled", "note": "Uses MekongAI LLM"},
-        {"name": "hermes_agent_chat", "status": "active", "note": "Uses MekongAI LLM (multi-provider)"},
+        {"name": "hermes_code_edit", "status": "active" if settings.expose_code_edit else "disabled", "note": "Uses Nexus LLM"},
+        {"name": "hermes_agent_chat", "status": "active", "note": "Uses Nexus LLM (multi-provider)"},
         {"name": "hermes_session_search", "status": "active" if settings.expose_session_search else "disabled", "note": "PostgreSQL FTS + optional Hermes FTS5"},
         {"name": "hermes_batch_run", "status": "active" if settings.expose_batch_runner else "disabled", "note": "asyncio.gather in-process"},
     ]
@@ -581,7 +581,7 @@ async def _handle_hermes_status(arguments: dict[str, Any]) -> str:
             "batch_run": settings.expose_batch_runner,
         },
         "note": (
-            "All core features work in-process using MekongAI infrastructure. "
+            "All core features work in-process using Nexus infrastructure. "
             "Advanced terminal backends (Docker/SSH/Modal) require Hermes installation."
         ),
     }, ensure_ascii=False)
@@ -593,7 +593,7 @@ async def _handle_hermes_status(arguments: dict[str, Any]) -> str:
 
 
 def _hermes_available() -> bool:
-    """Always available — runs in-process using MekongAI infrastructure."""
+    """Always available — runs in-process using Nexus infrastructure."""
     try:
         settings = get_hermes_settings()
         return settings.enabled
@@ -607,9 +607,9 @@ def _hermes_available() -> bool:
 
 
 def register_hermes_tools() -> int:
-    """Register all Hermes tools in the MekongAI tool registry.
+    """Register all Hermes tools in the Nexus tool registry.
 
-    All core Hermes tools run IN-PROCESS using MekongAI infrastructure.
+    All core Hermes tools run IN-PROCESS using Nexus infrastructure.
     No subprocess or external Hermes installation required for basic features.
     Advanced backends (Docker, SSH, Modal) require Hermes Agent installation.
 
@@ -718,7 +718,7 @@ def register_hermes_tools() -> int:
             "name": "hermes_agent_chat",
             "description": (
                 "Send a message to an AI assistant with configurable model/provider. "
-                "Can use any LLM configured in MekongAI (Bedrock, OpenAI, Gemini, OpenRouter, local)."
+                "Can use any LLM configured in Nexus (Bedrock, OpenAI, Gemini, OpenRouter, local)."
             ),
             "parameters": {
                 "type": "object",

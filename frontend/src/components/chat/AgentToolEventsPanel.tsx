@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - AgentToolEventsPanel
+// Nexus - AgentToolEventsPanel
 // Displays tool execution events for a specific agent in debate
 // Shown as a collapsible panel alongside each agent's message
 // ============================================================

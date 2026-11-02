@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Polling hook with tab visibility awareness
+// Nexus - Polling hook with tab visibility awareness
 // ============================================================
 
 import { useState, useEffect, useCallback, useRef } from 'react'

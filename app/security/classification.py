@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Information Classification System.
+Nexus - Information Classification System.
 
 Implements Vietnamese state secret classification levels per:
 - Luật Bảo vệ Bí mật Nhà nước 2018 (Law on Protection of State Secrets)

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus CLI — command-line interface.
+Nexus CLI — command-line interface.
 
 Usage:
     python -m app.cli chat "Hello, how are you?"
@@ -33,7 +33,7 @@ import httpx
 # Constants
 # ---------------------------------------------------------------------------
 _VERSION = "0.1.0"
-_APP_NAME = "MekongAI Nexus"
+_APP_NAME = "Nexus"
 _DEFAULT_BASE_URL = "http://localhost:8000"
 _API_PREFIX = "/api/v1"
 _REQUEST_TIMEOUT = 60.0

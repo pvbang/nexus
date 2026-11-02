@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Skill Loading Tool (Roo-Code Lazy-Load Pattern).
+Nexus - Skill Loading Tool (Roo-Code Lazy-Load Pattern).
 
 Allows agents to load skill instructions on-demand after performing
 the mandatory skill applicability check. Only the selected skill's

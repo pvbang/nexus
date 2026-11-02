@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Authentication guard
+// Nexus - Authentication guard
 // Redirects to /login if not authenticated
 // ============================================================
 

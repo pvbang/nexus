@@ -1,6 +1,6 @@
-# Hướng dẫn sử dụng Free API trong MekongAI Nexus
+# Hướng dẫn sử dụng Free API trong Nexus
 
-MekongAI Nexus hỗ trợ nhiều LLM provider miễn phí, **không cần API key**, hoạt động ngay khi cài đặt (zero-config).
+Nexus hỗ trợ nhiều LLM provider miễn phí, **không cần API key**, hoạt động ngay khi cài đặt (zero-config).
 
 ---
 
@@ -190,7 +190,7 @@ asyncio.run(stream_g4f())
 
 ---
 
-## 4. Gọi qua MekongAI Nexus API (OpenAI-Compatible)
+## 4. Gọi qua Nexus API (OpenAI-Compatible)
 
 Nexus expose endpoint `/v1/chat/completions` — hoạt động như OpenAI proxy, tự động fallback qua các free providers.
 

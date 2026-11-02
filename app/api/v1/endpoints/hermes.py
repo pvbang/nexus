@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Hermes Agent API Endpoints.
+Nexus - Hermes Agent API Endpoints.
 
 REST API for Hermes Agent capabilities — ALL chạy IN-PROCESS.
 Không cần subprocess, không cần cài thêm gì.

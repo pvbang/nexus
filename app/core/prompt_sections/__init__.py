@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Modular Prompt Sections (Roo-Code inspired).
+Nexus - Modular Prompt Sections (Roo-Code inspired).
 
 Each section is an independent module that returns a string section
 for the system prompt. Composed by PromptBuilder in deterministic order

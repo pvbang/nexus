@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - SSRF Guard (OpenClaw-inspired).
+Nexus - SSRF Guard (OpenClaw-inspired).
 
 Server-Side Request Forgery protection for HTTP-based tools.
 

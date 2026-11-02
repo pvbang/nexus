@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Pluggable Memory Provider Abstraction.
+Nexus - Pluggable Memory Provider Abstraction.
 
 Supports: local (file/DB), mem0, honcho.
 Inspired by: hermes-agent pluggable memory providers

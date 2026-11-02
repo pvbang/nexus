@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - useFullEvents Hook
+// Nexus - useFullEvents Hook
 // Lazy-fetches full event data from API for a given taskId.
 // Caches results to avoid refetching. Used by MessageEventExplorer.
 // ============================================================

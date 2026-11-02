@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Context Sharing Board.
+Nexus - Context Sharing Board.
 
 Manages context visibility between agents within a turn.
 Each agent can see other agents' thinking and results through this board.

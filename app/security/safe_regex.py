@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Safe Regex (OpenClaw-inspired).
+Nexus - Safe Regex (OpenClaw-inspired).
 
 ReDoS-safe regex validation to prevent catastrophic backtracking
 from user-provided regex patterns.

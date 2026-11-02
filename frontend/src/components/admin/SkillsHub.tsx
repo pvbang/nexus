@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Skills Hub Admin View
+// Nexus - Skills Hub Admin View
 // Skills marketplace with search, detail modal, and invoke
 // ============================================================
 

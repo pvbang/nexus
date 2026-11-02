@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - User Profile (Hermes-agent USER.md pattern).
+Nexus - User Profile (Hermes-agent USER.md pattern).
 
 Persistent user preferences, coding style, language preferences.
 Auto-loaded into system prompt for personalization.

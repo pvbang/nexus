@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Graph Updater.
+Nexus - Graph Updater.
 
 Feed agent activities back into knowledge graph.
 

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Global keyboard shortcuts hook
+// Nexus - Global keyboard shortcuts hook
 // Ctrl+N (new chat), Ctrl+K (search), Ctrl+/ (sidebar), Ctrl+. (right panel)
 // ============================================================
 

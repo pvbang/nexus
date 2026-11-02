@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Active Memory Files (OpenClaw-inspired).
+Nexus - Active Memory Files (OpenClaw-inspired).
 
 Per-agent persistent memory files that auto-inject into context.
 
@@ -425,7 +425,7 @@ class ActiveMemoryManager:
         """Create initial memory file header."""
         return (
             f"# Agent Memory: {self._agent_id}\n\n"
-            f"_Managed by MekongAI Nexus Active Memory System_\n\n"
+            f"_Managed by Nexus Active Memory System_\n\n"
         )
 
     def _invalidate_cache(self) -> None:

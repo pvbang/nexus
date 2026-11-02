@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Behaviors Section.
+Nexus - Behaviors Section.
 
 Per-agent-type behavior rules.
 """

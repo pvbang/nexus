@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Smart Document Chunker.
+Nexus - Smart Document Chunker.
 
 Uses LangChain text splitters for intelligent document chunking.
 Supports semantic (markdown heading-aware), recursive, and token-based splitting.

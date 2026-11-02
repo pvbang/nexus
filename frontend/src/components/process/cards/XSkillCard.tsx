@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - XSkillCard
+// Nexus - XSkillCard
 // Inline chat card showing XSkill learning events
 // ============================================================
 

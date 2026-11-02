@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - System Info Section.
+Nexus - System Info Section.
 
 Provides current date/time and environment context for agents.
 """

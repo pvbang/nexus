@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Provider Fallback Chain (Hermes-agent inspired).
+Nexus - Provider Fallback Chain (Hermes-agent inspired).
 
 Auto-switch to backup providers when primary fails.
 Integrates with error_classifier to make smart failover decisions.

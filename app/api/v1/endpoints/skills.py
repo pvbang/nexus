@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Skills Hub API Endpoints.
+Nexus - Skills Hub API Endpoints.
 
 CRUD operations for the Skills Hub marketplace:
 discover, install, uninstall, search, import/export skills.

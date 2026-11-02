@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - LiveDebateStream
+// Nexus - LiveDebateStream
 // Realtime debate visualization — 2-column split layout:
 //   Left (narrow): Agent name buttons + Verdict button
 //   Right: Content of selected agent (collapsible per round)

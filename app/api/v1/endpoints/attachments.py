@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Attachments Upload Endpoint.
+Nexus - Attachments Upload Endpoint.
 
 Cho phép upload tài liệu/ảnh, xử lý bằng MarkItDown,
 trả về markdown content để inject vào chat context.

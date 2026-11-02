@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Page Loading Skeletons
+// Nexus - Page Loading Skeletons
 // Context-aware skeleton screens for each lazy-loaded page
 // ============================================================
 

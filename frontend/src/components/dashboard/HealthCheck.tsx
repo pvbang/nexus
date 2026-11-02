@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - HealthCheck Dashboard Component
+// Nexus - HealthCheck Dashboard Component
 // Visualizes system doctor API health checks with expandable
 // details, overall health score, and auto-refresh via polling
 // ============================================================

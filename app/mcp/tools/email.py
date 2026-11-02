@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Email Tool.
+Nexus - Email Tool.
 
 Send emails via SMTP. Configuration from settings (app/config.py).
 Self-registers with the tool registry at import time.

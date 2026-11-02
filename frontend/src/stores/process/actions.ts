@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Process Store Actions
+// Nexus - Process Store Actions
 // All action implementations for the Zustand store
 // ============================================================
 

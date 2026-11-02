@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - OpenClaw Bridge Client.
+Nexus - OpenClaw Bridge Client.
 
 Main HTTP/WS client for communicating with OpenClaw Gateway.
 Handles: chat completions, tool invocation, message delivery, health monitoring.
@@ -106,7 +106,7 @@ class OpenClawBridge:
         """Build default headers for OpenClaw requests."""
         headers: dict[str, str] = {
             "Content-Type": "application/json",
-            "User-Agent": "MekongAI-Nexus/1.0",
+            "User-Agent": "Nexus/1.0",
         }
         if self._config.gateway_token:
             headers["Authorization"] = f"Bearer {self._config.gateway_token}"

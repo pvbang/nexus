@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Router barrel exports
+// Nexus - Router barrel exports
 // ============================================================
 
 export { AppRouter } from './AppRouter'

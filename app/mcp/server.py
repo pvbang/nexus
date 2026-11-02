@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - MCP Server Mode (Hermes-agent inspired).
+Nexus - MCP Server Mode (Hermes-agent inspired).
 
 Expose Nexus tools and conversations to MCP clients (IDE, other agents).
 Implements MCP protocol (JSON-RPC over stdio) for tool discovery and execution.
@@ -86,7 +86,7 @@ class MCPServer:
         return self._jsonrpc_response(id, {
             "protocolVersion": MCP_PROTOCOL_VERSION,
             "serverInfo": {
-                "name": "mekongai-nexus",
+                "name": "nexus",
                 "version": "1.0.0",
             },
             "capabilities": {
@@ -148,7 +148,7 @@ class MCPServer:
             {
                 "uri": "nexus://conversations/recent",
                 "name": "Recent Conversations",
-                "description": "Access recent conversation history from MekongAI Nexus",
+                "description": "Access recent conversation history from Nexus",
                 "mimeType": "application/json",
             },
             {

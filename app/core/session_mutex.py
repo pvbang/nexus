@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Session Mutex for Concurrent Operations.
+Nexus - Session Mutex for Concurrent Operations.
 
 Inspired by Shannon's SessionMutex (FIFO queue-based async mutex).
 Prevents race conditions when multiple WebSocket messages or background

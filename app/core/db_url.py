@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Database URL resolution for Alembic.
+Nexus - Database URL resolution for Alembic.
 
 Pure helper (no DB, no I/O) so Alembic's sync migration URL is resolved from the
 environment first and never depends on a credential committed to alembic.ini

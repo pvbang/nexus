@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Result Type for Explicit Error Handling.
+Nexus - Result Type for Explicit Error Handling.
 
 Inspired by Shannon's Result<T, E> pattern (Rust-style discriminated union).
 Makes error handling explicit without exception spaghetti.

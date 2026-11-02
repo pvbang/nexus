@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Unified Turn-Based Orchestration.
+Nexus - Unified Turn-Based Orchestration.
 
 Single pipeline architecture. All requests flow through:
 Nexus Orchestrator → Turn Loop → Final Report.

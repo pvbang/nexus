@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Task Watchdog.
+Nexus - Task Watchdog.
 
 Background service that detects dead/stuck tasks via heartbeat monitoring.
 Periodically scans DB for tasks in "executing" state with stale heartbeats

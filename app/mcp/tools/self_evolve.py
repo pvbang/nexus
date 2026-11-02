@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Self-Evolve Toolchain.
+Nexus - Self-Evolve Toolchain.
 
 These tools help the system "grow" by scaffolding new tools/skills on disk
 and loading them at runtime.

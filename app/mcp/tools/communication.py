@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Communication Tools.
+Nexus - Communication Tools.
 
 Register send_message into the global tool registry.
 """

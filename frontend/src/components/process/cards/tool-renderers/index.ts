@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Specialized Tool Renderers
+// Nexus - Specialized Tool Renderers
 // Route tool executions to specialized UI based on tool name
 // ============================================================
 

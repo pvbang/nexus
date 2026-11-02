@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Tool Endpoints.
+Nexus - Tool Endpoints.
 """
 
 from typing import Any

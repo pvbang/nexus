@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Video Tools.
+Nexus - Video Tools.
 
 Real video processing via ffmpeg/ffprobe (shelled out). Capabilities:
     - video_info     : probe metadata (duration, streams, codec, resolution, fps)

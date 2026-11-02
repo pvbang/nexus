@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - CodeBlock UI Primitive
+// Nexus - CodeBlock UI Primitive
 // Standalone syntax-styled code block with copy button and line numbers
 // ============================================================
 

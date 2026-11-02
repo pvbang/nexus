@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - XSkillLearningView
+// Nexus - XSkillLearningView
 // Displays XSkill learning events (retrieve / accumulate / critique)
 // ============================================================
 

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Agent Activity Report.
+Nexus - Agent Activity Report.
 
 Structured report of everything an agent did during task execution.
 Captures tools called, arguments made, evidence collected, reasoning chain,

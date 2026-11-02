@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - File Content LRU Cache Hook
+// Nexus - File Content LRU Cache Hook
 // Provides cached file content fetching with LRU eviction.
 // Cache key: `${task_id}/${file_path}` or file_path for global.
 // Invalidates when file.modified changes.

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - StatusDot UI Primitive
+// Nexus - StatusDot UI Primitive
 // Animated status indicator dot with color mapping
 // ============================================================
 

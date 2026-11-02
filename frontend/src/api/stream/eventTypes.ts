@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Stream Event Type Constants
+// Nexus - Stream Event Type Constants
 // Single source of truth for all SSE event type strings
 // ============================================================
 

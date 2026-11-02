@@ -2,7 +2,7 @@
 
 Server-Sent Events let a browser resume a dropped stream by replaying the
 `Last-Event-ID` header. For that to work, the server must emit an ``id:`` line
-with each event. mekongai already persists events to ``task_events`` with a
+with each event. nexus already persists events to ``task_events`` with a
 per-task ``sequence``; this module lets the SSE chat path expose that sequence
 as the SSE event id so a reconnecting client can request a replay.
 

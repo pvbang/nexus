@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Tool Argument Type Coercion (Hermes-agent inspired).
+Nexus - Tool Argument Type Coercion (Hermes-agent inspired).
 
 Auto-fix common LLM type errors in tool call arguments.
 LLMs frequently return numbers as strings ("42" instead of 42),

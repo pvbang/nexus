@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Browser AI Tools (browser-use Integration).
+Nexus - Browser AI Tools (browser-use Integration).
 
 AI-native browser control using the browser-use library.
 These tools allow agents to interact with web pages using natural language

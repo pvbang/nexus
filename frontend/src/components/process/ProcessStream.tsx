@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ProcessStream
+// Nexus - ProcessStream
 // Renders process events chronologically inline within chat
 // ============================================================
 

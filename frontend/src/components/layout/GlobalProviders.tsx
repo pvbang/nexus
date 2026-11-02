@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Global floating components
+// Nexus - Global floating components
 // ToastContainer, SessionQuickSearch, GlobalProcessBar
 // ============================================================
 

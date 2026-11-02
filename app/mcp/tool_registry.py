@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Tool Registry (Hermes-agent inspired).
+Nexus - Tool Registry (Hermes-agent inspired).
 
 Central registry for all tools. Each tool file calls registry.register()
 at module level to declare its schema, handler, toolset membership, and

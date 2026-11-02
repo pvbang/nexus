@@ -1,4 +1,4 @@
-"""Convert MekongAI Nexus Proposal HTML to PPTX - Cool Light Theme"""
+"""Convert Nexus Proposal HTML to PPTX - Cool Light Theme"""
 import os
 from pptx import Presentation
 from pptx.util import Inches, Pt, Emu, Cm
@@ -13,7 +13,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(BASE))
 IMAGES = os.path.join(ROOT, "frontend", "atsets", "images")
 TESTS = os.path.join(ROOT, "tests")
-OUTPUT = os.path.join(BASE, "MekongAI_Nexus_Proposal.pptx")
+OUTPUT = os.path.join(BASE, "Nexus_Proposal.pptx")
 
 # Color palette - Cool Light Theme (Tailwind)
 BRAND = RGBColor(0x25, 0x63, 0xEB)
@@ -142,7 +142,7 @@ s1 = prs.slides.add_slide(BLANK_LAYOUT)
 set_slide_bg(s1, BG)
 
 # Logo
-logo_path = os.path.join(IMAGES, "mekongai-full-logo-and-text.png")
+logo_path = os.path.join(IMAGES, "nexus-full-logo-and-text.png")
 add_image_safe(s1, logo_path, Inches(5.2), Inches(0.6), height=Inches(0.7))
 
 # "PROJECT PROPOSAL" label
@@ -151,7 +151,7 @@ add_text_box(s1, Inches(0), Inches(1.6), Inches(13.333), Inches(0.4),
 
 # Main title
 add_text_box(s1, Inches(1.5), Inches(2.1), Inches(10.3), Inches(1.2),
-             "MekongAI Nexus", font_size=54, bold=False, color=BRAND, align=PP_ALIGN.CENTER)
+             "Nexus", font_size=54, bold=False, color=BRAND, align=PP_ALIGN.CENTER)
 
 # Subtitle
 add_text_box(s1, Inches(1.5), Inches(3.2), Inches(10.3), Inches(0.6),
@@ -175,7 +175,7 @@ for i, badge in enumerate(badges):
 
 # Footer
 add_text_box(s1, Inches(0), Inches(6.8), Inches(13.333), Inches(0.4),
-             "Version 1.1.0  |  June 2026  |  MekongAI",
+             "Version 1.1.0  |  June 2026  |  Nexus",
              font_size=12, color=MUTED, align=PP_ALIGN.CENTER)
 
 print("  Slide 1: Title - done")
@@ -221,7 +221,7 @@ for label, desc in problems:
 shape_s, tf_s = add_shape_with_text(
     s2, Inches(6.8), Inches(1.3), Inches(6.0), Inches(4.5), "",
     fill_color=WHITE, border_color=BRAND)
-tf_s.paragraphs[0].text = "Giải Pháp MekongAI Nexus"
+tf_s.paragraphs[0].text = "Giải Pháp Nexus"
 tf_s.paragraphs[0].font.size = Pt(16)
 tf_s.paragraphs[0].font.bold = True
 tf_s.paragraphs[0].font.color.rgb = BRAND
@@ -1328,7 +1328,7 @@ shape_code, tf_code = add_shape_with_text(
     fill_color=RGBColor(0x1E, 0x29, 0x3B), border_color=RGBColor(0x33, 0x41, 0x55))
 code_lines = [
     ("# 1. Clone repository", True),
-    ("git clone <repo-url> mekongai-nexus && cd mekongai-nexus", False),
+    ("git clone <repo-url> nexus && cd nexus", False),
     ("", False),
     ("# 2. Configure (hoặc để trống cho free tier)", True),
     ("cp .env.example .env", False),
@@ -1445,12 +1445,12 @@ s29 = prs.slides.add_slide(BLANK_LAYOUT)
 set_slide_bg(s29, BG)
 
 # Logo
-logo_path2 = os.path.join(IMAGES, "mekongai-logo.png")
+logo_path2 = os.path.join(IMAGES, "nexus-logo.png")
 add_image_safe(s29, logo_path2, Inches(5.9), Inches(1.0), height=Inches(1.0))
 
 # Title
 add_text_box(s29, Inches(1.5), Inches(2.3), Inches(10.3), Inches(1.0),
-             "MekongAI Nexus", font_size=48, bold=False, color=BRAND, align=PP_ALIGN.CENTER)
+             "Nexus", font_size=48, bold=False, color=BRAND, align=PP_ALIGN.CENTER)
 
 # Subtitle
 add_text_box(s29, Inches(1.5), Inches(3.3), Inches(10.3), Inches(0.5),
@@ -1471,7 +1471,7 @@ for i, badge in enumerate(badges_end):
 
 # Footer
 add_text_box(s29, Inches(0), Inches(6.3), Inches(13.333), Inches(0.4),
-             "MekongAI  |  Version 1.1.0  |  June 2026",
+             "Nexus  |  Version 1.1.0  |  June 2026",
              font_size=14, color=MUTED, align=PP_ALIGN.CENTER)
 
 print("  Slide 29: Thank You - done")

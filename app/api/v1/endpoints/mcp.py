@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - MCP Server Management API.
+Nexus - MCP Server Management API.
 
 Endpoints for connecting/disconnecting external MCP servers,
 discovering their tools, and OAuth 2.1 PKCE authentication.

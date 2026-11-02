@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Session Search Tool (Hermes-agent inspired).
+Nexus - Session Search Tool (Hermes-agent inspired).
 
 Lets agents search through past conversation history using
 the existing PostgreSQL FTS (full-text search) backend.

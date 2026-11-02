@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Service Interfaces (Protocols).
+Nexus - Service Interfaces (Protocols).
 
 Inspired by Shannon's ActivityLogger interface pattern.
 Keeps services framework-agnostic — testable, mockable, swappable.

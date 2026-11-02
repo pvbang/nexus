@@ -1,7 +1,7 @@
-# MekongAI Nexus + OpenClaw — Unified Production Deployment
+# Nexus + OpenClaw — Unified Production Deployment
 #
 # Architecture:
-#   MekongAI Nexus (Python) = Intelligence Layer (Brain)
+#   Nexus (Python) = Intelligence Layer (Brain)
 #   OpenClaw (Node.js) = Execution Layer (Arms)
 #
 # Usage:
@@ -13,7 +13,7 @@
 
 services:
   # ═══════════════════════════════════════════════════════════════
-  # MekongAI Nexus — Intelligence Layer
+  # Nexus — Intelligence Layer
   # ═══════════════════════════════════════════════════════════════
   nexus:
     build:

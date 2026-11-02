@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Memory Tool (Hermes-agent inspired).
+Nexus - Memory Tool (Hermes-agent inspired).
 
 Persistent memory management tool that lets agents read/write
 MEMORY.md (agent notes) and USER.md (user profile) files.

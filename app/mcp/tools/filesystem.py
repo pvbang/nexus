@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Filesystem Tools.
+Nexus - Filesystem Tools.
 
 Register read_file, write_file, list_files, delete_file, create_directory,
 move_file, copy_file into the global tool registry.
@@ -308,7 +308,7 @@ def _smart_resolve_path(rel_path: str, ws: Path, ws_root: Path) -> Path:
     - "workspace_data/tasks/xxx/_work/FINDINGS.md"         → absolute-ish (WORKSPACE_DIR prefix)
     - "tasks/xxx/_work/recon/file.md"                      → missing ws_root name prefix
     - "/app/workspace_data/tasks/xxx/_work/FINDINGS.md"    → absolute (Docker)
-    - "D:/projects/python/mekongai-nexus/workspace_data/..." → absolute (Windows)
+    - "D:/projects/python/nexus-nexus/workspace_data/..." → absolute (Windows)
 
     CRITICAL: Must work for BOTH read (file exists) AND write (file doesn't exist yet).
     Never create nested paths like _work/workspace_data/tasks/.../

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Tool Policy Engine (OpenClaw-inspired).
+Nexus - Tool Policy Engine (OpenClaw-inspired).
 
 Fine-grained per-tool access control with allow/deny/ask/sandbox rules.
 
@@ -346,11 +346,11 @@ DEFAULT_RULES: list[ToolPolicyRule] = [
         priority=80,
     ),
 
-    # Hermes tools — in-process, controlled by MekongAI
+    # Hermes tools — in-process, controlled by Nexus
     ToolPolicyRule(
         tool_pattern="hermes_*",
         action=ToolAction.ALLOW,
-        reason="Hermes tools run in-process under MekongAI control",
+        reason="Hermes tools run in-process under Nexus control",
         priority=80,
     ),
 

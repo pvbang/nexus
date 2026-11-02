@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Visual QA Tools.
+Nexus - Visual QA Tools.
 
 Screenshot web pages and analyze UI quality using LLM Vision.
 Wraps VisualQAEngine for agent tool-calling.

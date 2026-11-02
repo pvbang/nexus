@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Visual QA Engine.
+Nexus - Visual QA Engine.
 
 Screenshot pages → LLM Vision phân tích → Return issues & suggestions.
 

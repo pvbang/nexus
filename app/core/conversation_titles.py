@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Conversation Title Auto-Generation.
+Nexus - Conversation Title Auto-Generation.
 
 Auto-generates conversation titles from the first user message using LLM summarization.
 Implements caching to avoid re-generating titles for existing sessions.

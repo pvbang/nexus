@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Public Link Setup Tools.
+Nexus - Public Link Setup Tools.
 
 Implements a "one-call" workflow:
 - detect which backend port is actually serving this app
@@ -176,7 +176,7 @@ async def _open_firewall_port(port: int) -> dict[str, Any]:
 
     # Windows: netsh (widely available). Requires elevated privileges.
     if system.startswith("win"):
-        rule_name = f"MekongAI Nexus {port}"
+        rule_name = f"Nexus {port}"
         try:
             proc = await asyncio.create_subprocess_exec(
                 "netsh",

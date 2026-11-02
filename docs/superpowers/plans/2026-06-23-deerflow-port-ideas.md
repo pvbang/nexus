@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development or superpowers:executing-plans. Steps use checkbox (`- [ ]`) syntax.
 
-**Goal:** Port two verified design ideas from deer-flow into mekongai-nexus — (A) wrapping untrusted external content in trust-boundary markers to defend against prompt-injection (OWASP LLM01), and (B) a centralized subagent status contract so status values are single-source-of-truth and validated.
+**Goal:** Port two verified design ideas from deer-flow into nexus — (A) wrapping untrusted external content in trust-boundary markers to defend against prompt-injection (OWASP LLM01), and (B) a centralized subagent status contract so status values are single-source-of-truth and validated.
 
 **Architecture:** Two small, self-contained modules added beside existing code, each wired into the one place that needs it. No orchestrator refactor. New code matches existing structlog + dataclass style. TDD throughout.
 
@@ -10,18 +10,18 @@
 
 ## Global Constraints
 
-- **Pentest mission is sacred.** mekongai agents process untrusted *target* output (web fetch, scan results). The point of (A) is to mark that content as data, NOT to block/refuse it. Sanitization must NEVER drop or refuse content — only neutralize structural break-out and label provenance. An agent must still be able to read a malicious page's full text to analyze it.
+- **Pentest mission is sacred.** nexus agents process untrusted *target* output (web fetch, scan results). The point of (A) is to mark that content as data, NOT to block/refuse it. Sanitization must NEVER drop or refuse content — only neutralize structural break-out and label provenance. An agent must still be able to read a malicious page's full text to analyze it.
 - Surgical: every changed line traces to task A or B. Match existing file style.
 - (A) must be **idempotent** (wrapping already-wrapped content does nothing) and **fail-open** (on any error, return original content unchanged — never lose data).
 - (B) must not break existing `DelegationResult` consumers: keep the existing string values exactly (`pending`, `completed`, `failed`, `rejected`, `error`, `no_executor`, `cancelled`). Only centralize + validate; do NOT refactor downstream readers.
 - New deps: none (stdlib only).
-- Verified facts: mekongai prompts use markdown headers (`## IDENTITY`), not XML tags; `handle_fetch_url` (`app/mcp/tools/web.py`) returns raw web text in `output`; `_sanitize_tool_messages` already repairs dangling tool_calls (so deer-flow's dangling-tool-call middleware is NOT ported); clarification hard-interrupt is NOT ported (mekongai is async/channel-based, not a synchronous REPL).
+- Verified facts: nexus prompts use markdown headers (`## IDENTITY`), not XML tags; `handle_fetch_url` (`app/mcp/tools/web.py`) returns raw web text in `output`; `_sanitize_tool_messages` already repairs dangling tool_calls (so deer-flow's dangling-tool-call middleware is NOT ported); clarification hard-interrupt is NOT ported (nexus is async/channel-based, not a synchronous REPL).
 
 ---
 
 ### Task A: Untrusted-content trust boundary (prompt-injection defense)
 
-**Problem (verified):** `app/mcp/tools/web.py::handle_fetch_url` returns fetched web page text directly as `output` (lines ~70-76), which flows straight into the agent's context. A hostile page can embed `## SYSTEM` / "ignore previous instructions" text that the model may follow. mekongai has no systematic trust-boundary marking (`grep "BEGIN USER INPUT"` → empty). deer-flow wraps untrusted content in explicit boundary markers and neutralizes break-out tokens (`input_sanitization_middleware.py`, `dynamic_context_middleware.py:170-223`).
+**Problem (verified):** `app/mcp/tools/web.py::handle_fetch_url` returns fetched web page text directly as `output` (lines ~70-76), which flows straight into the agent's context. A hostile page can embed `## SYSTEM` / "ignore previous instructions" text that the model may follow. nexus has no systematic trust-boundary marking (`grep "BEGIN USER INPUT"` → empty). deer-flow wraps untrusted content in explicit boundary markers and neutralizes break-out tokens (`input_sanitization_middleware.py`, `dynamic_context_middleware.py:170-223`).
 
 **Files:**
 - Create: `app/core/untrusted_content.py`

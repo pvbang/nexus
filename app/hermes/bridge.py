@@ -1,11 +1,11 @@
 """
-MekongAI Nexus - Hermes Agent MCP Bridge.
+Nexus - Hermes Agent MCP Bridge.
 
 Communicates with the Hermes Agent subprocess via MCP protocol.
 Supports stdio (JSON-RPC over stdin/stdout) and HTTP transports.
 
 This bridge wraps the raw MCP protocol into high-level async methods
-that MekongAI tools and services can call directly.
+that Nexus tools and services can call directly.
 """
 
 import asyncio
@@ -114,7 +114,7 @@ class HermesBridge:
         result = await self._send_jsonrpc("initialize", {
             "protocolVersion": "2024-11-05",
             "capabilities": {},
-            "clientInfo": {"name": "MekongAI-Nexus-Hermes-Bridge", "version": "1.0.0"},
+            "clientInfo": {"name": "Nexus-Hermes-Bridge", "version": "1.0.0"},
         })
         logger.debug("hermes_mcp_initialized", result=str(result)[:300])
 
@@ -138,7 +138,7 @@ class HermesBridge:
         result = await self._send_jsonrpc("initialize", {
             "protocolVersion": "2024-11-05",
             "capabilities": {},
-            "clientInfo": {"name": "MekongAI-Nexus-Hermes-Bridge", "version": "1.0.0"},
+            "clientInfo": {"name": "Nexus-Hermes-Bridge", "version": "1.0.0"},
         })
         logger.debug("hermes_mcp_initialized_http", result=str(result)[:300])
 

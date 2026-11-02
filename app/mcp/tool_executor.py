@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Tool Executor (IronClaw-inspired).
+Nexus - Tool Executor (IronClaw-inspired).
 
 "Đôi tay" thực thi của Agent: dispatch tool calls to the registry.
 

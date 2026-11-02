@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - WhatsApp Channel Adapter (Hermes-agent inspired).
+Nexus - WhatsApp Channel Adapter (Hermes-agent inspired).
 
 WhatsApp integration via Baileys bridge (Node.js) or Cloud API.
 Supports text messages, media, and document attachments.

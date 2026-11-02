@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - System health polling hook
+// Nexus - System health polling hook
 // Manages systemOnline, isOffline, isInitializing states
 // Boot initialization + 30s periodic health check
 // ============================================================

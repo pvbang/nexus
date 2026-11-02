@@ -1,5 +1,5 @@
 """
-MekongAI Nexus — Document Export Script
+Nexus — Document Export Script
 Exports Technical and Functional documentation to DOCX, PDF, and PPTX.
 
 Usage:
@@ -205,7 +205,7 @@ def md_to_docx(md_path, output_path, title, subtitle):
 
     author_para = doc.add_paragraph()
     author_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = author_para.add_run("Author: MekongAI")
+    run = author_para.add_run("Author: Nexus")
     run.font.size = Pt(11)
     run.font.color.rgb = GRAY_COLOR
 
@@ -336,7 +336,7 @@ def create_pptx(output_path, doc_type="technical"):
     txBox = slide.shapes.add_textbox(PptxInches(1), PptxInches(2.5), PptxInches(11), PptxInches(2))
     tf = txBox.text_frame
     p = tf.paragraphs[0]
-    p.text = "MekongAI Nexus"
+    p.text = "Nexus"
     p.font.size = PptxPt(44)
     p.font.bold = True
     p.font.color.rgb = PptxRGBColor(0x14, 0x56, 0xF0)
@@ -352,7 +352,7 @@ def create_pptx(output_path, doc_type="technical"):
     p.alignment = PP_ALIGN.CENTER
 
     p = tf.add_paragraph()
-    p.text = "Version 1.1.0 | June 2026 | MekongAI"
+    p.text = "Version 1.1.0 | June 2026 | Nexus"
     p.font.size = PptxPt(16)
     p.font.color.rgb = PptxRGBColor(0x9C, 0xA3, 0xAF)
     p.alignment = PP_ALIGN.CENTER
@@ -458,7 +458,7 @@ def create_pptx(output_path, doc_type="technical"):
         ]
     else:
         slides_data = [
-            ("MekongAI Nexus Là Gì?", [
+            ("Nexus Là Gì?", [
                 "Nền tảng AI đa tác nhân — nhiều AI agents chuyên biệt cộng tác",
                 "Tự điều phối: Lập kế hoạch, tranh luận, thực thi, đánh giá tự chủ",
                 "Tự học: Tích lũy skills từ mọi lần thực thi task",
@@ -618,7 +618,7 @@ def create_pptx(output_path, doc_type="technical"):
     txBox = slide.shapes.add_textbox(PptxInches(1), PptxInches(2.5), PptxInches(11), PptxInches(3))
     tf = txBox.text_frame
     p = tf.paragraphs[0]
-    p.text = "MekongAI Nexus"
+    p.text = "Nexus"
     p.font.size = PptxPt(40)
     p.font.bold = True
     p.font.color.rgb = PptxRGBColor(0x14, 0x56, 0xF0)
@@ -633,7 +633,7 @@ def create_pptx(output_path, doc_type="technical"):
     p = tf.add_paragraph()
     p.text = ""
     p = tf.add_paragraph()
-    p.text = "github.com/pvbang | MekongAI"
+    p.text = "github.com/pvbang | Nexus"
     p.font.size = PptxPt(16)
     p.font.color.rgb = PptxRGBColor(0x9C, 0xA3, 0xAF)
     p.alignment = PP_ALIGN.CENTER
@@ -658,48 +658,48 @@ def main():
     docx_only = "--docx-only" in sys.argv
 
     print("=" * 60)
-    print("  MekongAI Nexus — Document Export")
+    print("  Nexus — Document Export")
     print("=" * 60)
     print()
 
     # Technical Documentation
     print("[1/6] Technical Documentation → DOCX")
     tech_md = DOCS_DIR / "TECHNICAL_DOCUMENTATION.md"
-    tech_docx = OUTPUT_DIR / "MekongAI_Nexus_Technical_Documentation.docx"
+    tech_docx = OUTPUT_DIR / "Nexus_Technical_Documentation.docx"
     md_to_docx(
         tech_md, tech_docx,
-        "MekongAI Nexus",
+        "Nexus",
         "Technical Architecture Documentation"
     )
 
     # Functional Documentation
     print("[2/6] Functional Documentation → DOCX")
     func_md = DOCS_DIR / "FUNCTIONAL_DOCUMENTATION.md"
-    func_docx = OUTPUT_DIR / "MekongAI_Nexus_Functional_Documentation.docx"
+    func_docx = OUTPUT_DIR / "Nexus_Functional_Documentation.docx"
     md_to_docx(
         func_md, func_docx,
-        "MekongAI Nexus",
+        "Nexus",
         "Functional Capabilities & Demonstrations"
     )
 
     # Technical PPTX
     print("[3/6] Technical Presentation → PPTX")
-    tech_pptx = OUTPUT_DIR / "MekongAI_Nexus_Technical_Presentation.pptx"
+    tech_pptx = OUTPUT_DIR / "Nexus_Technical_Presentation.pptx"
     create_pptx(tech_pptx, doc_type="technical")
 
     # Functional PPTX
     print("[4/6] Functional Presentation → PPTX")
-    func_pptx = OUTPUT_DIR / "MekongAI_Nexus_Functional_Presentation.pptx"
+    func_pptx = OUTPUT_DIR / "Nexus_Functional_Presentation.pptx"
     create_pptx(func_pptx, doc_type="functional")
 
     # PDFs
     if not docx_only:
         print("[5/6] Technical Documentation → PDF")
-        tech_pdf = OUTPUT_DIR / "MekongAI_Nexus_Technical_Documentation.pdf"
+        tech_pdf = OUTPUT_DIR / "Nexus_Technical_Documentation.pdf"
         create_pdf_from_docx(tech_docx, tech_pdf)
 
         print("[6/6] Functional Documentation → PDF")
-        func_pdf = OUTPUT_DIR / "MekongAI_Nexus_Functional_Documentation.pdf"
+        func_pdf = OUTPUT_DIR / "Nexus_Functional_Documentation.pdf"
         create_pdf_from_docx(func_docx, func_pdf)
     else:
         print("[5/6] PDF skipped (--docx-only mode)")

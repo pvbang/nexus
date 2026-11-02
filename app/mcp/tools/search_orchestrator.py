@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Search Orchestrator.
+Nexus - Search Orchestrator.
 
 Coordinates multi-engine search, deduplicates results, applies
 freshness + credibility scoring, and returns unified sorted results.

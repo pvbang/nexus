@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Reasoning-First Doctrine.
+Nexus - Reasoning-First Doctrine.
 
 Single source of truth for HOW an agent should relate search to thinking.
 

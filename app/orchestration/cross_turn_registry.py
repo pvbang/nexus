@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Cross-Turn Action Registry.
+Nexus - Cross-Turn Action Registry.
 
 FIX GAP-5: Prevent duplicate work across turns.
 

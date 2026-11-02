@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Atomic File Writes (Hermes-agent inspired).
+Nexus - Atomic File Writes (Hermes-agent inspired).
 
 Crash-safe file operations using the write-temp-fsync-replace pattern.
 Prevents data corruption from partial writes during crashes, power loss,

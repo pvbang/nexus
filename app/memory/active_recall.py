@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Active Memory Recall (OpenClaw-inspired).
+Nexus - Active Memory Recall (OpenClaw-inspired).
 
 Pre-reply memory search sub-agent that automatically pulls in
 relevant preferences, context, and past details before the main

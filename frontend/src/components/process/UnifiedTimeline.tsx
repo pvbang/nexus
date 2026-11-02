@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Unified Timeline
+// Nexus - Unified Timeline
 // Chronological timeline merging processStore + executionStore
 // ============================================================
 

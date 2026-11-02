@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Message Bus (Inter-Agent Communication).
+Nexus - Message Bus (Inter-Agent Communication).
 
 Hệ thống pub/sub messaging qua Redis cho giao tiếp giữa các Agent.
 Hỗ trợ: direct messages, broadcast, swarm channels.

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ChatInputArea
+// Nexus - ChatInputArea
 // Wraps ChatToolbar, TokenStatusBar, and MessageInput.
 // Extracted from ChatPanel bottom section for performance isolation.
 // React.memo prevents re-render from message list or processing state changes.

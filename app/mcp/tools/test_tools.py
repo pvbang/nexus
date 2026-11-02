@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Build & Test Tools.
+Nexus - Build & Test Tools.
 
 Execute build and test commands for projects.
 Parse output for errors using ErrorPatternMatcher.

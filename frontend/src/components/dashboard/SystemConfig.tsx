@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - SystemConfig Dashboard Component
+// Nexus - SystemConfig Dashboard Component
 // Displays system configuration and architecture components
 // with color-coded values and status indicators
 // ============================================================

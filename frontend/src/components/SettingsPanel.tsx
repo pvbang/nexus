@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Settings Panel (Enhanced)
+// Nexus - Settings Panel (Enhanced)
 // Feature #7: Theme presets + accent color picker
 // Feature #9: i18n Language selector
 // ============================================================
@@ -274,7 +274,7 @@ export function SettingsPanel() {
                 {t('settings.title')}
               </h2>
               <p className="text-[13px] text-text-muted dark:text-gray-400">
-                Customize your MekongAI Nexus experience
+                Customize your Nexus experience
               </p>
             </div>
           </div>
@@ -904,7 +904,7 @@ export function SettingsPanel() {
           {!loadingSystem && systemInfo && (
             <div className="space-y-1">
               <p className="text-[12px] font-medium text-text-dark dark:text-gray-200">
-                {systemInfo.name || 'MekongAI Nexus'}{' '}
+                {systemInfo.name || 'Nexus'}{' '}
                 {systemInfo.version && (
                   <Badge variant="info" size="sm" className="ml-1">
                     v{systemInfo.version}
@@ -931,7 +931,7 @@ export function SettingsPanel() {
           {!loadingSystem && !systemInfo && (
             <div>
               <p className="text-[12px] text-text-muted dark:text-gray-400">
-                MekongAI Nexus
+                Nexus
               </p>
               <p className="text-[11px] text-text-muted dark:text-gray-400 mt-1">
                 Multi-Agent AI Orchestration Platform

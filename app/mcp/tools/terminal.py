@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Terminal Tools.
+Nexus - Terminal Tools.
 
 Register execute_command, execute_code into the global tool registry.
 """

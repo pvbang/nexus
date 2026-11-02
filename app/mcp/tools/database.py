@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Database Query Tool.
+Nexus - Database Query Tool.
 
 Execute read-only SQL queries against the application database.
 Self-registers with the tool registry at import time.

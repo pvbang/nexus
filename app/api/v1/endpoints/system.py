@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - System Endpoints.
+Nexus - System Endpoints.
 
 System info, stats, Docker sandbox management, and maintenance.
 """

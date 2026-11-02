@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - TaskArtifactsView
+// Nexus - TaskArtifactsView
 // Compact file list for a specific task's workspace.
 // Shown inside UnifiedProcessPanel "Files" tab.
 // Polls /artifacts/task/{taskId} for live updates.

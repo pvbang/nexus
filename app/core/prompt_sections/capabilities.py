@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Capabilities Section.
+Nexus - Capabilities Section.
 
 High-level capabilities summary. Details live in tool descriptions.
 """

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Agent Endpoints.
+Nexus - Agent Endpoints.
 
 Includes:
 - CRUD operations for agents

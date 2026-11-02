@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - API Rate Limiting Middleware (Pure ASGI).
+Nexus - API Rate Limiting Middleware (Pure ASGI).
 
 Sliding-window rate limiting per IP using Redis.
 Protects against abuse and ensures fair resource sharing.

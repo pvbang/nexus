@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - AgentCard Component
+// Nexus - AgentCard Component
 // Compact card for agent grid/list view with role badge,
 // status dot, description snippet, skill/tool counts,
 // model name, hover effect, and dark mode support

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Notification Center Store (Zustand)
+// Nexus - Notification Center Store (Zustand)
 // Persistent notification center — separate from toast notifications
 // ============================================================
 

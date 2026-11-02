@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Button UI Primitive
+// Nexus - Button UI Primitive
 // Reusable button with variants, sizes, loading, and icon support
 // ============================================================
 

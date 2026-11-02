@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - OpenClaw Inbound Webhook Router.
+Nexus - OpenClaw Inbound Webhook Router.
 
 FastAPI router that receives messages from OpenClaw hooks
 and routes them to the Nexus orchestrator.
@@ -194,7 +194,7 @@ async def _handle_command(message: InboundMessage) -> dict[str, Any]:
         from app.openclaw.bridge import get_openclaw_bridge
         bridge = get_openclaw_bridge()
         info = bridge.get_info()
-        response = f"🟢 MekongAI Nexus running\nOpenClaw: {'🟢 healthy' if info['healthy'] else '🔴 unhealthy'}"
+        response = f"🟢 Nexus running\nOpenClaw: {'🟢 healthy' if info['healthy'] else '🔴 unhealthy'}"
         await bridge.send_chat(
             session_id=message.session_id,
             messages=[{"role": "assistant", "content": response}],

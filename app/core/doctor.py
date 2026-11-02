@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Doctor / Health Check System (OpenClaw-inspired).
+Nexus - Doctor / Health Check System (OpenClaw-inspired).
 
 Self-diagnosis for the entire system: config, DB, LLM, tools, sandbox, security.
 

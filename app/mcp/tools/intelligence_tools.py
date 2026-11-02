@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Intelligence & Security Operations Tools.
+Nexus - Intelligence & Security Operations Tools.
 
 Advanced tools for OSINT, threat hunting, vulnerability research,
 network analysis, and digital forensics.
@@ -676,7 +676,7 @@ async def _handle_evidence_acquire(arguments: dict) -> str:
     source_path = arguments.get("source_path", "")
     evidence_dir = arguments.get("evidence_dir", "")
     case_id = arguments.get("case_id", "CASE-001")
-    examiner = arguments.get("examiner", "MekongAI-Forensics")
+    examiner = arguments.get("examiner", "Nexus-Forensics")
 
     if not source_path:
         return "Error: source_path is required."
@@ -965,7 +965,7 @@ registry.register(
             "examiner": {
                 "type": "string",
                 "description": "Name of examiner performing acquisition",
-                "default": "MekongAI-Forensics",
+                "default": "Nexus-Forensics",
             },
         },
         "required": ["source_path"],

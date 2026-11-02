@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - SessionArtifactsView
+// Nexus - SessionArtifactsView
 // Shows ALL artifacts for a chat session by scanning task_ids
 // from message metadata. Supports inline file preview.
 // Used as fallback when no active process taskId is available.

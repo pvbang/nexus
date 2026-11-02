@@ -4,8 +4,8 @@ When an agent builds + runs an app on a dev-server port (19000-19049), the user
 needs a link they can actually click. Instead of requiring a public IP / tunnel /
 extra DNS, we proxy through the main app's existing domain:
 
-    https://nexus2.mekongai.com/preview/19000/         → 127.0.0.1:19000/
-    https://nexus2.mekongai.com/preview/19000/api/foo  → 127.0.0.1:19000/api/foo
+    https://nexus.example.com/preview/19000/         → 127.0.0.1:19000/
+    https://nexus.example.com/preview/19000/api/foo  → 127.0.0.1:19000/api/foo
 
 This module holds the PURE logic (port allow-listing, base-href injection, header
 rewriting) so it's unit-testable without sockets. The router (preview_router.py)

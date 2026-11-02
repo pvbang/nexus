@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Language Switcher Component
+// Nexus - Language Switcher Component
 // Feature #9: Toggle between Vietnamese and English
 // ============================================================
 

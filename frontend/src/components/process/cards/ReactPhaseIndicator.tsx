@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ReactPhaseIndicator
+// Nexus - ReactPhaseIndicator
 // Visual pipeline indicator for ReAct loop phases showing
 // completed, active, and pending phases with animations.
 // Enhanced: smooth spring transitions, glowing active state,

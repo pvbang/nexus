@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Document Converter MCP Tool.
+Nexus - Document Converter MCP Tool.
 
 Cho phép agents chủ động convert bất kỳ tài liệu nào sang Markdown
 trong quá trình thực thi — hỗ trợ local files và remote URLs.

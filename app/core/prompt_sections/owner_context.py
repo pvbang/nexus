@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Owner Context Section.
+Nexus - Owner Context Section.
 
 Two modes:
 - minimal (default): short hint telling agent that owner info exists in

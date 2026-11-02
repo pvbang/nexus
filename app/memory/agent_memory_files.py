@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Agent Memory Files (Claude-code memdir pattern).
+Nexus - Agent Memory Files (Claude-code memdir pattern).
 
 Mỗi agent có một thư mục MEMORY riêng:
 - MEMORY.md: ghi chú, preferences, learned patterns

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Timeline Utilities (Shared)
+// Nexus - Timeline Utilities (Shared)
 // Extracted from ProcessStream for reuse in MessageEventExplorer.
 // Contains: TimelineItem types + convertExecutionEventsToTimeline.
 // ============================================================

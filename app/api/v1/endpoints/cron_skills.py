@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Cron & Skills API Endpoints.
+Nexus - Cron & Skills API Endpoints.
 
 Provides REST endpoints for:
 - Cron job management (CRUD + trigger)

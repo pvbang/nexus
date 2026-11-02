@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Process Store Types & Constants
+// Nexus - Process Store Types & Constants
 // ============================================================
 
 import type {

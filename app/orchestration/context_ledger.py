@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Progressive Context Ledger.
+Nexus - Progressive Context Ledger.
 
 Structured, append-only ledger that records WHAT each agent accomplished per turn.
 Unlike ACTIVITY.md (full fidelity log), the ledger stores CONCLUSIONS only —

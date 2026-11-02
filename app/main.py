@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - FastAPI Application Entry Point.
+Nexus - FastAPI Application Entry Point.
 
 Khởi tạo ứng dụng, router, middleware và lifecycle events.
 """

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Plugin Manifest (OpenClaw-inspired).
+Nexus - Plugin Manifest (OpenClaw-inspired).
 
 Pydantic models for plugin.json manifest validation.
 """

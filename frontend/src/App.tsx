@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - App (slim orchestrator)
+// Nexus - App (slim orchestrator)
 // Composes: Navigation, Router, GlobalProviders, hooks
 // ============================================================
 
@@ -80,7 +80,7 @@ function AppContent() {
       <div className="flex items-center justify-center h-screen bg-surface-base">
         <div className="flex flex-col items-center gap-4">
           <div className="w-12 h-12 border-4 border-[var(--accent,#3b82f6)] border-t-transparent rounded-full animate-spin" />
-          <p className="text-[var(--text-secondary,#a0a0b8)] text-sm font-medium">Loading MekongAI Nexus...</p>
+          <p className="text-[var(--text-secondary,#a0a0b8)] text-sm font-medium">Loading Nexus...</p>
         </div>
       </div>
     )

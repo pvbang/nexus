@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Documentation Generation Tools.
+Nexus - Documentation Generation Tools.
 
 Provides tools for auto-generating API docs, README files, and changelogs
 from source code, project structure, and git history.

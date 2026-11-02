@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Network & Security Tools.
+Nexus - Network & Security Tools.
 
 Tools for network reconnaissance, port scanning, TCP connections,
 SSH remote execution, and DNS lookups.

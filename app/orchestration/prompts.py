@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Orchestration Prompts.
+Nexus - Orchestration Prompts.
 
 Prompts instruct agents to be thorough ON WHAT WAS ASKED and to measure "done"
 against the DELIVERABLE CONTRACT (every artifact built + verified), not against an

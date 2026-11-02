@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Chat Endpoints.
+Nexus - Chat Endpoints.
 
 Entry point chính cho user tương tác với hệ thống.
 Includes both REST (non-streaming) and SSE (streaming) endpoints.

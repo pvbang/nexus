@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Sandbox Manager.
+Nexus - Sandbox Manager.
 
 Quản lý thực thi code an toàn qua Docker containers.
 Lấy cảm hứng từ IronClaw WASM Sandbox.

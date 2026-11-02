@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Preference Store (Zustand + localStorage)
+// Nexus - Preference Store (Zustand + localStorage)
 // Feature #7: Added themePreset + accentColor support
 // Feature #9: Added locale (i18n) support
 // ============================================================

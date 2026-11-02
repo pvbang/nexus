@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - RevisionCard
+// Nexus - RevisionCard
 // Displays agent revision after critique with markdown-rendered
 // revised content and agent name subtitle.
 // ============================================================

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Project Builder Blueprint Generator.
+Nexus - Project Builder Blueprint Generator.
 
 LLM-powered blueprint generation: phân tích user requirements → tạo
 ProjectBlueprint hoàn chỉnh với tech stack, components, data models,

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Terminal Components Barrel Export
+// Nexus - Terminal Components Barrel Export
 // ============================================================
 
 export { TerminalPanel } from './TerminalPanel'

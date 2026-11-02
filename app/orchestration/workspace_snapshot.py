@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Workspace Snapshot & Rollback.
+Nexus - Workspace Snapshot & Rollback.
 
 FIX GAP-6: Recover from agents breaking each other's work.
 

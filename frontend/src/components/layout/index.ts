@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Layout components barrel exports
+// Nexus - Layout components barrel exports
 // ============================================================
 
 export { GlobalProcessBar } from './GlobalProcessBar'

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Notification Store (Zustand)
+// Nexus - Notification Store (Zustand)
 // ============================================================
 
 import { create } from 'zustand'

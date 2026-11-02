@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ToolExecutionList
+// Nexus - ToolExecutionList
 // Full-content display with expandable detail + popup modal
 // Enhanced: uses ToolOutputRenderer for smart format detection,
 // syntax highlighting, copy button, and fullscreen support.

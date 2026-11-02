@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Session History Browser API.
+Nexus - Session History Browser API.
 
 Provides endpoints for browsing session history with preview, last_active,
 search, and filtering capabilities. Designed for the frontend's session

@@ -1,7 +1,7 @@
 """
-MekongAI Nexus - MCP OAuth 2.1 with PKCE.
+Nexus - MCP OAuth 2.1 with PKCE.
 
-Cho phép MekongAI Nexus authenticate với MCP servers yêu cầu OAuth.
+Cho phép Nexus authenticate với MCP servers yêu cầu OAuth.
 
 Implements:
 - PKCE (Proof Key for Code Exchange) — RFC 7636

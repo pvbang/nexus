@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Execution Trace Panel
+// Nexus - Execution Trace Panel
 // Real-time visibility with full content & Smart Renderer
 // ============================================================
 // Issue fixes:

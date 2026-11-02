@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - GraphRAG Retriever.
+Nexus - GraphRAG Retriever.
 
 Uses the existing Knowledge Graph (knowledge_nodes + knowledge_edges)
 for relationship-aware document retrieval.

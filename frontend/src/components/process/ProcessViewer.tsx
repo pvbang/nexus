@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ProcessViewer
+// Nexus - ProcessViewer
 // Main orchestration transparency component — replaces
 // ExecutionTracePanel with a full stage-based process view
 // ============================================================

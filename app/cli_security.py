@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Security CLI Commands.
+Nexus - Security CLI Commands.
 
 Provides CLI subcommands for security operations:
 - nexus security audit [--deep]

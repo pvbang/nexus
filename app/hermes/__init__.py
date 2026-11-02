@@ -1,11 +1,11 @@
 """
-MekongAI Nexus - Hermes Agent Integration.
+Nexus - Hermes Agent Integration.
 
-Hermes Agent (by Nous Research) runs as a subcomponent inside MekongAI Nexus.
+Hermes Agent (by Nous Research) runs as a subcomponent inside Nexus.
 Communication is via MCP (Model Context Protocol) bridge — stdio or HTTP.
 
 Architecture:
-    MekongAI Nexus (Master)
+    Nexus (Master)
         └── HermesProcessManager (lifecycle)
             └── HermesBridge (MCP client)
                 └── Hermes Agent subprocess (MCP server via mcp_serve.py)

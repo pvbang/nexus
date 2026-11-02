@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Abstract Channel Interface (OpenClaw-inspired).
+Nexus - Abstract Channel Interface (OpenClaw-inspired).
 
 Base classes for all messaging channels.
 """

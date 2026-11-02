@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Agent/Orchestrator Instance Cache.
+Nexus - Agent/Orchestrator Instance Cache.
 
 LRU cache for orchestrator instances per session, avoiding expensive
 re-creation on every message. Hermes-agent inspired pattern.

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Message Router (OpenClaw-inspired).
+Nexus - Message Router (OpenClaw-inspired).
 
 Routes inbound messages from any channel to the correct session/agent.
 """

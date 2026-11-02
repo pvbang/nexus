@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Hermes Activity Panel (Unified)
+// Nexus - Hermes Activity Panel (Unified)
 // Combined right panel: Process Log + Files + Graph + Agents + Tools + Analysis
 // Flat tab structure — no nested sub-tabs for clarity.
 // ============================================================

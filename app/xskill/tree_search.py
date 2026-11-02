@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Tree Search Planning Engine.
+Nexus - Tree Search Planning Engine.
 
 Port từ XSkill eval/search/tree.py pattern, adapt cho multi-step planning.
 

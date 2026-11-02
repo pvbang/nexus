@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Security Module (OpenClaw-inspired).
+Nexus - Security Module (OpenClaw-inspired).
 
 Comprehensive security framework providing:
 - SSRF Guard: Block private IPs, metadata endpoints, DNS rebinding protection

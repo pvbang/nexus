@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Artifacts Viewer Types
+// Nexus - Artifacts Viewer Types
 // ============================================================
 
 /** Directory tree entry from GET /artifacts/tree */

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Cloud Execution Tools (Tier 3).
+Nexus - Cloud Execution Tools (Tier 3).
 
 Execute cloud CLI commands for offensive security testing:
 - Alibaba Cloud (aliyun CLI)

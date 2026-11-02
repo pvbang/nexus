@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Theme Provider (Feature #7)
+// Nexus - Theme Provider (Feature #7)
 // Applies CSS variables to document.documentElement
 // ============================================================
 

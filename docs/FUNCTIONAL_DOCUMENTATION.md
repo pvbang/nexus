@@ -1,4 +1,4 @@
-# MekongAI Nexus — Functional Documentation
+# Nexus — Functional Documentation
 
 **Hệ Thống Tác Nhân Thông Minh Tự Điều Phối, Tự Học, và Tự Hành Động**
 
@@ -8,7 +8,7 @@ Version 1.1.0 | Feature Reference & Demonstration | June 2026
 
 ## Executive Summary
 
-MekongAI Nexus là nền tảng AI đa tác nhân (multi-agent) thế hệ mới, nơi nhiều AI agent chuyên biệt phối hợp với nhau qua một pipeline thảo luận có cấu trúc để giải quyết các bài toán phức tạp. Hệ thống tự lập kế hoạch, tự thảo luận, tự hành động, tự đánh giá chất lượng, và tự học hỏi từ kinh nghiệm — tất cả diễn ra tự động mà không cần sự can thiệp liên tục của con người.
+Nexus là nền tảng AI đa tác nhân (multi-agent) thế hệ mới, nơi nhiều AI agent chuyên biệt phối hợp với nhau qua một pipeline thảo luận có cấu trúc để giải quyết các bài toán phức tạp. Hệ thống tự lập kế hoạch, tự thảo luận, tự hành động, tự đánh giá chất lượng, và tự học hỏi từ kinh nghiệm — tất cả diễn ra tự động mà không cần sự can thiệp liên tục của con người.
 
 **Nexus không phải chatbot — đây là hệ điều hành AI** có khả năng:
 - Triển khai **đội ngũ 7+ agents chuyên biệt** cộng tác giải quyết một bài toán duy nhất
@@ -36,6 +36,7 @@ MekongAI Nexus là nền tảng AI đa tác nhân (multi-agent) thế hệ mới
 12. [Application Scenarios](#12-application-scenarios)
 13. [Competitive Advantages](#13-competitive-advantages)
 14. [Future Capabilities](#14-future-capabilities)
+15. [Platform Capabilities (GitHub, Bounty, Batch, Cron, Hermes, Workflow, Plugins)](#15-platform-capabilities)
 
 ---
 
@@ -47,7 +48,7 @@ MekongAI Nexus là nền tảng AI đa tác nhân (multi-agent) thế hệ mới
 
 Giao diện chat chính với layout 3 panel chuyên nghiệp:
 
-- **Navigation bar:** Logo MekongAI, tabs điều hướng (Chat, Artifacts, Agents, Skills, XSkill, Graph, More), trạng thái Online, model đang dùng.
+- **Navigation bar:** Logo Nexus, tabs điều hướng (Chat, Artifacts, Agents, Skills, XSkill, Graph, More), trạng thái Online, model đang dùng.
 - **Sidebar trái:** Quản lý sessions — danh sách lịch sử, search full-text, tạo chat mới.
 - **Panel giữa:** Khu vực chat chính — streaming real-time, Markdown rendering đầy đủ (bảng, code blocks, headings, links), file upload.
 - **Panel phải:** Agent Process — hiển thị quá trình xử lý chi tiết, root cause analysis, code flow.
@@ -116,7 +117,7 @@ Trang quản lý agents với layout master-detail:
 - **Panel chi tiết:** Tabs (Overview, Chat, Logs, History) — hiển thị Description, Personality, Thinking Style, Skills (badges), Tools (danh sách visual), Background, Model
 
 **Chức năng chính:**
-- **66 agent templates** sẵn có, cover 8 lĩnh vực chuyên môn
+- **79 agent templates** sẵn có, cover nhiều lĩnh vực chuyên môn (IT, khoa học, kinh doanh, sáng tạo, xã hội...)
 - **Role-based tools**: Mỗi agent chỉ truy cập tools phù hợp (Code Engineer có 20+ tools coding)
 - **Dynamic spawning**: Tạo agent mới runtime khi cần
 - **Chat trực tiếp**: Interview hoặc giao tiếp trực tiếp với từng agent
@@ -653,12 +654,12 @@ Qua 2 case studies, Nexus đã chứng minh:
 
 ### 13.1. So Sánh Với Các Giải Pháp Khác
 
-| Feature | MekongAI Nexus | ChatGPT | Claude Code | AutoGPT | CrewAI | LangGraph |
+| Feature | Nexus | ChatGPT | Claude Code | AutoGPT | CrewAI | LangGraph |
 |---------|---------------|---------|-------------|---------|--------|-----------|
 | **Multi-Agent** | 7+ agents, structured debate | Single | Single | Sequential | Sequential | Graph-based |
 | **Memory** | 4-layer progressive (L0→L3) | Limited | Session | File-based | None | Custom |
 | **Learning** | XSkill continual + trajectory | None | None | None | None | None |
-| **Tools** | 172+ MCP tools + self-evolve | Plugins | MCP | Limited | Limited | Custom |
+| **Tools** | 192+ MCP tools + self-evolve | Plugins | MCP | Limited | Limited | Custom |
 | **Provider Lock-in** | None (8+ providers) | OpenAI only | Anthropic only | OpenAI | Any | Any |
 | **Self-Healing** | Circuit breaker + fallback chain | No | No | No | No | No |
 | **Free Tier** | Yes (Kilo/Pollinations/g4f) | No | No | No | Depends | No |
@@ -729,6 +730,81 @@ Qua 2 case studies, Nexus đã chứng minh:
 
 ---
 
+## 15. Platform Capabilities
+
+Tổng hợp các tính năng nền tảng bổ sung ngoài các nhóm chức năng chính ở trên.
+
+### 15.1. GitHub Automation & Bug Bounty
+
+Bộ 12 tools chuyên biệt (github_tools 6 + bounty_tools 6):
+
+- **GitHub Automation:** fork repository, clone, tạo Pull Request, tìm issues, duyệt bounties, gọi GitHub API trực tiếp
+- **Bug Bounty Pipeline:** tìm bounty, xác minh target hợp lệ, theo dõi trạng thái PR, trả lời review comments, quản lý sổ thu nhập (earnings ledger), chuẩn bị hồ sơ nộp bounty
+
+### 15.2. Batch Execution
+
+Chạy một prompt trên nhiều model/song song nhiều session:
+- `POST /api/v1/batch/run` — khởi tạo batch
+- `GET /api/v1/batch/{batch_id}/status` — theo dõi tiến độ
+- Giao diện quản lý tại `/admin/batch`
+
+### 15.3. Cron Scheduler & Skill Runner
+
+- **Cron Jobs:** tạo/sửa/xóa/scheduled recurring tasks qua APScheduler (`/api/v1/cron/jobs`) với croniter expressions
+- **Skill Runner:** quét lệnh từ thư mục skills, invoke skill commands định kỳ (`/api/v1/skill-runner/*`)
+
+### 15.4. Hermes Agent Bridge
+
+Agents được expose qua MCP bridge chạy in-process (không cần service riêng):
+- `hermes_agent_chat` — chat qua LLMClient đa provider
+- `hermes_code_edit` — sinh search/replace edits bằng LLM
+- `hermes_terminal` — chạy lệnh terminal
+- `hermes_search` — tìm kiếm session (PostgreSQL FTS)
+
+API: `/api/v1/hermes/*` (status, health, tools, tools/call, terminal, code-edit, chat, search)
+
+### 15.5. Persistent Workflow Engine
+
+Multi-step workflows dạng DAG (Directed Acyclic Graph):
+- Tồn tại qua restart (lưu `.workflows.json`)
+- Topological execution (Kahn's algorithm), song song tối đa 3 step đồng thời
+- Biến tham chiếu `{{var_name}}`, `{{step.output}}`
+- Xử lý lỗi: stop / continue / retry (1 lần tự động)
+- Điều kiện skip từng step
+
+### 15.6. Plugin System & Approval Workflow
+
+- **Backend plugins:** manifest-driven, discover/activate/deactivate qua `/api/v1/plugins/*`, doctor health checks
+- **Frontend plugins:** registry với typed slots, error boundaries, dynamic routes
+- **Approval Workflow (Human-in-the-Loop):** thao tác nguy hiểm xếp hàng chờ user phê duyệt (`/api/v1/approvals/approve|deny`) — agents không bao giờ tự ý thực hiện thao tác nhạy cảm
+
+### 15.7. Session State, History & Interactive Decisions
+
+- **Session State API:** snapshot state bền vững + event replay (`/api/v1/session-state/{id}/state|events`)
+- **History:** full-text search toàn bộ phiên làm việc (`/api/v1/history`)
+- **Interactive Decisions:** agents hỏi user giữa chừng thực thi, user trả lời qua `/api/v1/decisions/{id}/answer` hoặc UI
+
+### 15.8. Extended Intelligence Toolkit
+
+Bổ sung cho mục 8 (Security Assessment):
+- **Blockchain Analysis:** trace giao dịch, phân cụm ví, dựng transaction graph
+- **Malware & Mobile Forensics:** phân tích malware trong sandbox, trích xuất forensics từ thiết bị di động
+- **Device Bridge (lazy-load):** ADB/Frida — exec trên thiết bị, inject Frida script, push/pull file
+- **Cloud Exec (lazy-load):** chạy lệnh cloud CLI, provision tài nguyên hạ tầng
+
+### 15.9. Document Processing & Public Gateway
+
+- **Document Processing:** MarkItDown — chuyển đổi 50+ định dạng file (kèm OCR) thành nội dung cho agents
+- **Public Gateway (port 18800):** API bề mặt công khai tối thiểu với tokenized public inbox, proxy timeout 300s — cho phép nhận yêu cầu từ bên ngoài không cần expose toàn bộ API
+- **OpenAI-Compatible API:** `/v1/chat/completions` + `/v1/models` — dùng Nexus như một LLM provider drop-in
+
+### 15.10. Internationalization & Theming
+
+- **i18n:** giao diện Tiếng Việt + English (chuyển đổi realtime)
+- **Theme:** Dark / Light / System đầy đủ
+
+---
+
 ## Appendix A: Screenshot Gallery
 
 ### Main Interface Screenshots
@@ -787,7 +863,7 @@ Qua 2 case studies, Nexus đã chứng minh:
 
 ```bash
 # 1. Clone repository
-git clone <repo-url> mekongai-nexus && cd mekongai-nexus
+git clone <repo-url> nexus && cd nexus
 
 # 2. Configure (hoặc để trống cho free tier)
 cp .env.example .env
@@ -822,8 +898,8 @@ Hệ thống hoạt động KHÔNG CẦN API key nhờ fallback chain:
 
 | Thông số | Giá trị |
 |----------|---------|
-| **Tổng số tools** | 172+ (+ unlimited runtime generation) |
-| **Agent templates** | 66 chuyên biệt, 8 lĩnh vực |
+| **Tổng số tools** | 192+ (+ unlimited runtime generation) |
+| **Agent templates** | 79 chuyên biệt, nhiều lĩnh vực |
 | **LLM providers** | 8+ (Bedrock, OpenAI, Gemini, OpenRouter, Kilo, Pollinations, g4f, Local) |
 | **Channels** | 9 nền tảng (Web, Telegram, Discord, Slack, WhatsApp, Email, SMS, Signal, Matrix) |
 | **Memory layers** | 4 tầng (L0→L3) + Dreaming Engine |
@@ -855,4 +931,4 @@ Nexus được thiết kế để phát triển theo mọi hướng:
 ---
 
 *Tài liệu tạo: Tháng 6, 2026*
-*MekongAI Nexus v1.1.0*
+*Nexus v1.1.0*

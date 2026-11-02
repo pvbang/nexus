@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Exfiltration Guard (Hermes-agent inspired).
+Nexus - Exfiltration Guard (Hermes-agent inspired).
 
 Detect and block accidental or malicious leakage of secrets in:
 - LLM text responses returned to the user

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Task Document Tools.
+Nexus - Task Document Tools.
 
 Expose per-task working memory operations as agent tools:
 - task_doc_read: Read context document or section

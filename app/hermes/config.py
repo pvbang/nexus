@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Hermes Agent Configuration.
+Nexus - Hermes Agent Configuration.
 
 All Hermes-specific settings, resolved from environment variables.
 """
@@ -34,7 +34,7 @@ class HermesSettings:
     request_timeout: float = 120.0
 
     # --- Process Management ---
-    auto_start: bool = True  # Start Hermes on MekongAI startup
+    auto_start: bool = True  # Start Hermes on Nexus startup
     auto_restart: bool = True  # Restart on crash
     max_restart_attempts: int = 3
     restart_backoff_base: float = 2.0  # seconds, exponential backoff

@@ -1,7 +1,7 @@
 """
-MekongAI Nexus - OpenClaw Lifecycle Manager.
+Nexus - OpenClaw Lifecycle Manager.
 
-Manages OpenClaw Gateway as a subprocess of MekongAI Nexus.
+Manages OpenClaw Gateway as a subprocess of Nexus.
 Handles start, stop, restart, and crash recovery.
 
 For production: prefer Docker Compose (both services as containers).

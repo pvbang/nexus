@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Workspace Reader.
+Nexus - Workspace Reader.
 
 Shared module that gives orchestration-layer agents (NexusOrchestrator,
 EvolutionAgent, MetacognitiveAgent) full visibility into both _context/

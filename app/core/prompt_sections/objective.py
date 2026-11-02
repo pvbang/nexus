@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Objective Section.
+Nexus - Objective Section.
 
 Condensed execution principles (Roo-Code style).
 """

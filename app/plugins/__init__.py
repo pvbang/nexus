@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Plugin Architecture (OpenClaw-inspired).
+Nexus - Plugin Architecture (OpenClaw-inspired).
 
 Manifest-driven plugin discovery, loading, and lifecycle management.
 Plugins extend Nexus without modifying core code.

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - SynthesisCard
+// Nexus - SynthesisCard
 // Inline chat card showing synthesis progress and confidence
 // ============================================================
 

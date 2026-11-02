@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Resource Monitor.
+Nexus - Resource Monitor.
 
 Background service monitoring system memory and CPU usage.
 Emits warnings to frontend but NEVER kills running tasks.

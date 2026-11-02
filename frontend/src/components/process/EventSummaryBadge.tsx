@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Event Summary Badge
+// Nexus - Event Summary Badge
 // Shows compact summary of events: "42 events • 15 tools • 3 debates"
 // ============================================================
 

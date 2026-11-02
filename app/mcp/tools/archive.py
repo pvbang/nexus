@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Archive Tools.
+Nexus - Archive Tools.
 
 Create and extract ZIP/TAR archives.
 Self-registers with the tool registry at import time.

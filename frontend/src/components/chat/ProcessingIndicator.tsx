@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ProcessingIndicator
+// Nexus - ProcessingIndicator
 // Thinking/progress display with step list and agent activities
 // ============================================================
 
@@ -69,7 +69,7 @@ export function ProcessingIndicator({ progressSteps, agentActivities, statusText
   return (
     <div className="flex justify-start animate-fade-in mb-4">
       <div className="max-w-[85%] sm:max-w-[75%] min-w-[320px]">
-        {/* MekongAI label */}
+        {/* Nexus label */}
         <div className="flex items-center gap-2 mb-1.5 px-1">
           <div className="w-6 h-6 rounded-[7px] bg-gradient-to-br from-[#3b82f6] to-[#818cf8] flex items-center justify-center">
             <Sparkles className="w-3 h-3 text-white" />

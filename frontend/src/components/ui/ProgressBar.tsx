@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ProgressBar UI Primitive
+// Nexus - ProgressBar UI Primitive
 // Horizontal progress bar with variants, animation, and label support
 // ============================================================
 

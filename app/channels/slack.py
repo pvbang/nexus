@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Slack Channel (OpenClaw-inspired).
+Nexus - Slack Channel (OpenClaw-inspired).
 
 Slack bot integration using slack_bolt (optional) or httpx fallback.
 """
@@ -385,7 +385,7 @@ class SlackChannel(AbstractChannel):
                     "type": "header",
                     "text": {
                         "type": "plain_text",
-                        "text": "🤖 MekongAI Nexus Status",
+                        "text": "🤖 Nexus Status",
                     },
                 },
                 {
@@ -410,7 +410,7 @@ class SlackChannel(AbstractChannel):
                     ],
                 },
             ]
-            await respond(text="MekongAI Nexus Status", blocks=blocks)
+            await respond(text="Nexus Status", blocks=blocks)
 
     def _setup_interactive_handlers(self) -> None:
         """Register interactive component handlers (buttons, etc.)."""

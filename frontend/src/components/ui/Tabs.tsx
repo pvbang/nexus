@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Tabs UI Primitive
+// Nexus - Tabs UI Primitive
 // Pill-style and underline tabs with icon and count support
 // ============================================================
 

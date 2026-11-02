@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Final Report Generator.
+Nexus - Final Report Generator.
 
 IMPROVEMENT: No limits - read everything, synthesize everything, verify everything.
 

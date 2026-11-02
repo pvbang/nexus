@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Dev Server Management Tools.
+Nexus - Dev Server Management Tools.
 
 Start/stop/manage development servers for project preview.
 Wraps DevServerManager for tool-calling by agents.

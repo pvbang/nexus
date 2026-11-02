@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Session Resume & Resilient Chat WebSocket
+// Nexus - Session Resume & Resilient Chat WebSocket
 //
 //
 // ============================================================

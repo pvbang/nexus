@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Unified Process Panel (Right sidebar)
+// Nexus - Unified Process Panel (Right sidebar)
 // Consolidates Execution Log, Files, Graph, and Debate Chat
 // into a single tabbed panel.
 // ============================================================

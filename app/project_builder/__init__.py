@@ -1,1 +1,1 @@
-"""MekongAI Nexus - Project Builder Pipeline."""
+"""Nexus - Project Builder Pipeline."""

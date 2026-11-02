@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Centralized Model Context Limit Detection.
+Nexus - Centralized Model Context Limit Detection.
 
 Auto-detects the context window size for any LLM model.
 

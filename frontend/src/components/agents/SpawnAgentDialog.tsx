@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - SpawnAgentDialog
+// Nexus - SpawnAgentDialog
 // Modal form for creating a new agent with role template
 // selection, name, description, personality, skills, tools
 // ============================================================

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Agent Goal Tracker.
+Nexus - Agent Goal Tracker.
 
 Provides agents with explicit awareness of their objectives, success criteria,
 and progress toward completion. Prevents agents from wandering off-task.

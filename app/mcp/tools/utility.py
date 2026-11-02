@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Utility Tools.
+Nexus - Utility Tools.
 
 General-purpose tools: calculate, current_datetime, hash_encode, system_info.
 Self-registers with the tool registry at import time.

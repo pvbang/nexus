@@ -56,12 +56,12 @@ def test_drops_dead_domain_port_url_but_keeps_preview_path():
     # https://domain:19000 is dead behind the reverse proxy; the /preview/ path is
     # the reachable one. Only the path form must survive.
     text = (
-        "External URL (for user access): https://nexus2.mekongai.com:19000\n"
-        "Preview URL (via domain): https://nexus2.mekongai.com/preview/19000/\n"
+        "External URL (for user access): https://nexus.example.com:19000\n"
+        "Preview URL (via domain): https://nexus.example.com/preview/19000/\n"
     )
     urls = extract_preview_urls(text)
-    assert "https://nexus2.mekongai.com/preview/19000/" in urls
-    assert "https://nexus2.mekongai.com:19000" not in urls
+    assert "https://nexus.example.com/preview/19000/" in urls
+    assert "https://nexus.example.com:19000" not in urls
 
 
 def test_keeps_normal_domain_port_outside_dev_range():

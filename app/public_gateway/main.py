@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Public Gateway (separate port).
+Nexus - Public Gateway (separate port).
 
 Why:
 - In production, Nexus runs inside Docker and may expose many internal/admin endpoints.
@@ -66,7 +66,7 @@ def _filter_headers(headers: Iterable[tuple[str, str]]) -> dict[str, str]:
     return out
 
 
-app = FastAPI(title="MekongAI Nexus Public Gateway", version="0.1.0")
+app = FastAPI(title="Nexus Public Gateway", version="0.1.0")
 
 
 @app.get("/health")

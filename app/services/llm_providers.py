@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - OpenAI-compatible provider registry (single source of truth).
+Nexus - OpenAI-compatible provider registry (single source of truth).
 
 Every provider listed here speaks the OpenAI ``/chat/completions`` protocol, so
 the SAME ``AsyncOpenAI`` client works for all of them — only the ``base_url`` and

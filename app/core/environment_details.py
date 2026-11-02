@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Environment Details Builder.
+Nexus - Environment Details Builder.
 
 Builds workspace context information to inject into each LLM call.
 Informs the agent about current workspace state, available files,

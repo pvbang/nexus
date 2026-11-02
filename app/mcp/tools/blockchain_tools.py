@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Blockchain & Cryptocurrency Analysis Tools.
+Nexus - Blockchain & Cryptocurrency Analysis Tools.
 
 Tools for tracing cryptocurrency transactions, wallet clustering,
 mixer detection, and exchange attribution.

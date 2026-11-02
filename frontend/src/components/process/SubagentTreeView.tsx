@@ -1,6 +1,6 @@
 // DEPRECATED - unused after Live tab removal from UnifiedProcessPanel
 // ============================================================
-// MekongAI Nexus - SubagentTreeView
+// Nexus - SubagentTreeView
 // Live tree visualization for multi-agent swarm execution
 // Shows agent hierarchy, tool executions, token/cost tracking,
 // and mini sparkline charts per agent.

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Process types for real-time transparency
+// Nexus - Process types for real-time transparency
 // ============================================================
 // Each task flows through stages: planning → spawning → communicating
 // → executing → debating → synthesizing → learning → responding

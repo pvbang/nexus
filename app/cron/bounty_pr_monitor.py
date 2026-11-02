@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Bounty PR Monitor (Cron).
+Nexus - Bounty PR Monitor (Cron).
 
 Automatically polls GitHub notifications + PR status for all bounties in
 SUBMITTED/MONITORING state. When action is needed (changes requested, CI fail,

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Task Path Resolver.
+Nexus - Task Path Resolver.
 
 SINGLE SOURCE OF TRUTH for resolving every task/subtask directory on disk.
 

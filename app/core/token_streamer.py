@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Token Streaming Adapter.
+Nexus - Token Streaming Adapter.
 
 Adapter for streaming LLM tokens to WebSocket clients in real-time.
 Bridges between LLM streaming interface and WebSocket event delivery.

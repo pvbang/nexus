@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Credential Pool Rotation (Hermes-agent inspired).
+Nexus - Credential Pool Rotation (Hermes-agent inspired).
 
 Rotate API keys within the same provider when rate-limited.
 Works alongside ProviderFallbackChain for maximum resilience.

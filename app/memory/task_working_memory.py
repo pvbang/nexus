@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Task Working Memory (TWMS Core).
+Nexus - Task Working Memory (TWMS Core).
 
 Per-task persistent working memory using structured document files.
 Inspired by Roo-code pattern: analyze-while-writing to files,

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - InlineDebateCard
+// Nexus - InlineDebateCard
 // Debate round visualization — 2-column layout:
 //   Left: Agent name buttons (narrow)
 //   Right: Content of selected agent (expandable)

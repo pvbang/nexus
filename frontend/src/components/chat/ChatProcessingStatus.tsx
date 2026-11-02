@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ChatProcessingStatus
+// Nexus - ChatProcessingStatus
 // Displays processing status, progress steps, agent activities,
 // live debate, and streaming content during AI response.
 // Extracted from ChatPanel render section for performance isolation.

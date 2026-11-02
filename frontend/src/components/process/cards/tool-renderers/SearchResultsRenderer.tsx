@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - SearchResultsRenderer
+// Nexus - SearchResultsRenderer
 // Specialized renderer for web_search, search_* tools
 // Shows search results as card list with title + snippet + URL
 // ============================================================

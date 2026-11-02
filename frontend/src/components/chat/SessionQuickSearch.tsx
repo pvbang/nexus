@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Session Quick Search (Ctrl+K Overlay)
+// Nexus - Session Quick Search (Ctrl+K Overlay)
 // Full-screen search overlay with fuzzy search, keyboard navigation,
 // message preview, and portal rendering.
 // ============================================================

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Plugin Registry (Zustand Store)
+// Nexus - Plugin Registry (Zustand Store)
 // Feature #10: Manages registered plugins, routes, and slots
 // ============================================================
 

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - TimelineCard (Shared)
+// Nexus - TimelineCard (Shared)
 // Renders a single TimelineItem using the same specialized card
 // components used by ProcessStream. Reused in MessageEventExplorer
 // for consistent UI between live and historical views.

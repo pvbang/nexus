@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - LazyDirectoryTree Component
+// Nexus - LazyDirectoryTree Component
 // Virtualized lazy-loading directory tree using useLazyTree hook.
 // ============================================================
 

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Background Task Metrics.
+Nexus - Background Task Metrics.
 
 Lightweight in-memory singleton that tracks success/failure counts,
 timestamps, and last error for fire-and-forget background tasks.

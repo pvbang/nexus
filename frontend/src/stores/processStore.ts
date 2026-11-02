@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Process Store (barrel re-export)
+// Nexus - Process Store (barrel re-export)
 // Keeps backwards-compatible import path: @/stores/processStore
 // ============================================================
 

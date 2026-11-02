@@ -15,7 +15,7 @@ def run(cmd: list[str], check: bool = True) -> None:
 
 def main():
     print("=" * 60)
-    print("  Stealth Browser Setup - MekongAI Nexus")
+    print("  Stealth Browser Setup - Nexus")
     print("=" * 60)
 
     # 1. Install Patchright browser binaries

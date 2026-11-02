@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ToolOutputRenderer
+// Nexus - ToolOutputRenderer
 // Smart output renderer for tool execution results.
 // Auto-detects format (JSON, Markdown, HTML, plain text) and renders
 // appropriately with syntax highlighting, copy button, and fullscreen modal.

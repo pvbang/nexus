@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Prometheus metrics exposition.
+Nexus - Prometheus metrics exposition.
 
 Renders the Prometheus text exposition format directly (audit C4). We deliberately
 avoid a `prometheus_client` dependency: the format is small and stable, the data

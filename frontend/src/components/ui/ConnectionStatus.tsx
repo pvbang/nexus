@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ConnectionStatus UI Component
+// Nexus - ConnectionStatus UI Component
 // Visual indicator for WebSocket connection status
 // Supports dark mode, compact mode, and tooltip
 // ============================================================

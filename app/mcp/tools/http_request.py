@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - HTTP Request Tool.
+Nexus - HTTP Request Tool.
 
 Allows agents to make arbitrary HTTP requests (GET, POST, PUT, DELETE, PATCH)
 to APIs. This is CRITICAL for calling REST APIs directly (GitHub API, etc.)
@@ -83,7 +83,7 @@ async def handle_http_request(params: dict[str, Any], **kwargs: Any) -> dict[str
         # Build request kwargs
         req_kwargs: dict[str, Any] = {
             "headers": {
-                "User-Agent": "MekongAI-Nexus/1.0",
+                "User-Agent": "Nexus/1.0",
                 "Accept": "application/json, text/plain, text/html, */*",
             },
             "timeout": timeout,

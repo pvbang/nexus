@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - LongMessageProgress
+// Nexus - LongMessageProgress
 // Progress indicator when backend processes long messages in chunks
 // ============================================================
 

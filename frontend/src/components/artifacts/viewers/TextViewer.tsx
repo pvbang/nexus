@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - TextViewer Component
+// Nexus - TextViewer Component
 // Simple monospace text display with optional line numbers
 // ============================================================
 

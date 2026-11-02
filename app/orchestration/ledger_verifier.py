@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Ledger Verifier.
+Nexus - Ledger Verifier.
 
 FIX GAP-4: Spot-check ledger claims against actual workspace artifacts.
 

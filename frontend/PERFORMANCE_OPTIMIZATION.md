@@ -2,7 +2,7 @@
 
 ## Overview
 
-Tổng hợp toàn bộ tối ưu performance cho frontend MekongAI Nexus, tập trung vào 3 vấn đề chính:
+Tổng hợp toàn bộ tối ưu performance cho frontend Nexus, tập trung vào 3 vấn đề chính:
 
 1. Performance trang `/chat` khi conversation dài
 2. Lỗi F5-Recovery gây content empty

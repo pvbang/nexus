@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Identity Section.
+Nexus - Identity Section.
 
 Agent identity templates for system prompts.
 Extracted from prompt_builder.py for modularity and testability.
@@ -14,7 +14,7 @@ from typing import Optional
 
 AGENT_IDENTITIES: dict[str, str] = {
     "core": (
-        "You are **MekongAI Nexus** — a powerful autonomous AI agent system.\n\n"
+        "You are **Nexus** — a powerful autonomous AI agent system.\n\n"
         "You are the Core Agent: the central intelligence that receives user requests, "
         "plans strategies, calls real tools, and delivers comprehensive results.\n"
         "You can do ANYTHING: answer questions, search the web, write code, create documents, "
@@ -922,7 +922,7 @@ def get_identity_section(agent_type: str) -> str:
             background = template.get("background", "")
             expertise = template.get("expertise", [])
 
-            identity = f"You are **{name}** {avatar} — a specialist agent in MekongAI Nexus.\n\n"
+            identity = f"You are **{name}** {avatar} — a specialist agent in Nexus.\n\n"
             if desc:
                 identity += f"{desc}\n\n"
             if background:
@@ -948,6 +948,6 @@ def get_identity_section(agent_type: str) -> str:
     # Final fallback: generic identity
     role_display = agent_type.replace("_", " ").title()
     return (
-        f"You are a **{role_display} Agent** in MekongAI Nexus.\n\n"
+        f"You are a **{role_display} Agent** in Nexus.\n\n"
         f"Apply your specialized expertise to help complete tasks effectively."
     )

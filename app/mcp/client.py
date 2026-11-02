@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - MCP Client (Hermes-agent inspired).
+Nexus - MCP Client (Hermes-agent inspired).
 
 Connect to external MCP servers for tool discovery and execution.
 Supports stdio (subprocess) and HTTP/SSE transports.
@@ -137,7 +137,7 @@ class MCPClient:
             init_result = await self._send_jsonrpc("initialize", {
                 "protocolVersion": "2024-11-05",
                 "capabilities": {},
-                "clientInfo": {"name": "MekongAI-Nexus", "version": "1.0.0"},
+                "clientInfo": {"name": "Nexus", "version": "1.0.0"},
             })
             logger.info("mcp_client_initialized_stdio", server=self.name, result=str(init_result)[:200])
 
@@ -177,7 +177,7 @@ class MCPClient:
             init_result = await self._send_jsonrpc("initialize", {
                 "protocolVersion": "2024-11-05",
                 "capabilities": {},
-                "clientInfo": {"name": "MekongAI-Nexus", "version": "1.0.0"},
+                "clientInfo": {"name": "Nexus", "version": "1.0.0"},
             })
             self._connected = True
             logger.info("mcp_client_initialized_http", server=self.name, result=str(init_result)[:200])

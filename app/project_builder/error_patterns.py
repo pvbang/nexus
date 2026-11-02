@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Error Pattern Recognition.
+Nexus - Error Pattern Recognition.
 
 Nhận dạng error patterns phổ biến và auto-suggest fixes.
 Sử dụng regex patterns + LLM fallback cho unknown errors.

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - PlanningCard
+// Nexus - PlanningCard
 // Inline chat card showing orchestrator plan creation
 // ============================================================
 

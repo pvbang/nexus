@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Redis API Cache Layer.
+Nexus - Redis API Cache Layer.
 
 Cache API responses in Redis with configurable TTL.
 Dramatically reduces DB load for frequently accessed endpoints

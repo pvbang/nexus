@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Core Orchestrator (Refactored).
+Nexus - Core Orchestrator (Refactored).
 
 Thin wrapper that handles:
 - Session management

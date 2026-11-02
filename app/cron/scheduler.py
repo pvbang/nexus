@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Cron Scheduler (Hermes-agent inspired).
+Nexus - Cron Scheduler (Hermes-agent inspired).
 
 APScheduler-based scheduler for recurring agent tasks.
 Jobs execute through the orchestrator pipeline.

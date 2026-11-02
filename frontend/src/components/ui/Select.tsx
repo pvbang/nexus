@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Select UI Primitive
+// Nexus - Select UI Primitive
 // Native dropdown select styled consistently with design system
 // ============================================================
 

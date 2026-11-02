@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Structured Logging (Hermes-agent inspired).
+Nexus - Structured Logging (Hermes-agent inspired).
 
 Centralized logging with:
 - Session context injection (session_id on every log line)
@@ -149,7 +149,7 @@ def setup_logging(
     max_size_mb: int = 5,
     backup_count: int = 3,
 ) -> Optional[Path]:
-    """Configure the MekongAI Nexus logging subsystem.
+    """Configure the Nexus logging subsystem.
 
     Sets up:
     - structlog for structured JSON logging

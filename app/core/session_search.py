@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Session Search (Hermes-agent inspired).
+Nexus - Session Search (Hermes-agent inspired).
 
 Full-text search across conversation history.
 Uses PostgreSQL tsvector/tsquery for production, fallback to in-memory for dev.

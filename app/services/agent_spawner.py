@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Agent Spawner Service.
+Nexus - Agent Spawner Service.
 
 Responsible for spawning new Agents with distinct roles, skills, and tools.
 Inspired by MiroFish agent generation + IronClaw agent architecture.
@@ -4281,7 +4281,7 @@ class AgentSpawner:
             {
                 "role": "system",
                 "content": (
-                    "You are an Agent Designer for MekongAI Nexus — a multi-agent AI system.\n\n"
+                    "You are an Agent Designer for Nexus — a multi-agent AI system.\n\n"
                     "Given a task description, design an AI agent with UNIQUE identity and deep expertise.\n"
                     "The agent must be able to think independently, debate with other agents, and contribute "
                     "unique perspectives based on their expertise.\n\n"
@@ -4424,7 +4424,7 @@ class AgentSpawner:
             {
                 "role": "system",
                 "content": (
-                    "You are a Swarm Planner for MekongAI Nexus — a multi-agent system with "
+                    "You are a Swarm Planner for Nexus — a multi-agent system with "
                     f"{len(AGENT_TEMPLATES)} specialist agents across IT, science, business, creative, "
                     "humanities, and everyday domains.\n\n"
                     "Given a task, plan the OPTIMAL team of agents. Return JSON with:\n"

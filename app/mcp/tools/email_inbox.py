@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Email Inbox Tool (IMAP).
+Nexus - Email Inbox Tool (IMAP).
 
 Fetch recent emails from an IMAP inbox so agents can "receive information from email"
 and draft replies (send_email tool covers outbound).

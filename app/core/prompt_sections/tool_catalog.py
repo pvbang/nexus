@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Tool Catalog Section.
+Nexus - Tool Catalog Section.
 
 By default returns empty string since tools are passed via native function-calling
 schemas. Only sandbox/security notes are included when relevant.

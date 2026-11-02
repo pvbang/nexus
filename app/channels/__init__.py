@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Multi-Channel Gateway (OpenClaw-inspired).
+Nexus - Multi-Channel Gateway (OpenClaw-inspired).
 
 Abstract channel interface + router for multi-channel messaging.
 """

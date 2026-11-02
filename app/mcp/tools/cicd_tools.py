@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - CI/CD Tools.
+Nexus - CI/CD Tools.
 
 Provides tools for generating GitHub Actions workflows, Dockerfiles,
 and docker-compose configurations.

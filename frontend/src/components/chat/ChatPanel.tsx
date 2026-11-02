@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Chat Panel (Refactored with Sub-components)
+// Nexus - Chat Panel (Refactored with Sub-components)
 // ARCHITECTURE: DB-first polling, no SSE/WS dependency.
 // User sends message → POST /chat/send (fire-and-forget) → poll events from DB
 // Orchestrates: polling events, state, scroll, execution trace

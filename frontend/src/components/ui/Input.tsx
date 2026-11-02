@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Input UI Primitive
+// Nexus - Input UI Primitive
 // Reusable input with variants, label, error, icon, and clearable support
 // ============================================================
 

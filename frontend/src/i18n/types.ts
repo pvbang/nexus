@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - i18n Type Definitions
+// Nexus - i18n Type Definitions
 // Feature #9: Type-safe translation keys
 // ============================================================
 

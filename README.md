@@ -1,11 +1,10 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mekongai/nexus/main/assets/logo-dark.svg">
-    <img alt="MekongAI Nexus" src="https://raw.githubusercontent.com/mekongai/nexus/main/assets/logo-light.svg" width="480">
+    <img alt="Nexus" src="frontend/atsets/images/nexus-full-logo-and-text.png" width="480">
   </picture>
 </p>
 
-<h1 align="center">MekongAI Nexus</h1>
+<h1 align="center">Nexus</h1>
 
 <p align="center">
   <em>Multi-Agent Orchestration Platform with Layered Memory, Structured Debate &amp; Continual Learning</em>
@@ -30,7 +29,7 @@
 </p>
 
 <p align="center">
-  An autonomous, self-improving multi-agent orchestration engine that combines structured deliberation, hierarchical memory, continual skill acquisition, and 120+ MCP tools into a single unified platform.
+  An autonomous, self-improving multi-agent orchestration engine that combines structured deliberation, hierarchical memory, continual skill acquisition, and 192 MCP tools into a single unified platform.
 </p>
 
 ---
@@ -41,6 +40,7 @@
   - [Core AI & Orchestration](#core-ai--orchestration)
   - [LLM Providers](#llm-providers)
   - [MCP Tools](#mcp-tools)
+  - [Security & Intelligence](#security--intelligence)
   - [Frontend & UX](#frontend--ux)
   - [Platform & Infrastructure](#platform--infrastructure)
 - [Architecture](#architecture)
@@ -73,7 +73,7 @@
 | **Turn-Based Pipeline** | `NexusExecutionPipeline`: Planning → Turn Loop (Think → Discuss → Execute) → Final Report |
 | **Structured Discussion Protocol** | Multi-agent debate with Challenge → Rebuttal → Synthesis cycles (agreed approaches + unresolved disagreements + key insights) |
 | **Evolution Agent** | Per-turn quality analysis with continuous improvement recommendations |
-| **XSkill Continual Learning** | Skills + Experiences + Critique + Trajectory compression for persistent capability growth |
+| **XSkill Continual Learning** | Skills + Experiences + Critique + Trajectory compression + tree search for persistent capability growth |
 | **Memory Layers (L0→L3)** | Capture → Atom Extraction → Scene Aggregation → Persona Synthesis with hierarchical recall |
 | **Smart Context Aggregation** | Parallel fetch from 7 sources (memory, knowledge graph, RAG, XSkill, history) with relevance scoring, deduplication, and token budget control |
 | **Circuit Breaker** | Provider resilience with CLOSED→OPEN→HALF_OPEN state machine across all LLM call paths |
@@ -88,6 +88,11 @@
 | **Task Checkpoint & Resume** | Crash recovery via PostgreSQL persistence with automatic resumption on restart |
 | **Long Message Processing** | Chunked processing up to 500K characters with map_reduce / sequential strategies |
 | **Background Observability** | Metrics tracking for fire-and-forget tasks (XSkill, KG indexing, ontology) exposed via `/system/background-metrics` |
+| **Cognitive Upgrade** | Self-awareness layer (InfrastructureMap), metacognitive loop, and creative divergence (DivergentThinker) |
+| **Sub-Task Decomposition Pipeline** | 3-tier decomposition with dependency tracking and verification gates |
+| **Prompt Engineering Suite** | Modular PromptBuilder (stable cache-key sections), prompt cache (~75% cost reduction), reasoning-effort control, compression chain |
+| **Token Governor & Context Budget** | Budget-aware context allocation with epoch-based ledger and smart condensation (Tree-sitter AST compression) |
+| **Cancellable Execution** | Cooperative cancellation and timeout handling across long-running pipelines |
 
 ### LLM Providers
 
@@ -107,61 +112,86 @@ The system uses **LiteLLM + AsyncOpenAI SDK**, supporting **any OpenAI-compatibl
 
 Any provider exposing a `/v1/chat/completions` endpoint (Together AI, Groq, Mistral, DeepSeek, Fireworks, Cerebras, xAI, etc.) works out of the box.
 
-**Fallback chain:** Core → Agent → Kilo → Pollinations → g4f — the system never stalls due to exhausted credits.
+**Fallback chain:** Core → Agent → Kilo → Pollinations → g4f — the system never stalls due to exhausted credits. Includes credential pool (API-key rotation, round-robin) per provider.
 
 ### MCP Tools
 
-**57 modules · 120+ tools**
+**68 modules · 192 registered tools · unlimited runtime-generated**
+
+Tool modules self-register into a dynamic registry at import time (63 auto-loaded modules). Additional modules (cloud_exec, deployment, device_bridge, docker_exec, interactive) load lazily via `load_tool_module`. Agents can scaffold entirely new tool modules at runtime via `self_evolve`.
 
 | Category | Modules |
 |----------|---------|
-| **File & Code** | filesystem, file_edit, code_navigation, git |
-| **Search** | search_engines, search_orchestrator, search_scoring, search_patch |
-| **Terminal & Dev** | terminal, cicd_tools, test_tools, dev_server_tools, docker_tools, deployment |
-| **Web & Browser** | web, browser, browser_ai, http_request |
-| **Data & Output** | data, database, chart, rag |
-| **Communication** | email, email_inbox, email_diagnostics, telegram, external_channels_tools, notify, communication |
-| **AI & Intelligence** | delegate, self_evolve, skill_loader, workflow_tools, activity_search, session_search |
-| **Utilities** | archive, utility, translate, todo, memory_tool, schedule |
-| **Security & Monitoring** | security_scan_tools, monitoring_tools, api_testing_tools |
-| **Visual & Media** | vision, visual_tools, image_gen, voice |
-| **Infrastructure** | network, tunnel, public_link_setup, documentation_tools |
-| **Task & Interactive** | task_docs, complete_task, interactive, project_tools |
-| **Dynamic** | tool_module_loader (runtime tool scaffolding) |
+| **File & Code** | filesystem (11), file_edit, code_navigation (5), git, search_patch (3) |
+| **Search** | search_engines (15 engine adapters), search_orchestrator, search_scoring, web (6), rag (3) |
+| **Terminal & Dev** | terminal (3), cicd_tools (3), test_tools (3), dev_server_tools (4), docker_tools (8), deployment (2), project_tools (3) |
+| **Web & Browser** | browser (5), browser_ai (3), http_request, tunnel (3), public_link_setup (2) |
+| **Data & Output** | data (10), database, chart, document_converter, archive (2), utility (4) |
+| **Communication** | email, email_inbox, email_diagnostics, telegram, communication, external_channels_tools (4), notify |
+| **AI & Intelligence** | delegate, self_evolve (5), skill_loader, tool_module_loader, workflow_tools (4), activity_search, session_search (2), interactive (ask_user) |
+| **Security & Monitoring** | security_scan_tools (3), monitoring_tools (6), api_testing_tools (3), intelligence_tools (6), malware_tools (2), blockchain_tools (3), network (5), audit_log |
+| **Visual & Media** | vision (3), visual_tools (2), image_gen, voice (2), video (3) |
+| **GitHub & Bounty** | github_tools (6: fork, clone, create PR, search issues, browse bounties, GitHub API), bounty_tools (6: search, verify, monitor PR, respond review, earnings ledger, submission prep) |
+| **Documentation** | documentation_tools (3: API docs, README, changelog) |
+| **Utilities** | todo (4), translate, memory_tool (3), schedule (2), task_docs (6) |
+| **Cloud & Device (lazy)** | cloud_exec (2), device_bridge (4: ADB/Frida), docker_exec |
+
+The 15 search engine adapters include Google, DuckDuckGo, Brave, Tavily, Serper, Arxiv, PubMed, Semantic Scholar, Google Scholar, GitHub, NVD, ExploitDB, Wikidata, and more — orchestrated with freshness/credibility scoring.
+
+### Security & Intelligence
+
+| Feature | Description |
+|---------|-------------|
+| **13-Layer Defense-in-Depth** | CommandGuard, SSRF Guard (DNS pinning, private-network blocking), Tool Policy, Tool Guard, Exfiltration Guard, Secret Redaction (20+ patterns), Rate Limiter, Session Mutex, Approval Workflow, Audit Logging, Atomic Writes, Circuit Breaker, Resource Monitor |
+| **Human-in-the-Loop Approval** | Dangerous operations queue for explicit user approval via `/doctor-plugins/approvals` |
+| **Penetration Testing Framework** | Phased pentest pipeline with ATT&CK integration and ROE (Rules of Engagement) generator |
+| **Intelligence Toolkit** | CVE lookup, IOC validation, threat intel enrichment, OSINT domain profiling, network topology mapping, evidence acquisition |
+| **Malware & Forensics** | Sandbox-based malware analysis, mobile forensics extraction |
+| **Blockchain Analysis** | Transaction tracing, wallet clustering, transaction graph construction |
+| **API Testing** | Endpoint testing, request sequences, mock servers |
+| **Security Scanning** | Dependency audit, secret detection, HTTP header analysis |
+| **Secret Hygiene** | Redaction at every durable write point (logs, DB, files) |
+| **Production Hardening** | Fail-fast on default secrets in prod, CORS restrictions, terminal API key enforcement, JWT auth |
 
 ### Frontend & UX
 
 | Feature | Description |
 |---------|-------------|
 | **React 19 + TypeScript 5.7** | Build on Vite 6 with Zustand 5, React Router v7, and Tailwind CSS |
-| **20 Routes** | Chat, Dashboard, Agents, Tasks, Graph, XSkill, Artifacts, Skills, Process, Analytics, Terminal, Admin |
+| **20 Screens + Dynamic Routes** | Chat, Dashboard, Agents, Tasks, Graph, XSkill, Artifacts, Skills, Process, Analytics, Terminal, Admin (Cron/Plugins/Batch), Settings, Login + parameterized and plugin-provided routes |
 | **Process Transparency** | Inline event cards showing Deep Analysis, Self-Reflection, Discussion, and Tool Calls |
 | **Structured Discussion Cards** | Challenges → Rebuttals → Synthesis displayed in real-time during agent debates |
-| **Project Builder** | Integrated workflow: Blueprint → Scaffold → Implement → Test → Visual QA |
-| **Artifact Viewers** | Native support for PDF, DOCX, Audio, Video, Image, Code, HTML, Markdown (9 formats) |
+| **Project Builder** | Integrated workflow: Blueprint → Scaffold → Implement → Test → Visual QA (with dev-server management) |
+| **Artifact Viewers** | Native support for PDF, DOCX, XLSX, Audio, Video, Image, Code, HTML, Markdown (9 formats) |
 | **Terminal Panel** | ANSI-colored command output rendering |
-| **Multi-Task Dashboard** | Monitor parallel tasks simultaneously |
-| **Interactive Decisions** | Agents request user input mid-execution |
-| **Analytics Dashboard** | Token usage charts, cost tracking, model breakdown, hourly usage patterns |
-| **Dark Mode** | Complete dark/light/system theme support |
+| **Multi-Task Dashboard** | Monitor parallel tasks simultaneously with subtask trees and system health |
+| **Interactive Decisions** | Agents request user input mid-execution (decision queue + `/decisions` API) |
+| **Analytics Dashboard** | Token usage charts, cost tracking, model breakdown, hourly usage patterns, provider comparison |
+| **i18n + Theme** | Vietnamese/English, complete dark/light/system theme support |
+| **Plugin System** | Frontend plugin registry with typed slots, error boundaries, and dynamic routes |
+| **Real-Time** | SSE token streaming + WebSocket events with resilient reconnection |
 
 ### Platform & Infrastructure
 
 | Feature | Description |
 |---------|-------------|
-| **Multi-Channel (9)** | Telegram, Discord, Slack, WhatsApp, Email, SMS, Signal, Matrix, Webhook |
-| **Public Gateway** | Separate minimal API surface (port 18800, 300s proxy timeout) |
+| **Multi-Channel (9)** | Telegram, Discord, Slack, WhatsApp, Email, SMS, Signal, Matrix, Webhook (each enabled via its own environment configuration) |
+| **Public Gateway** | Separate minimal API surface (port 18800, 300s proxy timeout) with tokenized public inbox |
 | **OpenClaw Integration** | Execution layer providing sandboxing, tools, and channel routing |
-| **Plugin Architecture** | Manifest-driven extensible plugin system |
+| **Plugin Architecture** | Manifest-driven extensible plugin system (backend + frontend) with doctor health checks |
 | **Docker Sandbox** | Isolated code execution with configurable network/CPU/memory limits |
-| **Security (13 layers)** | CommandGuard, SSRF Guard, Tool Policy, Exfiltration Guard, Secret Redaction, and more |
 | **Auto-Scaling** | CPU-aware worker scaling, rate limits, and queue sizing |
 | **Redis Cache** | Response caching per category with pub/sub messaging |
-| **RAG Pipeline** | Hybrid retrieval combining vector, full-text search, and graph with RRF fusion and auto-ontology generation |
+| **RAG Pipeline** | Hybrid retrieval combining vector (pgvector), full-text search, and graph with RRF fusion, reranking, and auto-ontology generation |
 | **GraphRAG + pgvector** | Knowledge graph with vector embeddings and automatic ontology generation on document index |
-| **Workflow Persistence** | Multi-step workflow definitions survive restarts (file-backed) |
-| **Cron Scheduler** | APScheduler recurring task execution |
-| **OpenAI-Compatible API** | Drop-in `/v1/chat/completions` replacement endpoint |
+| **Workflow Persistence** | Multi-step DAG workflows survive restarts (Kahn topological execution, retries, conditions) |
+| **Cron Scheduler** | APScheduler recurring task execution + skill-runner command pipeline |
+| **OpenAI-Compatible API** | Drop-in `/v1/chat/completions` and `/v1/models` replacement endpoint |
+| **Hermes Agent Bridge** | In-process agent chat, code edit, terminal, and session search tools exposed over MCP |
+| **Batch Runner** | Fan out one prompt across many models/sessions with status tracking |
+| **Session State API** | Durable session state snapshots and event replay |
+| **Observability** | structlog JSON logging, action logger (JSONL timeline), crash-safe session audit logs, metrics exporter, task watchdog (heartbeat), resource monitoring |
+| **Document Processing** | MarkItDown-based conversion of 50+ formats with OCR |
 
 ---
 
@@ -191,7 +221,7 @@ flowchart TB
         P["Orchestration Pipeline<br/>Planning → Think → Discuss → Execute → Report"]
         MEM["Memory System<br/>L0 Capture → L1 Atoms → L2 Scenes → L3 Persona"]
         XS["Knowledge & Learning<br/>XSkill · RAG · GraphRAG · Ontology"]
-        T["Tool System<br/>57 MCP Modules · 120+ Tools · Dynamic Loading"]
+        T["Tool System<br/>68 MCP Modules · 192 Tools · Dynamic Loading"]
         L["LLM Layer<br/>8 Providers · Circuit Breaker · Smart Routing · Fallback Chain"]
     end
 
@@ -313,7 +343,7 @@ flowchart LR
 
 ```bash
 # 1. Clone the repository
-git clone <repo-url> mekongai-nexus && cd mekongai-nexus
+git clone <repo-url> nexus && cd nexus
 
 # 2. Configure environment
 cp .env.example .env
@@ -336,6 +366,7 @@ docker compose up -d --build
 | **PostgreSQL** | 5433 | Database + pgvector |
 | **Redis** | 6380 | Cache + Pub/Sub |
 | **OpenClaw** | 18789 | Execution layer (optional) |
+| **Security Toolkit** | — | Build-only profile with nmap, jadx, frida-tools, nuclei, sqlmap, mitmproxy (enable with `--profile tools`) |
 
 ### Development Mode
 
@@ -420,7 +451,7 @@ AUTO_SCALE=true  # Automatic CPU-aware worker, rate limit, and queue sizing
 
 ## Database Schema
 
-**18 migrations · 20+ tables**
+**19 migrations · 22 tables**
 
 | Table | Purpose |
 |-------|---------|
@@ -434,10 +465,11 @@ AUTO_SCALE=true  # Automatic CPU-aware worker, rate limit, and queue sizing
 | `conversation_messages` | Chat history with full-text search (tsvector) |
 | `task_events` | Execution event persistence |
 | `document_chunks` / `indexed_documents` | RAG pipeline storage |
-| `security_*` | API keys, audit logs |
+| `approval_requests` / `tool_policies` / `security_audit_results` | Security: approvals, tool authorization, audit trail |
 | `memory_atoms` / `memory_scenes` / `memory_personas` | Memory Layers (L1/L2/L3) |
 | `memory_pipeline_state` | Layer processing cursors |
 | `task_checkpoints` | Execution state for auto-resume |
+| `swarms` | Legacy swarm metadata (managed by migrations) |
 
 ---
 
@@ -459,7 +491,7 @@ AUTO_SCALE=true  # Automatic CPU-aware worker, rate limit, and queue sizing
 | Channels | 9 platforms + WebSocket + SSE |
 | Security | 13 protection layers |
 | Scheduling | APScheduler + croniter |
-| Deploy | Docker Compose (5 services) |
+| Deploy | Docker Compose (5 running services + tool profiles) |
 
 ---
 
@@ -473,7 +505,7 @@ git pull && docker compose up -d --build
 docker compose logs -f nexus
 
 # Database backup
-docker exec nexus-postgres pg_dump -U mekongai mekongai_nexus > backup.sql
+docker exec nexus-postgres pg_dump -U <db-user> <db-name> > backup.sql
 
 # Full reset (DESTROYS ALL DATA)
 docker compose down -v && docker compose up -d --build
@@ -503,7 +535,7 @@ export ANTHROPIC_API_KEY="sk-ant-nexus-fake-key-12345"
 export ANTHROPIC_MODEL="global.anthropic.claude-opus-4-6-v1[1m]"
 
 # PowerShell
-$env:ANTHROPIC_BASE_URL="https://free-api.mekongai.com"
+$env:ANTHROPIC_BASE_URL="http://localhost:4006"
 $env:ANTHROPIC_API_KEY="sk-ant-nexus-fake-key-12345"
 $env:ANTHROPIC_MODEL="deepseek-v4-pro"
 
@@ -519,18 +551,35 @@ claude
 
 ## API Reference
 
-The platform exposes a comprehensive REST API with 25 endpoint modules:
+The platform exposes a REST API organized into **25 endpoint modules** under `/api/v1`, plus OpenAI-compatible `/v1`, WebSocket, and preview endpoints:
 
 | Endpoint Module | Description |
 |-----------------|-------------|
+| `/api/v1/auth` | Authentication (JWT, admin bootstrap) |
+| `/api/v1/system` | System health, metrics, background metrics, maintenance |
+| `/api/v1/chat` | Conversation endpoints |
 | `/api/v1/chat/completions` | OpenAI-compatible chat endpoint |
+| `/v1/chat/completions`, `/v1/models` | Drop-in OpenAI provider surface |
 | `/api/v1/tasks` | Task lifecycle management |
 | `/api/v1/agents` | Agent configuration and execution |
+| `/api/v1/tools` | Tool registry introspection |
+| `/api/v1/mcp` | MCP server management |
 | `/api/v1/memory` | Memory system read/write operations |
 | `/api/v1/skills` | XSkill skill management |
-| `/api/v1/system/*` | System health, metrics, and maintenance |
-| `/api/v1/channels` | Multi-channel message routing |
+| `/api/v1/xskill` | XSkill engine (experiences, critique) |
+| `/api/v1/sessions`, `/api/v1/session-state` | Session management, durable state, event replay |
+| `/api/v1/history` | Session history (full-text search) |
 | `/api/v1/artifacts` | File and artifact management |
+| `/api/v1/attachments` | File upload/processing |
+| `/api/v1/analytics` | Token/cost/usage analytics |
+| `/api/v1/batch` | Batch execution across models/sessions |
+| `/api/v1/decisions` | Interactive decision queue (agent → user) |
+| `/api/v1/project-builder` | Project Builder pipeline |
+| `/api/v1/terminal` | Terminal access (key-protected) |
+| `/api/v1/hermes` | Hermes agent bridge (chat, code-edit, terminal, search) |
+| `/api/v1/cron`, `/api/v1/skill-runner` | Cron jobs + skill-runner commands |
+| `/api/v1/doctor`, `/api/v1/plugins`, `/api/v1/approvals` | Health checks, plugin management, approval workflow |
+| `/api/v1/public-inbox` | Tokenized public inbox (also on Public Gateway) |
 | WebSocket `/ws/*` | Real-time event streaming |
 
 Full interactive API documentation is available at `/api/docs` when the server is running.
@@ -541,7 +590,7 @@ Full interactive API documentation is available at `/api/docs` when the server i
 
 [MIT License](LICENSE)
 
-Copyright (c) 2025–2026 MekongAI
+Copyright (c) 2025–2026 the Nexus authors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

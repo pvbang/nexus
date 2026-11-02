@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Turn Executor.
+Nexus - Turn Executor.
 
 IMPROVEMENT: Let tasks run to completion - no artificial time limits.
 

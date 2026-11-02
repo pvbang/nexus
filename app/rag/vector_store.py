@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - PostgreSQL pgvector Vector Store.
+Nexus - PostgreSQL pgvector Vector Store.
 
 Stores and retrieves document chunks using PostgreSQL with pgvector extension.
 Uses the existing database connection pool and embedding service.

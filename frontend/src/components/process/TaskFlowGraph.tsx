@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - TaskFlowGraph
+// Nexus - TaskFlowGraph
 // Interactive SVG graph: root task → subtasks → agents → tools
 // ============================================================
 

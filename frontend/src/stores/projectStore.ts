@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Project Store (Zustand)
+// Nexus - Project Store (Zustand)
 // Manages project builder state, build phases, preview, and
 // handles SSE events from the backend pipeline.
 // ============================================================

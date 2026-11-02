@@ -2,7 +2,7 @@
 
 Mounts ``/preview/{port}/{path}`` on the main app and proxies to the loopback
 dev-server port, so users reach agent-built apps through the project domain
-(e.g. https://nexus2.mekongai.com/preview/19000/). Pure logic lives in
+(e.g. https://nexus.example.com/preview/19000/). Pure logic lives in
 ``preview_proxy``; this file is the thin async I/O layer.
 """
 

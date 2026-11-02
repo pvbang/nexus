@@ -1,4 +1,4 @@
-# MekongAI Nexus — Agent Context Pipeline (Chi Tiet Day Du)
+# Nexus — Agent Context Pipeline (Chi Tiet Day Du)
 
 Tai lieu nay mo ta TOAN BO pipeline phan bo context cho cac agent trong qua trinh xu ly, bao gom prompt, context, va du lieu moi loai agent nhan duoc tai tung giai doan.
 

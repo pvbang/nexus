@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Hybrid Retriever.
+Nexus - Hybrid Retriever.
 
 Combines vector search + FTS + graph traversal using
 Reciprocal Rank Fusion (RRF) for robust retrieval.

@@ -1,4 +1,4 @@
-# MekongAI Nexus — Technical Documentation
+# Nexus — Technical Documentation
 
 **Nền Tảng Điều Phối Đa Tác Nhân AI với Bộ Nhớ Phân Tầng, Tranh Luận Có Cấu Trúc & Học Liên Tục**
 
@@ -8,14 +8,14 @@ Version 1.1.0 | Architecture Reference | June 2026
 
 ## Executive Summary
 
-MekongAI Nexus là nền tảng AI đa tác nhân (multi-agent) cấp production, tự điều phối, được thiết kế cho các tác vụ phức tạp và dài hạn hoàn toàn tự chủ. Hệ thống tích hợp pipeline thực thi theo lượt (turn-based), giao thức thảo luận có cấu trúc (structured debate protocol), hệ thống bộ nhớ tiến triển 4 tầng (L0→L3), học liên tục (XSkill Continual Learning), và hơn 172 MCP tools phân bố trên 57 modules — tất cả được hỗ trợ bởi tầng LLM đa nhà cung cấp với cơ chế circuit breaker đảm bảo khả năng phục hồi.
+Nexus là nền tảng AI đa tác nhân (multi-agent) cấp production, tự điều phối, được thiết kế cho các tác vụ phức tạp và dài hạn hoàn toàn tự chủ. Hệ thống tích hợp pipeline thực thi theo lượt (turn-based), giao thức thảo luận có cấu trúc (structured debate protocol), hệ thống bộ nhớ tiến triển 4 tầng (L0→L3), học liên tục (XSkill Continual Learning), và 192 MCP tools phân bố trên 68 modules (63 module tự nạp khi khởi động + 5 module lazy-load) — tất cả được hỗ trợ bởi tầng LLM đa nhà cung cấp với cơ chế circuit breaker đảm bảo khả năng phục hồi.
 
 Khác với các hệ thống đơn tác nhân truyền thống, Nexus phối hợp nhiều AI agent chuyên biệt thông qua pipeline có cấu trúc Think → Discuss → Execute, cho phép giải quyết vấn đề theo cách cộng tác với vòng lặp chất lượng (quality-driven iteration). Nền tảng hoàn toàn không phụ thuộc nhà cung cấp (provider-agnostic), hỗ trợ bất kỳ LLM endpoint nào tương thích OpenAI, và bao gồm chuỗi fallback tự động đảm bảo hoạt động liên tục không gián đoạn (zero-downtime).
 
 **Điểm nổi bật kỹ thuật:**
 - **80,000+ dòng code backend** Python trên 300+ modules
-- **172 registered tools** + khả năng tự tạo tools không giới hạn tại runtime
-- **66 agent templates** chuyên biệt trải rộng 8 lĩnh vực
+- **192 registered tools** (68 tool modules) + khả năng tự tạo tools không giới hạn tại runtime
+- **79 agent templates** chuyên biệt trải rộng nhiều lĩnh vực (IT, khoa học, kinh doanh, sáng tạo...)
 - **13 lớp bảo mật** defense-in-depth
 - **9 kênh giao tiếp** đa nền tảng (Telegram, Discord, Slack, WhatsApp, Email, SMS, Signal, Matrix, Webhook)
 - **Zero-config deployment** — hoạt động hoàn toàn miễn phí không cần API key
@@ -47,7 +47,7 @@ Khác với các hệ thống đơn tác nhân truyền thống, Nexus phối h�
 
 ### 1.1. High-Level Architecture
 
-MekongAI Nexus được tổ chức thành 5 tầng kiến trúc chính, giao tiếp qua SSE, WebSocket, và REST API:
+Nexus được tổ chức thành 5 tầng kiến trúc chính, giao tiếp qua SSE, WebSocket, và REST API:
 
 **Layer 1 — Presentation (Frontend)**
 React 19 + TypeScript 5.7 + Vite 6 + Zustand 5 + Tailwind CSS. 20 routes bao gồm Chat, Dashboard, Agents, Tasks, Knowledge Graph, XSkill, Artifacts, Skills, Process Transparency, Analytics, Terminal, Admin panels. Giao tiếp real-time qua SSE streaming + WebSocket.
@@ -56,13 +56,13 @@ React 19 + TypeScript 5.7 + Vite 6 + Zustand 5 + Tailwind CSS. 20 routes bao g�
 NexusExecutionPipeline điều phối toàn bộ quá trình thực thi. SmartContextAggregator (7 nguồn song song), EvolutionAgent (cải tiến liên tục), NexusOrchestrator (lập kế hoạch + đánh giá), TurnExecutor (các pha Think → Discuss → Execute), AgentWorker (vòng tool không giới hạn với activity-based timeout), ContextSharing (khả năng nhìn thấy kết quả ngang hàng), GoalEngine (phân rã mục tiêu tự chủ), SelfReflection (checkpoints chất lượng).
 
 **Layer 3 — Intelligence Services**
-Memory System (4 tầng: L0 Capture → L1 Atoms → L2 Scenes → L3 Persona), XSkill Continual Learning (skills + experiences + critique + trajectory compression + tree search), 57 MCP Tool Modules (172+ tools bao gồm self_evolve để tự tạo tool runtime), RAG Pipeline (hybrid vector + FTS + GraphRAG với auto-ontology).
+Memory System (4 tầng: L0 Capture → L1 Atoms → L2 Scenes → L3 Persona), XSkill Continual Learning (skills + experiences + critique + trajectory compression + tree search), 68 MCP Tool Modules (192 tools bao gồm self_evolve để tự tạo tool runtime), RAG Pipeline (hybrid vector + FTS + GraphRAG với auto-ontology).
 
 **Layer 4 — LLM Infrastructure**
 Tầng đa nhà cung cấp tổng hợp (8+ providers: Bedrock, OpenAI, Gemini, OpenRouter, Kilo, Pollinations, g4f, Local). Circuit Breaker theo từng provider, Fallback Chain (Core → Agent → Kilo → Pollinations → g4f), Per-Model Timeout, Smart Routing (đơn giản→model rẻ, phức tạp→model mạnh), Credential Pool (xoay vòng round-robin), Prompt Cache (giảm ~75% chi phí).
 
 **Layer 5 — Data & Execution**
-PostgreSQL 16 + pgvector (18 migration versions), Redis 7+ (Pub/Sub + response cache), Public Gateway (port 18800, 300s proxy timeout), OpenClaw Execution Layer (thực thi code sandbox + giao tiếp đa kênh).
+PostgreSQL 16 + pgvector (19 migration versions, 22 tables), Redis 7+ (Pub/Sub + response cache), Public Gateway (port 18800, 300s proxy timeout), OpenClaw Execution Layer (thực thi code sandbox + giao tiếp đa kênh).
 
 **Core Infrastructure Services:** TaskQueue (bounded FIFO), RateLimiter (Redis sliding-window), BackgroundMetrics (fire-and-forget observability), SessionManager, TaskWatchdog (heartbeat monitoring), CheckpointPersistence (phục hồi sau crash), LongMessageProcessor (xử lý chunked 500K chars).
 
@@ -102,7 +102,7 @@ PostgreSQL 16 + pgvector (18 migration versions), Redis 7+ (Pub/Sub + response c
 
 ## 2. Harness Engineering & Triết Lý Thiết Kế
 
-MekongAI Nexus được xây dựng trên nguyên lý **Harness Engineering** — thực hành định hình môi trường xung quanh AI agents để chúng hoạt động đáng tin cậy. Harness nằm tại giao điểm của context engineering, evaluation, observability, orchestration, safe autonomy, và software architecture.
+Nexus được xây dựng trên nguyên lý **Harness Engineering** — thực hành định hình môi trường xung quanh AI agents để chúng hoạt động đáng tin cậy. Harness nằm tại giao điểm của context engineering, evaluation, observability, orchestration, safe autonomy, và software architecture.
 
 ### 2.1. Harness Architecture (CAR Decomposition)
 
@@ -601,7 +601,7 @@ Ngăn ô nhiễm tri thức bằng cách lọc:
 - Short responses (< 300 chars without tool calls)
 - Minimal execution (no meaningful tool usage)
 
-### 6.4. Skills Library (39 Built-in Skills)
+### 6.4. Skills Library (40 Built-in Skills)
 
 Danh sách đầy đủ tất cả skills có sẵn cho agents:
 
@@ -609,43 +609,44 @@ Danh sách đầy đủ tất cả skills có sẵn cho agents:
 |---|-------|-------------|
 | 1 | **API Builder** | FastAPI/REST API design, implementation, and OpenAPI documentation |
 | 2 | **architecture-diagram** | Dark-themed SVG architecture/cloud/infra diagrams as HTML |
-| 3 | **browser-use** | Automates browser interactions for web testing, form filling, screenshots, data extraction |
-| 4 | **Canvas** | Display HTML content on connected OpenClaw nodes (Mac, iOS, Android) |
-| 5 | **code-review** | Comprehensive code review with best practices analysis |
-| 6 | **coding-agent** | Delegate coding tasks to Codex, Claude Code, or Pi agents via background process |
-| 7 | **Content Writer** | Blog posts, articles, marketing copy, and SEO-optimized content |
-| 8 | **Data Analyst** | Data analysis, visualization, and statistical insights using Python |
-| 9 | **debugging-hermes-tui-commands** | Debug Hermes TUI slash commands: Python, gateway, Ink UI |
-| 10 | **domain-intel** | Passive domain reconnaissance using Python stdlib (subdomains, SSL, WHOIS, DNS) |
-| 11 | **github** | GitHub operations via gh CLI: issues, PRs, CI runs, code review, API queries |
-| 12 | **hermes-agent-skill-authoring** | Author in-repo SKILL.md: frontmatter, validator, structure |
-| 13 | **himalaya** | Himalaya CLI: IMAP/SMTP email from terminal |
-| 14 | **jupyter-live-kernel** | Iterative Python via live Jupyter kernel (hamelnb) |
-| 15 | **kanban-orchestrator** | Decomposition playbook + specialist-roster for orchestrator routing via Kanban |
-| 16 | **kanban-worker** | Pitfalls, examples, edge cases for Hermes Kanban workers |
-| 17 | **llm-guidelines** | Behavioral guidelines to reduce LLM coding mistakes (overcomplication, surgical changes) |
-| 18 | **model-usage** | CodexBar CLI local cost usage to summarize per-model usage/cost data |
-| 19 | **native-mcp** | MCP client: connect servers, register tools (stdio/HTTP) |
-| 20 | **node-inspect-debugger** | Debug Node.js via --inspect + Chrome DevTools Protocol CLI |
-| 21 | **open-source** | Documentation reference for browser-use open-source library |
-| 22 | **plan** | Plan mode: write markdown plan to .hermes/plans/, no execution |
-| 23 | **project-deploy** | Deploy projects built by agents to local dev server with real URLs |
-| 24 | **python-debugpy** | Debug Python: pdb REPL + debugpy remote (DAP) |
-| 25 | **Python Developer** | Expert Python development, debugging, optimization, best practices |
-| 26 | **remote-browser** | Controls local browser from sandboxed remote machine |
-| 27 | **Report Generator** | Generate professional reports in Markdown and DOCX formats |
-| 28 | **requesting-code-review** | Pre-commit review: security scan, quality gates, auto-fix |
-| 29 | **research** | Deep web research with source synthesis and report generation |
-| 30 | **review-checklist** | Pre-merge review checklist based on recurring AI reviewer feedback patterns |
-| 31 | **skill-creator** | Create, edit, improve, or audit AgentSkills (SKILL.md files) |
-| 32 | **SQL Expert** | SQL query writing, optimization, schema design, database administration |
-| 33 | **subagent-driven-development** | Execute plans via delegate_task subagents (2-stage review) |
-| 34 | **System Admin** | System administration, Docker, CI/CD pipelines, deployment automation |
-| 35 | **systematic-debugging** | 4-phase root cause debugging: understand bugs before fixing |
-| 36 | **test-driven-development** | TDD: enforce RED-GREEN-REFACTOR, tests before code |
-| 37 | **webhook-subscriptions** | Webhook subscriptions: event-driven agent runs |
-| 38 | **Web Research** | Deep web research with comprehensive summarization and source verification |
-| 39 | **writing-plans** | Write implementation plans: bite-sized tasks, paths, code |
+| 3 | **biomass-gasifier-sizing** | Quantitative sizing of downdraft biomass gasifiers (throat/hearth, ER, syngas LHV, CGE, power chain) |
+| 4 | **browser-use** | Automates browser interactions for web testing, form filling, screenshots, data extraction |
+| 5 | **Canvas** | Display HTML content on connected OpenClaw nodes (Mac, iOS, Android) |
+| 6 | **code-review** | Comprehensive code review with best practices analysis |
+| 7 | **coding-agent** | Delegate coding tasks to Codex, Claude Code, or Pi agents via background process |
+| 8 | **Content Writer** | Blog posts, articles, marketing copy, and SEO-optimized content |
+| 9 | **Data Analyst** | Data analysis, visualization, and statistical insights using Python |
+| 10 | **debugging-hermes-tui-commands** | Debug Hermes TUI slash commands: Python, gateway, Ink UI |
+| 11 | **domain-intel** | Passive domain reconnaissance using Python stdlib (subdomains, SSL, WHOIS, DNS) |
+| 12 | **github** | GitHub operations via gh CLI: issues, PRs, CI runs, code review, API queries |
+| 13 | **hermes-agent-skill-authoring** | Author in-repo SKILL.md: frontmatter, validator, structure |
+| 14 | **himalaya** | Himalaya CLI: IMAP/SMTP email from terminal |
+| 15 | **jupyter-live-kernel** | Iterative Python via live Jupyter kernel (hamelnb) |
+| 16 | **kanban-orchestrator** | Decomposition playbook + specialist-roster for orchestrator routing via Kanban |
+| 17 | **kanban-worker** | Pitfalls, examples, edge cases for Hermes Kanban workers |
+| 18 | **llm-guidelines** | Behavioral guidelines to reduce LLM coding mistakes (overcomplication, surgical changes) |
+| 19 | **model-usage** | CodexBar CLI local cost usage to summarize per-model usage/cost data |
+| 20 | **native-mcp** | MCP client: connect servers, register tools (stdio/HTTP) |
+| 21 | **node-inspect-debugger** | Debug Node.js via --inspect + Chrome DevTools Protocol CLI |
+| 22 | **open-source** | Documentation reference for browser-use open-source library |
+| 23 | **plan** | Plan mode: write markdown plan to .hermes/plans/, no execution |
+| 24 | **project-deploy** | Deploy projects built by agents to local dev server with real URLs |
+| 25 | **python-debugpy** | Debug Python: pdb REPL + debugpy remote (DAP) |
+| 26 | **Python Developer** | Expert Python development, debugging, optimization, best practices |
+| 27 | **remote-browser** | Controls local browser from sandboxed remote machine |
+| 28 | **Report Generator** | Generate professional reports in Markdown and DOCX formats |
+| 29 | **requesting-code-review** | Pre-commit review: security scan, quality gates, auto-fix |
+| 30 | **research** | Deep web research with source synthesis and report generation |
+| 31 | **review-checklist** | Pre-merge review checklist based on recurring AI reviewer feedback patterns |
+| 32 | **skill-creator** | Create, edit, improve, or audit AgentSkills (SKILL.md files) |
+| 33 | **SQL Expert** | SQL query writing, optimization, schema design, database administration |
+| 34 | **subagent-driven-development** | Execute plans via delegate_task subagents (2-stage review) |
+| 35 | **System Admin** | System administration, Docker, CI/CD pipelines, deployment automation |
+| 36 | **systematic-debugging** | 4-phase root cause debugging: understand bugs before fixing |
+| 37 | **test-driven-development** | TDD: enforce RED-GREEN-REFACTOR, tests before code |
+| 38 | **webhook-subscriptions** | Webhook subscriptions: event-driven agent runs |
+| 39 | **Web Research** | Deep web research with comprehensive summarization and source verification |
+| 40 | **writing-plans** | Write implementation plans: bite-sized tasks, paths, code |
 
 Skills tùy chỉnh có thể được tạo tại runtime qua `scaffold_skill()` và load ngay lập tức qua `reload_skills()`.
 
@@ -768,71 +769,78 @@ Tìm kiếm miễn phí: DuckDuckGo (không giới hạn, không cần key, tíc
 
 ### 8.1. Tổng Quan
 
-57 tool modules cung cấp **172 registered tools** qua Model Context Protocol (MCP). Ngoài ra, agents có thể tạo custom tools không giới hạn tại runtime qua self_evolve.
+68 tool modules cung cấp **192 registered tools** qua Model Context Protocol (MCP). Trong đó 63 module tự đăng ký khi khởi động (import-triggered registration), 5 module còn lại lazy-load qua `load_tool_module` (cloud_exec, deployment, device_bridge, docker_exec, interactive). Ngoài ra, agents có thể tạo custom tools không giới hạn tại runtime qua self_evolve.
 
-**Complete Tool Registry (172 tools):**
+**Kiến trúc đăng ký:** Mỗi tool file tự gọi `registry.register()` ở module level (pattern self-registration, import-tolerant — module thiếu optional dependency không chặn các module khác). 3 module `search_engines`, `search_orchestrator`, `search_scoring` là thư viện engine hỗ trợ (15 search engine adapters: Google, DuckDuckGo, Brave, Tavily, Serper, Arxiv, PubMed, Semantic Scholar, Google Scholar, GitHub, NVD, ExploitDB, Wikidata...) được các web/search tools sử dụng bên trong, không đăng ký tool riêng. `complete_task` là tool deprecated (no-op, pipeline tự quản lý completion) — cố ý KHÔNG đăng ký.
 
-**File & Code Operations (20):** read_file, write_file, edit_file, apply_diff, apply_edits, patch_file, list_files, search_files, delete_file, move_file, copy_file, create_directory, find_workspace_file, get_workspace_info, get_file_info, glob_files, diff_files, list_code_definitions, codebase_search, find_definitions, find_references, find_imports
+**Complete Tool Registry (192 tools):**
 
-**Execution & Build (10):** execute_code, execute_command, install_packages, run_tests, run_build, check_project_health, project_scaffold, install_dependencies, build_project, calculate
+**File & Code (22):** read_file, write_file, list_files, delete_file, create_directory, move_file, copy_file, glob_files, find_workspace_file, get_workspace_info, get_file_info (filesystem) · edit_file, apply_edits (file_edit) · search_files, patch_file, diff_files (search_patch) · list_code_definitions, codebase_search, find_definitions, find_references, find_imports (code_navigation) · git (multi-command: status, diff, log, commit, push, pull, branch, checkout, merge, rebase, stash, tag)
 
-**Search (7):** web_search, web_search_news, web_search_academic, web_search_knowledge, web_search_medical, document_search, activity_search
+**Search & Web (13):** web_search, web_search_news, web_search_academic, web_search_knowledge, web_search_medical, fetch_url (web) · document_search, rag_search, rag_index (rag) · activity_search (activity_search) · session_search, session_list_recent (session_search) · http_request
 
-**Web & HTTP (4):** fetch_url, http_request, expose_port, world_connectivity_status
+**Execution & Build (13):** execute_command, execute_code, install_packages (terminal) · run_tests, run_build, check_project_health (test_tools) · project_scaffold, install_dependencies, build_project (project_tools) · start_dev_server, stop_dev_server, list_dev_servers, get_server_logs (dev_server_tools)
 
-**Browser Automation (11):** browser_navigate, browser_click, browser_type, browser_extract, browser_screenshot, browser_ai_action, browser_ai_extract, browser_ai_navigate_flow, visual_check, visual_check_responsive, analyze_image
+**Browser Automation (8):** browser_navigate, browser_screenshot, browser_click, browser_type, browser_extract (browser) · browser_ai_action, browser_ai_extract, browser_ai_navigate_flow (browser_ai)
 
-**Docker & Containers (10):** docker_run, docker_build, docker_exec, docker_logs, docker_ps, docker_compose_up, docker_compose_down, docker_network, docker_deploy, deploy_docker_build
+**Docker & Containers (10):** docker_compose_up, docker_compose_down, docker_build, docker_run, docker_exec, docker_logs, docker_ps, docker_network (docker_tools) · deploy_docker_build, docker_deploy (deployment) · [docker_exec cũng có bản lazy trong module docker_exec riêng]
 
-**Network & Infrastructure (10):** port_scan, tcp_connect, dns_lookup, network_probe, network_topology_map, ssh_exec, measure_latency, check_port_available, check_disk_usage, monitor_process
+**Network & Infrastructure (13):** port_scan, tcp_connect, ssh_exec, dns_lookup, network_probe (network) · check_health, monitor_process, check_disk_usage, check_port_available, measure_latency, system_resources (monitoring_tools) · setup_public_inbox, open_firewall_port (public_link_setup)
 
-**Data & Output (10):** generate_report, generate_chart, generate_csv, generate_excel, generate_pdf, generate_word_document, parse_json, database_query, current_datetime, hash_encode
+**Cloud & Device (6, lazy):** cloud_exec, cloud_provision (cloud_exec) · device_exec, frida_run, device_push, device_pull (device_bridge)
 
-**Communication (8):** send_email, fetch_emails, email_health_check, send_telegram_message, telegram_get_updates, send_external_message, send_message, notify_user
+**Data & Output (15):** parse_json, generate_report, generate_word_document, generate_csv, generate_pdf, generate_excel, read_spreadsheet, edit_spreadsheet, read_document, edit_document (data) · database_query (database) · generate_chart (chart) · convert_document (document_converter) · compress, extract (archive)
 
-**Documentation Generation (7):** generate_api_docs, generate_changelog, generate_readme, generate_dockerfile, generate_docker_compose, generate_github_actions, convert_document
+**Communication (9):** send_email (email) · fetch_emails (email_inbox) · email_health_check (email_diagnostics) · send_telegram_message (telegram) · send_message (communication) · send_external_message, telegram_get_updates, world_connectivity_status, create_public_inbox (external_channels_tools)
 
-**RAG & Knowledge (4):** rag_index, rag_search, memory_read, memory_write, memory_search
+**Notification & Interactive (2):** notify_user (notify) · ask_user (interactive, lazy)
 
-**Git & Version Control (1):** git (multi-command: status, diff, log, commit, push, pull, branch, checkout, merge, rebase, stash, tag)
+**Documentation Generation (3):** generate_api_docs, generate_readme, generate_changelog (documentation_tools)
 
-**Task & Workflow (12):** task_doc_write, task_doc_read, task_doc_list, task_doc_search, task_doc_edit, task_doc_delete, complete_task, create_workflow, execute_workflow, list_workflows, get_workflow_status, schedule_task, list_scheduled_tasks
+**CI/CD (3):** generate_github_actions, generate_dockerfile, generate_docker_compose (cicd_tools)
 
-**Todo Management (4):** todo_add, todo_list, todo_complete, todo_clear
+**GitHub & Bounty (12):** github_fork, github_clone, github_create_pr, github_search_issues, github_browse_bounties, github_api (github_tools) · search_bounties, verify_bounty_target, monitor_pr_status, respond_pr_review, earnings_ledger, prepare_bounty_submission (bounty_tools)
 
-**Agent & Skills (6):** delegate_task, load_skill, reload_skills, scaffold_skill, scaffold_custom_tool_module, load_tool_module
+**Security & Intelligence (15):** scan_dependencies, scan_secrets, scan_headers (security_scan_tools) · cve_lookup, network_topology_map, ioc_validate, osint_domain_profile, threat_intel_enrich, evidence_acquire (intelligence_tools) · malware_sandbox_analyze, mobile_forensics_extract (malware_tools) · api_test_endpoint, api_test_sequence, api_mock_server (api_testing_tools) · audit_log (audit_log)
 
-**Visual & Media (6):** image_generate, describe_image, text_to_speech, speech_to_text, visual_check, visual_check_responsive
+**Blockchain (3):** blockchain_trace, wallet_cluster, transaction_graph (blockchain_tools)
 
-**Security & Intelligence (14):** port_scan, scan_secrets, scan_headers, scan_dependencies, cve_lookup, audit_log, evidence_acquire, ioc_validate, threat_intel_enrich, osint_domain_profile, malware_sandbox_analyze, mobile_forensics_extract, api_test_endpoint, api_test_sequence, api_mock_server
+**Task & Workflow (12):** task_doc_read, task_doc_write, task_doc_edit, task_doc_search, task_doc_list, task_doc_delete (task_docs) · create_workflow, execute_workflow, list_workflows, get_workflow_status (workflow_tools) · schedule_task, list_scheduled_tasks (schedule)
 
-**Blockchain (3):** blockchain_trace, wallet_cluster, transaction_graph
+**Todo Management (4):** todo_add, todo_list, todo_complete, todo_clear (todo)
 
-**Cloud & Device (4):** cloud_exec, cloud_provision, device_exec, device_pull, device_push, frida_run
+**Agent & Skills (7):** delegate_task (delegate) · load_skill (skill_loader) · load_tool_module (tool_module_loader) · scaffold_custom_tool_module, scaffold_skill, reload_skills, discover_mcp_capability (self_evolve; kèm tool sinh runtime không giới hạn)
 
-**Tunneling (3):** list_tunnels, stop_tunnel, setup_public_inbox, create_public_inbox
+**Visual & Media (11):** analyze_image, describe_image, extract_text_from_image (vision) · visual_check, visual_check_responsive (visual_tools) · image_generate (image_gen) · text_to_speech, speech_to_text (voice) · video_info, extract_frames, extract_audio (video)
 
-**Dev Server (4):** start_dev_server, stop_dev_server, list_dev_servers, get_server_logs
+**Memory (3):** memory_read, memory_write, memory_search (memory_tool)
 
-**Session & Archive (5):** session_list_recent, session_search, compress, extract, system_info, system_resources
+**Tunneling (3):** expose_port, stop_tunnel, list_tunnels (tunnel)
 
-**Interactive (2):** ask_user, check_health
+**Utilities (5):** calculate, current_datetime, hash_encode, system_info (utility) · translate_text (translate)
 
-**Translation (1):** translate_text
-
-| Category | Module Count | Tool Count |
-|----------|-------------|------------|
-| **File & Code** | filesystem, file_edit, code_navigation, git | 22 |
-| **Search** | search_engines, search_orchestrator, search_scoring, search_patch | 7 |
-| **Terminal & Dev** | terminal, cicd_tools, test_tools, dev_server_tools, docker_tools, deployment | 24 |
-| **Web & Browser** | web, browser, browser_ai, http_request | 15 |
-| **Data & Output** | data, database, chart, rag | 14 |
-| **Communication** | email, email_inbox, email_diagnostics, telegram, external_channels_tools, notify | 8 |
-| **AI & Intelligence** | delegate, self_evolve, skill_loader, workflow_tools, activity_search, session_search | 18 |
-| **Security & Monitoring** | security_scan_tools, monitoring_tools, api_testing_tools, malware_tools, blockchain_tools | 17 |
-| **Visual & Media** | vision, visual_tools, image_gen, voice | 6 |
-| **Utilities** | archive, utility, translate, todo, memory_tool, schedule | 12 |
-| **Infrastructure** | network, tunnel, public_link_setup, documentation_tools, cloud_exec | 19 |
+| Category | Modules | Tools |
+|----------|---------|-------|
+| **File & Code** | filesystem, file_edit, search_patch, code_navigation, git | 22 |
+| **Search & Web** | web, rag, activity_search, session_search, http_request | 13 |
+| **Execution & Build** | terminal, test_tools, project_tools, dev_server_tools | 13 |
+| **Browser** | browser, browser_ai | 8 |
+| **Docker & Containers** | docker_tools, deployment, docker_exec (lazy) | 10 |
+| **Network & Monitoring** | network, monitoring_tools, public_link_setup | 13 |
+| **Cloud & Device (lazy)** | cloud_exec, device_bridge | 6 |
+| **Data & Output** | data, database, chart, document_converter, archive | 15 |
+| **Communication** | email, email_inbox, email_diagnostics, telegram, communication, external_channels_tools, notify, interactive (lazy) | 11 |
+| **Docs & CI/CD** | documentation_tools, cicd_tools | 6 |
+| **GitHub & Bounty** | github_tools, bounty_tools | 12 |
+| **Security & Intelligence** | security_scan_tools, intelligence_tools, malware_tools, api_testing_tools, audit_log | 15 |
+| **Blockchain** | blockchain_tools | 3 |
+| **Task & Workflow** | task_docs, workflow_tools, schedule | 12 |
+| **Todo** | todo | 4 |
+| **Agent & Skills** | delegate, skill_loader, tool_module_loader, self_evolve | 7 + unlimited (runtime) |
+| **Visual & Media** | vision, visual_tools, image_gen, voice, video | 11 |
+| **Memory** | memory_tool | 3 |
+| **Tunneling** | tunnel, public_link_setup | 3 |
+| **Utilities** | utility, translate | 5 |
 | **Dynamic** | tool_module_loader, self_evolve | Unlimited (runtime generation) |
 
 ### 8.2. Self-Evolution (Tự Tạo Tool Tại Runtime)
@@ -1062,6 +1070,8 @@ Sinh 3 cách tiếp cận hoàn toàn khác nhau TRƯỚC KHI bắt đầu thự
 
 ### 12.2. Route Structure (20 Routes)
 
+Bảng dưới liệt kê các màn hình chính (20 routes chính). Ngoài ra còn có `/` (welcome), `/login`, các route tham số hóa (`/chat/:sessionId`, `/tasks/:taskId`, `/artifacts/:taskId`), dynamic plugin routes đăng ký runtime, và catch-all 404.
+
 | Route | Function |
 |-------|----------|
 | `/chat` | Main conversation interface |
@@ -1121,7 +1131,7 @@ Sinh 3 cách tiếp cận hoàn toàn khác nhau TRƯỚC KHI bắt đầu thự
 
 ### 13.1. Kiến Trúc Docker Compose
 
-5 services được điều phối qua Docker Compose:
+5 services chạy mặc định qua Docker Compose (thêm security-toolkit build-only profile, bật với `--profile tools`):
 
 | Service | Image | Port Mapping | Role | Health Check |
 |---------|-------|-------------|------|--------------|
@@ -1133,17 +1143,17 @@ Sinh 3 cách tiếp cận hoàn toàn khác nhau TRƯỚC KHI bắt đầu thự
 
 Volumes: postgres_data, redis_data, workspace_data (shared between nexus and openclaw)
 
-### 13.2. Database Schema (18 Migrations)
+### 13.2. Database Schema (19 Migrations · 22 Tables)
 
 | Category | Tables |
 |----------|--------|
-| **Core** | agents, tasks, messages, tools |
+| **Core** | agents, tasks, messages, tools, swarms (legacy, migration-managed) |
 | **Memory** | agent_memories, memory_atoms, memory_scenes, memory_personas, memory_pipeline_state |
 | **Knowledge** | knowledge_nodes, knowledge_edges, document_chunks, indexed_documents |
 | **Learning** | skills, experiences |
 | **Chat** | conversation_messages (with FTS tsvector) |
 | **Execution** | task_events, task_checkpoints |
-| **Security** | API keys, audit logs |
+| **Security** | approval_requests, tool_policies, security_audit_results |
 
 ### 13.3. Auto-Scaling
 
@@ -1162,6 +1172,8 @@ Volumes: postgres_data, redis_data, workspace_data (shared between nexus and ope
 | Storage | 10 GB | 50+ GB |
 | GPU | Không cần | Không cần |
 | LLM API Key | Không cần (có free tier) | Khuyến nghị |
+
+> **Production hardening:** Khi deploy production, cần thay đổi các giá trị default trong `.env` (mật khẩu database, APP_SECRET, JWT secret, terminal API key — server fail-fast nếu phát hiện secret default), giới hạn CORS, và cân nhắc mount `docker.sock` read-only hoặc tách OpenClaw ra hạ tầng riêng.
 
 ---
 
@@ -1201,12 +1213,31 @@ Volumes: postgres_data, redis_data, workspace_data (shared between nexus and ope
 | GET | `/api/v1/doctor` | Health check |
 | GET | `/api/v1/analytics` | Analytics data |
 
+**Nâng cao (Advanced):**
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/v1/decisions/{id}/answer` | Trả lời interactive decision (agent hỏi user) |
+| POST | `/api/v1/batch/run` | Chạy batch nhiều model/song song |
+| GET | `/api/v1/session-state/{id}/state` | Session state snapshot |
+| GET | `/api/v1/session-state/{id}/events` | Event replay |
+| GET | `/api/v1/history` | Session history (full-text search) |
+| POST | `/api/v1/project-builder/*` | Project Builder pipeline |
+| POST | `/api/v1/terminal` | Terminal (terminal-key protected) |
+| POST | `/api/v1/hermes/chat`, `/code-edit`, `/terminal`, `/search` | Hermes agent bridge |
+| GET/POST | `/api/v1/cron/jobs`, `/api/v1/skill-runner/*` | Cron jobs + skill-runner |
+| GET/POST | `/api/v1/plugins/*`, `/api/v1/approvals/*` | Plugin management + approval workflow |
+| POST | `/api/v1/public-inbox` | Tokenized public inbox |
+| GET | `/api/v1/xskill`, `/api/v1/skills` | XSkill + Skills management |
+
 **OpenAI-Compatible:**
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | POST | `/v1/chat/completions` | Drop-in OpenAI replacement |
+| GET | `/v1/models` | Model listing |
 
 ### 14.2. Giao Tiếp Đa Kênh (9 Nền Tảng)
+
+Mỗi kênh được bật độc lập qua biến môi trường riêng (ví dụ bot token, API key, URL). Channel manager kết nối các kênh đã đăng ký song song với timeout 10s/kênh (15s tổng). Không cấu hình = không kích hoạt — hệ thống vẫn chạy đầy đủ qua Web UI.
 
 | Channel | Transport | Features |
 |---------|-----------|----------|
@@ -1845,25 +1876,25 @@ Workspace mounting: Agent's _work/ → /workspace in container.
 | **Core Module LOC** | 23,437 |
 | **Orchestration LOC** | 10,951 |
 | **MCP Tool LOC** | 27,681 |
-| **MCP Tool Modules** | 57 |
-| **Registered Tools** | 172+ |
-| **API Endpoints** | 25 |
+| **MCP Tool Modules** | 68 (63 auto + 5 lazy) |
+| **Registered Tools** | 192+ |
+| **API Endpoint Modules** | 25 |
 | **Frontend TSX files** | 160+ |
 | **Frontend Components** | 150+ |
 | **Custom Hooks** | 22+ |
-| **Routes** | 20+ |
-| **Database Migrations** | 18 |
-| **Docker Containers** | 5 |
+| **Routes** | 20+ (thêm login, parameterized, dynamic plugin routes) |
+| **Database Migrations** | 19 |
+| **Docker Containers** | 5 (+ security-toolkit profile) |
 | **LLM Providers hỗ trợ** | 8+ |
 | **Communication Channels** | 9 |
 | **Security Layers** | 13 |
-| **Skills Directory** | 39+ |
-| **Agent Templates** | 66 |
+| **Skills Directory** | 40 |
+| **Agent Templates** | 79 |
 | **Open-Source Projects tích hợp** | 14 |
-| **Database Tables** | 25+ |
+| **Database Tables** | 22 |
 | **Memory Layers** | 4 (L0-L3) |
 
 ---
 
 *Tài liệu tạo: Tháng 6, 2026*
-*MekongAI Nexus v1.1.0*
+*Nexus v1.1.0*

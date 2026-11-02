@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - DebateCard
+// Nexus - DebateCard
 // Inline chat card showing a debate round with proposals/verdict
 // ============================================================
 

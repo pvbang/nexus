@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - XSkill Continual Learning Engine.
+Nexus - XSkill Continual Learning Engine.
 
 Tầng cao nhất: điều phối Experience Manager + Skill Builder.
 Tích hợp trực tiếp vào Core Orchestrator.

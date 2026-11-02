@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Batch Runner Admin View
+// Nexus - Batch Runner Admin View
 // Batch task execution with multi-format input and progress
 // ============================================================
 

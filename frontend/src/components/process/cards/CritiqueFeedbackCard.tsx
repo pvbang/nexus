@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - CritiqueFeedbackCard
+// Nexus - CritiqueFeedbackCard
 // Displays CriticAgent cross-critique results with severity-coded
 // critique points and missing perspectives.
 // ============================================================

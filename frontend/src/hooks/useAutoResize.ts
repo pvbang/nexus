@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Auto-resize textarea hook
+// Nexus - Auto-resize textarea hook
 // ============================================================
 
 import { useEffect, useRef, type RefObject } from 'react'

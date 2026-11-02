@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - System Warning Banner
+// Nexus - System Warning Banner
 // Non-intrusive banner for system warnings, budget alerts, resource alerts
 // Auto-dismisses after 10s or on user action
 // ============================================================

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - useDebateChat hook
+// Nexus - useDebateChat hook
 // Accumulates debate_message events into DebateChatState
 // for rendering by DebateChatView component.
 //

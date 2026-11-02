@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Session Insights
+// Nexus - Session Insights
 // Analytics panel showing usage stats per session
 // ============================================================
 

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Pre-startup Agent Seeding Script (Lightweight + Sync).
+Nexus - Pre-startup Agent Seeding Script (Lightweight + Sync).
 
 Runs BEFORE Uvicorn workers start to avoid race conditions.
 Called from docker/entrypoint.sh after alembic migrations.
@@ -73,7 +73,7 @@ def seed_agents() -> int:
                 # build_agent_execution_prompt() constructs the full operational prompt
                 # with workspace rules, tool catalog, and turn context.
                 system_prompt = (
-                    f"You are **{agent_name}** {avatar} — a specialist agent in MekongAI Nexus.\n\n"
+                    f"You are **{agent_name}** {avatar} — a specialist agent in Nexus.\n\n"
                     f"{description}\n\n"
                     f"**Background**: {background}\n\n"
                     f"**Expertise**: {', '.join(expertise)}\n\n"
@@ -171,7 +171,7 @@ def reseed_all_agents() -> int:
                 skills = template.get("skills", {})
 
                 system_prompt = (
-                    f"You are **{agent_name}** {avatar} — a specialist agent in MekongAI Nexus.\n\n"
+                    f"You are **{agent_name}** {avatar} — a specialist agent in Nexus.\n\n"
                     f"{description}\n\n"
                     f"**Background**: {background}\n\n"
                     f"**Expertise**: {', '.join(expertise)}\n\n"

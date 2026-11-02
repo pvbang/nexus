@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Prompted (text-based) tool-calling fallback.
+Nexus - Prompted (text-based) tool-calling fallback.
 
 Free / weak LLM providers (g4f, Pollinations, and many anonymous gateways)
 do not implement OpenAI-style native function-calling. When the fallback

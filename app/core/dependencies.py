@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Shared Dependencies (DI).
+Nexus - Shared Dependencies (DI).
 
 Database engine, Redis connection, và các shared services.
 """

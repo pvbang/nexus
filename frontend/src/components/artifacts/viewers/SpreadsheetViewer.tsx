@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - SpreadsheetViewer
+// Nexus - SpreadsheetViewer
 // Reads .xlsx/.xls via SheetJS and renders styled tables with sheet tabs.
 // ============================================================
 import { useState, useEffect, useCallback } from 'react';

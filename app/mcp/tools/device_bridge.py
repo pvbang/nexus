@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Device Bridge Tools (Tier 2).
+Nexus - Device Bridge Tools (Tier 2).
 
 ADB/SSH connection to rooted Android devices for:
 - Frida script deployment and execution

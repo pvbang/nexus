@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Document Index Pipeline.
+Nexus - Document Index Pipeline.
 
 Orchestrates: chunk → embed → store in PostgreSQL pgvector.
 Auto-indexes uploaded documents that exceed the threshold.

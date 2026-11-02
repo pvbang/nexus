@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Trajectory Compressor.
+Nexus - Trajectory Compressor.
 
 Post-process task execution logs thành structured training data.
 Lấy cảm hứng từ XSkill trajectory_summary.py:

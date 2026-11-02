@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Contextual Retrieval (Anthropic technique).
+Nexus - Contextual Retrieval (Anthropic technique).
 
 Prepends a short, LLM-generated situating context to each chunk BEFORE it is
 embedded and full-text indexed. A chunk like "Revenue grew 3%" becomes

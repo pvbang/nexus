@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - AgentCommunicationFeed
+// Nexus - AgentCommunicationFeed
 // Group chat view displaying inter-agent messages
 // ============================================================
 

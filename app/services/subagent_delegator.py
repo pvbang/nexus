@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Subagent Delegation (Hermes-agent inspired).
+Nexus - Subagent Delegation (Hermes-agent inspired).
 
 Spawns child agent instances with isolated context, restricted toolsets,
 and their own execution sessions. Supports single-task and batch (parallel).

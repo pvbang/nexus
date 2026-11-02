@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Utility functions
+// Nexus - Utility functions
 // ============================================================
 
 import { format, formatDistanceToNowStrict } from 'date-fns'

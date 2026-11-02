@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Batch Runner API Endpoints.
+Nexus - Batch Runner API Endpoints.
 
 POST /api/v1/batch/run    — start a new batch or resume an existing one
 GET  /api/v1/batch/{id}/status — check batch progress

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - SMS Channel Adapter (Hermes-agent inspired).
+Nexus - SMS Channel Adapter (Hermes-agent inspired).
 
 SMS messaging via Twilio API. Supports inbound webhooks + outbound.
 

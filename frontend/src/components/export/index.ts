@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Export barrel exports
+// Nexus - Export barrel exports
 // ============================================================
 
 export { ExportDialog } from './ExportDialog'

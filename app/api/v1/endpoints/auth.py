@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Authentication Endpoints.
+Nexus - Authentication Endpoints.
 
 Simple credential-based auth. Supports:
 - Username/password login (for admin access)

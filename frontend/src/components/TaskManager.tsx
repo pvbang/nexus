@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Enhanced TaskManager Component
+// Nexus - Enhanced TaskManager Component
 // Task list with filters, search, sort, report generator modal
 // ============================================================
 

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Assignment similarity helpers.
+Nexus - Assignment similarity helpers.
 
 Pure functions (no LLM, no I/O) for comparing agent task descriptions. Extracted
 from the orchestrator god-object (audit C1) so they can be reused without pulling

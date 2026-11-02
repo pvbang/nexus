@@ -1,7 +1,7 @@
 """Auto-learn the public base URL (scheme://host) from incoming requests.
 
 Why this exists: a server inside Docker can't know the public domain it's served
-under (e.g. https://nexus2.mekongai.com) — that mapping lives in the outer
+under (e.g. https://nexus.example.com) — that mapping lives in the outer
 nginx/Cloudflare/DNS layer, invisible to the process. So operators had to set
 EXTERNAL_BASE_URL by hand just to build a correct preview link.
 

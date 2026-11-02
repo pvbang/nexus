@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Channel Manager (OpenClaw-inspired).
+Nexus - Channel Manager (OpenClaw-inspired).
 
 Lifecycle management for all connected messaging channels.
 """

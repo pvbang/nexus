@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Pluggable Context Engine (OpenClaw-inspired).
+Nexus - Pluggable Context Engine (OpenClaw-inspired).
 
 Abstract interface for context management with registry pattern.
 Allows swapping context strategies without touching core code.

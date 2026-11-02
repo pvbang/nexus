@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - TaskTab
+// Nexus - TaskTab
 // Compact tab component for MultiTaskDashboard
 // Shows: status dot, title, progress bar, agent count, duration
 // ============================================================

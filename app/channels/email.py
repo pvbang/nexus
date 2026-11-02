@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Email Channel Adapter (Hermes-agent inspired).
+Nexus - Email Channel Adapter (Hermes-agent inspired).
 
 IMAP polling for inbound + SMTP for outbound email communication.
 Supports document attachments and HTML formatting.
@@ -95,7 +95,7 @@ class EmailChannel(AbstractChannel):
             msg = MIMEMultipart("alternative")
             msg["From"] = self._from_address
             msg["To"] = message.channel_id  # channel_id = recipient email
-            msg["Subject"] = message.metadata.get("subject", "MekongAI Nexus")
+            msg["Subject"] = message.metadata.get("subject", "Nexus")
 
             # Plain text + HTML
             text_part = MIMEText(message.content, "plain", "utf-8")

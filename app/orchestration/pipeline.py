@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Unified Execution Pipeline.
+Nexus - Unified Execution Pipeline.
 
 IMPROVEMENT: Every task deserves full treatment - consistency over shortcuts.
 

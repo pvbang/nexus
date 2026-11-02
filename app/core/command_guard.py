@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Dangerous Command Detection & SSRF Protection.
+Nexus - Dangerous Command Detection & SSRF Protection.
 
 Pre-execution safety gates for shell commands, URLs, and file paths.
 Blocks destructive, exfiltration, and injection attacks before they execute.

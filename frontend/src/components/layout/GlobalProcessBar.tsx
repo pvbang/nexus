@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - GlobalProcessBar
+// Nexus - GlobalProcessBar
 // Always-visible bottom bar showing active task status
 // ============================================================
 

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - RecentActivity Dashboard Component
+// Nexus - RecentActivity Dashboard Component
 // Real-time event feed with timeline-style layout, type badges,
 // relative timestamps, and auto-scroll to latest event
 // ============================================================

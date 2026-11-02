@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Todo Tool (Hermes-agent inspired).
+Nexus - Todo Tool (Hermes-agent inspired).
 
 In-memory task planning tool that lets agents organize their work.
 Each session gets its own task list. Tasks are NOT persisted across

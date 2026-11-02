@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - SubtaskTree Component
+// Nexus - SubtaskTree Component
 // Hierarchical subtask display with expand/collapse tree view
 // ============================================================
 

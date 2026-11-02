@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - PluginSlot Component
+// Nexus - PluginSlot Component
 // Feature #10: Renders plugin components into named UI slots
 // ============================================================
 

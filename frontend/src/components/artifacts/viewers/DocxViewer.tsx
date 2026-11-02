@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - DocxViewer Component
+// Nexus - DocxViewer Component
 // Converts DOCX to HTML using mammoth and renders in styled container
 // ============================================================
 

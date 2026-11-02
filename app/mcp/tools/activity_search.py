@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Activity Search Tool.
+Nexus - Activity Search Tool.
 
 Allows agents to search/retrieve content from ACTIVITY.md when tool outputs
 were truncated in the LLM context window.

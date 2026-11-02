@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Nexus Orchestrator.
+Nexus - Nexus Orchestrator.
 
 IMPROVEMENT: Never settle for 'good enough' - push for excellence.
 

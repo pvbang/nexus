@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Chat Layout (Simplified)
+// Nexus - Chat Layout (Simplified)
 // Sidebar + TabBar + Chat (no right-side activity panel)
 // FIX-6/7: Removed HermesActivityPanel and UnifiedProcessPanel.
 // Process/execution events are shown inline in the chat via ProcessStream.

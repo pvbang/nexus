@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Hooks barrel exports
+// Nexus - Hooks barrel exports
 // ============================================================
 
 export { useAnnounce } from './useAnnounce'

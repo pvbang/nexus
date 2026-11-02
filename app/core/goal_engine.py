@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Autonomous Goal-Directed Engine.
+Nexus - Autonomous Goal-Directed Engine.
 
 Transforms agent from "bảo gì làm nấy" → "tự biết cần làm gì, tự kiểm tra,
 tự sửa lỗi, tự phát hiện vấn đề mới, đào sâu đến tận cốt lõi".

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Inbound Email Classifier.
+Nexus - Inbound Email Classifier.
 
 Decides whether an inbound email is an ACTIONABLE request (should spawn a task)
 or an automated NOTIFICATION (GitHub PR comments, mailing-list digests, bulk

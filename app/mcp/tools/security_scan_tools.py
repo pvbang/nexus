@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Security Scanning Tools.
+Nexus - Security Scanning Tools.
 
 Provides tools for dependency vulnerability scanning, secret detection,
 and HTTP security header analysis.

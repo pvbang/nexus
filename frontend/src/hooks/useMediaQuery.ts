@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Media query hook
+// Nexus - Media query hook
 // ============================================================
 
 import { useState, useEffect } from 'react'

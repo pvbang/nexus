@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Skills Section (Roo-Code Mandatory Skill Check pattern).
+Nexus - Skills Section (Roo-Code Mandatory Skill Check pattern).
 
 Generates the skills section with mandatory applicability check.
 Skills are lazy-loaded: only metadata (name + description) is included

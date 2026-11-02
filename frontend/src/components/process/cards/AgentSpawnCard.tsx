@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - AgentSpawnCard
+// Nexus - AgentSpawnCard
 // Inline chat card showing spawned agents with roles and tools
 // ============================================================
 

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Plugin UI System (Barrel Export)
+// Nexus - Plugin UI System (Barrel Export)
 // Feature #10: Dynamic Route/Tab Injection
 // ============================================================
 

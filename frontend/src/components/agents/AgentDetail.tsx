@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - AgentDetail Component
+// Nexus - AgentDetail Component
 // Detailed agent information panel with description, personality,
 // system_prompt preview, model info, skills, tools, metadata,
 // and real-time status from realtimeStore

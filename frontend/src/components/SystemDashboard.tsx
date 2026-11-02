@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Enhanced System Dashboard
+// Nexus - Enhanced System Dashboard
 // Professional dashboard with live metrics, health checks,
 // real-time activity feed, and system configuration
 // ============================================================
@@ -81,7 +81,7 @@ export function SystemDashboard() {
             System Dashboard
           </h2>
           <p className="text-text-secondary dark:text-gray-400 mt-1">
-            Tổng quan hệ thống MekongAI Nexus — real-time monitoring & health checks
+            Tổng quan hệ thống Nexus — real-time monitoring & health checks
           </p>
         </div>
 

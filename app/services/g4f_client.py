@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - g4f (GPT4Free) Anonymous Client.
+Nexus - g4f (GPT4Free) Anonymous Client.
 
 Provides integration with GPT4Free library for anonymous access to various AI models
 without API keys. Acts as a fallback when all other providers fail.

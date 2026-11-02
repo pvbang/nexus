@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Process Store Selectors
+// Nexus - Process Store Selectors
 // Selector functions for useProcessStore(selector) pattern
 // ============================================================
 

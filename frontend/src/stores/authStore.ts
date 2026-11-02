@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Auth Store (Zustand)
+// Nexus - Auth Store (Zustand)
 // Manages authentication state, token storage, and logout.
 // Supports refresh tokens and cross-tab sync via storage events.
 // ============================================================

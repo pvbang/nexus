@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Export Dialog
+// Nexus - Export Dialog
 // Modal for exporting chat/task results in multiple formats
 // ============================================================
 

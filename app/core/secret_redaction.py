@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Secret Redaction for Logs & Outputs (Hermes-agent inspired).
+Nexus - Secret Redaction for Logs & Outputs (Hermes-agent inspired).
 
 Comprehensive secret detection and redaction to prevent API keys, tokens,
 passwords, and other sensitive values from appearing in logs, error messages,

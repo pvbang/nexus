@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Legal Compliance Framework.
+Nexus - Legal Compliance Framework.
 
 Implements legal compliance gates for intelligence operations
 following Vietnamese legal framework:

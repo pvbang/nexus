@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Orchestrator Read-Only Tools.
+Nexus - Orchestrator Read-Only Tools.
 
 Gives NexusOrchestrator (and EvolutionAgent) the ability to autonomously
 explore the workspace using a tool loop — just like worker agents, but

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Common shared types
+// Nexus - Common shared types
 // ============================================================
 
 /** Loading state for async operations */

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - JWT Authentication.
+Nexus - JWT Authentication.
 
 Provides JWT token creation, verification, and FastAPI dependencies.
 Supports optional auth mode: when JWT_SECRET_KEY is default, auth is disabled.

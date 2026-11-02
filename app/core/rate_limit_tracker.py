@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Rate Limit Tracker (Hermes-agent inspired).
+Nexus - Rate Limit Tracker (Hermes-agent inspired).
 
 Captures rate limit headers from provider responses and provides
 formatted display for monitoring endpoints.

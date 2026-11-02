@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - PlanView
+// Nexus - PlanView
 // Displays task decomposition plan with timeline-style steps
 // ============================================================
 

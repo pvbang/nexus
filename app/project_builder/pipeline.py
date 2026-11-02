@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Project Builder Pipeline.
+Nexus - Project Builder Pipeline.
 
 End-to-end pipeline cho tự động build full project:
 Blueprint → Scaffold → Implement → Test → Visual QA → Iterate → Deliver

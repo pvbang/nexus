@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - 404 Not Found Page
+// Nexus - 404 Not Found Page
 // ============================================================
 
 import { useNavigate } from 'react-router-dom'

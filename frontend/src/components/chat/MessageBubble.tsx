@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - MessageBubble
+// Nexus - MessageBubble
 // Single chat message rendering (user, assistant, system)
 // Extracted from ChatPanel.tsx lines 1023-1081
 // Enhanced: Agent attribution display for assistant messages
@@ -140,7 +140,7 @@ function MessageMetadata({ message }: { message: ChatMessage }) {
 
 const ROLE_LABELS: Record<string, string> = {
   user: 'You',
-  assistant: 'MekongAI',
+  assistant: 'Nexus',
   system: 'System',
 }
 

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - API Testing Tools.
+Nexus - API Testing Tools.
 
 Provides tools for testing API endpoints, running sequential test flows,
 and starting mock HTTP servers for integration testing.

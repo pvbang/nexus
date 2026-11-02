@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Consecutive-failure circuit breaker.
+Nexus - Consecutive-failure circuit breaker.
 
 Pure decision helpers (no LLM, no I/O) for stopping an agent that is thrashing —
 issuing tool calls round after round where every single call fails (audit §5 P3).

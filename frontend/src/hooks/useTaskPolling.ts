@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - useTaskPolling Hook
+// Nexus - useTaskPolling Hook
 //
 // ARCHITECTURE: DB-first polling, no SSE/WS dependency.
 //

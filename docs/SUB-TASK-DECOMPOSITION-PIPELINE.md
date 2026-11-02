@@ -1,4 +1,4 @@
-# MekongAI Nexus — Sub-Task Decomposition Pipeline (Chi Tiet)
+# Nexus — Sub-Task Decomposition Pipeline (Chi Tiet)
 
 ## Muc Luc
 

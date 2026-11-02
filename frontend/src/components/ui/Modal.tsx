@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Modal UI Primitive
+// Nexus - Modal UI Primitive
 // Overlay modal with framer-motion animation, focus trap, and escape key
 // ============================================================
 

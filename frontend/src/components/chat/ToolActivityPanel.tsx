@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Tool Activity Panel (Hermes-style)
+// Nexus - Tool Activity Panel (Hermes-style)
 // Shows real-time tool calls with status, timing, output
 // ============================================================
 

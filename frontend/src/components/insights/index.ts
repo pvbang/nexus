@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Insights barrel exports
+// Nexus - Insights barrel exports
 // ============================================================
 
 export { SessionInsights } from './SessionInsights'

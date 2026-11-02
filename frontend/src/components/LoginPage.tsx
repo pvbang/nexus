@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Login Page
+// Nexus - Login Page
 // Simple login form that authenticates via /api/v1/auth/login
 // ============================================================
 
@@ -114,7 +114,7 @@ export function LoginPage() {
             <Zap className="w-7 h-7 text-white" strokeWidth={2.5} />
           </div>
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-            MekongAI Nexus
+            Nexus
           </h1>
           <p className="text-sm text-gray-500 dark:text-[#a0a0b8] mt-1">
             Sign in to your account

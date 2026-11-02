@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Keyboard shortcut hook
+// Nexus - Keyboard shortcut hook
 // ============================================================
 
 import { useEffect, useCallback } from 'react'

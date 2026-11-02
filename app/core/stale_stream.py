@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Stale Stream Detection (Hermes-agent inspired).
+Nexus - Stale Stream Detection (Hermes-agent inspired).
 
 Detect and kill hung SSE/streaming connections that stop producing
 data. Prevents resource leaks from stalled LLM API connections.

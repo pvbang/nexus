@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Background Task Tracker & Notifications.
+Nexus - Background Task Tracker & Notifications.
 
 Tracks long-running background tasks and notifies users across all connected
 tabs when tasks complete. Provides a task status panel for the frontend.

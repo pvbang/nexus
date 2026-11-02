@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Tunnel Tools for Public URL Exposure.
+Nexus - Tunnel Tools for Public URL Exposure.
 
 Provides MCP tools to expose local ports via tunnel providers,
 enabling agents to make services accessible from the internet

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Task Checkpoint for Execution Resume.
+Nexus - Task Checkpoint for Execution Resume.
 
 Inspired by Shannon's per-agent git checkpointing + session.json pattern.
 Enables resuming long-running tasks after crash/interrupt without restarting.

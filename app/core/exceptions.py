@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Custom Exceptions.
+Nexus - Custom Exceptions.
 
 Backward-compatible re-exports from the new error_codes module.
 All exception classes now carry structured ErrorCode for reliable classification.

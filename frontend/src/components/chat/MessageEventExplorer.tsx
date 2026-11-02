@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - MessageEventExplorer
+// Nexus - MessageEventExplorer
 // Complete event explorer for historical messages.
 // NOW USES SAME TimelineCard as ProcessStream for consistent UI.
 // ============================================================

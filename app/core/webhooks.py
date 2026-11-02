@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Webhook Integration (OpenClaw-inspired).
+Nexus - Webhook Integration (OpenClaw-inspired).
 
 Receive external event triggers and route them to agents/sessions.
 

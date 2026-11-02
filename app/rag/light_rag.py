@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - LightRAG (In-Memory Single-Document QA).
+Nexus - LightRAG (In-Memory Single-Document QA).
 
 For quick single-document Q&A without persistent indexing.
 Used when user uploads one file and asks questions immediately.

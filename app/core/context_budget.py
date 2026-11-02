@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Smart Context Budget Allocator.
+Nexus - Smart Context Budget Allocator.
 
 Thay thế hard-truncate bằng phân bổ budget thông minh:
 - Thu thập tất cả enrichment sections

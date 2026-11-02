@@ -2,7 +2,7 @@
 
 ## Tổng Quan
 
-Frontend MekongAI Nexus sử dụng React 19 + Vite 6 + TypeScript 5.7 + Zustand 5 + Tailwind 3.4. Đây là một ứng dụng production-grade với kiến trúc mature phục vụ AI agent orchestration (SSE, WebSocket, polling). Ước tính ~8,000-10,000 LOC.
+Frontend Nexus sử dụng React 19 + Vite 6 + TypeScript 5.7 + Zustand 5 + Tailwind 3.4. Đây là một ứng dụng production-grade với kiến trúc mature phục vụ AI agent orchestration (SSE, WebSocket, polling). Ước tính ~8,000-10,000 LOC.
 
 ---
 
@@ -232,7 +232,7 @@ Frontend MekongAI Nexus sử dụng React 19 + Vite 6 + TypeScript 5.7 + Zustand
 
 ## IV. KẾT LUẬN
 
-Frontend MekongAI Nexus đã ở mức **tốt** cho một dự án AI agent platform phức tạp. Tech stack hiện đại, patterns đúng chuẩn. Vấn đề chính là:
+Frontend Nexus đã ở mức **tốt** cho một dự án AI agent platform phức tạp. Tech stack hiện đại, patterns đúng chuẩn. Vấn đề chính là:
 
 1. **Một số file quá lớn** — cần refactor thành modules nhỏ hơn
 2. **Styling không nhất quán** — hardcoded colors vs design system

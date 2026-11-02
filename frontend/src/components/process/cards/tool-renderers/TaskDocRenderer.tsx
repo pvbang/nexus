@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - TaskDocRenderer
+// Nexus - TaskDocRenderer
 // Specialized renderer for task_doc_write, task_doc_read,
 // task_doc_edit, task_doc_search, task_doc_list, task_doc_delete
 //

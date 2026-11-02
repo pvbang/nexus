@@ -1,4 +1,4 @@
-"""MekongAI Nexus - Cron module."""
+"""Nexus - Cron module."""
 
 from app.cron.scheduler import CronJob, CronScheduler, get_cron_scheduler
 from app.cron.bounty_pr_monitor import BountyPRMonitor, get_bounty_pr_monitor

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Health Metrics & System Monitoring Tools.
+Nexus - Health Metrics & System Monitoring Tools.
 
 Provides tools for health checking, process monitoring, disk usage,
 port availability, latency measurement, and system resource snapshots.

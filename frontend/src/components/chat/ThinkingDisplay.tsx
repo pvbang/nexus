@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ThinkingDisplay
+// Nexus - ThinkingDisplay
 // Displays LLM reasoning/thinking content with 3 view modes:
 //   Hidden → Collapsed (default) → Expanded
 // ============================================================

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Multi-Engine Search Abstractions.
+Nexus - Multi-Engine Search Abstractions.
 
 Provides abstract SearchEngine base class and concrete implementations
 for multiple search providers. Each engine is optional — if API key is
@@ -179,7 +179,7 @@ class DuckDuckGoEngine(SearchEngine):
                 resp = await http.get(
                     "https://html.duckduckgo.com/html/",
                     params={"q": query},
-                    headers={"User-Agent": "MekongAI-Nexus/1.0"},
+                    headers={"User-Agent": "Nexus/1.0"},
                 )
                 results: list[SearchResult] = []
                 text = resp.text
@@ -614,7 +614,7 @@ class SemanticScholarEngine(SearchEngine):
                 resp = await http.get(
                     self._API_URL,
                     params=params,
-                    headers={"User-Agent": "MekongAI-Nexus/1.0"},
+                    headers={"User-Agent": "Nexus/1.0"},
                 )
                 resp.raise_for_status()
                 data = resp.json()
@@ -775,7 +775,7 @@ class WikipediaEngine(SearchEngine):
                 resp = await http.get(
                     api_url,
                     params=params,
-                    headers={"User-Agent": "MekongAI-Nexus/1.0 (search engine)"},
+                    headers={"User-Agent": "Nexus/1.0 (search engine)"},
                 )
                 resp.raise_for_status()
                 data = resp.json()
@@ -847,7 +847,7 @@ class WikidataEngine(SearchEngine):
                 resp = await http.get(
                     self._API_URL,
                     params=params,
-                    headers={"User-Agent": "MekongAI-Nexus/1.0 (search engine)"},
+                    headers={"User-Agent": "Nexus/1.0 (search engine)"},
                 )
                 resp.raise_for_status()
                 data = resp.json()
@@ -928,7 +928,7 @@ class PubMedEngine(SearchEngine):
                 resp = await http.get(
                     self._SEARCH_URL,
                     params=search_params,
-                    headers={"User-Agent": "MekongAI-Nexus/1.0"},
+                    headers={"User-Agent": "Nexus/1.0"},
                 )
                 resp.raise_for_status()
                 search_data = resp.json()
@@ -949,7 +949,7 @@ class PubMedEngine(SearchEngine):
                         "id": ",".join(id_list),
                         "retmode": "json",
                     },
-                    headers={"User-Agent": "MekongAI-Nexus/1.0"},
+                    headers={"User-Agent": "Nexus/1.0"},
                 )
                 resp.raise_for_status()
                 summary_data = resp.json()
@@ -1036,7 +1036,7 @@ class COREEngine(SearchEngine):
             year = year_map.get(date_filter, now_year - 5)
             params["q"] = f"{query} AND yearPublished>={year}"
 
-        headers: dict[str, str] = {"User-Agent": "MekongAI-Nexus/1.0"}
+        headers: dict[str, str] = {"User-Agent": "Nexus/1.0"}
         if self._api_key:
             headers["Authorization"] = f"Bearer {self._api_key}"
 
@@ -1139,7 +1139,7 @@ class GitHubSearchEngine(SearchEngine):
 
         headers: dict[str, str] = {
             "Accept": "application/vnd.github.v3+json",
-            "User-Agent": "MekongAI-Nexus/1.0",
+            "User-Agent": "Nexus/1.0",
         }
         if self._token:
             headers["Authorization"] = f"token {self._token}"
@@ -1279,7 +1279,7 @@ class NVDEngine(SearchEngine):
     ) -> list[SearchResult]:
         try:
             params: dict[str, Any] = {"keywordSearch": query, "resultsPerPage": max_results}
-            headers = {"User-Agent": "MekongAI-Nexus/1.0"}
+            headers = {"User-Agent": "Nexus/1.0"}
 
             # If query looks like a CVE ID, use exact search
             import re as _re

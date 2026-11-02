@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Enhanced Typing Indicator
+// Nexus - Enhanced Typing Indicator
 // Shows agent thinking/typing status with smooth animations
 // ============================================================
 

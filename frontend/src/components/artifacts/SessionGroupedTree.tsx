@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - SessionGroupedTree
+// Nexus - SessionGroupedTree
 // Displays artifacts in a hierarchical structure:
 // Session > Task > (Context Docs | Artifacts)
 // Uses GET /artifacts/grouped endpoint for data.

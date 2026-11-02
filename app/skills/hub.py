@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Skills Hub Marketplace.
+Nexus - Skills Hub Marketplace.
 
 Discover, install, manage, search, import/export skills.
 Uses SKILL.md format with YAML frontmatter for skill definitions.

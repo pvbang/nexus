@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - XSkill Continual Learning View
+// Nexus - XSkill Continual Learning View
 // Enhanced with UI primitives (Card, Badge, ProgressBar, Tabs,
 // Spinner, EmptyState, Skeleton) and usePolling hook
 // ============================================================

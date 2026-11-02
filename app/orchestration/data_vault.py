@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Data Vault.
+Nexus - Data Vault.
 
 FIX GAP-1 & GAP-3: Persistent key-value store for full artifacts across turns.
 

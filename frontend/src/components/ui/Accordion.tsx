@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Accordion UI Primitive
+// Nexus - Accordion UI Primitive
 // Expandable content sections with framer-motion height animation
 // ============================================================
 

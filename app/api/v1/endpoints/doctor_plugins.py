@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Doctor & Plugin API Endpoints.
+Nexus - Doctor & Plugin API Endpoints.
 """
 
 from fastapi import APIRouter, HTTPException

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Telegram Tools.
+Nexus - Telegram Tools.
 
 Real-world integration: send Telegram messages via a bot token.
 This helps bridge the "local/academic" gap for operational tasks.

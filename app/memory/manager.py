@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Memory Manager.
+Nexus - Memory Manager.
 
 Quản lý hệ thống ký ức đa tầng:
 - Short-term: conversation context (trong RAM)

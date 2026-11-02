@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - DebateView
+// Nexus - DebateView
 // Displays swarm debate rounds with proposals, rebuttals, verdict
 // ============================================================
 

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Analytics Dashboard
+// Nexus - Analytics Dashboard
 // Token usage charts, model breakdown, cost tracking
 // Pure SVG charts — no external chart libraries
 // ============================================================

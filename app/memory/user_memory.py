@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Persistent User Memory.
+Nexus - Persistent User Memory.
 
 Implements the USER.md pattern from Hermes-agent: persistent per-user memory
 that spans across all sessions. Stores user preferences, corrections,

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Execution event types
+// Nexus - Execution event types
 // Extracted from ExecutionTracePanel.tsx for shared usage
 // ============================================================
 

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Unified File Edit Tool.
+Nexus - Unified File Edit Tool.
 
 The single canonical tool for surgical text editing in files.
 Consolidates functionality from: edit_file, apply_edits, apply_diff,

@@ -1,4 +1,4 @@
-# MekongAI Nexus - Production Docker Compose
+# Nexus - Production Docker Compose
 # Chỉ dùng pulled image, KHÔNG build từ source
 #
 # Deploy: docker compose -f docker-compose.prod.yml pull && docker compose -f docker-compose.prod.yml up -d
@@ -9,7 +9,7 @@ services:
     container_name: nexus-postgres
     environment:
       POSTGRES_DB: mekongai_nexus
-      POSTGRES_USER: mekongai
+      POSTGRES_USER: nexus
       POSTGRES_PASSWORD: MekongAI2026
     ports:
       # Bind localhost only — tránh external services kết nối vào

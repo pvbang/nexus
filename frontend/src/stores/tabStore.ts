@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Tab Store (Zustand)
+// Nexus - Tab Store (Zustand)
 // Manages multi-tab chat sessions with tab bar state
 // ============================================================
 

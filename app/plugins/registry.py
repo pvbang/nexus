@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Plugin Registry & Loader (OpenClaw-inspired).
+Nexus - Plugin Registry & Loader (OpenClaw-inspired).
 
 Filesystem-based plugin discovery, manifest validation, and safe loading.
 """

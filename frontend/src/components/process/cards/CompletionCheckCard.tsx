@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - CompletionCheckCard
+// Nexus - CompletionCheckCard
 // Displays completion quality check results with dual progress
 // bars for quality and completeness, verdict badge, and missing items.
 // ============================================================

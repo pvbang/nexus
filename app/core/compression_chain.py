@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Context Compression Chain.
+Nexus - Context Compression Chain.
 
 Manages context compression for long conversations (Hermes-agent style).
 When a session's context approaches the model's token limit, the middle

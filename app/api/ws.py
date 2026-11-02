@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - WebSocket Handlers.
+Nexus - WebSocket Handlers.
 
 Real-time streaming cho chat, agent monitoring, và swarm observation.
 Supports both non-streaming (type: "chat") and streaming (type: "chat_stream") modes.

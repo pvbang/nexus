@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Plugin SDK Base Classes.
+Nexus - Plugin SDK Base Classes.
 
 Abstract base classes that plugins extend.
 """

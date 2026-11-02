@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Delegate Tool (Hermes-agent inspired).
+Nexus - Delegate Tool (Hermes-agent inspired).
 
 Allows the core agent to spawn isolated subagents for subtasks.
 Each subagent gets its own iteration budget, tool subset, and timeout.

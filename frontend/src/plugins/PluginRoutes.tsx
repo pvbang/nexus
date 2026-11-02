@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Plugin Dynamic Routes
+// Nexus - Plugin Dynamic Routes
 // Feature #10: Renders <Route> elements from registered plugins
 // ============================================================
 

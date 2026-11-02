@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Search Result Scoring.
+Nexus - Search Result Scoring.
 
 Score search results based on:
 - Freshness: How recent is the content?

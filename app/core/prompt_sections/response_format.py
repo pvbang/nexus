@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Response Format Section.
+Nexus - Response Format Section.
 
 Defines output format rules shared across agents.
 """

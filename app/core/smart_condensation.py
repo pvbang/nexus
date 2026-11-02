@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Smart Context Condensation.
+Nexus - Smart Context Condensation.
 
 Enhances context compression by preserving file structure information.
 When conversation history is condensed, this module:

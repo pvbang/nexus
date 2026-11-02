@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Terminal Panel
+// Nexus - Terminal Panel
 // Web terminal emulator with persistent session tracking.
 // Features: session-based cwd persistence, ANSI rendering,
 // command history, font size control, file/dir autocomplete,
@@ -178,7 +178,7 @@ export function TerminalPanel() {
   const [lines, setLines] = useState<TerminalLine[]>(() => [{
     id: generateId(),
     type: 'system',
-    text: '🖥️  MekongAI Nexus Terminal — Type a command and press Enter. Use ↑↓ for history. Tab for autocomplete.',
+    text: '🖥️  Nexus Terminal — Type a command and press Enter. Use ↑↓ for history. Tab for autocomplete.',
     timestamp: Date.now(),
   }])
   const [input, setInput] = useState('')

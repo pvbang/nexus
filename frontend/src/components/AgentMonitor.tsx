@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - AgentMonitor (Enhanced)
+// Nexus - AgentMonitor (Enhanced)
 // Split-view agent monitoring with search, filters, grid/list
 // toggle, AgentCard/AgentDetail sub-components, SpawnAgent,
 // real-time updates from realtimeStore, usePolling, dark mode

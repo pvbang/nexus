@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Activity Logger.
+Nexus - Activity Logger.
 
 Full fidelity logging - never lose information.
 

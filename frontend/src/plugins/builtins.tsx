@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Built-in Demo Plugins
+// Nexus - Built-in Demo Plugins
 // Feature #10: Registers demo plugins to prove the system works
 // ============================================================
 
@@ -138,7 +138,7 @@ const SYSTEM_INFO_PLUGIN: PluginManifest = {
   name: 'System Info',
   version: '1.0.0',
   description: 'Shows browser and environment information',
-  author: 'MekongAI',
+  author: 'Nexus',
   enabled: true,
   routes: [
     {
@@ -158,7 +158,7 @@ const CHAT_SHARE_PLUGIN: PluginManifest = {
   name: 'Chat Share',
   version: '1.0.0',
   description: 'Adds a share button to the chat toolbar',
-  author: 'MekongAI',
+  author: 'Nexus',
   enabled: true,
   routes: [],
   slots: [

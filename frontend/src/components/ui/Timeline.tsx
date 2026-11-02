@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Timeline UI Primitive
+// Nexus - Timeline UI Primitive
 // Vertical timeline with status-colored dots, icons, and timestamps
 // ============================================================
 

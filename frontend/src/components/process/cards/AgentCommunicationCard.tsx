@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - AgentCommunicationCard
+// Nexus - AgentCommunicationCard
 // Displays agent-to-agent communication messages inline
 // Now with markdown rendering for debate content.
 // ============================================================

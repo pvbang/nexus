@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - CodeViewer Component
+// Nexus - CodeViewer Component
 // Syntax-highlighted code display with line numbers
 // ============================================================
 

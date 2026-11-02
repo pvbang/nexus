@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Artifact Preview Store
+// Nexus - Artifact Preview Store
 // Lightweight cross-component communication for file preview
 // When a file link is clicked in chat, this triggers the
 // right panel Files tab to open and show that file.

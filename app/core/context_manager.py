@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Context Compressor (Hermes-agent inspired).
+Nexus - Context Compressor (Hermes-agent inspired).
 
 Advanced context window compression with:
 - Structured summary templates (Goal/Progress/Decisions/Questions)

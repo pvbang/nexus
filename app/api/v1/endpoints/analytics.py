@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Analytics API.
+Nexus - Analytics API.
 
 Token usage, cost tracking, model breakdown, and usage patterns.
 Queries conversation_messages table for aggregated analytics data.

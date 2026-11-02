@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Skill Executor.
+Nexus - Skill Executor.
 
 Apply skill context to agent execution — prepend system prompts,
 auto-detect matching skills, and validate tool requirements.

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Audit Log Tool.
+Nexus - Audit Log Tool.
 
 Provides agents with the ability to record audit transactions directly
 into ACTIVITY.md. Used by security/intelligence agents to create immutable

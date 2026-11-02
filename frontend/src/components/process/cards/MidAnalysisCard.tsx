@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - MidAnalysisCard
+// Nexus - MidAnalysisCard
 // Displays mid-execution checkpoint with strategy adjustments
 // and new insights discovered during processing.
 // ============================================================

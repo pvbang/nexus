@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Batch Runner (Hermes-agent inspired).
+Nexus - Batch Runner (Hermes-agent inspired).
 
 Process multiple prompts in parallel with checkpointing.
 Resume interrupted batches from the last checkpoint.

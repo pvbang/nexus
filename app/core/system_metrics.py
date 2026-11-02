@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Periodic System Metrics Emitter.
+Nexus - Periodic System Metrics Emitter.
 
 Emits CPU, memory, and active task/agent counts to the message bus
 so the frontend dashboard receives real-time system health data.

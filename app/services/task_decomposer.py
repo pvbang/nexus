@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Task Decomposer Service.
+Nexus - Task Decomposer Service.
 
 Phân tích task phức tạp thành các subtasks nhỏ hơn,
 xác định dependencies và thứ tự thực thi.

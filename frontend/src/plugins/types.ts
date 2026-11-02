@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Plugin UI Type Definitions
+// Nexus - Plugin UI Type Definitions
 // Feature #10: Dynamic Route/Tab Injection
 // ============================================================
 

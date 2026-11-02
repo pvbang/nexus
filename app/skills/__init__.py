@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Skills Hub (Hermes-agent inspired).
+Nexus - Skills Hub (Hermes-agent inspired).
 
 Self-improving skills system with:
 - YAML frontmatter metadata (name, description, platforms, config)

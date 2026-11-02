@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Surgical Document Editor.
+Nexus - Surgical Document Editor.
 
 Provides diff-based editing capabilities for task context documents,
 inspired by Roo-code's apply_diff pattern:

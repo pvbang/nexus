@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Email Diagnostics Tools.
+Nexus - Email Diagnostics Tools.
 
 Used to verify IMAP/SMTP connectivity with current env settings without
 actually sending an email or downloading full mailbox bodies.

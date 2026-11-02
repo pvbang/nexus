@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Bounty Pipeline Tools.
+Nexus - Bounty Pipeline Tools.
 
 Complete toolset for autonomous bounty hunting with strict verification gates:
 - Scout: search_bounties, github_browse_bounties

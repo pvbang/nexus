@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ChatToolbar
+// Nexus - ChatToolbar
 // Compact toolbar above chat input for profile, model, reasoning
 // Batch 7: Added ExportDialog trigger
 // ============================================================

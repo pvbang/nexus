@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Knowledge Entity Extractor (Enhanced).
+Nexus - Knowledge Entity Extractor (Enhanced).
 
 Extracts entities and relationships from task results using LLM,
 then stores them in the knowledge graph (knowledge_nodes + knowledge_edges).

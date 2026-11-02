@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Project Builder API Endpoints.
+Nexus - Project Builder API Endpoints.
 
 REST API for project building pipeline.
 """

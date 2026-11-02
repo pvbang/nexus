@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - OpenClaw Connection Configuration.
+Nexus - OpenClaw Connection Configuration.
 """
 
 from __future__ import annotations

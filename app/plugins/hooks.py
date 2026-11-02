@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Plugin Hook System (OpenClaw-inspired, Enhanced).
+Nexus - Plugin Hook System (OpenClaw-inspired, Enhanced).
 
 Event-driven hook system allowing plugins to intercept and modify behavior
 at every stage of the agent lifecycle.

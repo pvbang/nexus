@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Process Cards barrel export
+// Nexus - Process Cards barrel export
 // ============================================================
 
 export { PlanningCard } from './PlanningCard'

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - AudioViewer Component
+// Nexus - AudioViewer Component
 // Native HTML5 audio player with streaming support
 // ============================================================
 

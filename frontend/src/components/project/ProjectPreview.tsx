@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ProjectPreview
+// Nexus - ProjectPreview
 // iframe sandbox for live preview with responsive toolbar
 // ============================================================
 

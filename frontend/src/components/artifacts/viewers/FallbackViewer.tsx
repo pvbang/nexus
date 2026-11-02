@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - FallbackViewer Component
+// Nexus - FallbackViewer Component
 // Shows file info and download button for unsupported file types
 // ============================================================
 

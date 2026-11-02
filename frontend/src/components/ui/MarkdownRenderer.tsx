@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - MarkdownRenderer UI Primitive
+// Nexus - MarkdownRenderer UI Primitive
 // Shared markdown rendering with react-markdown, remarkGfm, rehypeHighlight
 // Extracted from ChatPanel.tsx for reuse across chat, tasks, artifacts, etc.
 // ============================================================

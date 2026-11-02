@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Themes Barrel Export (Feature #7)
+// Nexus - Themes Barrel Export (Feature #7)
 // ============================================================
 
 export type { ThemePreset, ThemeColors, ThemePresetConfig, AccentSwatch } from './presets'

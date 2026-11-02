@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Goal Compliance Checker.
+Nexus - Goal Compliance Checker.
 
 FIX GAP-2: Hard enforcement against goal drift.
 

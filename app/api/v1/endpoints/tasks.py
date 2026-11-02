@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Task Endpoints.
+Nexus - Task Endpoints.
 
 Includes tree search planning endpoints for complex task decomposition,
 ReACT report generation endpoint, task event replay, and task cancellation.

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Task Recovery Prompt
+// Nexus - Task Recovery Prompt
 // Shows notification when a task crashed, with retry button
 // ============================================================
 

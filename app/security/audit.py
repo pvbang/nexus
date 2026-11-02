@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Security Audit Framework (OpenClaw-inspired).
+Nexus - Security Audit Framework (OpenClaw-inspired).
 
 Comprehensive security scanning with multi-module architecture.
 

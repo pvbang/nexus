@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - GitHub Automation Tools.
+Nexus - GitHub Automation Tools.
 
 Enables agents to interact with GitHub: fork repos, create PRs,
 browse issues/bounties, and manage repositories autonomously.

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Task Progress Panel (Right sidebar)
+// Nexus - Task Progress Panel (Right sidebar)
 // v2: Newest first, expandable detail, JSON/Markdown renderer
 // ============================================================
 

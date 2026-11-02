@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Main router component with Suspense wrapper
+// Nexus - Main router component with Suspense wrapper
 // ============================================================
 
 import { Suspense } from 'react'

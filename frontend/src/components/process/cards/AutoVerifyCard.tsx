@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - AutoVerifyCard
+// Nexus - AutoVerifyCard
 // Displays tool output verification results with pass/fail/warning
 // status, issues, and fix suggestions.
 // ============================================================

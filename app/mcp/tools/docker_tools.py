@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Docker Management Tools.
+Nexus - Docker Management Tools.
 
 Tools for creating, managing, and interacting with Docker containers and
 Docker Compose environments. Essential for:
@@ -163,7 +163,7 @@ async def handle_docker_build(params: dict[str, Any], **kwargs: Any) -> dict[str
     Supports custom tags, build args, and context paths.
     """
     dockerfile = params.get("dockerfile", "Dockerfile")
-    tag = params.get("tag", "mekongai-lab:latest")
+    tag = params.get("tag", "nexus-lab:latest")
     context = params.get("context", ".")
     build_args = params.get("build_args", {})
     no_cache = params.get("no_cache", False)
@@ -493,7 +493,7 @@ registry.register(
             "type": "object",
             "properties": {
                 "dockerfile": {"type": "string", "description": "Path to Dockerfile", "default": "Dockerfile"},
-                "tag": {"type": "string", "description": "Image tag (name:version)", "default": "mekongai-lab:latest"},
+                "tag": {"type": "string", "description": "Image tag (name:version)", "default": "nexus-lab:latest"},
                 "context": {"type": "string", "description": "Build context directory", "default": "."},
                 "build_args": {"type": "object", "description": "Build arguments (key=value pairs)"},
                 "no_cache": {"type": "boolean", "description": "Build without cache", "default": False},

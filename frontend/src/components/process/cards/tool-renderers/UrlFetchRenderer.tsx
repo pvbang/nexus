@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - UrlFetchRenderer
+// Nexus - UrlFetchRenderer
 // Specialized renderer for fetch_url, browse_webpage, http_request
 // Shows URL badge + response preview + content excerpt
 // ============================================================

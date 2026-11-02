@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - API v1 Router.
+Nexus - API v1 Router.
 
 Tổng hợp tất cả API endpoints.
 

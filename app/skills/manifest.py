@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Skill Manifest Schema.
+Nexus - Skill Manifest Schema.
 
 Defines SkillManifest dataclass for describing a single skill
 in the Skills Hub marketplace. Compatible with SKILL.md frontmatter format.

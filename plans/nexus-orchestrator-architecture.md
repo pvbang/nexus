@@ -1,4 +1,4 @@
-# Thiết Kế Lại Kiến Trúc Thực Thi Hệ Thống MekongAI Nexus
+# Thiết Kế Lại Kiến Trúc Thực Thi Hệ Thống Nexus
 
 ## 1. Tổng Quan Vấn Đề Hiện Tại
 

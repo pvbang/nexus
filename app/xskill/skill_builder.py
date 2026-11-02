@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - XSkill Skill Builder.
+Nexus - XSkill Skill Builder.
 
 Đúc kết Skills (task-level workflows) từ các task hoàn thành.
 Skills = chuỗi các bước + tool phối hợp đã chứng minh hiệu quả.

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Self-Reflection Engine.
+Nexus - Self-Reflection Engine.
 
 Checkpoint mechanism that forces agents to PAUSE and evaluate their own work
 during execution, not just after.

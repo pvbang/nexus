@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Structured Action Logger.
+Nexus - Structured Action Logger.
 
 JSONL-based audit trail for agent actions, tool calls, swarm rounds,
 and system events.

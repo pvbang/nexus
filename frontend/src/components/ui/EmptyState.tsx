@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - EmptyState UI Primitive
+// Nexus - EmptyState UI Primitive
 // Consistent empty state with icon, title, description, and CTA
 // ============================================================
 

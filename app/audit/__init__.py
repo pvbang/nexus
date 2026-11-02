@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Session Audit Logger.
+Nexus - Session Audit Logger.
 
 Inspired by Shannon's WorkflowLogger — crash-safe, append-only, human-readable
 log file per session. Optimized for `tail -f` viewing.
@@ -95,7 +95,7 @@ class SessionAuditLogger(AuditWriter):
 
         header = (
             "=" * 80 + "\n"
-            f"MekongAI Nexus - Session Audit Log\n"
+            f"Nexus - Session Audit Log\n"
             "=" * 80 + "\n"
             f"Session ID:  {self.session_id}\n"
             f"User ID:     {self.user_id or 'anonymous'}\n"

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Iteration Controller.
+Nexus - Iteration Controller.
 
 Quản lý vòng lặp iterative refinement:
 Build → Test → Fix → Preview → Evaluate → (loop or done)

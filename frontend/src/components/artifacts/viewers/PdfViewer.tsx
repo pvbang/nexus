@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - PdfViewer Component
+// Nexus - PdfViewer Component
 // PDF rendering with react-pdf, page navigation, and zoom controls
 // ============================================================
 

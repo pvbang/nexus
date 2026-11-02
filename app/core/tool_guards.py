@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Tool Execution Guards.
+Nexus - Tool Execution Guards.
 
 Inspired by Roo-Code's ToolRepetitionDetector and consecutive mistake tracking.
 Provides safety mechanisms to detect and handle:
@@ -137,7 +137,7 @@ class ConsecutiveMistakeTracker:
 
     When an agent keeps making mistakes without progress, this tracker
     detects it and recommends corrective action. Unlike hard-stopping,
-    it triggers strategy adaptation (matching MekongAI's "never give up" philosophy).
+    it triggers strategy adaptation (matching Nexus's "never give up" philosophy).
 
     Inspired by Roo-Code's consecutiveMistakeCount pattern.
     """

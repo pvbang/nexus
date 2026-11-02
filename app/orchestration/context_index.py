@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Context Index.
+Nexus - Context Index.
 
 Human-readable index auto-maintained alongside LEDGER.jsonl.
 Provides a quick overview that agents can scan in O(1) to know

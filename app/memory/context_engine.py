@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Context Engine (OpenClaw-inspired).
+Nexus - Context Engine (OpenClaw-inspired).
 
 Token-budget-aware context assembly and compaction.
 

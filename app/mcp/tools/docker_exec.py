@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Docker Execution Tool (Tier 1).
+Nexus - Docker Execution Tool (Tier 1).
 
 Allows agents to execute commands in pre-built Docker containers
 with security tools (jadx, apktool, nuclei, frida-tools, nmap, etc).

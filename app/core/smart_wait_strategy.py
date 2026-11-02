@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Smart Wait Strategy.
+Nexus - Smart Wait Strategy.
 
 When a preferred provider (like Kilo) hits rate limit, intelligently decide:
   - WAIT for preferred provider to reset (for hard tasks)

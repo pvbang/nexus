@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Coding Engine.
+Nexus - Coding Engine.
 
 Lấy cảm hứng từ Roo Code: tự động sinh code, tool mới,
 MCP server on-the-fly khi hệ thống thiếu capability.

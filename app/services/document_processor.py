@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Document Processor.
+Nexus - Document Processor.
 
 Sử dụng MarkItDown để chuyển đổi đa dạng tài liệu (PDF, DOCX, PPTX,
 XLSX, images, HTML, CSV, JSON, ZIP...) sang Markdown text để agents

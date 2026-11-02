@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Session State & Event Replay API.
+Nexus - Session State & Event Replay API.
 
 Layer 2 & 3 of the Session Persistence fix:
 - GET /sessions/{session_id}/state  → Current session state (is task running? what step?)

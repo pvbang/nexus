@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Task Cancellation & Session Interrupt Support.
+Nexus - Task Cancellation & Session Interrupt Support.
 
 Provides:
 1. CancellationToken - cooperative cancellation for long-running tasks

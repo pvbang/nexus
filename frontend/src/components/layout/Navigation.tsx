@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Top navigation bar component
+// Nexus - Top navigation bar component
 // Includes desktop nav, "More" dropdown, mobile menu, offline banner
 // ============================================================
 
@@ -202,7 +202,7 @@ export function Navigation({ systemOnline, isOffline, retryConnection }: Navigat
               </div>
               <div className="hidden sm:block">
                 <h1 className="text-[15px] font-semibold text-text-dark dark:text-text-heading tracking-[-0.01em] leading-none">
-                  MekongAI
+                  Nexus
                 </h1>
                 <p className="text-[11px] text-text-muted leading-none mt-[3px] font-medium tracking-wide uppercase">
                   Nexus

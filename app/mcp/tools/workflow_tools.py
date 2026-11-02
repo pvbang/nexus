@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Multi-step Workflow Execution Tools.
+Nexus - Multi-step Workflow Execution Tools.
 
 Provides tools for defining and executing automated multi-step workflows
 with dependency graph resolution, parallel execution, and variable substitution.

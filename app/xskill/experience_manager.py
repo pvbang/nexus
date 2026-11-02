@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - XSkill Experience Manager.
+Nexus - XSkill Experience Manager.
 
 Quản lý lifecycle của Experiences:
 - Tạo mới từ trajectory analysis

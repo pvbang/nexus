@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Conversation Context Manager.
+Nexus - Conversation Context Manager.
 
 Lấy cảm hứng từ claude-mem: ghi nhớ lịch sử hội thoại, nén context cũ,
 inject vào mỗi lượt trả lời để agent hiểu liên tục yêu cầu của user.

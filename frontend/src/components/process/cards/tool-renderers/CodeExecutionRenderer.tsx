@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - CodeExecutionRenderer
+// Nexus - CodeExecutionRenderer
 // Specialized renderer for execute_code / execute_command tools
 // Shows code input with syntax highlighting + terminal output
 // ============================================================

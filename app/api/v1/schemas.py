@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Pydantic Schemas (API Request/Response).
+Nexus - Pydantic Schemas (API Request/Response).
 """
 
 from datetime import datetime

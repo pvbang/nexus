@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - TabBar Component
+// Nexus - TabBar Component
 // Multi-tab chat management with context menu, drag reorder
 // ============================================================
 

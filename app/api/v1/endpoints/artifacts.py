@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Artifacts Endpoints.
+Nexus - Artifacts Endpoints.
 
 Quản lý kết quả thực thi: files, reports, code output
 mà agents tạo ra trong workspace.

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Realtime Store (Zustand)
+// Nexus - Realtime Store (Zustand)
 // Manages WebSocket connection state and live event data
 // ============================================================
 

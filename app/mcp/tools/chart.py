@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Chart Generation Tool.
+Nexus - Chart Generation Tool.
 
 Generate charts/graphs from data using matplotlib.
 Self-registers with the tool registry at import time.

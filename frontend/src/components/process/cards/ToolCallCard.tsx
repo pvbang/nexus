@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ToolCallCard
+// Nexus - ToolCallCard
 // Inline chat card showing tool execution with expandable details
 // Enhanced: full output rendering with format detection,
 // copy button, and fullscreen modal via ToolOutputRenderer.

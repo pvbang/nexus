@@ -1,6 +1,6 @@
 """Lightweight, dependency-free tracing — trace_id correlation + spans.
 
-mekongai already exposes Prometheus metrics and propagates session/task/agent
+nexus already exposes Prometheus metrics and propagates session/task/agent
 via contextvars, but had no way to correlate a single run's work into a trace
 of timed spans (the observability gap flagged in the 2026-06 audit).
 

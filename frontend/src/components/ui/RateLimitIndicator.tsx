@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Rate Limit Indicator
+// Nexus - Rate Limit Indicator
 // Shows remaining API rate limit in the status bar
 // ============================================================
 

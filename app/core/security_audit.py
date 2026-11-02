@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Security Audit + Credential Leak Detection.
+Nexus - Security Audit + Credential Leak Detection.
 
 Deep security scanning for config, sandbox, tools, and channel surfaces.
 Credential leak detection for tool outputs (IronClaw-inspired).

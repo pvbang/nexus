@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Cron Manager Admin View
+// Nexus - Cron Manager Admin View
 // Cron job management with create, list, and delete
 // ============================================================
 

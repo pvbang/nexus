@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Session Store (Zustand)
+// Nexus - Session Store (Zustand)
 //
 // Architecture (May 2026):
 // - Messages loaded from DB (authoritative source)

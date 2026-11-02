@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - TaskEventsReplay Component
+// Nexus - TaskEventsReplay Component
 // Task events replay panel showing execution events timeline
 // ============================================================
 

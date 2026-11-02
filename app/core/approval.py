@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Exec Approval Workflow (OpenClaw-inspired).
+Nexus - Exec Approval Workflow (OpenClaw-inspired).
 
 Human-in-the-loop approval system for dangerous tool executions.
 

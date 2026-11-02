@@ -1,10 +1,10 @@
 """
-MekongAI Nexus - Error Classifier (Hermes-agent level).
+Nexus - Error Classifier (Hermes-agent level).
 
 Structured taxonomy of API errors with recovery recommendations.
 Full pipeline: provider-specific → status code → error code → message pattern → transport → fallback.
 
-Ported from: hermes-agent/agent/error_classifier.py with MekongAI adaptations.
+Ported from: hermes-agent/agent/error_classifier.py with Nexus adaptations.
 """
 
 from __future__ import annotations

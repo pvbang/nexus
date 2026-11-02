@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Ontology Auto-Generation from Documents.
+Nexus - Ontology Auto-Generation from Documents.
 
 Pattern từ MiroFish: ontology_generator.py
 Khi user uploads documents, LLM auto-generates optimal KG schema

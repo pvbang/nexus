@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - MultiTaskDashboard
+// Nexus - MultiTaskDashboard
 // Dashboard for multiple concurrent tasks with tabs/accordion
 // ============================================================
 

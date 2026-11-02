@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ReportGenerator Component
+// Nexus - ReportGenerator Component
 // UI for generating reports via POST /api/v1/tasks/report
 // ============================================================
 

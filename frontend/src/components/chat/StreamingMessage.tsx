@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - StreamingMessage
+// Nexus - StreamingMessage
 // Real-time streaming response display with animated cursor
 // Extracted from ChatPanel.tsx lines 1089-1110
 // ============================================================
@@ -73,7 +73,7 @@ export function StreamingMessage({ content, isActive }: StreamingMessageProps) {
             <Sparkles className="w-3 h-3 text-white" />
           </div>
           <span className="text-[11px] font-semibold text-text-muted dark:text-gray-500 uppercase tracking-wider">
-            MekongAI
+            Nexus
           </span>
           {/* Streaming badge */}
           <span className="ml-auto flex items-center gap-1 text-[10px] text-emerald-600 dark:text-emerald-400 font-medium">

@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Parallel Tool Execution (Hermes-agent inspired).
+Nexus - Parallel Tool Execution (Hermes-agent inspired).
 
 Execute multiple tool calls concurrently using asyncio.gather().
 Respects per-tool concurrency policies and iteration budgets.

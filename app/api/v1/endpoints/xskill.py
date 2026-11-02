@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - XSkill Endpoints (Continual Learning).
+Nexus - XSkill Endpoints (Continual Learning).
 
 Endpoints:
 - GET  /stats           — Thống kê knowledge base

@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - FileViewer Orchestrator
+// Nexus - FileViewer Orchestrator
 // Routes file paths to appropriate viewer based on FileMeta preview_type.
 // Heavy viewers (PDF, DOCX) are lazy-loaded via React.lazy().
 // ============================================================

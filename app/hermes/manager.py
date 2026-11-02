@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Hermes Agent Process Manager.
+Nexus - Hermes Agent Process Manager.
 
 Manages the Hermes Agent subprocess lifecycle:
 - Start/stop/restart
@@ -37,7 +37,7 @@ class HermesProcessManager:
     """
     Manages the Hermes Agent as a subprocess.
 
-    Hermes runs as an MCP server (mcp_serve.py) that MekongAI connects to
+    Hermes runs as an MCP server (mcp_serve.py) that Nexus connects to
     via stdio or HTTP transport.
 
     Lifecycle:

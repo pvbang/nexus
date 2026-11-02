@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - Terminal Endpoint with Persistent Session Tracking.
+Nexus - Terminal Endpoint with Persistent Session Tracking.
 
 Provides shell command execution with:
 - Session-based working directory persistence (cd tracking)

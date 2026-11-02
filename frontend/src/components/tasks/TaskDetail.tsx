@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Enhanced TaskDetail Component
+// Nexus - Enhanced TaskDetail Component
 // Task detail page with tabs: Overview, Events, Subtasks, Graph
 // ============================================================
 

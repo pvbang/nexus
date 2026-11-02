@@ -1,5 +1,5 @@
 """
-MekongAI Nexus - LLM Client Service (Multi-Provider) with Retry & Failover.
+Nexus - LLM Client Service (Multi-Provider) with Retry & Failover.
 
 Hỗ trợ providers:
 - bedrock:  AWS Bedrock (Claude, Llama, Titan)
@@ -230,8 +230,8 @@ def _create_client_for_provider(
             api_key=resolved_key,
             base_url=base_url or "https://openrouter.ai/api/v1",
             default_headers={
-                "HTTP-Referer": "https://mekongai-nexus.local",
-                "X-Title": "MekongAI Nexus",
+                "HTTP-Referer": "https://nexus.local",
+                "X-Title": "Nexus",
             },
         )
         return client, model

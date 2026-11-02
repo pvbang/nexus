@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - StagePipeline
+// Nexus - StagePipeline
 // Horizontal stepper showing all 8 orchestration stages
 // ============================================================
 

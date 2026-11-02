@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - Process Store (Zustand)
+// Nexus - Process Store (Zustand)
 // Tracks real-time orchestration state for transparency UI
 // Supports multiple concurrent tasks with focused-task pattern
 // ============================================================

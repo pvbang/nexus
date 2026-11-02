@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - ChatMessageList
+// Nexus - ChatMessageList
 // Virtualized message list with scroll management.
 // Extracted from ChatPanel for performance isolation.
 // Uses VirtualMessageList (tanstack/react-virtual) for large lists.

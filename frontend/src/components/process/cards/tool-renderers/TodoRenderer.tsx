@@ -1,5 +1,5 @@
 // ============================================================
-// MekongAI Nexus - TodoRenderer
+// Nexus - TodoRenderer
 // Specialized renderer for add_todo, update_todo, complete_todo
 // Shows checklist UI with status indicators
 // ============================================================
